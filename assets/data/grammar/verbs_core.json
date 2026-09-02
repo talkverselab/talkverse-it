@@ -1,0 +1,6 @@
+{
+  "version": "v1-2026-09-02",
+  "description": "핵심 동사 — 이탈리아어 콘텐츠 준비 중. persons = [io, tu, lui/lei, noi, voi, loro]",
+  "persons": ["io", "tu", "lui/lei", "noi", "voi", "loro"],
+  "verbs": []
+}

@@ -1,0 +1,18 @@
+{
+  "level": "L1",
+  "variety": "it_IT",
+  "version": "v1-2026-09-02",
+  "schema": "v1-L1-5ep40turn",
+  "title": "L1 — 매칭 narrative (콘텐츠 준비 중)",
+  "description": "이탈리아어 L1 대화 콘텐츠는 아직 준비 중입니다.",
+  "kpi": {
+    "episodes_target": 5,
+    "turns_per_episode": 40,
+    "turns_total_target": 200,
+    "turns_total_current": 0,
+    "progress_pct": 0.0
+  },
+  "characters": {},
+  "function_words": [],
+  "episodes": []
+}
