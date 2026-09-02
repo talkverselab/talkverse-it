@@ -1,0 +1,4767 @@
+{
+ "_meta": "co-Trip 여행 이탈리아어 — 주제별 표현",
+ "themes": [
+  {
+   "id": "basics",
+   "title": "필수 표현",
+   "emoji": "💬",
+   "sections": [
+    {
+     "title": "여행에서 자주 쓰이는 문구 — 인사",
+     "words": [
+      {
+       "ko": "안녕하세요!(아침)",
+       "tx": "Buongiorno!",
+       "rd": "본죠르노!"
+      },
+      {
+       "ko": "안녕히 계세요",
+       "tx": "Arrivederci.",
+       "rd": "아리베데르치"
+      },
+      {
+       "ko": "안녕하세요(점심)",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노!"
+      },
+      {
+       "ko": "안녕하세요(오후-3시 이후)",
+       "tx": "Buonasera.",
+       "rd": "부오나세라"
+      },
+      {
+       "ko": "좋은 저녁이예요!",
+       "tx": "Buonanotte!",
+       "rd": "부오나놋떼!"
+      },
+      {
+       "ko": "감사합니다!",
+       "tx": "Grazie!",
+       "rd": "그라찌에!"
+      },
+      {
+       "ko": "실례합니다.",
+       "tx": "Mi scusi.",
+       "rd": "미 스쿠지"
+      }
+     ]
+    },
+    {
+     "title": "여행에서 자주 쓰이는 문구 — 감탄",
+     "words": [
+      {
+       "ko": "맛있다!",
+       "tx": "Buono!",
+       "rd": "부오노!"
+      },
+      {
+       "ko": "멋지다!",
+       "tx": "Bravo!",
+       "rd": "브라보!"
+      },
+      {
+       "ko": "귀엽다!",
+       "tx": "Carino!",
+       "rd": "까리노!"
+      }
+     ]
+    },
+    {
+     "title": "여행에서 자주 쓰이는 문구 — 대답",
+     "words": [
+      {
+       "ko": "네/ 아니오",
+       "tx": "Sì. / No.",
+       "rd": "씨 / 노"
+      },
+      {
+       "ko": "알겠습니다",
+       "tx": "Ho capito.",
+       "rd": "오 카피토"
+      },
+      {
+       "ko": "이해를 못했습니다",
+       "tx": "Non ho capito.",
+       "rd": "논 오 카피토"
+      }
+     ]
+    },
+    {
+     "title": "여행에서 자주 쓰이는 문구 — 필요한 한마디",
+     "words": [
+      {
+       "ko": "제 사진을 한 장 찍어주시겠어요?",
+       "tx": "Mi può fare una fotografia, per favore.",
+       "rd": "미 푸오 파레 우나 포토그라피아 뻬르 파보레"
+      },
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, per favore.",
+       "rd": "뻬르 파보레"
+      },
+      {
+       "ko": "얼마예요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스따?"
+      },
+      {
+       "ko": "화장실이 어디입니까?",
+       "tx": "Dov'è il bagno?",
+       "rd": "도베 일 반뇨?"
+      }
+     ]
+    },
+    {
+     "title": "자, 이제 시작해 봅시다. (인트로 예문)",
+     "words": [
+      {
+       "ko": "추천 메뉴는 무엇인가요?",
+       "tx": "Che cosa mi consiglia?",
+       "rd": "께 꼬자 미 콘씰리아"
+      },
+      {
+       "ko": "콜로세움이 어디입니까?",
+       "tx": "Dov'è il Colosseo?",
+       "rd": "도베 일 콜로쎄오"
+      },
+      {
+       "ko": "마르게리타 피자 하나 주세요.",
+       "tx": "Vorrei una pizza Margherita.",
+       "rd": "보레이 우나 피짜 마르게리타"
+      },
+      {
+       "ko": "어떤 것이 인기 있나요?",
+       "tx": "Qual'è più di successo?",
+       "rd": "꽐레 퓨 디 숫체쏘"
+      }
+     ]
+    },
+    {
+     "title": "HOW TO 이탈리아어 (사용법 예문)",
+     "words": [
+      {
+       "ko": "콜로세움에 가고 싶습니다.",
+       "tx": "Vorrei andare al Colosseo.",
+       "rd": "보레이 안다레 알 콜로쎄오"
+      },
+      {
+       "ko": "백화점이 어디입니까?",
+       "tx": "Dove c'è un grande magazzino?",
+       "rd": "도베 체 운 그란데 마가찌노?"
+      },
+      {
+       "ko": "우회전하면 당신의 왼쪽에 있을 거예요.",
+       "tx": "Giri a destra, e poi lo trova alla Sua sinistra.",
+       "rd": "지리 아 데스트라, 에 뽀이 로 트로바 알라 수아 씨니스트라"
+      },
+      {
+       "ko": "한국어 메뉴판이 있나요?",
+       "tx": "Avete un menù in coreano?",
+       "rd": "아베떼 운 메누 인 꼬레아노?"
+      },
+      {
+       "ko": "안녕하세요",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      },
+      {
+       "ko": "몇 분이세요?",
+       "tx": "Quanti siete?",
+       "rd": "꾸안티 씨에떼?"
+      },
+      {
+       "ko": "설탕이 빠진 것도 있나요?",
+       "tx": "Avete qualcosa con meno zucchero?",
+       "rd": "아베떼 콸꼬자 꼰 메노 주케로?"
+      },
+      {
+       "ko": "비스킷을 원하시나요?",
+       "tx": "Vuole dei biscotti?",
+       "rd": "부올레 데이 비스코띠?"
+      }
+     ]
+    },
+    {
+     "title": "먼저 인사부터 시작해 봅시다.",
+     "words": [
+      {
+       "ko": "안녕하세요(아침). / 안녕하세요(점심). / 안녕하세요(저녁).",
+       "tx": "Buongiorno. / Buongiorno. / Buonasera.",
+       "rd": "본죠르노 / 본죠르노 / 부오나세라"
+      },
+      {
+       "ko": "안녕히 계세요. / 안녕.",
+       "tx": "Arrivederci. / Ciao.",
+       "rd": "아리베데르치 / 챠오"
+      },
+      {
+       "ko": "네. / 아니오.",
+       "tx": "Sì. / No.",
+       "rd": "씨 / 노"
+      },
+      {
+       "ko": "좋은 하루 되세요.",
+       "tx": "Buona giornata.",
+       "rd": "부오나 죠르나타"
+      },
+      {
+       "ko": "감사합니다.",
+       "tx": "Grazie.",
+       "rd": "그라찌에"
+      },
+      {
+       "ko": "천만에요.",
+       "tx": "Prego.",
+       "rd": "프레고"
+      },
+      {
+       "ko": "또 봐요! / 내일 봐요!",
+       "tx": "A presto! / A domani!",
+       "rd": "아 프레스토! / 아 도마니!"
+      },
+      {
+       "ko": "만나서 반갑습니다, 제 이름은 김미나입니다.",
+       "tx": "Piacere, sono Mina Kim.",
+       "rd": "피아체레 소노 미나 김"
+      },
+      {
+       "ko": "만나서 반가워요.",
+       "tx": "Sono molto lieto di conoscerLa.",
+       "rd": "쏘노 몰또 리에토 디 꼬노셰를라"
+      },
+      {
+       "ko": "당신은 한국에서 오셨습니까?",
+       "tx": "È dal Corea?",
+       "rd": "에 달 꼬레아?"
+      },
+      {
+       "ko": "네, 서울에서 왔습니다.",
+       "tx": "Sì, vengo da Seul.",
+       "rd": "씨 벤고 다 세울"
+      },
+      {
+       "ko": "실례합니다.",
+       "tx": "Mi scusi.",
+       "rd": "미 스쿠지"
+      },
+      {
+       "ko": "네, 무슨 일이세요?",
+       "tx": "Come?",
+       "rd": "꼬메?"
+      }
+     ]
+    },
+    {
+     "title": "알아 두면 편리한 문장들을 모아 봤어요.",
+     "words": [
+      {
+       "ko": "시간이 얼마나 걸리나요?",
+       "tx": "Quanto tempo ci vuole?",
+       "rd": "꽌또 템포 치 부올레?"
+      },
+      {
+       "ko": "얼마입니까?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 꼬스타?"
+      },
+      {
+       "ko": "네, 부탁드려요. / 아니요, 괜찮아요.",
+       "tx": "Sì, prego. / No, grazie.",
+       "rd": "씨 프레고 / 노 그라찌에"
+      },
+      {
+       "ko": "이것은 무엇입니까?",
+       "tx": "Cos'è questo?",
+       "rd": "꼬제 꿰스또?"
+      },
+      {
+       "ko": "이해하지 못했습니다.",
+       "tx": "Non ho capito.",
+       "rd": "논 오 까피또"
+      },
+      {
+       "ko": "모르겠습니다.",
+       "tx": "Non lo so.",
+       "rd": "논 로 소"
+      },
+      {
+       "ko": "다시 한번 말씀해 주시겠습니까?",
+       "tx": "Può ripetere, per favore?",
+       "rd": "푸오 리페떼레 페르 파보레?"
+      },
+      {
+       "ko": "조금만 천천히 말씀해 주시겠어요?",
+       "tx": "Può parlare più lentamente, per favore?",
+       "rd": "푸오 파를라레 퓨 렌타멘테 페르 파보레?"
+      },
+      {
+       "ko": "말씀하신 것을 이 종이에 써 주실 수 있나요?",
+       "tx": "Può scrivere quello che ha detto?",
+       "rd": "푸오 스크리베레 꿸로 께 아 데또?"
+      },
+      {
+       "ko": "한국어[영어]를 할 수 있는 사람이 있나요?",
+       "tx": "C'è qualcuno che parla coreano[Inglese]?",
+       "rd": "체 꽐꾸노 께 빠를라 꼬레아노[잉글레제]?"
+      },
+      {
+       "ko": "아주 좋습니다. / 나쁘지 않아요.",
+       "tx": "È molto buono. / Non c'è male.",
+       "rd": "에 몰또 부오노 / 논 체 말레"
+      },
+      {
+       "ko": "당연하죠. / OK.",
+       "tx": "Certo. / OK.",
+       "rd": "체르또 / 오케이"
+      },
+      {
+       "ko": "아니요.",
+       "tx": "No.",
+       "rd": "노"
+      },
+      {
+       "ko": "저요? / 당신이요?",
+       "tx": "Io? / Lei?",
+       "rd": "이오? / 레이?"
+      },
+      {
+       "ko": "죄송합니다.",
+       "tx": "Mi dispiace.",
+       "rd": "미 디스피아체"
+      },
+      {
+       "ko": "이것으로 부탁드립니다.",
+       "tx": "Questo, per favore.",
+       "rd": "꿰스또 페르 파보레"
+      },
+      {
+       "ko": "언제? / 누구? / 어디서? / 왜?",
+       "tx": "Quando? / Chi? / Dove? / Perché?",
+       "rd": "꽌도? / 끼? / 도베? / 페르께?"
+      }
+     ]
+    },
+    {
+     "title": "칼럼: 현지인에게 내 마음을 전달해 봅시다. (이탈리아의 말씨)",
+     "words": [
+      {
+       "ko": "안녕!",
+       "tx": "Ciao!",
+       "rd": "챠오"
+      },
+      {
+       "ko": "정말 맛있다!",
+       "tx": "Strabuono!",
+       "rd": "스트라부오노"
+      },
+      {
+       "ko": "파이팅!",
+       "tx": "Forza!",
+       "rd": "포르짜"
+      },
+      {
+       "ko": "이럴수가!",
+       "tx": "Mamma mia!",
+       "rd": "맘마 미아"
+      },
+      {
+       "ko": "멋지다!",
+       "tx": "Che bello!",
+       "rd": "께 벨로"
+      },
+      {
+       "ko": "나에게는 사랑하는 사람이 있습니다.",
+       "tx": "Ho una fidanzata amorevole!",
+       "rd": "오 우나 피단짜타 아모레볼레"
+      },
+      {
+       "ko": "이거 입어봐도 되나요?",
+       "tx": "Posso provare questo?",
+       "rd": "포쏘 프로바레 꿰스또"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아어 강좌 — 의문사",
+     "words": [
+      {
+       "ko": "무엇",
+       "tx": "che cosa",
+       "rd": "께 꼬자"
+      },
+      {
+       "ko": "이것은 무엇인가요?",
+       "tx": "Che cos'è questo?",
+       "rd": "께 꼬제 꿰스토?"
+      },
+      {
+       "ko": "누구",
+       "tx": "chi",
+       "rd": "끼"
+      },
+      {
+       "ko": "이 사람은 누구인가요?",
+       "tx": "Chi è quella persona?",
+       "rd": "끼 에 꿸라 페르소나?"
+      },
+      {
+       "ko": "왜",
+       "tx": "perché",
+       "rd": "페르께"
+      },
+      {
+       "ko": "왜 그런가요?",
+       "tx": "Perché è cosi?",
+       "rd": "페르께 에 꼬지?"
+      },
+      {
+       "ko": "어디",
+       "tx": "dove",
+       "rd": "도베"
+      },
+      {
+       "ko": "화장실이 어디인가요?",
+       "tx": "Dov'è (Dove+è) il bagno?",
+       "rd": "도베[도베 + 에] 일 반뇨?"
+      },
+      {
+       "ko": "얼마나",
+       "tx": "quanto",
+       "rd": "꽌또"
+      },
+      {
+       "ko": "얼마인가요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스타?"
+      },
+      {
+       "ko": "언제",
+       "tx": "quando",
+       "rd": "꽌도"
+      },
+      {
+       "ko": "언제 출발하나요?",
+       "tx": "Quando parte?",
+       "rd": "꽌도 파르테?"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아어 강좌 — 기본 문장",
+     "words": [
+      {
+       "ko": "저는 민수입니다.",
+       "tx": "Sono Minsu.",
+       "rd": "쏘노 민수"
+      },
+      {
+       "ko": "로마에 갑니다.",
+       "tx": "Vado a Roma.",
+       "rd": "바도 아 로마"
+      },
+      {
+       "ko": "당신은 학생입니까?",
+       "tx": "Sei studentessa?",
+       "rd": "세이 스투덴테싸?"
+      },
+      {
+       "ko": "당신은 한국어를 말하나요?",
+       "tx": "Lei parla coreano?",
+       "rd": "레이 파를라 꼬레아노?"
+      },
+      {
+       "ko": "저는 중국인이 아닙니다.",
+       "tx": "Non sono cinese.",
+       "rd": "논 쏘노 치네제"
+      },
+      {
+       "ko": "저는 시간이 없습니다.",
+       "tx": "Non ho tempo.",
+       "rd": "논 오 템포"
+      },
+      {
+       "ko": "~할 수 있나요?",
+       "tx": "Posso ~?",
+       "rd": "포쏘"
+      },
+      {
+       "ko": "제가 담배를 필 수 있나요?",
+       "tx": "Posso fumare?",
+       "rd": "포쏘 푸마레?"
+      },
+      {
+       "ko": "~해 주실 수 있나요?",
+       "tx": "Può ~?",
+       "rd": "푸오"
+      },
+      {
+       "ko": "다시 한번 말씀해 주실 수 있나요?",
+       "tx": "Può ripetere, per favore?",
+       "rd": "푸오 리페테레 페르 파보레?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sightsee",
+   "title": "관광",
+   "emoji": "🏛️",
+   "sections": [
+    {
+     "title": "먼저 길거리를 거닐어 볼까요? — 길을 묻는 표현",
+     "words": [
+      {
+       "ko": "질문 하나 해도 될까요?",
+       "tx": "Posso farLe una domanda?",
+       "rd": "포쏘 파를레 우나 도만다?"
+      },
+      {
+       "ko": "콜로세움에 가길 원합니다.",
+       "tx": "Vorrei andare al Colosseo.",
+       "rd": "보레이 안다레 알 콜로쎄오"
+      },
+      {
+       "ko": "이 주소로 가길 원합니다.",
+       "tx": "Vorrei andare a questo indirizzo.",
+       "rd": "보레이 안다레 아 꿰스또 인디리쬬"
+      },
+      {
+       "ko": "우회전하면 당신의 왼편에 있을 거예요.",
+       "tx": "Giri a destra, e poi lo trova alla Sua sinistra.",
+       "rd": "지리 아 데스트라, 에 뽀이 로 트로바 알라 수아 씨니스트라"
+      },
+      {
+       "ko": "이 지도에서 이곳은 어디에 있나요?",
+       "tx": "Dove lo si trova in questa mappa?",
+       "rd": "도베 로 씨 트로바 인 꿰스따 마빠?"
+      },
+      {
+       "ko": "길을 잃었어요.",
+       "tx": "Mi sono perso.",
+       "rd": "미 쏘노 페르소"
+      },
+      {
+       "ko": "여기는 어디인가요?",
+       "tx": "Dove sono?",
+       "rd": "도베 쏘노?"
+      },
+      {
+       "ko": "이 거리의 이름은 무엇입니까?",
+       "tx": "Come si chiama questa via?",
+       "rd": "꼬메 씨 끼아마 꿰스따 비아?"
+      },
+      {
+       "ko": "그곳까지 제가 걸어갈 수 있나요?",
+       "tx": "Posso andare a piedi fino a lì?",
+       "rd": "포쏘 안다레 아 피에디 피노 아 리?"
+      },
+      {
+       "ko": "그곳에 가기 위해 어떤 버스를 타야 하나요?",
+       "tx": "Qual'è l'autobus per andarci?",
+       "rd": "꽐레 라우토부스 페르 안다르치?"
+      },
+      {
+       "ko": "실례합니다.",
+       "tx": "Scusi.",
+       "rd": "스쿠지"
+      },
+      {
+       "ko": "감사합니다.",
+       "tx": "Grazie.",
+       "rd": "그라찌에"
+      }
+     ]
+    },
+    {
+     "title": "먼저 길거리를 거닐어 볼까요? — 관광지에서",
+     "words": [
+      {
+       "ko": "우피치 미술관이 오늘 여나요?",
+       "tx": "Oggi è aperta la Galleria degli Uffizi?",
+       "rd": "오찌 에 아페르타 라 갈레리아 델리 우피찌?"
+      },
+      {
+       "ko": "열어요. / 쉽니다.",
+       "tx": "Sì, lo è. / No, non lo è.",
+       "rd": "씨 로 에 / 노 논 로 에"
+      },
+      {
+       "ko": "입장료는 얼마입니까?",
+       "tx": "Quanto costa l'ingresso?",
+       "rd": "꽌또 코스타 린그레쏘?"
+      },
+      {
+       "ko": "할인하나요?",
+       "tx": "Ci sono sconti?",
+       "rd": "치 쏘노 스콘티?"
+      },
+      {
+       "ko": "성인 두 명이요.",
+       "tx": "Per 2 adulti, per favore.",
+       "rd": "페르 두에 아둘티 페르 파보레"
+      },
+      {
+       "ko": "오늘 몇 시까지 영업하세요?",
+       "tx": "Fino a che ora siete aperti oggi?",
+       "rd": "피노 아 께 오라 씨에테 아페르티 오찌?"
+      },
+      {
+       "ko": "한국어로 된 팸플릿이 있나요?",
+       "tx": "Avete un opuscolo in coreano?",
+       "rd": "아베떼 운 오푸스콜로 인 꼬레아노?"
+      },
+      {
+       "ko": "제 가방을 맡길 수 있나요?",
+       "tx": "Posso depositare la mia borsa?",
+       "rd": "포쏘 데포지타레 라 미아 보르사?"
+      },
+      {
+       "ko": "여기는 무엇이 있나요?",
+       "tx": "Cosa c'è qui?",
+       "rd": "꼬자 체 뀌?"
+      },
+      {
+       "ko": "여기에 유명한 작품이 있나요?",
+       "tx": "C'è qualche opera famosa?",
+       "rd": "체 꽐께 오페라 파모자?"
+      },
+      {
+       "ko": "이것은 언제 지어졌나요?",
+       "tx": "Quando è stato costruito?",
+       "rd": "꽌도 에 스타토 코스트룰토?"
+      },
+      {
+       "ko": "몇 시에 시작하나요?",
+       "tx": "A che ora inizia?",
+       "rd": "아 께 오라 이니찌아?"
+      },
+      {
+       "ko": "이 교회의 이름은 무엇인가요?",
+       "tx": "Qual'è il nome della chiesa?",
+       "rd": "꽐레 일 노메 델라 끼에자?"
+      },
+      {
+       "ko": "안쪽을 둘러봐도 될까요?",
+       "tx": "Posso dare un'occhiata dentro?",
+       "rd": "포쏘 다레 우노끼아타 덴트로?"
+      },
+      {
+       "ko": "들어가도 될까요?",
+       "tx": "Posso entrare?",
+       "rd": "포쏘 엔트라레?"
+      },
+      {
+       "ko": "출구[입구]는 어디입니까?",
+       "tx": "Dov'è l'uscita[l'entrata]?",
+       "rd": "도베 루쉬타[렌트라타]?"
+      },
+      {
+       "ko": "가장 가까운 화장실이 어디인가요?",
+       "tx": "Dov'è il bagno più vicino?",
+       "rd": "도베 일 반뇨 퓨 비치노?"
+      },
+      {
+       "ko": "제 사진 한 장 찍어 주실 수 있으세요?",
+       "tx": "Può farmi una foto, per favore?",
+       "rd": "푸오 파르미 우나 포토, 페르 파보레?"
+      },
+      {
+       "ko": "버튼을 누르시면 됩니다.",
+       "tx": "Basta spingere il bottone.",
+       "rd": "바스타 스핀제레 일 보또네"
+      },
+      {
+       "ko": "사진을 찍어도 될까요?",
+       "tx": "Posso fare delle fotografie?",
+       "rd": "포쏘 파레 델레 포토그라피에?"
+      },
+      {
+       "ko": "플래시를 사용해도 될까요?",
+       "tx": "Posso usare il flash?",
+       "rd": "포쏘 우자레 일 플라쉬?"
+      }
+     ]
+    },
+    {
+     "title": "먼저 길거리를 거닐어 볼까요? — 관광 안내소를 이용해 봅시다",
+     "words": [
+      {
+       "ko": "관광 안내소는 어디입니까?",
+       "tx": "Dov'è l'ufficio turistico?",
+       "rd": "도베 루피쵸 투리스티코?"
+      },
+      {
+       "ko": "무료 지도가 있나요?",
+       "tx": "Avete qualche pianta gratis?",
+       "rd": "아베떼 꽐께 피안타 그라티스?"
+      },
+      {
+       "ko": "관광 팸플릿을 받을 수 있을까요?",
+       "tx": "Mi può dare un opuscolo, per favore?",
+       "rd": "미 푸오 다레 운 오푸스콜로, 페르 파보레?"
+      },
+      {
+       "ko": "그 중에 한국어도 있나요?",
+       "tx": "Ne avete uno in coreano?",
+       "rd": "네 아베떼 우노 인 꼬레아노?"
+      },
+      {
+       "ko": "이 시내에서 좋은 장소를 추천해 주시겠어요?",
+       "tx": "Mi può dire cosa c'è di bello in questa città?",
+       "rd": "미 푸오 디레 꼬자 체 디 벨로 인 꿰스따 치따?"
+      },
+      {
+       "ko": "당일치기로 방문하기 좋은 장소를 추천해 주시겠어요?",
+       "tx": "Mi può consigliare qualche posto da visitare in un giorno?",
+       "rd": "미 푸오 콘실리아레 꽐께 포스토 다 비지타레 인 운 죠르노?"
+      },
+      {
+       "ko": "경치가 좋은 곳은 어디입니까?",
+       "tx": "Dove posso trovare un posto con un bel panorama?",
+       "rd": "도베 포쏘 트로바레 운 포스토 꼰 운 벨 파노라마?"
+      },
+      {
+       "ko": "오늘 열었나요?",
+       "tx": "È aperto lì oggi?",
+       "rd": "에 아페르토 리 오찌?"
+      },
+      {
+       "ko": "문을 닫는 날이 언제인가요?",
+       "tx": "Mi dia il giorno di chiusura, per favore?",
+       "rd": "미 디아 일 죠르노 디 끼우수라 페르 파보레?"
+      },
+      {
+       "ko": "화요일이에요. / 매일 운영합니다.",
+       "tx": "È martedì. / È sempre aperto.",
+       "rd": "에 마르테디 / 에 셈프레 아페르토"
+      },
+      {
+       "ko": "콜로세움을 보고 싶어요.",
+       "tx": "Vorrei vedere il Colosseo.",
+       "rd": "보레이 베데레 일 콜로쎄오"
+      },
+      {
+       "ko": "제가 그곳까지 걸어서 갈 수 있나요?",
+       "tx": "Ci si arriva a piedi?",
+       "rd": "치 씨 아리바 아 피에디?"
+      },
+      {
+       "ko": "여기서 먼가요?",
+       "tx": "È lontano da qui?",
+       "rd": "에 론타노 다 뀌?"
+      },
+      {
+       "ko": "가까워요. / 버스로 10분 걸려요.",
+       "tx": "È vicino. / Ci vogliono 10 minuti di autobus.",
+       "rd": "에 비치노 / 치 볼리오노 디에치 미누티 디 아우토부스"
+      },
+      {
+       "ko": "여기서 걸어서 얼마나 걸리나요?",
+       "tx": "Quanti minuti ci vogliono a piedi da qua?",
+       "rd": "꽌띠 미누티 치 볼리오노 아 피에디 다 꽈?"
+      },
+      {
+       "ko": "그곳에 어떻게 가는지 알려 주실 수 있나요?",
+       "tx": "Mi può indicare come si arriva lì, per favore?",
+       "rd": "미 푸오 인디카레 꼬메 씨 아리바 리 페르 파보레?"
+      },
+      {
+       "ko": "그곳에 지하철을 타고 갈 수 있나요?",
+       "tx": "Posso andare in metro?",
+       "rd": "포쏘 안다레 인 메트로?"
+      },
+      {
+       "ko": "이 지도로 길을 알려 주실 수 있나요?",
+       "tx": "Mi può mostrare la strada sulla cartina?",
+       "rd": "미 푸오 모스트라레 라 스트라다 술라 카르티나?"
+      },
+      {
+       "ko": "랜드마크가 있나요?",
+       "tx": "C'è qualche segno particolare?",
+       "rd": "체 꽐께 센뇨 파르티꼴라레?"
+      },
+      {
+       "ko": "여기서 가까운 안내 사무소[경찰서]가 있나요?",
+       "tx": "C'è l'ufficio informazioni[il posto di polizia] qui vicino?",
+       "rd": "체 루피쵸 인포르마찌오니[일 포스토 디 폴리찌아] 뀌 비치노?"
+      },
+      {
+       "ko": "다시 한번 말씀해 주시겠어요?",
+       "tx": "Può ripetere, per favore?",
+       "rd": "푸오 리페테레 페르 파보레?"
+      },
+      {
+       "ko": "우회전이에요, 좌회전이에요?",
+       "tx": "È a destra o a sinistra?",
+       "rd": "에 아 데스트라 오 아 씨니스트라?"
+      },
+      {
+       "ko": "지도를 그려 주실 수 있나요?",
+       "tx": "Mi può disegnare una piantina?",
+       "rd": "미 푸오 디세냐레 우나 피안티나?"
+      }
+     ]
+    },
+    {
+     "title": "교과서에서 본 그 작품을 보러 가 볼까요? — 빨리 안으로 들어가 봅시다",
+     "words": [
+      {
+       "ko": "티켓 창구가 어디 있나요?",
+       "tx": "Dov'è la biglietteria?",
+       "rd": "도베 라 빌리에떼리아?"
+      },
+      {
+       "ko": "로마 패스를 갖고 있습니다.",
+       "tx": "Ho un Roma Pass.",
+       "rd": "오 운 로마 파쓰"
+      },
+      {
+       "ko": "건물 지도를 갖고 있으세요?",
+       "tx": "Avete una pianta dell'edificio?",
+       "rd": "아베떼 우나 피안타 델레디피쵸?"
+      },
+      {
+       "ko": "한국어로 된 팸플릿을 갖고 있으세요?",
+       "tx": "Avete un opuscolo in coreano?",
+       "rd": "아베떼 운 오푸스콜로 인 꼬레아노?"
+      },
+      {
+       "ko": "몇 시에 여나요[닫나요]?",
+       "tx": "A che ora apre[chiude]?",
+       "rd": "아 께 오라 아프레[끼우데]?"
+      },
+      {
+       "ko": "박물관 안에 기념품 샵이 있나요?",
+       "tx": "C'è un negozio di souvenir nel museo?",
+       "rd": "체 운 네고찌오 디 소우베니르 넬 무세오?"
+      },
+      {
+       "ko": "로커가 있나요?",
+       "tx": "C'è un armadietto?",
+       "rd": "체 운 아르마디에또?"
+      }
+     ]
+    },
+    {
+     "title": "관광 — 느긋하게 둘러보고 싶어요",
+     "words": [
+      {
+       "ko": "오늘 특별한 전시회가 열리나요?",
+       "tx": "C'è qualche esposizione speciale oggi?",
+       "rd": "체 꽐께 에스포씨찌오네 스페찰레 오찌?"
+      },
+      {
+       "ko": "비너스의 탄생 작품은 어디 있습니까?",
+       "tx": "Dov'è La Nascita di Venere?",
+       "rd": "도베 라 나쉬타 디 베네레?"
+      },
+      {
+       "ko": "오디오 가이드를 들을 수 있을까요?",
+       "tx": "L'audioguida, per favore.",
+       "rd": "라우디오구이다 페르 파보레"
+      },
+      {
+       "ko": "이 길이 맞는 길인가요?",
+       "tx": "Va bene questo percorso?",
+       "rd": "바 베네 꿰스또 페르코르쏘?"
+      },
+      {
+       "ko": "이것은 누구의 작품입니까?",
+       "tx": "Di chi è questa opera?",
+       "rd": "디 끼 에 꿰스따 오페라?"
+      },
+      {
+       "ko": "사진을 찍을 수 있을까요?",
+       "tx": "Posso fare delle foto?",
+       "rd": "포쏘 파레 델레 포토?"
+      },
+      {
+       "ko": "가장 가까운 화장실이 어디인가요?",
+       "tx": "Dov'è il bagno più vicino?",
+       "rd": "도베 일 반뇨 퓨 비치노?"
+      }
+     ]
+    },
+    {
+     "title": "현지에서 신청하는 투어로 소확행을! — 투어 내용을 확인해 봅시다",
+     "words": [
+      {
+       "ko": "콜로세움 가는 투어가 있나요?",
+       "tx": "C'è una gita per il Colosseo?",
+       "rd": "체 우나 지타 페르 일 콜로쎄오?"
+      },
+      {
+       "ko": "약속 시간이 몇 시인가요?",
+       "tx": "A che ora è l'appuntamento?",
+       "rd": "아 께 오라 에 라뿐타멘토?"
+      },
+      {
+       "ko": "출발은 어디서 하나요?",
+       "tx": "Da dove si parte?",
+       "rd": "다 도베 씨 파르떼?"
+      },
+      {
+       "ko": "이것은 왕복입니까?",
+       "tx": "È compreso andata e ritorno?",
+       "rd": "에 콤프레소 안다타 에 리토르노?"
+      },
+      {
+       "ko": "식사 요금이 포함되나요?",
+       "tx": "È compresa la tariffa del pasto?",
+       "rd": "에 콤프레사 라 타리파 델 파스토?"
+      },
+      {
+       "ko": "하루[반나절]용 프로그램이 있나요?",
+       "tx": "Avete un programma per una giornata[mezza giornata]?",
+       "rd": "아베떼 운 프로그람마 페르 우나 죠르나타[메짜 죠르나타]?"
+      },
+      {
+       "ko": "투어는 어디를 도나요?",
+       "tx": "Dove si fa quella gita?",
+       "rd": "도베 씨 파 꿸라 지타?"
+      },
+      {
+       "ko": "플라자 호텔에서 버스를 타도 되나요?",
+       "tx": "Posso prendere l'autobus dall'hotel Plaza?",
+       "rd": "포쏘 프렌데레 라우토부스 달오텔 플라짜?"
+      },
+      {
+       "ko": "플라자 호텔에서 내려 주실 수 있나요?",
+       "tx": "Mi fa scendere all'hotel Plaza, per favore?",
+       "rd": "미 파 셴데레 알 오텔 플라짜 페르 파보레?"
+      },
+      {
+       "ko": "한국어 가이드가 있나요?",
+       "tx": "C'è una guida coreano?",
+       "rd": "체 우나 구이다 꼬레아노?"
+      },
+      {
+       "ko": "제게 투어를 좀 추천해 주시겠어요?",
+       "tx": "Quale gita mi consiglia?",
+       "rd": "꽐레 지타 미 콘실리아?"
+      },
+      {
+       "ko": "이거 예약할게요.",
+       "tx": "Prenoto questo.",
+       "rd": "프레노토 꿰스토"
+      },
+      {
+       "ko": "여기로 몇 시까지 돌아와야 하나요?",
+       "tx": "A che ora dobbiamo tornare qua?",
+       "rd": "아 께 오라 도삐아모 토르나레 꽈?"
+      },
+      {
+       "ko": "거기까지 얼마나 걸리나요?",
+       "tx": "A che ora arriva da questo momento?",
+       "rd": "아 께 오라 아리바 다 꿰스또 모멘토?"
+      },
+      {
+       "ko": "화장실은 어디입니까?",
+       "tx": "Dov'è il bagno?",
+       "rd": "도베 일 반뇨?"
+      },
+      {
+       "ko": "몇 시에 출발합니까?",
+       "tx": "A che ora si parte?",
+       "rd": "아 께 오라 씨 파르떼?"
+      },
+      {
+       "ko": "투어 때문에 늦었습니다.",
+       "tx": "Sono in ritardo per la gita.",
+       "rd": "쏘노 인 리타르도 페르 라 지타"
+      },
+      {
+       "ko": "투어를 취소하고 싶습니다.",
+       "tx": "Vorrei cancellare la gita.",
+       "rd": "보레이 칸첼라레 라 지타"
+      }
+     ]
+    },
+    {
+     "title": "한국을 소개해 봅시다 — 관광지",
+     "words": [
+      {
+       "ko": "○○는 한국에서 매우 인기 있는 관광지입니다.",
+       "tx": "___ è un/una destinazione turistica molto popolare in Corea.",
+       "rd": "___ 에 운/우나 데스티나찌오네 뚜리스띠카 몰또 포퓰라레 인 꼬레아"
+      },
+      {
+       "ko": "명동: 명동은 서울의 대표적인 쇼핑 거리로, 다양한 상점들이 있습니다.",
+       "tx": "Myeongdong è una strada commerciale tipica di Seul, con una varietà di negozi.",
+       "rd": "명동 에 우나 스트라다 꼼메르챨레 티피카 디 세울 꼰 우나 바리에타 디 네고찌"
+      },
+      {
+       "ko": "한강 공원: 한강은 서울에 있는 큰 강으로, 공원에서 다양한 체험을 할 수 있습니다.",
+       "tx": "Il fiume Han è un grande fiume a Seul, dove si possono provare varie esperienze nel parco.",
+       "rd": "일 피우메 한 에 운 그란데 피우메 아 세울 도베 씨 포쏘노 프로바레 바리에 에스페리엔쩨 넬 파르코"
+      },
+      {
+       "ko": "인사동: 서울에서 가장 한국적인 모습을 가지고 있는 곳입니다.",
+       "tx": "Insadong è il posto più coreano di Seul.",
+       "rd": "인사동 에 일 포스토 뷰 꼬레아노 디 세울"
+      },
+      {
+       "ko": "제주도: 한국에서 가장 큰 섬으로, 다양한 문화 활동을 할 수 있습니다.",
+       "tx": "L'isola di Jeju è l'isola più grande della Corea e offre varie attività culturali.",
+       "rd": "리졸라 디 제주 에 리졸라 뷰 그란데 델라 꼬레아 에 오프레 바리에 아띠비타 쿨투라리"
+      },
+      {
+       "ko": "부산: 한국에서 두 번째로 큰 도시로, 바다를 즐길 수 있습니다.",
+       "tx": "Busan è la seconda città più grande della Corea e possono godere del mare.",
+       "rd": "부산 에라 세콘다 치따 뷰 그란데 델라 꼬레아 에 포쏘노 고데레 델 마레"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "맛집·음식",
+   "emoji": "🍽️",
+   "sections": [
+    {
+     "title": "조금 사치를 부려 고급 레스토랑에 가 볼까요? — 먼저 예약해 봅시다",
+     "words": [
+      {
+       "ko": "오늘 저녁 식사를 예약하고 싶습니다.",
+       "tx": "Vorrei prenotare la cena stasera.",
+       "rd": "보레이 프레노타레 라 체나 스타세라"
+      },
+      {
+       "ko": "죄송하지만 그 시간에 남은 테이블이 없습니다.",
+       "tx": "Mi dispiace, per quell'ora non abbiamo tavoli liberi.",
+       "rd": "미 디스피아체 페르 꿸로라 논 아삐아모 타볼리 리베리"
+      },
+      {
+       "ko": "알겠습니다. 한 테이블 예약해 드리겠습니다.",
+       "tx": "Bene, le prepariamo un tavolo.",
+       "rd": "베네 레 프레파리아모 운 타볼로"
+      },
+      {
+       "ko": "7시에 2명 예약하고 싶습니다.",
+       "tx": "Vorrei prenotare per 2 persone alle 7.",
+       "rd": "보레이 프레노타레 페르 두에 페르소네 알레 쎄떼"
+      },
+      {
+       "ko": "금연 구역입니다.",
+       "tx": "Nella sezione non fumatori, per favore.",
+       "rd": "넬라 세찌오네 논 푸마토리 페르 파보레"
+      },
+      {
+       "ko": "몇 시에 예약할 수 있을까요?",
+       "tx": "A che ora posso prenotare?",
+       "rd": "아 께 오라 포쏘 프레노타레?"
+      },
+      {
+       "ko": "드레스 코드가 있나요?",
+       "tx": "Avete delle regole per l'abbigliamento?",
+       "rd": "아베떼 델레 레골레 페르 라삘리아멘토?"
+      }
+     ]
+    },
+    {
+     "title": "레스토랑에서 해야 할 행동들 (Scene 1~6)",
+     "words": [
+      {
+       "ko": "좋은 저녁입니다. 제 이름은 김미나입니다. 예약했는데요.",
+       "tx": "Buonasera. Mi chiamo Mina Kim, ho prenotato.",
+       "rd": "부오나쎄라 미 끼아모 미나 김 오 프레노타토"
+      },
+      {
+       "ko": "저기요, 주문할게요.",
+       "tx": "Scusi, vorrei ordinare.",
+       "rd": "스쿠지 보레이 오르디나레"
+      },
+      {
+       "ko": "죄송합니다.",
+       "tx": "Scusi.",
+       "rd": "스쿠지"
+      },
+      {
+       "ko": "죄송하지만 숟가락을 교체할 수 있을까요?",
+       "tx": "Scusi, mi può cambiare il cucchiaio, per favore?",
+       "rd": "스쿠지 미 푸오 캄비아레 일 쿠끼아이오 페르 파보레?"
+      },
+      {
+       "ko": "화장실은 어디입니까?",
+       "tx": "Dov'è il bagno?",
+       "rd": "도베 일 반뇨?"
+      },
+      {
+       "ko": "흡연할 수 있는 구역이 있나요?",
+       "tx": "C'è un posto dove posso fumare?",
+       "rd": "체 운 포스토 도베 포쏘 푸마레?"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아에서 맛있는 식사를 해 볼까요? — 식당에 들어설 때",
+     "words": [
+      {
+       "ko": "좌석이 있나요?",
+       "tx": "Avete una tavola?",
+       "rd": "아베떼 우나 타볼라?"
+      },
+      {
+       "ko": "죄송하지만, 오늘 저녁은 만석입니다.",
+       "tx": "Mi dispiace. Stasera siamo quasi al completo.",
+       "rd": "미 디스피아체 스타세라 씨아모 꽈지 알 꼼플레토"
+      },
+      {
+       "ko": "얼마나 기다려야 할까요?",
+       "tx": "Quanto dobbiamo aspettare?",
+       "rd": "꽌또 도삐아모 아스페타레?"
+      },
+      {
+       "ko": "30분이요.",
+       "tx": "Trenta minuti.",
+       "rd": "트렌타 미누티"
+      },
+      {
+       "ko": "알겠습니다, 기다릴게요. / 다시 올게요.",
+       "tx": "Va bene, aspettiamo. / Torniamo più tardi.",
+       "rd": "바 베네 아스페띠아모 / 토르니아모 퓨 타르디"
+      },
+      {
+       "ko": "메뉴와 와인 리스트를 볼 수 있을까요?",
+       "tx": "Posso vedere il menù e la lista dei vini, per favore?",
+       "rd": "포쏘 베데레 일 메뉴 에 라 리스타 데이 비니 페르 파보레?"
+      },
+      {
+       "ko": "제게 어떤 걸 추천해 주시겠어요?",
+       "tx": "Che cosa mi consiglia?",
+       "rd": "께 꼬자 미 콘실리아?"
+      },
+      {
+       "ko": "주문할 수 있을까요?",
+       "tx": "Posso ordinare?",
+       "rd": "포쏘 오르디나레?"
+      },
+      {
+       "ko": "현지 음식이 있나요?",
+       "tx": "Avete i piatti locali?",
+       "rd": "아베떼 이 피아띠 로칼리?"
+      },
+      {
+       "ko": "카프레제 하나와 카포나타 하나 주세요.",
+       "tx": "Vorrei una caprese e una caponata, per favore.",
+       "rd": "보레이 우나 카프레제 에 우나 카포나타 페르 파보레"
+      },
+      {
+       "ko": "이 요리를 나누어 먹어요.",
+       "tx": "Dividiamo questo piatto.",
+       "rd": "디비디아모 꿰스또 피아또"
+      },
+      {
+       "ko": "혹시 주문을 취소할 수 있나요?",
+       "tx": "Scusi, posso cancellare l'ordine?",
+       "rd": "스쿠지 포쏘 칸첼라레 로르디네?"
+      },
+      {
+       "ko": "혹시 주문을 변경할 수 있나요?",
+       "tx": "Scusi, posso cambiare l'ordine?",
+       "rd": "스쿠지 포쏘 캄비아레 로르디네?"
+      },
+      {
+       "ko": "잘 먹겠습니다!",
+       "tx": "Buon appetito!",
+       "rd": "부온 아페티토!"
+      }
+     ]
+    },
+    {
+     "title": "맛집 — 식사 중에",
+     "words": [
+      {
+       "ko": "이것을 먹는 방법을 알려 주시겠어요?",
+       "tx": "Come si mangia questo?",
+       "rd": "꼬메 씨 만쟈 꿰스또?"
+      },
+      {
+       "ko": "죄송하지만 포크가 없어요.",
+       "tx": "Scusi, non c'è la forchetta.",
+       "rd": "스쿠지 논 체 라 포르께따"
+      },
+      {
+       "ko": "제가 숟가락을 떨어뜨렸어요.",
+       "tx": "Mi è caduto il cucchiaio.",
+       "rd": "미 에 카두토 일 꾸끼아이오"
+      },
+      {
+       "ko": "탄산 없는 물 좀 부탁드립니다.",
+       "tx": "Acqua minerale non gassata, per favore.",
+       "rd": "아꾸아 미네랄레 논 가싸타 페르 파보레"
+      },
+      {
+       "ko": "이 요리는 덜 구워진 것 같아요.",
+       "tx": "Questo cibo non è cotto.",
+       "rd": "꿰스또 치보 논 에 코또"
+      },
+      {
+       "ko": "유리잔이 약간 더럽네요. 바꿔 주실 수 있나요?",
+       "tx": "Il bicchiere è un po' sporco. Me lo può cambiare, per favore?",
+       "rd": "일 비끼에레 에 운 뽀 스포르코 메 로 푸오 캄비아레 페르 파보레?"
+      },
+      {
+       "ko": "테이블을 치워 주실 수 있나요?",
+       "tx": "Mi può sistemare la tavola, per favore?",
+       "rd": "미 푸오 시스테마레 라 타볼라 페르 파보레?"
+      },
+      {
+       "ko": "제가 와인을 엎질렀어요.",
+       "tx": "Mi è caduto il vino.",
+       "rd": "미 에 카두토 일 비노"
+      },
+      {
+       "ko": "여기를 닦아 주실 수 있나요?",
+       "tx": "Può pullire qua, per favore?",
+       "rd": "푸오 풀리레 꽈 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "디저트를 맛보고 싶다면",
+     "words": [
+      {
+       "ko": "디저트 메뉴가 있나요?",
+       "tx": "Avete il menù dei dolci?",
+       "rd": "아베떼 일 메누 데이 돌치?"
+      },
+      {
+       "ko": "어떤 디저트를 추천해 주시겠어요?",
+       "tx": "Quale dolce mi consiglia?",
+       "rd": "꽐레 돌체 미 콘실리아?"
+      },
+      {
+       "ko": "배로 만든 파이 하나 주세요.",
+       "tx": "Vorrei una torta di pere.",
+       "rd": "보레이 우나 토르타 디 페레"
+      },
+      {
+       "ko": "아직 다 먹지 않았어요.",
+       "tx": "Non ho ancora finito di mangiare.",
+       "rd": "논 오 안코라 피니토 디 만쟈레"
+      },
+      {
+       "ko": "커피 한 잔 더 부탁드립니다.",
+       "tx": "Vorrei un altro caffè, per favore?",
+       "rd": "보레이 운 알트로 카페 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "계산할 때",
+     "words": [
+      {
+       "ko": "계산이요.",
+       "tx": "Il conto, per favore.",
+       "rd": "일 콘토 페르 파보레"
+      },
+      {
+       "ko": "정말 잘 먹었습니다. 감사합니다.",
+       "tx": "Sono stato molto bene. Grazie.",
+       "rd": "쏘노 스타토 몰또 베네 그라찌에"
+      },
+      {
+       "ko": "총 얼마입니까?",
+       "tx": "Quanto costa in tutto?",
+       "rd": "꽌또 코스타 인 뚜또?"
+      },
+      {
+       "ko": "이것은 무엇의 가격입니까?",
+       "tx": "Questa cifra a cosa si riferisce?",
+       "rd": "꿰스따 치프라 아 꼬자 씨 리페리셰?"
+      },
+      {
+       "ko": "모두 정말 맛있었습니다, 감사합니다.",
+       "tx": "Era tutto molto buono, grazie.",
+       "rd": "에라 뚜또 몰또 부오노, 그라찌에"
+      },
+      {
+       "ko": "계산에 문제가 있는 것 같습니다.",
+       "tx": "Penso che ci sia un errore nel conto.",
+       "rd": "펜소 께 치 씨아 운 에로레 넬 콘토"
+      },
+      {
+       "ko": "저는 샐러드를 주문하지 않았습니다.",
+       "tx": "Non ho ordinato l'insalata.",
+       "rd": "논 오 오르디나토 린살라타"
+      },
+      {
+       "ko": "계산을 다시 확인해 주시겠어요?",
+       "tx": "Può fare il conto di nuovo, per favore?",
+       "rd": "푸오 파레 일 콘토 디 누오보 페르 파보레?"
+      },
+      {
+       "ko": "(호텔에서)방 계산에 포함시켜 주세요.",
+       "tx": "Vorrei pagare nel conto della camera.",
+       "rd": "보레이 파가레 넬 콘토 델라 카메라"
+      },
+      {
+       "ko": "신용 카드로 지불해도 됩니까?",
+       "tx": "Posso pagare con la carta di credito?",
+       "rd": "포쏘 파가레 꼰 라 카르타 디 크레디토?"
+      },
+      {
+       "ko": "현금으로 낼게요.",
+       "tx": "Pago in contanti.",
+       "rd": "파고 인 콘탄티"
+      }
+     ]
+    },
+    {
+     "title": "한마디 문장 표현 (식사)",
+     "words": [
+      {
+       "ko": "이것은 정말 맛있습니다.",
+       "tx": "Questo è molto buono.",
+       "rd": "꿰스또 에 몰또 부오노"
+      },
+      {
+       "ko": "모두 맛있었습니다, 감사합니다.",
+       "tx": "È tutto buonissimo, grazie.",
+       "rd": "에 뚜또 부오니씨모 그라찌에"
+      },
+      {
+       "ko": "배불러요.",
+       "tx": "Sono piena.",
+       "rd": "쏘노 피에나"
+      },
+      {
+       "ko": "남은 음식을 가져갈 수 있을까요?",
+       "tx": "Posso portare via i cibi rimasti?",
+       "rd": "포쏘 포르타레 비아 이 치비 리마스티?"
+      },
+      {
+       "ko": "아주 맛있게 먹었습니다.",
+       "tx": "Era delizioso.",
+       "rd": "에라 델리찌오조"
+      },
+      {
+       "ko": "이것을 치워 주세요.",
+       "tx": "Può portare via, per favore.",
+       "rd": "푸오 포르타레 비아 페르 파보레"
+      },
+      {
+       "ko": "영수증 주세요.",
+       "tx": "La ricevuta, per favore.",
+       "rd": "라 리체부타 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "길거리 카페에서 쉬어가기 — 카페에서",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      },
+      {
+       "ko": "몇 분이세요?",
+       "tx": "Quanti siete?",
+       "rd": "콴띠 씨에테?"
+      },
+      {
+       "ko": "두 명이에요.",
+       "tx": "Siamo in due.",
+       "rd": "씨아모 인 두에"
+      },
+      {
+       "ko": "안쪽 자리와 테라스 자리 중에 어느 자리를 원하시나요?",
+       "tx": "Quale posto vuole dentro o in terrazzo?",
+       "rd": "꽐레 포스토 부올레 덴트로 오 인 테라쬬?"
+      },
+      {
+       "ko": "테라스[탁자] 자리를 선호합니다.",
+       "tx": "Preferisco in terrazzo [al banco].",
+       "rd": "프레페리스코 인 테라쬬[알 반코]"
+      },
+      {
+       "ko": "네, 그렇게 하세요.",
+       "tx": "Sì, prego.",
+       "rd": "씨 프레고"
+      },
+      {
+       "ko": "메뉴판을 주실 수 있을까요?",
+       "tx": "Posso avere il menù?",
+       "rd": "포쏘 아베레 일 메누?"
+      },
+      {
+       "ko": "음료용인가요, 음식용인가요?",
+       "tx": "Da bere o mangiare?",
+       "rd": "다 베레 오 만쟈레?"
+      },
+      {
+       "ko": "두 개 다 주세요.",
+       "tx": "Tutti e due, per favore.",
+       "rd": "뚜띠 에 두에 페르 파보레"
+      },
+      {
+       "ko": "결정하셨나요?",
+       "tx": "Avete deciso?",
+       "rd": "아베떼 데치조?"
+      },
+      {
+       "ko": "카푸치노 한 잔과 판나코타 한 개 주세요.",
+       "tx": "Un cappuccino e una pannacotta, per favore.",
+       "rd": "운 카푸치노 에 우나 판나코따 페르 파보레"
+      },
+      {
+       "ko": "(중간에…) 모두 괜찮나요?",
+       "tx": "Tutto OK?",
+       "rd": "뚜또 오케이?"
+      },
+      {
+       "ko": "전부 맛있어요.",
+       "tx": "Tutto è stato di mio gradimento.",
+       "rd": "뚜또 에 스타토 디 미오 그라디멘토"
+      },
+      {
+       "ko": "디저트 메뉴판을 주실 수 있을까요?",
+       "tx": "Posso avere il menù dei dolci, per favore?",
+       "rd": "포쏘 아베레 일 메누 데이 돌치 페르 파보레?"
+      },
+      {
+       "ko": "모두 다 맛있어 보인다.",
+       "tx": "Tutto mi sembra buono.",
+       "rd": "뚜또 미 셈브라 부오노"
+      }
+     ]
+    },
+    {
+     "title": "치즈나 올리브 오일을 사 봅시다",
+     "words": [
+      {
+       "ko": "200g의 모짜렐라를 주시겠어요?",
+       "tx": "Mi può dare 200 g di mozzarella, per favore?",
+       "rd": "미 뿌오 다레 두에첸토 그람모 디 모짜렐라 페르 파보레?"
+      },
+      {
+       "ko": "500ml의 올리브 오일을 주시겠어요?",
+       "tx": "Posso avere 500 ml di olio d'oliva, per favore?",
+       "rd": "포쏘 아베레 친퀘첸토 밀리리트로 디 올리오 돌리바 페르 파보레?"
+      },
+      {
+       "ko": "어떤 성분들이 들어 있나요?",
+       "tx": "Quali ingredienti ci sono?",
+       "rd": "꽐리 인그레디엔티 치 쏘노?"
+      }
+     ]
+    },
+    {
+     "title": "달달한 간식은 여행의 또 다른 재미죠 — 파스티체리아에서",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      },
+      {
+       "ko": "무엇을 선택하시겠어요?",
+       "tx": "Che cosa desidera?",
+       "rd": "께 꼬자 데지데라?"
+      },
+      {
+       "ko": "선물할 만한 것을 추천해 주실 수 있나요?",
+       "tx": "Può consigliarmi qualcosa di bello come regalo?",
+       "rd": "푸오 콘실리아르미 꽐꼬자 디 벨로 꼬메 레갈로?"
+      },
+      {
+       "ko": "초콜릿 한 꾸러미를 추천해요.",
+       "tx": "Consiglio un pacco di cioccolato.",
+       "rd": "콘실리오 운 파꼬 디 쵸꼴라토"
+      },
+      {
+       "ko": "초콜릿 안에 술이 들어 있나요?",
+       "tx": "C'è liquore nel cioccolato?",
+       "rd": "체 리꾸오레 넬 쵸꼴라토?"
+      },
+      {
+       "ko": "네, 들어 있어요.",
+       "tx": "Sì, c'è.",
+       "rd": "씨 체에"
+      },
+      {
+       "ko": "설탕이 빠진 것도 있나요?",
+       "tx": "Avete qualcosa con meno zucchero?",
+       "rd": "아베떼 꽐꼬자 꼰 메노 주께로?"
+      },
+      {
+       "ko": "비스킷을 원하시나요?",
+       "tx": "Vuole dei biscotti?",
+       "rd": "부올레 데이 비스코띠?"
+      },
+      {
+       "ko": "그러면, 비스킷 한 꾸러미 주세요.",
+       "tx": "Allora, un pacco di biscotti, per favore.",
+       "rd": "알로라 운 파꼬 디 비스코띠 페르 파보레"
+      },
+      {
+       "ko": "15유로입니다.",
+       "tx": "Costa 15 euro.",
+       "rd": "코스타 뀐디치 에우로"
+      },
+      {
+       "ko": "저는 50유로만 가지고 있어요. 거슬러 주시겠어요?",
+       "tx": "Ho solo 50 euro. Mi può dare il resto, per favore?",
+       "rd": "오 쏠로 친꽌따 에우로. 미 푸오 다레 일 레스토 페르 파보레?"
+      },
+      {
+       "ko": "여기 있습니다. 35유로예요.",
+       "tx": "Ecco a Lei. 35 euro.",
+       "rd": "에꼬 아 레이 트렌타 친꿰 에우로"
+      },
+      {
+       "ko": "감사합니다.",
+       "tx": "Grazie.",
+       "rd": "그라찌에"
+      }
+     ]
+    },
+    {
+     "title": "돌체를 사 봅시다",
+     "words": [
+      {
+       "ko": "이 케이크 한 조각 주세요.",
+       "tx": "Un pezzo di questa torta, per favore.",
+       "rd": "운 페쪼 디 꿰스따 토르타 페르 파보레"
+      },
+      {
+       "ko": "추천 메뉴가 있나요?",
+       "tx": "Che cosa c'è di speciale?",
+       "rd": "께 꼬자 체 디 스페챨레?"
+      },
+      {
+       "ko": "마롱글라세 5개 주세요.",
+       "tx": "5 marrone canditi, per favore.",
+       "rd": "친퀘 마로네 칸디티 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아의 돌체",
+     "words": [
+      {
+       "ko": "크림 파이",
+       "tx": "santa rosa",
+       "rd": "산타 로자"
+      },
+      {
+       "ko": "바바",
+       "tx": "babà",
+       "rd": "바바"
+      },
+      {
+       "ko": "슈크림",
+       "tx": "bigne",
+       "rd": "비녜"
+      },
+      {
+       "ko": "사과 케이크",
+       "tx": "torta di mela",
+       "rd": "토르타 디 멜라"
+      },
+      {
+       "ko": "초콜릿 케이크",
+       "tx": "torta di cioccolato",
+       "rd": "토르타 디 쵸꼴라토"
+      },
+      {
+       "ko": "화이트 초콜릿 무스",
+       "tx": "mousse di cioccolato bianco",
+       "rd": "모우쎄 디 쵸꼴라토 비안꼬"
+      },
+      {
+       "ko": "여기서 먹어도 되나요?",
+       "tx": "Posso mangiare qua?",
+       "rd": "포쏘 만쟈레 꽈?"
+      },
+      {
+       "ko": "선물용으로 가져갈게요, 감사합니다.",
+       "tx": "Lo porto via come un regalo, grazie.",
+       "rd": "로 포르토 비아 꼬메 운 레갈로 그라찌에"
+      },
+      {
+       "ko": "며칠이나 유지되나요?",
+       "tx": "Quanti giorni si mantiene?",
+       "rd": "꽌띠 죠르니 씨 만티에네?"
+      }
+     ]
+    },
+    {
+     "title": "젤라또를 주문해 봅시다",
+     "words": [
+      {
+       "ko": "콘을 원하시나요 컵을 원하시나요?",
+       "tx": "Vuole cono o coppa?",
+       "rd": "부올레 코노 오 코빠?"
+      },
+      {
+       "ko": "헤이즐넛과 초콜릿을 콘으로 주세요.",
+       "tx": "Vorrei un cono alla nocciola e cioccolato.",
+       "rd": "보레이 운 코노 알라 노춀라 에 쵸꼴라토"
+      },
+      {
+       "ko": "이것은 무슨 맛인가요?",
+       "tx": "Che gusto è questo?",
+       "rd": "께 구스토 에 꿰스또?"
+      },
+      {
+       "ko": "카라멜 소스와 말린 과일을 함께 주실 수 있나요?",
+       "tx": "Con salsa caramellata e frutta secca, per favore.",
+       "rd": "꼰 살사 카라멜라타 에 프루따 세까 페르 파보레"
+      },
+      {
+       "ko": "시식할 수 있나요?",
+       "tx": "Posso assaggiare?",
+       "rd": "포쏘 아싸쨔레?"
+      }
+     ]
+    },
+    {
+     "title": "와인 주문하기",
+     "words": [
+      {
+       "ko": "이 와인으로 주세요.",
+       "tx": "Vorrei questo vino, per favore.",
+       "rd": "보레이 꿰스또 비노 페르 파보레"
+      },
+      {
+       "ko": "저에게 어떤 와인을 추천하시나요?",
+       "tx": "Quale vino mi consiglia?",
+       "rd": "꽐레 비노 미 콘실리아?"
+      },
+      {
+       "ko": "달콤한 와인은 무엇인가요?",
+       "tx": "Qual'è il vino dolce?",
+       "rd": "꽐레 일 비노 돌체?"
+      },
+      {
+       "ko": "지역 와인은 무엇인가요?",
+       "tx": "Qual'è il vino locale?",
+       "rd": "꽐레 일 비노 로칼레?"
+      },
+      {
+       "ko": "와인 목록을 볼 수 있을까요?",
+       "tx": "Posso vedere la lista dei vini?",
+       "rd": "포쏘 베데레 라 리스타 데이 비니?"
+      },
+      {
+       "ko": "맛볼 수 있을까요?",
+       "tx": "Vorrei assaggiare.",
+       "rd": "보레이 아싸쨔레?"
+      },
+      {
+       "ko": "하우스 레드 와인 한 잔 주세요.",
+       "tx": "Un bicchiere di vino rosso della casa, per favore.",
+       "rd": "운 비끼에레 디 비노 로쏘 델라 까자 페르 파보레"
+      },
+      {
+       "ko": "반 병이 있나요?",
+       "tx": "Avete una mezza bottiglia?",
+       "rd": "아베떼 우나 메짜 보띨리아?"
+      },
+      {
+       "ko": "이 음식과 잘 어울리는 와인을 저에게 추천해 주실 수 있나요?",
+       "tx": "Può consigliarmi un vino adatto per questo piatto?",
+       "rd": "푸오 콘실리아르미 운 비노 아다또 페르 꿰스또 피아또?"
+      }
+     ]
+    },
+    {
+     "title": "호텔에서 조식을 먹을 때",
+     "words": [
+      {
+       "ko": "방에서 아침을 먹어도 될까요?",
+       "tx": "Posso fare colazione in camera?",
+       "rd": "포쏘 파레 콜라찌오네 인 카메라?"
+      },
+      {
+       "ko": "아침 8시에 그것을 가져다 주시겠어요?",
+       "tx": "Mi può portare alle 8 di mattina, per favore?",
+       "rd": "미 푸오 포르타레 알레 오또 디 마띠나 페르 파보레?"
+      },
+      {
+       "ko": "빵과 커피요, 부탁합니다.",
+       "tx": "Pane e un caffè, per favore.",
+       "rd": "파네 에 운 까페 페르 파보레"
+      },
+      {
+       "ko": "아침은 뷔페식인가요?",
+       "tx": "La colazione è al buffe?",
+       "rd": "라 콜라찌오네 에 알 부페?"
+      },
+      {
+       "ko": "아침 식사는 몇 시 부터입니까?",
+       "tx": "Da che ora si fa colazione?",
+       "rd": "다 께 오라 씨 파 콜라찌오네?"
+      }
+     ]
+    },
+    {
+     "title": "한국을 소개해 봅시다 — 음식",
+     "words": [
+      {
+       "ko": "○○는 한국에서 매우 인기 있는 요리입니다.",
+       "tx": "___ è un piatto molto popolare in Corea.",
+       "rd": "___ 에 운 피아또 몰또 포폴라레 인 꼬레아"
+      },
+      {
+       "ko": "김밥: 김밥은 밥 위에 각종 재료를 얹고 김으로 말아서 먹는 음식입니다.",
+       "tx": "Kimbab è un cibo che viene mangiato mettendo vari ingredienti nel riso e poi ripiegando dalla alga.",
+       "rd": "김밥 에 운 치보 께 비에네 만쟈토 메뗀도 바리 인그레덴띠 넬 리조에 포이 리피에간도 달라 알가"
+      },
+      {
+       "ko": "불고기: 간장과 설탕으로 만든 소스에 소고기와 각종 야채를 볶아서 만든 음식입니다.",
+       "tx": "Bulgogi è un cibo che mette la braciola mescolato con varie verdure e salsa di soia e zucchero.",
+       "rd": "불고기 에운 치보 께 메떼 라 브라춀라 메스콜라토 꼰 바리에 베르두레 에 살사 디 소이아 에 주께로"
+      },
+      {
+       "ko": "비빔밥: 밥 위에 다양한 재료를 올리고 고추장 소스와 함께 비벼 먹는, 색이 다채로운 음식입니다.",
+       "tx": "Bibimbap è un alimento colorato che si mangia sollevando vari ingredienti sul riso e mescolando con la salsa di peperoncino.",
+       "rd": "비빔밥 에 운 알리멘토 콜로라토 께 씨 만쟈 솔레반도 바리 인그레디엔티 술 리조 에 메스콜란도 꼰 라 살사 디 페페론치노"
+      },
+      {
+       "ko": "김치: 채소를 소금에 절인 뒤 여러 가지 양념에 버무린 한국의 가장 대표적인 음식입니다.",
+       "tx": "kimchi è un cibo più tipico della Corea, che viene insaporito dopo aver salato le verdure.",
+       "rd": "김치 에 운 치보 뷰 티피코 델라 꼬레아 께 비에네 인사포리토 도보 아베르 살라토 레 베르두레"
+      },
+      {
+       "ko": "삼계탕: 닭과 인삼을 함께 오래 끓여서 먹는 한국 전통 음식입니다.",
+       "tx": "Samgyetang è un cibo tradizionale coreano che si mangia facendo bollire pollo per molto tempo e ginseng.",
+       "rd": "삼계탕 에 운 치보 트라디찌오날레 꼬레아노 께 씨 만쟈 파첸도 볼리레 폴로 페르 몰또 템포 에 진셍"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "title": "쇼핑",
+   "emoji": "🛍️",
+   "sections": [
+    {
+     "title": "즐겁게 나만의 패션 스타일을 찾아봅시다 — 먼저 가고 싶은 상점들을 찾아봅시다",
+     "words": [
+      {
+       "ko": "백화점이 어디에 있나요?",
+       "tx": "Dove c'è un grande magazzino?",
+       "rd": "도베 체 운 그란데 마가찌노?"
+      },
+      {
+       "ko": "걸어서 거기까지 갈 수 있나요?",
+       "tx": "Ci si arriva a piedi?",
+       "rd": "치 씨 아리바 아 피에디?"
+      },
+      {
+       "ko": "그것을 어디에서 살 수 있나요?",
+       "tx": "Dove posso comprarlo?",
+       "rd": "도베 포쏘 콤프라를로?"
+      }
+     ]
+    },
+    {
+     "title": "상점에 대한 정보를 물어봅시다",
+     "words": [
+      {
+       "ko": "영업시간을 알 수 있을까요?",
+       "tx": "Mi fa sapere l'orario di apertura, per favore?",
+       "rd": "미 파 사페레 로라리오 디 아페르투라 페르 파보레?"
+      },
+      {
+       "ko": "휴무일은 언제인가요?",
+       "tx": "Quando è la chiusura?",
+       "rd": "꽌도 에 라 끼우수라?"
+      },
+      {
+       "ko": "매장 안내도가 있나요?",
+       "tx": "C'è una piantina del negozio?",
+       "rd": "체 우나 피안티나 델 네고찌오?"
+      },
+      {
+       "ko": "신발을 사려면 어디로 가야 하나요?",
+       "tx": "Dove posso andare per comprare le scarpe?",
+       "rd": "도베 포쏘 안다레 페르 콤프라레 레 스카르페?"
+      },
+      {
+       "ko": "에스컬레이터[엘리베이터]가 어디에 있나요?",
+       "tx": "Dov'è la scala mobile[l'ascensore]?",
+       "rd": "도베 라 스칼라 모빌레[라셴소레]?"
+      },
+      {
+       "ko": "가방 매장을 찾고 있어요.",
+       "tx": "Cerco dove vendono borse.",
+       "rd": "체르코 도베 벤도노 보르세"
+      },
+      {
+       "ko": "짐을 맡아 줄 수 있는 곳이 있나요?",
+       "tx": "C'è un posto dove posso lasciare i miei bagagli?",
+       "rd": "체 운 포스토 도베 포쏘 라샤레 이 미에이 바갈리?"
+      },
+      {
+       "ko": "한국어를 할 줄 아는 사람이 있나요?",
+       "tx": "C'è qualcuno che parla coreano?",
+       "rd": "체 꽐꾸노 께 파를라 꼬레아노?"
+      },
+      {
+       "ko": "매장에 현금 인출기가 있나요?",
+       "tx": "C'è distributore denaro in negozio?",
+       "rd": "체 디스트리부토레 데나로 인 네고찌오?"
+      },
+      {
+       "ko": "고객 서비스 창구는 어디인가요?",
+       "tx": "Dov'è lo sportello servizio clienti?",
+       "rd": "도베 로 스포르텔로 세르비쬬 클리엔티?"
+      }
+     ]
+    },
+    {
+     "title": "가게 안으로 들어가면",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      },
+      {
+       "ko": "무엇을 찾으시나요?",
+       "tx": "Cerca qualcosa?",
+       "rd": "체르카 꽐꼬자?"
+      },
+      {
+       "ko": "그냥 보고 있어요, 감사합니다.",
+       "tx": "Sto solo guardando, grazie.",
+       "rd": "스토 쏠로 과르단도 그라찌에"
+      },
+      {
+       "ko": "또 올게요.",
+       "tx": "Vengo di nuovo.",
+       "rd": "벤고 디 누오보"
+      },
+      {
+       "ko": "실례합니다, 질문 하나 할 수 있을까요?",
+       "tx": "Scusi, posso farLe una domanda?",
+       "rd": "스쿠지 포쏘 파를레 우나 도만다?"
+      },
+      {
+       "ko": "이것과 어울리는 신발이 있나요?",
+       "tx": "Avete scarpe che si intonano con questo?",
+       "rd": "아베떼 스카르페 께 씨 인토나노 꼰 꿰스또?"
+      },
+      {
+       "ko": "어머니께 선물할 가디건을 찾아요.",
+       "tx": "Cerco un cardigan come regalo per mamma.",
+       "rd": "체르코 운 카르디간 꼬메 레갈로 페르 맘마"
+      },
+      {
+       "ko": "이 잡지에 있는 것과 동일한 블라우스를 보고 싶어요.",
+       "tx": "Vorrei vedere la camicetta uguale a quella della rivista.",
+       "rd": "보레이 베데레 라 카미체따 우괄레 아 꿸라 델라 리비스타"
+      },
+      {
+       "ko": "검은색 자켓과 어울리는 밝은 스커트가 있나요?",
+       "tx": "Avete una gonna chiara che ci sta con la giacca nera?",
+       "rd": "아베떼 우나 곤나 끼아라 께 치 스타 꼰 라 쟈까 네라?"
+      },
+      {
+       "ko": "사무용 정장을 찾아요.",
+       "tx": "Cerco un completo per lavoro.",
+       "rd": "체르코 운 콤플레토 페르 라보로"
+      },
+      {
+       "ko": "실례합니다, 이거로 주세요.",
+       "tx": "Scusi, questo, per favore.",
+       "rd": "스쿠지 꿰스토 페르 파보레"
+      },
+      {
+       "ko": "얼마인가요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스타?"
+      },
+      {
+       "ko": "친구에게 선물할 스카프를 찾고 있어요.",
+       "tx": "Cerco una sciarpa come regalo per un'amica.",
+       "rd": "체르코 우나 샤르파 꼬메 레갈로 페르 우나미카"
+      },
+      {
+       "ko": "신상품 카탈로그가 있나요?",
+       "tx": "Avete un catalogo dei prodotti nuovi?",
+       "rd": "아베떼 운 카타로고 데이 프로도띠 누오비?"
+      },
+      {
+       "ko": "가을용 스커트가 있나요?",
+       "tx": "Avete gia gonne autunnali?",
+       "rd": "아베떼 쟈 곤네 아우툰날리?"
+      },
+      {
+       "ko": "면 스웨터가 있나요?",
+       "tx": "C'è un maglione di cotone?",
+       "rd": "체 운 말리오네 디 코토네?"
+      },
+      {
+       "ko": "이것을 보고 싶어요.",
+       "tx": "Vorrei vedere questo.",
+       "rd": "보레이 베데레 꿰스또"
+      },
+      {
+       "ko": "캐주얼한[우아한] 옷을 찾고 있어요.",
+       "tx": "Cerco cose casual[eleganti].",
+       "rd": "체르코 꼬제 카수알[엘레간티]"
+      },
+      {
+       "ko": "오른쪽[왼쪽]에서 세 번째 것을 볼 수 있을까요?",
+       "tx": "Posso vedere la terza da destra[sinistra]?",
+       "rd": "포쏘 베데레 라 테르짜 다 데스트라[씨니스트라]?"
+      },
+      {
+       "ko": "이 브랜드는 뭐라고 불리나요?",
+       "tx": "Come si chiama questa marca?",
+       "rd": "꼬메 씨 끼아마 꿰스따 마르카?"
+      },
+      {
+       "ko": "새로운 것이 있나요?",
+       "tx": "C'è qualche novità?",
+       "rd": "체 꽐께 노비타?"
+      },
+      {
+       "ko": "이것과 똑같은 것이 있나요?",
+       "tx": "C'è ne uno uguale a questo?",
+       "rd": "체 네 우노 우괄레 아 꿰스또?"
+      },
+      {
+       "ko": "조금 생각해 볼게요.",
+       "tx": "Ci penso un po'.",
+       "rd": "치 펜소 운 뽀"
+      },
+      {
+       "ko": "진품인가요?",
+       "tx": "È originale?",
+       "rd": "에 오리지날레?"
+      }
+     ]
+    },
+    {
+     "title": "마음에 드는 물건을 찾아봅시다",
+     "words": [
+      {
+       "ko": "이걸로 가져갈게요.",
+       "tx": "Prendo questo.",
+       "rd": "프렌도 꿰스또"
+      },
+      {
+       "ko": "디자인이 비슷한 것이 있나요?",
+       "tx": "Avete qualcosa di simile?",
+       "rd": "아베떼 꽐꼬자 디 씨밀레?"
+      },
+      {
+       "ko": "다른 옷을 입어 봐도 되나요?",
+       "tx": "Posso provare un altro vestito?",
+       "rd": "포쏘 프로바레 운 알트로 베스티토?"
+      },
+      {
+       "ko": "만져 봐도 되나요?",
+       "tx": "Posso toccare?",
+       "rd": "포쏘 토까레?"
+      },
+      {
+       "ko": "이것을 입어 봐도 되나요?",
+       "tx": "Posso provarlo?",
+       "rd": "포쏘 프로바를로?"
+      },
+      {
+       "ko": "거울을 볼 수 있을까요?",
+       "tx": "Posso vedermi allo specchio?",
+       "rd": "포쏘 베데르미 알로 스페꾜?"
+      },
+      {
+       "ko": "거울이 어디에 있나요?",
+       "tx": "Dov'è lo specchio?",
+       "rd": "도베 로 스페꾜?"
+      },
+      {
+       "ko": "(액세서리 등을) 해 봐도 되나요?",
+       "tx": "Posso provarlo?",
+       "rd": "포쏘 프로바를로?"
+      },
+      {
+       "ko": "제 사이즈는 40이에요.",
+       "tx": "La mia taglia è 40.",
+       "rd": "라 미아 탈리아 에 꽈란타"
+      },
+      {
+       "ko": "아름다워요!",
+       "tx": "Che bello!",
+       "rd": "께 벨로!"
+      },
+      {
+       "ko": "딱 맞아요.",
+       "tx": "È la taglia giusta.",
+       "rd": "에 라 탈리아 쥬스타"
+      },
+      {
+       "ko": "38 사이즈 있나요?",
+       "tx": "Avete la 38?",
+       "rd": "아베떼 라 트렌토토?"
+      },
+      {
+       "ko": "저한테 조금 작네요[크네요].",
+       "tx": "È un po' piccolo[grande] per me.",
+       "rd": "에 운 뽀 피꼴로[그란데] 페르 메"
+      },
+      {
+       "ko": "한 사이즈 큰 [작은] 게 있나요?",
+       "tx": "Avete la taglia più grande[piccola]?",
+       "rd": "아베떼 라 탈리아 뷰 그란데[피꼴라]?"
+      },
+      {
+       "ko": "너무 길어요[짧아요].",
+       "tx": "È troppo lungo[corto].",
+       "rd": "에 트로뽀 룽고[코르토]"
+      },
+      {
+       "ko": "두꺼운 [얇은] 코트를 원해요.",
+       "tx": "Vorrei un cappotto pesante[leggero].",
+       "rd": "보레이 운 카뽀또 페산테[레쩨로]"
+      },
+      {
+       "ko": "사이즈가 맞지 않아요.",
+       "tx": "La taglia non è quella giusta.",
+       "rd": "라 탈리아 논 에 꿸라 쥬스타"
+      },
+      {
+       "ko": "죄송합니다, 다음에 또 올게요.",
+       "tx": "Scusi, torniamo più tardi.",
+       "rd": "스쿠지 토르니아모 뷰 타르디"
+      },
+      {
+       "ko": "다른 것 좀 보고 올게요.",
+       "tx": "Vado a vedere qualcos'altro.",
+       "rd": "바도 아 베데레 꽐꼬잘트로"
+      },
+      {
+       "ko": "무엇이 인기 있나요?",
+       "tx": "Qual'è più di successo?",
+       "rd": "꽐레 뷰 디 수체쏘?"
+      }
+     ]
+    },
+    {
+     "title": "점원에게 물어봅시다",
+     "words": [
+      {
+       "ko": "사이즈를 조정해 주실 수 있나요?",
+       "tx": "Può farla aggiustare per la mia misura, per favore?",
+       "rd": "푸오 파를라 아쮸스타레 페르 라 미아 미수라 페르 파보레?"
+      },
+      {
+       "ko": "(시간이) 얼마나 걸리나요?",
+       "tx": "Quanto tempo ci vuole?",
+       "rd": "꽌또 템포 치 부올레?"
+      },
+      {
+       "ko": "다른 디자인[색]이 있나요?",
+       "tx": "C'è un altro disegno[colore]?",
+       "rd": "체 운 알트로 디세뇨[콜로레]?"
+      },
+      {
+       "ko": "검은색이 있나요?",
+       "tx": "Avete nero?",
+       "rd": "아베떼 네로?"
+      },
+      {
+       "ko": "다른 색들이 있나요?",
+       "tx": "Avete altri colori?",
+       "rd": "아베떼 알트리 콜로리?"
+      },
+      {
+       "ko": "이것은 순금[은]인가요?",
+       "tx": "Questo è d'oro puro[d'argento]?",
+       "rd": "꿰스토 에 도로 푸로[다르젠토]?"
+      },
+      {
+       "ko": "무슨 재료로 만들어졌나요?",
+       "tx": "Di che materiale è?",
+       "rd": "디 께 마테리알레 에?"
+      },
+      {
+       "ko": "캐시미어[면] 소재로 된 것이 있나요?",
+       "tx": "Avete qualcosa di cashmere[cottone]?",
+       "rd": "아베떼 꽐꼬자 디 카쉬메레[코또네]?"
+      },
+      {
+       "ko": "이것은 워터프루프인가요?",
+       "tx": "È impermeabilizzato?",
+       "rd": "에 임페르메아빌리짜토?"
+      }
+     ]
+    },
+    {
+     "title": "계산할 때",
+     "words": [
+      {
+       "ko": "전부 얼마인가요?",
+       "tx": "Quanto costa in totale?",
+       "rd": "꽌또 코스타 인 토탈레?"
+      },
+      {
+       "ko": "세금이 포함되어 있나요?",
+       "tx": "Le tasse sono incluse?",
+       "rd": "레 타쎄 쏘노 인클루제?"
+      },
+      {
+       "ko": "신용 카드로 결제할 수 있나요?",
+       "tx": "Posso pagare con questa carta di credito?",
+       "rd": "포쏘 파가레 꼰 꿰스따 카르타 디 크레디토?"
+      },
+      {
+       "ko": "면세로 이것을 살 수 있나요?",
+       "tx": "Posso comprarlo senza tasse?",
+       "rd": "포쏘 콤프라를로 센짜 타쎄?"
+      },
+      {
+       "ko": "면세 신고서를 주실 수 있나요?",
+       "tx": "Posso avere un modulo per il rimborso delle tasse?",
+       "rd": "포쏘 아베레 운 모둘로 페르 일 림보르소 델레 타쎄?"
+      },
+      {
+       "ko": "영수증에 오류가 있어요.",
+       "tx": "C'è un errore nel conto.",
+       "rd": "체 운 에로레 넬 콘토"
+      },
+      {
+       "ko": "거스름돈이 잘못됐어요.",
+       "tx": "Il resto è sbagliato.",
+       "rd": "일 레스토 에 스발리아토"
+      }
+     ]
+    },
+    {
+     "title": "환불, 교환, 클레임이 있다면",
+     "words": [
+      {
+       "ko": "이건 제가 구매한 것과 다른 거예요.",
+       "tx": "Dopo aperto ho visto che il prodotto è diverso.",
+       "rd": "도포 아페르토 오 비스토 께 일 프로도또 에 디베르소"
+      },
+      {
+       "ko": "전혀 사용하지 않았어요.",
+       "tx": "Non l'ho ancora usato.",
+       "rd": "논 로 안코라 우자토"
+      }
+     ]
+    },
+    {
+     "title": "마음에 드는 구두나 가방을 사러 가고 싶어요 — 구두 가게에서",
+     "words": [
+      {
+       "ko": "이 모델에 36 사이즈가 있나요?",
+       "tx": "Avete la taglia 36 di questo modello?",
+       "rd": "아베떼 라 탈리아 트렌타 쎄이 디 꿰스토 모델로?"
+      },
+      {
+       "ko": "조금 달라붙는 것[널널한 것] 같네요.",
+       "tx": "Mi sta un po' stretto [largo].",
+       "rd": "미 스타 운 뽀 스트레또[라르고]"
+      },
+      {
+       "ko": "발끝이 딱 맞아요.",
+       "tx": "Mi tocca la punta dei piedi.",
+       "rd": "미 토까 라 푼타 데이 피에디"
+      },
+      {
+       "ko": "반 사이즈 더 큰 것[작은 것]이 있나요?",
+       "tx": "Avete mezza taglia più grande[piccola]?",
+       "rd": "아베떼 메짜 탈리아 뷰 그란데[피꼴라]?"
+      },
+      {
+       "ko": "굽이 너무 높아요[낮아요].",
+       "tx": "Il tacco è troppo alto[basso].",
+       "rd": "일 타꼬 에 트로뽀 알토[바쏘]"
+      },
+      {
+       "ko": "딱 맞아요!",
+       "tx": "La misura è giusta!",
+       "rd": "라 미수라 에 쥬스타!"
+      },
+      {
+       "ko": "저는 이게 좋아요.",
+       "tx": "Mi piace questo.",
+       "rd": "미 피아체 꿰스또"
+      }
+     ]
+    },
+    {
+     "title": "가방 가게에서",
+     "words": [
+      {
+       "ko": "검은색 가방을 원해요.",
+       "tx": "Vorrei una borsa nera.",
+       "rd": "보레이 우나 보르사 네라"
+      },
+      {
+       "ko": "버튼으로[지퍼로] 닫히는 것을 선호합니다.",
+       "tx": "Come chiusura preferisco con i bottoni[a zip].",
+       "rd": "꼬메 끼우수라 프레페리스코 꼰 이 보또니[아 지프]"
+      },
+      {
+       "ko": "좀 더 큰 것[작은 것]이 있나요?",
+       "tx": "Avete più grande[piccolo]?",
+       "rd": "아베떼 뷰 그란데[피꼴로]?"
+      },
+      {
+       "ko": "다른 색이 있나요?",
+       "tx": "Avete un altro colore?",
+       "rd": "아베떼 운 알트로 콜로레?"
+      },
+      {
+       "ko": "새로운 제품들이 있나요?",
+       "tx": "Ci sono i prodotti nuovi?",
+       "rd": "치 쏘노 이 프로도띠 누오비?"
+      },
+      {
+       "ko": "어떤 게 더 잘 팔리나요?",
+       "tx": "Qual'è più alla moda?",
+       "rd": "꽐레 뷰 알라 모다?"
+      },
+      {
+       "ko": "밝은 색을 선호해요.",
+       "tx": "Preferisco un colore brillante.",
+       "rd": "프레페리스코 운 콜로레 브릴란테"
+      },
+      {
+       "ko": "주머니와 칸막이가 같은 것이 있나요?",
+       "tx": "Avete qualcosa con tasca e divisorio?",
+       "rd": "아베떼 꽐꼬자 꼰 타스카 에 디비소리오?"
+      }
+     ]
+    },
+    {
+     "title": "액세서리도 사러 가 봅시다 — 마음에 드는 액세서리를 찾아봅시다",
+     "words": [
+      {
+       "ko": "이 반지를 볼 수 있을까요?",
+       "tx": "Posso vedere questo anello?",
+       "rd": "포쏘 베데레 꿰스또 아넬로?"
+      },
+      {
+       "ko": "이건 어떤 종류의 돌인가요?",
+       "tx": "Che tipo di pietra è questa?",
+       "rd": "께 티포 디 피에트라 에 꿰스따?"
+      },
+      {
+       "ko": "몇 캐럿인가요?",
+       "tx": "Quanti carati sono?",
+       "rd": "꽌티 카라티 쏘노?"
+      },
+      {
+       "ko": "이탈리아에서 만들어졌나요?",
+       "tx": "È stato fatto in Italia?",
+       "rd": "에 스타토 파또 인 이탈리아?"
+      },
+      {
+       "ko": "어느 정도의 길이를 원하세요?",
+       "tx": "Quanta lunghezza vuole?",
+       "rd": "꽌따 룬게짜 부올레?"
+      },
+      {
+       "ko": "2m로 해 주세요.",
+       "tx": "Due metri, per favore.",
+       "rd": "두에 메트리 페르 파보레"
+      },
+      {
+       "ko": "선물용으로 부탁해도 될까요?",
+       "tx": "Può incartarlo come regalo, per favore?",
+       "rd": "푸오 인카르타를로 꼬메 레갈로 페르 파보레?"
+      },
+      {
+       "ko": "나눠서 포장해 주세요.",
+       "tx": "Può incartarli separatamente, per favore?",
+       "rd": "푸오 인카르타를리 세파라타멘테 페르 파보레?"
+      },
+      {
+       "ko": "리본을 달아 주실 수 있나요?",
+       "tx": "Può metterci un nastro, per favore?",
+       "rd": "푸오 메떼르치 운 나스트로 페르 파보레?"
+      },
+      {
+       "ko": "깨지지 않게 포장해 주시겠어요?",
+       "tx": "Può confezionare con più attenzione, per favore?",
+       "rd": "푸오 콘페찌오나레 꼰 뷰 아뗀찌오네 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "헤매지 않고 화장품을 사는 방법을 알아 둡시다 — 화장품을 찾아봅시다",
+     "words": [
+      {
+       "ko": "파운데이션을 찾아요.",
+       "tx": "Cerco fondotinta.",
+       "rd": "체르코 폰도틴타"
+      },
+      {
+       "ko": "민감한 피부에 사용해도 되나요?",
+       "tx": "Posso usare per pelle sensibile?",
+       "rd": "포쏘 우자레 페르 펠레 센씨빌레?"
+      },
+      {
+       "ko": "낮용[저녁용]인가요?",
+       "tx": "È da giorno[notte]?",
+       "rd": "에 다 죠르노[노떼]?"
+      },
+      {
+       "ko": "첨가물이 있나요?",
+       "tx": "Ci sono additivi?",
+       "rd": "치 쏘노 아디티비?"
+      },
+      {
+       "ko": "이 제품은 어떻게 사용하나요?",
+       "tx": "Come si usa questo prodotto?",
+       "rd": "꼬메 씨 우자 꿰스또 프로도또?"
+      },
+      {
+       "ko": "한국에 없는 화장품이 있나요?",
+       "tx": "Avete cosmetici che non ci sono ancora in Corea?",
+       "rd": "아베떼 코스메티치 께 논 치 쏘노 안코라 인 꼬레아?"
+      },
+      {
+       "ko": "사용해봐도 될까요?",
+       "tx": "Posso provarlo?",
+       "rd": "포쏘 프로바를로?"
+      },
+      {
+       "ko": "자외선 차단 기능이 있나요?",
+       "tx": "Ha effetto contro i raggi ultravioletti?",
+       "rd": "아 에페또 콘트로 이 라찌 울트라비올레띠?"
+      },
+      {
+       "ko": "이것과 비슷한 색이 있나요?",
+       "tx": "Avete un colore simile a questo?",
+       "rd": "아베떼 운 콜로레 씨밀레 아 꿰스또?"
+      },
+      {
+       "ko": "다른 색들을 볼 수 있나요?",
+       "tx": "Posso vedere gli altri colori?",
+       "rd": "포쏘 베데레 리 알트리 콜로리?"
+      },
+      {
+       "ko": "무엇이 새로운 색인가요?",
+       "tx": "Qual'è un colore nuovo?",
+       "rd": "꽐레 운 콜로레 누오보?"
+      },
+      {
+       "ko": "더 밝은[어두운] 파운데이션이 있나요?",
+       "tx": "C'è un fondotinta più chiaro[scuro]?",
+       "rd": "체 운 폰도틴타 뷰 끼아로[스쿠로]?"
+      },
+      {
+       "ko": "스파의 화장품은 무엇인가요?",
+       "tx": "Qual'è il cosmetico di Spa?",
+       "rd": "꽐레 일 코스메티코 디 스파?"
+      },
+      {
+       "ko": "올리브 오일을 사용했나요?",
+       "tx": "Usate olio d'oliva?",
+       "rd": "우자테 올리오 돌리바?"
+      },
+      {
+       "ko": "이것은 얼굴용인가요, 보디용인가요?",
+       "tx": "Questo è per viso o corpo?",
+       "rd": "꿰스토 에 페르 비소 오 코르포?"
+      }
+     ]
+    },
+    {
+     "title": "시장에서 즐기는 소소한 소통 — 메르카토에서 말을 걸어 봅시다",
+     "words": [
+      {
+       "ko": "오렌지 4개를 주시겠어요?",
+       "tx": "Vorrei 4 arance, per favore.",
+       "rd": "보레이 꽈뜨로 아란체 페르 파보레"
+      },
+      {
+       "ko": "딸기 200g 주시겠어요?",
+       "tx": "Posso avere 200g di fragole, per favore?",
+       "rd": "포쏘 아베레 두에첸토 그람마 디 프라골레 페르 파보레?"
+      },
+      {
+       "ko": "햄 한 조각을 주실 수 있나요?",
+       "tx": "Posso avere una fetta di prosciutto, per favore?",
+       "rd": "포쏘 아베레 우나 페따 디 프로슈또 페르 파보레?"
+      },
+      {
+       "ko": "이 정도 덩어리로 주세요.",
+       "tx": "Vorrei una porzione cosi, per favore.",
+       "rd": "보레이 우나 포르찌오네 꼬지 페르 파보레"
+      },
+      {
+       "ko": "어떤 것이 계절 야채[과일]인가요?",
+       "tx": "Qual'è la verdura [frutta] di stagione?",
+       "rd": "꽐레 라 베르두라 [프루따] 디 스타지오네?"
+      },
+      {
+       "ko": "이것은 원산지가 어디인가요?",
+       "tx": "Di dov'è questo?",
+       "rd": "디 도베 꿰스또?"
+      },
+      {
+       "ko": "올리브 한 봉지를 주시겠어요?",
+       "tx": "Mi può dare un sacchetto di olive, per favore?",
+       "rd": "미 푸오 다레 운 사께또 디 올리브 페르 파보레?"
+      },
+      {
+       "ko": "이거 하나만 살 수 있을까요?",
+       "tx": "Posso comprare solo uno?",
+       "rd": "포쏘 콤프라레 쏠로 우노?"
+      },
+      {
+       "ko": "한국에 가져가기 위해 포장할 수 있을까요?",
+       "tx": "Mi può imballare per portare in Corea?",
+       "rd": "미 푸오 임발라레 페르 포르타레 인 꼬레아?"
+      },
+      {
+       "ko": "모두 얼마인가요?",
+       "tx": "Quanto costa in tutto?",
+       "rd": "꽌토 코스타 인 뚜또?"
+      },
+      {
+       "ko": "맛볼 수 있을까요?",
+       "tx": "Posso assaggiare?",
+       "rd": "포쏘 아싸쨔레?"
+      },
+      {
+       "ko": "1kg의 가격인가요?",
+       "tx": "È prezzo di 1 kg?",
+       "rd": "에 프레쬬 디 운 킬로그램?"
+      }
+     ]
+    },
+    {
+     "title": "벼룩시장에서 흥정하기 도전!",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      },
+      {
+       "ko": "안녕하세요, 편히 보고 가세요.",
+       "tx": "Buongiorno. Può vedere. Si accomodi.",
+       "rd": "본죠르노 푸오 베데레 씨 아꼬모디"
+      },
+      {
+       "ko": "이건 무엇인가요?",
+       "tx": "Cos'è questo?",
+       "rd": "꼬제 꿰스또?"
+      },
+      {
+       "ko": "이것은 아티초크예요.",
+       "tx": "Questo è un carciofo.",
+       "rd": "꿰스또 에 운 카르쵸포"
+      },
+      {
+       "ko": "얼마인가요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스타?"
+      },
+      {
+       "ko": "3개를 산다면 할인해서 5유로에 해 줄게요.",
+       "tx": "Se ne compra 3, le faccio uno sconto. Va bene 5 euro.",
+       "rd": "쎄 네 콤프라 뜨레 레 파쵸 우노 스콘토. 바 베네 친꿰 에우로"
+      },
+      {
+       "ko": "좀 더 싸게 해 줄 수 있으신가요?",
+       "tx": "Mi può fare ancora un po' di sconto, per favore?",
+       "rd": "미 푸오 파레 안코라 운 뽀 디 스콘토 페르 파보레?"
+      },
+      {
+       "ko": "알겠어요, 그럼 2유로에 해 드릴게요.",
+       "tx": "Allora, 2 euro va bene.",
+       "rd": "알로라 두에 에우로 바 베네"
+      }
+     ]
+    },
+    {
+     "title": "즐겁게 쇼핑합시다",
+     "words": [
+      {
+       "ko": "야채 코너는 어디인가요?",
+       "tx": "Dov'è il reparto di verdura?",
+       "rd": "도베 일 레파르토 디 베르두라?"
+      },
+      {
+       "ko": "이 가게의 오리지널 상품이 있나요?",
+       "tx": "Avete il prodotto originale di negozio?",
+       "rd": "아베떼 일 프로도또 오리지날레 디 네고찌오?"
+      },
+      {
+       "ko": "오늘 몇 시까지 여나요?",
+       "tx": "Fino a che ora apre oggi?",
+       "rd": "피노 아 께 오라 아프레 오찌?"
+      }
+     ]
+    },
+    {
+     "title": "마음에 드는 향을 찾아봅시다",
+     "words": [
+      {
+       "ko": "좀 더 상쾌한 향이 있나요?",
+       "tx": "Avete un profumo più fresco?",
+       "rd": "아베떼 운 프로푸모 뷰 프레스코?"
+      },
+      {
+       "ko": "이것은 유기농인가요?",
+       "tx": "Questo è biologico?",
+       "rd": "꿰스토 에 비올로지코?"
+      },
+      {
+       "ko": "이 향으로 할게요!",
+       "tx": "Prendo questo profumo.",
+       "rd": "프렌도 꿰스또 프로푸모"
+      },
+      {
+       "ko": "이 상점의 특색 있는 상품이 있나요?",
+       "tx": "Avete il prodotto tipico del negozio?",
+       "rd": "아베떼 일 프로도또 티피코 델 네고찌오?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "enter",
+   "title": "엔터테인먼트",
+   "emoji": "🎭",
+   "sections": [
+    {
+     "title": "공연이나 엔터테인먼트를 감상하고 싶어요 — 예약~공연장에서",
+     "words": [
+      {
+       "ko": "여기서 티켓 예매를 할 수 있나요?",
+       "tx": "Posso prenotare il biglietto qui?",
+       "rd": "포쏘 프레노타레 일 빌리에또 뀌?"
+      },
+      {
+       "ko": "오페라[발레]를 보고 싶어요.",
+       "tx": "Vorrei vedere un'opera lirica[un balletto].",
+       "rd": "보레이 베데레 우노페라 리리카[운 발레또]"
+      },
+      {
+       "ko": "오늘 밤에 공연이 있나요?",
+       "tx": "C'è qualche concerto stasera?",
+       "rd": "체 꽐께 콘체르토 스타세라?"
+      },
+      {
+       "ko": "스칼라 극장에서는 무엇을 하고 있나요?",
+       "tx": "Che cosa danno alla Scala?",
+       "rd": "께 꼬자 단노 알라 스칼라?"
+      },
+      {
+       "ko": "지금 가장 인기 있는 오페라는 무엇인가요?",
+       "tx": "Quale opera è più di successo per ora?",
+       "rd": "꽐레 오페라 에 뷰 디 수체쏘 페르 오라?"
+      },
+      {
+       "ko": "오늘자 티켓이 있나요?",
+       "tx": "Avete il biglietto per oggi?",
+       "rd": "아베떼 일 빌리에또 페르 오찌?"
+      },
+      {
+       "ko": "오늘의 프로그램은 무엇인가요?",
+       "tx": "Quale programma danno oggi?",
+       "rd": "꽐레 프로그램마 단노 오찌?"
+      },
+      {
+       "ko": "가장 저렴한[비싼] 자리는 얼마인가요?",
+       "tx": "Quanto costa un posto più economico[caro]?",
+       "rd": "꽌또 코스타 운 포스토 뷰 에코노미코[카로]?"
+      },
+      {
+       "ko": "어른 두 장 주세요.",
+       "tx": "2 per adulti, per favore.",
+       "rd": "두에 페르 아둘티 페르 파보레"
+      },
+      {
+       "ko": "좋아요, 따로 앉을게요.",
+       "tx": "Va bene anche in posti diversi.",
+       "rd": "바 베네 안께 인 포스티 디베르씨"
+      }
+     ]
+    },
+    {
+     "title": "공연이나 엔터테인먼트를 감상하고 싶어요",
+     "words": [
+      {
+       "ko": "스탠딩 석이 있나요?",
+       "tx": "C'è un posto in piedi?",
+       "rd": "체 운 포스토 인 피에디?"
+      },
+      {
+       "ko": "좌석 배치도를 볼 수 있을까요?",
+       "tx": "Mi può fare vedere la lista dei posti a sedere, per favore?",
+       "rd": "미 푸오 파레 베데레 라 리스타 데이 포스티 아 세데레 페르 파보레?"
+      },
+      {
+       "ko": "공연이 언제 시작하나요?[끝나나요?]",
+       "tx": "A che ora inizia[finisce] lo spettacolo?",
+       "rd": "아 께 오라 이니찌아[피니셰] 로 스페따콜로?"
+      },
+      {
+       "ko": "(티켓을 보여주면서) 자리를 안내해 주실 수 있나요?",
+       "tx": "Mi può fare strada, per favore?",
+       "rd": "미 푸오 파레 스트라다 페르 파보레?"
+      },
+      {
+       "ko": "외투나 소지품을 맡길 곳이 있나요?",
+       "tx": "C'è il guardaroba?",
+       "rd": "체 일 과르다로바?"
+      },
+      {
+       "ko": "택시를 불러 주실 수 있나요?",
+       "tx": "Mi può chiamare un taxi, per favore?",
+       "rd": "미 푸오 끼아마레 운 탁씨 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "술집에서",
+     "words": [
+      {
+       "ko": "괜찮은 바를 추천해 주실 수 있나요?",
+       "tx": "Può consigliarmi un bar carino, per favore?",
+       "rd": "푸오 콘실리아르미 운 바 카리노 페르 파보레?"
+      },
+      {
+       "ko": "어떤 종류의 노래가 나오고 있나요?",
+       "tx": "Che tipo di musica c'è?",
+       "rd": "께 티포 디 무지카 체?"
+      },
+      {
+       "ko": "저는 예매하지 않았어요.",
+       "tx": "Non ho prenotato.",
+       "rd": "논 오 프레노타토"
+      },
+      {
+       "ko": "자리가 있나요?",
+       "tx": "C'è posto?",
+       "rd": "체 포스토?"
+      },
+      {
+       "ko": "이 공연이 언제 시작하나요?",
+       "tx": "Quando comincia lo spettacolo?",
+       "rd": "꽌도 코민챠 로 스페따콜로?"
+      },
+      {
+       "ko": "입장료가 얼마인가요?",
+       "tx": "Qual'è il prezzo d'ingresso?",
+       "rd": "꽐레 일 프레쬬 딘그레쏘?"
+      },
+      {
+       "ko": "예약이 필요한가요?",
+       "tx": "Bisogna prenotare?",
+       "rd": "비소냐 프레노타레?"
+      },
+      {
+       "ko": "라이브 공연이 있나요?",
+       "tx": "C'è uno spettacolo dal vivo?",
+       "rd": "체 우노 스페따콜로 달 비보?"
+      },
+      {
+       "ko": "오늘 사람들이 많이 있나요?",
+       "tx": "C'è tanta gente oggi?",
+       "rd": "체 탄타 젠테 오찌?"
+      },
+      {
+       "ko": "메뉴판 좀 주세요.",
+       "tx": "Il menù, per favore.",
+       "rd": "일 메누 페르 파보레"
+      },
+      {
+       "ko": "하나 더 주시겠어요?",
+       "tx": "Posso averne un altro?",
+       "rd": "포쏘 아베르네 운 알트로?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "title": "뷰티·마사지",
+   "emoji": "💆",
+   "sections": [
+    {
+     "title": "에스테틱으로 힐링을, 한 템포 쉬어가기 — 예약~접수",
+     "words": [
+      {
+       "ko": "여보세요. 이탈리아노인가요?",
+       "tx": "Pronto. È Italiano?",
+       "rd": "프론토 에 이탈리아노?"
+      },
+      {
+       "ko": "예약하고 싶습니다.",
+       "tx": "Vorrei prenotare.",
+       "rd": "보레이 프레노타레"
+      },
+      {
+       "ko": "제 이름은 김미나입니다.",
+       "tx": "Mi chiamo Mina Kim.",
+       "rd": "미 끼아모 미나 킴"
+      },
+      {
+       "ko": "내일 4시에 두 명 예약 부탁드립니다.",
+       "tx": "Domani, per 2 persone alle 4, per favore.",
+       "rd": "도마니 페르 두에 페르소네 알레 꽈뜨로 페르 파보레"
+      },
+      {
+       "ko": "몸 전체 마사지 서비스가 있나요?",
+       "tx": "Ci sono trattamenti massaggio corpo?",
+       "rd": "치 쏘노 트라따멘티 마싸죠 코르포?"
+      },
+      {
+       "ko": "60분 동안 진행되는 몸 전체 마사지로 부탁드립니다.",
+       "tx": "Trattamento massaggio corpo per 60 minuti, per favore.",
+       "rd": "트라따멘토 마싸죠 코르포 페르 쎄싼타 미누티 페르 파보레"
+      },
+      {
+       "ko": "기본 코스로 받을 수 있을까요?",
+       "tx": "Mi può fare il programma di base, per favore?",
+       "rd": "미 푸오 파레 일 프로그람마 디 바세 페르 파보레?"
+      },
+      {
+       "ko": "옵션으로 네일도 부탁합니다.",
+       "tx": "Anche unghia come optional, per favore.",
+       "rd": "안께 운기아 꼬메 옵티오날 페르 파보레"
+      },
+      {
+       "ko": "한국어 하실 수 있는 분이 있나요?",
+       "tx": "C'è qualcuno che parla coreano?",
+       "rd": "체 꽐꾸노 께 빠를라 꼬레아노?"
+      },
+      {
+       "ko": "한국어로 된 메뉴판이 있나요?",
+       "tx": "C'è il menù in coreano?",
+       "rd": "체 일 메누 인 꼬레아노?"
+      }
+     ]
+    },
+    {
+     "title": "에스테틱 — 접수~트리트먼트",
+     "words": [
+      {
+       "ko": "가격표를 볼 수 있을까요?",
+       "tx": "Mi fa vedere la tariffa, per favore?",
+       "rd": "미 파 베데레 라 타리파 페르 파보레?"
+      },
+      {
+       "ko": "얼마예요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스타?"
+      },
+      {
+       "ko": "시간이 얼마나 걸립니까?",
+       "tx": "Quanto tempo ci vuole?",
+       "rd": "꽌또 뗌포 치 부올레?"
+      },
+      {
+       "ko": "어떤 효과가 있습니까?",
+       "tx": "Quale effetto da?",
+       "rd": "꽐레 에페토 다?"
+      },
+      {
+       "ko": "여성 직원을 선호합니다.",
+       "tx": "Preferisco uno staff femminile.",
+       "rd": "프레페리스코 우노 스타프 페미닐레"
+      },
+      {
+       "ko": "같은 방에서 받을 수 있습니까?",
+       "tx": "Possiamo farlo nella stessa stanza?",
+       "rd": "포씨아모 파를로 넬라 스테싸 스탄짜?"
+      }
+     ]
+    },
+    {
+     "title": "에스테틱 — 예약 취소나 변경",
+     "words": [
+      {
+       "ko": "제 예약을 변경하고 싶습니다.",
+       "tx": "Vorrei cambiare la mia prenotazione.",
+       "rd": "보레이 캄비아레 라 미아 프레노타찌오네"
+      },
+      {
+       "ko": "예약을 취소하고 싶습니다.",
+       "tx": "Vorrei cancellare.",
+       "rd": "보레이 칸첼라레"
+      },
+      {
+       "ko": "일행 중 한 명이 올 수 없습니다.",
+       "tx": "Una persona non può venire.",
+       "rd": "우나 페르소나 논 푸오 베니레"
+      },
+      {
+       "ko": "예약 시간에 늦게 도착할 것 같습니다.",
+       "tx": "Arriverò tardi.",
+       "rd": "아리베로 타르디"
+      }
+     ]
+    },
+    {
+     "title": "에스테틱 — 케어를 받으며 알아 두면 좋을 표현들",
+     "words": [
+      {
+       "ko": "여기는 손대지 말아 주십시오.",
+       "tx": "Non toccare qui, per favore.",
+       "rd": "논 토까레 뀌 페르 파보레"
+      },
+      {
+       "ko": "기분이 매우 좋습니다.",
+       "tx": "Mi fa molto bene.",
+       "rd": "미 파 몰또 베네"
+      },
+      {
+       "ko": "아픕니다. / 너무 셉니다.",
+       "tx": "Mi fa male. / È troppo forte.",
+       "rd": "미 파 말레 / 에 트로뽀 포르테"
+      },
+      {
+       "ko": "조금만 약하게[강하게] 해 주실 수 있습니까?",
+       "tx": "Melo può fare un po' più leggero [forte], per favore?",
+       "rd": "멜로 푸오 파레 운 뽀 뷰 레쩨로[포르테] 페르 파보레?"
+      },
+      {
+       "ko": "딱 좋습니다.",
+       "tx": "Mi fa bene.",
+       "rd": "미 파 베네"
+      },
+      {
+       "ko": "약간 아픕니다.",
+       "tx": "Sto un po' male.",
+       "rd": "스토 운 뽀 말레"
+      },
+      {
+       "ko": "물 한 잔만 마실 수 있을까요?",
+       "tx": "Posso avere un po' d'acqua, per favore?",
+       "rd": "포쏘 아베레 운 뽀 다꾸아 페르 파보레?"
+      },
+      {
+       "ko": "화장실을 이용해도 될까요?",
+       "tx": "Posso andare in bagno?",
+       "rd": "포쏘 안다레 인 반뇨?"
+      },
+      {
+       "ko": "로커는 어디에 있나요?",
+       "tx": "Dov'è l'armadietto?",
+       "rd": "도베 라르마디에또?"
+      },
+      {
+       "ko": "저는 습진[알레르기]가 있습니다.",
+       "tx": "Ho l'allergia atopica [l'allergia].",
+       "rd": "오 랄레르쟈 아토피카[랄레르쟈]"
+      },
+      {
+       "ko": "이 향은 무엇입니까?",
+       "tx": "Che cos'è questo profumo?",
+       "rd": "께 꼬제 꿰스또 프로푸모?"
+      },
+      {
+       "ko": "생리 중입니다.",
+       "tx": "Ho le mestruazioni.",
+       "rd": "오 레 메스트루아찌오니"
+      },
+      {
+       "ko": "어깨가 결립니다.",
+       "tx": "Ho una spalla rigida.",
+       "rd": "오 우나 스팔라 리지다"
+      },
+      {
+       "ko": "임신 중입니다.",
+       "tx": "Sono incinta.",
+       "rd": "쏘노 인친타"
+      },
+      {
+       "ko": "성명",
+       "tx": "nome",
+       "rd": ""
+      },
+      {
+       "ko": "생년월일",
+       "tx": "date di nascita",
+       "rd": ""
+      },
+      {
+       "ko": "나이",
+       "tx": "età",
+       "rd": ""
+      },
+      {
+       "ko": "알레르기 (있음/없음)",
+       "tx": "allergia (sì / no)",
+       "rd": ""
+      },
+      {
+       "ko": "컨디션 (좋음/나쁨)",
+       "tx": "condizione (buono / male)",
+       "rd": ""
+      },
+      {
+       "ko": "피부 상태",
+       "tx": "condizone di pelle",
+       "rd": ""
+      },
+      {
+       "ko": "피부 고민",
+       "tx": "problema di pelle",
+       "rd": ""
+      }
+     ]
+    },
+    {
+     "title": "에스테틱 — 끝나고 나서 한마디",
+     "words": [
+      {
+       "ko": "2인분에 얼마입니까?",
+       "tx": "Quanto costa per 2 persone?",
+       "rd": "꽌또 꼬스타 페르 두에 페르쏘네?"
+      },
+      {
+       "ko": "이 신용 카드를 사용할 수 있을까요?",
+       "tx": "Posso usare questa carta di credito?",
+       "rd": "포쏘 우자레 꿰스따 카르타 디 크레디토?"
+      },
+      {
+       "ko": "한국에도 가게가 있습니까?",
+       "tx": "Avete dei negozi in Corea?",
+       "rd": "아베떼 데이 네고찌 인 꼬레아?"
+      },
+      {
+       "ko": "샴푸 하나 주세요.",
+       "tx": "Uno shampoo, per favore.",
+       "rd": "우노 샴푸 페르 파보레"
+      },
+      {
+       "ko": "이 화장품들을 살 수 있나요?",
+       "tx": "Posso comprare questi cosmetici?",
+       "rd": "포쏘 콤프라레 꿰스띠 꼬스메티치?"
+      },
+      {
+       "ko": "매우 좋았습니다.",
+       "tx": "È stato molto bello.",
+       "rd": "에 스타토 몰또 벨로"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "title": "호텔",
+   "emoji": "🏨",
+   "sections": [
+    {
+     "title": "호텔에서 쾌적하게 지내고 싶어요 — 호텔 도착이 늦어질 것 같을 때",
+     "words": [
+      {
+       "ko": "도착이 늦어집니다만, 예약은 유지해 주세요.",
+       "tx": "Arrivo tardi ma mi tenga la camera, per favore.",
+       "rd": "아리보 타르디 마 미 텐가 라 카메라 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "체크인, 체크아웃을 해 봅시다",
+     "words": [
+      {
+       "ko": "체크인을 하고 싶습니다.",
+       "tx": "Vorrei fare la registrazione, per favore.",
+       "rd": "보레이 파레 라 레지스트라찌오네 페르 파보레"
+      },
+      {
+       "ko": "좋은 뷰가 있는 방을 원합니다.",
+       "tx": "Vorrei una camera con un bel panorama, per favore.",
+       "rd": "보레이 우나 까메라 꼰 운 벨 파노라마 페르 파보레"
+      },
+      {
+       "ko": "금연 전용[흡연 전용] 방을 원합니다.",
+       "tx": "Vorrei una camera non fumatori[fumatori], per favore.",
+       "rd": "보레이 우나 까메라 논 푸마토리[푸마토리] 페르 파보레"
+      },
+      {
+       "ko": "예약했습니다.",
+       "tx": "Ho una prenotazione.",
+       "rd": "오 우나 프레노타찌오네"
+      },
+      {
+       "ko": "한국말을 하실 수 있는 분이 있나요?",
+       "tx": "C'è qualcuno che parla coreano?",
+       "rd": "체 꽐꾸노 께 파를라 꼬레아노?"
+      },
+      {
+       "ko": "귀중품을 보관해 주시겠습니까?",
+       "tx": "Posso lasciare oggetti di valore?",
+       "rd": "포쏘 라샤레 오제띠 디 발로레?"
+      },
+      {
+       "ko": "체크아웃 시간이 몇 시인가요?",
+       "tx": "A che ora devo lasciare la camera?",
+       "rd": "아 께 오라 데보 라샤레 라 카메라?"
+      },
+      {
+       "ko": "이 호텔에는 어떤 시설이 있습니까?",
+       "tx": "Quali impianti attrezzati ci sono in albergo?",
+       "rd": "꽐리 임피안티 아뜨레짜티 치 쏘노 인 알베르고?"
+      },
+      {
+       "ko": "자판기는 어디에 있나요?",
+       "tx": "Dov'è il distributore?",
+       "rd": "도베 일 디스트리부토레?"
+      },
+      {
+       "ko": "여기 근처에 좋은 레스토랑이 있나요?",
+       "tx": "C'è un buon ristorante qui vicino?",
+       "rd": "체 운 부온 리스토란테 뀌 비치노?"
+      }
+     ]
+    },
+    {
+     "title": "호텔은 이렇게 되어 있습니다",
+     "words": [
+      {
+       "ko": "룸서비스",
+       "tx": "servizio in camera",
+       "rd": "세르비쬬 인 카메라"
+      },
+      {
+       "ko": "로비",
+       "tx": "hall",
+       "rd": "올"
+      },
+      {
+       "ko": "안내소",
+       "tx": "informazioni",
+       "rd": "인포르마찌오니"
+      },
+      {
+       "ko": "포터",
+       "tx": "facchino",
+       "rd": "파끼노"
+      },
+      {
+       "ko": "프런트",
+       "tx": "reception",
+       "rd": "레쳅티온"
+      },
+      {
+       "ko": "벨보이",
+       "tx": "fattorino",
+       "rd": "파또리노"
+      },
+      {
+       "ko": "클로크",
+       "tx": "guardaroba",
+       "rd": "과르다로바"
+      },
+      {
+       "ko": "객실로 안내해 드리겠습니다.",
+       "tx": "La accompagno in camera.",
+       "rd": "라 아꼼파뇨 인 까메라"
+      },
+      {
+       "ko": "짐을 옮겨드리겠습니다.",
+       "tx": "Le porto i bagagli.",
+       "rd": "레 포르토 이 바갈리"
+      },
+      {
+       "ko": "엘리베이터는 이쪽입니다.",
+       "tx": "L'ascensore è qua.",
+       "rd": "라셴소레 에 꽈"
+      },
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노"
+      }
+     ]
+    },
+    {
+     "title": "방 안에서",
+     "words": [
+      {
+       "ko": "샤워기 사용법을 알려 주시겠습니까?",
+       "tx": "Può farmi vedere come si usa la doccia?",
+       "rd": "푸오 파르미 베데레 꼬메 씨 우자 라 도챠?"
+      },
+      {
+       "ko": "미나 씨, 들어가도 될까요?",
+       "tx": "Signora Mina, posso entrare?",
+       "rd": "씨뇨라 미나 포쏘 엔트라레?"
+      },
+      {
+       "ko": "네, 들어오세요.",
+       "tx": "Sì, prego.",
+       "rd": "씨 프레고"
+      },
+      {
+       "ko": "잠시만요.",
+       "tx": "Solo un attimo.",
+       "rd": "솔로 운 아띠모"
+      },
+      {
+       "ko": "여기는 415호입니다.",
+       "tx": "Questa è la camera 415.",
+       "rd": "꿰스따 에 라 카메라 꽈뜨로첸토뀐디치"
+      },
+      {
+       "ko": "내일 아침 6시에 모닝콜 부탁드립니다.",
+       "tx": "Vorrei la sveglia alle 6 di domattina, per favore.",
+       "rd": "보레이 라 스벨리아 알레 쎄이 디 도마띠나 페르 파보레"
+      },
+      {
+       "ko": "알겠습니다.",
+       "tx": "Sì, d'accordo.",
+       "rd": "씨 다꼬르도"
+      },
+      {
+       "ko": "새로운 수건을 가져다 주세요.",
+       "tx": "Mi porti un asciugamano nuovo, per favore.",
+       "rd": "미 포르티 운 아슈가마노 누오보 페르 파보레"
+      },
+      {
+       "ko": "최대한 빨리 부탁드립니다.",
+       "tx": "Il più presto possibile, per favore.",
+       "rd": "일 퓨 프레스토 포씨빌레 페르 파보레"
+      },
+      {
+       "ko": "룸서비스를 부탁드립니다.",
+       "tx": "Il servizio in camera, per favore.",
+       "rd": "일 세르비쬬 인 카메라 페르 파보레"
+      },
+      {
+       "ko": "커피 한 잔 부탁드립니다.",
+       "tx": "Un caffè, per favore.",
+       "rd": "운 카페 페르 파보레"
+      },
+      {
+       "ko": "약간의 얼음과 물 좀 부탁드립니다.",
+       "tx": "Un po' di ghiaccio e l'acqua, per favore.",
+       "rd": "운 뽀 디 기아쵸 에 라꾸아 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "곤란한 일이 생겼을 때 바로 사용하는 표현",
+     "words": [
+      {
+       "ko": "샤워기가 작동하지 않습니다.",
+       "tx": "La doccia non funziona.",
+       "rd": "라 도챠 논 푼찌오나"
+      },
+      {
+       "ko": "방을 바꿔 주세요.",
+       "tx": "Vorrei cambiare camera.",
+       "rd": "보레이 캄비아레 카메라"
+      },
+      {
+       "ko": "따뜻한 물이 안 나와요.",
+       "tx": "Non esce l'acqua calda.",
+       "rd": "논 에셰 라꾸아 칼다"
+      },
+      {
+       "ko": "변기가 내려가지 않아요.",
+       "tx": "Lo scarico del gabinetto non funziona.",
+       "rd": "로 스카리코 델 가비네또 논 푼찌오나"
+      },
+      {
+       "ko": "램프에 불이 켜지지 않습니다.",
+       "tx": "La luce non si accende.",
+       "rd": "라 루체 논 씨 아첸데"
+      },
+      {
+       "ko": "방 키를 두고 왔어요.",
+       "tx": "Ho lasciato la chiave in camera.",
+       "rd": "오 라샤토 라 끼아베 인 카메라"
+      },
+      {
+       "ko": "누군가를 바로 보내 주실 수 있나요?",
+       "tx": "Può mandare qualcuno subito, per favore?",
+       "rd": "푸오 만다레 꽐꾸노 수비토 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "호텔 시설 및 서비스",
+     "words": [
+      {
+       "ko": "환전을 하고 싶어요.",
+       "tx": "Vorrei cambiare i soldi.",
+       "rd": "보레이 캄비아레 이 솔디"
+      },
+      {
+       "ko": "식당은 어디입니까?",
+       "tx": "Dov'è la sala da pranzo?",
+       "rd": "도베 라 살라 다 프란쬬?"
+      },
+      {
+       "ko": "몇 시에 문을 닫습니까?",
+       "tx": "A che ora finisce?",
+       "rd": "아 께 오라 피니셰?"
+      },
+      {
+       "ko": "예약이 필요합니까?",
+       "tx": "Bisogna prenotare?",
+       "rd": "비소냐 프레노타레?"
+      },
+      {
+       "ko": "아침 식사를 할 식당이 있나요?",
+       "tx": "C'è un bar per fare colazione?",
+       "rd": "체 운 바르 페르 파레 콜라찌오네?"
+      },
+      {
+       "ko": "잠시 이 가방을 맡아 주실 수 있나요?",
+       "tx": "Posso lasciare questo bagaglio per un po', per favore?",
+       "rd": "포쏘 라샤레 꿰스또 바갈리오 페르 운 뽀 페르 파보레?"
+      },
+      {
+       "ko": "이 편지를 항공편으로 부탁합니다.",
+       "tx": "Può spedire questa lettera per via aerea, per favore.",
+       "rd": "푸오 스페디레 꿰스따 레떼라 페르 비아 아에레아 페르 파보레"
+      },
+      {
+       "ko": "한국으로 팩스를 보내고 싶습니다.",
+       "tx": "Vorrei mandare un fax in Corea.",
+       "rd": "보레이 만다레 운 팍스 인 꼬레아"
+      },
+      {
+       "ko": "인터넷을 사용할 수 있습니까?",
+       "tx": "Posso collegarmi ad internet?",
+       "rd": "포쏘 콜레가르미 아드 인테르넷?"
+      },
+      {
+       "ko": "가격이 얼만지 말씀해 주시겠습니까?",
+       "tx": "Mi può dire il prezzo, per favore.",
+       "rd": "미 푸오 디레 일 프레쬬 페르 파보레"
+      },
+      {
+       "ko": "방에서 WiFi를 사용할 수 있습니까?",
+       "tx": "Posso usare WiFi in camera?",
+       "rd": "포쏘 우자레 위피 인 카메라?"
+      },
+      {
+       "ko": "금고를 어떻게 사용하는지 설명해주실 수 있나요?",
+       "tx": "Può spiegarmi come si usa la cassaforte, per favore?",
+       "rd": "푸오 스피에가르미 꼬메 씨 우자 라 카싸포르테 페르 파보레?"
+      },
+      {
+       "ko": "콘센트는 어디 있습니까?",
+       "tx": "Dov'è la presa di corrente?",
+       "rd": "도베 라 프레자 디 코렌테?"
+      },
+      {
+       "ko": "제 앞으로 온 메세지가 있나요?",
+       "tx": "C'è qualche messaggio per me?",
+       "rd": "체 꽐께 메싸쬬 페르 메?"
+      },
+      {
+       "ko": "택시 좀 불러 주세요.",
+       "tx": "Può chiamarmi un taxi, per favore.",
+       "rd": "푸오 끼아마르미 운 탁씨 페르 파보레"
+      },
+      {
+       "ko": "이 호텔의 주소가 있는 카드를 받을 수 있을까요?",
+       "tx": "Posso avere un biglietto con l'indirizzo di questo albergo?",
+       "rd": "포쏘 아베레 운 빌리에또 꼰 린디리쬬 디 꿰스또 알베르고?"
+      },
+      {
+       "ko": "공항으로 가는 버스가 있나요?",
+       "tx": "C'è l'autobus per andare all'aeroporto?",
+       "rd": "체 라우토부스 페르 안다레 알라에로포르토?"
+      },
+      {
+       "ko": "드라이기를 사용해도 될까요?",
+       "tx": "Posso usare un asciugacapelli?",
+       "rd": "포쏘 우자레 운 아슈가카펠리?"
+      },
+      {
+       "ko": "레스토랑을 예약하고 싶습니다.",
+       "tx": "Vorrei prenotare un ristorante.",
+       "rd": "보레이 프레노타레 운 리스토란테"
+      },
+      {
+       "ko": "몸이 안 좋습니다.",
+       "tx": "Mi sento male.",
+       "rd": "미 센토 말레"
+      },
+      {
+       "ko": "의사를 불러 주실 수 있나요?",
+       "tx": "Mi può chiamare un medico, per favore?",
+       "rd": "미 푸오 끼아마레 운 메디코 페르 파보레?"
+      },
+      {
+       "ko": "옆방이 시끄럽습니다.",
+       "tx": "La camera vicina è rumorosa.",
+       "rd": "라 카메라 비치나 에 루모로자"
+      },
+      {
+       "ko": "주차장을 이용해도 될까요?",
+       "tx": "Posso usare parcheggio?",
+       "rd": "포쏘 우자레 파르께쬬?"
+      }
+     ]
+    },
+    {
+     "title": "체크아웃을 합시다",
+     "words": [
+      {
+       "ko": "체크아웃을 부탁합니다.",
+       "tx": "Lascio la camera. Il conto, per favore.",
+       "rd": "라쇼 라 카메라 일 콘토 페르 파보레"
+      },
+      {
+       "ko": "415실의 미나입니다.",
+       "tx": "Mi chiamo Mina, la mia camera è 415.",
+       "rd": "미 끼아모 미나 라 미아 카메라 에 꽈트로첸토뀐디치"
+      },
+      {
+       "ko": "계산서에 오류가 있는 것 같습니다.",
+       "tx": "Mi sembra che ci sia un errore nel conto.",
+       "rd": "미 셈브라 께 치 씨아 운 에로레 넬 콘토"
+      },
+      {
+       "ko": "저는 룸서비스를 시키지 않았습니다",
+       "tx": "Non ho ordinato il servizio in camera.",
+       "rd": "논 오 오르디나토 일 세르비찌오 인 카메라"
+      },
+      {
+       "ko": "저는 국제 전화를 이용하지 않았습니다.",
+       "tx": "Non ho usato un telefono internazionale.",
+       "rd": "논 오 우자토 운 텔레포노 인테르나찌오날레"
+      },
+      {
+       "ko": "미니바에서 주스 한 병을 마셨습니다.",
+       "tx": "Ho preso un succo da minibar.",
+       "rd": "오 프레조 운 수꼬 다 미니바"
+      },
+      {
+       "ko": "맡겼던 귀중품을 받길 원합니다.",
+       "tx": "Vorrei ritirare oggetti di valore dati in custodia.",
+       "rd": "보레이 리티라레 오제띠 디 발로레 다티 인 쿠스토디아"
+      },
+      {
+       "ko": "방에 물건을 놓고 왔습니다.",
+       "tx": "Ho lasciato qualcosa in camera.",
+       "rd": "오 라샤토 꽐꼬자 인 카메라"
+      },
+      {
+       "ko": "신용 카드로 결제하고 싶습니다.",
+       "tx": "Vorrei pagare con la carta di credito.",
+       "rd": "보레이 파가레 꼰 라 카르타 디 크레디토"
+      },
+      {
+       "ko": "이 신용 카드를 사용할 수 있나요?",
+       "tx": "Posso usare questa carta di credito?",
+       "rd": "포쏘 우자레 꿰스따 카르타 디 크레디토?"
+      },
+      {
+       "ko": "현금으로 결제할게요.",
+       "tx": "Pago in contanti.",
+       "rd": "파고 인 콘탄티"
+      },
+      {
+       "ko": "숙박을 연장하고 싶습니다.",
+       "tx": "Vorrei stare un'altra notte.",
+       "rd": "보레이 스타레 우날트라 노떼"
+      },
+      {
+       "ko": "감사합니다. 아주 즐겁게 보냈습니다.",
+       "tx": "Grazie. È stato bello stare qua.",
+       "rd": "그라찌에 에 스타토 벨로 스타레 꽈"
+      }
+     ]
+    },
+    {
+     "title": "드디어 귀국 날입니다 (공항 aeroporto 아에로포르토) — 체크인",
+     "words": [
+      {
+       "ko": "알이탈리아 항공사 카운터는 어디입니까?",
+       "tx": "Dov'è il banco dell'Alitalia?",
+       "rd": "도베 일 반코 델 알이탈리아?"
+      },
+      {
+       "ko": "체크인 부탁드립니다.",
+       "tx": "Vorrei fare check-in.",
+       "rd": "보레이 파레 체크인(테크인)"
+      },
+      {
+       "ko": "제 비행기 예약을 재확인하고 싶습니다.",
+       "tx": "Vorrei riconfermare la mia prenotazione.",
+       "rd": "보레이 리콘페르마레 라 미아 프레노타찌오네"
+      },
+      {
+       "ko": "제 이름은 김미나입니다.",
+       "tx": "Mi chiamo Mina Kim.",
+       "rd": "미 끼아모 미나 킴"
+      },
+      {
+       "ko": "제 항공편 번호는 8월 15일, 서울행 AZ053 입니다.",
+       "tx": "Il volo è AZ053 per Seoul Il giorno, 15 agosto.",
+       "rd": "일 볼로 에 아제타제로친퀘트레 페르 세울 일 죠르노 뀐디치 아고스토"
+      },
+      {
+       "ko": "죄송합니다. 비행기가 곧 출발해요.",
+       "tx": "Mi dispiace, non c'è tempo per partire!",
+       "rd": "미 디스피아체 논 체 템포 페르 파르티레!"
+      },
+      {
+       "ko": "창가 자리[복도 자리]로 부탁합니다.",
+       "tx": "Vorrei un posto vicino al finestrino[corridoio], per favore.",
+       "rd": "보레이 운 포스토 비치노 알 피네스트리노[코리도이오] 페르 파보레"
+      },
+      {
+       "ko": "다른 비행편으로 바꿀 수 있나요?",
+       "tx": "Posso cambiare il volo?",
+       "rd": "포쏘 캄비아레 일 볼로?"
+      },
+      {
+       "ko": "10번 게이트가 어디입니까?",
+       "tx": "Dov'è l'uscita numero 10?",
+       "rd": "도베 루시타 누메로 디에치?"
+      },
+      {
+       "ko": "이 항공편은 예정 시간에 출발하나요?",
+       "tx": "Questo volo parte puntualmente?",
+       "rd": "꿰스또 볼로 파르테 푼투알멘테?"
+      },
+      {
+       "ko": "얼마나 늦어집니까?",
+       "tx": "Quanto ritardo porta?",
+       "rd": "꽌또 리타르도 포르타?"
+      }
+     ]
+    },
+    {
+     "title": "위탁 수하물 맡기기",
+     "words": [
+      {
+       "ko": "깨지기 쉬운 물건이 있습니다.",
+       "tx": "C'è qualcosa di fragile.",
+       "rd": "체 꽐꼬자 디 프라지레"
+      },
+      {
+       "ko": "이것은 기내에 들고 탈 수하물입니다.",
+       "tx": "Questo è a mano.",
+       "rd": "꿰스또 에 아 마노"
+      },
+      {
+       "ko": "짐을 맡겨도 될까요?",
+       "tx": "Posso prendere la valigia?",
+       "rd": "포쏘 프렌데레 라 발리지아?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "transport",
+   "title": "교통·공항",
+   "emoji": "✈️",
+   "sections": [
+    {
+     "title": "입국 심사에 필요한 표현은 이렇습니다 (공항 aeroporto 아에로포르토)",
+     "words": [
+      {
+       "ko": "여권 좀 보여 주시겠습니까?",
+       "tx": "Mi fa vedere il suo passaporto?",
+       "rd": "미 파 베데레 일 수오 파싸포르토?"
+      },
+      {
+       "ko": "여행 목적이 무엇입니까?",
+       "tx": "Qual'è il motivo della sua visita?",
+       "rd": "꽐레 일 모티보 델라 수아 비지타?"
+      },
+      {
+       "ko": "관광입니다. / 출장입니다.",
+       "tx": "Sono turista. / Per lavoro.",
+       "rd": "쏘노 투리스타 / 페르 라보로"
+      },
+      {
+       "ko": "며칠 동안 머무르실 겁니까?",
+       "tx": "Quanto tempo sta?",
+       "rd": "꽌또 템포 스타?"
+      },
+      {
+       "ko": "10일 정도입니다.",
+       "tx": "Per 10 giorni.",
+       "rd": "페르 디에치 죠르니"
+      },
+      {
+       "ko": "어디에 머무르시나요?",
+       "tx": "Dove sta?",
+       "rd": "도베 스타?"
+      },
+      {
+       "ko": "플라자 호텔입니다. / 친구 집입니다.",
+       "tx": "Al Plaza Hotel. / A casa di un amico.",
+       "rd": "알 플라짜 오텔 / 아 까자 디 운 아미코"
+      }
+     ]
+    },
+    {
+     "title": "환승하는 경우는",
+     "words": [
+      {
+       "ko": "로마행 게이트가 어디입니까?",
+       "tx": "Dov'è l'uscita per Roma?",
+       "rd": "도베 루쉬타 페르 로마?"
+      }
+     ]
+    },
+    {
+     "title": "위탁 수하물을 잃어버린 경우",
+     "words": [
+      {
+       "ko": "제 여행 가방이 아직 도착하지 않았습니다.",
+       "tx": "Non ci sono le mie valigie ancora.",
+       "rd": "논 치 쏘노 레 미에 발리지에 안코라"
+      },
+      {
+       "ko": "찾는 대로 호텔로 갖다 주세요, 부탁합니다.",
+       "tx": "Per favore, consegnatemela in hotel appena la travate",
+       "rd": "페르 파보레 콘세냐테멜라 인 오텔 아뻬나 라 트라바테"
+      },
+      {
+       "ko": "제 여행 가방이 파손되었습니다.",
+       "tx": "Si è rotta la valigia.",
+       "rd": "씨 에 로따 라 발리지아"
+      },
+      {
+       "ko": "친구를 위한 선물입니다. / 개인 소지품입니다.",
+       "tx": "È il regalo per un'amica. / Sono le mie cose.",
+       "rd": "에 일 레갈로 페르 우나미까 / 쏘노 레 미에 꼬제"
+      }
+     ]
+    },
+    {
+     "title": "기내에서 보다 쾌적하게 보내기 위해 (기내 in volo 인 볼로) — 기내에서",
+     "words": [
+      {
+       "ko": "거긴 제 자리인 것 같아요.",
+       "tx": "Penso che lei sia al mio posto.",
+       "rd": "펜소 께 레이 씨아 알 미오 포스토"
+      },
+      {
+       "ko": "나폴리에서 환승해야 합니다.",
+       "tx": "Devo fare scalo a Napoli.",
+       "rd": "데보 파레 스칼로 아 나폴리"
+      },
+      {
+       "ko": "몸이 안 좋습니다.",
+       "tx": "Mi sento male.",
+       "rd": "미 센토 말레"
+      },
+      {
+       "ko": "모니터가 작동하지 않습니다.",
+       "tx": "Si è rotto lo schermo.",
+       "rd": "씨 에 로또 로 스께르모"
+      },
+      {
+       "ko": "여기 제 가방을 놔둬도 될까요?",
+       "tx": "Posso mettere la mia valigia qui?",
+       "rd": "포쏘 메떼레 라 미아 발리지아 뀌?"
+      },
+      {
+       "ko": "좌석을 뒤로 젖혀도 될까요?",
+       "tx": "Posso regolare il sedile?",
+       "rd": "포쏘 레골라레 일 세디레?"
+      },
+      {
+       "ko": "화장실이 어디 있습니까?",
+       "tx": "Dov'è il bagno?",
+       "rd": "도베 일 반뇨?"
+      }
+     ]
+    },
+    {
+     "title": "기내 방송을 알아들을 수 있어요!",
+     "words": [
+      {
+       "ko": "안전벨트를 착용해 주세요.",
+       "tx": "Si prega di indossare la cintura di sicurezza.",
+       "rd": "씨 프레가 디 인도싸레 라 친투라 디 씨꾸레짜"
+      },
+      {
+       "ko": "좌석으로 돌아가 주세요.",
+       "tx": "Si prega di andare a sedersi al proprio posto.",
+       "rd": "씨 프레가 디 안다레 아 세데르시 알 프로프리오 포스토"
+      },
+      {
+       "ko": "좌석을 제자리로 돌려놔 주세요.",
+       "tx": "Si prega di tornare alla posizione originale.",
+       "rd": "씨 프레가 디 토르나레 알라 포시찌오네 오리지날레"
+      },
+      {
+       "ko": "테이블을 제자리로 돌려주십시요.",
+       "tx": "Si prega di portare il tavolino nella sua posizione originale.",
+       "rd": "씨 프레가 디 포르타레 일 따볼리노 넬라 수아 포시찌오네 오리지날레"
+      }
+     ]
+    },
+    {
+     "title": "뭔가 부탁하고 싶을 때는?",
+     "words": [
+      {
+       "ko": "실례합니다.",
+       "tx": "Scusi.",
+       "rd": "스쿠지"
+      },
+      {
+       "ko": "베개와 담요 부탁합니다.",
+       "tx": "Un cuscino e una coperta, per favore.",
+       "rd": "운 쿠쉬노 에 우나 코페르타 페르 파보레"
+      },
+      {
+       "ko": "춥습니다[덥습니다].",
+       "tx": "Ho freddo [caldo].",
+       "rd": "오 프레도[칼도]"
+      },
+      {
+       "ko": "오렌지 주스[맥주] 부탁합니다.",
+       "tx": "Un succo d'arancia [una birra], per favore.",
+       "rd": "운 수꼬 다란챠[우나 비라] 페르 파보레"
+      },
+      {
+       "ko": "식사 시간에 깨우지 말아 주세요.",
+       "tx": "Non chiamarmi all'ora dei pasti.",
+       "rd": "논 끼아마르미 알로라 데이 파스티"
+      },
+      {
+       "ko": "이것 좀 치워 주시겠습니까?",
+       "tx": "Può togliere, per favore?",
+       "rd": "푸오 톨리에레 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "공항에서 시내로 이동 (기차 ferrovia 페로비아 / 버스 autobus 아우토부스 / 택시 taxi 탁씨) — 기차 이용 방법",
+     "words": [
+      {
+       "ko": "카트를 찾고 있습니다.",
+       "tx": "Cerco un carrello.",
+       "rd": "체르코 운 카렐로"
+      },
+      {
+       "ko": "티켓을 어디서 살 수 있나요?",
+       "tx": "Dove posso comprare il biglietto?",
+       "rd": "도베 포쏘 콤프라레 일 빌리에또?"
+      },
+      {
+       "ko": "성인으로 한 장 주세요.",
+       "tx": "Un biglietto per adulto, per favore.",
+       "rd": "운 빌리에또 페르 아둘토 페르 파보레"
+      },
+      {
+       "ko": "레오나르도 익스프레스 역은 어디입니까?",
+       "tx": "Dov'è la fermata del Leonardo Express?",
+       "rd": "도베 라 페르마타 델 레오나르도 익스프레스?"
+      }
+     ]
+    },
+    {
+     "title": "버스 이용 방법",
+     "words": [
+      {
+       "ko": "시내로 가는 버스가 있나요?",
+       "tx": "C'è un autobus per andare in citta'?",
+       "rd": "체 운 아우토부스 페르 안다레 인 치따?"
+      },
+      {
+       "ko": "팰리스 호텔로 가는 버스를 어디서 탈 수 있습니까?",
+       "tx": "Dove posso prendere un autobus per Palace Hotel?",
+       "rd": "도베 포쏘 프렌데레 운 아우토부스 페르 팔라스 오텔?"
+      },
+      {
+       "ko": "얼마 간격으로 운행합니까?",
+       "tx": "Ogni quanti minuti c'è?",
+       "rd": "온니 꽌띠 미누티 체?"
+      },
+      {
+       "ko": "이 버스가 리나테 공항으로 갑니까?",
+       "tx": "Questo autobus va all'aeroporto di Linate?",
+       "rd": "꿰스또 아우토부스 바 알라에로포르토 디 리나테?"
+      },
+      {
+       "ko": "다음 버스는 몇 시에 떠나나요?",
+       "tx": "Quanti minuti dopo c'è il prossimo autobus?",
+       "rd": "꽌띠 미누티 도포 체 일 프로씨모 아우토부스?"
+      }
+     ]
+    },
+    {
+     "title": "택시 이용 방법",
+     "words": [
+      {
+       "ko": "택시 정류장은 어디입니까?",
+       "tx": "Da dove posso prendere un taxi?",
+       "rd": "다 도베 포쏘 프렌데레 운 탁씨?"
+      },
+      {
+       "ko": "이 호텔까지 가는 데 택시비가 얼마나 나오나요?",
+       "tx": "Quanto costa fino a questo albergo con il taxi?",
+       "rd": "꽌또 코스타 피노 아 꿰스또 알베르고 꼰 일 탁씨?"
+      },
+      {
+       "ko": "(운전사에게)팰리스 호텔에서 내리고 싶습니다.",
+       "tx": "Vorrei scendere al Palace Hotel.",
+       "rd": "보레이 셴데레 알 팔라체 오텔"
+      },
+      {
+       "ko": "(운전사에게)트렁크에서 여행 가방을 내려 주시겠어요?",
+       "tx": "Può scendere la valigia, per favore?",
+       "rd": "푸오 셴데레 라 발리지아 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "대중교통을 타고 이동하기 (지하철 metropolitana 메트로폴리타나) — 타는 곳을 찾아봅시다",
+     "words": [
+      {
+       "ko": "매표소가 어디입니까?",
+       "tx": "Dov'è la biglietteria?",
+       "rd": "도베 라 빌리에떼리아?"
+      },
+      {
+       "ko": "회수권을 [1일권] 사고 싶습니다.",
+       "tx": "Vorrei un blocchetto di biglietti[un biglietto].",
+       "rd": "보레이 운 블로께또 디 빌리에띠[운 빌리에또]"
+      },
+      {
+       "ko": "시간표를 보여 주세요.",
+       "tx": "Mi fa vedere l'orario, per favore.",
+       "rd": "미 파 베데레 로라리오 페르 파보레"
+      },
+      {
+       "ko": "지하철 지도가 있나요?",
+       "tx": "C'è una cartina della metropolitana?",
+       "rd": "체 우나 카르티나 델라 메트로폴리타나?"
+      },
+      {
+       "ko": "여기서 가까운 지하철역이 어디입니까?",
+       "tx": "Dov'è la stazione della metropolitana più vicina?",
+       "rd": "도베 라 스타찌오네 델라 메트로폴리타나 퓨 비치나?"
+      },
+      {
+       "ko": "콜로세움에 가려면 어떤 역에서 내려야 합니까?",
+       "tx": "A quale stazione devo scendere per andare al Colosseo?",
+       "rd": "아 꽐레 스타찌오네 데보 셴데레 페르 안다레 알 콜로쎄오?"
+      },
+      {
+       "ko": "몇 분이나 걸립니까?",
+       "tx": "Quanti minuti ci vogliono?",
+       "rd": "꽌띠 미누티 치 볼리오노?"
+      }
+     ]
+    },
+    {
+     "title": "내릴 때에는?",
+     "words": [
+      {
+       "ko": "환승해야 합니까?",
+       "tx": "Bisogna cambiare il treno?",
+       "rd": "비소냐 캄비아레 일 트레노?"
+      },
+      {
+       "ko": "콜로세움에 가려면 몇 호선을 타야 합니까?",
+       "tx": "Quale linee devo prendere per andare al Colosseo?",
+       "rd": "꽐레 리네 데보 프렌데레 페르 안다레 알 콜로쎄오?"
+      },
+      {
+       "ko": "다음 역은 어디입니까?",
+       "tx": "Dov'è la prossima stazione?",
+       "rd": "도베 라 프로씨마 스타찌오네?"
+      },
+      {
+       "ko": "마지막 차가 몇 시입니까?",
+       "tx": "Che ora è l'ultimo treno?",
+       "rd": "께 오라 에 룰티모 트레노?"
+      }
+     ]
+    },
+    {
+     "title": "대중교통을 타고 이동하기 (기차 ferrovia 페로비아) — 티켓을 사는 방법",
+     "words": [
+      {
+       "ko": "노선도를 볼 수 있을까요?",
+       "tx": "Vorrei una cartina delle varie linee.",
+       "rd": "보레이 우나 카르티나 델레 바리에 리네"
+      },
+      {
+       "ko": "나폴리에 가고 싶습니다.",
+       "tx": "Vorrei andare a Napoli.",
+       "rd": "보레이 안다레 아 나폴리"
+      },
+      {
+       "ko": "열차 시간을 알려 주실 수 있나요?",
+       "tx": "Può dirmi l'orario dei treni, per favore?",
+       "rd": "푸오 디르미 로라리오 데이 트레니 페르 파보레?"
+      },
+      {
+       "ko": "토리노행 편도 표 주세요.",
+       "tx": "Vorrei un biglietto solo andata per Torino, per favore.",
+       "rd": "보레이 운 빌리에또 솔로 안다타 페르 토리노 페르 파보레"
+      },
+      {
+       "ko": "토리노에 몇 시에 도착합니까?",
+       "tx": "A che ora arriva a Torino?",
+       "rd": "아 께 오라 아리바 아 토리노?"
+      },
+      {
+       "ko": "아오스타로 가는 첫 열차[마지막 열차]는 몇 시입니까?",
+       "tx": "A che ora è il primo treno[l'ultimo treno] per Aosta?",
+       "rd": "아 께 오라 에 일 프리모 트레노[룰티모 트레노] 페르 아오스타?"
+      },
+      {
+       "ko": "5번 플랫폼은 어디입니까?",
+       "tx": "Dov'è il binario 5?",
+       "rd": "도베 일 비나리오 친꿰?"
+      }
+     ]
+    },
+    {
+     "title": "좌석을 찾아봅시다 (기차)",
+     "words": [
+      {
+       "ko": "여기는 제 자리인 것 같네요.",
+       "tx": "Penso che il mio posto sia questo.",
+       "rd": "펜소 께 일 미오 포스토 씨아 꿰스또"
+      },
+      {
+       "ko": "지금 어디쯤입니까?",
+       "tx": "Dove si trova adesso?",
+       "rd": "도베 씨 트로바 아데쏘?"
+      },
+      {
+       "ko": "다음 역은 어디입니까?",
+       "tx": "Dov'è la prossima stazione?",
+       "rd": "도베 라 프로씨마 스타찌오네?"
+      },
+      {
+       "ko": "제 티켓을 잃어버렸습니다.",
+       "tx": "Ho perso il biglietto.",
+       "rd": "오 페르조 일 빌리에또"
+      }
+     ]
+    },
+    {
+     "title": "대중교통을 타고 이동하기 (버스 autobus 아우토부스) — 티켓을 구입해 봅시다",
+     "words": [
+      {
+       "ko": "콜로세움행 버스는 어디서 출발합니까?",
+       "tx": "Da dove parte l'autobus per il Colosseo?",
+       "rd": "다 도베 파르테 라우토부스 페르 일 콜로쎄오?"
+      },
+      {
+       "ko": "어디서 티켓을 살 수 있나요?",
+       "tx": "Dove posso comprare il biglietto?",
+       "rd": "도베 포쏘 콤프라레 일 빌리에또?"
+      },
+      {
+       "ko": "버스 안에서 티켓을 살 수 있나요?",
+       "tx": "Posso comprare il biglietto sull'autobus?",
+       "rd": "포쏘 콤프라레 일 빌리에또 술라우토부스?"
+      },
+      {
+       "ko": "회수권[종일권]이 있습니까?",
+       "tx": "Avete un blocchetto di biglietti[un biglietto]?",
+       "rd": "아베떼 운 블로께또 디 빌리에띠[운 빌리에또]?"
+      }
+     ]
+    },
+    {
+     "title": "버스를 타 봅시다",
+     "words": [
+      {
+       "ko": "이 버스는 콜로세움에 갑니까?",
+       "tx": "Questo autobus va al Colosseo?",
+       "rd": "꿰스또 아우토부스 바 알 콜로쎄오?"
+      },
+      {
+       "ko": "콜로세움에 가려면 어디서 내려야 합니까?",
+       "tx": "Per andare al Colosseo, dove devo scendere?",
+       "rd": "페르 안다레 알 콜로쎄오 도베 데보 셴데레?"
+      },
+      {
+       "ko": "버스 노선도를 받을 수 있을까요?",
+       "tx": "Posso avere una cartina delle linee degli autobus?",
+       "rd": "포쏘 아베레 우나 카르티나 델레 리네 델리 아우토부스?"
+      },
+      {
+       "ko": "여기에 가려면 몇 호선을 타야 합니까?",
+       "tx": "Da quale binario devo partire per andare qua?",
+       "rd": "다 꽐레 비나리오 데보 파르티레 페르 안다레 꽈?"
+      },
+      {
+       "ko": "버스를 환승해야 합니까?",
+       "tx": "Bisogna cambiare l'autobus?",
+       "rd": "비소냐 캄비아레 라우토부스?"
+      },
+      {
+       "ko": "어디서 환승해야 합니까?",
+       "tx": "Dove devo cambiare?",
+       "rd": "도베 데보 캄비아레?"
+      },
+      {
+       "ko": "다음 관광버스의 출발 시간을 알려 주시겠습니까?",
+       "tx": "Mi può dire a che ora parte il prossimo pullman, per favore?",
+       "rd": "미 푸오 디레 아 께 오라 파르테 일 프로씨모 풀만 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "하차할 때에는",
+     "words": [
+      {
+       "ko": "콜로세움에 몇 시에 도착하는지 알려 주시겠습니까?",
+       "tx": "Può dirmi quando arriva al Colosseo, per favore?",
+       "rd": "푸오 디르미 꽌도 아리바 알 콜로쎄오 페르 파보레?"
+      },
+      {
+       "ko": "여기서 내립니다.",
+       "tx": "Scendo qua.",
+       "rd": "셴도 꽈"
+      },
+      {
+       "ko": "다음 버스 정류장은 무엇입니까?",
+       "tx": "Come si chiama la prossima fermata di autobus?",
+       "rd": "꼬메 씨 끼아마 라 프로씨마 페르마타 디 아우토부스?"
+      },
+      {
+       "ko": "돌아오는 버스 정류장은 어디입니까?",
+       "tx": "Dov'è la fermata per il ritorno?",
+       "rd": "도베 라 페르마타 페르 일 리토르노?"
+      }
+     ]
+    },
+    {
+     "title": "대중교통을 타고 이동하기 (택시 taxi 탁씨) — 택시 찾는 방법 / 택시에 타면",
+     "words": [
+      {
+       "ko": "택시 좀 불러 주시겠어요?",
+       "tx": "Può chiamarmi un taxi, per favore?",
+       "rd": "푸오 끼아마르미 운 탁씨 페르 파보레?"
+      },
+      {
+       "ko": "대략 얼마 정도입니까?",
+       "tx": "Quanto costa circa?",
+       "rd": "꽌또 코스타 치르카?"
+      },
+      {
+       "ko": "시간은 얼마나 걸립니까?",
+       "tx": "Quanto tempo ci vuole?",
+       "rd": "꽌또 템포 치 부올레?"
+      },
+      {
+       "ko": "(주소를 보여주면서)이 주소로 가 주세요.",
+       "tx": "A questo indirizzo, per favore.",
+       "rd": "아 꿰스또 인디리쬬 페르 파보레"
+      },
+      {
+       "ko": "우피치 미술관으로 가 주시겠어요?",
+       "tx": "Può portarmi alla Galleria degli Uffizi, per favore?",
+       "rd": "푸오 포르타르미 알라 갈레리아 델리 우피찌 페르 파보레?"
+      },
+      {
+       "ko": "서두르세요!",
+       "tx": "Ho fretta!",
+       "rd": "오 프레따!"
+      },
+      {
+       "ko": "제 짐을 트렁크에 넣어 주시겠습니까?",
+       "tx": "Può mettere le mie valigie nel portabagagli, per favore?",
+       "rd": "푸오 메떼레 레 미에 발리지에 넬 포르타바갈리 페르 파보레?"
+      }
+     ]
+    },
+    {
+     "title": "내릴 때는 (택시)",
+     "words": [
+      {
+       "ko": "여기서 내려 주세요.",
+       "tx": "Può fermare qua, per favore",
+       "rd": "푸오 페르마레 꽈 페르 파보레"
+      },
+      {
+       "ko": "여기서 잠시 기다려 주시겠어요?",
+       "tx": "Può aspettare qui un attimo, per favore?",
+       "rd": "푸오 아스페타레 뀌 운 아띠모 페르 파보레?"
+      },
+      {
+       "ko": "얼마예요?",
+       "tx": "Quanto costa?",
+       "rd": "꽌또 코스타?"
+      },
+      {
+       "ko": "영수증을 받을 수 있을까요?",
+       "tx": "Posso avere la ricevuta, per favore?",
+       "rd": "포쏘 아베레 라 리체부타 페르 파보레?"
+      },
+      {
+       "ko": "택시 미터기와 요금이 다릅니다.",
+       "tx": "La tariffa è diversa dal tassametro.",
+       "rd": "라 타리파 에 디베르사 달 타싸메트로"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "life",
+   "title": "생활 편의",
+   "emoji": "📮",
+   "sections": [
+    {
+     "title": "환전은 이렇게 하세요 (화폐와 환전 valuta e cambio 발루타 에 캄비오)",
+     "words": [
+      {
+       "ko": "환전을 어디서 할 수 있나요?",
+       "tx": "Dov'è il cambio?",
+       "rd": "도베 일 캄비오?"
+      },
+      {
+       "ko": "KRW를 500유로어치 환전하고 싶습니다.",
+       "tx": "Vorrei cambiare Won Coreani per 500 euro.",
+       "rd": "보레이 캄비아레 원 꼬레아니 페르 친꿰첸토 에우로"
+      },
+      {
+       "ko": "어떻게 해 드릴까요?",
+       "tx": "Come li vuole?",
+       "rd": "꼬메 리 부올레?"
+      },
+      {
+       "ko": "20유로 지폐 10장과 50유로 지폐 6장으로 주세요.",
+       "tx": "10 banconote da 20 euro e 6 banconote da 50 euro, per favore.",
+       "rd": "디에치 반코노테 다 벤티 에우로 에 쎄이 반코노테 다 친꽌타 에우로 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "환전은 이렇게 하세요",
+     "words": [
+      {
+       "ko": "이것을 유로로 바꿔 주세요.",
+       "tx": "Vorrei cambiare questi in euro.",
+       "rd": "보레이 캄비아레 꿰스티 인 에우로"
+      },
+      {
+       "ko": "이 여행자 수표를 현금으로 바꿔 주시겠어요?",
+       "tx": "Può cambiare questi traveller's check in contanti, per favore?",
+       "rd": "푸오 캄비아레 꿰스티 트라벨레르스 체크(체크) 인 콘탄티 페르 파보레?"
+      },
+      {
+       "ko": "이 지폐를 동전으로 바꿔 주시겠어요?",
+       "tx": "Può cambiare queste banconote in monete?",
+       "rd": "푸오 캄비아레 꿰스떼 반코노테 인 모네테?"
+      },
+      {
+       "ko": "계산이 틀린 것 같습니다.",
+       "tx": "I conti non tornano.",
+       "rd": "이 콘티 논 토르나노?"
+      },
+      {
+       "ko": "영수증을 받고 싶습니다.",
+       "tx": "Vorrei avere la ricevuta.",
+       "rd": "보레이 아베레 라 리체부타"
+      },
+      {
+       "ko": "20유로 10장 주세요.",
+       "tx": "10 da 20 euro, per favore.",
+       "rd": "디에치 다 벤티 에우로 페르 파보레"
+      }
+     ]
+    },
+    {
+     "title": "우편과 배송 (spedizione postale e consegna 스페디찌오네 포스탈레 에 콘쎼냐)",
+     "words": [
+      {
+       "ko": "우표를 어디서 살 수 있나요?",
+       "tx": "Dove posso comprare qualche francobollo?",
+       "rd": "도베 포쏘 콤프라레 꽐께 프란코볼로?"
+      },
+      {
+       "ko": "우체국이 어디입니까?",
+       "tx": "Dove c'è un ufficio postale[una cassetta per le lettere]?",
+       "rd": "도베 체 운 우피쵸 포스탈레 [우나 카쎄따 페르 레 레떼레]?"
+      },
+      {
+       "ko": "이것을 한국으로 보내고 싶습니다.",
+       "tx": "Vorrei mandare questo in Corea.",
+       "rd": "보레이 만다레 꿰스토 인 꼬레아"
+      },
+      {
+       "ko": "도착하는데 며칠이 걸립니까?",
+       "tx": "Quanti giorni ci vogliono per arrivare?",
+       "rd": "꽌띠 죠르니 치 볼리오노 페르 아리바레?"
+      },
+      {
+       "ko": "속달편으로 보내주세요.",
+       "tx": "Espresso, per favore.",
+       "rd": "에스프레쏘 페르 파보레"
+      },
+      {
+       "ko": "한국까지 얼마나 듭니까?",
+       "tx": "Quanto costa per la Corea?",
+       "rd": "꽌또 코스타 페르 라 꼬레아?"
+      },
+      {
+       "ko": "항공편은 30유로, 선편은 20유로입니다.",
+       "tx": "Costa 30 euro per via aerea, 20 euro per via mare.",
+       "rd": "코스타 트렌타 에우로 페르 비아 아에레아 벤티 에우로 페르 비아 마레"
+      },
+      {
+       "ko": "한국으로 이 짐을 부치고 싶습니다.",
+       "tx": "Vorrei spedire della merce in Corea.",
+       "rd": "보레이 스페디레 델라 메르체 인 꼬레아"
+      },
+      {
+       "ko": "종이 상자와 테이프 좀 주시겠어요?",
+       "tx": "Posso avere cartoni e nastro adesivo, per favore?",
+       "rd": "포쏘 아베레 카르토니 에 나스트로 아데씨보 페르 파보레?"
+      },
+      {
+       "ko": "송장 작성법 좀 알려 주시겠어요?",
+       "tx": "Mi può dire come si scrive nota, per favore?",
+       "rd": "미 푸오 디레 꼬메 씨 스크리베 노타 페르 파보레?"
+      },
+      {
+       "ko": "깨지기 쉬운 물건이 있습니다.",
+       "tx": "C'è qualcosa di fragile.",
+       "rd": "체 꽐꼬자 디 프라지레"
+      },
+      {
+       "ko": "엽서",
+       "tx": "cartolina",
+       "rd": "카르토리나"
+      },
+      {
+       "ko": "편지",
+       "tx": "lettera",
+       "rd": "레떼라"
+      },
+      {
+       "ko": "인쇄물",
+       "tx": "stampe",
+       "rd": "스탐페"
+      },
+      {
+       "ko": "깨지기 쉬운",
+       "tx": "fragile",
+       "rd": "프랄리레"
+      },
+      {
+       "ko": "취급 주의",
+       "tx": "attenzione fragile",
+       "rd": "아뗀찌오네 프라지레"
+      },
+      {
+       "ko": "소포",
+       "tx": "pacco",
+       "rd": "파꼬"
+      },
+      {
+       "ko": "담배 가게",
+       "tx": "tabacchi",
+       "rd": "타바끼"
+      }
+     ]
+    },
+    {
+     "title": "전화통화 (telefono 텔레포노)",
+     "words": [
+      {
+       "ko": "공중전화가 어디 있습니까?",
+       "tx": "Dove c'è un telefono pubblico?",
+       "rd": "도베 체 운 텔레포노 푸쁠리코?"
+      },
+      {
+       "ko": "안녕하세요, 셰라톤 호텔 맞나요?",
+       "tx": "Pronto, è l'Hotel Sheraton?",
+       "rd": "프론토 에 로텔 셰라톤?"
+      },
+      {
+       "ko": "1102호의 김미나 씨와 통화할 수 있을까요?",
+       "tx": "Posso parlare con la Signora Mina Kim, camera 1102, per favore?",
+       "rd": "포쏘 파를라레 꼰 라 씨뇨라 미나 킴 카메라 밀라 첸토두에 페르 파보레?"
+      },
+      {
+       "ko": "잠시만 기다려 주세요.",
+       "tx": "Aspetti un attimo.",
+       "rd": "아스페띠 운 아띠모"
+      },
+      {
+       "ko": "메시지를 남겨도 될까요?",
+       "tx": "Posso lasciare un messaggio?",
+       "rd": "포쏘 라샤레 운 메싸죠?"
+      },
+      {
+       "ko": "나중에 다시 전화할게요.",
+       "tx": "Richiamo più tardi.",
+       "rd": "리끼아모 퓨 타르디"
+      },
+      {
+       "ko": "그녀에게 김지원씨가 전화했다고 전해 주세요.",
+       "tx": "Per favore ditele che ha telefonato Jiwon Kim.",
+       "rd": "페르 파보레 디테레 께 아 텔레포나토 지원 킴"
+      },
+      {
+       "ko": "조금만 천천히 말씀해 주시겠어요?",
+       "tx": "Può parlare più lentamente, per favore?",
+       "rd": "푸오 파를라레 뷰 렌타멘테 페르 파보레?"
+      },
+      {
+       "ko": "죄송합니다, 잘못 전화했네요.",
+       "tx": "Scusi, mi sono sbagliato.",
+       "rd": "스쿠지 미 쏘노 스발리아토"
+      },
+      {
+       "ko": "휴대폰을 대여하고 싶습니다.",
+       "tx": "Mi può prestare il cellulare, per favore?",
+       "rd": "미 푸오 프레스타레 일 첼룰라레 페르 파보레?"
+      },
+      {
+       "ko": "100유로의 전화 카드로 주세요.",
+       "tx": "Posso avere una scheda telefonica da 100 euro?",
+       "rd": "포쏘 아베레 우나 스께다 텔레포니카 다 첸토 에우로?"
+      },
+      {
+       "ko": "수신자 부담 전화로 한국에 전화하고 싶습니다.",
+       "tx": "Vorrei fare una telefonata a carico del destinatario in Corea.",
+       "rd": "보레이 파레 우나 텔레포나타 아 카리코 델 데스티나타리오 인 꼬레아"
+      },
+      {
+       "ko": "이 휴대폰으로 전화할 수 있습니까?",
+       "tx": "Posso fare una chiamata da questo telefono?",
+       "rd": "포쏘 파레 우나 끼아마타 다 꿰스토 텔레포노?"
+      },
+      {
+       "ko": "한국어를 할 수 있는 사람이 있습니까?",
+       "tx": "C'è qualcuno che parla coreano?",
+       "rd": "체 꽐꾸노 께 파를라 꼬레아노?"
+      }
+     ]
+    },
+    {
+     "title": "인터넷 (internet 인테르넷)",
+     "words": [
+      {
+       "ko": "이 호텔에서 인터넷을 사용할 수 있습니까?",
+       "tx": "Posso usare internet in questo albergo?",
+       "rd": "포쏘 우자레 인테르넷 인 꿰스토 알베르고?"
+      },
+      {
+       "ko": "근처에 인터넷 카페가 있습니까?",
+       "tx": "C'è internetcafe qui vicino?",
+       "rd": "체 인테르넷카페 뀌 비치노?"
+      },
+      {
+       "ko": "제가 가져온 컴퓨터를 연결할 수 있습니까?",
+       "tx": "Posso collegarmi col computer che ho portato?",
+       "rd": "포쏘 꼴레가르미 꼴 콤푸테르 께 오 포르타토?"
+      },
+      {
+       "ko": "1시간 당 얼마입니까?",
+       "tx": "Quanto costa per 1 ora?",
+       "rd": "꽌또 코스타 페르 운 오라?"
+      },
+      {
+       "ko": "한국어 설정을 할 수 있습니까?",
+       "tx": "C'è in Coreano?",
+       "rd": "체 인 꼬레아노?"
+      },
+      {
+       "ko": "무료 와이파이가 있습니까?",
+       "tx": "Avete WiFi gratis?",
+       "rd": "아베떼 위피 그라티스?"
+      },
+      {
+       "ko": "랜 케이블을 빌려주시겠습니까?",
+       "tx": "Mi può prestare un cavo LAN, per favore?",
+       "rd": "미 푸오 프레스타레 운 카보 란 페르 파보레?"
+      },
+      {
+       "ko": "모니터",
+       "tx": "schermo",
+       "rd": "스께르모"
+      },
+      {
+       "ko": "프린터",
+       "tx": "stampante",
+       "rd": "스탐판테"
+      },
+      {
+       "ko": "키보드",
+       "tx": "tastiera",
+       "rd": "타스티에라"
+      },
+      {
+       "ko": "마우스",
+       "tx": "mouse",
+       "rd": "모우세"
+      },
+      {
+       "ko": "WiFi",
+       "tx": "WiFi",
+       "rd": "위피"
+      },
+      {
+       "ko": "LAN[WiFi] 접속이 잘 되지 않습니다. 봐 주시겠어요?",
+       "tx": "Non riesco a collegarmi LAN[WiFi]. Puo' controllare?",
+       "rd": "논 리에스코 아 콜레가르미 란[위피] 푸오 콘트롤라레?"
+      },
+      {
+       "ko": "마우스 상태가 좋지 않습니다.",
+       "tx": "Il mouse non funziona tanto bene.",
+       "rd": "일 모우세 논 푼찌오나 탄토 베네"
+      },
+      {
+       "ko": "고장났어요.",
+       "tx": "È bloccato.",
+       "rd": "에 블로까토"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trouble",
+   "title": "긴급·건강",
+   "emoji": "🚨",
+   "sections": [
+    {
+     "title": "긴급 상황·트러블 — 도움을 요청할 때",
+     "words": [
+      {
+       "ko": "도와주세요!",
+       "tx": "Aiuto!",
+       "rd": "아이우토!"
+      },
+      {
+       "ko": "멈춰요!",
+       "tx": "La smetta!",
+       "rd": "라 스메따!"
+      },
+      {
+       "ko": "저랑 같이 가요!",
+       "tx": "Venga con me!",
+       "rd": "벤가 꼰 메!"
+      },
+      {
+       "ko": "들어 봐요!",
+       "tx": "Senta!",
+       "rd": "센타!"
+      },
+      {
+       "ko": "경찰을 불러 주세요!",
+       "tx": "Chiamate la polizia!",
+       "rd": "끼아마떼 라 폴리찌아!"
+      },
+      {
+       "ko": "도둑이야!",
+       "tx": "Al ladro!",
+       "rd": "알 라드로!"
+      },
+      {
+       "ko": "그[그녀]를 잡아!",
+       "tx": "Prendilo[Prendila]!",
+       "rd": "프렌디로[프렌디라]!"
+      },
+      {
+       "ko": "누구 없어요?",
+       "tx": "Qualcuno!",
+       "rd": "꽐꾸노!"
+      },
+      {
+       "ko": "가진 돈이 없어요.",
+       "tx": "Non ho soldi.",
+       "rd": "논 오 솔디"
+      },
+      {
+       "ko": "이게 전부예요.",
+       "tx": "Questo è tutto.",
+       "rd": "꿰스또 에 투또"
+      },
+      {
+       "ko": "죽이지 말아 주세요!",
+       "tx": "Non mi ammazzare!",
+       "rd": "논 미 암마짜레!"
+      },
+      {
+       "ko": "나가!",
+       "tx": "Vai via!／Vattene!",
+       "rd": "바이 비아!／바떼네!"
+      },
+      {
+       "ko": "의사를 불러 주세요!",
+       "tx": "Chiamate il dottore!",
+       "rd": "끼아마테 일 도또레!"
+      }
+     ]
+    },
+    {
+     "title": "긴급 상황·트러블 — 경고할 때",
+     "words": [
+      {
+       "ko": "움직이지 마!",
+       "tx": "Non ti muovere!",
+       "rd": "논 티 무오베레!"
+      },
+      {
+       "ko": "멈춰!",
+       "tx": "Fermati!",
+       "rd": "페르마티!"
+      },
+      {
+       "ko": "돈 내놔!",
+       "tx": "Dammi i soldi!",
+       "rd": "담미 이 솔디!"
+      },
+      {
+       "ko": "조용히 해!",
+       "tx": "Stai zitto!",
+       "rd": "스타이 지또!"
+      },
+      {
+       "ko": "손 올려!",
+       "tx": "Alza le mani!",
+       "rd": "알짜 레 마니!"
+      },
+      {
+       "ko": "숨어!",
+       "tx": "Nasconditi!",
+       "rd": "나스콘디티!"
+      },
+      {
+       "ko": "짐을 넘겨!",
+       "tx": "Dammi i bagagli.",
+       "rd": "담미 이 바갈리"
+      }
+     ]
+    },
+    {
+     "title": "긴급 상황·트러블 — 분실, 도난 시",
+     "words": [
+      {
+       "ko": "여권을 잃어버렸어요.",
+       "tx": "Ho perso il passaporto.",
+       "rd": "오 페르조 일 파싸포르토"
+      },
+      {
+       "ko": "여기로 전화해 주세요.",
+       "tx": "Chiamate qui, per favore.",
+       "rd": "끼아마테 뀌 페르 파보레"
+      },
+      {
+       "ko": "한국어를 할 수 있는 분이 있나요?",
+       "tx": "C'è qualcuno che parla coreano?",
+       "rd": "체 꽐꾸노 께 파를라 꼬레아노?"
+      },
+      {
+       "ko": "가방[지갑]을 도둑맞았어요.",
+       "tx": "Mi hanno rubato la borsa [il portafoglio].",
+       "rd": "미 안노 루바토 라 보르사 [일 포르타폴리오]"
+      },
+      {
+       "ko": "한국 대사관은 어디입니까?",
+       "tx": "Dov'è l'ambasciata coreana?",
+       "rd": "도베 람바샤타 꼬레아나?"
+      },
+      {
+       "ko": "경찰에 신고하고 싶습니다.",
+       "tx": "Vorrei consegnare alla polizia.",
+       "rd": "보레이 콘세냐레 알라 폴리찌아"
+      },
+      {
+       "ko": "분실 증명서를 만들어 주시겠어요?",
+       "tx": "Mi può fare un documento per la denuncia di furto, per favore?",
+       "rd": "미 푸오 파레 운 도쿠멘토 페르 라 데눈챠 디 푸르토 페르 파보레?"
+      },
+      {
+       "ko": "제 가방을 찾지 못했습니다.",
+       "tx": "Non ho trovato il mio bagaglio.",
+       "rd": "논 오 트로바토 일 미오 바갈리오"
+      },
+      {
+       "ko": "어디서 잃어버렸는지 잘 모르겠어요.",
+       "tx": "Non so dove ho lasciato.",
+       "rd": "논 소 도베 오 라샤토"
+      },
+      {
+       "ko": "어디에 신고해야 하나요?",
+       "tx": "Dove devo consegnare?",
+       "rd": "도베 데보 콘세냐레?"
+      },
+      {
+       "ko": "저기 분실물 센터에 신고하세요.",
+       "tx": "Può consegnare a quello ufficio oggetti smarriti, per favore?",
+       "rd": "푸오 콘세냐레 아 꿸로 우피쵸 오제띠 스마리티 페르 파보레?"
+      },
+      {
+       "ko": "그것을 찾는 대로 호텔로 가져다 주세요.",
+       "tx": "Appena la trova, può portarmela all'albergo, per favore.",
+       "rd": "아뻰나 라 트로바 푸오 포르타르멜라 알랄베르고 페르 파보레"
+      },
+      {
+       "ko": "택시에 가방을 두고 왔어요.",
+       "tx": "Ho lasciato la borsa in taxi.",
+       "rd": "오 라샤토 라 보르사 인 탁씨"
+      },
+      {
+       "ko": "여기에 두었던 카메라가 없어졌습니다.",
+       "tx": "Ho perso la macchina fotografica che ho lasciato qui.",
+       "rd": "오 페르소 라 마끼나 포토그라피카 께 오 라샤토 뀌"
+      },
+      {
+       "ko": "전화",
+       "tx": "telefono",
+       "rd": "텔레포노"
+      },
+      {
+       "ko": "한국 대사관",
+       "tx": "ambasciata del Corea",
+       "rd": "암바샤타 델 꼬레아"
+      },
+      {
+       "ko": "돈",
+       "tx": "soldi",
+       "rd": "솔디"
+      },
+      {
+       "ko": "여권",
+       "tx": "passaporto",
+       "rd": "파싸포르트"
+      },
+      {
+       "ko": "경찰",
+       "tx": "polizia",
+       "rd": "폴리찌아"
+      },
+      {
+       "ko": "주소",
+       "tx": "indirizzo",
+       "rd": "인디리쬬"
+      },
+      {
+       "ko": "소매치기",
+       "tx": "borseggiatore",
+       "rd": "보르세쨔토레"
+      },
+      {
+       "ko": "구급차",
+       "tx": "ambulanza",
+       "rd": "암불란짜"
+      },
+      {
+       "ko": "여행자 수표",
+       "tx": "traveller's check",
+       "rd": "트라벨레르스 첵크"
+      },
+      {
+       "ko": "보안계",
+       "tx": "forza pubblica",
+       "rd": "포르짜 푸블리카"
+      },
+      {
+       "ko": "분실",
+       "tx": "perdita",
+       "rd": "페르디타"
+      },
+      {
+       "ko": "신용 카드",
+       "tx": "carta di credito",
+       "rd": "카르타 디 크레디토"
+      },
+      {
+       "ko": "보험 회사",
+       "tx": "compagnia di assicurazioni",
+       "rd": "콤파냐 디 아씨쿠라찌오니"
+      }
+     ]
+    },
+    {
+     "title": "긴급 상황·트러블 — 아픈 기운, 부상",
+     "words": [
+      {
+       "ko": "몸이 안 좋습니다.",
+       "tx": "Mi sento male.",
+       "rd": "미 센토 말레"
+      },
+      {
+       "ko": "두통이 있습니다.",
+       "tx": "Ho mal di testa.",
+       "rd": "오 말 디 테스타"
+      },
+      {
+       "ko": "현기증이 납니다.",
+       "tx": "Ho un capogiro.",
+       "rd": "오 운 카포지로"
+      },
+      {
+       "ko": "토할 것 같습니다.",
+       "tx": "Ho la nausea.",
+       "rd": "오 라 나우세아"
+      },
+      {
+       "ko": "열이 있는 것 같습니다.",
+       "tx": "Ho la febbre.",
+       "rd": "오 라 페브레"
+      },
+      {
+       "ko": "배가 아픕니다.",
+       "tx": "Ho mal di pancia.",
+       "rd": "오 말 디 판챠"
+      },
+      {
+       "ko": "제 혈액형은 B[A/AB/O]형입니다.",
+       "tx": "Il mio sangue è gruppo B[A／AB／O].",
+       "rd": "일 미오 산궤 에 그루뽀 비[아／아비／오]"
+      },
+      {
+       "ko": "진단서를 받을 수 있을까요?",
+       "tx": "Il certificato, per favore.",
+       "rd": "일 체르티피카토 페르 파보레"
+      },
+      {
+       "ko": "치통이 있습니다.",
+       "tx": "Ho mal di denti.",
+       "rd": "오 말 디 덴티"
+      },
+      {
+       "ko": "발목을 삐었습니다.",
+       "tx": "Ho preso una storta alla caviglia.",
+       "rd": "오 프레조 우나 스토르타 알라 카빌리아"
+      },
+      {
+       "ko": "팔이 부러진 것 같습니다.",
+       "tx": "Penso di essermi rotto un braccio.",
+       "rd": "펜소 디 에쎄르미 로또 운 브라쵸"
+      },
+      {
+       "ko": "손을 데었어요.",
+       "tx": "Mi sono bruciato la mano.",
+       "rd": "미 쏘노 브루챠토 라 마노"
+      },
+      {
+       "ko": "칼에 손가락을 베였어요.",
+       "tx": "Mi sono tagliato un dito con il coltello.",
+       "rd": "미 쏘노 탈리아토 운 디토 꼰 일 콜텔로"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "korea",
+   "title": "한국 소개",
+   "emoji": "🇰🇷",
+   "sections": [
+    {
+     "title": "한국을 소개해 봅시다 — 전통문화",
+     "words": [
+      {
+       "ko": "○○는 한국의 전통문화입니다.",
+       "tx": "___ è la cultura tradizionale coreana.",
+       "rd": "___ 에 라 쿨투라 트라디찌오날레 꼬레아나"
+      },
+      {
+       "ko": "한복: 한국의 전통적인 의상으로 남자는 저고리와 바지, 여자는 저고리와 치마를 입습니다.",
+       "tx": "Hanbok è un costume tradizionale coreano, un uomo indossa la giacca coreana e i pantaloni, una donna la giacca coreana e la gonna.",
+       "rd": "한복 에 운 코스투메 트라디찌오날레 꼬레아노 운 우오모 인도싸 라 쟈까 꼬레아나 에 이 판타로니 우나 돈나 라 쟈까 꼬레아 에 라 곤나"
+      },
+      {
+       "ko": "사물놀이: 북, 장구, 징, 꽹과리로 하는 전통 음악 놀이입니다.",
+       "tx": "Samul Nori è un gioco di musica tradizionale coreano con un tamburo, un tamburo a testa doppia stretto al centro, un tam-tam, un gong.",
+       "rd": "사물 노리 에운 죠꼬 디 무지카 트라디지오날레 꼬레아노 꼰 운 탐부로 운 탐부로 아 테스타 도삐아 스트레또 알 첸트로 운 탐-탐 운 공"
+      },
+      {
+       "ko": "판소리: 노래와 이야기로 이루어진 한국의 민속 음악입니다.",
+       "tx": "Pansori è una musica popolare coreana compòsto di canzoni e storie.",
+       "rd": "판소리 에 우나 무지카 포포라레 꼬레아나 콤포스토 디 칸쪼니 에 스토리에"
+      },
+      {
+       "ko": "태권도: 손과 발을 이용한 한국의 전통 무예입니다.",
+       "tx": "Taekwondo è un arte marziale tradizionale coreana che utilizza mani e piedi.",
+       "rd": "태권도 에 운 아르테 마르찌아레 트라디찌오날레 꼬레아나 께 우틸리짜 마니 에 피에디"
+      },
+      {
+       "ko": "한글: 한국을 대표하는 문자입니다.",
+       "tx": "Hangeul è una lettera rappresentativa di Corea.",
+       "rd": "한글 에 우나 레떼라 라쁘레젠타티바 디 꼬레아"
+      }
+     ]
+    },
+    {
+     "title": "한국을 소개해 봅시다 — 한국 상식",
+     "words": [
+      {
+       "ko": "한국의 인구는 5200만 정도입니다(2020년 기준).",
+       "tx": "La popolazione della Corea è di circa 52 milioni abitanti. (criterio del 2020)",
+       "rd": "라 포포라찌오네 델라 꼬레아 에 디 치르까 친꽌타두에 밀리오니 아비탄티(크리테리오 델 두에밀라벤띠티)"
+      },
+      {
+       "ko": "한국의 수도는 서울입니다.",
+       "tx": "Seul è la capitale della Corea.",
+       "rd": "세울 에 라 카피탈레 델라 꼬레아"
+      },
+      {
+       "ko": "여름이 되면, 한국에는 비가 많이 내립니다.",
+       "tx": "In estate piove molto in Corea.",
+       "rd": "인 에스타테 피오베 몰또 인 꼬레아"
+      },
+      {
+       "ko": "남산 서울 타워는 한국의 관광 명소입니다.",
+       "tx": "Namsan Seul Tower è un posto turistico coreano.",
+       "rd": "남산 세울 토웨르 에 운 포스토 투리스티코 꼬레아노"
+      },
+      {
+       "ko": "BTS는 한국의 유명한 아이돌 그룹입니다.",
+       "tx": "BTS è il famoso idol gruppo della Corea.",
+       "rd": "비티에쎄 에일 파모조 이돌 그루뽀 델라 꼬레아"
+      },
+      {
+       "ko": "한글은 세종대왕이 만든 한국 고유의 글자입니다.",
+       "tx": "Hangeul è una lettera singola coreana creata dal re Sejong.",
+       "rd": "안글 에 우나 레떼라 씬골라 꼬레아나 크레아타 달 레 세종"
+      },
+      {
+       "ko": "서울은 산이 많아서 등산을 즐길 수 있습니다.",
+       "tx": "Ci sono molte motagne a Seul, quindi pùo spesso andare alla montagna.",
+       "rd": "치 쏘노 몰떼 몬타녜 아 세울 뀐디 푸오 스페쏘 안다레 알라 몬타냐"
+      },
+      {
+       "ko": "한국은 전세계에서 유일한 분단 국가입니다.",
+       "tx": "La Corea è la nazione divisa unica in tutto il mondo.",
+       "rd": "라 꼬레아 에 라 나찌오네 디비자 우니카 인 뚜또 일 몬도"
+      },
+      {
+       "ko": "김치는 발효 식품으로, 다양한 종류가 있습니다.",
+       "tx": "Kimchi è un alimento fermentato ed è vario.",
+       "rd": "김치 에 운 알리멘토 페르멘타토 엗 에 바리오"
+      },
+      {
+       "ko": "대중교통 환승을 무료로 이용할 수 있습니다.",
+       "tx": "Pùo spendere trasferimento di trasporto pubblico gratis.",
+       "rd": "푸오 스펜데레 트라스페리멘토 디 트라스포르토 푸쁠리코 그라티스"
+      },
+      {
+       "ko": "한국은 어디에서나 인터넷을 이용할 수 있습니다.",
+       "tx": "In Corea, internet è disponibile dovunque.",
+       "rd": "인 꼬레아 인테르넷 에 디스포니빌레 도분꿰"
+      },
+      {
+       "ko": "한국에서는 늦은 시간까지 음식점이 열려 있습니다.",
+       "tx": "In Corea, i ristoranti sono in operazione fino a tardi.",
+       "rd": "인 꼬레아 이 리스토란티 쏘노 인 오페라찌오네 피노 아 타르디"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

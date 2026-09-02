@@ -1,0 +1,8111 @@
+{
+ "_meta": "co-Trip 여행 이탈리아어 — 주제별 단어",
+ "themes": [
+  {
+   "id": "basics",
+   "title": "인사·기본 표현",
+   "emoji": "👋",
+   "sections": [
+    {
+     "title": "~, per favore. (~ 부탁드려요) 단어",
+     "words": [
+      {
+       "ko": "~ 부탁드려요.",
+       "tx": "~, per favore.",
+       "rd": "페르 파보레",
+       "ic": "👋"
+      },
+      {
+       "ko": "커피",
+       "tx": "caffè",
+       "rd": "카페",
+       "ic": "☕"
+      },
+      {
+       "ko": "차",
+       "tx": "tè",
+       "rd": "테",
+       "ic": "👋"
+      },
+      {
+       "ko": "콜라",
+       "tx": "coca-cola",
+       "rd": "코카콜라",
+       "ic": "👋"
+      },
+      {
+       "ko": "생수",
+       "tx": "acqua minerale",
+       "rd": "아꾸아 미네랄레",
+       "ic": "👋"
+      },
+      {
+       "ko": "맥주",
+       "tx": "birra",
+       "rd": "비라",
+       "ic": "🍺"
+      },
+      {
+       "ko": "레드 와인",
+       "tx": "vino rosso",
+       "rd": "비노 로쏘",
+       "ic": "🍷"
+      },
+      {
+       "ko": "소고기",
+       "tx": "carne di manzo",
+       "rd": "까르네 디 만조",
+       "ic": "🥩"
+      },
+      {
+       "ko": "닭고기",
+       "tx": "carne di pollo",
+       "rd": "까르네 디 폴로",
+       "ic": "🍗"
+      },
+      {
+       "ko": "피자",
+       "tx": "pizza",
+       "rd": "피짜",
+       "ic": "👋"
+      },
+      {
+       "ko": "파니니",
+       "tx": "panino",
+       "rd": "파니노",
+       "ic": "👋"
+      },
+      {
+       "ko": "메뉴",
+       "tx": "menu",
+       "rd": "메누",
+       "ic": "👋"
+      },
+      {
+       "ko": "지도",
+       "tx": "mappa",
+       "rd": "마빠",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "팸플릿",
+       "tx": "opuscolo",
+       "rd": "오푸스콜로",
+       "ic": "👋"
+      },
+      {
+       "ko": "영수증",
+       "tx": "ricevuta",
+       "rd": "리체부타",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "Posso ~? (~해도 되나요?) 단어",
+     "words": [
+      {
+       "ko": "~해도 되나요?",
+       "tx": "Posso ~?",
+       "rd": "포쏘 ~?",
+       "ic": "👋"
+      },
+      {
+       "ko": "사진을 찍다",
+       "tx": "fare una fotografia",
+       "rd": "파레 우나 포토그라피아",
+       "ic": "📷"
+      },
+      {
+       "ko": "화장실 가다",
+       "tx": "andare in bagno",
+       "rd": "안다레 인 반뇨",
+       "ic": "💄"
+      },
+      {
+       "ko": "주문하다",
+       "tx": "ordinare",
+       "rd": "오르디나레",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기에 앉다",
+       "tx": "sedermi qui",
+       "rd": "세데르미 뀌",
+       "ic": "👋"
+      },
+      {
+       "ko": "창문을 열다",
+       "tx": "aprire la finestra",
+       "rd": "아프리레 라 피네스트라",
+       "ic": "👋"
+      },
+      {
+       "ko": "예약하다",
+       "tx": "fare una prenotazione",
+       "rd": "파레 우나 프레노타찌오네",
+       "ic": "💊"
+      },
+      {
+       "ko": "체크인하다",
+       "tx": "fare il check-in",
+       "rd": "파레 일 체크인(테크인)",
+       "ic": "👋"
+      },
+      {
+       "ko": "그곳에 가다",
+       "tx": "andare lì",
+       "rd": "안다레 리",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기에 머물다",
+       "tx": "stare qui",
+       "rd": "스타레 뀌",
+       "ic": "💧"
+      },
+      {
+       "ko": "전화를 사용하다",
+       "tx": "usare il telefono",
+       "rd": "우자레 일 텔레포노",
+       "ic": "📞"
+      },
+      {
+       "ko": "나중에 전화하다",
+       "tx": "chiamare più tardi",
+       "rd": "끼아마레 퓨 타르디",
+       "ic": "📞"
+      },
+      {
+       "ko": "쿠폰을 사용하다",
+       "tx": "usare un coupon",
+       "rd": "우자레 운 코우폰",
+       "ic": "👋"
+      },
+      {
+       "ko": "거기로 걸어가다",
+       "tx": "andarci a piedi",
+       "rd": "안다르치 아 피에디",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기서 결제하다",
+       "tx": "pagare qui",
+       "rd": "파가레 뀌",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "Dov'è ~? (~ 어디에 있나요?) 단어",
+     "words": [
+      {
+       "ko": "~ 어디에 있나요?",
+       "tx": "Dov'è ~?",
+       "rd": "도베 ~?",
+       "ic": "👋"
+      },
+      {
+       "ko": "이 레스토랑",
+       "tx": "questo ristorante",
+       "rd": "꿰스또 리스토란테",
+       "ic": "👋"
+      },
+      {
+       "ko": "화장실",
+       "tx": "il bagno",
+       "rd": "일 반뇨",
+       "ic": "💄"
+      },
+      {
+       "ko": "역",
+       "tx": "la stazione",
+       "rd": "라 스타찌오네",
+       "ic": "👋"
+      },
+      {
+       "ko": "지하철역",
+       "tx": "la stazione della metropolitana",
+       "rd": "라 스타찌오네 델레 메트로폴리타나",
+       "ic": "🚇"
+      },
+      {
+       "ko": "매표소",
+       "tx": "la biglietteria",
+       "rd": "라 빌리에떼리아",
+       "ic": "👋"
+      },
+      {
+       "ko": "나의 좌석",
+       "tx": "il mio posto",
+       "rd": "일 미오 포스토",
+       "ic": "👋"
+      },
+      {
+       "ko": "카페",
+       "tx": "un bar",
+       "rd": "운 바",
+       "ic": "👋"
+      },
+      {
+       "ko": "안내소",
+       "tx": "l'ufficio informazioni",
+       "rd": "루피쵸 인포르마찌오니",
+       "ic": "👋"
+      },
+      {
+       "ko": "에스컬레이터",
+       "tx": "la scala mobile",
+       "rd": "라 스칼라 모빌레",
+       "ic": "👋"
+      },
+      {
+       "ko": "엘리베이터",
+       "tx": "l'ascensore",
+       "rd": "라셴소레",
+       "ic": "👋"
+      },
+      {
+       "ko": "계단",
+       "tx": "la scala",
+       "rd": "라 스칼라",
+       "ic": "👋"
+      },
+      {
+       "ko": "은행",
+       "tx": "la banca",
+       "rd": "라 반카",
+       "ic": "🏦"
+      },
+      {
+       "ko": "우체국",
+       "tx": "l'ufficio postale",
+       "rd": "루피쵸 포스탈레",
+       "ic": "📮"
+      },
+      {
+       "ko": "경찰서",
+       "tx": "la polizia",
+       "rd": "라 폴리찌아",
+       "ic": "🚓"
+      }
+     ]
+    },
+    {
+     "title": "Avete ~? (~ 있나요?) 단어",
+     "words": [
+      {
+       "ko": "~ 있나요?",
+       "tx": "Avete ~?",
+       "rd": "아베떼 ~?",
+       "ic": "👋"
+      },
+      {
+       "ko": "약",
+       "tx": "delle medicine",
+       "rd": "델레 메디치네",
+       "ic": "💊"
+      },
+      {
+       "ko": "티슈",
+       "tx": "un fazzolettino di carta",
+       "rd": "운 파쫄레띠노 디 카르타",
+       "ic": "👋"
+      },
+      {
+       "ko": "잡지",
+       "tx": "una rivista",
+       "rd": "우나 리비스타",
+       "ic": "👋"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "del cioccolato",
+       "rd": "델 쵸꼴라또",
+       "ic": "🍫"
+      },
+      {
+       "ko": "변압기",
+       "tx": "una sottostazione elettrica",
+       "rd": "우나 소또스타찌오네 엘레뜨리카",
+       "ic": "👋"
+      },
+      {
+       "ko": "지도",
+       "tx": "una mappa",
+       "rd": "우나 마빠",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "잼",
+       "tx": "della marmellata",
+       "rd": "델라 마르멜라타",
+       "ic": "👋"
+      },
+      {
+       "ko": "케첩",
+       "tx": "del ketchup",
+       "rd": "델 켓쿱",
+       "ic": "👋"
+      },
+      {
+       "ko": "소금",
+       "tx": "del sale",
+       "rd": "델 쌀레",
+       "ic": "🧂"
+      },
+      {
+       "ko": "후추",
+       "tx": "del pepe",
+       "rd": "델 페페",
+       "ic": "👋"
+      },
+      {
+       "ko": "냅킨",
+       "tx": "un tovagliolo di carta",
+       "rd": "운 토발리올로 디 카르타",
+       "ic": "👋"
+      },
+      {
+       "ko": "건전지",
+       "tx": "una pila",
+       "rd": "우나 필라",
+       "ic": "👋"
+      },
+      {
+       "ko": "복사기",
+       "tx": "una fotocopiatrice",
+       "rd": "우나 포토코피아트리체",
+       "ic": "👋"
+      },
+      {
+       "ko": "가위",
+       "tx": "delle forbici",
+       "rd": "델레 포르비치",
+       "ic": "👋"
+      },
+      {
+       "ko": "(참고) 생리대",
+       "tx": "assorbente",
+       "rd": "아쏘르벤떼",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "Sto cercando ~. (~을/를 찾고 있습니다) 단어",
+     "words": [
+      {
+       "ko": "~을/를 찾고 있습니다.",
+       "tx": "Sto cercando ~.",
+       "rd": "스토 체르칸도 ~",
+       "ic": "👋"
+      },
+      {
+       "ko": "나의 지갑",
+       "tx": "il mio portafoglio",
+       "rd": "일 미오 포르타폴리오",
+       "ic": "👛"
+      },
+      {
+       "ko": "나의 여권",
+       "tx": "il mio passaporto",
+       "rd": "일 미오 파싸포르토",
+       "ic": "🛂"
+      },
+      {
+       "ko": "나의 카메라",
+       "tx": "la mia macchina fotografica",
+       "rd": "라 미아 마끼나 포토그라피카",
+       "ic": "📷"
+      },
+      {
+       "ko": "화장실",
+       "tx": "un bagno",
+       "rd": "운 반뇨",
+       "ic": "💄"
+      },
+      {
+       "ko": "출구",
+       "tx": "un'uscita",
+       "rd": "우누쉬타",
+       "ic": "👋"
+      },
+      {
+       "ko": "입구",
+       "tx": "un'entrata",
+       "rd": "우넨트라타",
+       "ic": "👋"
+      },
+      {
+       "ko": "티셔츠",
+       "tx": "una maglietta",
+       "rd": "우나 말리에따",
+       "ic": "👔"
+      },
+      {
+       "ko": "신발",
+       "tx": "delle scarpe",
+       "rd": "델레 스카르페",
+       "ic": "👟"
+      },
+      {
+       "ko": "가방",
+       "tx": "una borsa",
+       "rd": "우나 보르사",
+       "ic": "👜"
+      },
+      {
+       "ko": "화장품",
+       "tx": "dei cosmetici",
+       "rd": "데이 코스메티치",
+       "ic": "🧴"
+      },
+      {
+       "ko": "사진관",
+       "tx": "un fotografo",
+       "rd": "운 포토그라포",
+       "ic": "📷"
+      },
+      {
+       "ko": "환전소",
+       "tx": "l'ufficio di cambio",
+       "rd": "루피쵸 디 캄비오",
+       "ic": "👋"
+      },
+      {
+       "ko": "서점",
+       "tx": "una libreria",
+       "rd": "우나 리브레리아",
+       "ic": "👋"
+      },
+      {
+       "ko": "아스피린",
+       "tx": "un'aspirina",
+       "rd": "우나스피리나",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "Può ~? (~해 주실 수 있나요?) 단어",
+     "words": [
+      {
+       "ko": "~해 주실 수 있나요?",
+       "tx": "Può ~?",
+       "rd": "푸오 ~?",
+       "ic": "👋"
+      },
+      {
+       "ko": "부탁을 들어주다",
+       "tx": "farmi un favore",
+       "rd": "파르미 운 파보레",
+       "ic": "👋"
+      },
+      {
+       "ko": "도와주다",
+       "tx": "aiutarmi",
+       "rd": "아이우타르미",
+       "ic": "👋"
+      },
+      {
+       "ko": "다시 말하다",
+       "tx": "ripetere",
+       "rd": "리페테레",
+       "ic": "👋"
+      },
+      {
+       "ko": "좀 더 천천히 말하다",
+       "tx": "parlare più lentamente",
+       "rd": "파를라레 퓨 렌타멘테",
+       "ic": "👋"
+      },
+      {
+       "ko": "말한 것을 쓰다",
+       "tx": "scrivere quello che ha detto",
+       "rd": "스크리베레 꿸로 께 아 데또",
+       "ic": "👋"
+      },
+      {
+       "ko": "택시를 부르다",
+       "tx": "chiamarmi un taxi",
+       "rd": "끼아마르미 운 탁씨",
+       "ic": "🚕"
+      },
+      {
+       "ko": "길을 알려 주다",
+       "tx": "indicarmi la strada",
+       "rd": "인디카르미 라 스트라다",
+       "ic": "🛣️"
+      },
+      {
+       "ko": "담요를 주다",
+       "tx": "darmi una coperta",
+       "rd": "다르미 우나 코페르타",
+       "ic": "👋"
+      },
+      {
+       "ko": "의사를 부르다",
+       "tx": "chiamare un dottore",
+       "rd": "끼아마레 운 도또레",
+       "ic": "🩺"
+      },
+      {
+       "ko": "잠시 기다리다",
+       "tx": "aspettare un minuto",
+       "rd": "아스페따레 운 미누토",
+       "ic": "👋"
+      },
+      {
+       "ko": "찾다",
+       "tx": "cercare",
+       "rd": "체르카레",
+       "ic": "👋"
+      },
+      {
+       "ko": "주변을 안내하다",
+       "tx": "guidare",
+       "rd": "구이다레",
+       "ic": "👋"
+      },
+      {
+       "ko": "짐을 옮기다",
+       "tx": "portare i bagali",
+       "rd": "포르타레 이 바갈리",
+       "ic": "🧳"
+      },
+      {
+       "ko": "주소를 말해 주다",
+       "tx": "fare sapere l'indirizzo",
+       "rd": "파레 사페레 린디리쬬",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "이런 상황에서 실제로 사용해 봅시다. (분야 단어)",
+     "words": [
+      {
+       "ko": "쇼핑",
+       "tx": "spesa",
+       "rd": "스페자",
+       "ic": "👋"
+      },
+      {
+       "ko": "뷰티",
+       "tx": "bellezza",
+       "rd": "벨레짜",
+       "ic": "👋"
+      },
+      {
+       "ko": "엔터테인먼트",
+       "tx": "divertimento",
+       "rd": "디베르티멘토",
+       "ic": "👋"
+      },
+      {
+       "ko": "관광",
+       "tx": "turismo",
+       "rd": "투리스모",
+       "ic": "👋"
+      },
+      {
+       "ko": "맛집",
+       "tx": "buongustaio",
+       "rd": "부온구스타이오",
+       "ic": "👋"
+      },
+      {
+       "ko": "맛있게 드세요",
+       "tx": "Buon appetito",
+       "rd": "부온 아뻬티토",
+       "ic": "🦀"
+      },
+      {
+       "ko": "맛있다!",
+       "tx": "Delizioso!",
+       "rd": "델리찌오조!",
+       "ic": "👋"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sightsee",
+   "title": "관광",
+   "emoji": "🏛️",
+   "sections": [
+    {
+     "title": "이탈리아는 이런 곳입니다 — 그 외의 관광지 WORD",
+     "words": [
+      {
+       "ko": "피사",
+       "tx": "Pisa",
+       "rd": "피사",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "알베로벨로",
+       "tx": "Alberobello",
+       "rd": "알베로벨로",
+       "ic": "🏰"
+      },
+      {
+       "ko": "시칠리아",
+       "tx": "Sicilia",
+       "rd": "시칠리아",
+       "ic": "🗿"
+      },
+      {
+       "ko": "베로나",
+       "tx": "Verona",
+       "rd": "베로나",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "시에나",
+       "tx": "Siena",
+       "rd": "시에나",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아시시",
+       "tx": "Assisi",
+       "rd": "아씨씨",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "길을 물을 때 쓰는 단어",
+     "words": [
+      {
+       "ko": "직진",
+       "tx": "diritto",
+       "rd": "디리또",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "대로",
+       "tx": "viale",
+       "rd": "비알레",
+       "ic": "🏰"
+      },
+      {
+       "ko": "모퉁이",
+       "tx": "angolo",
+       "rd": "안골로",
+       "ic": "🗿"
+      },
+      {
+       "ko": "좌회전",
+       "tx": "sinistra",
+       "rd": "씨니스트라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "길",
+       "tx": "strada/via",
+       "rd": "스트라다/비아",
+       "ic": "🛣️"
+      },
+      {
+       "ko": "건물",
+       "tx": "edificio",
+       "rd": "에디피쵸",
+       "ic": "💧"
+      },
+      {
+       "ko": "도로 표지판",
+       "tx": "cartello",
+       "rd": "까르텔로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "우회전",
+       "tx": "destra",
+       "rd": "데스트라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "교차로",
+       "tx": "incrocio",
+       "rd": "인크로쵸",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "주차장",
+       "tx": "parcheggio",
+       "rd": "파르께죠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "간판",
+       "tx": "cartello",
+       "rd": "까르텔로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "신호등",
+       "tx": "semaforo",
+       "rd": "세마포로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "자동차",
+       "tx": "automobile",
+       "rd": "아우토모빌레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "횡단보도",
+       "tx": "passaggio pedonale",
+       "rd": "파싸죠 페도날레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "블록",
+       "tx": "isolato",
+       "rd": "이졸라토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "보도",
+       "tx": "marciapiede",
+       "rd": "마르챠피에데",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (관광 표지)",
+     "words": [
+      {
+       "ko": "오픈 시간",
+       "tx": "orario di apertura",
+       "rd": "오라리오 디 아페르투라",
+       "ic": "⏰"
+      },
+      {
+       "ko": "폐점 시간",
+       "tx": "orario di chiusura",
+       "rd": "오라리오 디 끼우주라",
+       "ic": "⏰"
+      },
+      {
+       "ko": "촬영 금지",
+       "tx": "vietato fotografare",
+       "rd": "비에타토 포토그라파레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "플래시 사용 금지",
+       "tx": "vietato usare il flash",
+       "rd": "비에타토 우자레 일 플라쉬",
+       "ic": "🏰"
+      },
+      {
+       "ko": "낙서 금지",
+       "tx": "vietato disegnare",
+       "rd": "비에타토 디세냐레",
+       "ic": "🗿"
+      },
+      {
+       "ko": "출입 금지",
+       "tx": "vietato entrare",
+       "rd": "비에타토 엔트라레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "사적인 공간",
+       "tx": "privato",
+       "rd": "프리바토",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (미술 작품·작가)",
+     "words": [
+      {
+       "ko": "레오나르도 다빈치",
+       "tx": "Leonardo da Vinci",
+       "rd": "레오나르도 다 빈치",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "『최후의 만찬』",
+       "tx": "L'Ultima Cena",
+       "rd": "룰티마 체나",
+       "ic": "🏰"
+      },
+      {
+       "ko": "미켈란젤로",
+       "tx": "Michelangelo",
+       "rd": "미꼘란젤로",
+       "ic": "🗿"
+      },
+      {
+       "ko": "『다비드 상』",
+       "tx": "Davide",
+       "rd": "다비데",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "라파엘로",
+       "tx": "Raffaello",
+       "rd": "라파엘로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "『성모 마리아(예수의 어머니)』",
+       "tx": "Madonna della Seggiola",
+       "rd": "마돈나 델라 세찌올라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "필리포 리피",
+       "tx": "Filippo Lippi",
+       "rd": "필립뽀 리삐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "『성모와 아기예수』",
+       "tx": "Madonna col Bambino e due Angeli",
+       "rd": "마돈나 꼴 밤비노 에 두에 안젤리",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (미술 감상)",
+     "words": [
+      {
+       "ko": "보티첼리",
+       "tx": "Botticelli",
+       "rd": "보띠첼리",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "베리니",
+       "tx": "Bellini",
+       "rd": "벨리니",
+       "ic": "🏰"
+      },
+      {
+       "ko": "『아순타(대표적 세례명)』",
+       "tx": "Assunta",
+       "rd": "아쑨따",
+       "ic": "🗿"
+      },
+      {
+       "ko": "『변모』",
+       "tx": "Trasfigurazione",
+       "rd": "트라쓰피구라찌오네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카라바죠",
+       "tx": "Caravaggio",
+       "rd": "까라바죠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "『비너스의 탄생』",
+       "tx": "Nascita di Venere",
+       "rd": "나쉬타 디 베네레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "티치아노",
+       "tx": "Tiziano",
+       "rd": "티찌아노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "『바쿠스』(미켈란젤로)",
+       "tx": "Bacco",
+       "rd": "바꼬",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (투어)",
+     "words": [
+      {
+       "ko": "예약",
+       "tx": "prenotazione",
+       "rd": "프레노타찌오네",
+       "ic": "💊"
+      },
+      {
+       "ko": "팸플릿",
+       "tx": "opuscolo",
+       "rd": "오푸스콜로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오전",
+       "tx": "mattina",
+       "rd": "마띠나",
+       "ic": "🏰"
+      },
+      {
+       "ko": "오후",
+       "tx": "pomeriggio",
+       "rd": "포메리죠",
+       "ic": "🗿"
+      },
+      {
+       "ko": "하루",
+       "tx": "giornata",
+       "rd": "죠르나타",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "요금, 가격",
+       "tx": "tariffa",
+       "rd": "타리파",
+       "ic": "🏷️"
+      },
+      {
+       "ko": "입장료",
+       "tx": "tariffa d'ingresso",
+       "rd": "타리파 딘그레쏘",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "여행 요금",
+       "tx": "tariffa di viaggio",
+       "rd": "타리파 디 비아죠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "취소 위약금",
+       "tx": "tariaffa da annullare",
+       "rd": "타리파 다 안눌라레",
+       "ic": "💊"
+      },
+      {
+       "ko": "지불",
+       "tx": "pagamento",
+       "rd": "파가멘토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "조언",
+       "tx": "consiglio",
+       "rd": "콘실리오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "식사",
+       "tx": "pasto",
+       "rd": "파스토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "버스",
+       "tx": "autobus",
+       "rd": "아우토부스",
+       "ic": "🚌"
+      },
+      {
+       "ko": "야경",
+       "tx": "panorama notturno",
+       "rd": "파노라마 노뚜르노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "성인",
+       "tx": "adulto",
+       "rd": "아둘토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "어린이",
+       "tx": "bambino",
+       "rd": "밤비노",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 관광지 zona turistica (조나 투리스티카)",
+     "words": [
+      {
+       "ko": "콜로세움",
+       "tx": "Colosseo",
+       "rd": "콜로쎄오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "스파냐 광장",
+       "tx": "Piazza di Spagna",
+       "rd": "피아짜 디 스파냐",
+       "ic": "⛲"
+      },
+      {
+       "ko": "포로 로마노",
+       "tx": "Foro Romano",
+       "rd": "포로 로마노",
+       "ic": "🏰"
+      },
+      {
+       "ko": "나보나 광장",
+       "tx": "Piazza Navona",
+       "rd": "피아짜 나보나",
+       "ic": "⛲"
+      },
+      {
+       "ko": "성 베드로 광장",
+       "tx": "Piazza San Pietro",
+       "rd": "피아짜 산 피에트로",
+       "ic": "⛲"
+      },
+      {
+       "ko": "트레비 분수",
+       "tx": "Fontana di Trevi",
+       "rd": "폰타나 디 트레비",
+       "ic": "🗿"
+      },
+      {
+       "ko": "미네르바 광장",
+       "tx": "Piazza della Minerva",
+       "rd": "피아짜 델라 미네르바",
+       "ic": "⛲"
+      },
+      {
+       "ko": "판테온",
+       "tx": "Pantheon",
+       "rd": "판테온",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "콜론나 광장",
+       "tx": "Piazza Colonna",
+       "rd": "피아짜 콜론나",
+       "ic": "⛲"
+      },
+      {
+       "ko": "레푸블리카 광장",
+       "tx": "Piazza della Repubblica",
+       "rd": "피아짜 델라 레푸블리카",
+       "ic": "⛲"
+      },
+      {
+       "ko": "바르베리니 궁전",
+       "tx": "Palazzo Barberini",
+       "rd": "팔라쬬 바르베리니",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "트라스테베레의 산타 마리아 성당",
+       "tx": "Chiesa di Santa Maria in Trastevere",
+       "rd": "끼에자 디 산타 마리아 인 트라스테베레",
+       "ic": "⛪"
+      },
+      {
+       "ko": "오스티엔세 문",
+       "tx": "Porta Ostiense",
+       "rd": "포르따 오스티엔제",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "알젠틴 신전",
+       "tx": "Area Sacra di Torre Argentina",
+       "rd": "아레아 사크라 디 토레 아르젠티나",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "진실의 입",
+       "tx": "Bocca della Verità",
+       "rd": "보까 델라 베리타",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카라칼라 목욕탕",
+       "tx": "Terme di Caracalla",
+       "rd": "테르메 디 카라칼라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "바티칸 시국",
+       "tx": "Citta del Vaticano",
+       "rd": "치따 델 바티카노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "바티칸 박물관",
+       "tx": "Musei Vaticani",
+       "rd": "무세이 바티카니",
+       "ic": "💧"
+      },
+      {
+       "ko": "테르미니 역",
+       "tx": "Stazione Centrale di Termini",
+       "rd": "스타찌오네 첸트랄레 디 테르미니",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산탄젤로 성",
+       "tx": "Castel Sant'Angelo",
+       "rd": "카스텔 산탄젤로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타마리아 대성당",
+       "tx": "Cattedrale di Santa Maria del Fiore",
+       "rd": "까떼드랄레 디 산타 마리아 델 피오레",
+       "ic": "🕍"
+      },
+      {
+       "ko": "조토의 종탑",
+       "tx": "Campanile di Giotto",
+       "rd": "캄파닐레 디 죠토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타 마리아 노벨라 성당",
+       "tx": "Basilica di Santa Maria Novella",
+       "rd": "바질리카 디 산타 마리아 노벨라",
+       "ic": "⛪"
+      },
+      {
+       "ko": "우피치 미술관",
+       "tx": "Galleria degli Uffizi",
+       "rd": "갈레리아 델리 우피찌",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "피티 궁전",
+       "tx": "Palazzo Pitti",
+       "rd": "팔라쬬 피띠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "베키오 다리",
+       "tx": "Ponte Vecchio",
+       "rd": "폰테 베끼오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "베키오 궁전",
+       "tx": "Palazzo Vecchio",
+       "rd": "팔라쬬 베끼오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산 로렌초 성당",
+       "tx": "Basilica di San Lorenzo",
+       "rd": "바질리카 디 산 로렌조",
+       "ic": "⛪"
+      },
+      {
+       "ko": "메디치 가문 궁전",
+       "tx": "Palazzo Medici-Riccardi",
+       "rd": "팔라쬬 메디치-리까르디",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "팔라티나 미술관",
+       "tx": "Galleria Palatina",
+       "rd": "갈레리아 팔라티나",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "시뇨리아 광장",
+       "tx": "Piazza della Signoria",
+       "rd": "피아짜 델라 씨뇨리아",
+       "ic": "⛲"
+      },
+      {
+       "ko": "미켈란젤로 광장",
+       "tx": "Piazza Michelangelo",
+       "rd": "피아짜 미겔란젤로",
+       "ic": "⛲"
+      },
+      {
+       "ko": "체르키 거리",
+       "tx": "Via dei Cerchi",
+       "rd": "비아 데이 체르끼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아리엔토 거리",
+       "tx": "Via di Ariento",
+       "rd": "비아 디 아리엔토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "중앙 시장",
+       "tx": "Mercato Centrale",
+       "rd": "메르카토 첸트랄레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "보볼리 정원",
+       "tx": "Giardino di Boboli",
+       "rd": "쟈르디노 디 보볼리",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "메디치 예배당",
+       "tx": "Cappelle Medicee",
+       "rd": "카뻴레 메디체",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "토르나부오니 거리",
+       "tx": "Via de' Tornabuoni",
+       "rd": "비아 데토르나부오니",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타 크로체 성당",
+       "tx": "Chiesa di Santa Croce",
+       "rd": "끼에자 디 산타 크로체",
+       "ic": "⛪"
+      },
+      {
+       "ko": "두오모 성당",
+       "tx": "Duomo",
+       "rd": "두오모",
+       "ic": "⛪"
+      },
+      {
+       "ko": "비토리오 에마누엘레 2세 갤러리아",
+       "tx": "Galleria Vittorio Emanuele II",
+       "rd": "갈레리아 비또리오 에마누엘레 두에",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "스칼라 극장",
+       "tx": "Teatro alla Scala",
+       "rd": "테아트로 알라 스칼라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "몬테나폴레오네 거리",
+       "tx": "Via Montenapoleone",
+       "rd": "비아 몬테나폴레오네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "브레라 미술관",
+       "tx": "Pinacoteca di Brera",
+       "rd": "피나코테가 디 브레라",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "스포르체스코 성",
+       "tx": "Castello Sforzesco",
+       "rd": "카스텔로 스포르쩨스코",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타 마리아 델레 그라치에 성당",
+       "tx": "Chiesa di Santa Maria delle Grazie",
+       "rd": "끼에자 디 산타 마리아 델레 그라찌에",
+       "ic": "⛪"
+      },
+      {
+       "ko": "스키라 트리엔날레 서점",
+       "tx": "Bookstore Skira Triennale",
+       "rd": "북스토레 스키라 트리엔날레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산 마르코 광장",
+       "tx": "Piazza San Marco",
+       "rd": "피아짜 산 마르코",
+       "ic": "⛰️"
+      },
+      {
+       "ko": "산 마르코 성당",
+       "tx": "Basilica di San Marco",
+       "rd": "바질리카 디 산 마르코",
+       "ic": "⛪"
+      },
+      {
+       "ko": "리알토 다리",
+       "tx": "Ponte di Rialto",
+       "rd": "폰테 디 리알토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "두칼레 궁전",
+       "tx": "Palazzo Ducale",
+       "rd": "팔라쬬 두칼레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카도로",
+       "tx": "Ca' d'Oro",
+       "rd": "카도로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타마리아 델라 살루테 성당",
+       "tx": "Basilica di Santa Maria della Salute",
+       "rd": "바질리카 디 산타 마리아 델라 쌀루떼",
+       "ic": "⛪"
+      },
+      {
+       "ko": "산 조르조 마조레 성당",
+       "tx": "Chiesa di San Giorgio Maggiore",
+       "rd": "끼에자 디 산 죠르죠 마죠레",
+       "ic": "⛪"
+      },
+      {
+       "ko": "소스피에레 다리",
+       "tx": "Ponte dei Sospiere",
+       "rd": "폰테 데이 소스피에레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "산타 마리아 글로리오사 데이 프라리 성당",
+       "tx": "Basilica di Santa Maria Gloriosa dei Frari",
+       "rd": "바질리카 디 산타 마리아 글로리오사 데이 프라리",
+       "ic": "⛪"
+      },
+      {
+       "ko": "무라노",
+       "tx": "Murano",
+       "rd": "무라노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "페니체 극장",
+       "tx": "Teatro La Fenice",
+       "rd": "테아트로 라 페니체",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "시계탑",
+       "tx": "Torre dell'Orologio",
+       "rd": "토레 델 롤로죠",
+       "ic": "⌚"
+      },
+      {
+       "ko": "잡화점",
+       "tx": "Mercerie",
+       "rd": "메르체리에",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "리알토 상점",
+       "tx": "Rialto Mercato",
+       "rd": "리알토 메르카토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아카데미아 미술관",
+       "tx": "Gallerie dell'accademia",
+       "rd": "갈레리에 델라까데미아",
+       "ic": "🖼️"
+      }
+     ]
+    },
+    {
+     "title": "산책 passeggiata (파쎄쨔타)",
+     "words": [
+      {
+       "ko": "호텔",
+       "tx": "albergo",
+       "rd": "알베르고",
+       "ic": "🏨"
+      },
+      {
+       "ko": "역",
+       "tx": "stazione",
+       "rd": "스타찌오네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "은행",
+       "tx": "banca",
+       "rd": "반카",
+       "ic": "🏦"
+      },
+      {
+       "ko": "ATM",
+       "tx": "bancomat",
+       "rd": "반코마트",
+       "ic": "🏰"
+      },
+      {
+       "ko": "지폐",
+       "tx": "banconota",
+       "rd": "반코노타",
+       "ic": "🗿"
+      },
+      {
+       "ko": "동전",
+       "tx": "moneta",
+       "rd": "모네타",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "환전소",
+       "tx": "ufficio di cambio",
+       "rd": "우피쵸 디 깜비오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "화장실",
+       "tx": "bagno",
+       "rd": "반뇨",
+       "ic": "💄"
+      },
+      {
+       "ko": "공중전화",
+       "tx": "telefono pubblico",
+       "rd": "텔레포노 푸쁠리코",
+       "ic": "📞"
+      },
+      {
+       "ko": "편의점",
+       "tx": "negozio di convinienza",
+       "rd": "네고찌오 디 콘비니엔짜",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "쇼핑몰",
+       "tx": "centro commerciale",
+       "rd": "첸트로 콤메르챨레",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "주점",
+       "tx": "negozio di liquori",
+       "rd": "네고찌오 디 리꾸오리",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "영화관",
+       "tx": "cinema",
+       "rd": "치네마",
+       "ic": "🎬"
+      },
+      {
+       "ko": "레스토랑",
+       "tx": "ristorante",
+       "rd": "리스토란테",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카페",
+       "tx": "caffè",
+       "rd": "카페",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "바",
+       "tx": "bar",
+       "rd": "바",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "식당",
+       "tx": "rosticceria",
+       "rd": "로스티체리아",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "시장",
+       "tx": "emporio",
+       "rd": "엠포리오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "약국",
+       "tx": "farmacia",
+       "rd": "파르마챠",
+       "ic": "💊"
+      },
+      {
+       "ko": "골동품점",
+       "tx": "antiquario",
+       "rd": "안티꽈리오",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "서점",
+       "tx": "libreria",
+       "rd": "리브레리아",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "레코드 상점",
+       "tx": "negozio di dischi",
+       "rd": "네고찌오 디 디스끼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "꽃집",
+       "tx": "fiorista",
+       "rd": "피오리스타",
+       "ic": "💐"
+      },
+      {
+       "ko": "부티크",
+       "tx": "boutique",
+       "rd": "보우티꿰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "도서관",
+       "tx": "biblioteca",
+       "rd": "비블리오테카",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "오페라 극장의 구조",
+     "words": [
+      {
+       "ko": "3등석",
+       "tx": "loggione",
+       "rd": "로쬬네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "칸막이석",
+       "tx": "palco",
+       "rd": "팔코",
+       "ic": "🏰"
+      },
+      {
+       "ko": "커튼",
+       "tx": "sipario",
+       "rd": "씨파리오",
+       "ic": "🗿"
+      },
+      {
+       "ko": "무대",
+       "tx": "palcoscenico",
+       "rd": "팔코세니코",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "무대 앞의 넓은 좌석",
+       "tx": "platea",
+       "rd": "플라테아",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오케스트라",
+       "tx": "orchestra",
+       "rd": "오르께스트라",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "멋지다!",
+       "tx": "Bravi!",
+       "rd": "브라비",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (공연·극장)",
+     "words": [
+      {
+       "ko": "오페라",
+       "tx": "opera lirica",
+       "rd": "오페라 리리카",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "극장",
+       "tx": "teatro",
+       "rd": "테아트로",
+       "ic": "🏰"
+      },
+      {
+       "ko": "발레",
+       "tx": "balletto",
+       "rd": "발레또",
+       "ic": "🗿"
+      },
+      {
+       "ko": "댄스",
+       "tx": "ballo",
+       "rd": "발로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "콘서트",
+       "tx": "concerto",
+       "rd": "콘체르토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "매표소",
+       "tx": "botteghino",
+       "rd": "보떼기노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오늘자 티켓",
+       "tx": "biglietto per oggi",
+       "rd": "빌리에또 페르 오찌",
+       "ic": "🎫"
+      },
+      {
+       "ko": "지정석",
+       "tx": "posto prenotato",
+       "rd": "포스토 프레노타토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "자유석",
+       "tx": "posto non prenotato",
+       "rd": "포스토 논 프레노타토",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오전 공연",
+       "tx": "mattinata",
+       "rd": "마띠나타",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "저녁 공연",
+       "tx": "spettacolo serale",
+       "rd": "스페따콜로 세랄레",
+       "ic": "🌆"
+      },
+      {
+       "ko": "입구",
+       "tx": "entrata",
+       "rd": "엔트라타",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "출구",
+       "tx": "uscita",
+       "rd": "우쉬타",
+       "ic": "🏛️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "title": "지역·지명",
+   "emoji": "🗺️",
+   "sections": [
+    {
+     "title": "이탈리아는 이런 곳입니다 — 원 포인트 (지명을 사용해 말해 봅시다)",
+     "words": [
+      {
+       "ko": "~에 가고 싶습니다.",
+       "tx": "Vorrei andare a ~.",
+       "rd": "보레이 안다레 아",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "어디에서 오셨습니까?",
+       "tx": "Di dov'è?",
+       "rd": "디 도베",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "저는 ~에서 왔습니다.",
+       "tx": "Sono di ~.",
+       "rd": "소노 디",
+       "ic": "🗺️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "맛집·음식",
+   "emoji": "🍽️",
+   "sections": [
+    {
+     "title": "LOOK — 애피타이저 antipasto (안티파스토) / 첫 번째 음식 primo piatto (프리모 피아또)",
+     "words": [
+      {
+       "ko": "막대빵",
+       "tx": "grissini",
+       "rd": "그리씨니",
+       "ic": "🥖"
+      },
+      {
+       "ko": "샐러드",
+       "tx": "insalata",
+       "rd": "인살라타",
+       "ic": "🥗"
+      },
+      {
+       "ko": "혼합 애피타이저",
+       "tx": "antipasto misto",
+       "rd": "안티파스토 미스토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "정어리로 만든 음식",
+       "tx": "acciuga marinata",
+       "rd": "아츄가 마리나타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "브루스케타",
+       "tx": "bruschetta",
+       "rd": "브루스께따",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "채소 튀김",
+       "tx": "verdura fritta",
+       "rd": "베르두라 프리따",
+       "ic": "🥬"
+      },
+      {
+       "ko": "훈제 연어",
+       "tx": "salmone affumicato",
+       "rd": "살모네 아푸미카토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "햄",
+       "tx": "prosciutto",
+       "rd": "프로슈또",
+       "ic": "🥓"
+      },
+      {
+       "ko": "생고기 요리",
+       "tx": "carpaccio",
+       "rd": "카르파쵸",
+       "ic": "🥩"
+      },
+      {
+       "ko": "카프레제",
+       "tx": "caprese",
+       "rd": "카프레제",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "굴",
+       "tx": "ostrica",
+       "rd": "오스트리카",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "수프",
+       "tx": "zuppa",
+       "rd": "주빠",
+       "ic": "🥣"
+      },
+      {
+       "ko": "밀라노식 리소토",
+       "tx": "risotto alla milanese",
+       "rd": "리조또 알라 밀라네제",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "해산물 리소토",
+       "tx": "risotto alla pescatora",
+       "rd": "리조또 알라 페스카토라",
+       "ic": "💧"
+      },
+      {
+       "ko": "피자",
+       "tx": "pizza",
+       "rd": "피짜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "볼로냐 스파게티",
+       "tx": "spaghetti alla bolognese",
+       "rd": "스파게띠 알라 볼로네제",
+       "ic": "🦀"
+      },
+      {
+       "ko": "봉골레 파스타",
+       "tx": "spaghetti alle vongole",
+       "rd": "스파게띠 알레 본골레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "토마토 스파게티",
+       "tx": "spaghetti al pomodoro",
+       "rd": "스파게띠 알 포모도로",
+       "ic": "🦀"
+      },
+      {
+       "ko": "카레티에라 스파게티",
+       "tx": "spaghetti alla carrettiera",
+       "rd": "스파게띠 알라 카레띠에라",
+       "ic": "🦀"
+      },
+      {
+       "ko": "오징어 먹물 파스타",
+       "tx": "spaghetti al nero di seppia",
+       "rd": "스파게띠 알 네로 디 세삐아",
+       "ic": "💧"
+      },
+      {
+       "ko": "까르보나라 파스타",
+       "tx": "pasta alla carbonara",
+       "rd": "파스타 알라 카르보나라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "리가토니 파스타",
+       "tx": "rigatoni alla matriciana",
+       "rd": "리가토니 알라 마트리챠나",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "달걀로 만든 해산물 파스타",
+       "tx": "tagliolini alla pescatora",
+       "rd": "탈리올리니 알라 페스카토라",
+       "ic": "💧"
+      },
+      {
+       "ko": "돼지고기와 버섯을 곁들인 파스타",
+       "tx": "tagliatelle ai funghi porcini",
+       "rd": "탈리아텔레 아이 푼기 포르치니",
+       "ic": "🍖"
+      },
+      {
+       "ko": "세이지 버터로 맛을 낸 파스타",
+       "tx": "ravioli burro e salvia",
+       "rd": "라비올리 부로 에 살비아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "해산물 미트 소스 파스타",
+       "tx": "gnocchetti al ragù di pesce",
+       "rd": "뇨께띠 알 라구 디 페셰",
+       "ic": "💧"
+      },
+      {
+       "ko": "라자냐",
+       "tx": "lasagne",
+       "rd": "라쟈네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카넬로니",
+       "tx": "cannelloni",
+       "rd": "칸넬로니",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 두 번째 음식 secondo piatto (세콘도 피아또) / 야채 요리 contorno (콘토르노)",
+     "words": [
+      {
+       "ko": "소고기와 햄을 넣은 로마 요리",
+       "tx": "saltimbocca",
+       "rd": "살팀보까",
+       "ic": "🥓"
+      },
+      {
+       "ko": "소고기 화이트 와인 찜요리",
+       "tx": "ossobuco",
+       "rd": "오쏘부코",
+       "ic": "🍷"
+      },
+      {
+       "ko": "소고기 스테이크",
+       "tx": "bistecca",
+       "rd": "비스테까",
+       "ic": "🥩"
+      },
+      {
+       "ko": "버터에 튀긴 밀라노식 소고기 요리",
+       "tx": "cotoletta alla milanese",
+       "rd": "코톨레따 알라 밀라네제",
+       "ic": "🍖"
+      },
+      {
+       "ko": "소 꼬리 스튜",
+       "tx": "coda alla vaccinara",
+       "rd": "꼬다 알라 바치나라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "그릴에 구운 돼지고기 요리",
+       "tx": "porcini alla griglia",
+       "rd": "뽀르치니 알라 그릴리아",
+       "ic": "🍖"
+      },
+      {
+       "ko": "양고기와 채소를 구운 요리 (곱창을 끓인 것)",
+       "tx": "trippa",
+       "rd": "트리빠",
+       "ic": "🥩"
+      },
+      {
+       "ko": "토스카나식 스테이크",
+       "tx": "bistecca alla fiorentina",
+       "rd": "비스테까 알라 피오렌티나",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "레드 와인으로 구운 고기 요리",
+       "tx": "pollo alla cacciatora",
+       "rd": "폴로 알라 카챠토라",
+       "ic": "🍷"
+      },
+      {
+       "ko": "토마토소스 새우 요리",
+       "tx": "scampi al pomodoro",
+       "rd": "스캄피 알 포모도로",
+       "ic": "🦐"
+      },
+      {
+       "ko": "생선 튀김",
+       "tx": "frittura di pesce",
+       "rd": "프리뚜라 디 페셰",
+       "ic": "🐟"
+      },
+      {
+       "ko": "카포나타",
+       "tx": "caponata",
+       "rd": "카포나타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "carciofo",
+       "rd": "카르쵸포",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "구운 채소 요리",
+       "tx": "verdura alla griglia",
+       "rd": "베르두라 알라 그릴리아",
+       "ic": "🥬"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 현지 음식 cucina locale (쿠치나 로칼레) / 샌드위치 panino (파니노) / 치즈 formaggio (포르마쬬)",
+     "words": [
+      {
+       "ko": "고기나 채소를 감은 요리",
+       "tx": "involtini",
+       "rd": "인볼티니",
+       "ic": "🥩"
+      },
+      {
+       "ko": "콩 볶음",
+       "tx": "ribollita",
+       "rd": "리볼리타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "병아리콩으로 만든 제과류",
+       "tx": "panelle",
+       "rd": "파넬레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "게 샐러드",
+       "tx": "insalata di granseola",
+       "rd": "인살라타 디 그란세올라",
+       "ic": "🦀"
+      },
+      {
+       "ko": "구운 양고기",
+       "tx": "abbacchio alla scottadito",
+       "rd": "아빠끼오 알라 스코따디토",
+       "ic": "🍖"
+      },
+      {
+       "ko": "오븐에 구운 파스타",
+       "tx": "linguine al cartoccio",
+       "rd": "린귀네 알 카르토쵸",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카르파초 (파니니)",
+       "tx": "carpaccio",
+       "rd": "카르파쵸",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "볼리바",
+       "tx": "boliva",
+       "rd": "볼리바",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "쥬스토",
+       "tx": "giusto",
+       "rd": "쥬스토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "타르투포",
+       "tx": "tartufo",
+       "rd": "타르투포",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "가리발디노",
+       "tx": "garibaldino",
+       "rd": "가리발디노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "라르도",
+       "tx": "lardo",
+       "rd": "라르도",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "에밀리아 지역 치즈",
+       "tx": "parmigiano reggiano",
+       "rd": "파르미쟈노 레쨔노",
+       "ic": "🧀"
+      },
+      {
+       "ko": "고르곤졸라",
+       "tx": "gorgonzola",
+       "rd": "고르곤졸라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "모차렐라",
+       "tx": "mozzarella",
+       "rd": "모짜렐라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "탈레지오 치즈",
+       "tx": "taleggio",
+       "rd": "탈레죠",
+       "ic": "🧀"
+      },
+      {
+       "ko": "크림 치즈",
+       "tx": "mascarpone",
+       "rd": "마스카르포네",
+       "ic": "🧀"
+      },
+      {
+       "ko": "페코리노 치즈",
+       "tx": "pecorino romano",
+       "rd": "페코리노 로마노",
+       "ic": "🧀"
+      },
+      {
+       "ko": "피치노 치즈",
+       "tx": "pizzino",
+       "rd": "피찌노",
+       "ic": "🧀"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 음료 bevanda (베반다) / 재료 materia (마테리아)",
+     "words": [
+      {
+       "ko": "레드 와인",
+       "tx": "vino rosso",
+       "rd": "비노 로쏘",
+       "ic": "🍷"
+      },
+      {
+       "ko": "화이트 와인",
+       "tx": "vino bianco",
+       "rd": "비노 비안코",
+       "ic": "🍷"
+      },
+      {
+       "ko": "샴페인",
+       "tx": "spumante",
+       "rd": "스푸만테",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "이탈리아 전통 술",
+       "tx": "grappa",
+       "rd": "그라빠",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "맥주",
+       "tx": "birra",
+       "rd": "비라",
+       "ic": "🍺"
+      },
+      {
+       "ko": "칵테일",
+       "tx": "cocktail",
+       "rd": "코크타일",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오렌지 주스",
+       "tx": "succo d'arancia",
+       "rd": "수꼬 다란챠",
+       "ic": "🧃"
+      },
+      {
+       "ko": "미네랄 워터(탄산 없음)",
+       "tx": "acqua minerale non gassata",
+       "rd": "아꾸아 미네랄레 논 가싸타",
+       "ic": "⛰️"
+      },
+      {
+       "ko": "탄산수",
+       "tx": "acqua minerale gassata",
+       "rd": "아꾸아 미네랄레 가싸타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "콜라",
+       "tx": "coca-cola",
+       "rd": "코카콜라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소고기",
+       "tx": "vitello",
+       "rd": "비텔로",
+       "ic": "🥩"
+      },
+      {
+       "ko": "닭고기",
+       "tx": "pollo",
+       "rd": "폴로",
+       "ic": "🍗"
+      },
+      {
+       "ko": "돼지고기",
+       "tx": "maiale",
+       "rd": "마이알레",
+       "ic": "🍖"
+      },
+      {
+       "ko": "칠면조 고기",
+       "tx": "tacchino",
+       "rd": "타끼노",
+       "ic": "🥓"
+      },
+      {
+       "ko": "양고기",
+       "tx": "pecora",
+       "rd": "페코라",
+       "ic": "🥩"
+      },
+      {
+       "ko": "어린 양고기",
+       "tx": "agnello",
+       "rd": "아녤로",
+       "ic": "🥩"
+      },
+      {
+       "ko": "낙지",
+       "tx": "polpo",
+       "rd": "폴포",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "새우",
+       "tx": "gambero",
+       "rd": "감베로",
+       "ic": "🦐"
+      },
+      {
+       "ko": "오징어",
+       "tx": "seppia",
+       "rd": "세삐아",
+       "ic": "🦑"
+      },
+      {
+       "ko": "연어",
+       "tx": "salmone",
+       "rd": "살모네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "멸치류",
+       "tx": "acciuga",
+       "rd": "아츄가",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "홍합",
+       "tx": "cozze",
+       "rd": "코쩨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "게",
+       "tx": "granchio",
+       "rd": "그란끼오",
+       "ic": "🦀"
+      },
+      {
+       "ko": "조개",
+       "tx": "vongole",
+       "rd": "본골레",
+       "ic": "🦪"
+      },
+      {
+       "ko": "감자",
+       "tx": "patata",
+       "rd": "파타타",
+       "ic": "🥔"
+      },
+      {
+       "ko": "당근",
+       "tx": "carota",
+       "rd": "카로타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "피망",
+       "tx": "peperone",
+       "rd": "페페로네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "양파",
+       "tx": "cipolla",
+       "rd": "치폴라",
+       "ic": "🧅"
+      },
+      {
+       "ko": "토마토",
+       "tx": "pomodoro",
+       "rd": "포모도로",
+       "ic": "🍅"
+      },
+      {
+       "ko": "양배추",
+       "tx": "cavolo",
+       "rd": "카볼로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "carciofo",
+       "rd": "카르쵸포",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "쌀",
+       "tx": "riso",
+       "rd": "리조",
+       "ic": "🍚"
+      },
+      {
+       "ko": "호박",
+       "tx": "zucchine",
+       "rd": "주끼네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "바질",
+       "tx": "basilico",
+       "rd": "바질리코",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "렌틸콩",
+       "tx": "lenticchie",
+       "rd": "렌티끼에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "루콜라",
+       "tx": "rucola",
+       "rd": "루콜라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "레몬",
+       "tx": "limone",
+       "rd": "리모네",
+       "ic": "🍋"
+      },
+      {
+       "ko": "파슬리",
+       "tx": "prezzemolo",
+       "rd": "프레쩨몰로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생선 알",
+       "tx": "bottarga",
+       "rd": "보따르가",
+       "ic": "🐟"
+      },
+      {
+       "ko": "올리브",
+       "tx": "oliva",
+       "rd": "올리바",
+       "ic": "🫒"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 디저트 dolce (돌체) / 파스타 종류 tipo di pasta (티포 디 파스타)",
+     "words": [
+      {
+       "ko": "케이크",
+       "tx": "torta",
+       "rd": "토르타",
+       "ic": "🍰"
+      },
+      {
+       "ko": "파이",
+       "tx": "crostata",
+       "rd": "크로스타타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "cioccolato",
+       "rd": "초꼴라토",
+       "ic": "🍫"
+      },
+      {
+       "ko": "비스킷",
+       "tx": "biscotti",
+       "rd": "비스코띠",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "흑설탕 캔디",
+       "tx": "marrone candito",
+       "rd": "마로네 칸디토",
+       "ic": "🍬"
+      },
+      {
+       "ko": "크림 비스킷",
+       "tx": "biscotti con crema",
+       "rd": "비스코띠 꼰 크레마",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일 케이크",
+       "tx": "torta di frutta",
+       "rd": "토르타 디 프루따",
+       "ic": "🍎"
+      },
+      {
+       "ko": "스파게티 면",
+       "tx": "spaghettei",
+       "rd": "스파게떼이",
+       "ic": "🦀"
+      },
+      {
+       "ko": "조개 모양 파스타 면",
+       "tx": "conchiglie",
+       "rd": "콘낄리에",
+       "ic": "🦪"
+      },
+      {
+       "ko": "쪼개진 모양 파스타 면",
+       "tx": "spaccatelle",
+       "rd": "스파까텔레",
+       "ic": "🍜"
+      },
+      {
+       "ko": "바퀴 모양 파스타 면",
+       "tx": "ruota",
+       "rd": "루오타",
+       "ic": "🍜"
+      },
+      {
+       "ko": "리본 모양 파스타 면",
+       "tx": "farfalle",
+       "rd": "파르팔레",
+       "ic": "🍜"
+      },
+      {
+       "ko": "관 모양 파스타 면",
+       "tx": "rigatoni",
+       "rd": "리가토니",
+       "ic": "🍜"
+      },
+      {
+       "ko": "짧고 구멍이 있는 파스타 면",
+       "tx": "penne",
+       "rd": "펜네",
+       "ic": "🍜"
+      },
+      {
+       "ko": "톱니 모양 파스타 면",
+       "tx": "fusilli",
+       "rd": "푸질리",
+       "ic": "🍜"
+      },
+      {
+       "ko": "속이 텅 비고 구부러진 파스타 면",
+       "tx": "pipe",
+       "rd": "피페",
+       "ic": "🍜"
+      },
+      {
+       "ko": "제게 추천해 주시겠어요? (주문이 서투를 때는)",
+       "tx": "Cosa mi consiglia?",
+       "rd": "꼬자 미 콘실리아?",
+       "ic": "🦀"
+      }
+     ]
+    },
+    {
+     "title": "메뉴에 대해 물어 봅시다",
+     "words": [
+      {
+       "ko": "세트 메뉴가 있나요?",
+       "tx": "Avete il menù fisso?",
+       "rd": "아베떼 일 메누 피쏘?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "이것은 무엇인가요?",
+       "tx": "Che cos'è questo?",
+       "rd": "께 꼬제 꿰스또?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "무엇을 추천하시나요?",
+       "tx": "Che cosa mi consiglia?",
+       "rd": "께 꼬자 미 콘실리아?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "저도 같은 걸로 주세요.",
+       "tx": "Vorrei lo stesso, per favore.",
+       "rd": "보레이 로 스테쏘 페르 파보레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오늘의 스페셜 메뉴[디저트]는 무엇인가요?",
+       "tx": "Qual'è il piatto[dolce] del giorno?",
+       "rd": "꽐레 일 피아또[돌체] 델 죠르노?",
+       "ic": "🍰"
+      },
+      {
+       "ko": "나누고 싶어요.",
+       "tx": "Vorrei dividere.",
+       "rd": "보레이 디비데레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "다른 종류의 커피 한 잔 주세요.",
+       "tx": "Vorrei avere un altro caffè, per favore.",
+       "rd": "보레이 아베레 운 알트로 카페 페르 파보레",
+       "ic": "☕"
+      },
+      {
+       "ko": "테이블 자리를 원합니다.",
+       "tx": "Vorrei un tavolo.",
+       "rd": "보레이 운 타볼로",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 카페 메뉴 menù dei caffè (메누 데이 카페)",
+     "words": [
+      {
+       "ko": "~을 부탁해요.",
+       "tx": "~, per favore.",
+       "rd": "~ 페르 파보레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "커피 (에스프레소)",
+       "tx": "caffè",
+       "rd": "카페",
+       "ic": "☕"
+      },
+      {
+       "ko": "카페 룽고 (에스프레소에 따뜻한 물을 많이 넣은 것)",
+       "tx": "caffè lungo",
+       "rd": "카페 룽고",
+       "ic": "💧"
+      },
+      {
+       "ko": "카페 마키아토 (에스프레소에 거품 낸 우유를 조금 넣은 것)",
+       "tx": "caffè macchiato",
+       "rd": "카페 마키아토",
+       "ic": "🥛"
+      },
+      {
+       "ko": "카푸치노 (에스프레소와 거품 낸 우유를 반반 넣은 것)",
+       "tx": "cappuccino",
+       "rd": "카푸치노",
+       "ic": "🥛"
+      },
+      {
+       "ko": "마로끼노 (카푸치노에 코코아파우더를 섞은 것)",
+       "tx": "marocchino",
+       "rd": "마로끼노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카페 라테 (에스프레소와 따뜻한 우유를 반반 넣은 것)",
+       "tx": "caffè latte",
+       "rd": "카페 라떼",
+       "ic": "🥛"
+      },
+      {
+       "ko": "라떼 마키아토 (거품 낸 우유에 에스프레소를 조금 넣은 것)",
+       "tx": "latte macchiato",
+       "rd": "라떼 마끼아토",
+       "ic": "🥛"
+      },
+      {
+       "ko": "크림이 있는 커피 (에스프레소 위에 생크림을 얹은 것)",
+       "tx": "caffè con panna",
+       "rd": "카페 꼰 판나",
+       "ic": "☕"
+      },
+      {
+       "ko": "코코아가 있는 카푸치노 (카카오추출 성분을 더 넣은 카푸치노)",
+       "tx": "cappuccino con cacao",
+       "rd": "카푸치노 꼰 카카오",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "차가운 커피 (차가운 에스프레소, 아이스커피와 가깝다)",
+       "tx": "caffè freddo",
+       "rd": "카페 프레도",
+       "ic": "☕"
+      },
+      {
+       "ko": "초콜릿 음료 (핫 초콜릿, 겨울에 딱이다)",
+       "tx": "cioccolata",
+       "rd": "쵸꼴라타",
+       "ic": "🍫"
+      },
+      {
+       "ko": "크림이 있는 초콜릿 음료 (쵸콜라타에 생크림을 얹은 것)",
+       "tx": "cioccolato con panna",
+       "rd": "쵸꼴라토 꼰 판나",
+       "ic": "🍫"
+      },
+      {
+       "ko": "헤이즐넛 커피 (에스프레소에 설탕을 넣고 헤이즐넛 크림을 넣은 것)",
+       "tx": "caffè alla nocciola",
+       "rd": "카페 알라 노촐라",
+       "ic": "☕"
+      },
+      {
+       "ko": "초카페 (핫 초콜릿에 커피를 넣고 섞은 것)",
+       "tx": "ciocaffe",
+       "rd": "쵸카페",
+       "ic": "☕"
+      },
+      {
+       "ko": "파니니 (샌드위치, 한국에서 볼 수 있는 '파니니'는 복수형 표현)",
+       "tx": "panino",
+       "rd": "파니노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크로아상 (크루아상 모양의 과자 빵)",
+       "tx": "brioche",
+       "rd": "브리오께",
+       "ic": "🥖"
+      },
+      {
+       "ko": "크림이 있는 크로아상 (커스터드 크림이 들어간 브리오슈)",
+       "tx": "brioche con crema",
+       "rd": "브리오께 꼰 크레마",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "이 가게의 오리지널 커피는 무엇인가요?",
+       "tx": "Qual'è caffè tipico del negozio?",
+       "rd": "꽐레 카페 티피코 델 네고찌오?",
+       "ic": "☕"
+      }
+     ]
+    },
+    {
+     "title": "치즈, 올리브 오일을 사러 가 봅시다 — 치즈의 종류",
+     "words": [
+      {
+       "ko": "리코타 치즈",
+       "tx": "ricotta",
+       "rd": "리코타",
+       "ic": "🧀"
+      },
+      {
+       "ko": "아시아고 치즈",
+       "tx": "asiago",
+       "rd": "아시아고",
+       "ic": "🧀"
+      },
+      {
+       "ko": "로비올라 치즈",
+       "tx": "robiola",
+       "rd": "로비올라",
+       "ic": "🧀"
+      },
+      {
+       "ko": "카스텔마뇨 치즈",
+       "tx": "castelmagno",
+       "rd": "카스텔마뇨",
+       "ic": "🧀"
+      }
+     ]
+    },
+    {
+     "title": "올리브 오일 종류",
+     "words": [
+      {
+       "ko": "엑스트라 버진",
+       "tx": "extra vergine",
+       "rd": "엑스트라 베르지네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "파인 버진",
+       "tx": "vergine fino",
+       "rd": "베르지네 피노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오디너리 버진",
+       "tx": "vergine corrente",
+       "rd": "베르지네 코렌테",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "올리브 오일",
+       "tx": "olio d'oliva",
+       "rd": "올리오 돌리바",
+       "ic": "🫒"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (치즈·올리브 오일)",
+     "words": [
+      {
+       "ko": "우유",
+       "tx": "latte",
+       "rd": "라떼",
+       "ic": "🥛"
+      },
+      {
+       "ko": "성분들",
+       "tx": "ingredienti",
+       "rd": "인그레디엔티",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생산 지역",
+       "tx": "zona produttrice",
+       "rd": "조나 프로두뜨리체",
+       "ic": "⛰️"
+      },
+      {
+       "ko": "신맛",
+       "tx": "acidità",
+       "rd": "아치디타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "맛이 좋은",
+       "tx": "gustoso",
+       "rd": "구스토조",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "부드러운",
+       "tx": "tenero",
+       "rd": "테네로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "가벼운",
+       "tx": "leggero",
+       "rd": "레쩨로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크림이 많은",
+       "tx": "cremoso",
+       "rd": "크레모조",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소금을 첨가한",
+       "tx": "salato",
+       "rd": "쌀라토",
+       "ic": "🧂"
+      },
+      {
+       "ko": "향료",
+       "tx": "profumo",
+       "rd": "프로푸모",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 마트의 음식 (…부탁합니다 / …, per favore. / 페르 파보레)",
+     "words": [
+      {
+       "ko": "테이크아웃",
+       "tx": "portare via",
+       "rd": "포르타레 비아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "피자",
+       "tx": "pizza",
+       "rd": "피짜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "파니노",
+       "tx": "panino",
+       "rd": "파니노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "인볼티니",
+       "tx": "involtini",
+       "rd": "인볼티니",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "접은 크레샤",
+       "tx": "crescia sfogliata",
+       "rd": "크레샤 스폴리아타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "포카치아",
+       "tx": "focaccia",
+       "rd": "포카챠",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "샌드위치",
+       "tx": "tramezzino",
+       "rd": "트라메찌노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "피아디나",
+       "tx": "piadina",
+       "rd": "피아디나",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "해산물이 들어간 채소 샐러드",
+       "tx": "insalata di verdura alla pescatora",
+       "rd": "인살라타 디 베르두라 알라 페스카토라",
+       "ic": "💧"
+      },
+      {
+       "ko": "절인 멸치",
+       "tx": "acciuga marinata",
+       "rd": "아츄가 마리나타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "구운 빵가루를 곁들인 토마토",
+       "tx": "pomodoro con pangrattato al forno",
+       "rd": "포모도로 꼰 판그라따또 알 포르노",
+       "ic": "🥖"
+      },
+      {
+       "ko": "구운 닭고기",
+       "tx": "pollo arrosto",
+       "rd": "폴로 아로스토",
+       "ic": "🍗"
+      },
+      {
+       "ko": "프랑스식 파이",
+       "tx": "quiche",
+       "rd": "뀌께",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "수프",
+       "tx": "zuppa",
+       "rd": "주빠",
+       "ic": "🥣"
+      },
+      {
+       "ko": "케이크",
+       "tx": "torta",
+       "rd": "토르타",
+       "ic": "🍰"
+      },
+      {
+       "ko": "생수",
+       "tx": "acqua minerale",
+       "rd": "아꾸아 미네랄레",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "원포인트 — 속재료를 골라 봅시다",
+     "words": [
+      {
+       "ko": "…을 넣어 주실 수 있나요?",
+       "tx": "Può mettere …, per favore?",
+       "rd": "푸오 메떼레 …, 페르 파보레?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "살라미",
+       "tx": "salame",
+       "rd": "살라메",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오믈렛",
+       "tx": "frittata",
+       "rd": "프리따타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "루콜라",
+       "tx": "rucola",
+       "rd": "루콜라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "구운 채소",
+       "tx": "verdura arrosto",
+       "rd": "베르두라 아로스토",
+       "ic": "🥬"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "carciofo",
+       "rd": "카르쵸포",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "삶은 달걀",
+       "tx": "uovo bollito",
+       "rd": "우오보 볼리토",
+       "ic": "🥚"
+      },
+      {
+       "ko": "햄",
+       "tx": "prosciutto crudo",
+       "rd": "프로슈또 크루도",
+       "ic": "🥓"
+      },
+      {
+       "ko": "상추",
+       "tx": "lattuga",
+       "rd": "라뚜가",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "치즈",
+       "tx": "formaggio",
+       "rd": "포르마죠",
+       "ic": "🧀"
+      },
+      {
+       "ko": "버터",
+       "tx": "burro",
+       "rd": "부로",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 달콤한 것 (dolce 돌체)",
+     "words": [
+      {
+       "ko": "초콜릿",
+       "tx": "cioccolato",
+       "rd": "쵸꼴라토",
+       "ic": "🍫"
+      },
+      {
+       "ko": "송로 초콜릿",
+       "tx": "tartufo al cioccolato",
+       "rd": "타르투포 알 쵸꼴라토",
+       "ic": "🍫"
+      },
+      {
+       "ko": "과일 케이크",
+       "tx": "panforte",
+       "rd": "판포르테",
+       "ic": "🍎"
+      },
+      {
+       "ko": "크루아상",
+       "tx": "brioche",
+       "rd": "브리오께",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "봉봉",
+       "tx": "bonbon",
+       "rd": "본본",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "비스킷",
+       "tx": "biscotto",
+       "rd": "비스코또",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "초콜릿 무스 케이크",
+       "tx": "torta con mousse di cioccolato",
+       "rd": "토르타 꼰 모우쎄 디 쵸꼴라토",
+       "ic": "🍰"
+      },
+      {
+       "ko": "프랄리네",
+       "tx": "pralinè",
+       "rd": "프랄리네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "작은 케이크",
+       "tx": "tortina",
+       "rd": "토르티나",
+       "ic": "🧁"
+      },
+      {
+       "ko": "버터 비스킷",
+       "tx": "biscotti al burro",
+       "rd": "비스코띠 알 부로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일 케이크",
+       "tx": "torta di frutta",
+       "rd": "토르타 디 프루따",
+       "ic": "🍏"
+      },
+      {
+       "ko": "치즈 케이크",
+       "tx": "torta di formaggio",
+       "rd": "토르타 디 포르마죠",
+       "ic": "🧀"
+      },
+      {
+       "ko": "바바",
+       "tx": "babà",
+       "rd": "바바",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "누텔라 케이크",
+       "tx": "torta di nutella",
+       "rd": "토르타 디 누텔라",
+       "ic": "🍮"
+      },
+      {
+       "ko": "도넛",
+       "tx": "ciambella",
+       "rd": "챰벨라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사탕",
+       "tx": "caramella",
+       "rd": "카라멜라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아포가토",
+       "tx": "affogato",
+       "rd": "아포가토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "푸딩",
+       "tx": "budino",
+       "rd": "부디노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "젤리",
+       "tx": "gelatina",
+       "rd": "젤라티나",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "프로피테롤",
+       "tx": "profiterole",
+       "rd": "프로피테롤레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "여기서 먹을게요.",
+       "tx": "Mangio qua.",
+       "rd": "만죠 꽈",
+       "ic": "🦀"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아의 과자 '돌체'를 소개합니다",
+     "words": [
+      {
+       "ko": "판나코타",
+       "tx": "panna cotta",
+       "rd": "판나 코따",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "티라미수",
+       "tx": "tiramisù",
+       "rd": "티라미수",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "후르츠 펀치",
+       "tx": "macedonia",
+       "rd": "마체도니아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "밀푀유",
+       "tx": "mille foglie",
+       "rd": "밀레 폴리에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "자바요네",
+       "tx": "zabaione",
+       "rd": "짜바이오네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "칸놀로",
+       "tx": "cannolo",
+       "rd": "칸놀로",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "과일에 대한 단어를 알아 둡시다",
+     "words": [
+      {
+       "ko": "블루베리",
+       "tx": "mirtillo",
+       "rd": "미르틸로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과",
+       "tx": "mela",
+       "rd": "멜라",
+       "ic": "🍎"
+      },
+      {
+       "ko": "자두",
+       "tx": "prugna",
+       "rd": "프루냐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "살구",
+       "tx": "albicocca",
+       "rd": "알비꼬까",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "서양 배",
+       "tx": "pera",
+       "rd": "페라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "복숭아",
+       "tx": "pesca",
+       "rd": "페스카",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "딸기",
+       "tx": "fragola",
+       "rd": "프라골라",
+       "ic": "🍓"
+      },
+      {
+       "ko": "레몬",
+       "tx": "limone",
+       "rd": "리모네",
+       "ic": "🍋"
+      }
+     ]
+    },
+    {
+     "title": "좋아하는 맛의 젤라또를 먹고 싶어요",
+     "words": [
+      {
+       "ko": "딸기",
+       "tx": "fragola",
+       "rd": "프라골라",
+       "ic": "🍓"
+      },
+      {
+       "ko": "레몬",
+       "tx": "limone",
+       "rd": "리모네",
+       "ic": "🍋"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "cioccolato",
+       "rd": "쵸꼴라토",
+       "ic": "🍫"
+      },
+      {
+       "ko": "자몽",
+       "tx": "pompelmo rosa",
+       "rd": "폼펠모 로자",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "피스타치오",
+       "tx": "pistacchio",
+       "rd": "피스타끼오",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "베리",
+       "tx": "frutti di bosco",
+       "rd": "프루띠 디 보스코",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "우유",
+       "tx": "latte",
+       "rd": "라떼",
+       "ic": "🥛"
+      },
+      {
+       "ko": "커피",
+       "tx": "caffè",
+       "rd": "카페",
+       "ic": "☕"
+      },
+      {
+       "ko": "마롱글라세",
+       "tx": "marrone candito",
+       "rd": "마로네 칸디토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "복숭아",
+       "tx": "pesca",
+       "rd": "페스카",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "망고와 서양 배",
+       "tx": "mango e pera",
+       "rd": "만고 에 페라",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (젤라또)",
+     "words": [
+      {
+       "ko": "바닐라",
+       "tx": "vaniglia",
+       "rd": "바닐리아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "민트",
+       "tx": "menta",
+       "rd": "멘타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "럼주",
+       "tx": "rum",
+       "rd": "룸",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "무화과",
+       "tx": "fico",
+       "rd": "피코",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "귤",
+       "tx": "mandarino",
+       "rd": "만다리노",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "서양 배",
+       "tx": "pera",
+       "rd": "페라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과",
+       "tx": "mela",
+       "rd": "멜라",
+       "ic": "🍎"
+      },
+      {
+       "ko": "라즈베리",
+       "tx": "lampone",
+       "rd": "람포네",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "시원한 디저트 이모저모",
+     "words": [
+      {
+       "ko": "셔벗",
+       "tx": "sorbetto",
+       "rd": "소르베또",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "슬러시",
+       "tx": "granita",
+       "rd": "그라니타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "셰이크",
+       "tx": "frullato",
+       "rd": "프룰라토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카사타",
+       "tx": "cassata",
+       "rd": "카싸타",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "와인을 똑똑하게 고르는 방법 — 와인리스트는 여기를 참고하세요",
+     "words": [
+      {
+       "ko": "레드 와인",
+       "tx": "rosso",
+       "rd": "",
+       "ic": "🍷"
+      },
+      {
+       "ko": "로제 와인",
+       "tx": "rosato",
+       "rd": "",
+       "ic": "🍷"
+      },
+      {
+       "ko": "화이트 와인",
+       "tx": "bianco",
+       "rd": "",
+       "ic": "🍷"
+      },
+      {
+       "ko": "샴페인 & 스파클링 와인",
+       "tx": "spumante",
+       "rd": "",
+       "ic": "🍷"
+      },
+      {
+       "ko": "하우스 와인",
+       "tx": "vino di casa",
+       "rd": "",
+       "ic": "🍷"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (와인)",
+     "words": [
+      {
+       "ko": "원산지",
+       "tx": "luogo d'origine",
+       "rd": "루오고 도리지네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "브랜드",
+       "tx": "marca",
+       "rd": "마르카",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "수확년",
+       "tx": "anno di vendemmia",
+       "rd": "안노 디 벤뎀미아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "포도",
+       "tx": "uva",
+       "rd": "우바",
+       "ic": "🍇"
+      },
+      {
+       "ko": "등급",
+       "tx": "classificazione",
+       "rd": "클라씨피카찌오네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "건조한",
+       "tx": "secco",
+       "rd": "세꼬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "옅은 단맛",
+       "tx": "abboccato",
+       "rd": "아보까토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "중간 단맛",
+       "tx": "amabile",
+       "rd": "아마빌레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "달콤한",
+       "tx": "dolce",
+       "rd": "돌체",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "병",
+       "tx": "bottiglia",
+       "rd": "보띨리아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "잔",
+       "tx": "bicchiere",
+       "rd": "비끼에레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "라벨",
+       "tx": "etichetta",
+       "rd": "에티께따",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "코르크",
+       "tx": "sughero",
+       "rd": "수게로",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "메뉴 단어장",
+     "words": [
+      {
+       "ko": "전채",
+       "tx": "antipasto",
+       "rd": "안티파스토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "고기 요리",
+       "tx": "carne",
+       "rd": "카르네",
+       "ic": "🥩"
+      },
+      {
+       "ko": "소스",
+       "tx": "condimento",
+       "rd": "콘디멘토",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "야채 요리",
+       "tx": "contorno",
+       "rd": "콘토르노",
+       "ic": "🥬"
+      },
+      {
+       "ko": "디저트",
+       "tx": "dolce",
+       "rd": "돌체",
+       "ic": "🍰"
+      },
+      {
+       "ko": "과일",
+       "tx": "frutta",
+       "rd": "프루따",
+       "ic": "🍎"
+      },
+      {
+       "ko": "샐러드",
+       "tx": "insalata",
+       "rd": "인살라타",
+       "ic": "🥗"
+      },
+      {
+       "ko": "파스타",
+       "tx": "pasta",
+       "rd": "파스타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "첫 번째 요리",
+       "tx": "primo piatto",
+       "rd": "프리모 피아또",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "두 번째 요리",
+       "tx": "second piatto",
+       "rd": "세콘도 피아또",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "와인",
+       "tx": "vino",
+       "rd": "비노",
+       "ic": "🍷"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "title": "쇼핑",
+   "emoji": "🛍️",
+   "sections": [
+    {
+     "title": "마트에서 식재료를 직접 사 볼까요? — 마트에서 물건 사기",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Buongiorno.",
+       "rd": "본죠르노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "무엇을 선택하시겠어요?",
+       "tx": "Che cosa desidera?",
+       "rd": "께 꼬자 데지데라?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모짜렐라가 들어있는 파니니 하나와 토마토 주세요.",
+       "tx": "Un panino con mozzarella e pomodoro, per favore.",
+       "rd": "운 파니노 꼰 모짜렐라 에 포모도로 페르 파보레",
+       "ic": "🍅"
+      },
+      {
+       "ko": "그 밖에 또 무엇을 원하시나요?",
+       "tx": "Che altro vuole?",
+       "rd": "께 알트로 부올레?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "해산물이 들어간 이 샐러드 100g을 주세요.",
+       "tx": "100g di questa insalata alla pescatora, per favore.",
+       "rd": "첸토 그람마 디 꿰스따 인살라타 알라 페스카토라 페르 파보레",
+       "ic": "💧"
+      },
+      {
+       "ko": "여기에서 드실 건가요?",
+       "tx": "Vuole mangiare qua?",
+       "rd": "부올레 만쟈레 꽈?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "테이크아웃 할게요, 감사합니다.",
+       "tx": "Da portare via, grazie.",
+       "rd": "다 포르타레 비아 그라찌에",
+       "ic": "🦀"
+      },
+      {
+       "ko": "8유로입니다.",
+       "tx": "Costa 8 euro.",
+       "rd": "코스타 오또 에우로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "감사합니다.",
+       "tx": "Grazie.",
+       "rd": "그라찌에",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "사이즈별 단어",
+     "words": [
+      {
+       "ko": "소",
+       "tx": "piccolo",
+       "rd": "피꼴로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "중",
+       "tx": "medio",
+       "rd": "메디오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "대",
+       "tx": "grande",
+       "rd": "그란데",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 상점·브랜드 (…어디에 있나요? / Dove c'è …? / 도베 체 …?)",
+     "words": [
+      {
+       "ko": "백화점",
+       "tx": "grande magazzino",
+       "rd": "그란데 마가찌노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "셀렉트 숍",
+       "tx": "negozio selezionato",
+       "rd": "네고찌오 셀레찌오나토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양복점",
+       "tx": "negozio di confezioni",
+       "rd": "네고찌오 디 콘페찌오니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "신발 가게",
+       "tx": "negozio di scarpe",
+       "rd": "네고찌오 디 스카르페",
+       "ic": "🦀"
+      },
+      {
+       "ko": "쇼핑몰",
+       "tx": "centro commerciale",
+       "rd": "첸트로 콤메르챨레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "화장품 가게",
+       "tx": "negozio di cosmetici",
+       "rd": "네고찌오 디 코스메티치",
+       "ic": "🦀"
+      },
+      {
+       "ko": "프라다",
+       "tx": "Prada",
+       "rd": "프라다",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "쟌니 베르사체",
+       "tx": "Gianni Versace",
+       "rd": "쟌니 베르사체",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가방 가게",
+       "tx": "negozio di borse",
+       "rd": "네고찌오 디 보르세",
+       "ic": "🦀"
+      },
+      {
+       "ko": "면세점",
+       "tx": "negozio duty-free",
+       "rd": "네고찌오 두티 프레",
+       "ic": "🍜"
+      },
+      {
+       "ko": "살바토레 페라가모",
+       "tx": "Salvatore Ferragamo",
+       "rd": "살바토레 페라가모",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "구찌",
+       "tx": "Gucci",
+       "rd": "구치",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "조르지오 아르마니",
+       "tx": "Giorgio Armani",
+       "rd": "죠르지오 아르마니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "막스 마라",
+       "tx": "Max Mara",
+       "rd": "막스 마라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "불가리",
+       "tx": "BVLGARI",
+       "rd": "불가리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "토즈",
+       "tx": "Tod's",
+       "rd": "토즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "돌체 & 가바나",
+       "tx": "Dolce & Gabbana",
+       "rd": "돌체 앤 가바나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "미우 미우",
+       "tx": "miumiu",
+       "rd": "미우 미우",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "펜디",
+       "tx": "Fendi",
+       "rd": "펜디",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에밀리오 푸치",
+       "tx": "Emilio Pucci",
+       "rd": "에밀리오 푸치",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "훌라",
+       "tx": "Furla",
+       "rd": "푸를라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에르메네질도 제냐",
+       "tx": "Ermenegildo Zegna",
+       "rd": "에르메네리도 쩨냐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에트로",
+       "tx": "Etro",
+       "rd": "에트로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보테가 베네타",
+       "tx": "Bottega Veneta",
+       "rd": "보떼가 베네타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샤넬",
+       "tx": "Chanel",
+       "rd": "샤넬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "루이비통",
+       "tx": "Louis Vuitton",
+       "rd": "루이스 뷔똔",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (소재·색)",
+     "words": [
+      {
+       "ko": "부드러운",
+       "tx": "morbido",
+       "rd": "모르비도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "단단한",
+       "tx": "duro",
+       "rd": "두로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "진짜 가죽",
+       "tx": "vera pelle",
+       "rd": "베라 펠레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "실크",
+       "tx": "seta",
+       "rd": "세타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "린넨",
+       "tx": "lino",
+       "rd": "리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "울",
+       "tx": "lana",
+       "rd": "라나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스웨이드",
+       "tx": "pelle scamosciata",
+       "rd": "펠레 스카모샤타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "인조 가죽",
+       "tx": "finta pelle",
+       "rd": "핀타 펠레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "밝은 색",
+       "tx": "colore chiaro",
+       "rd": "콜로레 끼아로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "어두운 색",
+       "tx": "colore scuro",
+       "rd": "콜로레 스쿠로",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 패션 (modo di vestire 모도 디 베스티레)",
+     "words": [
+      {
+       "ko": "T 셔츠",
+       "tx": "maglietta",
+       "rd": "말리에따",
+       "ic": "👔"
+      },
+      {
+       "ko": "니트",
+       "tx": "taglio cucci",
+       "rd": "탈리오 쿠치",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "원피스",
+       "tx": "abito intero",
+       "rd": "아비토 인테로",
+       "ic": "👗"
+      },
+      {
+       "ko": "셔츠 / 스웨터",
+       "tx": "maglia",
+       "rd": "말리아",
+       "ic": "👔"
+      },
+      {
+       "ko": "카디건",
+       "tx": "cardigan",
+       "rd": "카르디간",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스커트",
+       "tx": "gonna",
+       "rd": "곤나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "쇼트 코트 / 재킷",
+       "tx": "giacca",
+       "rd": "쟈까",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "코트",
+       "tx": "cappotto",
+       "rd": "카뽀또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장갑",
+       "tx": "guanti",
+       "rd": "관티",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "구두",
+       "tx": "scarpe",
+       "rd": "스카르페",
+       "ic": "👠"
+      },
+      {
+       "ko": "드레스",
+       "tx": "abito",
+       "rd": "아비토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "셔츠",
+       "tx": "camicia",
+       "rd": "카미챠",
+       "ic": "👔"
+      },
+      {
+       "ko": "바지",
+       "tx": "pantaloni",
+       "rd": "판탈로니",
+       "ic": "👖"
+      },
+      {
+       "ko": "캐미솔",
+       "tx": "canottiera",
+       "rd": "카노띠에라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "블라우스",
+       "tx": "camicetta",
+       "rd": "카미체따",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "청바지",
+       "tx": "jeans",
+       "rd": "진스",
+       "ic": "👖"
+      },
+      {
+       "ko": "모자",
+       "tx": "cappello",
+       "rd": "카뻴로",
+       "ic": "🧢"
+      },
+      {
+       "ko": "파카",
+       "tx": "felpa con cappuccio",
+       "rd": "펠파 꼰 카뿌쵸",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스카프",
+       "tx": "sciarpa",
+       "rd": "샤르파",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스톨",
+       "tx": "stola",
+       "rd": "스톨라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반바지",
+       "tx": "intimo",
+       "rd": "인티모",
+       "ic": "👖"
+      },
+      {
+       "ko": "브래지어",
+       "tx": "reggiseno",
+       "rd": "레찌세노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "타이츠",
+       "tx": "calzamaglie",
+       "rd": "칼짜말리에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스타킹",
+       "tx": "calze",
+       "rd": "칼쩨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "물로 세탁할 수 있나요?",
+       "tx": "Può lavare con acqua?",
+       "rd": "푸오 라바레 꼰 아꾸아?",
+       "ic": "💧"
+      },
+      {
+       "ko": "더 저렴한 것이 있나요?",
+       "tx": "Avete qualcosa di più economica?",
+       "rd": "아베떼 꽐꼬자 디 뷰 에코노미카?",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 색 (colore 콜로레)",
+     "words": [
+      {
+       "ko": "…색이 있나요?",
+       "tx": "Avete …?",
+       "rd": "아베떼 …?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "검은색",
+       "tx": "nero",
+       "rd": "네로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "흰색",
+       "tx": "bianco",
+       "rd": "비안코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "빨간색",
+       "tx": "rosso",
+       "rd": "로쏘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파란색",
+       "tx": "blu",
+       "rd": "블루",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "노란색",
+       "tx": "giallo",
+       "rd": "쟐로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "초록색",
+       "tx": "verde",
+       "rd": "베르데",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "핑크색",
+       "tx": "rosa",
+       "rd": "로자",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주황색",
+       "tx": "arancione",
+       "rd": "아란쵸네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보라색",
+       "tx": "viola",
+       "rd": "비올라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이보리",
+       "tx": "avorio",
+       "rd": "아보리오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "베이지",
+       "tx": "beige",
+       "rd": "베이제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "갈색",
+       "tx": "marrone",
+       "rd": "마로네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "금색",
+       "tx": "oro",
+       "rd": "오로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "은색",
+       "tx": "argento",
+       "rd": "아르젠토",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 모양 (disegno 디세뇨)",
+     "words": [
+      {
+       "ko": "줄무늬",
+       "tx": "striscia",
+       "rd": "스트리샤",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "체크무늬",
+       "tx": "a quadretti",
+       "rd": "아 꽈드레띠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꽃무늬",
+       "tx": "fiorato",
+       "rd": "피오라토",
+       "ic": "💐"
+      },
+      {
+       "ko": "물방울무늬",
+       "tx": "a pois",
+       "rd": "아 포이스",
+       "ic": "💧"
+      },
+      {
+       "ko": "민무늬",
+       "tx": "tessuto a tinta unita",
+       "rd": "테쑤토 아 틴타 우니타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유행하는",
+       "tx": "moda",
+       "rd": "모다",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (신발)",
+     "words": [
+      {
+       "ko": "펌프스",
+       "tx": "scarpe scollate",
+       "rd": "스카르페 스콜라테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "굽이 있는 펌프스",
+       "tx": "scarpe con tacchi alti",
+       "rd": "스카르페 꼰 타끼 알티",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샌들",
+       "tx": "sandali",
+       "rd": "산달리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "뮬",
+       "tx": "mule",
+       "rd": "물레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "발레용 신발",
+       "tx": "scarpe da ballerina",
+       "rd": "스카르페 다 발레리나",
+       "ic": "👟"
+      },
+      {
+       "ko": "부츠",
+       "tx": "stivali",
+       "rd": "스티발리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "쇼트 부츠",
+       "tx": "stivaletti",
+       "rd": "스티발레띠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "하프 부츠",
+       "tx": "stivali a mezza altezza",
+       "rd": "스티발리 아 메쨔 알테짜",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "롱 부츠",
+       "tx": "stivali lunghi",
+       "rd": "스티발리 룽기",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "운동화",
+       "tx": "scarpe da ginnastica",
+       "rd": "스카르페 다 진나스티카",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천 / 면",
+       "tx": "di tessuto",
+       "rd": "디 테쑤토",
+       "ic": "🍜"
+      },
+      {
+       "ko": "가죽의",
+       "tx": "di pelle",
+       "rd": "디 펠레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "걷기 좋은",
+       "tx": "comodo per camminare",
+       "rd": "코모도 페르 캄미나레",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (가방)",
+     "words": [
+      {
+       "ko": "핸드백",
+       "tx": "borsa",
+       "rd": "보르사",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "숄더백",
+       "tx": "borsa a tracolla",
+       "rd": "보르사 아 트라콜라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "여행 가방",
+       "tx": "valigia",
+       "rd": "발리지아",
+       "ic": "👜"
+      },
+      {
+       "ko": "여행용",
+       "tx": "da viaggio",
+       "rd": "다 비아죠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "업무용",
+       "tx": "da lavoro",
+       "rd": "다 라보로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "매일의",
+       "tx": "giornaliero",
+       "rd": "죠르날리에로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "어깨끈이 있는",
+       "tx": "con tracolla",
+       "rd": "꼰 트라콜라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "어깨끈이 없는",
+       "tx": "senza tracolla",
+       "rd": "센짜 트라콜라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지퍼",
+       "tx": "zip",
+       "rd": "지프",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가죽의",
+       "tx": "di pelle",
+       "rd": "디 펠레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천의",
+       "tx": "di tessuto",
+       "rd": "디 테쑤토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "방수",
+       "tx": "impermeabilizzazione",
+       "rd": "임페르메아빌리짜찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주머니",
+       "tx": "tasca",
+       "rd": "타스카",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "마음에 드는 구두나 가방을 사러 가고 싶어요 — 액세서리 (LOOK)",
+     "words": [
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, per favore.",
+       "rd": "~ 페르 파보레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "액세서리",
+       "tx": "accessori",
+       "rd": "아체쏘리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반지",
+       "tx": "anello",
+       "rd": "아넬로",
+       "ic": "💍"
+      },
+      {
+       "ko": "목걸이",
+       "tx": "collana",
+       "rd": "콜라나",
+       "ic": "📿"
+      },
+      {
+       "ko": "팔찌",
+       "tx": "bracciale",
+       "rd": "브라챨레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "귀걸이",
+       "tx": "orecchini",
+       "rd": "오레끼니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "브로치",
+       "tx": "spilla",
+       "rd": "스필라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "초커",
+       "tx": "collarino",
+       "rd": "콜라리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "머리꾸미개",
+       "tx": "ornamento per capelli",
+       "rd": "오르나멘토 페르 카펠리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "팔찌",
+       "tx": "braccialetto",
+       "rd": "브라챠레또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "새끼손가락 반지",
+       "tx": "anello per mignolo",
+       "rd": "아넬로 페르 미뇰로",
+       "ic": "💍"
+      },
+      {
+       "ko": "펜던트",
+       "tx": "ciondolo",
+       "rd": "촌돌로",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (액세서리 소재·보석)",
+     "words": [
+      {
+       "ko": "은",
+       "tx": "argento",
+       "rd": "아르젠토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "백금",
+       "tx": "platino",
+       "rd": "플라티노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지르코늄",
+       "tx": "zirconio",
+       "rd": "찌르코니오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유리",
+       "tx": "vetro",
+       "rd": "베트로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "석류석",
+       "tx": "granato",
+       "rd": "그라나토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자수정",
+       "tx": "ametista",
+       "rd": "아메티스타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아쿠아 마린",
+       "tx": "acquamarina",
+       "rd": "아꾸아 마리나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "다이아몬드",
+       "tx": "diamante",
+       "rd": "디아만테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에메랄드",
+       "tx": "smeraldo",
+       "rd": "스메랄도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "진주",
+       "tx": "perla",
+       "rd": "페를라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "루비",
+       "tx": "rubino",
+       "rd": "루비노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "페리도트",
+       "tx": "peridoto",
+       "rd": "페리도토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "사파이어",
+       "tx": "zaffiro",
+       "rd": "짜피로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "감람석",
+       "tx": "olivine",
+       "rd": "올리비네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "토파즈",
+       "tx": "topazio",
+       "rd": "토파찌오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "터키석",
+       "tx": "turchese",
+       "rd": "투르께제",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "화장품 라벨의 표시 (WORD)",
+     "words": [
+      {
+       "ko": "안티 에이징",
+       "tx": "anti age",
+       "rd": "안티 아제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주름 개선",
+       "tx": "anti rughe",
+       "rd": "안티 루게",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주름",
+       "tx": "rughe",
+       "rd": "루게",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모공",
+       "tx": "pori",
+       "rd": "포리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "식물성의",
+       "tx": "vegetale",
+       "rd": "베제탈레",
+       "ic": "💧"
+      },
+      {
+       "ko": "무착색",
+       "tx": "senza colore",
+       "rd": "센짜 콜로레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "무취의",
+       "tx": "senza profumo",
+       "rd": "센짜 프로푸모",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "방부제가 빠진",
+       "tx": "senza antisettico",
+       "rd": "센짜 안티세띠코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보존료가 빠진",
+       "tx": "senza conservante",
+       "rd": "센짜 콘세르반테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "오가닉",
+       "tx": "biologico",
+       "rd": "비올로지코",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "화장품 (LOOK)",
+     "words": [
+      {
+       "ko": "~ 있나요?",
+       "tx": "Avete ~?",
+       "rd": "아베떼 ~?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "화장품",
+       "tx": "cosmetico",
+       "rd": "코스메티코",
+       "ic": "💄"
+      },
+      {
+       "ko": "립밤",
+       "tx": "burrocacao",
+       "rd": "부로카카오",
+       "ic": "🌙"
+      },
+      {
+       "ko": "장미수",
+       "tx": "acqua di rosa",
+       "rd": "아꾸아 디 로사",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "세럼",
+       "tx": "siero",
+       "rd": "씨에로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이 크림",
+       "tx": "crema contorno occhi",
+       "rd": "크레마 콘토르노 오끼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립스틱",
+       "tx": "rossetto",
+       "rd": "로쎄또",
+       "ic": "🧴"
+      },
+      {
+       "ko": "미용 마스크 / 팩",
+       "tx": "maschera",
+       "rd": "마스께라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립글로스",
+       "tx": "lucidalabbra",
+       "rd": "루치다라쁘라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이라이너",
+       "tx": "matita per gli occhi",
+       "rd": "마티타 페르 리 오끼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이브로",
+       "tx": "matita per le sopracciglie",
+       "rd": "마티타 페르 레 소프라칠리에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "매니큐어",
+       "tx": "smalto",
+       "rd": "스말토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파우더",
+       "tx": "polvere",
+       "rd": "폴베레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이섀도",
+       "tx": "ombretto",
+       "rd": "옴브레또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "마스카라",
+       "tx": "mascara",
+       "rd": "마스카라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파운데이션",
+       "tx": "fondotinta",
+       "rd": "폰도틴타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "액체",
+       "tx": "liquido",
+       "rd": "리뀌도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "블러셔",
+       "tx": "fard",
+       "rd": "파르드",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "화장수",
+       "tx": "lozione idratante",
+       "rd": "로찌오네 이드라탄테",
+       "ic": "🧼"
+      },
+      {
+       "ko": "아로마 오일",
+       "tx": "olio aromatizzato",
+       "rd": "올리오 아로마티짜토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보습 크림",
+       "tx": "crema idratante",
+       "rd": "크레마 이드라탄테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "컨실러",
+       "tx": "correttore fluido",
+       "rd": "코레또레 플루이도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에멀션",
+       "tx": "latte idratante",
+       "rd": "라떼 이드라탄테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아로마 젤",
+       "tx": "gel aromatizzato",
+       "rd": "젤 아로마티짜토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "베이스 크림",
+       "tx": "crema base",
+       "rd": "크레마 바세",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "데이 크림",
+       "tx": "crema da giorno",
+       "rd": "크레마 다 죠르노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "리무버",
+       "tx": "struccante",
+       "rd": "스트루깐테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "각질 제거제",
+       "tx": "gommage",
+       "rd": "곰마제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "성분",
+       "tx": "elemento",
+       "rd": "엘레멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "나이트 크림",
+       "tx": "crema da notte",
+       "rd": "크레마 다 노떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "클렌징 크림",
+       "tx": "crema detergente",
+       "rd": "크레마 데테르젠테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "필링",
+       "tx": "esfoliazione",
+       "rd": "에스폴리아찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에센셜 오일",
+       "tx": "olio essenziale",
+       "rd": "올리오 에쎈짤레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "호호바 오일",
+       "tx": "olio di jojoba",
+       "rd": "올리오 디 조조바",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "올리브 오일",
+       "tx": "olio d'oliva",
+       "rd": "올리오 돌리바",
+       "ic": "🫒"
+      },
+      {
+       "ko": "콜라겐",
+       "tx": "collagene",
+       "rd": "콜라제네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아르간 오일",
+       "tx": "olio di argan",
+       "rd": "올리오 디 아르간",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "밀 배아 오일",
+       "tx": "olio di germe di grano",
+       "rd": "올리오 디 제르메 디 그라노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시어 버터",
+       "tx": "burro shea",
+       "rd": "부로 셰아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비타민",
+       "tx": "vitamina",
+       "rd": "비타미나",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "헤어, 보디케어 등 (LOOK)",
+     "words": [
+      {
+       "ko": "어떤 종류의 ~ 을/를 추천하시나요?",
+       "tx": "Che cosa consiglia come ~?",
+       "rd": "께 꼬자 콘실리아 꼬메 ~?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "헤어, 보디케어 등",
+       "tx": "trattamento per capelli/corpo",
+       "rd": "트라따멘토 페르 까뻴리 / 코르포",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "핸드 크림",
+       "tx": "crema per le mani",
+       "rd": "크레마 페르 레 마니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비누",
+       "tx": "sapone",
+       "rd": "사포네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보디 크림",
+       "tx": "crema di corpo",
+       "rd": "크레마 디 코르포",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "배스젤",
+       "tx": "bagno da gel",
+       "rd": "반뇨 다 젤",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampoo",
+       "rd": "샴푸",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "헤어 트리트먼트",
+       "tx": "trattamento per capelli",
+       "rd": "트라따멘토 페르 까뻴리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "오드콜로뉴",
+       "tx": "acqua di Colonia",
+       "rd": "아꾸아 디 콜로니아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보충제",
+       "tx": "supplemento",
+       "rd": "수쁠레멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "린스",
+       "tx": "balsamo",
+       "rd": "발사모",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향수",
+       "tx": "profumo",
+       "rd": "프로푸모",
+       "ic": "🌸"
+      },
+      {
+       "ko": "기능",
+       "tx": "funzione",
+       "rd": "푼찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "미백",
+       "tx": "sbianchimento",
+       "rd": "스비안끼멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자외선 차단",
+       "tx": "ultravioletto",
+       "rd": "울트라비올레또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "안티 에이징",
+       "tx": "anti age",
+       "rd": "안티 아제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주름 개선",
+       "tx": "anti rughe",
+       "rd": "안티 루게",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보습",
+       "tx": "idratante",
+       "rd": "이드라탄테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "여드름",
+       "tx": "brufolo",
+       "rd": "브루폴로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "새로운 향수가 있나요?",
+       "tx": "Avete un profumo nuovo?",
+       "rd": "아베떼 운 프로푸모 누오보?",
+       "ic": "🌸"
+      },
+      {
+       "ko": "립스틱 샘플이 있나요?",
+       "tx": "Avete campioni per rossetto?",
+       "rd": "아베떼 캄피오니 페르 로쎄또?",
+       "ic": "💄"
+      },
+      {
+       "ko": "사용해 봐도 되나요?",
+       "tx": "Posso provare?",
+       "rd": "포쏘 프로바레?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "이것과 똑같은 것을 주시겠어요?",
+       "tx": "Vorrei uno uguale a questo?",
+       "rd": "보레이 우노 우괄레 아 꿰스또?",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "여러 가지 수량을 재는 단위는 여기에서",
+     "words": [
+      {
+       "ko": "1kg에 3유로",
+       "tx": "3 euro per 1 chilo",
+       "rd": "뜨레 에우로 페르 운 낄로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "1묶음에 1.5유로",
+       "tx": "1 euro 50 centessimi per 1 mazzo",
+       "rd": "운 에우로 에 친꽌타 첸테씨미 페르 운 마쪼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 병",
+       "tx": "una bottiglia",
+       "rd": "우나 보띨리아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 상자",
+       "tx": "una scatola",
+       "rd": "우나 스카톨라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 봉지",
+       "tx": "un sacco",
+       "rd": "운 사꼬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 팩",
+       "tx": "un imballaggio",
+       "rd": "운 임발라죠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 개",
+       "tx": "un barattolo",
+       "rd": "운 바라톨로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 그물",
+       "tx": "una rete",
+       "rd": "우나 레테",
+       "ic": "💧"
+      },
+      {
+       "ko": "한 바구니",
+       "tx": "un cestino",
+       "rd": "운 체스티노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 그루",
+       "tx": "un ceppo",
+       "rd": "운 체뽀",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한 다스",
+       "tx": "una dozzina",
+       "rd": "우나 도찌나",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아 디자인 굿즈를 기념품으로",
+     "words": [
+      {
+       "ko": "같은 것으로 두 개 주세요.",
+       "tx": "Ne vorrei 2 uguali.",
+       "rd": "네 보레이 두에 우괄리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "후추 분쇄기",
+       "tx": "pepe mulino",
+       "rd": "페페 물리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "병따개",
+       "tx": "apribottiglia",
+       "rd": "아프리보띨리아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "클립 홀더",
+       "tx": "portaclip",
+       "rd": "포르타클리프",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "냅킨 클립",
+       "tx": "portatovagliolo",
+       "rd": "포르타토발리올로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "다른 색이 있나요?",
+       "tx": "Avete altri colori?",
+       "rd": "아베떼 알트리 콜로리?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "열쇠고리",
+       "tx": "portachiave",
+       "rd": "포르타끼아베",
+       "ic": "🔑"
+      },
+      {
+       "ko": "찻잔과 작은 접시",
+       "tx": "tazza e piattino",
+       "rd": "타짜 에 피아띠노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파손되지 않게 포장해 주실 수 있나요?",
+       "tx": "Può imballare per non rompersi, per favore?",
+       "rd": "푸오 임발라레 페르 논 롬페르씨 페르 파보레?",
+       "ic": "🦀"
+      },
+      {
+       "ko": "계량컵",
+       "tx": "bicchiere graduato",
+       "rd": "비끼에레 그라두아토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "와인 따개",
+       "tx": "apribottiglia per vino",
+       "rd": "아프리보띨리아 페르 비노",
+       "ic": "🍷"
+      },
+      {
+       "ko": "커피 메이커",
+       "tx": "caffettiera",
+       "rd": "카페띠에라",
+       "ic": "☕"
+      },
+      {
+       "ko": "포토 스탠드",
+       "tx": "portafotografia",
+       "rd": "포르타포토그라피아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "작은 접시",
+       "tx": "piattino",
+       "rd": "피아띠노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모두 다 해서 얼마인가요?",
+       "tx": "Quanto costa in tutto?",
+       "rd": "꽌또 코스타 인 뚜또?",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "슈퍼마켓에서 쇼핑하기",
+     "words": [
+      {
+       "ko": "파르미쟈노 레지아노",
+       "tx": "Parmigiano Reggiano",
+       "rd": "파르미지아노 레찌아노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "병조림 토마토",
+       "tx": "pomodoro in scatola",
+       "rd": "포모도로 인 스카톨라",
+       "ic": "🍅"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampoo",
+       "rd": "샴푸",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아티초크 페이스트",
+       "tx": "pate di carciofo",
+       "rd": "파테 디 카르쵸포",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "토마토 페이스트",
+       "tx": "pasta di pomodoro",
+       "rd": "파스타 디 포모도로",
+       "ic": "🍅"
+      },
+      {
+       "ko": "정어리 페이스트",
+       "tx": "acciuga",
+       "rd": "아츄가",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "하트 모양의 파스타",
+       "tx": "pasta forma di cuore",
+       "rd": "파스타 포르마 디 꾸오레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "네일 파일",
+       "tx": "lima per le unghe",
+       "rd": "리마 페르 레 운게",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "야채 콘소메",
+       "tx": "dado di brodo",
+       "rd": "다도 디 브로도",
+       "ic": "🥬"
+      },
+      {
+       "ko": "포르치니 버섯 리조또",
+       "tx": "risotto di porcini",
+       "rd": "리소또 디 포르치니",
+       "ic": "🍄"
+      },
+      {
+       "ko": "커피",
+       "tx": "caffè",
+       "rd": "카페",
+       "ic": "☕"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "cioccolato",
+       "rd": "쵸꼴라토",
+       "ic": "🍫"
+      },
+      {
+       "ko": "리몬첼로",
+       "tx": "limoncello",
+       "rd": "리몬첼로",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (식재료)",
+     "words": [
+      {
+       "ko": "닭고기",
+       "tx": "carne di pollo",
+       "rd": "카르네 디 폴로",
+       "ic": "🍗"
+      },
+      {
+       "ko": "돼지고기",
+       "tx": "carne di maiale",
+       "rd": "카르네 디 마이알레",
+       "ic": "🍖"
+      },
+      {
+       "ko": "소고기",
+       "tx": "carne di vitello",
+       "rd": "카르네 디 비텔로",
+       "ic": "🥩"
+      },
+      {
+       "ko": "생선",
+       "tx": "pesce",
+       "rd": "페셰",
+       "ic": "🐟"
+      },
+      {
+       "ko": "송어",
+       "tx": "trota",
+       "rd": "트로타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "연어",
+       "tx": "salmone",
+       "rd": "살모네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "당근",
+       "tx": "carota",
+       "rd": "카로타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양파",
+       "tx": "cipolla",
+       "rd": "치폴라",
+       "ic": "🧅"
+      },
+      {
+       "ko": "감자",
+       "tx": "patata",
+       "rd": "파타타",
+       "ic": "🥔"
+      },
+      {
+       "ko": "토마토",
+       "tx": "pomodoro",
+       "rd": "포모도로",
+       "ic": "🍅"
+      },
+      {
+       "ko": "바질",
+       "tx": "basilico",
+       "rd": "바질리코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "carciofo",
+       "rd": "카르쵸포",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아보카도",
+       "tx": "avocado",
+       "rd": "아보카도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "계란",
+       "tx": "uovo",
+       "rd": "우오보",
+       "ic": "🥚"
+      },
+      {
+       "ko": "버터",
+       "tx": "burro",
+       "rd": "부로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "우유",
+       "tx": "latte",
+       "rd": "라떼",
+       "ic": "🥛"
+      }
+     ]
+    },
+    {
+     "title": "패션 소품·잡화 (LOOK)",
+     "words": [
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, per favore.",
+       "rd": "~ 페르 파보레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "패션 소품",
+       "tx": "accessori di moda",
+       "rd": "아체쏘리 디 모다",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "벨트",
+       "tx": "cintura",
+       "rd": "친투라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "안경",
+       "tx": "occhiali",
+       "rd": "오끼알리",
+       "ic": "👓"
+      },
+      {
+       "ko": "선글라스",
+       "tx": "occhiali da sole",
+       "rd": "오끼알리 다 솔레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "넥타이",
+       "tx": "cravatta",
+       "rd": "크라바따",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가방",
+       "tx": "borsa",
+       "rd": "보르사",
+       "ic": "👜"
+      },
+      {
+       "ko": "파우치",
+       "tx": "borsellino",
+       "rd": "보르셀리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지갑",
+       "tx": "portafoglio",
+       "rd": "포르타폴리오",
+       "ic": "👛"
+      },
+      {
+       "ko": "카드 지갑",
+       "tx": "astuccio portacarta",
+       "rd": "아스투쵸 포르타카르타",
+       "ic": "💳"
+      },
+      {
+       "ko": "동전 지갑",
+       "tx": "portamoneta",
+       "rd": "포르타모네타",
+       "ic": "👛"
+      },
+      {
+       "ko": "수영복",
+       "tx": "costume da bagno",
+       "rd": "코스투메 다 반뇨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "넥타이 핀",
+       "tx": "fermacravatta",
+       "rd": "페르마크라바따",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "커프스 버튼",
+       "tx": "gemelli",
+       "rd": "제멜리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "잡화",
+       "tx": "articoli vari",
+       "rd": "아르티콜리 바리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "노트",
+       "tx": "quaderno",
+       "rd": "꽈데르노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "핸드폰 고리",
+       "tx": "laccetto per cellulare",
+       "rd": "라체또 페르 첼룰라레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "액세서리 함",
+       "tx": "borsellino per accessori",
+       "rd": "보르셀리노 페르 아체쏘리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자석",
+       "tx": "calamita",
+       "rd": "칼라미타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "오븐 장갑",
+       "tx": "presina",
+       "rd": "프레씨나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유리병",
+       "tx": "bottiglia di vetro",
+       "rd": "보띨리아 디 베트로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "봉제 인형",
+       "tx": "peluche",
+       "rd": "페루께",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "인형",
+       "tx": "bambola",
+       "rd": "밤볼라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "그림 접시",
+       "tx": "piatto decorato",
+       "rd": "피아또 데코라토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "엽서",
+       "tx": "cartolina",
+       "rd": "카르톨리나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "핸드 타월",
+       "tx": "asciugamano piccolo per mani",
+       "rd": "아슈가마노 피꼴로 페르 마니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장식",
+       "tx": "ornamento",
+       "rd": "오르나멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "책",
+       "tx": "libro",
+       "rd": "리브로",
+       "ic": "📖"
+      },
+      {
+       "ko": "책갈피",
+       "tx": "segnalibro",
+       "rd": "세냘리브로",
+       "ic": "📖"
+      },
+      {
+       "ko": "전등갓",
+       "tx": "paralume",
+       "rd": "파라루메",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "열쇠고리",
+       "tx": "portachiavi",
+       "rd": "포르타끼아비",
+       "ic": "🔑"
+      },
+      {
+       "ko": "디퓨저",
+       "tx": "profumo per la casa",
+       "rd": "프로푸모 페르 라 까자",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "마블지로 되어 있는 작은 상자",
+       "tx": "scatola con carta marmorizzata",
+       "rd": "스카톨라 꼰 카르타 마르모리짜타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양초 스탠드",
+       "tx": "porta candela",
+       "rd": "포르타 칸델라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "식품",
+       "tx": "alimentari",
+       "rd": "알리멘타리",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "와인",
+       "tx": "vino",
+       "rd": "비노",
+       "ic": "🍷"
+      },
+      {
+       "ko": "올리브 오일",
+       "tx": "olio d'oliva",
+       "rd": "올리오 돌리바",
+       "ic": "🫒"
+      },
+      {
+       "ko": "발사믹 식초",
+       "tx": "aceto balsamico",
+       "rd": "아체토 발사미코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "말린 토마토",
+       "tx": "pomodori secchi",
+       "rd": "포모도리 세끼",
+       "ic": "🍅"
+      },
+      {
+       "ko": "말린 산새버섯",
+       "tx": "funghi porcini secchi",
+       "rd": "푼기 포르치니 세끼",
+       "ic": "🍄"
+      },
+      {
+       "ko": "건조 파스타",
+       "tx": "pasta",
+       "rd": "파스타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파스타 소스",
+       "tx": "salsa",
+       "rd": "살사",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "멸치류",
+       "tx": "acciuga",
+       "rd": "아츄가",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "제노바식 페스토",
+       "tx": "pesto genovese",
+       "rd": "페스토 제노베제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "푸딩 믹스",
+       "tx": "preparato per fare budino",
+       "rd": "프리파라토 페르 파레 부디노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "인스턴트 커피",
+       "tx": "caffè in polvere",
+       "rd": "카페 인 폴베레",
+       "ic": "☕"
+      },
+      {
+       "ko": "와인 식초",
+       "tx": "aceto di vino",
+       "rd": "아체토 디 비노",
+       "ic": "🍷"
+      }
+     ]
+    },
+    {
+     "title": "아로마 향을 한국에서도 느끼고 싶어요 — 아로마의 종류",
+     "words": [
+      {
+       "ko": "허브 종류",
+       "tx": "erbe",
+       "rd": "에르베",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "신선한",
+       "tx": "fresco",
+       "rd": "프레스코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스피어 민트",
+       "tx": "menta verde",
+       "rd": "멘타 베르데",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "바질",
+       "tx": "basilico",
+       "rd": "바질리코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "페퍼민트",
+       "tx": "menta peperina",
+       "rd": "멘타 페페리나",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "로즈메리",
+       "tx": "rosmarino",
+       "rd": "로스마리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향신료 종류",
+       "tx": "spezie",
+       "rd": "스페찌에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자극적인",
+       "tx": "stimolante",
+       "rd": "스티몰란테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "고수",
+       "tx": "coriandolo",
+       "rd": "코리안돌로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "계피",
+       "tx": "cannella",
+       "rd": "칸넬라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "생강",
+       "tx": "zenzero",
+       "rd": "젠제로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "월계수 잎",
+       "tx": "alloro",
+       "rd": "알로로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꽃 종류",
+       "tx": "fiori",
+       "rd": "피오리",
+       "ic": "💐"
+      },
+      {
+       "ko": "달콤한",
+       "tx": "dolce",
+       "rd": "돌체",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "캐모마일",
+       "tx": "camomilla",
+       "rd": "카모밀라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "재스민",
+       "tx": "gelsomino",
+       "rd": "젤소미노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "제라늄",
+       "tx": "geranio",
+       "rd": "제라니오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "라벤더",
+       "tx": "lavanda",
+       "rd": "라반다",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장미",
+       "tx": "rosa",
+       "rd": "로사",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "일랑일랑",
+       "tx": "ylang ylang",
+       "rd": "일랑 일랑",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "감귤 종류",
+       "tx": "agrumi",
+       "rd": "아그루미",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가벼운",
+       "tx": "leggero",
+       "rd": "레쩨로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자몽",
+       "tx": "pompelmo",
+       "rd": "폼펠모",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스위트오렌지",
+       "tx": "arance dolci",
+       "rd": "아란체 돌치",
+       "ic": "🍊"
+      },
+      {
+       "ko": "베르가모트",
+       "tx": "bergamotto",
+       "rd": "베르가모또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "만다린",
+       "tx": "mandarino",
+       "rd": "만다리노",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "레몬그라스",
+       "tx": "citoronella",
+       "rd": "치토로넬라",
+       "ic": "🍋"
+      },
+      {
+       "ko": "나무 종류",
+       "tx": "corteccia",
+       "rd": "코르테챠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시원한",
+       "tx": "rinfrescare",
+       "rd": "린프레스카레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "백단(샌들우드)",
+       "tx": "sandalo",
+       "rd": "산달로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시더우드",
+       "tx": "cedro",
+       "rd": "체드로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "티트리",
+       "tx": "albero di tè",
+       "rd": "알베로 디 테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유칼립투스",
+       "tx": "eucalipto",
+       "rd": "에우칼리프토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "로즈우드",
+       "tx": "palissandro",
+       "rd": "팔리싼드로",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "~에 좋은 아로마는 무엇인가요?",
+     "words": [
+      {
+       "ko": "~에 좋은 아로마는 무엇인가요?",
+       "tx": "Quale aroma da effetto per ~?",
+       "rd": "꽐레 아로마 다 에페또 페르 ~?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "분노",
+       "tx": "irritazione",
+       "rd": "이리타찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스트레스",
+       "tx": "stress",
+       "rd": "스트레스",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "집중력",
+       "tx": "concentrazione",
+       "rd": "콘첸트라찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "졸음",
+       "tx": "sonnolenza",
+       "rd": "손노렌짜",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "안구 피로",
+       "tx": "occhio stanco",
+       "rd": "오끼오 스탄코",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "변비",
+       "tx": "costipazione",
+       "rd": "코스티파찌오네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "기미",
+       "tx": "macchia",
+       "rd": "마끼아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "추위",
+       "tx": "freddo",
+       "rd": "프레도",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "두통",
+       "tx": "cefalea",
+       "rd": "체팔레아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "다이어트",
+       "tx": "dieta",
+       "rd": "디에타",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "생리통",
+       "tx": "dolori mestruali",
+       "rd": "돌로리 메스트루알리",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "아로마 상품 단어장 (WORD)",
+     "words": [
+      {
+       "ko": "디퓨저",
+       "tx": "diffusore",
+       "rd": "디푸소레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양초",
+       "tx": "candela",
+       "rd": "칸델라",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향",
+       "tx": "incenso",
+       "rd": "인첸소",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스크럽",
+       "tx": "sali da bagno",
+       "rd": "살리 다 반뇨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "항아리",
+       "tx": "vaso",
+       "rd": "바조",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "오일",
+       "tx": "olio",
+       "rd": "올리오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampoo",
+       "rd": "샴푸",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비누",
+       "tx": "sapone",
+       "rd": "사포네",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "트리트먼트",
+       "tx": "trattamento",
+       "rd": "트라따멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "배합",
+       "tx": "assortimento",
+       "rd": "아쏘르티멘토",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "병",
+       "tx": "bottiglia",
+       "rd": "보띨리아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스프레이",
+       "tx": "spruzzatore",
+       "rd": "스프루짜토레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "민감성 피부",
+       "tx": "pelle sensibile",
+       "rd": "펠레 센씨빌레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "첨가물이 없는",
+       "tx": "senza additivi",
+       "rd": "센짜 아디티비",
+       "ic": "💧"
+      },
+      {
+       "ko": "(향이) 우아한",
+       "tx": "elegante",
+       "rd": "엘레간테",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "(향이) 이국적인",
+       "tx": "esotico",
+       "rd": "에소티코",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "사이즈 대조표",
+     "words": [
+      {
+       "ko": "한국",
+       "tx": "XS",
+       "rd": "S",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "이탈리아",
+       "tx": "36",
+       "rd": "38",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한국",
+       "tx": "220",
+       "rd": "225",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "이탈리아",
+       "tx": "34",
+       "rd": "35",
+       "ic": "🛍️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "enter",
+   "title": "엔터테인먼트",
+   "emoji": "🎭",
+   "sections": [
+    {
+     "title": "도움이 되는 단어장 (나이트라이프)",
+     "words": [
+      {
+       "ko": "나이트 클럽",
+       "tx": "night club",
+       "rd": "니게트 크루브",
+       "ic": "🎭"
+      },
+      {
+       "ko": "클럽",
+       "tx": "discoteca",
+       "rd": "디스코테카",
+       "ic": "🎭"
+      },
+      {
+       "ko": "바",
+       "tx": "bar",
+       "rd": "바",
+       "ic": "🎭"
+      },
+      {
+       "ko": "라이브 콘서트",
+       "tx": "concerto dal vivo",
+       "rd": "콘체르토 달 비보",
+       "ic": "🎭"
+      },
+      {
+       "ko": "카바레",
+       "tx": "cabaret",
+       "rd": "카바레트",
+       "ic": "🎭"
+      },
+      {
+       "ko": "공연 요금",
+       "tx": "tariffa per lo spettacolo",
+       "rd": "타리파 페르 로 스페따롤로",
+       "ic": "🎭"
+      },
+      {
+       "ko": "좌석 요금",
+       "tx": "prezzo per un posto",
+       "rd": "프레쬬 페르 운 포스토",
+       "ic": "🎭"
+      },
+      {
+       "ko": "위스키",
+       "tx": "whisky",
+       "rd": "위스케",
+       "ic": "🎭"
+      },
+      {
+       "ko": "와인",
+       "tx": "vino",
+       "rd": "비노",
+       "ic": "🍷"
+      },
+      {
+       "ko": "스파클링 와인",
+       "tx": "prosecco",
+       "rd": "프로세꼬",
+       "ic": "🍷"
+      },
+      {
+       "ko": "칵테일",
+       "tx": "cocktail",
+       "rd": "코크타일",
+       "ic": "🎭"
+      },
+      {
+       "ko": "맥주",
+       "tx": "birra",
+       "rd": "비라",
+       "ic": "🍺"
+      },
+      {
+       "ko": "콜라",
+       "tx": "coca cola",
+       "rd": "코카콜라",
+       "ic": "🎭"
+      }
+     ]
+    },
+    {
+     "title": "이탈리아 예술의 정수, 오페라에 취해 볼까요? — 좌석의 종류",
+     "words": [
+      {
+       "ko": "천장 좌석",
+       "tx": "Loggione",
+       "rd": "로찌오네",
+       "ic": "🎭"
+      },
+      {
+       "ko": "4~6인 정원의 박스석",
+       "tx": "Palco",
+       "rd": "팔코",
+       "ic": "🎭"
+      },
+      {
+       "ko": "평지석",
+       "tx": "Platea",
+       "rd": "플라테아",
+       "ic": "🎭"
+      }
+     ]
+    },
+    {
+     "title": "추천하는 오페라 하우스는?",
+     "words": [
+      {
+       "ko": "스칼라 극장 (밀라노)",
+       "tx": "Teatro alla Scala",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "로마 오페라 극장 (로마)",
+       "tx": "Teatro dell'Opera",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "페니체 극장 (베네치아)",
+       "tx": "Teatro la Fenice",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "산 카를로 극장 (나폴리)",
+       "tx": "Teatro di San Carlo",
+       "rd": "",
+       "ic": "⛰️"
+      }
+     ]
+    },
+    {
+     "title": "주요 작품 (오페라)",
+     "words": [
+      {
+       "ko": "나비 부인 / 푸치니",
+       "tx": "Madama Butterfly",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "마술피리 / 모차르트",
+       "tx": "Il Flauto Magico",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "카르멘 / 비제",
+       "tx": "Carmen",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "춘희 / 베르디",
+       "tx": "La Traviata",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "돈 조반니 / 모차르트",
+       "tx": "Don Giovanni",
+       "rd": "",
+       "ic": "💶"
+      },
+      {
+       "ko": "토스카 / 푸치니",
+       "tx": "Tosca",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "피가로의 결혼 / 모차르트",
+       "tx": "Le nozze di Figaro",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "투란도트 / 푸치니",
+       "tx": "Turandot",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "세비야의 이발사 / 로시니",
+       "tx": "Il Barbiere di Siviglia",
+       "rd": "",
+       "ic": "🎭"
+      },
+      {
+       "ko": "라 보엠 / 푸치니",
+       "tx": "La Bohème",
+       "rd": "",
+       "ic": "🎭"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "title": "뷰티·마사지",
+   "emoji": "💆",
+   "sections": [
+    {
+     "title": "LOOK — ~하고 싶습니다 (시술)",
+     "words": [
+      {
+       "ko": "시술",
+       "tx": "fare",
+       "rd": "파레",
+       "ic": "💆"
+      },
+      {
+       "ko": "전신 마사지",
+       "tx": "massaggio per corpo",
+       "rd": "마싸죠 페르 코르포",
+       "ic": "💆"
+      },
+      {
+       "ko": "얼굴 마사지",
+       "tx": "trattamento viso",
+       "rd": "트라따멘토 비조",
+       "ic": "💆"
+      },
+      {
+       "ko": "발 마사지",
+       "tx": "massaggio per gambe",
+       "rd": "마싸죠 페르 감베",
+       "ic": "💆"
+      },
+      {
+       "ko": "웜스톤",
+       "tx": "pietra calda",
+       "rd": "피에트라 칼다",
+       "ic": "💆"
+      },
+      {
+       "ko": "머리 마사지",
+       "tx": "testa massaggio",
+       "rd": "테스타 마싸죠",
+       "ic": "💆"
+      },
+      {
+       "ko": "아로마 마사지",
+       "tx": "massaggio aromatizzato",
+       "rd": "마싸죠 아로마티짜토",
+       "ic": "💆"
+      },
+      {
+       "ko": "손 마사지",
+       "tx": "massaggio per mano",
+       "rd": "마싸죠 페르 마노",
+       "ic": "💆"
+      },
+      {
+       "ko": "자쿠지 샤워 마사지",
+       "tx": "jacuzzi doccia massaggio",
+       "rd": "자꾸찌 도챠 마싸죠",
+       "ic": "🚿"
+      },
+      {
+       "ko": "수압 마사지",
+       "tx": "massaggio per pressione idraulica",
+       "rd": "마싸죠 페르 프레씨오네 이드라우리카",
+       "ic": "💆"
+      },
+      {
+       "ko": "해수 스파",
+       "tx": "talassoterapia",
+       "rd": "타라쏘테라피아",
+       "ic": "💆"
+      },
+      {
+       "ko": "아로마 테라피",
+       "tx": "aromaterapia",
+       "rd": "아로마테라피아",
+       "ic": "💆"
+      },
+      {
+       "ko": "와인 테라피",
+       "tx": "vinoterapia",
+       "rd": "비노테라피아",
+       "ic": "🍷"
+      },
+      {
+       "ko": "리플렉솔로지",
+       "tx": "riflessologia",
+       "rd": "리플레쏠로쨔",
+       "ic": "💆"
+      },
+      {
+       "ko": "릴랙스",
+       "tx": "rilassamento",
+       "rd": "리라싸멘토",
+       "ic": "💆"
+      },
+      {
+       "ko": "허브 볼 마사지",
+       "tx": "palla d'erbe",
+       "rd": "팔라 데르베",
+       "ic": "💆"
+      },
+      {
+       "ko": "림프 마사지",
+       "tx": "massaggio linfa",
+       "rd": "마싸죠 린파",
+       "ic": "💆"
+      },
+      {
+       "ko": "오일 마사지",
+       "tx": "massaggio con l'olio",
+       "rd": "마싸죠 꼰 롤리오",
+       "ic": "💆"
+      },
+      {
+       "ko": "진흙 팩",
+       "tx": "maschera di fango",
+       "rd": "마스께라 디 판고",
+       "ic": "💆"
+      },
+      {
+       "ko": "증기욕",
+       "tx": "bagno di vapore",
+       "rd": "반뇨 디 바포레",
+       "ic": "💆"
+      },
+      {
+       "ko": "클렌징",
+       "tx": "crema detergente",
+       "rd": "크레마 데테르젠테",
+       "ic": "💆"
+      },
+      {
+       "ko": "디톡스",
+       "tx": "detox",
+       "rd": "데톡쓰",
+       "ic": "💆"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (뷰티)",
+     "words": [
+      {
+       "ko": "스트레스",
+       "tx": "stress",
+       "rd": "스트레스",
+       "ic": "💆"
+      },
+      {
+       "ko": "주름",
+       "tx": "rughe",
+       "rd": "루체",
+       "ic": "💆"
+      },
+      {
+       "ko": "부종",
+       "tx": "gonfio",
+       "rd": "꼰피오",
+       "ic": "💆"
+      },
+      {
+       "ko": "화장실",
+       "tx": "bagno",
+       "rd": "반뇨",
+       "ic": "💄"
+      },
+      {
+       "ko": "피로",
+       "tx": "stanchezza",
+       "rd": "스탄께쨔",
+       "ic": "💆"
+      },
+      {
+       "ko": "허약",
+       "tx": "dimagrimento",
+       "rd": "디마그리멘토",
+       "ic": "💊"
+      },
+      {
+       "ko": "혈액순환",
+       "tx": "circolazione sanguigna",
+       "rd": "치르꼴라찌오네 산구이냐",
+       "ic": "💆"
+      },
+      {
+       "ko": "냉증",
+       "tx": "avere una cattiva circolazione",
+       "rd": "아베레 우나 까띠바 치르콜라찌오네",
+       "ic": "💆"
+      },
+      {
+       "ko": "탈의실",
+       "tx": "spogliatoio",
+       "rd": "스폴리아토이오",
+       "ic": "💆"
+      },
+      {
+       "ko": "수면 부족",
+       "tx": "manca di sonno",
+       "rd": "만카 디 손노",
+       "ic": "🍜"
+      },
+      {
+       "ko": "로커",
+       "tx": "armadietto",
+       "rd": "아르마디에또",
+       "ic": "💆"
+      },
+      {
+       "ko": "샤워",
+       "tx": "doccia",
+       "rd": "도챠",
+       "ic": "🚿"
+      },
+      {
+       "ko": "접수",
+       "tx": "receptionist",
+       "rd": "레쳅티오니스트",
+       "ic": "💆"
+      },
+      {
+       "ko": "수건",
+       "tx": "asciugamano",
+       "rd": "아슈가마노",
+       "ic": "🧻"
+      },
+      {
+       "ko": "슬리퍼",
+       "tx": "pantofole",
+       "rd": "판토폴레",
+       "ic": "💆"
+      },
+      {
+       "ko": "침대",
+       "tx": "letto",
+       "rd": "레또",
+       "ic": "🛏️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "title": "호텔",
+   "emoji": "🏨",
+   "sections": [
+    {
+     "title": "객실은 이렇게 구성되어 있습니다",
+     "words": [
+      {
+       "ko": "창문",
+       "tx": "finestra",
+       "rd": "피네스트라",
+       "ic": "🏨"
+      },
+      {
+       "ko": "책상",
+       "tx": "tavolo",
+       "rd": "타볼로",
+       "ic": "📖"
+      },
+      {
+       "ko": "커튼",
+       "tx": "tenda",
+       "rd": "텐다",
+       "ic": "🏨"
+      },
+      {
+       "ko": "소파",
+       "tx": "divano",
+       "rd": "디바노",
+       "ic": "🏨"
+      },
+      {
+       "ko": "램프",
+       "tx": "luce",
+       "rd": "루체",
+       "ic": "🏨"
+      },
+      {
+       "ko": "TV",
+       "tx": "televisore",
+       "rd": "텔레비죠레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "침대",
+       "tx": "letto",
+       "rd": "레또",
+       "ic": "🛏️"
+      },
+      {
+       "ko": "금고",
+       "tx": "cassaforte",
+       "rd": "카싸포르테",
+       "ic": "🏨"
+      },
+      {
+       "ko": "냉장고",
+       "tx": "frigorifero",
+       "rd": "프리고리페로",
+       "ic": "🏨"
+      },
+      {
+       "ko": "수도꼭지",
+       "tx": "rubinetto",
+       "rd": "루비네또",
+       "ic": "🏨"
+      },
+      {
+       "ko": "옷장",
+       "tx": "armadio",
+       "rd": "아르마디오",
+       "ic": "👕"
+      },
+      {
+       "ko": "변기",
+       "tx": "gabinetto",
+       "rd": "가비네또",
+       "ic": "🏨"
+      },
+      {
+       "ko": "샤워기",
+       "tx": "doccia",
+       "rd": "도챠",
+       "ic": "🚿"
+      },
+      {
+       "ko": "욕실",
+       "tx": "bagno",
+       "rd": "반뇨",
+       "ic": "🛁"
+      },
+      {
+       "ko": "문",
+       "tx": "porta",
+       "rd": "포르타",
+       "ic": "🏨"
+      },
+      {
+       "ko": "욕조",
+       "tx": "vasca",
+       "rd": "바스카",
+       "ic": "🏨"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (호텔)",
+     "words": [
+      {
+       "ko": "베개",
+       "tx": "cuscino",
+       "rd": "쿠쉬노",
+       "ic": "🏨"
+      },
+      {
+       "ko": "시트",
+       "tx": "lenzuolo",
+       "rd": "렌쭈오로",
+       "ic": "🏨"
+      },
+      {
+       "ko": "담요",
+       "tx": "coperta",
+       "rd": "코페르타",
+       "ic": "🏨"
+      },
+      {
+       "ko": "배스 타월",
+       "tx": "asciugamano",
+       "rd": "아슈가마노",
+       "ic": "🏨"
+      },
+      {
+       "ko": "휴지",
+       "tx": "carta igienica",
+       "rd": "카르타 이제니카",
+       "ic": "🏨"
+      },
+      {
+       "ko": "옷걸이",
+       "tx": "gruccia",
+       "rd": "그루챠",
+       "ic": "👕"
+      },
+      {
+       "ko": "슬리퍼",
+       "tx": "pantofole",
+       "rd": "판토폴레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "유리컵",
+       "tx": "bicchiere",
+       "rd": "비끼에레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "재떨이",
+       "tx": "posacenere",
+       "rd": "포사체네레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "방값",
+       "tx": "prezzo della camera",
+       "rd": "프레쬬 델라 카메라",
+       "ic": "🏨"
+      },
+      {
+       "ko": "음식값",
+       "tx": "prezzo del ristorante",
+       "rd": "프레쬬 델 리스토란테",
+       "ic": "🏨"
+      },
+      {
+       "ko": "시내 전화",
+       "tx": "telefonata urbana",
+       "rd": "텔레포나타 우르바나",
+       "ic": "📞"
+      },
+      {
+       "ko": "합계",
+       "tx": "totale",
+       "rd": "토탈레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "세금",
+       "tx": "tassa",
+       "rd": "타싸",
+       "ic": "🏨"
+      },
+      {
+       "ko": "명세서",
+       "tx": "distinta",
+       "rd": "디스틴타",
+       "ic": "🏨"
+      },
+      {
+       "ko": "영수증",
+       "tx": "ricevuta",
+       "rd": "리체부타",
+       "ic": "🏨"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "transport",
+   "title": "교통·공항",
+   "emoji": "✈️",
+   "sections": [
+    {
+     "title": "도움이 되는 단어장 (공항 입국)",
+     "words": [
+      {
+       "ko": "도착",
+       "tx": "arrivo",
+       "rd": "아리보",
+       "ic": "✈️"
+      },
+      {
+       "ko": "출발",
+       "tx": "partenza",
+       "rd": "파르텐짜",
+       "ic": "✈️"
+      },
+      {
+       "ko": "짐 찾기",
+       "tx": "ritiro bagagli",
+       "rd": "리티로 바갈리",
+       "ic": "🧳"
+      },
+      {
+       "ko": "세관",
+       "tx": "dogana",
+       "rd": "도가나",
+       "ic": "✈️"
+      },
+      {
+       "ko": "면세",
+       "tx": "esenzione",
+       "rd": "에센찌오네",
+       "ic": "🍜"
+      },
+      {
+       "ko": "과세",
+       "tx": "tassazione",
+       "rd": "타싸찌오네",
+       "ic": "✈️"
+      },
+      {
+       "ko": "수하물 교환증",
+       "tx": "etichetta del bagaglio",
+       "rd": "에티께따 델 바갈리오",
+       "ic": "💧"
+      },
+      {
+       "ko": "검역",
+       "tx": "quarantena",
+       "rd": "꽈란테나",
+       "ic": "✈️"
+      },
+      {
+       "ko": "입국심사",
+       "tx": "controllo passaporti",
+       "rd": "콘트롤로 파싸포르띠",
+       "ic": "✈️"
+      },
+      {
+       "ko": "도착 로비",
+       "tx": "arrivo hall",
+       "rd": "아리보 올",
+       "ic": "✈️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (기내)",
+     "words": [
+      {
+       "ko": "사용 중",
+       "tx": "occupato",
+       "rd": "오꾸파토",
+       "ic": "✈️"
+      },
+      {
+       "ko": "비어 있음",
+       "tx": "libero",
+       "rd": "리베로",
+       "ic": "✈️"
+      },
+      {
+       "ko": "창가 자리",
+       "tx": "posto vicino alla finestrino",
+       "rd": "포스토 비치노 알라 피네스트리노",
+       "ic": "✈️"
+      },
+      {
+       "ko": "복도 자리",
+       "tx": "posto vicino al corridoio",
+       "rd": "포스토 비치노 알 코리도이오",
+       "ic": "✈️"
+      },
+      {
+       "ko": "좌석 번호",
+       "tx": "numero del posto",
+       "rd": "누메로 델 포스토",
+       "ic": "✈️"
+      },
+      {
+       "ko": "현지 시간",
+       "tx": "ora locale",
+       "rd": "오라 로칼레",
+       "ic": "⏰"
+      },
+      {
+       "ko": "시차",
+       "tx": "differenza di fuso orario",
+       "rd": "디페렌짜 디 푸조 오라리오",
+       "ic": "✈️"
+      },
+      {
+       "ko": "구토",
+       "tx": "nausea",
+       "rd": "나우세아",
+       "ic": "✈️"
+      },
+      {
+       "ko": "비상구",
+       "tx": "uscita di emergenza",
+       "rd": "우쉬타 디 에메르젠짜",
+       "ic": "✈️"
+      },
+      {
+       "ko": "위생 봉투",
+       "tx": "sacco igienico",
+       "rd": "사꼬 이제니코",
+       "ic": "✈️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (공항에서 시내로)",
+     "words": [
+      {
+       "ko": "말펜사 익스프레스",
+       "tx": "Malpensa Express",
+       "rd": "말펜사 익스프레스",
+       "ic": "✈️"
+      },
+      {
+       "ko": "레오나르도 익스프레스",
+       "tx": "Leonardo Express",
+       "rd": "레오나르도 익스프레스",
+       "ic": "✈️"
+      },
+      {
+       "ko": "셔틀버스",
+       "tx": "shuttle bus",
+       "rd": "수플 부스",
+       "ic": "🚌"
+      },
+      {
+       "ko": "야간 버스",
+       "tx": "autobus notturno",
+       "rd": "아우토부스 노뚜르노",
+       "ic": "🚌"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (지하철)",
+     "words": [
+      {
+       "ko": "표",
+       "tx": "biglietto",
+       "rd": "빌리에또",
+       "ic": "✈️"
+      },
+      {
+       "ko": "회수권",
+       "tx": "blocchetto di biglietti",
+       "rd": "블로께또 디 빌리에띠",
+       "ic": "✈️"
+      },
+      {
+       "ko": "매표소",
+       "tx": "biglietteria",
+       "rd": "빌리에떼리아",
+       "ic": "✈️"
+      },
+      {
+       "ko": "자동 발권기",
+       "tx": "distributore",
+       "rd": "디스트리부토레",
+       "ic": "✈️"
+      },
+      {
+       "ko": "거스름돈",
+       "tx": "resto",
+       "rd": "레스토",
+       "ic": "💶"
+      },
+      {
+       "ko": "개찰",
+       "tx": "controllo biglietti",
+       "rd": "콘트롤로 빌리에띠",
+       "ic": "✈️"
+      },
+      {
+       "ko": "플랫폼",
+       "tx": "binario",
+       "rd": "비나리오",
+       "ic": "✈️"
+      },
+      {
+       "ko": "안내판",
+       "tx": "asse di informazioni",
+       "rd": "아쎄 디 인포르마찌오니",
+       "ic": "✈️"
+      },
+      {
+       "ko": "노선도",
+       "tx": "mappa delle linee",
+       "rd": "마빠 델레 리네",
+       "ic": "✈️"
+      },
+      {
+       "ko": "시간표",
+       "tx": "orario",
+       "rd": "오라리오",
+       "ic": "⏰"
+      },
+      {
+       "ko": "소요 시간",
+       "tx": "tempo necessario",
+       "rd": "템포 네체싸리오",
+       "ic": "⏰"
+      },
+      {
+       "ko": "역무원",
+       "tx": "ferroviere",
+       "rd": "페로비에레",
+       "ic": "✈️"
+      },
+      {
+       "ko": "차장",
+       "tx": "conduttore",
+       "rd": "콘두또레",
+       "ic": "✈️"
+      },
+      {
+       "ko": "환승",
+       "tx": "cambio",
+       "rd": "캄비오",
+       "ic": "✈️"
+      },
+      {
+       "ko": "입구",
+       "tx": "entrata",
+       "rd": "엔트라타",
+       "ic": "✈️"
+      },
+      {
+       "ko": "출구",
+       "tx": "uscita",
+       "rd": "우쉬타",
+       "ic": "✈️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trouble",
+   "title": "긴급·건강",
+   "emoji": "🚨",
+   "sections": [
+    {
+     "title": "신체 부위 (○○가 아픕니다. Ho mal di ___. 오 말 디 ___)",
+     "words": [
+      {
+       "ko": "머리",
+       "tx": "testa",
+       "rd": "테스타",
+       "ic": "🚨"
+      },
+      {
+       "ko": "관자놀이",
+       "tx": "tempia",
+       "rd": "템피아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "이마",
+       "tx": "fronte",
+       "rd": "프론테",
+       "ic": "🚨"
+      },
+      {
+       "ko": "볼",
+       "tx": "guancia",
+       "rd": "관챠",
+       "ic": "🚨"
+      },
+      {
+       "ko": "눈",
+       "tx": "occhio",
+       "rd": "오끼오",
+       "ic": "🚨"
+      },
+      {
+       "ko": "귀",
+       "tx": "orecchio",
+       "rd": "오레꾜",
+       "ic": "🚨"
+      },
+      {
+       "ko": "코",
+       "tx": "naso",
+       "rd": "나조",
+       "ic": "🚨"
+      },
+      {
+       "ko": "치아",
+       "tx": "dente",
+       "rd": "덴테",
+       "ic": "🚨"
+      },
+      {
+       "ko": "턱",
+       "tx": "mascella",
+       "rd": "마셸라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "목",
+       "tx": "collo",
+       "rd": "콜로",
+       "ic": "🚨"
+      },
+      {
+       "ko": "목구멍",
+       "tx": "gola",
+       "rd": "골라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "어깨",
+       "tx": "spalla",
+       "rd": "스팔라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "가슴",
+       "tx": "petto",
+       "rd": "페또",
+       "ic": "🚨"
+      },
+      {
+       "ko": "배",
+       "tx": "ventre",
+       "rd": "벤트레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "팔",
+       "tx": "braccio",
+       "rd": "브라쵸",
+       "ic": "🚨"
+      },
+      {
+       "ko": "팔꿈치",
+       "tx": "gomito",
+       "rd": "고미토",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손",
+       "tx": "mano",
+       "rd": "마노",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손목",
+       "tx": "polso",
+       "rd": "폴소",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손가락",
+       "tx": "dito",
+       "rd": "디토",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손톱",
+       "tx": "unghia",
+       "rd": "운기아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "등",
+       "tx": "schiena",
+       "rd": "스끼에나",
+       "ic": "🚨"
+      },
+      {
+       "ko": "겨드랑이",
+       "tx": "ascella",
+       "rd": "아셸라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "피부",
+       "tx": "pelle",
+       "rd": "펠레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "아랫배",
+       "tx": "basso ventre",
+       "rd": "바쏘 벤트레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "명치",
+       "tx": "bocca dello stomaco",
+       "rd": "보까 델로 스토마코",
+       "ic": "🚨"
+      },
+      {
+       "ko": "배꼽",
+       "tx": "ombelico",
+       "rd": "옴벨리코",
+       "ic": "🚨"
+      },
+      {
+       "ko": "허리",
+       "tx": "reni",
+       "rd": "레니",
+       "ic": "🚨"
+      },
+      {
+       "ko": "엉덩이",
+       "tx": "sedere",
+       "rd": "세데레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "음부",
+       "tx": "parti deboli",
+       "rd": "파르티 데보리",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발",
+       "tx": "piede",
+       "rd": "피에데",
+       "ic": "🚨"
+      },
+      {
+       "ko": "허벅지",
+       "tx": "coscia",
+       "rd": "코스챠",
+       "ic": "🚨"
+      },
+      {
+       "ko": "무릎",
+       "tx": "ginocchio",
+       "rd": "지노꾜",
+       "ic": "🚨"
+      },
+      {
+       "ko": "정강이",
+       "tx": "gambe",
+       "rd": "감베",
+       "ic": "🚨"
+      },
+      {
+       "ko": "종아리",
+       "tx": "polpaccio",
+       "rd": "폴파쵸",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발목",
+       "tx": "caviglia",
+       "rd": "까빌리아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발바닥",
+       "tx": "punta del piede",
+       "rd": "푼타 델 피에데",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발뒤꿈치",
+       "tx": "tallone",
+       "rd": "탈로네",
+       "ic": "🚨"
+      },
+      {
+       "ko": "약",
+       "tx": "medicina",
+       "rd": "메디치나",
+       "ic": "💊"
+      },
+      {
+       "ko": "설사",
+       "tx": "diarrea",
+       "rd": "디아레아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "두통",
+       "tx": "mal di testa",
+       "rd": "말 디 테스타",
+       "ic": "🚨"
+      },
+      {
+       "ko": "감기",
+       "tx": "raffreddore",
+       "rd": "라프레또레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "골절",
+       "tx": "frattura",
+       "rd": "프라뚜라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "염좌",
+       "tx": "storta",
+       "rd": "스토르타",
+       "ic": "🚨"
+      },
+      {
+       "ko": "치통",
+       "tx": "mal di denti",
+       "rd": "말 디 덴티",
+       "ic": "🚨"
+      },
+      {
+       "ko": "오한",
+       "tx": "brivido di freddo",
+       "rd": "브리비도 디 프레도",
+       "ic": "🚨"
+      },
+      {
+       "ko": "상처",
+       "tx": "ferita",
+       "rd": "페리타",
+       "ic": "🚨"
+      },
+      {
+       "ko": "현기증",
+       "tx": "capogiro",
+       "rd": "카포지로",
+       "ic": "🚨"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "basicwords",
+   "title": "기본 단어",
+   "emoji": "🔢",
+   "sections": [
+    {
+     "title": "기본 단어 — 숫자",
+     "words": [
+      {
+       "ko": "0",
+       "tx": "zero",
+       "rd": "제로",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1",
+       "tx": "uno",
+       "rd": "우노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2",
+       "tx": "due",
+       "rd": "두에",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3",
+       "tx": "tre",
+       "rd": "뜨레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4",
+       "tx": "quattro",
+       "rd": "꽈뜨로",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5",
+       "tx": "cinque",
+       "rd": "친꿰",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6",
+       "tx": "sei",
+       "rd": "쎄이",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7",
+       "tx": "sette",
+       "rd": "쎄떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8",
+       "tx": "otto",
+       "rd": "오또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9",
+       "tx": "nove",
+       "rd": "노베",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10",
+       "tx": "dieci",
+       "rd": "디에치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11",
+       "tx": "undici",
+       "rd": "운디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12",
+       "tx": "dodichi",
+       "rd": "도디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "13",
+       "tx": "tredici",
+       "rd": "뜨레디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "14",
+       "tx": "quattordici",
+       "rd": "꽈또르디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15",
+       "tx": "quindici",
+       "rd": "뀐디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "16",
+       "tx": "sedici",
+       "rd": "세디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "17",
+       "tx": "diciassette",
+       "rd": "디챠쎄떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "18",
+       "tx": "diciotto",
+       "rd": "디쵸또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "19",
+       "tx": "diciannove",
+       "rd": "디챠노베",
+       "ic": "🔢"
+      },
+      {
+       "ko": "20",
+       "tx": "venti",
+       "rd": "벤티",
+       "ic": "🔢"
+      },
+      {
+       "ko": "21",
+       "tx": "ventuno",
+       "rd": "벤투노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "22",
+       "tx": "ventidue",
+       "rd": "벤티두에",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30",
+       "tx": "trenta",
+       "rd": "뜨렌따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "40",
+       "tx": "quaranta",
+       "rd": "꽈란따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "50",
+       "tx": "cinquanta",
+       "rd": "친꽌따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "60",
+       "tx": "sessanta",
+       "rd": "세싼따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "70",
+       "tx": "settanta",
+       "rd": "세딴따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "77",
+       "tx": "settantasette",
+       "rd": "세딴따쎄떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "80",
+       "tx": "ottanta",
+       "rd": "오딴따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "88",
+       "tx": "ottantotto",
+       "rd": "오딴또또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "90",
+       "tx": "novanta",
+       "rd": "노반따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100",
+       "tx": "cento",
+       "rd": "첸또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1000",
+       "tx": "mille",
+       "rd": "밀레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10000",
+       "tx": "diecimila",
+       "rd": "디에치밀라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10만",
+       "tx": "cento mila",
+       "rd": "첸또밀라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100만",
+       "tx": "un milione",
+       "rd": "운 밀리오네",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2배",
+       "tx": "doppio",
+       "rd": "도삐오",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3배",
+       "tx": "triplo",
+       "rd": "트리플로",
+       "ic": "🔢"
+      },
+      {
+       "ko": "첫 번째",
+       "tx": "primo",
+       "rd": "프리모",
+       "ic": "🔢"
+      },
+      {
+       "ko": "두 번째",
+       "tx": "secondo",
+       "rd": "세콘도",
+       "ic": "🔢"
+      },
+      {
+       "ko": "세 번째",
+       "tx": "terzo",
+       "rd": "테르쪼",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 월, 계절",
+     "words": [
+      {
+       "ko": "1월",
+       "tx": "gennaio",
+       "rd": "젠나이오",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2월",
+       "tx": "febbraio",
+       "rd": "페쁘라이오",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3월",
+       "tx": "marzo",
+       "rd": "마르쬬",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4월",
+       "tx": "aprile",
+       "rd": "아프릴레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5월",
+       "tx": "maggio",
+       "rd": "마쬬",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6월",
+       "tx": "giugno",
+       "rd": "쥬뇨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7월",
+       "tx": "luglio",
+       "rd": "룰리오",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8월",
+       "tx": "agosto",
+       "rd": "아고스토",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9월",
+       "tx": "settembre",
+       "rd": "세뗌브레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10월",
+       "tx": "ottobre",
+       "rd": "오또브레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11월",
+       "tx": "novembre",
+       "rd": "노벰브레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12월",
+       "tx": "dicembre",
+       "rd": "디쳄브레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "봄",
+       "tx": "primavera",
+       "rd": "프리마베라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "여름",
+       "tx": "estate",
+       "rd": "에스타테",
+       "ic": "🔢"
+      },
+      {
+       "ko": "가을",
+       "tx": "autunno",
+       "rd": "아우투노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "겨울",
+       "tx": "inverno",
+       "rd": "인베르노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2월 9일에 한국으로 돌아갑니다.",
+       "tx": "Torno in Corea il giono 9 di Febbraio.",
+       "rd": "토르노 인 꼬레아 일 죠르노 노베 디 페쁘라이오",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 요일",
+     "words": [
+      {
+       "ko": "일요일",
+       "tx": "domenica",
+       "rd": "도메니카",
+       "ic": "🔢"
+      },
+      {
+       "ko": "월요일",
+       "tx": "lunedì",
+       "rd": "루네디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "화요일",
+       "tx": "martedì",
+       "rd": "마르테디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "수요일",
+       "tx": "mercoledì",
+       "rd": "메르콜레디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "목요일",
+       "tx": "giovedì",
+       "rd": "죠베디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "금요일",
+       "tx": "venerdì",
+       "rd": "베네르디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "토요일",
+       "tx": "sabato",
+       "rd": "사바토",
+       "ic": "🔢"
+      },
+      {
+       "ko": "평일",
+       "tx": "giorno feriale",
+       "rd": "죠르노 페리알레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "휴일",
+       "tx": "giorno festivo",
+       "rd": "죠르노 페스티보",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오늘[내일, 어제]은 며칠인가요?",
+       "tx": "Che giorno è oggi [è domani／era ieri]?",
+       "rd": "께 죠르노 에 오찌 [에 도마니／에라 이에리]?",
+       "ic": "📅"
+      },
+      {
+       "ko": "오늘[내일, 어제]은 월요일입니다.",
+       "tx": "Oggi è [Domani è／Ieri era] lunedi.",
+       "rd": "오찌 에 [도마니 에／이에리 에라] 루네디",
+       "ic": "🗓️"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 때",
+     "words": [
+      {
+       "ko": "아침",
+       "tx": "mattina",
+       "rd": "마띠나",
+       "ic": "🌅"
+      },
+      {
+       "ko": "낮",
+       "tx": "giorno",
+       "rd": "죠르노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "밤",
+       "tx": "sera",
+       "rd": "세라",
+       "ic": "🌙"
+      },
+      {
+       "ko": "저녁",
+       "tx": "notte",
+       "rd": "노떼",
+       "ic": "🌆"
+      },
+      {
+       "ko": "오전",
+       "tx": "mattina",
+       "rd": "마띠나",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오후",
+       "tx": "pomeriggio",
+       "rd": "포메리쬬",
+       "ic": "🔢"
+      },
+      {
+       "ko": "어제",
+       "tx": "ieri",
+       "rd": "이에리",
+       "ic": "📅"
+      },
+      {
+       "ko": "오늘",
+       "tx": "oggi",
+       "rd": "오찌",
+       "ic": "🗓️"
+      },
+      {
+       "ko": "내일",
+       "tx": "domani",
+       "rd": "도마니",
+       "ic": "📆"
+      },
+      {
+       "ko": "모레",
+       "tx": "dopodomani",
+       "rd": "도포도마니",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1일 전",
+       "tx": "un giorno fa",
+       "rd": "운 죠르노 파",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2일 후",
+       "tx": "fra due giorni",
+       "rd": "프라 두에 죠르니",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3번째의",
+       "tx": "terzo",
+       "rd": "테르쪼",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 시간",
+     "words": [
+      {
+       "ko": "시간",
+       "tx": "ora",
+       "rd": "오라",
+       "ic": "⏰"
+      },
+      {
+       "ko": "분",
+       "tx": "minuto",
+       "rd": "미누토",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30분",
+       "tx": "mezzo／trenta",
+       "rd": "메쪼／트렌타",
+       "ic": "🔢"
+      },
+      {
+       "ko": "분 전[후]",
+       "tx": "meno[dopo]",
+       "rd": "메노[도포]",
+       "ic": "🔢"
+      },
+      {
+       "ko": "시계",
+       "tx": "orologio",
+       "rd": "오롤로죠",
+       "ic": "⌚"
+      },
+      {
+       "ko": "5분",
+       "tx": "cinque",
+       "rd": "친꿰",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15분",
+       "tx": "un quarto d'ora",
+       "rd": "운 꽈르토 도라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30분",
+       "tx": "mezz'ora／trenta",
+       "rd": "메쪼라／트렌타",
+       "ic": "🔢"
+      },
+      {
+       "ko": "45분",
+       "tx": "tre quarti d'ora",
+       "rd": "트레 꽈르티 도라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "지금 몇 시인가요?",
+       "tx": "Che ora è adesso?",
+       "rd": "께 오라 에 아데쏘?",
+       "ic": "🔢"
+      },
+      {
+       "ko": "몇 시에 시작하나요?",
+       "tx": "A che ora inizia?",
+       "rd": "아 께 오라 이니찌아?",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8시 20분",
+       "tx": "le otto e venti",
+       "rd": "레 오또 에 벤티",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9시 30분",
+       "tx": "le nove e mezzo",
+       "rd": "레 노베 에 메쪼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오전 11시",
+       "tx": "le undici di mattina",
+       "rd": "레 운디치 디 마띠나",
+       "ic": "🔢"
+      },
+      {
+       "ko": "어제 11시",
+       "tx": "le undici di ieri",
+       "rd": "레 운디치 디 이에리",
+       "ic": "📅"
+      },
+      {
+       "ko": "10시 5분 전",
+       "tx": "le dieci meno cinque",
+       "rd": "레 디에치 메노 친꿰",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15분 후",
+       "tx": "quindici minuti dopo",
+       "rd": "뀐디치 미누티 도포",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "숫자 — 기본 숫자",
+     "words": [
+      {
+       "ko": "0",
+       "tx": "zero",
+       "rd": "제로",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1",
+       "tx": "uno",
+       "rd": "우노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2",
+       "tx": "due",
+       "rd": "두에",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3",
+       "tx": "tre",
+       "rd": "뜨레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4",
+       "tx": "quattro",
+       "rd": "꽈뜨로",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5",
+       "tx": "cinque",
+       "rd": "칭꿰",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6",
+       "tx": "sei",
+       "rd": "쎄이",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7",
+       "tx": "sette",
+       "rd": "쎗떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8",
+       "tx": "otto",
+       "rd": "옷또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9",
+       "tx": "nove",
+       "rd": "노베",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10",
+       "tx": "dieci",
+       "rd": "디에치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11",
+       "tx": "undici",
+       "rd": "운디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12",
+       "tx": "dodici",
+       "rd": "도디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "13",
+       "tx": "tredici",
+       "rd": "뜨레디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "14",
+       "tx": "quattordici",
+       "rd": "꽈또르디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15",
+       "tx": "quindici",
+       "rd": "뀐디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "16",
+       "tx": "sedici",
+       "rd": "세디치",
+       "ic": "🔢"
+      },
+      {
+       "ko": "17",
+       "tx": "diciassette",
+       "rd": "디챠쎗떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "18",
+       "tx": "diciotto",
+       "rd": "디춋또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "19",
+       "tx": "dicinnove",
+       "rd": "디챠노베",
+       "ic": "🔢"
+      },
+      {
+       "ko": "20",
+       "tx": "venti",
+       "rd": "벤띠",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30",
+       "tx": "trenta",
+       "rd": "뜨렌따",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100",
+       "tx": "cento",
+       "rd": "첸또",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1000",
+       "tx": "mille",
+       "rd": "밀레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10000",
+       "tx": "diecimila",
+       "rd": "디에치밀라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10만",
+       "tx": "cento mila",
+       "rd": "첸또밀라",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100만",
+       "tx": "un milione",
+       "rd": "운 밀리오네",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1억",
+       "tx": "cento milioni",
+       "rd": "첸토 밀리오니",
+       "ic": "🔢"
+      },
+      {
+       "ko": "0.1",
+       "tx": "zero punto uno",
+       "rd": "제로 푼토 우노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1/4",
+       "tx": "un quarto",
+       "rd": "운 꽈르토",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "숫자 — 때",
+     "words": [
+      {
+       "ko": "아침",
+       "tx": "mattina",
+       "rd": "마띠나",
+       "ic": "🌅"
+      },
+      {
+       "ko": "낮",
+       "tx": "giorno",
+       "rd": "죠르노",
+       "ic": "🔢"
+      },
+      {
+       "ko": "밤",
+       "tx": "sera",
+       "rd": "세라",
+       "ic": "🌙"
+      },
+      {
+       "ko": "저녁",
+       "tx": "notte",
+       "rd": "노떼",
+       "ic": "🌆"
+      },
+      {
+       "ko": "오늘",
+       "tx": "oggi",
+       "rd": "옷쥐",
+       "ic": "📅"
+      },
+      {
+       "ko": "내일",
+       "tx": "domani",
+       "rd": "도마니",
+       "ic": "🗓️"
+      },
+      {
+       "ko": "어제",
+       "tx": "ieri",
+       "rd": "이에리",
+       "ic": "📆"
+      },
+      {
+       "ko": "오전",
+       "tx": "mattina",
+       "rd": "마띠나",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오후",
+       "tx": "pomeriggio",
+       "rd": "포메리죠",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "숫자 — 요일",
+     "words": [
+      {
+       "ko": "일요일",
+       "tx": "domenica",
+       "rd": "도메니카",
+       "ic": "🔢"
+      },
+      {
+       "ko": "월요일",
+       "tx": "lunedi",
+       "rd": "루네디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "화요일",
+       "tx": "martedi",
+       "rd": "마르테디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "수요일",
+       "tx": "mercoledi",
+       "rd": "메르콜레디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "목요일",
+       "tx": "giovedi",
+       "rd": "죠베디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "금요일",
+       "tx": "venerdi",
+       "rd": "베네르디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "토요일",
+       "tx": "sabato",
+       "rd": "사바토",
+       "ic": "🔢"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
