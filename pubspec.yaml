@@ -33,6 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
 
   # Drift codegen
   drift_dev: ^2.20.3
@@ -49,3 +50,12 @@ flutter:
     - assets/data/grammar/verbs_core.json
     - assets/data/vocab/travel_words.json
     - assets/data/vocab/travel_expressions.json
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#008C45"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  min_sdk_android: 21
