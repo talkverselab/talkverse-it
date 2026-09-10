@@ -29,10 +29,16 @@ jobs:
           cache: true
 
       # 폰에 이미 깔린 앱과 같은 키로 서명해야 덮어쓰기 설치가 된다.
+      # (AGP 기본 debug 서명은 러너마다 키를 새로 만들어 버려서, 명시적으로 지정한다)
       - name: Restore signing key
         run: |
-          mkdir -p ~/.android
-          echo "${{ secrets.ANDROID_DEBUG_KEYSTORE_BASE64 }}" | base64 -d > ~/.android/debug.keystore
+          echo "${{ secrets.ANDROID_DEBUG_KEYSTORE_BASE64 }}" | base64 -d > android/app/signing-key.jks
+          cat > android/key.properties <<EOF
+          storePassword=android
+          keyPassword=android
+          keyAlias=androiddebugkey
+          storeFile=signing-key.jks
+          EOF
 
       - run: flutter pub get
 
