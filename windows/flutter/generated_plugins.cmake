@@ -5,6 +5,7 @@
 list(APPEND FLUTTER_PLUGIN_LIST
   audioplayers_windows
   flutter_tts
+  speech_to_text_windows
   sqlite3_flutter_libs
 )
 

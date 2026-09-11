@@ -1,0 +1,258 @@
+{
+ "lesson": 1,
+ "title": "이탈리아어 기본 문형 1",
+ "subtitle": "회화에 바로 쓰는 핵심 패턴 10개 × 예문 3",
+ "tts_lang": "it-IT",
+ "stages": [
+  {
+   "stage": 1,
+   "title": "인칭·소개·질문"
+  },
+  {
+   "stage": 2,
+   "title": "동사·시간·장소"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "key": "Sono …",
+   "label": "나는 ~이다",
+   "explanation": "essere 1인칭. 이름·직업·상태.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Sono Minjun.",
+     "rd": "쏘노 민준.",
+     "ko": "나는 민준이야."
+    },
+    {
+     "tl": "Sono studente.",
+     "rd": "쏘노 스뚜덴떼.",
+     "ko": "나는 학생이야."
+    },
+    {
+     "tl": "Sono stanco.",
+     "rd": "쏘노 스딴꼬.",
+     "ko": "나는 피곤해."
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "key": "Mi chiamo …",
+   "label": "내 이름은 ~",
+   "explanation": "chiamarsi = ~라고 불리다.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Mi chiamo Giulia.",
+     "rd": "미 꺄모 줄리아.",
+     "ko": "내 이름은 줄리아야."
+    },
+    {
+     "tl": "Come ti chiami?",
+     "rd": "꼬메 띠 꺄미?",
+     "ko": "네 이름은 뭐야?"
+    },
+    {
+     "tl": "Si chiama Paolo.",
+     "rd": "씨 꺄마 빠올로.",
+     "ko": "그의 이름은 파올로야."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "key": "Di dove sei?",
+   "label": "어디에서 왔어?",
+   "explanation": "essere di + 지역.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Di dove sei?",
+     "rd": "디 도베 쎄이?",
+     "ko": "어디에서 왔어?"
+    },
+    {
+     "tl": "Vengo dalla Corea.",
+     "rd": "벵고 달라 꼬레아.",
+     "ko": "한국에서 왔어."
+    },
+    {
+     "tl": "Lei è di Milano.",
+     "rd": "레이 에 디 밀라노.",
+     "ko": "그녀는 밀라노 출신이야."
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "key": "Ho …",
+   "label": "나는 ~을 가지고 있다",
+   "explanation": "avere. 시간·물건·형제.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Ho tempo.",
+     "rd": "오 뗌뽀.",
+     "ko": "나 시간 있어."
+    },
+    {
+     "tl": "Hai un fratello?",
+     "rd": "아이 운 프라뗄로?",
+     "ko": "형제 있어?"
+    },
+    {
+     "tl": "Abbiamo fame.",
+     "rd": "아비아모 파메.",
+     "ko": "우리 배고파."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "key": "Cosa …?",
+   "label": "무엇",
+   "explanation": "의문사 cosa.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Cosa fai?",
+     "rd": "꼬자 파이?",
+     "ko": "뭐 해?"
+    },
+    {
+     "tl": "Cos'è questo?",
+     "rd": "꼬제 꾸에스또?",
+     "ko": "이게 뭐야?"
+    },
+    {
+     "tl": "Cosa vuoi?",
+     "rd": "꼬자 부오이?",
+     "ko": "뭘 원해?"
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "key": "Vorrei …",
+   "label": "~하고 싶어요",
+   "explanation": "정중한 소망. 주문·요청.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Vorrei un caffè.",
+     "rd": "보레이 운 까페.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "tl": "Vorrei tornare a casa.",
+     "rd": "보레이 또르나레 아 까자.",
+     "ko": "집에 가고 싶어."
+    },
+    {
+     "tl": "Vorresti venire?",
+     "rd": "보레스띠 베니레?",
+     "ko": "같이 갈래?"
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "key": "Posso …",
+   "label": "나는 ~할 수 있다",
+   "explanation": "potere + 동사원형.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Posso parlare italiano.",
+     "rd": "뽀쏘 빠를라레 이딸리아노.",
+     "ko": "나 이탈리아어 할 수 있어."
+    },
+    {
+     "tl": "Puoi aiutarmi?",
+     "rd": "뿌오이 아유따르미?",
+     "ko": "나 좀 도와줄래?"
+    },
+    {
+     "tl": "Possiamo andare domani.",
+     "rd": "뽀씨아모 안다레 도마니.",
+     "ko": "우리 내일 갈 수 있어."
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "key": "Dov'è …?",
+   "label": "~는 어디에 있어?",
+   "explanation": "장소 묻기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Dov'è la stazione?",
+     "rd": "도베 라 스따찌오네?",
+     "ko": "역이 어디예요?"
+    },
+    {
+     "tl": "Dove abiti?",
+     "rd": "도베 아비띠?",
+     "ko": "어디 살아?"
+    },
+    {
+     "tl": "Dove siamo?",
+     "rd": "도베 씨아모?",
+     "ko": "우리 어디야?"
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "key": "Alle … ",
+   "label": "~시에",
+   "explanation": "시각 앞에는 alle.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Alle sette.",
+     "rd": "알레 쎄떼.",
+     "ko": "7시에."
+    },
+    {
+     "tl": "Ci vediamo alle otto.",
+     "rd": "치 베디아모 알레 오또.",
+     "ko": "우리 8시에 만나."
+    },
+    {
+     "tl": "A che ora?",
+     "rd": "아 께 오라?",
+     "ko": "몇 시에?"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "key": "Era …",
+   "label": "~였다",
+   "explanation": "essere 반과거. 감상 말하기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Era bello.",
+     "rd": "에라 벨로.",
+     "ko": "좋았어."
+    },
+    {
+     "tl": "Il film era bello.",
+     "rd": "일 필름 에라 벨로.",
+     "ko": "영화 좋았어."
+    },
+    {
+     "tl": "Ieri ero stanco.",
+     "rd": "이에리 에로 스딴꼬.",
+     "ko": "나 어제 피곤했어."
+    }
+   ]
+  }
+ ]
+}

@@ -9,7 +9,7 @@ import 'app_database.dart';
 
 class SeedLoader {
   // v1: 초기 시드 (L1 샘플 대화 + 빈도 단어 + 핵심 동사)
-  static const _kSeededKey = 'db_seeded_v1';
+  static const _kSeededKey = 'db_seeded_v2'; // v2: 독음(rd) + 회화 초안
 
   final AppDatabase db;
   SeedLoader(this.db);
@@ -107,6 +107,7 @@ class SeedLoader {
             num: m['num'] as int,
             speaker: m['speaker'] as String,
             es: m['es'] as String,
+            rd: Value(m['rd'] as String?),
             ko: Value(m['ko'] as String?),
             note: Value(m['note'] as String?),
             tagsJson: Value(m['tags'] != null ? json.encode(m['tags']) : null),

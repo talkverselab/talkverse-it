@@ -82,6 +82,15 @@ class $TurnsTable extends Turns with TableInfo<$TurnsTable, TurnRow> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _rdMeta = const VerificationMeta('rd');
+  @override
+  late final GeneratedColumn<String> rd = GeneratedColumn<String>(
+    'rd',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
   static const VerificationMeta _koMeta = const VerificationMeta('ko');
   @override
   late final GeneratedColumn<String> ko = GeneratedColumn<String>(
@@ -120,6 +129,7 @@ class $TurnsTable extends Turns with TableInfo<$TurnsTable, TurnRow> {
     num,
     speaker,
     es,
+    rd,
     ko,
     note,
     tagsJson,
@@ -180,6 +190,9 @@ class $TurnsTable extends Turns with TableInfo<$TurnsTable, TurnRow> {
     } else if (isInserting) {
       context.missing(_esMeta);
     }
+    if (data.containsKey('rd')) {
+      context.handle(_rdMeta, rd.isAcceptableOrUnknown(data['rd']!, _rdMeta));
+    }
     if (data.containsKey('ko')) {
       context.handle(_koMeta, ko.isAcceptableOrUnknown(data['ko']!, _koMeta));
     }
@@ -232,6 +245,10 @@ class $TurnsTable extends Turns with TableInfo<$TurnsTable, TurnRow> {
         DriftSqlType.string,
         data['${effectivePrefix}es'],
       )!,
+      rd: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}rd'],
+      ),
       ko: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}ko'],
@@ -261,6 +278,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
   final int num;
   final String speaker;
   final String es;
+  final String? rd;
   final String? ko;
   final String? note;
   final String? tagsJson;
@@ -272,6 +290,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
     required this.num,
     required this.speaker,
     required this.es,
+    this.rd,
     this.ko,
     this.note,
     this.tagsJson,
@@ -288,6 +307,9 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
     map['num'] = Variable<int>(num);
     map['speaker'] = Variable<String>(speaker);
     map['es'] = Variable<String>(es);
+    if (!nullToAbsent || rd != null) {
+      map['rd'] = Variable<String>(rd);
+    }
     if (!nullToAbsent || ko != null) {
       map['ko'] = Variable<String>(ko);
     }
@@ -311,6 +333,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
       num: Value(num),
       speaker: Value(speaker),
       es: Value(es),
+      rd: rd == null && nullToAbsent ? const Value.absent() : Value(rd),
       ko: ko == null && nullToAbsent ? const Value.absent() : Value(ko),
       note: note == null && nullToAbsent ? const Value.absent() : Value(note),
       tagsJson: tagsJson == null && nullToAbsent
@@ -332,6 +355,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
       num: serializer.fromJson<int>(json['num']),
       speaker: serializer.fromJson<String>(json['speaker']),
       es: serializer.fromJson<String>(json['es']),
+      rd: serializer.fromJson<String?>(json['rd']),
       ko: serializer.fromJson<String?>(json['ko']),
       note: serializer.fromJson<String?>(json['note']),
       tagsJson: serializer.fromJson<String?>(json['tagsJson']),
@@ -348,6 +372,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
       'num': serializer.toJson<int>(num),
       'speaker': serializer.toJson<String>(speaker),
       'es': serializer.toJson<String>(es),
+      'rd': serializer.toJson<String?>(rd),
       'ko': serializer.toJson<String?>(ko),
       'note': serializer.toJson<String?>(note),
       'tagsJson': serializer.toJson<String?>(tagsJson),
@@ -362,6 +387,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
     int? num,
     String? speaker,
     String? es,
+    Value<String?> rd = const Value.absent(),
     Value<String?> ko = const Value.absent(),
     Value<String?> note = const Value.absent(),
     Value<String?> tagsJson = const Value.absent(),
@@ -373,6 +399,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
     num: num ?? this.num,
     speaker: speaker ?? this.speaker,
     es: es ?? this.es,
+    rd: rd.present ? rd.value : this.rd,
     ko: ko.present ? ko.value : this.ko,
     note: note.present ? note.value : this.note,
     tagsJson: tagsJson.present ? tagsJson.value : this.tagsJson,
@@ -386,6 +413,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
       num: data.num.present ? data.num.value : this.num,
       speaker: data.speaker.present ? data.speaker.value : this.speaker,
       es: data.es.present ? data.es.value : this.es,
+      rd: data.rd.present ? data.rd.value : this.rd,
       ko: data.ko.present ? data.ko.value : this.ko,
       note: data.note.present ? data.note.value : this.note,
       tagsJson: data.tagsJson.present ? data.tagsJson.value : this.tagsJson,
@@ -402,6 +430,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
           ..write('num: $num, ')
           ..write('speaker: $speaker, ')
           ..write('es: $es, ')
+          ..write('rd: $rd, ')
           ..write('ko: $ko, ')
           ..write('note: $note, ')
           ..write('tagsJson: $tagsJson')
@@ -418,6 +447,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
     num,
     speaker,
     es,
+    rd,
     ko,
     note,
     tagsJson,
@@ -433,6 +463,7 @@ class TurnRow extends DataClass implements Insertable<TurnRow> {
           other.num == this.num &&
           other.speaker == this.speaker &&
           other.es == this.es &&
+          other.rd == this.rd &&
           other.ko == this.ko &&
           other.note == this.note &&
           other.tagsJson == this.tagsJson);
@@ -446,6 +477,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
   final Value<int> num;
   final Value<String> speaker;
   final Value<String> es;
+  final Value<String?> rd;
   final Value<String?> ko;
   final Value<String?> note;
   final Value<String?> tagsJson;
@@ -457,6 +489,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
     this.num = const Value.absent(),
     this.speaker = const Value.absent(),
     this.es = const Value.absent(),
+    this.rd = const Value.absent(),
     this.ko = const Value.absent(),
     this.note = const Value.absent(),
     this.tagsJson = const Value.absent(),
@@ -469,6 +502,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
     required int num,
     required String speaker,
     required String es,
+    this.rd = const Value.absent(),
     this.ko = const Value.absent(),
     this.note = const Value.absent(),
     this.tagsJson = const Value.absent(),
@@ -484,6 +518,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
     Expression<int>? num,
     Expression<String>? speaker,
     Expression<String>? es,
+    Expression<String>? rd,
     Expression<String>? ko,
     Expression<String>? note,
     Expression<String>? tagsJson,
@@ -496,6 +531,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
       if (num != null) 'num': num,
       if (speaker != null) 'speaker': speaker,
       if (es != null) 'es': es,
+      if (rd != null) 'rd': rd,
       if (ko != null) 'ko': ko,
       if (note != null) 'note': note,
       if (tagsJson != null) 'tags_json': tagsJson,
@@ -510,6 +546,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
     Value<int>? num,
     Value<String>? speaker,
     Value<String>? es,
+    Value<String?>? rd,
     Value<String?>? ko,
     Value<String?>? note,
     Value<String?>? tagsJson,
@@ -522,6 +559,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
       num: num ?? this.num,
       speaker: speaker ?? this.speaker,
       es: es ?? this.es,
+      rd: rd ?? this.rd,
       ko: ko ?? this.ko,
       note: note ?? this.note,
       tagsJson: tagsJson ?? this.tagsJson,
@@ -552,6 +590,9 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
     if (es.present) {
       map['es'] = Variable<String>(es.value);
     }
+    if (rd.present) {
+      map['rd'] = Variable<String>(rd.value);
+    }
     if (ko.present) {
       map['ko'] = Variable<String>(ko.value);
     }
@@ -574,6 +615,7 @@ class TurnsCompanion extends UpdateCompanion<TurnRow> {
           ..write('num: $num, ')
           ..write('speaker: $speaker, ')
           ..write('es: $es, ')
+          ..write('rd: $rd, ')
           ..write('ko: $ko, ')
           ..write('note: $note, ')
           ..write('tagsJson: $tagsJson')
@@ -2578,6 +2620,7 @@ typedef $$TurnsTableCreateCompanionBuilder =
       required int num,
       required String speaker,
       required String es,
+      Value<String?> rd,
       Value<String?> ko,
       Value<String?> note,
       Value<String?> tagsJson,
@@ -2591,6 +2634,7 @@ typedef $$TurnsTableUpdateCompanionBuilder =
       Value<int> num,
       Value<String> speaker,
       Value<String> es,
+      Value<String?> rd,
       Value<String?> ko,
       Value<String?> note,
       Value<String?> tagsJson,
@@ -2659,6 +2703,11 @@ class $$TurnsTableFilterComposer extends Composer<_$AppDatabase, $TurnsTable> {
 
   ColumnFilters<String> get es => $composableBuilder(
     column: $table.es,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get rd => $composableBuilder(
+    column: $table.rd,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -2747,6 +2796,11 @@ class $$TurnsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get rd => $composableBuilder(
+    column: $table.rd,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<String> get ko => $composableBuilder(
     column: $table.ko,
     builder: (column) => ColumnOrderings(column),
@@ -2792,6 +2846,9 @@ class $$TurnsTableAnnotationComposer
 
   GeneratedColumn<String> get es =>
       $composableBuilder(column: $table.es, builder: (column) => column);
+
+  GeneratedColumn<String> get rd =>
+      $composableBuilder(column: $table.rd, builder: (column) => column);
 
   GeneratedColumn<String> get ko =>
       $composableBuilder(column: $table.ko, builder: (column) => column);
@@ -2863,6 +2920,7 @@ class $$TurnsTableTableManager
                 Value<int> num = const Value.absent(),
                 Value<String> speaker = const Value.absent(),
                 Value<String> es = const Value.absent(),
+                Value<String?> rd = const Value.absent(),
                 Value<String?> ko = const Value.absent(),
                 Value<String?> note = const Value.absent(),
                 Value<String?> tagsJson = const Value.absent(),
@@ -2874,6 +2932,7 @@ class $$TurnsTableTableManager
                 num: num,
                 speaker: speaker,
                 es: es,
+                rd: rd,
                 ko: ko,
                 note: note,
                 tagsJson: tagsJson,
@@ -2887,6 +2946,7 @@ class $$TurnsTableTableManager
                 required int num,
                 required String speaker,
                 required String es,
+                Value<String?> rd = const Value.absent(),
                 Value<String?> ko = const Value.absent(),
                 Value<String?> note = const Value.absent(),
                 Value<String?> tagsJson = const Value.absent(),
@@ -2898,6 +2958,7 @@ class $$TurnsTableTableManager
                 num: num,
                 speaker: speaker,
                 es: es,
+                rd: rd,
                 ko: ko,
                 note: note,
                 tagsJson: tagsJson,

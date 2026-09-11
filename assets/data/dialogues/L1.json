@@ -1,18 +1,510 @@
 {
-  "level": "L1",
-  "variety": "it_IT",
-  "version": "v1-2026-09-02",
-  "schema": "v1-L1-5ep40turn",
-  "title": "L1 — 매칭 narrative (콘텐츠 준비 중)",
-  "description": "이탈리아어 L1 대화 콘텐츠는 아직 준비 중입니다.",
-  "kpi": {
-    "episodes_target": 5,
-    "turns_per_episode": 40,
-    "turns_total_target": 200,
-    "turns_total_current": 0,
-    "progress_pct": 0.0
+ "level": "L1",
+ "variety": "it_IT",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 이탈리아어 첫 만남 (초안)",
+ "description": "이탈리아어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
+ },
+ "characters": {
+  "A": {
+   "name": "Minjun",
+   "role": "",
+   "gender": "male"
   },
-  "characters": {},
-  "function_words": [],
-  "episodes": []
+  "B": {
+   "name": "Giulia",
+   "role": "",
+   "gender": "female"
+  }
+ },
+ "function_words": [],
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Ciao! Sono Minjun. E tu?",
+     "rd": "챠오! 쏘노 민준. 에 뚜?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "sono = 나는 ~이다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Ciao, mi chiamo Giulia. Di dove sei?",
+     "rd": "챠오, 미 꺄모 줄리아. 디 도베 쎄이?",
+     "ko": "안녕, 나는 줄리아야. 어디에서 왔어?",
+     "note": "di dove = 어디 출신",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Vengo dalla Corea. Studio italiano.",
+     "rd": "벵고 달라 꼬레아. 스뚜디오 이딸리아노.",
+     "ko": "한국에서 왔어. 이탈리아어 공부해.",
+     "note": "venire da = ~에서 오다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Bravo! Il tuo italiano è già buono.",
+     "rd": "브라보! 일 뚜오 이딸리아노 에 쟈 부오노.",
+     "ko": "잘한다! 네 이탈리아어 벌써 좋은데.",
+     "note": "già = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Grazie! Mi esercito ogni giorno.",
+     "rd": "그라찌에! 미 에제르치또 온니 조르노.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "ogni giorno = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Abiti a Roma?",
+     "rd": "아비띠 아 로마?",
+     "ko": "로마에 살아?",
+     "note": "abitare = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Sì, da due mesi.",
+     "rd": "씨, 다 두에 메지.",
+     "ko": "응, 두 달 전부터.",
+     "note": "da = ~부터",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Allora ti faccio vedere la città!",
+     "rd": "알로라 띠 파초 베데레 라 치따!",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "ti = 너에게",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Cosa vuoi bere?",
+     "rd": "꼬자 부오이 베레?",
+     "ko": "뭐 마실래?",
+     "note": "cosa = 무엇",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Un caffè, per favore. E tu?",
+     "rd": "운 까페, 뻬르 파보레. 에 뚜?",
+     "ko": "커피 하나, 부탁해. 너는?",
+     "note": "per favore = 부탁해",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Prendo un tè con il latte.",
+     "rd": "프렌도 운 떼 꼰 일 라떼.",
+     "ko": "나는 밀크티로 할게.",
+     "note": "prendere = 고르다·먹다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Il dolce qui è buono?",
+     "rd": "일 돌체 뀌 에 부오노?",
+     "ko": "여기 디저트 맛있어?",
+     "note": "qui = 여기",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Buonissimo! La torta di mele è la mia preferita.",
+     "rd": "부오니씨모! 라 또르따 디 멜레 에 라 미아 프레페리따.",
+     "ko": "엄청! 사과 케이크가 내 최애야.",
+     "note": "-issimo = 아주 ~한",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Allora prendiamo due fette.",
+     "rd": "알로라 프렌디아모 두에 페떼.",
+     "ko": "그럼 두 조각 시키자.",
+     "note": "noi 형 -iamo",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Perfetto. Offro io.",
+     "rd": "뻬르페또. 오프로 이오.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "offrire = 한턱내다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "No no, oggi pago io!",
+     "rd": "노 노, 오찌 빠고 이오!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "pagare = 지불하다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Scusi, dov'è il museo?",
+     "rd": "스꾸지, 도베 일 무제오?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "dov'è = 어디에 있다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Vai dritto e poi a sinistra.",
+     "rd": "바이 드리또 에 뽀이 아 씨니스트라.",
+     "ko": "직진하다가 왼쪽으로 가.",
+     "note": "dritto = 직진",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "È lontano?",
+     "rd": "에 론따노?",
+     "ko": "멀어?",
+     "note": "lontano = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "No, cinque minuti a piedi.",
+     "rd": "노, 친꿰 미누띠 아 삐에디.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "a piedi = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Ottimo. È aperto oggi?",
+     "rd": "오띠모. 에 아뻬르또 오찌?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "aperto = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Sì, fino alle sei.",
+     "rd": "씨, 피노 알레 쎄이.",
+     "ko": "응, 6시까지.",
+     "note": "fino a = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Vieni con me?",
+     "rd": "비에니 꼰 메?",
+     "ko": "같이 갈래?",
+     "note": "con me = 나와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Volentieri! Adoro l'arte.",
+     "rd": "볼렌띠에리! 아도로 라르떼.",
+     "ko": "좋아! 나 예술 진짜 좋아해.",
+     "note": "volentieri = 기꺼이",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Sei libero sabato?",
+     "rd": "쎄이 리베로 싸바또?",
+     "ko": "토요일에 시간 있어?",
+     "note": "libero = 한가한",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Sì, sono libero. Cosa facciamo?",
+     "rd": "씨, 쏘노 리베로. 꼬자 파치아모?",
+     "ko": "응, 한가해. 뭐 할까?",
+     "note": "facciamo = (우리) 하다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Potremmo andare al cinema.",
+     "rd": "뽀뜨렘모 안다레 알 치네마.",
+     "ko": "영화관에 갈 수도 있지.",
+     "note": "potremmo = ~할 수 있을 텐데",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Buona idea! A che ora?",
+     "rd": "부오나 이데아! 아 께 오라?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "a che ora = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Alle sette? Dopo mangiamo qualcosa.",
+     "rd": "알레 쎄떼? 도뽀 만쟈모 꽐꼬자.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "dopo = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Va bene. Dove ci vediamo?",
+     "rd": "바 베네. 도베 치 베디아모?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "vedersi = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Davanti alla stazione Termini.",
+     "rd": "다반띠 알라 스따찌오네 떼르미니.",
+     "ko": "테르미니 역 앞에서.",
+     "note": "davanti a = ~앞에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "D'accordo, a sabato!",
+     "rd": "다꼬르도, 아 싸바또!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "a + 시간 = ~에 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Il film era davvero bello.",
+     "rd": "일 필름 에라 다베로 벨로.",
+     "ko": "영화 정말 좋았어.",
+     "note": "era = ~였다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Sì, ma il finale era triste.",
+     "rd": "씨, 마 일 피날레 에라 트리스떼.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "ma = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Mi piacciono i film con te.",
+     "rd": "미 삐아쵸노 이 필름 꼰 떼.",
+     "ko": "너랑 보는 영화가 좋아.",
+     "note": "mi piace(piacciono)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Anche a me. Sei molto gentile.",
+     "rd": "안께 아 메. 쎄이 몰또 젠띨레.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "anche = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Ci vediamo la prossima settimana?",
+     "rd": "치 베디아모 라 프로씨마 쎄띠마나?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "prossima = 다음의",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Certo. Scrivimi!",
+     "rd": "체르또. 스크리비미!",
+     "ko": "당연하지. 문자해!",
+     "note": "scrivimi = 나에게 써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Lo farò. Buonanotte, Giulia.",
+     "rd": "로 파로. 부오나노떼, 줄리아.",
+     "ko": "그럴게. 잘 자, 줄리아.",
+     "note": "buonanotte = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Buonanotte, Minjun. A presto!",
+     "rd": "부오나노떼, 민준. 아 프레스또!",
+     "ko": "잘 자, 민준. 곧 봐!",
+     "note": "a presto = 곧 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }
