@@ -8,7 +8,9 @@ import '../core/theme.dart';
 import '../data/db/app_database.dart';
 import '../main.dart';
 import '../services/tts_service.dart';
+import '../services/ko_reading.dart';
 import '../widgets/spanish_decor.dart';
+import 'sentence_flashcard_screen.dart';
 
 /// 에피소드/다이얼로그 메타 (Learn 탭·회화 허브·홈 공용).
 class EpisodeMeta {
@@ -161,6 +163,15 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
         title: Text('${widget.meta.level} · ${widget.meta.title}'),
         actions: [
           IconButton(
+            tooltip: '문장 카드로 연습',
+            icon: const Icon(Icons.style),
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => SentenceFlashcardScreen(
+                  level: widget.meta.level, episodeId: widget.meta.id, title: widget.meta.title)),
+            ),
+          ),
+          IconButton(
             tooltip: '한국어 번역 토글',
             icon: Icon(_showKo ? Icons.translate : Icons.translate_outlined),
             onPressed: () => setState(() => _showKo = !_showKo),
@@ -292,6 +303,9 @@ class _EpisodeBubble extends StatelessWidget {
                         height: 1.35,
                       ),
                     ),
+                    if ((turn.rd ?? '').isNotEmpty)
+                      KoReadingText(turn.rd!,
+                          style: const TextStyle(fontSize: 12, color: AppColors.rojoDeep)),
                     if (showKo && turn.ko != null) ...[
                       const SizedBox(height: 4),
                       Text(

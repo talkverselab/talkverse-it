@@ -23,6 +23,7 @@ dependencies:
   # Util
   csv: ^6.0.0
   flutter_svg: ^2.0.10+1
+  speech_to_text: ^7.4.0
   flutter_tts: ^4.2.0
 
   # Drift (SQLite ORM)
