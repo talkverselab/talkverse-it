@@ -82,3 +82,25 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
   드라마·영화 제목을 코드·에셋·문서·파일명·화면 문구 어디에도 남기지 않는다.
 - 저작권 있는 원문(자막 대본, 원서 전사)을 리포에 넣지 않는다. 단어·빈도 통계만 쓰고 문장은 자체 제작한다.
 - 새 파일을 추가할 때 위 두 가지를 먼저 확인할 것. 한 번 공개 커밋되면 히스토리에 남는다.
+
+## 화면 구성 (2026-09-11 — zh 기준 이식)
+
+홈 메뉴: 회화 · **문법** · **문장 카드** · **말하기** · **청크 검색** · 동사 활용 · 단어 · 표현 · 빈도 단어 · 성·수(준비중) · 발음(준비중) · **단어 카드**
+
+새로 들어온 6개는 `talkverse/_update_kit/port6/` 의 공용 키트에서 왔다. **8개 앱(de·es·fa·fr·hi·hu·it·pt·tr)이 같은 코드**를 쓰므로,
+고칠 일이 있으면 키트를 고치고 `port6_apply.py` 로 다시 배포하는 편이 낫다(개별 수정은 다음 배포에서 덮인다).
+
+| 화면 | 파일 | 데이터 |
+|---|---|---|
+| 문법 강의·테스트 | `grammar_lesson_screen.dart` / `grammar_test_screen.dart` | `assets/data/grammar/lesson*.json` (`patterns[].examples[] = {tl, rd, ko}`) |
+| 문장 카드 | `sentence_flashcard_screen.dart` | DB `turns` + `user_progress` |
+| 말하기 연습 | `speaking_practice_screen.dart`, `services/speech_service.dart`, `services/speak_match.dart` | DB `turns`, 판정은 단어 단위 LCS ≥ 0.7 |
+| 청크 검색 | `chunk_search_screen.dart`, `services/chunk_index_service.dart` | 회화 턴 + 문법 예문에서 1~3단어 청크 색인 |
+| 단어 카드 | `word_flashcard_screen.dart` | `assets/data/vocab/travel_words.json` (`{ko, tx, rd, ic}`) |
+
+- **대화 턴에 한글 독음 `rd` 칸**이 있다(DB 스키마 v2, 시드 키 `db_seeded_v2`). 대화·문법·단어 모두 독음을 넣고,
+  화면에서는 `KoReadingText` 로 전역 독음 토글에 연동한다.
+- 대상어 문장 칸 이름은 템플릿 그대로 `es` 다(스페인어 앱에서 복제된 흔적). 언어와 무관하게 "대상어"로 읽으면 된다.
+- **콘텐츠는 초안**이다 — 회화 5편 × 8턴, 문법 10패턴 × 예문 3, 단어 40개. 자체 제작이며 원문·출처를 쓰지 않는다.
+  내용을 늘리려면 `_update_kit/content/<언어코드>.py` 를 고치고 `build_content.py` 로 다시 만든다.
+- 말하기 연습은 `RECORD_AUDIO` 권한과 기기의 음성 인식(Google 앱)이 필요하다. 인식 언어는 `TtsService.locale` 을 따른다.
