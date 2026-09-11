@@ -46,12 +46,10 @@ flutter:
 
   assets:
     - assets/data/audio_manifest.json
-    - assets/data/dialogues/_meta.json
-    - assets/data/dialogues/L1.json
-    - assets/data/freq/lang_es_top.csv
-    - assets/data/grammar/verbs_core.json
-    - assets/data/vocab/travel_words.json
-    - assets/data/vocab/travel_expressions.json
+    - assets/data/dialogues/
+    - assets/data/freq/
+    - assets/data/grammar/
+    - assets/data/vocab/
 
 flutter_launcher_icons:
   android: true
