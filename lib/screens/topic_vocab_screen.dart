@@ -7,6 +7,8 @@ import '../core/theme.dart';
 import '../services/ko_reading.dart';
 import '../services/memorized_store.dart';
 import '../services/tts_service.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// co-Trip 여행 이탈리아어 — 주제별 단어·표현 (chinese-universe 포팅).
 class VocabWord {
@@ -119,13 +121,13 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
         title: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(widget.title,
+            Text(tr(widget.title),
                 style: const TextStyle(
                     color: AppColors.tinta,
                     fontSize: 16,
                     fontWeight: FontWeight.w800)),
             const SizedBox(height: 2),
-            Text('여행 이탈리아어 · $total항목',
+            Text(trf('여행 이탈리아어 · {0}항목', [total]),
                 style: const TextStyle(
                     color: AppColors.tintaLight,
                     fontSize: 10,
@@ -137,7 +139,7 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
           ? const Center(
               child: CircularProgressIndicator(color: AppColors.rojo))
           : GridView.builder(
-              padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
+              padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 mainAxisSpacing: 10,
@@ -180,7 +182,7 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
                         ),
                         const SizedBox(height: 2),
                         Text(
-                          '${t.sections.length}편 · ${t.wordCount}항목',
+                          trf('{0}편 · {1}항목', [t.sections.length, t.wordCount]),
                           style: const TextStyle(
                             fontSize: 11,
                             color: AppColors.tintaLight,
@@ -225,9 +227,9 @@ class _ThemeDetailScreenState extends State<_ThemeDetailScreen> {
   }
 
   String get _modeLabel => switch (_mode) {
-        StudyMode.all => '전체',
-        StudyMode.hideTx => '이탈리아어가림',
-        StudyMode.hideKo => '뜻가림',
+        StudyMode.all => tr('전체'),
+        StudyMode.hideTx => tr('이탈리아어가림'),
+        StudyMode.hideKo => tr('뜻가림'),
       };
 
   @override
@@ -256,7 +258,7 @@ class _ThemeDetailScreenState extends State<_ThemeDetailScreen> {
                 final done =
                     words.where((w) => MemorizedStore.contains(w.tx)).length;
                 return Text(
-                  '${t.wordCount}항목 · 외움 $done',
+                  trf('{0}항목 · 외움 {1}', [t.wordCount, done]),
                   style: const TextStyle(
                       color: AppColors.tintaLight,
                       fontSize: 10,
@@ -269,7 +271,7 @@ class _ThemeDetailScreenState extends State<_ThemeDetailScreen> {
         actions: [
           const KoReadingToggleAction(),
           IconButton(
-            tooltip: '외우기 모드: $_modeLabel (탭하여 전환)',
+            tooltip: trf('외우기 모드: {0} (탭하여 전환)', [_modeLabel]),
             onPressed: _cycleMode,
             icon: Container(
               padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
@@ -300,7 +302,7 @@ class _ThemeDetailScreenState extends State<_ThemeDetailScreen> {
       ),
       body: !widget.gridMode
           ? ListView.builder(
-              padding: const EdgeInsets.fromLTRB(12, 8, 12, 24),
+              padding: EdgeInsets.fromLTRB(12, 8, 12, 24 + bottomInset(context)),
               itemCount: words.length,
               itemBuilder: (context, i) => _WordRow(
                 key: ValueKey('${_mode.name}_${words[i].tx}_$i'),
@@ -309,7 +311,7 @@ class _ThemeDetailScreenState extends State<_ThemeDetailScreen> {
               ),
             )
           : GridView.builder(
-              padding: const EdgeInsets.fromLTRB(14, 10, 14, 24),
+              padding: EdgeInsets.fromLTRB(14, 10, 14, 24 + bottomInset(context)),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
                 mainAxisSpacing: 9,
@@ -455,7 +457,7 @@ class _WordTileState extends State<_WordTile> {
                       padding: EdgeInsets.zero,
                       constraints:
                           const BoxConstraints(minWidth: 30, minHeight: 30),
-                      tooltip: memorized ? '외움 해제' : '외웠어요',
+                      tooltip: memorized ? tr('외움 해제') : tr('외웠어요'),
                       onPressed: () => MemorizedStore.toggle(word.tx),
                       icon: Icon(
                         memorized
@@ -487,7 +489,7 @@ class _WordDetailSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(20, 20, 20, 26),
+        padding: EdgeInsets.fromLTRB(20, 20, 20, 26 + bottomInset(context)),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -537,7 +539,7 @@ class _WordDetailSheet extends StatelessWidget {
               ),
               onPressed: () => TtsService.instance.speak(word.tx),
               icon: const Icon(Icons.volume_up),
-              label: const Text('다시 듣기',
+              label: Text(tr('다시 듣기'),
                   style: TextStyle(fontWeight: FontWeight.w800)),
             ),
           ],
@@ -633,7 +635,7 @@ class _WordRowState extends State<_WordRow> {
                 ),
                 if (study || memorized)
                   IconButton(
-                    tooltip: memorized ? '외움 해제' : '외웠어요',
+                    tooltip: memorized ? tr('외움 해제') : tr('외웠어요'),
                     icon: Icon(
                       memorized
                           ? Icons.check_circle

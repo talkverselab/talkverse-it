@@ -4,6 +4,8 @@ import 'update_screen.dart';
 
 import '../core/theme.dart';
 import '../widgets/spanish_decor.dart';
+import '../core/l10n.dart';
+import '../core/platform.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -12,11 +14,11 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: const Text('프로필 · 설정')),
+      appBar: AppBar(title: Text(tr('프로필 · 설정'))),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          const UpdateEntryTile(),
+          if (!isIOS) const UpdateEntryTile(),
           Container(
             padding: const EdgeInsets.all(18),
             decoration: BoxDecoration(
@@ -29,13 +31,13 @@ class ProfileScreen extends StatelessWidget {
             child: Row(
               children: [
                 const TileBadge(text: 'IT', size: 60, color: AppColors.tinta),
-                const SizedBox(width: 14),
+                SizedBox(width: 14),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       Text(
-                        '학습자',
+                        tr('학습자'),
                         style: TextStyle(
                           color: AppColors.cal,
                           fontSize: 20,
@@ -45,7 +47,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        'Día 1 · 입문 (A1)',
+                        tr('Día 1 · 입문 (A1)'),
                         style: TextStyle(
                           color: AppColors.gualdaBright,
                           fontSize: 13,
@@ -60,20 +62,30 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
-          const _SectionTitle('설정'),
+          _SectionTitle(tr('설정')),
           const SizedBox(height: 8),
           _SettingsGroup(items: [
-            _SettingItem(icon: Icons.volume_up, title: 'TTS 음성', subtitle: 'it-IT (시스템 보이스)'),
-            _SettingItem(icon: Icons.public, title: '변종', subtitle: '표준 이탈리아어 (Italia)'),
-            _SettingItem(icon: Icons.palette, title: '테마', subtitle: '낮 · rojo y gualda #AA151B'),
+            _SettingItem(
+                icon: Icons.language,
+                title: tr('언어 / Language'),
+                subtitle: '${AppLangPrefs.lang.value.label}  →  ${AppLangPrefs.peekNext().label}',
+                onTap: AppLangPrefs.next),
+            if (isIOS)
+              _SettingItem(
+                  icon: Icons.flight_takeoff,
+                  title: tr('앱 업데이트'),
+                  subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
+            _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('it-IT (시스템 보이스)')),
+            _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('표준 이탈리아어 (Italia)')),
+            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · rojo y gualda #AA151B')),
           ]),
           const SizedBox(height: 16),
-          const _SectionTitle('정보'),
+          _SectionTitle(tr('정보')),
           const SizedBox(height: 8),
           _SettingsGroup(items: [
-            _SettingItem(icon: Icons.info_outline, title: '앱 버전', subtitle: '0.1.0 · alpha'),
+            _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: '0.1.0 · alpha'),
             _SettingItem(icon: Icons.code, title: 'Stack', subtitle: 'Flutter 3.41 · Material 3 · Drift'),
-            _SettingItem(icon: Icons.copyright, title: '저작권', subtitle: '이탈리아어유니버스 · 2026'),
+            _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('이탈리아어유니버스 · 2026')),
           ]),
           const SizedBox(height: 20),
           const BandDivider(),
@@ -131,6 +143,7 @@ class _SettingsGroup extends StatelessWidget {
         children: [
           for (var i = 0; i < items.length; i++) ...[
             ListTile(
+              onTap: items[i].onTap,
               leading: Container(
                 width: 32,
                 height: 32,
@@ -160,5 +173,6 @@ class _SettingItem {
   final IconData icon;
   final String title;
   final String subtitle;
-  _SettingItem({required this.icon, required this.title, required this.subtitle});
+  final VoidCallback? onTap;
+  _SettingItem({required this.icon, required this.title, required this.subtitle, this.onTap});
 }

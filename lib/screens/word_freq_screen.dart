@@ -5,6 +5,8 @@ import '../core/theme.dart';
 import '../data/db/app_database.dart';
 import '../main.dart';
 import '../services/tts_service.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// 빈도 단어 — rank 순 목록 + 검색 + 성(gender) 색.
 class WordFreqScreen extends StatefulWidget {
@@ -43,14 +45,14 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
             .toList();
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text('빈도 단어 · ${_words.length}')),
+      appBar: AppBar(title: Text(trf('빈도 단어 · {0}', [_words.length]))),
       body: Column(
         children: [
           Padding(
             padding: const EdgeInsets.fromLTRB(12, 10, 12, 4),
             child: TextField(
               decoration: InputDecoration(
-                hintText: '단어 / 뜻 검색',
+                hintText: tr('단어 / 뜻 검색'),
                 prefixIcon: const Icon(Icons.search),
                 isDense: true,
                 border: OutlineInputBorder(borderRadius: BorderRadius.circular(8)),
@@ -62,7 +64,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
             child: _words.isEmpty
                 ? const Center(child: CircularProgressIndicator())
                 : ListView.builder(
-                    padding: const EdgeInsets.fromLTRB(12, 4, 12, 80),
+                    padding: EdgeInsets.fromLTRB(12, 4, 12, 80 + bottomInset(context)),
                     itemCount: shown.length,
                     itemBuilder: (context, i) {
                       final w = shown[i];

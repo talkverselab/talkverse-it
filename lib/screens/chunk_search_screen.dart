@@ -6,6 +6,8 @@ import '../services/ko_reading.dart';
 import '../services/speak_match.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// 청크 검색 — 대상어 단어·구, 한국어 뜻, 한글 독음으로 전 문장을 찾는다.
 class ChunkSearchScreen extends StatefulWidget {
@@ -48,7 +50,7 @@ class _ChunkSearchScreenState extends State<ChunkSearchScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: const Text('청크 검색'),
+        title: Text(tr('청크 검색')),
         actions: const [KoReadingToggleAction()],
       ),
       body: _loading
@@ -62,7 +64,7 @@ class _ChunkSearchScreenState extends State<ChunkSearchScreen> {
                     onChanged: _search,
                     textInputAction: TextInputAction.search,
                     decoration: InputDecoration(
-                      hintText: '단어·구 또는 한국어 뜻으로 검색',
+                      hintText: tr('단어·구 또는 한국어 뜻으로 검색'),
                       prefixIcon: const Icon(Icons.search),
                       suffixIcon: _ctrl.text.isEmpty
                           ? null
@@ -82,7 +84,7 @@ class _ChunkSearchScreenState extends State<ChunkSearchScreen> {
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
-                  child: Text('문장 ${svc.all.length}개에서 찾습니다',
+                  child: Text(trf('문장 {0}개에서 찾습니다', [svc.all.length]),
                       style: const TextStyle(fontSize: 11, color: AppColors.tintaLight)),
                 ),
                 const SizedBox(height: 6),
@@ -90,11 +92,11 @@ class _ChunkSearchScreenState extends State<ChunkSearchScreen> {
                   child: _ctrl.text.trim().isEmpty
                       ? _suggest()
                       : _hits.isEmpty
-                          ? const Center(
-                              child: Text('찾는 청크가 없습니다',
+                          ? Center(
+                              child: Text(tr('찾는 청크가 없습니다'),
                                   style: TextStyle(color: AppColors.tintaLight)))
                           : ListView(
-                              padding: const EdgeInsets.fromLTRB(16, 4, 16, 24),
+                              padding: EdgeInsets.fromLTRB(16, 4, 16, 24 + bottomInset(context)),
                               children: [for (final h in _hits) _HitCard(hit: h, query: _ctrl.text)],
                             ),
                 ),
@@ -105,14 +107,14 @@ class _ChunkSearchScreenState extends State<ChunkSearchScreen> {
 
   Widget _suggest() {
     if (_top.isEmpty) {
-      return const Center(
-          child: Text('아직 검색할 문장이 없습니다',
+      return Center(
+          child: Text(tr('아직 검색할 문장이 없습니다'),
               style: TextStyle(color: AppColors.tintaLight)));
     }
     return ListView(
       padding: const EdgeInsets.all(16),
       children: [
-        const Text('자주 나오는 단어',
+        Text(tr('자주 나오는 단어'),
             style: TextStyle(fontWeight: FontWeight.w800, color: AppColors.tinta)),
         const SizedBox(height: 10),
         Wrap(
@@ -163,7 +165,7 @@ class _HitCardState extends State<_HitCard> {
             title: Text(h.chunk,
                 style: const TextStyle(
                     fontSize: 18, fontWeight: FontWeight.w900, color: AppColors.rojoDeep)),
-            subtitle: Text('문장 ${h.sentences.length}개',
+            subtitle: Text(trf('문장 {0}개', [h.sentences.length]),
                 style: const TextStyle(fontSize: 12)),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,

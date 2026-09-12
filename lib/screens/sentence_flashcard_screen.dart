@@ -9,6 +9,8 @@ import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'episode_screen.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 enum _CardState { unknown, studying, known }
 
@@ -134,18 +136,18 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(tr(widget.title)),
         actions: [
           const KoReadingToggleAction(),
           IconButton(
-            tooltip: _showHint ? '힌트 끄기' : '힌트 켜기',
+            tooltip: _showHint ? tr('힌트 끄기') : tr('힌트 켜기'),
             icon: Icon(_showHint ? Icons.lightbulb : Icons.lightbulb_outline),
             onPressed: _toggleHint,
           ),
           TextButton(
             onPressed: _toggleDir,
             child: Text(
-              _koFirst ? '한→외' : '외→한',
+              _koFirst ? tr('한→외') : tr('외→한'),
               style: const TextStyle(
                   color: Colors.white, fontWeight: FontWeight.w800),
             ),
@@ -155,7 +157,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _turns.isEmpty
-              ? const _Empty(text: '아직 문장이 없습니다.\n회화 콘텐츠가 들어오면 여기서 연습할 수 있어요.')
+              ? _Empty(text: tr('아직 문장이 없습니다.\n회화 콘텐츠가 들어오면 여기서 연습할 수 있어요.'))
               : _body(),
     );
   }
@@ -171,7 +173,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
     };
 
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 12, 16, 20),
+      padding: EdgeInsets.fromLTRB(16, 12, 16, 20 + bottomInset(context)),
       child: Column(
         children: [
           Row(
@@ -182,7 +184,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
               const Spacer(),
               _StateChip(state: st),
               const SizedBox(width: 8),
-              Text('알아요 $known',
+              Text(trf('알아요 {0}', [known]),
                   style: const TextStyle(
                       fontSize: 12, color: AppColors.tintaLight)),
             ],
@@ -208,7 +210,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        _flipped ? '정답' : (_koFirst ? '한국어' : '대상어'),
+                        _flipped ? tr('정답') : (_koFirst ? tr('한국어') : tr('대상어')),
                         style: const TextStyle(
                             fontSize: 11,
                             letterSpacing: 2,
@@ -268,7 +270,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
                             onPressed: () => _speak(t),
                           ),
                           const Spacer(),
-                          Text(_flipped ? '탭하면 앞면' : '탭하면 뒤집기',
+                          Text(_flipped ? tr('탭하면 앞면') : tr('탭하면 뒤집기'),
                               style: const TextStyle(
                                   fontSize: 11, color: AppColors.tintaLight)),
                         ],
@@ -288,19 +290,19 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
               const SizedBox(width: 8),
               Expanded(
                   child: _AnswerButton(
-                      label: '몰라요',
+                      label: tr('몰라요'),
                       color: AppColors.rojo,
                       onTap: () => _rate(_CardState.unknown))),
               const SizedBox(width: 6),
               Expanded(
                   child: _AnswerButton(
-                      label: '공부중',
+                      label: tr('공부중'),
                       color: AppColors.gualdaDeep,
                       onTap: () => _rate(_CardState.studying))),
               const SizedBox(width: 6),
               Expanded(
                   child: _AnswerButton(
-                      label: '알아요',
+                      label: tr('알아요'),
                       color: AppColors.oliva,
                       onTap: () => _rate(_CardState.known))),
               const SizedBox(width: 8),
@@ -322,9 +324,9 @@ class _StateChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (label, color) = switch (state) {
-      _CardState.known => ('알아요', AppColors.oliva),
-      _CardState.studying => ('공부중', AppColors.gualdaDeep),
-      _CardState.unknown => ('새 카드', AppColors.tintaLight),
+      _CardState.known => (tr('알아요'), AppColors.oliva),
+      _CardState.studying => (tr('공부중'), AppColors.gualdaDeep),
+      _CardState.unknown => (tr('새 카드'), AppColors.tintaLight),
     };
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),

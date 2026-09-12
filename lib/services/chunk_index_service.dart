@@ -2,6 +2,7 @@ import '../main.dart';
 import '../screens/episode_screen.dart';
 import '../screens/grammar_lesson_screen.dart';
 import 'speak_match.dart';
+import '../core/l10n.dart';
 
 /// 검색 대상 문장 — 회화 턴 + 문법 예문.
 class IndexedSentence {
@@ -44,7 +45,7 @@ class ChunkIndexService {
         t.es,
         t.rd ?? '',
         t.ko ?? '',
-        '회화 · ${titles['${t.level}/${t.episodeId}'] ?? t.level}',
+        trf('회화 · {0}', [titles['${t.level}/${t.episodeId}'] ?? t.level]),
         EpisodeCatalog.instance.speaker(t.level, t.speaker).gender,
       ));
     }
@@ -54,7 +55,7 @@ class ChunkIndexService {
           final tl = '${ex['tl'] ?? ''}';
           if (tl.isEmpty) continue;
           _add(IndexedSentence(tl, '${ex['rd'] ?? ''}', '${ex['ko'] ?? ''}',
-              '문법 · ${l.title}', 'female'));
+              trf('문법 · {0}', [l.title]), 'female'));
         }
       }
     }

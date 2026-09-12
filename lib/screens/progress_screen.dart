@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
+import '../core/l10n.dart';
 
 /// 진행 — 턴 학습 / 동사 / 단어 집계.
 class ProgressScreen extends StatefulWidget {
@@ -49,7 +50,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: const Text('진행 · Progreso'),
+        title: Text(tr('진행 · Progreso')),
         actions: [
           IconButton(icon: const Icon(Icons.refresh), onPressed: _load),
         ],
@@ -60,7 +61,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
               padding: const EdgeInsets.all(16),
               children: [
                 _StatCard(
-                  label: '회화 턴',
+                  label: tr('회화 턴'),
                   badge: 'Ch',
                   done: _turnsLearned,
                   total: _turnsTotal,
@@ -68,7 +69,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                 ),
                 const SizedBox(height: 10),
                 _StatCard(
-                  label: '핵심 동사',
+                  label: tr('핵심 동사'),
                   badge: 'V',
                   done: _verbsKnown,
                   total: _verbsTotal,
@@ -76,7 +77,7 @@ class _ProgressScreenState extends State<ProgressScreen> {
                 ),
                 const SizedBox(height: 10),
                 _StatCard(
-                  label: '빈도 단어 (DB)',
+                  label: tr('빈도 단어 (DB)'),
                   badge: 'W',
                   done: _wordsTotal,
                   total: _wordsTotal,
