@@ -13,6 +13,8 @@ import '../services/speech_service.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'episode_screen.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// 단계별 제한 시간(초).
 const _stageSeconds = {1: 10, 2: 5, 3: 2};
@@ -81,13 +83,13 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: const Text('말하기 연습')),
+      appBar: AppBar(title: Text(tr('말하기 연습'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
               padding: const EdgeInsets.all(16),
               children: [
-                const Text('단계',
+                Text(tr('단계'),
                     style: TextStyle(
                         fontWeight: FontWeight.w800, color: AppColors.tinta)),
                 const SizedBox(height: 8),
@@ -96,8 +98,8 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
                     for (final s in _stageSeconds.keys) ...[
                       Expanded(
                         child: _StageChip(
-                          label: '$s단계',
-                          sub: '${_stageSeconds[s]}초',
+                          label: trf('{0}단계', [s]),
+                          sub: trf('{0}초', [_stageSeconds[s]]),
                           selected: _stage == s,
                           onTap: () => _setStage(s),
                         ),
@@ -109,15 +111,15 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
                 const SizedBox(height: 16),
                 Text(
                   _onlyLearned
-                      ? '학습한 회화 — 탭하면 바로 시작합니다'
-                      : '전체 회화 — 회화에서 학습 체크하면 그 회화만 모아 보여 줍니다',
+                      ? tr('학습한 회화 — 탭하면 바로 시작합니다')
+                      : tr('전체 회화 — 회화에서 학습 체크하면 그 회화만 모아 보여 줍니다'),
                   style: const TextStyle(fontSize: 12, color: AppColors.tintaLight),
                 ),
                 const SizedBox(height: 8),
                 if (_items.isEmpty)
-                  const Padding(
+                  Padding(
                     padding: EdgeInsets.all(32),
-                    child: Text('아직 회화가 없습니다.',
+                    child: Text(tr('아직 회화가 없습니다.'),
                         textAlign: TextAlign.center,
                         style: TextStyle(color: AppColors.tintaLight)),
                   ),
@@ -130,7 +132,7 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
                       title: Text(e.meta.title,
                           style: const TextStyle(fontWeight: FontWeight.w700)),
                       subtitle: Text(
-                          '${e.meta.level} · ${e.total}문장 · 3단계 통과 ${e.passed3}',
+                          trf('{0} · {1}문장 · 3단계 통과 {2}', [e.meta.level, e.total, e.passed3]),
                           style: const TextStyle(fontSize: 12)),
                       trailing: const Icon(Icons.mic, color: AppColors.rojo),
                       onTap: () async {
@@ -254,7 +256,7 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
     if (!ok) {
       setState(() {
         _phase = _Phase.error;
-        _error = '음성 인식을 쓸 수 없습니다. 마이크 권한과 Google 음성 인식 설치를 확인해 주세요.';
+        _error = tr('음성 인식을 쓸 수 없습니다. 마이크 권한과 Google 음성 인식 설치를 확인해 주세요.');
       });
       return;
     }
@@ -286,7 +288,7 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
     if (!started) {
       setState(() {
         _phase = _Phase.error;
-        _error = SpeechService.instance.lastError ?? '녹음을 시작하지 못했습니다.';
+        _error = SpeechService.instance.lastError ?? tr('녹음을 시작하지 못했습니다.');
       });
       return;
     }
@@ -366,11 +368,11 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: Text('${widget.meta.title} · ${widget.stage}단계'),
+        title: Text(trf('{0} · {1}단계', [widget.meta.title, widget.stage])),
         actions: [
           const KoReadingToggleAction(),
           IconButton(
-            tooltip: '힌트',
+            tooltip: tr('힌트'),
             icon: Icon(_showHint ? Icons.lightbulb : Icons.lightbulb_outline),
             onPressed: _toggleHint,
           ),
@@ -379,13 +381,13 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
       body: _turns.isEmpty
           ? const Center(child: CircularProgressIndicator())
           : switch (_phase) {
-              _Phase.error => _message(_error ?? '오류'),
+              _Phase.error => _message(_error ?? tr('오류')),
               _Phase.batchResult => _resultView(
                   _results.sublist(_results.length - _batch.clamp(0, _results.length)),
-                  button: '계속',
+                  button: tr('계속'),
                   onTap: _continue),
               _Phase.done => _resultView(_results,
-                  button: '처음부터 다시', onTap: _restart, summary: true),
+                  button: tr('처음부터 다시'), onTap: _restart, summary: true),
               _ => _testView(),
             },
     );
@@ -432,8 +434,8 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
           const SizedBox(height: 8),
           Text(
             switch (_phase) {
-              _Phase.ready => '곧 녹음합니다…',
-              _Phase.listening => '말해 보세요 · $_left초',
+              _Phase.ready => tr('곧 녹음합니다…'),
+              _Phase.listening => trf('말해 보세요 · {0}초', [_left]),
               _Phase.judged => _pass ? 'PASS' : 'FAIL',
               _ => '',
             },
@@ -458,7 +460,7 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
         Padding(
           padding: const EdgeInsets.all(16),
           child: Text(
-            summary ? '전체 결과 · $passed / ${list.length}' : '결과 · $passed / ${list.length}',
+            summary ? trf('전체 결과 · {0} / {1}', [passed, list.length]) : trf('결과 · {0} / {1}', [passed, list.length]),
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900, color: AppColors.tinta),
           ),
         ),
@@ -475,7 +477,7 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
                         color: r.pass ? AppColors.oliva : AppColors.rojo),
                     title: Text(r.turn.es, style: const TextStyle(fontWeight: FontWeight.w700)),
                     subtitle: Text(
-                        '${r.turn.ko ?? ''}\n인식: ${r.heard.isEmpty ? '(없음)' : r.heard}',
+                        trf('{0}\n인식: {1}', [r.turn.ko ?? '', r.heard.isEmpty ? '(없음)' : r.heard]),
                         style: const TextStyle(fontSize: 12, height: 1.4)),
                     isThreeLine: true,
                     trailing: IconButton(
@@ -488,7 +490,7 @@ class _SpeakingTestScreenState extends State<SpeakingTestScreen> {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.fromLTRB(16, 4, 16, 20),
+          padding: EdgeInsets.fromLTRB(16, 4, 16, 20 + bottomInset(context)),
           child: SizedBox(
             width: double.infinity,
             height: 50,

@@ -6,6 +6,7 @@ import '../core/theme.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import 'grammar_lesson_screen.dart';
+import '../core/l10n.dart';
 
 class _Q {
   final String ko;
@@ -89,12 +90,12 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: Text('${widget.lesson.title} · 테스트'),
+        title: Text(trf('{0} · 테스트', [widget.lesson.title])),
         actions: const [KoReadingToggleAction()],
       ),
       body: _qs.length < 2
-          ? const Center(
-              child: Text('예문이 부족해 테스트를 만들 수 없습니다.',
+          ? Center(
+              child: Text(tr('예문이 부족해 테스트를 만들 수 없습니다.'),
                   style: TextStyle(color: AppColors.tintaLight)))
           : _i >= _qs.length
               ? _summary()
@@ -112,7 +113,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
             Text('${_i + 1} / ${_qs.length}',
                 style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.tintaLight)),
             const Spacer(),
-            Text('맞힌 수 $_score',
+            Text(trf('맞힌 수 {0}', [_score]),
                 style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.oliva)),
           ],
         ),
@@ -121,7 +122,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
             style: const TextStyle(
                 fontSize: 22, height: 1.4, fontWeight: FontWeight.w900, color: AppColors.tinta)),
         const SizedBox(height: 6),
-        Text('패턴 · ${q.label}',
+        Text(trf('패턴 · {0}', [q.label]),
             style: const TextStyle(fontSize: 12, color: AppColors.tintaLight)),
         const SizedBox(height: 18),
         for (final c in q.choices) _choice(q, c),
@@ -129,7 +130,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
           if (q.rd.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(top: 6),
-              child: KoReadingText('정답 독음 · ${q.rd}',
+              child: KoReadingText(trf('정답 독음 · {0}', [q.rd]),
                   style: const TextStyle(fontSize: 13, color: AppColors.rojoDeep)),
             ),
           const SizedBox(height: 14),
@@ -138,7 +139,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
             child: FilledButton(
               style: FilledButton.styleFrom(backgroundColor: AppColors.rojo),
               onPressed: _next,
-              child: Text(_i == _qs.length - 1 ? '결과 보기' : '다음',
+              child: Text(_i == _qs.length - 1 ? tr('결과 보기') : tr('다음'),
                   style: const TextStyle(fontWeight: FontWeight.w800)),
             ),
           ),
@@ -193,7 +194,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
             textAlign: TextAlign.center,
             style: const TextStyle(fontSize: 44, fontWeight: FontWeight.w900, color: AppColors.rojo)),
         const SizedBox(height: 6),
-        Text(_score == _qs.length ? '전부 맞혔어요!' : '틀린 문제를 다시 확인해 보세요',
+        Text(_score == _qs.length ? tr('전부 맞혔어요!') : tr('틀린 문제를 다시 확인해 보세요'),
             textAlign: TextAlign.center,
             style: const TextStyle(color: AppColors.tintaLight)),
         const SizedBox(height: 20),
@@ -202,7 +203,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
             color: Colors.white,
             child: ListTile(
               title: Text(q.answer, style: const TextStyle(fontWeight: FontWeight.w700)),
-              subtitle: Text('${q.ko}\n내 답: $mine',
+              subtitle: Text(trf('{0}\n내 답: {1}', [q.ko, mine]),
                   style: const TextStyle(fontSize: 12, height: 1.4)),
               isThreeLine: true,
               trailing: IconButton(
@@ -217,7 +218,7 @@ class _GrammarTestScreenState extends State<GrammarTestScreen> {
           child: FilledButton(
             style: FilledButton.styleFrom(backgroundColor: AppColors.rojo),
             onPressed: _build,
-            child: const Text('다시 풀기', style: TextStyle(fontWeight: FontWeight.w800)),
+            child: Text(tr('다시 풀기'), style: TextStyle(fontWeight: FontWeight.w800)),
           ),
         ),
       ],

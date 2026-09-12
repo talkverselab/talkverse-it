@@ -8,6 +8,8 @@ import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -31,7 +33,7 @@ class GrammarLesson {
         final d = json.decode(raw) as Map<String, dynamic>;
         out.add(GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,
-          d['title'] as String? ?? '문법 $i',
+          d['title'] as String? ?? trf('문법 {0}', [i]),
           d['subtitle'] as String? ?? '',
           [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
           [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
@@ -68,12 +70,12 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
     final lessons = _lessons;
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: const Text('문법')),
+      appBar: AppBar(title: Text(tr('문법'))),
       body: lessons == null
           ? const Center(child: CircularProgressIndicator())
           : lessons.isEmpty
-              ? const Center(
-                  child: Text('아직 문법 강의가 없습니다.',
+              ? Center(
+                  child: Text(tr('아직 문법 강의가 없습니다.'),
                       style: TextStyle(color: AppColors.tintaLight)))
               : ListView(
                   padding: const EdgeInsets.all(16),
@@ -88,11 +90,10 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           title: Text(l.title,
                               style: const TextStyle(fontWeight: FontWeight.w800)),
                           subtitle: Text(
-                              '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}'
-                              '패턴 ${l.patterns.length} · 예문 ${l.exampleCount}',
+                              '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}${trf('패턴 {0} · 예문 {1}', [l.patterns.length, l.exampleCount])}',
                               style: const TextStyle(fontSize: 12, height: 1.4)),
                           trailing: IconButton(
-                            tooltip: '테스트',
+                            tooltip: tr('테스트'),
                             icon: const Icon(Icons.quiz, color: AppColors.rojo),
                             onPressed: () => Navigator.push(
                               context,
@@ -133,13 +134,13 @@ class GrammarLessonScreen extends StatelessWidget {
               MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: lesson)),
             ),
             icon: const Icon(Icons.quiz, color: Colors.white),
-            label: const Text('테스트',
+            label: Text(tr('테스트'),
                 style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),
           ),
         ],
       ),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
+        padding: EdgeInsets.fromLTRB(16, 12, 16, 32 + bottomInset(context)),
         children: [
           for (final st in stages) ...[
             if ((st['title'] as String? ?? '').isNotEmpty) ...[

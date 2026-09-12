@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../core/l10n.dart';
 
 /// 한글독음(발음 표기) 표시/숨김 전역 설정 — 모든 메뉴 공용.
 /// (es 앱은 rd 필드가 이미 한글독음 데이터라 변환기 없이 표시만 제어)
@@ -34,7 +35,7 @@ class KoReadingToggleAction extends StatelessWidget {
       builder: (context, on, _) {
         final color = on ? base : base.withValues(alpha: 0.35);
         return IconButton(
-          tooltip: on ? '한글독음 숨기기' : '한글독음 표시',
+          tooltip: on ? tr('한글독음 숨기기') : tr('한글독음 표시'),
           onPressed: KoReadingPrefs.toggle,
           icon: Container(
             padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
@@ -43,7 +44,7 @@ class KoReadingToggleAction extends StatelessWidget {
               borderRadius: BorderRadius.circular(6),
             ),
             child: Text(
-              '한',
+              tr('한'),
               style: TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w700,

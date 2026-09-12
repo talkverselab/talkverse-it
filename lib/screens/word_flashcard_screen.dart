@@ -8,6 +8,8 @@ import '../core/theme.dart';
 import '../services/ko_reading.dart';
 import '../services/memorized_store.dart';
 import '../services/tts_service.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 class _Word {
   final String ko;
@@ -89,11 +91,11 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
     return Scaffold(
       backgroundColor: AppColors.cal,
       appBar: AppBar(
-        title: const Text('단어 카드'),
+        title: Text(tr('단어 카드')),
         actions: [
           const KoReadingToggleAction(),
           IconButton(
-            tooltip: _hideMemorized ? '외운 단어도 보기' : '외운 단어 빼기',
+            tooltip: _hideMemorized ? tr('외운 단어도 보기') : tr('외운 단어 빼기'),
             icon: Icon(_hideMemorized ? Icons.visibility_off : Icons.visibility),
             onPressed: () => setState(() {
               _hideMemorized = !_hideMemorized;
@@ -105,8 +107,8 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _all.isEmpty
-              ? const Center(
-                  child: Text('아직 단어가 없습니다.', style: TextStyle(color: AppColors.tintaLight)))
+              ? Center(
+                  child: Text(tr('아직 단어가 없습니다.'), style: TextStyle(color: AppColors.tintaLight)))
               : Column(
                   children: [
                     SizedBox(
@@ -115,7 +117,7 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
                         scrollDirection: Axis.horizontal,
                         padding: const EdgeInsets.fromLTRB(12, 8, 12, 4),
                         children: [
-                          _chip('전체', _theme == null, () => _theme = null),
+                          _chip(tr('전체'), _theme == null, () => _theme = null),
                           for (final t in _themes) _chip(t, _theme == t, () => _theme = t),
                         ],
                       ),
@@ -127,7 +129,7 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
                           Text(_deck.isEmpty ? '0 / 0' : '${(_i + 1).clamp(1, _deck.length)} / ${_deck.length}',
                               style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.tinta)),
                           const Spacer(),
-                          Text('외움 $memorized / ${_all.length}',
+                          Text(trf('외움 {0} / {1}', [memorized, _all.length]),
                               style: const TextStyle(fontSize: 12, color: AppColors.oliva, fontWeight: FontWeight.w700)),
                         ],
                       ),
@@ -153,7 +155,7 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
   Widget _card() {
     final w = _deck[_i];
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+      padding: EdgeInsets.fromLTRB(16, 8, 16, 20 + bottomInset(context)),
       child: Column(
         children: [
           Expanded(
@@ -194,7 +196,7 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
                         onPressed: () => TtsService.instance.speak(w.tx),
                       ),
                     ] else
-                      const Text('탭하면 정답', style: TextStyle(fontSize: 12, color: AppColors.tintaLight)),
+                      Text(tr('탭하면 정답'), style: TextStyle(fontSize: 12, color: AppColors.tintaLight)),
                   ],
                 ),
               ),
@@ -203,9 +205,9 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
           const SizedBox(height: 12),
           Row(
             children: [
-              Expanded(child: _btn('다시 볼래요', AppColors.gualdaDeep, () => _answer(false))),
+              Expanded(child: _btn(tr('다시 볼래요'), AppColors.gualdaDeep, () => _answer(false))),
               const SizedBox(width: 10),
-              Expanded(child: _btn('외웠어요', AppColors.oliva, () => _answer(true))),
+              Expanded(child: _btn(tr('외웠어요'), AppColors.oliva, () => _answer(true))),
             ],
           ),
         ],
@@ -226,12 +228,12 @@ class _WordFlashcardScreenState extends State<WordFlashcardScreen> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text('이번 묶음 끝!', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.tinta)),
+            Text(tr('이번 묶음 끝!'), style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.tinta)),
             const SizedBox(height: 16),
             FilledButton(
               style: FilledButton.styleFrom(backgroundColor: AppColors.rojo),
               onPressed: () => setState(_rebuild),
-              child: const Text('다시 섞어서 시작'),
+              child: Text(tr('다시 섞어서 시작')),
             ),
           ],
         ),

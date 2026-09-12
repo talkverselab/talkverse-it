@@ -4,6 +4,7 @@ import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'episode_screen.dart';
+import '../core/l10n.dart';
 
 /// 회화 허브 — 레벨별 에피소드 목록 + 진행도.
 class ConversationScreen extends StatefulWidget {
@@ -43,7 +44,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
     final catalog = EpisodeCatalog.instance;
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: const Text('회화 · Conversazione')),
+      appBar: AppBar(title: Text(tr('회화 · Conversazione'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -70,7 +71,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                     Padding(
                       padding: const EdgeInsets.only(left: 36, bottom: 16),
                       child: Text(
-                        '준비 중',
+                        tr('준비 중'),
                         style: TextStyle(color: AppColors.tintaLight, fontSize: 12),
                       ),
                     )

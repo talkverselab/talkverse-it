@@ -104,3 +104,35 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - **콘텐츠는 초안**이다 — 회화 5편 × 8턴, 문법 10패턴 × 예문 3, 단어 40개. 자체 제작이며 원문·출처를 쓰지 않는다.
   내용을 늘리려면 `_update_kit/content/<언어코드>.py` 를 고치고 `build_content.py` 로 다시 만든다.
 - 말하기 연습은 `RECORD_AUDIO` 권한과 기기의 음성 인식(Google 앱)이 필요하다. 인식 언어는 `TtsService.locale` 을 따른다.
+
+## 5. 표시 언어 (한국어 / English / 日本語 / 中文) — 2026-09-12
+
+- 프로필 · 설정 → 「언어 / Language」 를 탭할 때마다 한국어 → English → 日本語 → 中文 순으로 바뀐다.
+  `AppLangPrefs`(`lib/core/l10n.dart`)가 값을 들고 있고, 바뀌면 `main.dart` 의 `MaterialApp` key 가 바뀌어
+  앱 전체가 새로 그려진다(홈으로 돌아감).
+- **UI 문구는 `tr('한국어')` / `trf('{0}개', [n])` 로 감싼다.** 번역은 `lib/core/l10n_dict.dart` 의
+  `kDictEn` / `kDictJa` / `kDictZh` 에서 찾고, 없으면 한국어가 그대로 나온다.
+  새 문구를 추가하면 세 사전에 한 줄씩 넣을 것. 키는 코드의 한국어 문자열 그대로(보간은 `{0},{1}` 템플릿).
+- `tr()` 은 const 가 아니다 — `const Text(tr(...))` 처럼 쓰면 컴파일 오류. 그 위젯의 `const` 를 뺀다.
+  enum 생성자·`static const`·`case` 패턴에는 못 쓴다(한국어를 두고 getter 에서 `tr()`).
+- **회화·단어·문법 콘텐츠(뜻·번역·설명)는 번역 대상이 아니다** — 화면 문구(메뉴·버튼·안내)만 바뀐다.
+- 사전은 12개 언어 앱이 공용(`_update_kit/l10n/l10n_dict.dart` 원본). 다른 앱에서 고친 번역이 있으면 원본도 같이 고칠 것.
+
+## 6. 갤럭시·아이폰 공용 인터페이스 — 2026-09-12
+
+- 플랫폼 판단은 `lib/core/platform.dart` 의 `isIOS` / `isAndroid` 만 쓴다(`dart:io` Platform 직접 호출 금지 — 웹·테스트에서 깨짐).
+- **화면 아래 고정 버튼·목록 바닥 여백은 `bottomInset(context)` 를 더한다**
+  (`EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context))`). 아이폰 홈 인디케이터(34pt)·갤럭시 제스처 바에 가려지지 않게.
+  새 화면을 만들 때도 같은 규칙.
+- 글자 확대 상한 1.2배(`main.dart` builder) — 아이폰 Dynamic Type 로 타일이 깨지는 것 방지.
+- iOS 오디오: `TtsService` 와 `AudioService` 가 iOS 에서 재생 카테고리(playback)를 잡는다 — 무음 스위치에서도 소리가 난다. 지우지 말 것.
+- 「앱 업데이트」 타일은 Android 전용(APK 설치 채널). iOS 는 TestFlight 안내 타일이 대신 나온다. `UpdateService.install` 은 Android 에서만 호출.
+
+## 7. iOS 빌드 — 초안 (2026-09-12)
+
+- `.github/workflows/ios-build.yml`: 푸시마다 GitHub macOS 러너가 **서명 없는** IPA 를 아티팩트로 올린다(동작 확인용).
+- `.github/workflows/ios-testflight.yml`: 리포 Variables `IOS_TESTFLIGHT_ENABLED=true` 일 때만 돈다.
+  Apple Developer Program(유료) 활성화 → App Store Connect API 키 → `tools/ios/make_ios_cert.py` 로 인증서·시크릿 생성 → 시크릿 등록.
+  절차: `docs/ios-build-and-testflight.md`.
+- `ios/Runner/Info.plist` 에 마이크·음성 인식 권한 문구가 있다(말하기 연습). 지우면 iOS 에서 크래시.
+- `release.yml`(Android) 은 `ios/**`·`docs/**`·`tools/**` 만 바뀐 푸시는 건너뛴다.

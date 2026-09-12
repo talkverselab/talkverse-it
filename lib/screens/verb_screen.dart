@@ -8,6 +8,8 @@ import '../data/db/app_database.dart';
 import '../main.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
+import '../core/platform.dart';
+import '../core/l10n.dart';
 
 const _persons = ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'];
 
@@ -67,7 +69,7 @@ class _VerbScreenState extends State<VerbScreen> {
         : _verbs.where((v) => v.group == _filter).toList();
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: const Text('동사 활용 · Coniugazione')),
+      appBar: AppBar(title: Text(tr('동사 활용 · Coniugazione'))),
       body: Column(
         children: [
           Padding(
@@ -76,7 +78,7 @@ class _VerbScreenState extends State<VerbScreen> {
               children: [
                 for (final g in ['all', 'ar', 'er', 'ir', 'irregular']) ...[
                   ChoiceChip(
-                    label: Text(g == 'all' ? '전체' : (g == 'irregular' ? '불규칙' : '-$g')),
+                    label: Text(g == 'all' ? tr('전체') : (g == 'irregular' ? tr('불규칙') : '-$g')),
                     selected: _filter == g,
                     onSelected: (_) => setState(() => _filter = g),
                     selectedColor: conjColor(g == 'all' ? null : g),
@@ -95,7 +97,7 @@ class _VerbScreenState extends State<VerbScreen> {
             child: _verbs.isEmpty
                 ? const Center(child: CircularProgressIndicator())
                 : ListView.builder(
-                    padding: const EdgeInsets.fromLTRB(12, 4, 12, 80),
+                    padding: EdgeInsets.fromLTRB(12, 4, 12, 80 + bottomInset(context)),
                     itemCount: shown.length,
                     itemBuilder: (context, i) => _VerbCard(
                       verb: shown[i],
@@ -165,7 +167,7 @@ class _VerbCard extends StatelessWidget {
                   child: TextButton.icon(
                     onPressed: onToggleKnown,
                     icon: Icon(known ? Icons.undo : Icons.check),
-                    label: Text(known ? '아는 동사 해제' : '아는 동사'),
+                    label: Text(known ? tr('아는 동사 해제') : tr('아는 동사')),
                   ),
                 ),
               ],
