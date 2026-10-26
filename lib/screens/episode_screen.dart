@@ -183,8 +183,8 @@ class _EpisodeScreenState extends State<EpisodeScreen> {
           preferredSize: const Size.fromHeight(4),
           child: LinearProgressIndicator(
             value: total == 0 ? 0 : done / total,
-            backgroundColor: AppColors.rojoDeep,
-            color: AppColors.gualda,
+            backgroundColor: AppColors.calDeep,
+            color: AppColors.rojo,
             minHeight: 4,
           ),
         ),

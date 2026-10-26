@@ -1,27 +1,34 @@
 import 'package:flutter/material.dart';
 
-/// Italia 컬러 팔레트 — 국기 verde·rosso (식별자는 es 템플릿 유지) + 석회벽 백색·올리브·지중해 청색
+/// 컬러 팔레트 — talkverse.uk 톤(2026-10-26).
+///
+/// 흰 바탕 + 남색 글자 + 인디고 포인트 하나, 그 밖의 색은 절제한다.
+/// 이름(rojo·gualda·cal…)은 옛 국기 팔레트(스페인어 템플릿)에서 온 것이라
+/// 화면 코드가 그대로 쓰고, 값만 사이트 토큰(`--ink`·`--body`·`--accent`…)에 맞췄다.
 class AppColors {
-  // 主色 — Verde (국기 초록; 식별자 rojo는 템플릿 유지)
-  static const Color rojo = Color(0xFF008C45);
-  static const Color rojoDeep = Color(0xFF00602F);
-  static const Color rojoLight = Color(0xFF33A56A);
+  // 주색 — 사이트 `--accent` 인디고
+  static const Color rojo = Color(0xFF635BFF);
+  static const Color rojoDeep = Color(0xFF4B44D6); // `--accent-ink`
+  static const Color rojoLight = Color(0xFFA9A4FF);
 
-  // 副色 — Rosso (국기 빨강; 식별자 gualda는 템플릿 유지)
-  static const Color gualda = Color(0xFFCD212A);
-  static const Color gualdaBright = Color(0xFFE8535B);
-  static const Color gualdaDeep = Color(0xFF96181F);
+  // 옛 금색 자리 — 테두리는 사이트 `--line` 계열, 밝은 강조는 히어로 피치
+  static const Color gualda = Color(0xFFDDE3EC);
+  static const Color gualdaBright = Color(0xFFFFD39B);
+  static const Color gualdaDeep = Color(0xFF6B7C93); // `--muted`
 
-  // Tinta (잉크, 본문 텍스트)
-  static const Color tinta = Color(0xFF1F1A17);
-  static const Color tintaLight = Color(0xFF5A4F48);
+  // 글자 — `--ink` / `--body`
+  static const Color tinta = Color(0xFF0A2540);
+  static const Color tintaLight = Color(0xFF425466);
 
-  // Cal (석회 벽, 부드러운 미색 배경)
-  static const Color cal = Color(0xFFFBF5E6);
-  static const Color calDeep = Color(0xFFF1E6C8);
+  // 바탕 — 흰색 / `--soft`
+  static const Color cal = Color(0xFFFFFFFF);
+  static const Color calDeep = Color(0xFFF6F9FC);
 
-  // Oliva (보조 강조)
-  static const Color oliva = Color(0xFF6B8E23);
+  // 보조 강조 — 차분한 청록(완료·학습됨)
+  static const Color oliva = Color(0xFF0E7C8C);
+
+  // 이탈리아어 카드색 — talkverse.uk 언어 카드의 `--c`
+  static const Color italia = Color(0xFF3FA05A);
 
   // Mediterráneo (정보성 강조)
   static const Color mar = Color(0xFF1E6FA8);
@@ -48,16 +55,16 @@ class AppTheme {
       colorScheme: ColorScheme(
         brightness: Brightness.light,
         primary: AppColors.rojo,
-        onPrimary: AppColors.cal,
+        onPrimary: Colors.white,
         primaryContainer: AppColors.rojoLight,
         onPrimaryContainer: AppColors.tinta,
-        secondary: AppColors.gualda,
-        onSecondary: AppColors.tinta,
+        secondary: AppColors.tintaLight,
+        onSecondary: Colors.white,
         secondaryContainer: AppColors.gualdaBright,
         onSecondaryContainer: AppColors.tinta,
         tertiary: AppColors.oliva,
         onTertiary: AppColors.cal,
-        tertiaryContainer: const Color(0xFFD6E4B0),
+        tertiaryContainer: const Color(0xFFCDEFF2),
         onTertiaryContainer: AppColors.tinta,
         error: const Color(0xFFB00020),
         onError: Colors.white,
@@ -66,62 +73,87 @@ class AppTheme {
         surfaceContainerHighest: AppColors.calDeep,
         onSurfaceVariant: AppColors.tintaLight,
         outline: AppColors.gualdaDeep,
-        outlineVariant: const Color(0xFFDCCDA4),
+        outlineVariant: AppColors.gualda,
       ),
       scaffoldBackgroundColor: AppColors.cal,
       fontFamily: 'Pretendard',
     );
 
     return base.copyWith(
+      textTheme: base.textTheme.apply(
+        bodyColor: AppColors.tintaLight,
+        displayColor: AppColors.tinta,
+      ),
       appBarTheme: const AppBarTheme(
         centerTitle: true,
         elevation: 0,
-        backgroundColor: AppColors.rojo,
-        foregroundColor: AppColors.cal,
+        scrolledUnderElevation: 0,
+        backgroundColor: AppColors.cal,
+        surfaceTintColor: Colors.transparent,
+        foregroundColor: AppColors.tinta,
+        shape: Border(bottom: BorderSide(color: AppColors.gualda, width: 1)),
         titleTextStyle: TextStyle(
-          color: AppColors.cal,
-          fontSize: 18,
-          fontWeight: FontWeight.w700,
-          letterSpacing: 1.2,
+          color: AppColors.tinta,
+          fontSize: 17,
+          fontWeight: FontWeight.w600,
+          letterSpacing: -0.3,
         ),
       ),
       cardTheme: CardThemeData(
         elevation: 0,
         color: AppColors.cal,
+        shadowColor: const Color(0x1A32325D),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(8),
-          side: const BorderSide(color: AppColors.gualda, width: 0.8),
+          borderRadius: BorderRadius.circular(14),
+          side: const BorderSide(color: AppColors.gualda, width: 1),
         ),
       ),
       navigationBarTheme: NavigationBarThemeData(
-        backgroundColor: AppColors.tinta,
-        indicatorColor: AppColors.rojo,
+        backgroundColor: AppColors.cal,
+        surfaceTintColor: Colors.transparent,
+        indicatorColor: const Color(0xFFEFEEFE),
         labelTextStyle: WidgetStateProperty.resolveWith((states) {
           final selected = states.contains(WidgetState.selected);
           return TextStyle(
-            color: selected ? AppColors.gualdaBright : AppColors.calDeep,
+            color: selected ? AppColors.rojo : AppColors.gualdaDeep,
             fontSize: 11,
-            fontWeight: FontWeight.w600,
+            fontWeight: selected ? FontWeight.w600 : FontWeight.w500,
           );
         }),
         iconTheme: WidgetStateProperty.resolveWith((states) {
           final selected = states.contains(WidgetState.selected);
           return IconThemeData(
-            color: selected ? AppColors.cal : AppColors.calDeep,
+            color: selected ? AppColors.rojo : AppColors.gualdaDeep,
             size: 24,
           );
         }),
+      ),
+      filledButtonTheme: FilledButtonThemeData(
+        style: FilledButton.styleFrom(
+          backgroundColor: AppColors.tinta,
+          foregroundColor: Colors.white,
+          shape: const StadiumBorder(),
+          textStyle: const TextStyle(fontWeight: FontWeight.w600),
+        ),
+      ),
+      outlinedButtonTheme: OutlinedButtonThemeData(
+        style: OutlinedButton.styleFrom(
+          foregroundColor: AppColors.tinta,
+          side: const BorderSide(color: AppColors.gualda),
+          shape: const StadiumBorder(),
+        ),
       ),
       chipTheme: ChipThemeData(
         backgroundColor: AppColors.calDeep,
         labelStyle: const TextStyle(color: AppColors.tinta, fontWeight: FontWeight.w600),
         side: const BorderSide(color: AppColors.gualda),
+        shape: const StadiumBorder(),
         selectedColor: AppColors.rojo,
         secondaryLabelStyle: const TextStyle(color: AppColors.cal),
       ),
       dividerTheme: const DividerThemeData(
         color: AppColors.gualda,
-        thickness: 0.5,
+        thickness: 1,
       ),
       listTileTheme: const ListTileThemeData(
         iconColor: AppColors.rojo,

@@ -63,7 +63,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: AppColors.cal,
       body: Stack(
         children: [
-          const Positioned.fill(child: AzulejoPattern(opacity: 0.06)),
+          const Positioned(top: 0, left: 0, right: 0, height: 260, child: MeshBackdrop()),
           SafeArea(
             child: ListView(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -80,9 +80,10 @@ class HomeScreen extends StatelessWidget {
                               Text(
                                 '¡Hola!',
                                 style: TextStyle(
-                                  fontSize: 26,
-                                  fontWeight: FontWeight.w900,
-                                  color: AppColors.rojo,
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.w700,
+                                  color: AppColors.tinta,
+                                  letterSpacing: -1,
                                 ),
                               ),
                               SizedBox(width: 6),
@@ -120,9 +121,9 @@ class HomeScreen extends StatelessWidget {
                   tr('오늘의 학습'),
                   style: TextStyle(
                     fontSize: 14,
-                    fontWeight: FontWeight.w800,
-                    color: AppColors.tinta,
-                    letterSpacing: 1.5,
+                    fontWeight: FontWeight.w600,
+                    color: AppColors.rojo,
+                    letterSpacing: -0.1,
                   ),
                 ),
                 const SizedBox(height: 8),
@@ -234,8 +235,10 @@ class _TodayMissionState extends State<_TodayMission> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: AppColors.gualda, width: 1.5),
+          borderRadius: BorderRadius.circular(14),
+          boxShadow: const [
+            BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2), spreadRadius: -1),
+          ],
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -270,7 +273,7 @@ class _TodayMissionState extends State<_TodayMission> {
                 value: ratio,
                 minHeight: 6,
                 backgroundColor: AppColors.rojoDeep,
-                color: AppColors.gualda,
+                color: AppColors.gualdaBright,
               ),
             ),
             const SizedBox(height: 6),
@@ -307,7 +310,7 @@ class _MenuGrid extends StatelessWidget {
         builder: (_) => TopicVocabScreen(
             title: tr('주제별 표현'),
             asset: 'assets/data/vocab/travel_expressions.json')),
-      _MenuItem(label: tr('빈도 단어'), sub: 'Frequenza', badge: 'F', color: AppColors.gualda,
+      _MenuItem(label: tr('빈도 단어'), sub: 'Frequenza', badge: 'F', color: AppColors.italia,
         builder: (_) => const WordFreqScreen()),
       _MenuItem(label: tr('성·수'), sub: 'Genere', badge: 'el/la', color: AppColors.mar,
         builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
@@ -355,18 +358,15 @@ class _MenuTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () => Navigator.push(context, MaterialPageRoute(builder: item.builder)),
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(14),
       child: Container(
         decoration: BoxDecoration(
           color: AppColors.cal,
-          borderRadius: BorderRadius.circular(10),
-          border: Border.all(color: AppColors.gualda.withValues(alpha: 0.5)),
-          boxShadow: [
-            BoxShadow(
-              color: AppColors.tinta.withValues(alpha: 0.06),
-              blurRadius: 6,
-              offset: const Offset(1, 2),
-            ),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: AppColors.gualda),
+          boxShadow: const [
+            BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2), spreadRadius: -1),
+            BoxShadow(color: Color(0x14000000), blurRadius: 3, offset: Offset(0, 1), spreadRadius: -1),
           ],
         ),
         child: Padding(
@@ -380,7 +380,7 @@ class _MenuTile extends StatelessWidget {
                 item.label,
                 style: const TextStyle(
                   fontSize: 13,
-                  fontWeight: FontWeight.w800,
+                  fontWeight: FontWeight.w600,
                   color: AppColors.tinta,
                 ),
               ),
