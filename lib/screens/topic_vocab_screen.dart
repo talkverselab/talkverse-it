@@ -10,7 +10,7 @@ import '../services/tts_service.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
 
-/// 여행 이탈리아어 — 주제별 단어·표현 (chinese-universe 포팅).
+/// 주제별 단어·표현 (chinese-universe 포팅).
 class VocabWord {
   final String ko;
   final String tx; // 이탈리아어
@@ -138,7 +138,11 @@ class _TopicVocabScreenState extends State<TopicVocabScreen> {
       body: _loading
           ? const Center(
               child: CircularProgressIndicator(color: AppColors.rojo))
-          : GridView.builder(
+          : themes.isEmpty
+              ? Center(
+                  child: Text(tr('아직 단어가 없습니다.'),
+                      style: const TextStyle(color: AppColors.tintaLight)))
+              : GridView.builder(
               padding: EdgeInsets.fromLTRB(16, 12, 16, 24 + bottomInset(context)),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,

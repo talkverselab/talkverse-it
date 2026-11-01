@@ -96,7 +96,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 | 문장 카드 | `sentence_flashcard_screen.dart` | DB `turns` + `user_progress` |
 | 말하기 연습 | `speaking_practice_screen.dart`, `services/speech_service.dart`, `services/speak_match.dart` | DB `turns`, 판정은 단어 단위 LCS ≥ 0.7 |
 | 청크 검색 | `chunk_search_screen.dart`, `services/chunk_index_service.dart` | 회화 턴 + 문법 예문에서 1~3단어 청크 색인 |
-| 단어 카드 | `word_flashcard_screen.dart` | `assets/data/vocab/travel_words.json` (`{ko, tx, rd, ic}`) |
+| 단어 카드 | `word_flashcard_screen.dart` | `assets/data/vocab/travel_words.json` (`{ko, tx, rd, ic}`) — 2026-11-02 비움(아래) |
 
 - **대화 턴에 한글 독음 `rd` 칸**이 있다(DB 스키마 v2, 시드 키 `db_seeded_v2`). 대화·문법·단어 모두 독음을 넣고,
   화면에서는 `KoReadingText` 로 전역 독음 토글에 연동한다.
@@ -158,3 +158,9 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 
 - `bash tools/ios_release.sh [--no-build]` — 아카이브 → 자동 서명 export → PC `D:\OneDrive\app project\italian_universe\ios\` 백업 → App Store Connect 업로드. 번들 ID `com.talkverse.italianUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`.
 - 2026-11-01 첫 시도(빌드 2611012237): export·백업 성공, **업로드는 App Store Connect 에 앱 레코드가 없어 실패(missingApp)**. 사용자가 레코드(이름·한국어·번들 ID·SKU)를 만든 뒤 `bash tools/ios_release.sh --no-build` 로 다시.
+
+## 11. 외부 자료 유래 데이터 제거 — 2026-11-02 (사용자 결정 "여행책에서 뽑은 단어는 안 됩니다")
+
+- 주제별 단어·표현(`assets/data/vocab/travel_words.json`·`travel_expressions.json`)과 그 파서를 앱에서 뺐다. 두 파일은 빈 `themes` — 화면(단어·표현·단어 카드)은 「아직 단어가 없습니다.」.
+- 다시 채울 때는 **빈도표(R1~R3) 기반 자체 제작**만. 외부 책·자막에서 뽑은 단어·문장은 넣지 않는다(§4).
+- 공개 저장소 이력(옛 커밋·메시지)에 남은 출처 이름을 지울지(history rewrite·강제 push)는 사용자 확인 대기 — 세션이 임의로 하지 말 것.
