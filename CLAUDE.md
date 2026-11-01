@@ -153,3 +153,8 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 
 - 기준 `~/talkverse/branding/TONE.md`. 아이콘 = `make_icon.py` 로 만든 메시 바탕 남색 **È**(HelveticaNeue Medium, 강조선 하늘색 → 인디고). `flutter_launcher_icons` 쓰지 말 것.
 - `lib/core/theme.dart` 는 색 이름(rojo·gualda·cal…)을 두고 값만 사이트 토큰. 이탈리아어 카드색 `AppColors.italia` `#3fa05a`(IT 배지·빈도 단어 배지).
+
+## 10. iOS TestFlight (맥미니 직접 업로드) — 2026-11-01
+
+- `bash tools/ios_release.sh [--no-build]` — 아카이브 → 자동 서명 export → PC `D:\OneDrive\app project\italian_universe\ios\` 백업 → App Store Connect 업로드. 번들 ID `com.talkverse.italianUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`.
+- 2026-11-01 첫 시도(빌드 2611012237): export·백업 성공, **업로드는 App Store Connect 에 앱 레코드가 없어 실패(missingApp)**. 사용자가 레코드(이름·한국어·번들 ID·SKU)를 만든 뒤 `bash tools/ios_release.sh --no-build` 로 다시.
