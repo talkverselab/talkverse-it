@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'core/theme.dart';
 import 'data/db/app_database.dart';
+import 'data/account.dart';
 import 'data/db/seed_loader.dart';
+import 'data/purchase.dart';
 import 'screens/main_screen.dart';
 import 'services/ko_reading.dart';
 import 'core/l10n.dart';
@@ -15,6 +17,8 @@ void main() async {
   await SeedLoader(appDb).seedIfNeeded();
   await KoReadingPrefs.load();
   await AppLangPrefs.load();
+  Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
+  Purchase.configure({'it': ('com.talkverse.italianUniverse.lifetime', 'lang_it')});
   runApp(const ItalianUniverseApp());
 }
 
