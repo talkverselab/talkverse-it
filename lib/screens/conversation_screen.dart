@@ -5,8 +5,9 @@ import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'episode_screen.dart';
 import '../core/l10n.dart';
+import '../core/pane.dart';
 
-/// 회화 허브 — 레벨별 에피소드 목록 + 진행도.
+/// 「회화 노트」 — 레벨별 에피소드 목록 + 턴 학습 진행도(메모·독음 토글이 있는 옛 회화 화면). 「회화」 메뉴는 새 리더(dialogue_screen.dart).
 class ConversationScreen extends StatefulWidget {
   const ConversationScreen({super.key});
 
@@ -44,7 +45,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
     final catalog = EpisodeCatalog.instance;
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(tr('회화 · Conversazione'))),
+      appBar: AppBar(title: Text(tr('회화 노트'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -81,10 +82,7 @@ class _ConversationScreenState extends State<ConversationScreen> {
                         meta: meta,
                         progress: _progress['${meta.level}/${meta.id}'] ?? (0, 0),
                         onTap: () async {
-                          await Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => EpisodeScreen(meta: meta)),
-                          );
+                          await openFull(context, (_) => EpisodeScreen(meta: meta)); // 학습은 전체 화면
                           _load();
                         },
                       ),
