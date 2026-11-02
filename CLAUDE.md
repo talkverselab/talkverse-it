@@ -157,10 +157,20 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 ## 10. iOS TestFlight (맥미니 직접 업로드) — 2026-11-01
 
 - `bash tools/ios_release.sh [--no-build]` — 아카이브 → 자동 서명 export → PC `D:\OneDrive\app project\italian_universe\ios\` 백업 → App Store Connect 업로드. 번들 ID `com.talkverse.italianUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`.
-- 2026-11-01 첫 시도(빌드 2611012237): export·백업 성공, **업로드는 App Store Connect 에 앱 레코드가 없어 실패(missingApp)**. 사용자가 레코드(이름·한국어·번들 ID·SKU)를 만든 뒤 `bash tools/ios_release.sh --no-build` 로 다시.
+- 2026-11-01 첫 시도는 앱 레코드가 없어 missingApp. **2026-11-03 빌드 2611030208 TestFlight 업로드 성공**(아이패드 두 화면·리더·로그인 포함, UIDeviceFamily 1·2).
+- 새 플러그인을 넣은 뒤 iOS 아카이브가 `Module '…' not found` 로 실패하면 `flutter clean && flutter pub get && (cd ios && pod install)` 뒤 다시.
+- **Sign in with Apple**: 개발자 포털 App ID `com.talkverse.italianUniverse` 에 capability 를 켜야 IPA 에 `applesignin` 이 들어간다(2611030208 에는 없음 — 켠 뒤 다시 빌드).
 
 ## 11. 외부 자료 유래 데이터 제거 — 2026-11-02 (사용자 결정 "여행책에서 뽑은 단어는 안 됩니다")
 
 - 주제별 단어·표현(`assets/data/vocab/travel_words.json`·`travel_expressions.json`)과 그 파서를 앱에서 뺐다. 두 파일은 빈 `themes` — 화면(단어·표현·단어 카드)은 「아직 단어가 없습니다.」.
 - 다시 채울 때는 **빈도표(R1~R3) 기반 자체 제작**만. 외부 책·자막에서 뽑은 단어·문장은 넣지 않는다(§4).
 - 2026-11-03 사용자 지시("git 에도 절대 안 남게")로 이력 재작성·강제 push 완료 — 모든 커밋에서 그 파일들과 출처 이름을 지움(master `1f66241`, 태그 `latest` `4f8009d`). GitHub 가 옛 커밋 번호로는 한동안 보여 줄 수 있어 완전 삭제는 GitHub 지원팀 캐시 삭제 요청이 필요하다. 이력 재작성은 사용자 지시 없이 하지 말 것.
+
+## 12. 아이패드 두 화면·만화책 읽기형 리더 — 2026-11-03
+
+- 일본어앱 구조 이식(`~/talkverse/LANG_APP_REPLICATE_PROMPT.md`): 탭 배우기·복습·탐색·나, 넓은 화면(≥720) 레일 + 왼쪽 칸 + 오른쪽 칸, 회화 리더 = 시안 it-01(`data/review/uxui/sian_it_01.md`).
+- 회화 데이터는 바꾸지 않고 `lib/services/dialogue_service.dart` 가 `assets/data/dialogues/L1.json` 을 읽어 변환. A = 학습자(프로필 이름·성별), B = Giulia. 고정 인물 `CHARACTERS.md`.
+- 동사 표·성·수 점·발음 표시는 데이터가 생기면 켜진다(지금 숨김). 단어 그림 `art/it`, 장면 컷은 아직 없음.
+- 안드로이드 빌드 9 Zealot https://apps.talkverse.uk/1mTtN/218. 마지막 커밋에 `[skip ci]` 가 있으면 push 전체가 빌드를 건너뛴다 → `gh workflow run release.yml`.
+- 스크린샷: `python3 tools/pane_shots.py <꺼진 iPad UDID> <스크래치> integration_test/dialogue_pane_test.dart`, 끝나면 `xcrun simctl shutdown`.
