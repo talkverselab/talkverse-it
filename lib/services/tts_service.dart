@@ -75,18 +75,20 @@ class TtsService {
   Future<void> speak(String text) => _speakWith(text, null, 1.0);
 
   /// 화자 성별에 맞춰 읽기. gender: 'male' | 'female'
-  Future<void> speakAs(String text, {required String gender}) async {
+  /// rate: 말 속도(기본 0.45) — 회화 리더의 속도 칩이 바꾼다.
+  Future<void> speakAs(String text, {required String gender, double? rate}) async {
     await _scanVoices();
     final male = gender == 'male';
     final voice = male ? _maleVoice : _femaleVoice;
     final pitch = voice != null ? 1.0 : (male ? 0.72 : 1.12);
-    await _speakWith(text, voice, pitch);
+    await _speakWith(text, voice, pitch, rate: rate);
   }
 
   Future<void> _speakWith(
-      String text, Map<String, String>? voice, double pitch) async {
+      String text, Map<String, String>? voice, double pitch, {double? rate}) async {
     await _ensureInit();
     await _tts.stop();
+    await _tts.setSpeechRate(rate ?? 0.45);
     if (voice != null) {
       await _tts.setVoice(voice);
     } else {

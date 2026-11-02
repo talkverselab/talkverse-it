@@ -46,7 +46,32 @@ class AppColors {
 
   // brand alias
   static const Color brand = rojo;
+
+  // ── 일본어앱에서 옮긴 화면(회화 리더·그림 카드·성과)이 쓰는 이름 — 2026-11-03 ──
+  // 일본어앱은 워드마크 구리색 자리에 자기 언어색을 쓴다. 이탈리아어 = 사이트 언어 페이지 강조 `#7aa63a` 를 글자 대비용으로 한 단계 진하게(올리브 그린).
+  static const Color beni = Color(0xFF5E8A2A); // 강조(버튼·현재 턴·성과)
+  static const Color beniDeep = Color(0xFF486B1F);
+  static const Color beniLight = Color(0xFFBDD698); // 옅은 쪽
+  static const Color kinDeep = Color(0xFF7AA63A); // 사이트 강조색 그대로(워드마크 끝)
+  static const Color kinBright = Color(0xFFBDD698);
+  static const Color ai = rojo; // 인디고 — 선택·보조 강조
+  static const Color sumi = tinta;
+  static const Color sumiLight = tintaLight;
+  static const Color washi = cal;
+  static const Color washiDeep = calDeep;
+  static const Color matcha = Color(0xFF0E6245); // 완료·맞음(사이트 `--ok`)
+  static const Color line = Color(0xFFE6EBF1);
+  static const Color muted = gualdaDeep;
+
+  /// 「이탈리아어」 워드마크 그라데이션(올리브 → 밝은 올리브). 제목 글자·구분선.
+  static const LinearGradient wordmark = LinearGradient(colors: [beni, kinDeep]);
 }
+
+/// 카드·타일 공통 그림자(사이트 `0 2px 5px -1px rgba(50,50,93,.1), 0 1px 3px -1px rgba(0,0,0,.1)`)
+const List<BoxShadow> kCardShadow = [
+  BoxShadow(color: Color(0x1A32325D), blurRadius: 5, offset: Offset(0, 2)),
+  BoxShadow(color: Color(0x1A000000), blurRadius: 3, offset: Offset(0, 1)),
+];
 
 class AppTheme {
   static ThemeData light() {

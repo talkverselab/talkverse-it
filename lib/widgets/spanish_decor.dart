@@ -272,3 +272,27 @@ class MeshBackdrop extends StatelessWidget {
     );
   }
 }
+
+/// 워드마크 그라데이션 구분선(일본어앱 BrushDivider 와 같은 모양).
+class BrushDivider extends StatelessWidget {
+  final double height;
+  const BrushDivider({super.key, this.height = 3});
+  @override
+  Widget build(BuildContext context) => Container(
+        height: height,
+        decoration: BoxDecoration(gradient: AppColors.wordmark, borderRadius: BorderRadius.circular(height)),
+      );
+}
+
+/// 워드마크 그라데이션 글자(일본어앱 GradText).
+class GradText extends StatelessWidget {
+  final String text;
+  final TextStyle style;
+  const GradText(this.text, {super.key, required this.style});
+  @override
+  Widget build(BuildContext context) => ShaderMask(
+        blendMode: BlendMode.srcIn,
+        shaderCallback: (r) => AppColors.wordmark.createShader(Rect.fromLTWH(0, 0, r.width, r.height)),
+        child: Text(text, style: style.copyWith(color: Colors.white)),
+      );
+}
