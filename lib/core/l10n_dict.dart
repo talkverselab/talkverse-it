@@ -228,6 +228,7 @@ const Map<String, String> kDictEn = {
   '회화 장면': 'Scene',
   '회화 턴 · 동사 · 단어 집계': 'Dialogue turns · verbs · words',
   '회화에서 불릴 이름': 'Name used in dialogues',
+  '이탈리아어 · 입문 (A1)': 'Italian · Beginner (A1)', '낮 · 흰 바탕 · 올리브 #5E8A2A': 'Light · white · olive #5E8A2A',
 };
 
 const Map<String, String> kDictJa = {
@@ -444,6 +445,7 @@ const Map<String, String> kDictJa = {
   '회화 장면': '会話シーン',
   '회화 턴 · 동사 · 단어 집계': '会話ターン · 動詞 · 単語の集計',
   '회화에서 불릴 이름': '会話で呼ばれる名前',
+  '이탈리아어 · 입문 (A1)': 'イタリア語 · 入門 (A1)', '낮 · 흰 바탕 · 올리브 #5E8A2A': 'ライト · 白 · オリーブ #5E8A2A',
 };
 
 const Map<String, String> kDictZh = {
@@ -660,4 +662,5 @@ const Map<String, String> kDictZh = {
   '회화 장면': '会话场景',
   '회화 턴 · 동사 · 단어 집계': '会话轮次 · 动词 · 单词统计',
   '회화에서 불릴 이름': '会话中使用的名字',
+  '이탈리아어 · 입문 (A1)': '意大利语 · 入门 (A1)', '낮 · 흰 바탕 · 올리브 #5E8A2A': '浅色 · 白 · 橄榄绿 #5E8A2A',
 };

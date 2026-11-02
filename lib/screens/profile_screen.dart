@@ -52,7 +52,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        tr('Día 1 · 입문 (A1)'),
+                        tr('이탈리아어 · 입문 (A1)'),
                         style: TextStyle(
                           color: AppColors.gualdaBright,
                           fontSize: 13,
@@ -91,7 +91,7 @@ class ProfileScreen extends StatelessWidget {
                   subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
             _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('it-IT (시스템 보이스)')),
             _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('표준 이탈리아어 (Italia)')),
-            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · rojo y gualda #AA151B')),
+            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · 흰 바탕 · 올리브 #5E8A2A')),
           ]),
           const SizedBox(height: 16),
           _SectionTitle(tr('정보')),
@@ -108,7 +108,7 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 6),
           Center(
             child: Text(
-              'El saber no ocupa lugar',
+              'Talkverse · Italiano',
               style: TextStyle(
                 color: AppColors.tintaLight,
                 fontSize: 11,
