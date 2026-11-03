@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:italian_universe/data/db/seed_loader.dart';
 import 'package:italian_universe/services/art_service.dart';
 import 'package:italian_universe/services/dialogue_service.dart';
 import 'package:italian_universe/services/italian_hints.dart';
@@ -44,5 +45,21 @@ void main() {
     await ItalianHints.instance.ensureLoaded();
     expect(ItalianHints.instance.hasVerbs, isFalse);
     expect(ItalianHints.instance.hasGender, isFalse);
+  });
+
+  test('턴마다 문장 레마(내용어)가 있고 등장인물 이름은 빠진다', () async {
+    await DialogueService.instance.ensureLoaded();
+    final turns = DialogueService.instance.all.expand((d) => d.turns).toList();
+    expect(turns.every((t) => t.lemmas.isNotEmpty), isTrue);
+    final bases = turns.expand((t) => t.lemmas.map((l) => l.base)).toSet();
+    expect(bases.contains('minjun'), isFalse);
+    expect(bases.contains('giulia'), isFalse);
+    expect(bases.contains('essere'), isTrue); // Sono → essere
+    expect(bases.every((b) => b == b.toLowerCase()), isTrue);
+    expect(turns.first.lemmas.first.reading, ''); // 이탈리아어는 읽기 칸 없음
+  });
+
+  test('DB 업데이트 번호는 version.json 에서 읽는다', () async {
+    expect(await SeedLoader.bundledVersion(), 1);
   });
 }

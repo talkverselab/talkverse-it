@@ -13,7 +13,7 @@ import 'dialogue_card_screen.dart';
 
 /// 회화 홈(주제 목록) → 편 목록 → 편 화면 — 일본어앱 시안 02 「만화책 읽기형」을 옮김(2026-11-03, 이 앱 시안 it-01).
 /// 지금 회화는 옛 L1 이야기 5편뿐(dialogue_service.dart). 맞춤 회화·왕초보/초보 전환은 새 회화 구조가 들어온 뒤.
-/// 아이패드: 홈 맨 위 「오늘의 컷」, 편 화면 = 왼쪽 대화 스크립트 + 오른쪽 큰 장면 컷(말풍선) + 하단 재생 컨트롤.
+/// 아이패드: 홈 맨 위 「오늘의 컷」(그림 + 아래 대사 띠), 편 화면 = 왼쪽 대화 스크립트 + 오른쪽 큰 장면 컷(말풍선 없음) + 하단 재생 컨트롤.
 /// 폰: 각 단계가 push, 재생은 전체 화면(컷 위·스크립트 아래).
 class DialogueHomeScreen extends StatefulWidget {
   const DialogueHomeScreen({super.key});
@@ -97,7 +97,7 @@ class TodayCutCard extends StatelessWidget {
     // 화면 폭이 아니라 이 카드가 놓인 칸의 폭으로 좌우/위아래를 고른다(아이패드 왼쪽 좁은 칸에서 말풍선이 잘리던 문제)
     return LayoutBuilder(builder: (context, c) {
       final side = wide && c.maxWidth >= 560;
-      final cut = SizedBox(height: side ? 180 : 170, child: SceneCut(dialogue: d, turn: t, bubble: true));
+      final cut = SizedBox(height: side ? 230 : 216, child: SceneCut(dialogue: d, turn: t, bubble: true)); // 그림 + 아래 대사 띠(2026-11-04)
       return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(color: AppColors.washi, border: Border.all(color: AppColors.line), borderRadius: BorderRadius.circular(16), boxShadow: kCardShadow),
