@@ -41,6 +41,18 @@
      "note": "sono = 나는 ~이다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "ciao",
+       "ciao",
+       ""
+      ],
+      [
+       "sono",
+       "essere",
+       ""
+      ]
      ]
     },
     {
@@ -52,6 +64,23 @@
      "note": "di dove = 어디 출신",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "ciao",
+       "ciao",
+       ""
+      ],
+      [
+       "chiamo",
+       "chiamare",
+       ""
+      ],
+      [
+       "dove",
+       "dove",
+       ""
+      ]
      ]
     },
     {
@@ -63,6 +92,28 @@
      "note": "venire da = ~에서 오다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "vengo",
+       "venire",
+       ""
+      ],
+      [
+       "corea",
+       "corea",
+       ""
+      ],
+      [
+       "studio",
+       "studio",
+       ""
+      ],
+      [
+       "italiano",
+       "italiano",
+       ""
+      ]
      ]
     },
     {
@@ -74,6 +125,33 @@
      "note": "già = 벌써",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "bravo",
+       "bravo",
+       ""
+      ],
+      [
+       "italiano",
+       "italiano",
+       ""
+      ],
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "già",
+       "già",
+       ""
+      ],
+      [
+       "buono",
+       "buono",
+       ""
+      ]
      ]
     },
     {
@@ -85,6 +163,23 @@
      "note": "ogni giorno = 매일",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "grazie",
+       "grazie",
+       ""
+      ],
+      [
+       "esercito",
+       "esercitare",
+       ""
+      ],
+      [
+       "giorno",
+       "giorno",
+       ""
+      ]
      ]
     },
     {
@@ -96,6 +191,18 @@
      "note": "abitare = 살다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "abiti",
+       "abitare",
+       ""
+      ],
+      [
+       "roma",
+       "roma",
+       ""
+      ]
      ]
     },
     {
@@ -107,6 +214,13 @@
      "note": "da = ~부터",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "mesi",
+       "mese",
+       ""
+      ]
      ]
     },
     {
@@ -118,6 +232,28 @@
      "note": "ti = 너에게",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "allora",
+       "allora",
+       ""
+      ],
+      [
+       "faccio",
+       "fare",
+       ""
+      ],
+      [
+       "vedere",
+       "vedere",
+       ""
+      ],
+      [
+       "città",
+       "città",
+       ""
+      ]
      ]
     }
    ]
@@ -137,6 +273,18 @@
      "note": "cosa = 무엇",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "vuoi",
+       "volere",
+       ""
+      ],
+      [
+       "bere",
+       "bere",
+       ""
+      ]
      ]
     },
     {
@@ -148,6 +296,18 @@
      "note": "per favore = 부탁해",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "caffè",
+       "caffè",
+       ""
+      ],
+      [
+       "favore",
+       "favore",
+       ""
+      ]
      ]
     },
     {
@@ -159,6 +319,23 @@
      "note": "prendere = 고르다·먹다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "prendo",
+       "prendere",
+       ""
+      ],
+      [
+       "tè",
+       "tè",
+       ""
+      ],
+      [
+       "latte",
+       "latte",
+       ""
+      ]
      ]
     },
     {
@@ -170,6 +347,28 @@
      "note": "qui = 여기",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "dolce",
+       "dolce",
+       ""
+      ],
+      [
+       "qui",
+       "qui",
+       ""
+      ],
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "buono",
+       "buono",
+       ""
+      ]
      ]
     },
     {
@@ -181,6 +380,33 @@
      "note": "-issimo = 아주 ~한",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "buonissimo",
+       "buono",
+       ""
+      ],
+      [
+       "torta",
+       "torta",
+       ""
+      ],
+      [
+       "mele",
+       "mela",
+       ""
+      ],
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "preferita",
+       "preferito",
+       ""
+      ]
      ]
     },
     {
@@ -192,6 +418,23 @@
      "note": "noi 형 -iamo",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "allora",
+       "allora",
+       ""
+      ],
+      [
+       "prendiamo",
+       "prendere",
+       ""
+      ],
+      [
+       "fette",
+       "fetta",
+       ""
+      ]
      ]
     },
     {
@@ -203,6 +446,18 @@
      "note": "offrire = 한턱내다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "perfetto",
+       "perfetto",
+       ""
+      ],
+      [
+       "offro",
+       "offrire",
+       ""
+      ]
      ]
     },
     {
@@ -214,6 +469,18 @@
      "note": "pagare = 지불하다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "oggi",
+       "oggi",
+       ""
+      ],
+      [
+       "pago",
+       "pagare",
+       ""
+      ]
      ]
     }
    ]
@@ -233,6 +500,28 @@
      "note": "dov'è = 어디에 있다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "scusi",
+       "scusare",
+       ""
+      ],
+      [
+       "dov",
+       "dove",
+       ""
+      ],
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "museo",
+       "museo",
+       ""
+      ]
      ]
     },
     {
@@ -244,6 +533,28 @@
      "note": "dritto = 직진",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "vai",
+       "andare",
+       ""
+      ],
+      [
+       "dritto",
+       "dritto",
+       ""
+      ],
+      [
+       "poi",
+       "poi",
+       ""
+      ],
+      [
+       "sinistra",
+       "sinistra",
+       ""
+      ]
      ]
     },
     {
@@ -255,6 +566,18 @@
      "note": "lontano = 먼",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "lontano",
+       "lontano",
+       ""
+      ]
      ]
     },
     {
@@ -266,6 +589,18 @@
      "note": "a piedi = 걸어서",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "minuti",
+       "minuto",
+       ""
+      ],
+      [
+       "piedi",
+       "piede",
+       ""
+      ]
      ]
     },
     {
@@ -277,6 +612,28 @@
      "note": "aperto = 열린",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "ottimo",
+       "ottimo",
+       ""
+      ],
+      [
+       "è",
+       "essere",
+       ""
+      ],
+      [
+       "aperto",
+       "aperto",
+       ""
+      ],
+      [
+       "oggi",
+       "oggi",
+       ""
+      ]
      ]
     },
     {
@@ -288,6 +645,13 @@
      "note": "fino a = ~까지",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "fino",
+       "fino",
+       ""
+      ]
      ]
     },
     {
@@ -299,6 +663,13 @@
      "note": "con me = 나와 함께",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "vieni",
+       "venire",
+       ""
+      ]
      ]
     },
     {
@@ -310,6 +681,23 @@
      "note": "volentieri = 기꺼이",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "volentieri",
+       "volentieri",
+       ""
+      ],
+      [
+       "adoro",
+       "adorare",
+       ""
+      ],
+      [
+       "arte",
+       "arte",
+       ""
+      ]
      ]
     }
    ]
@@ -329,6 +717,23 @@
      "note": "libero = 한가한",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "sei",
+       "essere",
+       ""
+      ],
+      [
+       "libero",
+       "libero",
+       ""
+      ],
+      [
+       "sabato",
+       "sabato",
+       ""
+      ]
      ]
     },
     {
@@ -340,6 +745,23 @@
      "note": "facciamo = (우리) 하다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "sono",
+       "essere",
+       ""
+      ],
+      [
+       "libero",
+       "libero",
+       ""
+      ],
+      [
+       "facciamo",
+       "fare",
+       ""
+      ]
      ]
     },
     {
@@ -351,6 +773,23 @@
      "note": "potremmo = ~할 수 있을 텐데",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "potremmo",
+       "potere",
+       ""
+      ],
+      [
+       "andare",
+       "andare",
+       ""
+      ],
+      [
+       "cinema",
+       "cinema",
+       ""
+      ]
      ]
     },
     {
@@ -362,6 +801,23 @@
      "note": "a che ora = 몇 시에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "buona",
+       "buono",
+       ""
+      ],
+      [
+       "idea",
+       "idea",
+       ""
+      ],
+      [
+       "ora",
+       "ora",
+       ""
+      ]
      ]
     },
     {
@@ -373,6 +829,18 @@
      "note": "dopo = 그 후에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "dopo",
+       "dopo",
+       ""
+      ],
+      [
+       "mangiamo",
+       "mangiare",
+       ""
+      ]
      ]
     },
     {
@@ -384,6 +852,28 @@
      "note": "vedersi = 만나다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "va",
+       "andare",
+       ""
+      ],
+      [
+       "bene",
+       "bene",
+       ""
+      ],
+      [
+       "dove",
+       "dove",
+       ""
+      ],
+      [
+       "vediamo",
+       "vedere",
+       ""
+      ]
      ]
     },
     {
@@ -395,6 +885,23 @@
      "note": "davanti a = ~앞에",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "davanti",
+       "davanti",
+       ""
+      ],
+      [
+       "stazione",
+       "stazione",
+       ""
+      ],
+      [
+       "termini",
+       "termini",
+       ""
+      ]
      ]
     },
     {
@@ -406,6 +913,18 @@
      "note": "a + 시간 = ~에 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "accordo",
+       "accordo",
+       ""
+      ],
+      [
+       "sabato",
+       "sabato",
+       ""
+      ]
      ]
     }
    ]
@@ -425,6 +944,28 @@
      "note": "era = ~였다",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "film",
+       "film",
+       ""
+      ],
+      [
+       "era",
+       "essere",
+       ""
+      ],
+      [
+       "davvero",
+       "davvero",
+       ""
+      ],
+      [
+       "bello",
+       "bello",
+       ""
+      ]
      ]
     },
     {
@@ -436,6 +977,23 @@
      "note": "ma = 하지만",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "finale",
+       "finale",
+       ""
+      ],
+      [
+       "era",
+       "essere",
+       ""
+      ],
+      [
+       "triste",
+       "triste",
+       ""
+      ]
      ]
     },
     {
@@ -447,6 +1005,18 @@
      "note": "mi piace(piacciono)",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "piacciono",
+       "piacere",
+       ""
+      ],
+      [
+       "film",
+       "film",
+       ""
+      ]
      ]
     },
     {
@@ -458,6 +1028,28 @@
      "note": "anche = ~도",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "anche",
+       "anche",
+       ""
+      ],
+      [
+       "sei",
+       "essere",
+       ""
+      ],
+      [
+       "molto",
+       "molto",
+       ""
+      ],
+      [
+       "gentile",
+       "gentile",
+       ""
+      ]
      ]
     },
     {
@@ -469,6 +1061,23 @@
      "note": "prossima = 다음의",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "vediamo",
+       "vedere",
+       ""
+      ],
+      [
+       "prossima",
+       "prossimo",
+       ""
+      ],
+      [
+       "settimana",
+       "settimana",
+       ""
+      ]
      ]
     },
     {
@@ -480,6 +1089,18 @@
      "note": "scrivimi = 나에게 써",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "certo",
+       "certo",
+       ""
+      ],
+      [
+       "scrivimi",
+       "scrivere",
+       ""
+      ]
      ]
     },
     {
@@ -491,6 +1112,18 @@
      "note": "buonanotte = 잘 자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "farò",
+       "fare",
+       ""
+      ],
+      [
+       "buonanotte",
+       "buonanotte",
+       ""
+      ]
      ]
     },
     {
@@ -502,6 +1135,18 @@
      "note": "a presto = 곧 보자",
      "tags": [
       "draft"
+     ],
+     "lemmas": [
+      [
+       "buonanotte",
+       "buonanotte",
+       ""
+      ],
+      [
+       "presto",
+       "presto",
+       ""
+      ]
      ]
     }
    ]
