@@ -7,7 +7,9 @@ import 'data/account.dart';
 import 'data/db/seed_loader.dart';
 import 'data/purchase.dart';
 import 'screens/main_screen.dart';
+import 'screens/sync_screen.dart';
 import 'services/achievement_service.dart';
+import 'services/content_sync.dart';
 import 'services/ko_reading.dart';
 import 'services/learner_prefs.dart';
 import 'core/l10n.dart';
@@ -25,7 +27,9 @@ void main() async {
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   Purchase.configure({'it': ('com.talkverse.italianUniverse.lifetime', 'lang_it')});
   await _setOrientations(); // 폰은 세로 고정, 태블릿·폴드 펼침(짧은 변 600 이상)은 회전 허용
-  runApp(const ItalianUniverseApp());
+  // 그림(장면 컷·단어 그림) 기기 내려받기: 버전이 다르면 로딩 화면에서 받고 시작(일본어앱 2026-11-04)
+  final needSync = await ContentSync.instance.init(large: _wide ?? false);
+  runApp(ItalianUniverseApp(syncFirst: needSync));
 }
 
 bool? _wide;
@@ -44,7 +48,8 @@ Future<void> _setOrientations([double? shortest]) async {
 }
 
 class ItalianUniverseApp extends StatelessWidget {
-  const ItalianUniverseApp({super.key});
+  final bool syncFirst;
+  const ItalianUniverseApp({super.key, this.syncFirst = false});
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +74,7 @@ class ItalianUniverseApp extends StatelessWidget {
             child: child ?? const SizedBox.shrink(),
           );
         },
-        home: const MainScreen(),
+        home: syncFirst ? const SyncScreen(next: MainScreen()) : const MainScreen(),
       ),
     );
   }

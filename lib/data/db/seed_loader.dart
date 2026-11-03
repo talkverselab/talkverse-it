@@ -8,21 +8,38 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app_database.dart';
 
 class SeedLoader {
-  // v1: 초기 시드 (L1 샘플 대화 + 빈도 단어 + 핵심 동사)
-  static const _kSeededKey = 'db_seeded_v2'; // v2: 독음(rd) + 회화 초안
+  /// 번들 `assets/data/version.json` 의 `db`(업데이트 번호)와 저장된 번호가 다르면 DB(단어·동사·회화 턴)를 전부 다시 채운다
+  /// (일본어앱 2026-11-04 와 같음). 데이터를 바꿀 때는 이 번호만 올린다 — 옛 `db_seeded_v2` 키는 폐지(있으면 저장 번호 0 으로 보고 한 번 다시 채움).
+  static const _kDbVersion = 'db_version';
+  static const _kOldSeededKey = 'db_seeded_v2';
 
   final AppDatabase db;
   SeedLoader(this.db);
 
   Future<void> seedIfNeeded() async {
     final prefs = await SharedPreferences.getInstance();
-    if (prefs.getBool(_kSeededKey) == true) return;
+    final bundled = await bundledVersion();
+    final stored = prefs.getInt(_kDbVersion) ?? 0; // 옛 키만 있던 설치 = 0 → 한 번 다시 채움
+    if (stored == bundled) return;
 
+    await db.delete(db.words).go();
     await _seedWords();
+    await db.delete(db.verbs).go();
     await _seedVerbs();
     await _seedTurns();
 
-    await prefs.setBool(_kSeededKey, true);
+    await prefs.setInt(_kDbVersion, bundled);
+    if (prefs.containsKey(_kOldSeededKey)) await prefs.remove(_kOldSeededKey);
+  }
+
+  /// 번들 DB 업데이트 번호(`assets/data/version.json` → `db`). 읽기 실패면 0.
+  static Future<int> bundledVersion() async {
+    try {
+      final j = json.decode(await rootBundle.loadString('assets/data/version.json')) as Map<String, dynamic>;
+      return (j['db'] as num).toInt();
+    } catch (_) {
+      return 0;
+    }
   }
 
   static String? _s(dynamic v) {
