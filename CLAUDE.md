@@ -174,3 +174,9 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 동사 표·성·수 점·발음 표시는 데이터가 생기면 켜진다(지금 숨김). 단어 그림 `art/it`, 장면 컷은 아직 없음.
 - 안드로이드 빌드 9 Zealot https://apps.talkverse.uk/1mTtN/218. 마지막 커밋에 `[skip ci]` 가 있으면 push 전체가 빌드를 건너뛴다 → `gh workflow run release.yml`.
 - 스크린샷: `python3 tools/pane_shots.py <꺼진 iPad UDID> <스크래치> integration_test/dialogue_pane_test.dart`, 끝나면 `xcrun simctl shutdown`.
+
+## 13. 절벽 구간 — 레마 기준(2026-11-03 사용자 지시)
+
+- **R1 61 · R2 91 · R3 211 · R4 661**(55·60·70·80%), 상위 2,500 레마 88.0%. 이탈리아에서 만든 영화·드라마 5,513편 자막, 31,934,455 토큰을 레마로 센 값(러시아어앱 세션의 자국 작품 분석). 옛 웹·문어 혼합 표면형 값(225·329·761·2,069)은 폐기.
+- 절차(스페인어·독일어앱과 같음): 활용형·동사+대명사 결합·여성/복수형을 원형으로 합산, 사전에 없는 가짜 원형·자막 표기·외국어 제외, 분모는 전체 토큰. 수정표는 세션 스크래치에만 있었다 — 다시 낼 때는 같은 원칙으로.
+- 그림용 단어 리스트 talkversehanja `talkverse_art/words/it.csv`(`2dc8579`) = 이 순위 2,500개(R5 = 절벽 밖), `it_food.csv` 50개. 앱 「빈도 단어」를 이 기준으로 바꾸는 것은 콘텐츠 작업이 풀린 뒤.
