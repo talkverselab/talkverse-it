@@ -7,6 +7,7 @@ import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import '../widgets/lemma_chips.dart';
@@ -74,6 +75,7 @@ class _DialogueCardScreenState extends State<DialogueCardScreen> {
           const SizedBox(height: 2),
           Text('${_pos + 1} / ${_order.length}', style: const TextStyle(color: AppColors.muted, fontSize: 10, letterSpacing: 2)),
         ]),
+        actions: [if (d.turns.any((t) => t.rd.isNotEmpty)) const KoReadingToggleAction()],
       ),
       body: Column(children: [
         Expanded(
@@ -157,8 +159,8 @@ class _CardText extends StatelessWidget {
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                 Text('$name · ${t.num}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
                 const SizedBox(height: 8),
-                Text(LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.sumi, height: 1.3)),
-                if (t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+                LemmaText(turn: t, text: LearnerPrefs.fill(t.tl), style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w900, color: AppColors.sumi, height: 1.3)),
+                if (t.rd.isNotEmpty) KoReadingText(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 13, color: AppColors.muted)),
                 // 시안 02-3: 단어 뜻(gloss `kata=뜻`) 줄 목록 → 번역 → 메모 상자
                 if (_glossRows(t.gloss).isNotEmpty) ...[
                   const SizedBox(height: 12),

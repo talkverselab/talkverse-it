@@ -83,7 +83,7 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(tr('말하기 연습'))),
+      appBar: AppBar(title: Text(tr('문장 말하기'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(

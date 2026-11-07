@@ -45,6 +45,14 @@ class AchievementService {
     (await SharedPreferences.getInstance()).setString(_key, data);
   }
 
+  /// 학습 기록 초기화(프로필 → 기록).
+  Future<void> reset() async {
+    _episodes.clear();
+    _cards.clear();
+    _daily.clear();
+    await _save();
+  }
+
   void _bump(String what, [int n = 1]) {
     final d = _daily.putIfAbsent(today, () => {});
     d[what] = (d[what] ?? 0) + n;

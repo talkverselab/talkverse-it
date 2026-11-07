@@ -94,13 +94,21 @@ void main() {
     await t.pageBack(); // 리더 닫기
     await wait(t, 1200);
 
-    await t.tap(rail('나'));
+    await t.tap(rail('프로필'));
     await wait(t, 1500);
     await shot(t, '08_me_achievements');
 
-    await t.tap(find.text('학습자 프로필 · 계정'));
+    await t.tap(find.text('앱 소개').first);
     await wait(t, 1500);
-    await shot(t, '09_profile');
+    await shot(t, '09_about');
+
+    await t.tap(rail('배우기'));
+    await wait(t, 800);
+    await shot(t, '10_home_menu');
+    await t.scrollUntilVisible(find.text('절벽 단어'), 200, scrollable: find.byType(Scrollable).first);
+    await t.tap(find.text('절벽 단어').first);
+    await wait(t, 2500);
+    await shot(t, '11_cliff_words');
     // ignore: avoid_print
     print('SYNC progress=${ContentSync.instance.progress.value.done}/${ContentSync.instance.progress.value.total}');
     ContentSync.instance.cancel();

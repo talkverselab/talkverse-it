@@ -12,6 +12,7 @@ import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
 import '../services/italian_hints.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
 import 'achievement_desk.dart';
@@ -41,7 +42,6 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   bool _playing = false;
   double _rate = 1.0; // 0.75 / 1.0 / 1.25
   bool _showGloss = false;
-  bool _showRd = true;
   bool _showKo = true;
   bool _showGender = true; // 성·수 점(데이터가 있을 때만 칩이 보인다)
   VerbForms? _verb; // 펼친 동사 활용 표
@@ -57,6 +57,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   @override
   void initState() {
     super.initState();
+    KoReadingPrefs.show.addListener(_onReading);
     ItalianHints.instance.ensureLoaded().then((_) => mounted ? setState(() {}) : null);
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       if (!mounted) return;
@@ -67,6 +68,12 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       if (widget.autoPlay && mounted) _play();
     });
   }
+
+  void _onReading() {
+    if (mounted) setState(() {});
+  }
+
+  bool get _showRd => KoReadingPrefs.show.value;
 
   /// 캡션의 동사를 누르면 활용 표를 펼친다(같은 동사를 다시 누르면 닫힘). 폰·좁은 칸은 아래 시트.
   void _onWord(String w, {required bool sheet}) {
@@ -85,6 +92,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
 
   @override
   void dispose() {
+    KoReadingPrefs.show.removeListener(_onReading);
     _session++;
     TtsService.instance.stop();
     super.dispose();
@@ -177,7 +185,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       onSeek: (v) => _goto(v),
       onRate: () => setState(() => _rate = _rate >= 1.25 ? 0.75 : (_rate + 0.25)),
       onGloss: () => setState(() => _showGloss = !_showGloss),
-      onRd: () => setState(() => _showRd = !_showRd),
+      onRd: () => KoReadingToggleAction.toggle(context),
       onKo: () => setState(() => _showKo = !_showKo),
     );
     return LayoutBuilder(builder: (context, c) {
@@ -256,6 +264,7 @@ class _Script extends StatelessWidget {
             decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: AppColors.sumi, width: 1.2)),
             child: Text('${d.turns.length}', style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800, color: AppColors.sumi)),
           ),
+          if (d.turns.any((t) => t.rd.isNotEmpty)) const KoReadingToggleAction(),
         ]),
       ),
       Expanded(
@@ -287,7 +296,7 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        LemmaText(turn: t, text: LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (showGloss && t.gloss.isNotEmpty && t.gloss != t.tl) Text(t.gloss, style: const TextStyle(fontSize: 11, color: AppColors.ai, fontWeight: FontWeight.w600)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
                         if (showKo) Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
@@ -399,12 +408,16 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              HintText(
-                text: LearnerPrefs.fill(turn.tl),
-                style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35),
-                showGender: showGender,
-                onWord: onWord,
-              ),
+              // 동사·성·수 데이터가 있으면 그 칸이, 없으면 레마 탭이 문장을 그린다
+              if (ItalianHints.instance.hasVerbs || showGender)
+                HintText(
+                  text: LearnerPrefs.fill(turn.tl),
+                  style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35),
+                  showGender: showGender,
+                  onWord: onWord,
+                )
+              else
+                LemmaText(turn: turn, text: LearnerPrefs.fill(turn.tl), style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),

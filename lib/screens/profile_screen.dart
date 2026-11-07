@@ -1,124 +1,112 @@
 import 'package:flutter/material.dart';
 
+import 'about_screen.dart';
 import 'login_screen.dart';
-import 'update_screen.dart';
 
 import '../core/theme.dart';
+import '../widgets/achievement_desk.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
-import '../core/platform.dart';
+import '../core/pane.dart';
+import '../main.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
+import '../services/achievement_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
+/// 프로필 탭 내용 — 계정 · 성과 · 기록 · 학습자 프로필 · 설정 · 정보(일본어앱 2026-11-07 구조).
+class ProfileSections extends StatelessWidget {
+  const ProfileSections({super.key});
+
+  Future<void> _reset(BuildContext context) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (c) => AlertDialog(
+        title: Text(tr('학습 기록 초기화')),
+        content: Text(tr('회화 진행·카드·성과 기록을 모두 지웁니다. 되돌릴 수 없습니다.')),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(c, false), child: Text(tr('취소'))),
+          TextButton(onPressed: () => Navigator.pop(c, true), child: Text(tr('초기화'), style: const TextStyle(color: Colors.redAccent))),
+        ],
+      ),
+    );
+    if (ok != true) return;
+    await appDb.delete(appDb.userProgress).go();
+    await AchievementService.instance.reset();
+    if (context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(tr('초기화 완료'))));
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(tr('프로필 · 설정'))),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          if (!isIOS) const UpdateEntryTile(),
-          Container(
-            padding: const EdgeInsets.all(18),
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(
-                colors: [AppColors.rojoDeep, AppColors.rojo],
-              ),
-              borderRadius: BorderRadius.circular(10),
-              border: Border.all(color: AppColors.gualda, width: 1.5),
-            ),
-            child: Row(
-              children: [
-                const TileBadge(text: 'IT', size: 60, color: AppColors.italia),
-                SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        tr('학습자'),
-                        style: TextStyle(
-                          color: AppColors.cal,
-                          fontSize: 20,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 2,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        tr('이탈리아어 · 입문 (A1)'),
-                        style: TextStyle(
-                          color: AppColors.gualdaBright,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
-                          letterSpacing: 2,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 18),
-          // 학습자 프로필(일본어앱 learner_prefs) — 이름 → 회화의 「나」(화자 A)·{name} 자리, 성별 → 학습자 목소리
-          _SectionTitle(tr('학습자 프로필')),
-          const SizedBox(height: 8),
-          const _LearnerSection(),
-          const SizedBox(height: 18),
-          _SectionTitle(tr('계정')),
-          const SizedBox(height: 8),
-          const _AccountSection(),
-          const SizedBox(height: 16),
-          _SectionTitle(tr('설정')),
-          const SizedBox(height: 8),
-          _SettingsGroup(items: [
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        _SectionTitle(tr('계정')),
+        const SizedBox(height: 8),
+        const _AccountSection(),
+        const SizedBox(height: 16),
+        _SectionTitle(tr('성과')),
+        const SizedBox(height: 8),
+        const AchievementDesk(),
+        const SizedBox(height: 16),
+        _SectionTitle(tr('기록')),
+        const SizedBox(height: 8),
+        _SettingsGroup(items: [
+          _SettingItem(
+              icon: Icons.restart_alt,
+              title: tr('학습 기록 초기화'),
+              subtitle: tr('회화·카드·성과 기록 삭제'),
+              onTap: () => _reset(context)),
+        ]),
+        const SizedBox(height: 16),
+        // 학습자 프로필(일본어앱 learner_prefs) — 이름 → 회화의 「나」(화자 A)·{name} 자리, 성별 → 학습자 목소리
+        _SectionTitle(tr('학습자 프로필')),
+        const SizedBox(height: 8),
+        const _LearnerSection(),
+        const SizedBox(height: 16),
+        _SectionTitle(tr('설정')),
+        const SizedBox(height: 8),
+        ValueListenableBuilder<bool>(
+          valueListenable: KoReadingPrefs.show,
+          builder: (context, on, _) => _SettingsGroup(items: [
             _SettingItem(
                 icon: Icons.language,
                 title: tr('언어 / Language'),
                 subtitle: '${AppLangPrefs.lang.value.label}  →  ${AppLangPrefs.peekNext().label}',
                 onTap: AppLangPrefs.next),
-            if (isIOS)
-              _SettingItem(
-                  icon: Icons.flight_takeoff,
-                  title: tr('앱 업데이트'),
-                  subtitle: tr('아이폰은 TestFlight 앱에서 새 빌드를 받습니다')),
-            _SettingItem(icon: Icons.volume_up, title: tr('TTS 음성'), subtitle: tr('it-IT (시스템 보이스)')),
-            _SettingItem(icon: Icons.public, title: tr('변종'), subtitle: tr('표준 이탈리아어 (Italia)')),
-            _SettingItem(icon: Icons.palette, title: tr('테마'), subtitle: tr('낮 · 흰 바탕 · 올리브 #5E8A2A')),
+            _SettingItem(
+                icon: Icons.record_voice_over_outlined,
+                title: tr('한글 독음 표시'),
+                subtitle: on ? tr('켜짐 — 탭하면 숨김') : tr('꺼짐 — 탭하면 표시'),
+                onTap: () => KoReadingToggleAction.toggle(context)),
           ]),
-          const SizedBox(height: 16),
-          _SectionTitle(tr('정보')),
-          const SizedBox(height: 8),
-          _SettingsGroup(items: [
-            _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: '0.1.0 · alpha'),
-            _SettingItem(icon: Icons.code, title: 'Stack', subtitle: 'Flutter 3.41 · Material 3 · Drift'),
-            _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('이탈리아어유니버스 · 2026')),
-          ]),
-          const SizedBox(height: 20),
-          const BandDivider(),
-          const SizedBox(height: 12),
-          const Center(child: SolMark(size: 28)),
-          const SizedBox(height: 6),
-          Center(
-            child: Text(
-              'Talkverse · Italiano',
-              style: TextStyle(
-                color: AppColors.tintaLight,
-                fontSize: 11,
-                letterSpacing: 3,
-              ),
-            ),
-          ),
-          const SizedBox(height: 32),
-        ],
-      ),
+        ),
+        const SizedBox(height: 16),
+        _SectionTitle(tr('정보')),
+        const SizedBox(height: 8),
+        _SettingsGroup(items: [
+          _SettingItem(
+              icon: Icons.landscape_outlined,
+              title: tr('앱 소개'),
+              subtitle: tr('절벽구간 — 이 앱이 단어를 나누는 기준'),
+              onTap: () => openPane(context, (_) => const AboutScreen())),
+          _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: '0.1.0 · alpha'),
+          _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('이탈리아어유니버스 · 2026')),
+        ]),
+        const SizedBox(height: 20),
+        const BandDivider(),
+        const SizedBox(height: 12),
+        const Center(child: SolMark(size: 28)),
+        const SizedBox(height: 6),
+        const Center(
+          child: Text('Talkverse · Italiano', style: TextStyle(color: AppColors.tintaLight, fontSize: 11, letterSpacing: 3)),
+        ),
+        const SizedBox(height: 16),
+      ],
     );
   }
 }
