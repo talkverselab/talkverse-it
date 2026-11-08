@@ -189,14 +189,12 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 회화 문장은 `LemmaText` — 레마를 누르면 단어창, 단어장에 있는 말은 밑줄. 동사·성·수 데이터가 생기면 캡션은 `HintText` 가 그린다.
 - 한글 독음 전역 토글 `KoReadingPrefs` 기본 미표시(키 `show_ko_reading_v2`), 켤 때 스낵바 한 번.
 
-## 15. 회화 초안 — 2026-11-07
+## 15. 회화 초안 — 2026-11-08
 
-- 사용자 지시로 굴절어는 **레벨별 한 편씩만** 쓴다(R0~R4 다섯 편, `assets/data/dialogues/R<레벨>/<주제>/<편id>.json`, `draft: true`). 더 쓰려면 사용자 지시를 기다린다.
-- 하위 폴더는 `pubspec.yaml` 에 없어 앱에 들어가지 않는다 — Grok 재작성·사용자 통과 뒤 연결. 읽기용 `data/review/write/dialogue_samples_it.md`.
-- 독음 `tools/rd_it.py`, 검사기 `tools/check_dialogues.py --fix-rd`. 턴 칸 `it·rd·ko·note·lemmas`.
-- 앞으로 쓰는 회화는 턴마다 `emotion` 을 넣는다(사용자 지시 2026-11-07). 값은 `data/tts/PLAN_GUIDE.md` 의 16개, 한 턴에서 감정이 바뀌면 `segs`([감정, 본문] 목록)로 나눈다. neutral 만 쓰지 않는다. 감정 계획 `data/tts/plan/` 은 `tools/tts/make_plans.py` 가 회화 파일에서 만들므로 손으로 고치지 않는다(`run_trial.py` 가 자동 실행). 새 인물 목소리는 `voices.json` 의 `cast` 에 넣는다.
-- 이탈리아어 주의: A 는 남녀 공용이라 A 본인과 A 를 가리키는 형용사·과거분사 어미(stanco/a, primo/a)를 쓰지 않는다. `{country}` 는 관사 문제로 전치사 뒤에 쓰지 않는다.
-- 쓰기 어휘 상한은 R0·R1 211위, R2 661위, R3 2,000위, R4 2,500위. R1 절벽 61위로는 대화가 안 되어 넓혔고, 장면 단어는 구간 밖 경고로 확인한다.
-- 음성: `tools/tts/run_trial.py <작업폴더> <편id>...`(venv `~/tts_work/it/venv`). PC 는 uk 세션의 「지금 시작」 뒤에만, 끝나면 「GPU 끝」. 초안은 R2 만 올리고 D1 에 넣지 않는다. 리뷰 페이지 `tools/review_it.sh`.
-- 여성 학습자판에서도 연애 상대는 Giulia 그대로(사용자 결정 2026-11-08 「놔두자」).
-- Grok 재작성 요청문: `python3 tools/rewrite_request.py <편.json>...` → `data/review/grok/<편id>_prompt.md`(틀 `tools/prompts/rewrite_grok.md`, 레벨별 문법 제약·여성판 `번호F` 줄 포함). 보내기는 11-10 한도 뒤, 샘플 1~2편 → 사용자 통과 → 본작업.
+- 굴절어 전략(`~/talkverse/INFLECTED_LANG_STRATEGY.md`) 레벨 = 문법 단계 R0~R5. **Claude 초안 35편**(`assets/data/dialogues/R<레벨>/<주제>/<편id>.json`, `draft: true`), 작성 원칙 `tools/prompts/dialogue_it.md`, 이탈리아어 적용값 `docs/DIALOGUE_RULES_it.md`, 문법 요소 배치(사용자 결정) `docs/GRAMMAR_PLACEMENT_it.md`, 앱 전략 `docs/APP_STRATEGY_it.md`, 레벨 1 어휘표 `data/vocab/r1_vocab_it.csv`.
+- 하위 폴더는 `pubspec.yaml` 에 없어 앱에 들어가지 않는다 — Grok 재작성·사용자 통과 뒤 연결. 읽기용 `data/review/write/dialogue_samples_it.md`, 리뷰 페이지 `tools/review_it.sh` → uk 「REVIEW_it 갱신」.
+- 독음 `tools/rd_it.py`(gn=뇨·chi=끼아·bl=블), 검사기 `tools/check_dialogues.py --fix-rd`(굴절 반복·Lei·복수 경고). 턴 칸 `it·rd·ko·note·lemmas·emotion|segs`, 여성 학습자판 `it_f·rd_f·ko_f`(성별 어미는 피하지 말고 두 판).
+- 감정 계획 `data/tts/plan/` 은 `tools/tts/make_plans.py` 가 회화 파일에서 만든다(손으로 고치지 않음). 새 인물 목소리는 `voices.json` 의 `cast`.
+- 음성: `tools/tts/run_trial.py <작업폴더> <편id>...`(venv `~/tts_work/it/venv`). PC 는 uk 세션의 「지금 시작」 뒤에만, 끝나면 「GPU 끝」. 초안은 R2 만 올리고 D1 에 넣지 않는다.
+- 여성 학습자판에서도 연애 상대는 Giulia 그대로(사용자 결정 2026-11-08). `{country}` 는 관사 문제로 전치사 뒤에 쓰지 않는다.
+- Grok 재작성 요청문 `python3 tools/rewrite_request.py <편.json>...` → `data/review/grok/<편id>_prompt.md`. Grok 재개 2026-11-09 13:30(사용자 지시), 샘플 1~2편 → 사용자 통과 → 본작업.

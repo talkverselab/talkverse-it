@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'alphabet_screen.dart';
+
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
@@ -170,8 +172,8 @@ class HomeScreen extends StatelessWidget {
                 const _HomeTodayCut(),
                 _section(tr('기초')),
                 _MenuGrid(items: [
-                  _MenuItem(label: tr('발음'), sub: 'Pronuncia', badge: 'rr', color: AppColors.er,
-                      builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
+                  _MenuItem(label: tr('알파벳과 발음'), sub: 'Alfabeto', badge: 'Aa', color: AppColors.er,
+                      builder: (_) => const AlphabetScreen()),
                   _MenuItem(label: tr('성·수'), sub: 'Genere', badge: 'il/la', color: AppColors.mar,
                       builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
                 ]),

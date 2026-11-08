@@ -96,6 +96,11 @@ class ProfileSections extends StatelessWidget {
               onTap: () => openPane(context, (_) => const AboutScreen())),
           _SettingItem(icon: Icons.info_outline, title: tr('앱 버전'), subtitle: '0.1.0 · alpha'),
           _SettingItem(icon: Icons.copyright, title: tr('저작권'), subtitle: tr('이탈리아어유니버스 · 2026')),
+          _SettingItem(
+              icon: Icons.article_outlined,
+              title: tr('라이선스'),
+              subtitle: tr('그림·오픈소스 라이선스'),
+              onTap: () => showLicensePage(context: context, applicationName: tr('이탈리아어유니버스'), applicationVersion: '0.1.0')),
         ]),
         const SizedBox(height: 20),
         const BandDivider(),
