@@ -1,0 +1,76 @@
+{
+ "ep": "r2_love_c2",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao! Sono Giulia, l'amica di Chiara. Ti ricordi? 😊"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ehi, ciao! Certo, mi ricordo."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Allora... domani prendi un caffè con me?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Domani? Sì, certo! Mi piace l'idea."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Chiara, ha detto sì!!!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ops. Non era per te."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Ahahah. Ho letto tutto."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Bene. "
+    ],
+    [
+     "gentle",
+     "Così sai che mi piaci."
+    ]
+   ]
+  }
+ }
+}

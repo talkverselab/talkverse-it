@@ -1,0 +1,609 @@
+{
+ "id": "r4_travel_b1",
+ "region": "R4",
+ "island": "travel",
+ "kind": "long",
+ "title": "두 시간 잔 기차",
+ "emoji": "🚆",
+ "scene": "밤 기차. 학습자가 깜빡 잠든 사이 차장이 표를 검사하러 오고, 옆자리 마르코는 태연하다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marco",
+  "C": "Signor Bassi"
+ },
+ "register": "mixed",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Ecco",
+  "Mamma mia",
+  "Certo"
+ ],
+ "goal": "어려운 문법 2 접속법 과거 · 4 가정문(se scendesse … potrebbe) · 5 반과거/근과거 · 6 대과거 · 8 ci · 9 재귀 근과거 · 10 con cui · 존댓말 Lei",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "it": "Buonasera. Biglietti, prego.",
+   "rd": "부오나제라. 빌리에띠, 프레고.",
+   "ko": "안녕하세요. 승차권 확인하겠습니다.",
+   "note": "Biglietti, prego = 표 보여 주세요",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "buonasera",
+     "buonasera",
+     ""
+    ],
+    [
+     "biglietti",
+     "biglietto",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Ecco. Mi scusi, quanto manca a Napoli?",
+   "rd": "에꼬. 미 스꾸지, 꽌또 만까 아 나뽈리?",
+   "ko": "여기요. 저기, 나폴리까지 얼마나 남았어요?",
+   "note": "quanto manca = 얼마나 남았나",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "scusi",
+     "scusare",
+     ""
+    ],
+    [
+     "manca",
+     "mancare",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "it": "A Napoli? Ci siamo passati mezz'ora fa.",
+   "rd": "아 나뽈리? 치 씨아모 빠싸띠 메쪼라 파.",
+   "ko": "나폴리요? 30분 전에 지나왔는데요.",
+   "note": "ci siamo passati = 거기를 지나왔다(ci = 그곳)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "passati",
+     "passare",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Mezz'ora fa? Ma mi sono addormentato solo un attimo!",
+   "rd": "메쪼라 파? 마 미 쏘노 아도르멘따또 쏠로 운 아띠모!",
+   "ko": "30분 전이요? 잠깐 잠든 것뿐인데!",
+   "note": "mi sono addormentato/a = 잠들었다(재귀 근과거)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "addormentato",
+     "addormentare",
+     ""
+    ],
+    [
+     "attimo",
+     "attimo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Mezz'ora fa?"
+    ],
+    [
+     "flustered",
+     " Ma mi sono addormentato solo un attimo!"
+    ]
+   ],
+   "it_f": "Mezz'ora fa? Ma mi sono addormentata solo un attimo!",
+   "ko_f": "30분 전이요? 잠깐 잠든 것뿐인데!",
+   "segs_f": [
+    [
+     "surprised",
+     "Mezz'ora fa?"
+    ],
+    [
+     "flustered",
+     " Ma mi sono addormentata solo un attimo!"
+    ]
+   ],
+   "rd_f": "메쪼라 파? 마 미 쏘노 아도르멘따따 쏠로 운 아띠모!"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Due ore. Hai dormito due ore.",
+   "rd": "두에 오레. 아이 도르미또 두에 오레.",
+   "ko": "두 시간. 너 두 시간 잤어.",
+   "note": "hai dormito = 잤다(근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ore",
+     "ora",
+     ""
+    ],
+    [
+     "dormito",
+     "dormire",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "E tu perché non mi hai svegliato?",
+   "rd": "에 뚜 뻬르께 논 미 아이 스벨리아또?",
+   "ko": "근데 넌 왜 안 깨웠어?",
+   "note": "mi hai svegliato/a = 나를 깨웠다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "svegliato",
+     "svegliare",
+     ""
+    ]
+   ],
+   "emotion": "annoyed",
+   "it_f": "E tu perché non mi hai svegliata?",
+   "ko_f": "근데 넌 왜 안 깨웠어?",
+   "rd_f": "에 뚜 뻬르께 논 미 아이 스벨리아따?"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Dormivi così bene. E il signore era già passato due volte.",
+   "rd": "도르미비 꼬지 베네. 에 일 씨뇨레 에라 쟈 빠싸또 두에 볼떼.",
+   "ko": "너무 곤히 자더라. 이분도 벌써 두 번 지나가셨고.",
+   "note": "dormivi(배경, 반과거) · era passato(대과거)",
+   "tags": [
+    "step:5",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dormivi",
+     "dormire",
+     ""
+    ],
+    [
+     "signore",
+     "signore",
+     ""
+    ],
+    [
+     "passato",
+     "passare",
+     ""
+    ],
+    [
+     "volte",
+     "volta",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "it": "Se scendesse alla prossima, potrebbe prendere un treno per tornare indietro.",
+   "rd": "쎄 셴데쎄 알라 프로씨마, 뽀트레베 프렌데레 운 트레노 뻬르 또르나레 인디에트로.",
+   "ko": "다음 역에서 내리시면 되돌아가는 기차를 타실 수 있을 거예요.",
+   "note": "se scendesse … potrebbe = ~하시면 …할 수 있을 텐데(가정문)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "scendesse",
+     "scendere",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
+     ""
+    ],
+    [
+     "potrebbe",
+     "potere",
+     ""
+    ],
+    [
+     "prendere",
+     "prendere",
+     ""
+    ],
+    [
+     "treno",
+     "treno",
+     ""
+    ],
+    [
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "indietro",
+     "indietro",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "it": "Grazie mille. E quando passa?",
+   "rd": "그라찌에 밀레. 에 꽌도 빠싸?",
+   "ko": "정말 감사합니다. 그 기차는 언제 와요?",
+   "note": "passare = (차가) 지나가다, 오다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "grazie",
+     "grazie",
+     ""
+    ],
+    [
+     "mille",
+     "mille",
+     ""
+    ],
+    [
+     "passa",
+     "passare",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "it": "L'ultimo con cui può tornare stasera è partito alle nove. Il prossimo, alle sei di mattina.",
+   "rd": "룰띠모 꼰 꾸이 뿌오 또르나레 스따제라 에 빠르띠또 알레 노베. 일 프로씨모, 알레 쎄이 디 마띠나.",
+   "ko": "오늘 밤 돌아가실 수 있는 마지막 기차는 9시에 떠났어요. 다음 건 아침 6시고요.",
+   "note": "con cui = 그것으로(관계사)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ultimo",
+     "ultimo",
+     ""
+    ],
+    [
+     "può",
+     "potere",
+     ""
+    ],
+    [
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "stasera",
+     "stasera",
+     ""
+    ],
+    [
+     "partito",
+     "partire",
+     ""
+    ],
+    [
+     "prossimo",
+     "prossimo",
+     ""
+    ],
+    [
+     "mattina",
+     "mattina",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "polite",
+     "L'ultimo con cui può tornare stasera è partito alle nove."
+    ],
+    [
+     "neutral",
+     " Il prossimo, alle sei di mattina."
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "it": "Mamma mia. Marco, tu lo sapevi che dovevamo scendere a Napoli?",
+   "rd": "맘마 미아. 마르꼬, 뚜 로 싸뻬비 께 도베바모 셴데레 아 나뽈리?",
+   "ko": "세상에. 마르코, 너 우리가 나폴리에서 내려야 하는 거 알고 있었지?",
+   "note": "sapevi · dovevamo = 알고 있었다 · ~해야 했다(반과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sapevi",
+     "sapere",
+     ""
+    ],
+    [
+     "dovevamo",
+     "dovere",
+     ""
+    ],
+    [
+     "scendere",
+     "scendere",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "it": "Certo. Mia nonna vive alla prossima, e credo che abbia già detto a mezzo paese che arriviamo.",
+   "rd": "체르또. 미아 논나 비베 알라 프로씨마, 에 크레도 께 아비아 쟈 데또 아 메쪼 빠에제 께 아리비아모.",
+   "ko": "당연하지. 우리 할머니가 다음 역에 사셔. 벌써 온 동네에 우리 온다고 소문냈을걸.",
+   "note": "credo che abbia detto = 말했을 거라고 생각해(접속법 과거)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "nonna",
+     "nonno",
+     ""
+    ],
+    [
+     "vive",
+     "vivere",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
+     ""
+    ],
+    [
+     "credo",
+     "credere",
+     ""
+    ],
+    [
+     "abbia",
+     "avere",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "mezzo",
+     "mezzo",
+     ""
+    ],
+    [
+     "paese",
+     "paese",
+     ""
+    ],
+    [
+     "arriviamo",
+     "arrivare",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "it": "La signora Ida? Ma è mia zia! E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito.",
+   "rd": "라 씨뇨라 이다? 마 에 미아 찌아! 에 디 프라뗄리 미에이 체 네 쏘노 트레 쑤 꿰스또 트레노. 리엘로 디꼬 쑤비또.",
+   "ko": "이다 할머니요? 우리 이모예요! 이 기차에 제 형제도 셋이나 타고 있어요. 바로 말해 줄게요.",
+   "note": "ce ne sono tre = 셋이나 있다(ne = 그중) · glielo = 그에게 그것을",
+   "tags": [
+    "step:8",
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "signora",
+     "signore",
+     ""
+    ],
+    [
+     "zia",
+     "zio",
+     ""
+    ],
+    [
+     "fratelli",
+     "fratello",
+     ""
+    ],
+    [
+     "miei",
+     "mio",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "tre",
+     "tre",
+     ""
+    ],
+    [
+     "treno",
+     "treno",
+     ""
+    ],
+    [
+     "dico",
+     "dire",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "La signora Ida? Ma è mia zia! "
+    ],
+    [
+     "excited",
+     "E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Marco, adesso lo sta dicendo a tutto il treno. Se fossi in te, chiamerei tua nonna: la cena è per cento.",
+   "rd": "마르꼬, 아데쏘 로 스따 디첸도 아 뚜또 일 트레노. 쎄 포씨 인 떼, 끼아메레이 뚜아 논나: 라 체나 에 뻬르 첸또.",
+   "ko": "마르코, 저분 지금 기차 전체에 말하고 다녀. 내가 너라면 할머니한테 전화드리겠다. 저녁 백 인분이야.",
+   "note": "se fossi in te, chiamerei = 내가 너라면 전화하겠다(가정문) · cento = 백",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "dicendo",
+     "dire",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "treno",
+     "treno",
+     ""
+    ],
+    [
+     "fossi",
+     "essere",
+     ""
+    ],
+    [
+     "chiamerei",
+     "chiamare",
+     ""
+    ],
+    [
+     "nonna",
+     "nonno",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "cento",
+     "cento",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Marco, adesso lo sta dicendo a tutto il treno. "
+    ],
+    [
+     "tsukkomi",
+     "Se fossi in te, chiamerei tua nonna: la cena è per cento."
+    ]
+   ]
+  }
+ ]
+}

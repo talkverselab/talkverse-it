@@ -1,0 +1,98 @@
+{
+ "ep": "r1_life_a1",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Ehi, con chi sei uscito ieri sera?"
+    ]
+   ],
+   "f": {
+    "text": "Ehi, con chi sei uscita ieri sera?",
+    "rd": "에이, 꼰 끼 쎄이 우시따 이에리 쎄라?",
+    "ko": "야, 어젯밤에 누구랑 나갔어?",
+    "segs": [
+     [
+      "teasing",
+      "Ehi, con chi sei uscita ieri sera?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Sono uscito con Giulia. Solo una pizza."
+    ]
+   ],
+   "f": {
+    "text": "Sono uscita con Giulia. Solo una pizza.",
+    "rd": "쏘노 우시따 꼰 줄리아. 쏠로 우나 삐짜.",
+    "ko": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
+    "segs": [
+     [
+      "flustered",
+      "Sono uscita con Giulia. Solo una pizza."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Una pizza? Fino alle tre di notte?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Boh, la pizza era grande."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "E questa rosa? A chi la porti?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "La rosa? La porto a mia nonna."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Tua nonna si chiama Giulia? C'è scritto «Per Giulia»."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Va bene, mi piace."
+    ],
+    [
+     "annoyed",
+     "Contento?"
+    ]
+   ]
+  }
+ }
+}

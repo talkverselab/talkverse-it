@@ -1,0 +1,187 @@
+{
+ "ep": "r4_love_b1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Ah, sei qui. Chiara mi ha detto che te n'eri già andato."
+    ]
+   ],
+   "f": {
+    "text": "Ah, sei qui. Chiara mi ha detto che te n'eri già andata.",
+    "rd": "아, 쎄이 뀌. 끼아라 미 아 데또 께 떼 네리 쟈 안다따.",
+    "ko": "아, 여기 있었네. 키아라가 너 벌써 갔다던데.",
+    "segs": [
+     [
+      "surprised",
+      "Ah, sei qui. Chiara mi ha detto che te n'eri già andata."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "shy",
+     "No, mi sono nascosto qui fuori. Dentro balla troppa gente."
+    ]
+   ],
+   "f": {
+    "text": "No, mi sono nascosta qui fuori. Dentro balla troppa gente.",
+    "rd": "노, 미 쏘노 나스꼬스따 뀌 푸오리. 덴트로 발라 트로빠 젠떼.",
+    "ko": "아니, 여기 밖에 숨어 있었어. 안에 춤추는 사람이 너무 많아서.",
+    "segs": [
+     [
+      "shy",
+      "No, mi sono nascosta qui fuori. Dentro balla troppa gente."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Anch'io."
+    ],
+    [
+     "shy",
+     " Cioè... sono uscita perché ti ho visto uscire."
+    ]
+   ],
+   "f": {
+    "text": "Anch'io. Cioè... sono uscita perché ti ho vista uscire.",
+    "rd": "안끼오. 쵸에... 쏘노 우시따 뻬르께 띠 오 비스따 우시레.",
+    "ko": "나도. 그러니까… 너 나가는 거 보고 따라 나왔어.",
+    "segs": [
+     [
+      "amused",
+      "Anch'io."
+     ],
+     [
+      "shy",
+      " Cioè... sono uscita perché ti ho vista uscire."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Davvero? E perché?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Boh. Se avessi più coraggio, te lo direi adesso."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Dai, dimmelo. Ti faccio così paura?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "No. È che la persona a cui penso da tre settimane... è qui fuori."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Qui fuori?"
+    ],
+    [
+     "flustered",
+     " Ma ci siamo solo noi due."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Ecco. Bravo, ci sei arrivato."
+    ]
+   ],
+   "f": {
+    "text": "Ecco. Brava, ci sei arrivata.",
+    "rd": "에꼬. 브라바, 치 쎄이 아리바따.",
+    "ko": "그렇지. 잘했어, 이제 알아들었네.",
+    "segs": [
+     [
+      "teasing",
+      "Ecco. Brava, ci sei arrivata."
+     ]
+    ]
+   }
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Aspetta. L'altra sera tornavi a casa a piedi e ti ho dato il mio ombrello. Tu lo sapevi già?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Pensi davvero che l'abbia dimenticato a casa per caso?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Mamma mia. E io che mi sono sentito così gentile per una settimana."
+    ]
+   ],
+   "f": {
+    "text": "Mamma mia. E io che mi sono sentita così gentile per una settimana.",
+    "rd": "맘마 미아. 에 이오 께 미 쏘노 쎈띠따 꼬지 젠띨레 뻬르 우나 쎄띠마나.",
+    "ko": "세상에. 난 일주일 내내 내가 착한 사람인 줄 알았네.",
+    "segs": [
+     [
+      "amused",
+      "Mamma mia. E io che mi sono sentita così gentile per una settimana."
+     ]
+    ]
+   }
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Lo eri. E domani... dicono che fa brutto di nuovo."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Allora domani l'ombrello lo dimentico io."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "ep": "r2_love_b1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Posso assaggiare il tuo gelato?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Certo. Ma hai il tuo, no?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Sì, ma il tuo sembra più buono."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "È lo stesso gusto, Giulia."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Lo so."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "E allora perché...?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Dai, non farmelo dire."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Dire cosa? Non ho capito."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Lascia stare."
+    ],
+    [
+     "gentle",
+     "Domani hai da fare?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Domani? Per un altro gelato?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Per lo stesso gusto."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "ep": "r3_love_a1",
+ "cast": {
+  "B": "giulia",
+  "C": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Senti... domani cosa fate?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Niente. Passiamo il giorno a casa."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Allora domani vi porterò in un posto."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Davvero? Dove ci porti?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Non dico niente. Vi piace la musica?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Sì, tanto. Ma non sappiamo ballare."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilli. Ballo io, e voi mi guardate."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Va bene."
+    ],
+    [
+     "shy",
+     "Ti guardo già sempre."
+    ]
+   ]
+  }
+ }
+}

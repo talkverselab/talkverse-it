@@ -1,0 +1,76 @@
+{
+ "ep": "r2_friends_c2",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "Ti devo dire una cosa... è finita."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Cosa?! Con lui? Stai bene? Dimmi."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "No... è peggio. Molto peggio."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Mamma mia. Vengo da te?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Il gelato al pistacchio... finito. Per sempre 😭"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Chiara. "
+    ],
+    [
+     "tsukkomi",
+     "Ma dai! Pensavo a un ragazzo!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Un ragazzo passa. Il pistacchio no."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Va bene, va bene. Domani vieni con me in un posto nuovo."
+    ]
+   ]
+  }
+ }
+}

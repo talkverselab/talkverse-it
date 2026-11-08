@@ -1,0 +1,309 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "title": "먹는 커피 (할아버지 앞에서)",
+ "emoji": "☕",
+ "scene": "R1 「먹는 커피」의 존댓말·복수판. 일요일 아침 마르코네 부엌. 은퇴한 바리스타인 마르코의 할아버지 브루노에게 학습자가 큰소리를 친다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Nonno Bruno",
+  "C": "Marco"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Fammi vedere",
+  "Ecco",
+  "Allora"
+ ],
+ "goal": "그래머2: Lei 존댓말 — per Lei · La guardo · Le piace, voi — vi guardo (새 단어 0) · 표현 Fammi vedere · Ecco · Allora",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "it": "Domani farò io il caffè per Lei!",
+   "rd": "도마니 파로 이오 일 까페 뻬르 레이!",
+   "ko": "내일은 제가 할아버님 커피 만들어 드릴게요!",
+   "note": "per Lei = 당신을 위해(존댓말 Lei)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [
+    "caffè"
+   ],
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "farò",
+     "fare",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "it": "Tu? Ma sai fare il caffè?",
+   "rd": "뚜? 마 싸이 파레 일 까페?",
+   "ko": "네가? 커피 만들 줄은 알아?",
+   "note": "sai fare = 할 줄 안다(sapere)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sai",
+     "sapere",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Certo che lo so fare! Vi guardo ogni giorno.",
+   "rd": "체르또 께 로 쏘 파레! 비 구아르도 오니 조르노.",
+   "ko": "당연히 할 줄 알지! 맨날 너희 하는 거 보잖아.",
+   "note": "so = 나 안다(sapere) — 2턴 sai, vi guardo = 너희를 본다",
+   "tags": [
+    "step:9",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
+     ""
+    ],
+    [
+     "guardo",
+     "guardare",
+     ""
+    ],
+    [
+     "ogni",
+     "ogni",
+     ""
+    ],
+    [
+     "giorno",
+     "giorno",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Allora fammi vedere. Adesso.",
+   "rd": "알로라 팜미 베데레. 아데쏘.",
+   "ko": "그럼 보여 줘 봐. 지금.",
+   "note": "fammi vedere = 보여 줘(fare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "fammi",
+     "fare",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Ecco. Un caffè per Lei. Le piace?",
+   "rd": "에꼬. 운 까페 뻬르 레이. 레 삐아체?",
+   "ko": "여기요. 할아버님 커피예요. 마음에 드세요?",
+   "note": "Le piace? = 마음에 드세요?(존댓말 Le)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Cos'hai messo? È un caffè o un biscotto?",
+   "rd": "꼬자이 메쏘? 에 운 까페 오 운 비스꼬또?",
+   "ko": "뭘 넣은 거냐? 이거 커피냐, 과자냐?",
+   "note": "hai messo = 너 넣었다(mettere 근과거) — 7턴 ho messo(나)",
+   "tags": [
+    "step:5",
+    "step:2"
+   ],
+   "new": [
+    "biscotto"
+   ],
+   "lemmas": [
+    [
+     "hai messo",
+     "mettere",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "biscotto",
+     "biscotto",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Ho messo lo zucchero... tutto lo zucchero.",
+   "rd": "오 메쏘 로 쭈께로... 뚜또 로 쭈께로.",
+   "ko": "설탕을 넣었어요… 설탕 전부.",
+   "note": "ho messo = 넣었다(mettere 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [
+    "zucchero"
+   ],
+   "lemmas": [
+    [
+     "ho messo",
+     "mettere",
+     ""
+    ],
+    [
+     "zucchero",
+     "zucchero",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Mi piace. Bravo, un caffè da mangiare.",
+   "rd": "미 삐아체. 브라보, 운 까페 다 만쟈레.",
+   "ko": "맘에 든다. 잘했어, 씹어 먹는 커피구나.",
+   "note": "mi piace = 맘에 든다(piacere)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "bravo",
+     "bravo",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "mangiare",
+     "mangiare",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "it_f": "Mi piace. Brava, un caffè da mangiare.",
+   "ko_f": "맘에 든다. 잘했어, 씹어 먹는 커피구나.",
+   "rd_f": "미 삐아체. 브라바, 운 까페 다 만쟈레."
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "id": "r2_love_c3",
+ "region": "R2",
+ "island": "love",
+ "kind": "short",
+ "title": "둘 다 잤어",
+ "emoji": "😴",
+ "scene": "밤 열 시, 약속 장소에 안 나타난 학습자에게 줄리아가 먼저 문자를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Allora",
+  "Ti prego",
+  "Cioè"
+ ],
+ "goal": "챗 상황 5 사과 · 9 화해 · 10 다음 약속 · 표현 Allora · Ti prego · Cioè",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Allora? Ti aspetto da un'ora.",
+   "rd": "알로라? 띠 아스뻬또 다 우노라.",
+   "ko": "그래서? 한 시간째 기다리는데.",
+   "note": "da un'ora = 한 시간째",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Allora",
+     "allora",
+     ""
+    ],
+    [
+     "aspetto",
+     "aspettare",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "22:10"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Scusa scusa scusa! Mi sono addormentato 😭",
+   "rd": "스꾸자 스꾸자 스꾸자! 미 쏘노 아도르멘따또 😭",
+   "ko": "미안 미안 미안! 잠들어 버렸어 😭",
+   "note": "mi sono addormentato/a = 잠들어 버렸어(성별 일치)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "addormentato",
+     "addormentarsi",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "it_f": "Scusa scusa scusa! Mi sono addormentata 😭",
+   "ko_f": "미안 미안 미안! 잠들어 버렸어 😭",
+   "ui": "bubble",
+   "at": "22:31",
+   "rd_f": "스꾸자 스꾸자 스꾸자! 미 쏘노 아도르멘따따 😭"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Ah sì? Bravo. Davvero bravo.",
+   "rd": "아 씨? 브라보. 다베로 브라보.",
+   "ko": "아 그래? 잘했다. 진짜 잘했어.",
+   "note": "Bravo/Brava = 잘했어(여기선 비꼼, 성별 일치)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Bravo",
+     "bravo",
+     ""
+    ],
+    [
+     "Davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "bravo",
+     "bravo",
+     ""
+    ]
+   ],
+   "emotion": "annoyed",
+   "it_f": "Ah sì? Brava. Davvero brava.",
+   "ko_f": "아 그래? 잘했다. 진짜 잘했어.",
+   "ui": "bubble",
+   "at": "22:32",
+   "rd_f": "아 씨? 브라바. 다베로 브라바."
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ti prego... domani pago io?",
+   "rd": "띠 프레고... 도마니 빠고 이오?",
+   "ko": "제발… 내일 내가 살게?",
+   "note": "Ti prego = 제발",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "prego",
+     "pregare",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "pago",
+     "pagare",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "22:32"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Cmq... anche io dormivo 🙈",
+   "rd": "꼬문꿰... 안께 이오 도르미보 🙈",
+   "ko": "근데… 사실 나도 자고 있었어 🙈",
+   "note": "cmq = comunque(어쨌든)의 채팅 줄임말",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dormivo",
+     "dormire",
+     ""
+    ]
+   ],
+   "emotion": "shy",
+   "rd_manual": true,
+   "ui": "bubble",
+   "at": "22:35"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Cosa?! Dormivi? E mi aspettavi da un'ora?!",
+   "rd": "꼬자?! 도르미비? 에 미 아스뻬따비 다 우노라?!",
+   "ko": "뭐?! 너도 자고 있었어? 근데 한 시간째 기다렸다며?!",
+   "note": "dormivi / aspettavi = 너 자고 있었어 / 기다리고 있었어(반과거 2인칭)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "Dormivi",
+     "dormire",
+     ""
+    ],
+    [
+     "aspettavi",
+     "aspettare",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:36",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Domani, stessa ora. E mi sei mancato.",
+   "rd": "도마니, 스떼싸 오라. 에 미 쎄이 만까또.",
+   "ko": "내일, 같은 시간. 그리고… 보고 싶었어.",
+   "note": "mi sei mancato/a = 네가 보고 싶었어(성별 일치)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "stessa",
+     "stesso",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "mancato",
+     "mancare",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Domani, stessa ora. "
+    ],
+    [
+     "gentle",
+     "E mi sei mancato."
+    ]
+   ],
+   "it_f": "Domani, stessa ora. E mi sei mancata.",
+   "ko_f": "내일, 같은 시간. 그리고… 보고 싶었어.",
+   "segs_f": [
+    [
+     "teasing",
+     "Domani, stessa ora. "
+    ],
+    [
+     "gentle",
+     "E mi sei mancata."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:37",
+   "rd_f": "도마니, 스떼싸 오라. 에 미 쎄이 만까따."
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Anche tu mi sei mancata... cioè, sì! Arrivo prima io.",
+   "rd": "안께 뚜 미 쎄이 만까따... 쵸에, 씨! 아리보 프리마 이오.",
+   "ko": "나도 보고 싶었어… 아니 그러니까, 응! 내가 먼저 갈게.",
+   "note": "mi sei mancata = 네가 보고 싶었어(줄리아라 여성 일치, mancato ↔ mancata)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "mancata",
+     "mancare",
+     ""
+    ],
+    [
+     "Arrivo",
+     "arrivare",
+     ""
+    ],
+    [
+     "prima",
+     "prima",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "22:38",
+   "segs": [
+    [
+     "shy",
+     "Anche tu mi sei mancata... "
+    ],
+    [
+     "flustered",
+     "cioè, sì! Arrivo prima io."
+    ]
+   ]
+  }
+ ]
+}

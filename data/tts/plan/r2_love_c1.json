@@ -1,0 +1,76 @@
+{
+ "ep": "r2_love_c1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ehi! Ho visto la tua storia 😍 Dov'eri?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "In centro! Il gelato più buono di Roma."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ma dai! Mandami una foto del posto."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Ecco, guarda! 📸📸📸"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Aspetta... mi hai mandato mezza galleria 😂"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "E in una dormi sul bus. A bocca aperta."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "No no no, non guardare! Cancella tutto!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Troppo tardi."
+    ],
+    [
+     "gentle",
+     "È già il mio sfondo ❤️"
+    ]
+   ]
+  }
+ }
+}

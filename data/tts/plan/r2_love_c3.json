@@ -1,0 +1,117 @@
+{
+ "ep": "r2_love_c3",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Allora? Ti aspetto da un'ora."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Scusa scusa scusa! Mi sono addormentato 😭"
+    ]
+   ],
+   "f": {
+    "text": "Scusa scusa scusa! Mi sono addormentata 😭",
+    "rd": "스꾸자 스꾸자 스꾸자! 미 쏘노 아도르멘따따 😭",
+    "ko": "미안 미안 미안! 잠들어 버렸어 😭",
+    "segs": [
+     [
+      "flustered",
+      "Scusa scusa scusa! Mi sono addormentata 😭"
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Ah sì? Bravo. Davvero bravo."
+    ]
+   ],
+   "f": {
+    "text": "Ah sì? Brava. Davvero brava.",
+    "rd": "아 씨? 브라바. 다베로 브라바.",
+    "ko": "아 그래? 잘했다. 진짜 잘했어.",
+    "segs": [
+     [
+      "annoyed",
+      "Ah sì? Brava. Davvero brava."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Ti prego... domani pago io?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Cmq... anche io dormivo 🙈"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Cosa?! Dormivi? E mi aspettavi da un'ora?!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Domani, stessa ora. "
+    ],
+    [
+     "gentle",
+     "E mi sei mancato."
+    ]
+   ],
+   "f": {
+    "text": "Domani, stessa ora. E mi sei mancata.",
+    "rd": "도마니, 스떼싸 오라. 에 미 쎄이 만까따.",
+    "ko": "내일, 같은 시간. 그리고… 보고 싶었어.",
+    "segs": [
+     [
+      "teasing",
+      "Domani, stessa ora. "
+     ],
+     [
+      "gentle",
+      "E mi sei mancata."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Anche tu mi sei mancata... "
+    ],
+    [
+     "flustered",
+     "cioè, sì! Arrivo prima io."
+    ]
+   ]
+  }
+ }
+}

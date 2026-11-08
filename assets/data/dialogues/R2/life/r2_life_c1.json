@@ -1,0 +1,309 @@
+{
+ "id": "r2_life_c1",
+ "region": "R2",
+ "island": "life",
+ "kind": "short",
+ "title": "오늘 저녁은 내가",
+ "emoji": "🍳",
+ "scene": "저녁 여섯 시, 룸메이트 루카가 오늘은 자기가 요리하겠다고 문자를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Davvero",
+  "Tranquillo"
+ ],
+ "goal": "챗 상황 7 농담 · 6 취소 · 표현 Davvero · Tranquillo",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Oggi cucino io! Non mangiare niente.",
+   "rd": "오찌 꾸치노 이오! 논 만쟈레 니엔떼.",
+   "ko": "오늘은 내가 요리한다! 아무것도 먹지 마.",
+   "note": "cucino io = 내가 요리해(cucinare)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "cucino",
+     "cucinare",
+     ""
+    ],
+    [
+     "mangiare",
+     "mangiare",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "18:05"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Davvero? Tu cucini? Allora non mangio niente 😂",
+   "rd": "다베로? 뚜 꾸치니? 알로라 논 만조 니엔떼 😂",
+   "ko": "진짜? 네가 요리를? 그럼 진짜 아무것도 안 먹을래 😂",
+   "note": "non mangio niente = 나 아무것도 안 먹어(non mangiare → non mangio)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "cucini",
+     "cucinare",
+     ""
+    ],
+    [
+     "mangio",
+     "mangiare",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "18:06",
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Ridi, ridi. Vedrai!",
+   "rd": "리디, 리디. 베드라이!",
+   "ko": "웃어, 웃어. 두고 봐!",
+   "note": "Vedrai! = 두고 봐!(vedere 미래)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Ridi",
+     "ridere",
+     ""
+    ],
+    [
+     "Vedrai",
+     "vedere",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "18:06"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Ehm... non tornare a casa.",
+   "rd": "엠... 논 또르나레 아 까자.",
+   "ko": "음… 집에 오지 마.",
+   "note": "non tornare = 돌아오지 마(부정 명령)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "19:20"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Perché? Cosa è successo?",
+   "rd": "뻬르께? 꼬자 에 쑤체쏘?",
+   "ko": "왜? 무슨 일 있어?",
+   "note": "Cosa è successo? = 무슨 일이야?",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Perché",
+     "perché",
+     ""
+    ],
+    [
+     "Cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "successo",
+     "succedere",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "19:20"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Niente! Solo un po' di fumo 🔥",
+   "rd": "니엔떼! 쏠로 운 뽀 디 푸모 🔥",
+   "ko": "아무 일도 아냐! 연기가 좀 날 뿐 🔥",
+   "note": "fumo = 연기",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Niente",
+     "niente",
+     ""
+    ],
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "po'",
+     "po",
+     ""
+    ],
+    [
+     "fumo",
+     "fumo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Niente! "
+    ],
+    [
+     "cheerful",
+     "Solo un po' di fumo 🔥"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "19:21"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "FUMO?! Torno subito!",
+   "rd": "푸모?! 또르노 쑤비또!",
+   "ko": "연기?! 당장 갈게!",
+   "note": "torno = 나 돌아가(non tornare → torno)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "FUMO",
+     "fumo",
+     ""
+    ],
+    [
+     "Torno",
+     "tornare",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "19:21",
+   "emotion": "shout"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Tranquillo. Oggi pizza. Pago io.",
+   "rd": "트란뀔로. 오찌 삐짜. 빠고 이오.",
+   "ko": "진정해. 오늘은 피자. 내가 낼게.",
+   "note": "Pago io = 내가 낼게(pagare)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "Oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "Pago",
+     "pagare",
+     ""
+    ]
+   ],
+   "emotion": "gentle",
+   "it_f": "Tranquilla. Oggi pizza. Pago io.",
+   "ko_f": "진정해. 오늘은 피자. 내가 낼게.",
+   "ui": "bubble",
+   "at": "19:22",
+   "rd_f": "트란뀔라. 오찌 삐짜. 빠고 이오."
+  }
+ ]
+}

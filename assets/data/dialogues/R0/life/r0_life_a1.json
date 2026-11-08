@@ -1,0 +1,249 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "내 피자 어디 갔어",
+ "emoji": "🍕",
+ "scene": "셰어하우스 부엌. 냉장고에 넣어 둔 피자가 사라졌고 루카가 학습자를 쳐다본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "slip",
+ "expressions": [
+  "Ehi",
+  "Boh",
+  "Ma dai"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Ehi · Boh · Ma dai",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi, dov'è la mia pizza?",
+   "rd": "에이, 도베 라 미아 삐짜?",
+   "ko": "야, 내 피자 어디 있어?",
+   "note": "Ehi = 야, 어이(부르는 말)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Quale pizza?",
+   "rd": "꽐레 삐짜?",
+   "ko": "무슨 피자?",
+   "note": "quale = 어떤",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "La mia! Buonissima. Era qui.",
+   "rd": "라 미아! 부오니씨마. 에라 뀌.",
+   "ko": "내 거! 엄청 맛있는 거. 여기 있었어.",
+   "note": "buonissima = 엄청 맛있는(buono 최상급, 피자라 여성)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Buonissima",
+     "buono",
+     ""
+    ],
+    [
+     "Era",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ]
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Boh. Non lo so.",
+   "rd": "보. 논 로 쏘.",
+   "ko": "글쎄. 나 몰라.",
+   "note": "Boh = 글쎄, 몰라(입에 달고 사는 말)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "so",
+     "sapere",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Hai la bocca rossa.",
+   "rd": "아이 라 보까 로싸.",
+   "ko": "너 입이 빨개.",
+   "note": "bocca = 입",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "hai",
+     "avere",
+     ""
+    ],
+    [
+     "bocca",
+     "bocca",
+     ""
+    ],
+    [
+     "rossa",
+     "rosso",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ma dai! È solo pomodoro.",
+   "rd": "마 다이! 에 쏠로 뽀모도로.",
+   "ko": "에이, 뭐야! 그냥 토마토야.",
+   "note": "Ma dai = 에이, 설마",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "pomodoro",
+     "pomodoro",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Solo pomodoro? Sei tutto rosso!",
+   "rd": "쏠로 뽀모도로? 쎄이 뚜또 로쏘!",
+   "ko": "그냥 토마토? 너 얼굴 완전 빨개!",
+   "note": "sei tutto rosso/tutta rossa = 너 완전 빨개(성별 일치, bocca rossa ↔ rosso)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "pomodoro",
+     "pomodoro",
+     ""
+    ],
+    [
+     "Sei",
+     "essere",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "rosso",
+     "rosso",
+     ""
+    ]
+   ],
+   "it_f": "Solo pomodoro? Sei tutta rossa!",
+   "ko_f": "그냥 토마토? 너 얼굴 완전 빨개!",
+   "emotion": "tsukkomi",
+   "rd_f": "쏠로 뽀모도로? 쎄이 뚜따 로싸!"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Va bene... era buona.",
+   "rd": "바 베네... 에라 부오나.",
+   "ko": "알았어… 맛있었어.",
+   "note": "era buona = 맛있었다(피자가 여성 명사)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "era",
+     "essere",
+     ""
+    ],
+    [
+     "buona",
+     "buono",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  }
+ ],
+ "flags": []
+}

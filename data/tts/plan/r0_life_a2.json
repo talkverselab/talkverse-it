@@ -1,0 +1,60 @@
+{
+ "ep": "r0_life_a2",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Hai visto le mie chiavi?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "No. Cerca bene!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Cerco! Non ci sono! "
+    ],
+    [
+     "shout",
+     "Mamma mia!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquillo. Fammi vedere..."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Dai! Chiamo tutti: mamma, Chiara, Marco!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ehm... c'è anche tua mamma!"
+    ]
+   ]
+  }
+ }
+}

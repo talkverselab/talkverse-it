@@ -1,0 +1,73 @@
+{
+ "ep": "r3_life_a2",
+ "cast": {
+  "B": "chiara",
+  "C": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Ehi, siete arrivati! Vi aspetto da un'ora."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Scusa! Siamo pronti. Ci disegni?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Anch'io sono pronta. Non parlate, vi disegno."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Ti piace disegnare le persone?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Mi piace molto. Ecco, finito!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Ma... sono due banane con gli occhiali!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Siete voi. Le porterò a casa mia."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Vorremmo essere banane più belle."
+    ]
+   ]
+  }
+ }
+}

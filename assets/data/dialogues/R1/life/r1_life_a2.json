@@ -1,0 +1,299 @@
+{
+ "id": "r1_life_a2",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "title": "바나나 초상화",
+ "emoji": "🎨",
+ "scene": "평일 오후 키아라의 작은 화실. 미대생 키아라가 학습자를 그려 주겠다며 불렀다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "골격 단계 1·2·6·7·8·10 · 굴절 반복 disegni/disegno/disegnare · pronto/pronta · sono/sei/essere · 표현 Ehi · Ecco · Scusa",
+ "expressions": [
+  "Ehi",
+  "Ecco",
+  "Scusa"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi, sei arrivato! Ti aspetto da un'ora.",
+   "rd": "에이, 쎄이 아리바또! 띠 아스뻬또 다 우노라.",
+   "ko": "왔구나! 한 시간이나 기다렸잖아.",
+   "note": "sei arrivato = 너 도착했다(arrivare, essere 근과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "sei arrivato",
+     "arrivare",
+     ""
+    ],
+    [
+     "aspetto",
+     "aspettare",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "it_f": "Ehi, sei arrivata! Ti aspetto da un'ora.",
+   "ko_f": "왔구나! 한 시간이나 기다렸잖아.",
+   "rd_f": "에이, 쎄이 아리바따! 띠 아스뻬또 다 우노라."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Scusa! Sono pronto. Mi disegni?",
+   "rd": "스꾸자! 쏘노 프론또. 미 디제니?",
+   "ko": "미안! 준비됐어. 나 그려 주는 거지?",
+   "note": "sono pronto = 나 준비됐다(essere)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [
+    "disegnare"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ],
+    [
+     "disegni",
+     "disegnare",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ]
+   ],
+   "it_f": "Scusa! Sono pronta. Mi disegni?",
+   "ko_f": "미안! 준비됐어. 나 그려 주는 거지?",
+   "rd_f": "스꾸자! 쏘노 프론따. 미 디제니?"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Anch'io sono pronta. Non parlare, ti disegno.",
+   "rd": "안끼오 쏘노 프론따. 논 빠를라레, 띠 디제뇨.",
+   "ko": "나도 준비됐어. 말하지 마, 그린다.",
+   "note": "pronta = 준비된(여자 → -a) — 2턴 pronto 와 성만 다름",
+   "tags": [
+    "step:2",
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "pronta",
+     "pronto",
+     ""
+    ],
+    [
+     "parlare",
+     "parlare",
+     ""
+    ],
+    [
+     "disegno",
+     "disegnare",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ti piace disegnare le persone?",
+   "rd": "띠 삐아체 디제냐레 레 뻬르쏘네?",
+   "ko": "너 사람 그리는 거 좋아해?",
+   "note": "ti piace = 너 좋아해?(piacere)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "disegnare",
+     "disegnare",
+     ""
+    ],
+    [
+     "persone",
+     "persona",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Mi piace molto. Ecco, finito!",
+   "rd": "미 삐아체 몰또. 에꼬, 피니또!",
+   "ko": "엄청 좋아해. 자, 다 됐다!",
+   "note": "mi piace = 나 좋아해(piacere)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "molto",
+     "molto",
+     ""
+    ],
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "finito",
+     "finire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ma... è una banana con gli occhiali!",
+   "rd": "마... 에 우나 바나나 꼰 리 오끼알리!",
+   "ko": "근데… 이거 안경 쓴 바나나잖아!",
+   "note": "una banana, gli occhiali = 관사 una·gli",
+   "tags": [
+    "step:1"
+   ],
+   "new": [
+    "banana",
+    "occhiale"
+   ],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "banana",
+     "banana",
+     ""
+    ],
+    [
+     "occhiali",
+     "occhiale",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Sei tu. Lo porterò a casa mia.",
+   "rd": "쎄이 뚜. 로 뽀르떼로 아 까자 미아.",
+   "ko": "너잖아. 우리 집에 가져갈 거야.",
+   "note": "porterò = 가져갈 거야(portare 미래)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "porterò",
+     "portare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Vorrei essere una banana più bella.",
+   "rd": "보레이 에쎄레 우나 바나나 삐우 벨라.",
+   "ko": "좀 더 잘생긴 바나나였으면 좋겠다.",
+   "note": "vorrei = ~이고 싶은데(volere 조건)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "vorrei",
+     "volere",
+     ""
+    ],
+    [
+     "essere",
+     "essere",
+     ""
+    ],
+    [
+     "banana",
+     "banana",
+     ""
+    ],
+    [
+     "bella",
+     "bello",
+     ""
+    ]
+   ]
+  }
+ ]
+}

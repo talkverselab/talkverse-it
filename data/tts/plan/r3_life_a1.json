@@ -1,0 +1,99 @@
+{
+ "ep": "r3_life_a1",
+ "cast": {
+  "B": "luca",
+  "C": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Ehi, con chi siete usciti ieri sera?"
+    ]
+   ],
+   "f": {
+    "text": "Ehi, con chi siete uscite ieri sera?",
+    "rd": "에이, 꼰 끼 씨에떼 우시떼 이에리 쎄라?",
+    "ko": "야, 너희 어젯밤에 누구랑 나갔어?",
+    "segs": [
+     [
+      "teasing",
+      "Ehi, con chi siete uscite ieri sera?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Siamo usciti con Giulia e Marco. Solo due pizze."
+    ]
+   ],
+   "f": {
+    "text": "Siamo uscite con Giulia e Marco. Solo due pizze.",
+    "rd": "씨아모 우시떼 꼰 줄리아 에 마르꼬. 쏠로 두에 삐쩨.",
+    "ko": "줄리아랑 마르코랑 나갔어. 피자 두 판뿐이야.",
+    "segs": [
+     [
+      "flustered",
+      "Siamo uscite con Giulia e Marco. Solo due pizze."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Due pizze? Fino alle tre di notte?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Boh, le pizze erano grandi."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "E queste rose? A chi le portate?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Le rose? Le portiamo alle nostre nonne."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Le vostre nonne si chiamano Giulia e Marco? Nonna Marco?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Va bene, ci piacciono."
+    ],
+    [
+     "annoyed",
+     "Contento?"
+    ]
+   ]
+  }
+ }
+}

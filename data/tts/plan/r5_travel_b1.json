@@ -1,0 +1,154 @@
+{
+ "ep": "r5_travel_b1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Guarda che mare! Fuori stagione è il momento perfetto per l'isola: non c'è nessuno."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Nessuno, ma anche niente sole. E quel cielo nero non mi piace."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Tranquillo, la nave parte lo stesso. I biglietti li ho già presi."
+    ]
+   ],
+   "f": {
+    "text": "Tranquilla, la nave parte lo stesso. I biglietti li ho già presi.",
+    "rd": "트란뀔라, 라 나베 빠르떼 로 스떼쏘. 이 빌리에띠 리 오 쟈 프레지.",
+    "ko": "걱정 마, 배는 그래도 떠나. 표도 벌써 끊어 놨어.",
+    "segs": [
+     [
+      "teasing",
+      "Tranquilla, la nave parte lo stesso. I biglietti li ho già presi."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "E quanto dura il viaggio, con questo vento?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Un'ora e mezza. Se il mare resta calmo."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Giulia... il mare non è più calmo."
+    ],
+    [
+     "amused",
+     " E nemmeno il mio stomaco."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Sei bianco! Siediti qui, guarda lontano e respira piano."
+    ]
+   ],
+   "f": {
+    "text": "Sei bianca! Siediti qui, guarda lontano e respira piano.",
+    "rd": "쎄이 비안까! 씨에디띠 뀌, 구아르다 론따노 에 레스삐라 삐아노.",
+    "ko": "얼굴 하얘! 여기 앉아서 멀리 보고 천천히 숨 쉬어.",
+    "segs": [
+     [
+      "worried",
+      "Sei bianca! Siediti qui, guarda lontano e respira piano."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Mi gira la testa e ho mal di stomaco. Forse è colpa della colazione."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Tre dolci in dieci minuti. Te l'avevo detto."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Se muoio qui, sappi che il terzo era il più buono."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Non muori."
+    ],
+    [
+     "shy",
+     " E comunque... ho scelto la nave apposta. Speravo che mi stessi vicino."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Apposta?"
+    ],
+    [
+     "flustered",
+     " Volevi vedermi stare male?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "No! Volevo solo... che il viaggio durasse un po' di più."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Allora oggi hai fortuna. Dicono che ci vuole un'altra ora."
+    ]
+   ]
+  }
+ }
+}

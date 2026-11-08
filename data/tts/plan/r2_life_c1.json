@@ -1,0 +1,87 @@
+{
+ "ep": "r2_life_c1",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Oggi cucino io! Non mangiare niente."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Davvero? Tu cucini? Allora non mangio niente 😂"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ridi, ridi. Vedrai!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Ehm... non tornare a casa."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Perché? Cosa è successo?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Niente! "
+    ],
+    [
+     "cheerful",
+     "Solo un po' di fumo 🔥"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "FUMO?! Torno subito!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquillo. Oggi pizza. Pago io."
+    ]
+   ],
+   "f": {
+    "text": "Tranquilla. Oggi pizza. Pago io.",
+    "rd": "트란뀔라. 오찌 삐짜. 빠고 이오.",
+    "ko": "진정해. 오늘은 피자. 내가 낼게.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquilla. Oggi pizza. Pago io."
+     ]
+    ]
+   }
+  }
+ }
+}

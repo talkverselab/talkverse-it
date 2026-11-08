@@ -1,0 +1,639 @@
+{
+ "id": "r5_travel_b1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "비수기의 배",
+ "emoji": "⛴️",
+ "scene": "늦가을, 줄리아와 섬으로 가는 배. 하늘은 흐리고 바람이 분다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Guarda",
+  "Tranquillo",
+  "Te l'avevo detto"
+ ],
+ "goal": "어휘 주제 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 표현 Guarda·Tranquillo/a·Te l'avevo detto",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Guarda che mare! Fuori stagione è il momento perfetto per l'isola: non c'è nessuno.",
+   "rd": "구아르다 께 마레! 푸오리 스따조네 에 일 모멘또 뻬르페또 뻬르 리졸라: 논 체 네쑤노.",
+   "ko": "바다 좀 봐! 비수기가 섬 가기 딱 좋은 때야. 사람이 하나도 없어.",
+   "note": "fuori stagione = 비수기에",
+   "tags": [
+    "step:5",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "mare",
+     "mare",
+     ""
+    ],
+    [
+     "stagione",
+     "stagione",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ],
+    [
+     "perfetto",
+     "perfetto",
+     ""
+    ],
+    [
+     "nessuno",
+     "nessuno",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Nessuno, ma anche niente sole. E quel cielo nero non mi piace.",
+   "rd": "네쑤노, 마 안께 니엔떼 쏠레. 에 꿸 치엘로 네로 논 미 삐아체.",
+   "ko": "사람도 없지만 해도 없네. 저 시커먼 하늘 마음에 안 들어.",
+   "note": "cielo nero = 시커먼 하늘",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "nessuno",
+     "nessuno",
+     ""
+    ],
+    [
+     "sole",
+     "sole",
+     ""
+    ],
+    [
+     "cielo",
+     "cielo",
+     ""
+    ],
+    [
+     "nero",
+     "nero",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Tranquillo, la nave parte lo stesso. I biglietti li ho già presi.",
+   "rd": "트란뀔로, 라 나베 빠르떼 로 스떼쏘. 이 빌리에띠 리 오 쟈 프레지.",
+   "ko": "걱정 마, 배는 그래도 떠나. 표도 벌써 끊어 놨어.",
+   "note": "lo stesso = 그래도, 어쨌든",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "nave",
+     "nave",
+     ""
+    ],
+    [
+     "parte",
+     "partire",
+     ""
+    ],
+    [
+     "biglietti",
+     "biglietto",
+     ""
+    ],
+    [
+     "presi",
+     "prendere",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Tranquilla, la nave parte lo stesso. I biglietti li ho già presi.",
+   "ko_f": "걱정 마, 배는 그래도 떠나. 표도 벌써 끊어 놨어.",
+   "rd_f": "트란뀔라, 라 나베 빠르떼 로 스떼쏘. 이 빌리에띠 리 오 쟈 프레지."
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "E quanto dura il viaggio, con questo vento?",
+   "rd": "에 꽌또 두라 일 비아조, 꼰 꿰스또 벤또?",
+   "ko": "이 바람에 얼마나 걸려?",
+   "note": "durare = (시간이) 걸리다, 계속되다",
+   "tags": [
+    "step:5",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dura",
+     "durare",
+     ""
+    ],
+    [
+     "viaggio",
+     "viaggio",
+     ""
+    ],
+    [
+     "vento",
+     "vento",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Un'ora e mezza. Se il mare resta calmo.",
+   "rd": "우노라 에 메짜. 쎄 일 마레 레스따 깔모.",
+   "ko": "한 시간 반. 바다가 잔잔하면.",
+   "note": "calmo = 잔잔한",
+   "tags": [
+    "step:5",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "mezza",
+     "mezzo",
+     ""
+    ],
+    [
+     "mare",
+     "mare",
+     ""
+    ],
+    [
+     "resta",
+     "restare",
+     ""
+    ],
+    [
+     "calmo",
+     "calmo",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Giulia... il mare non è più calmo. E nemmeno il mio stomaco.",
+   "rd": "줄리아... 일 마레 논 에 삐우 깔모. 에 넴메노 일 미오 스또마꼬.",
+   "ko": "줄리아… 바다가 이제 안 잔잔해. 내 속도.",
+   "note": "nemmeno = ~도 아니다",
+   "tags": [
+    "step:3",
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mare",
+     "mare",
+     ""
+    ],
+    [
+     "calmo",
+     "calmo",
+     ""
+    ],
+    [
+     "nemmeno",
+     "nemmeno",
+     ""
+    ],
+    [
+     "stomaco",
+     "stomaco",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "worried",
+     "Giulia... il mare non è più calmo."
+    ],
+    [
+     "amused",
+     " E nemmeno il mio stomaco."
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Sei bianco! Siediti qui, guarda lontano e respira piano.",
+   "rd": "쎄이 비안꼬! 씨에디띠 뀌, 구아르다 론따노 에 레스삐라 삐아노.",
+   "ko": "얼굴 하얘! 여기 앉아서 멀리 보고 천천히 숨 쉬어.",
+   "note": "bianco/a = (얼굴이) 하얀, 창백한",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bianco",
+     "bianco",
+     ""
+    ],
+    [
+     "siediti",
+     "sedere",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "lontano",
+     "lontano",
+     ""
+    ],
+    [
+     "respira",
+     "respirare",
+     ""
+    ],
+    [
+     "piano",
+     "piano",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "it_f": "Sei bianca! Siediti qui, guarda lontano e respira piano.",
+   "ko_f": "얼굴 하얘! 여기 앉아서 멀리 보고 천천히 숨 쉬어.",
+   "rd_f": "쎄이 비안까! 씨에디띠 뀌, 구아르다 론따노 에 레스삐라 삐아노."
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Mi gira la testa e ho mal di stomaco. Forse è colpa della colazione.",
+   "rd": "미 지라 라 떼스따 에 오 말 디 스또마꼬. 포르쎄 에 꼴빠 델라 꼴라찌오네.",
+   "ko": "머리가 빙빙 돌고 배가 아파. 아침 때문인가 봐.",
+   "note": "mi gira la testa = 어지럽다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "gira",
+     "girare",
+     ""
+    ],
+    [
+     "testa",
+     "testa",
+     ""
+    ],
+    [
+     "mal",
+     "male",
+     ""
+    ],
+    [
+     "stomaco",
+     "stomaco",
+     ""
+    ],
+    [
+     "forse",
+     "forse",
+     ""
+    ],
+    [
+     "colpa",
+     "colpa",
+     ""
+    ],
+    [
+     "colazione",
+     "colazione",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Tre dolci in dieci minuti. Te l'avevo detto.",
+   "rd": "트레 돌치 인 디에치 미누띠. 떼 라베보 데또.",
+   "ko": "10분 만에 빵 세 개. 내가 말했지.",
+   "note": "Te l'avevo detto = 내가 그랬잖아",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dolci",
+     "dolce",
+     ""
+    ],
+    [
+     "minuti",
+     "minuto",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Se muoio qui, sappi che il terzo era il più buono.",
+   "rd": "쎄 무오이오 뀌, 싸삐 께 일 떼르쪼 에라 일 삐우 부오노.",
+   "ko": "나 여기서 죽으면, 세 번째가 제일 맛있었다는 것만 알아 둬.",
+   "note": "sappi = 알아 둬(sapere 명령형)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "muoio",
+     "morire",
+     ""
+    ],
+    [
+     "sappi",
+     "sapere",
+     ""
+    ],
+    [
+     "terzo",
+     "terzo",
+     ""
+    ],
+    [
+     "buono",
+     "buono",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "it": "Non muori. E comunque... ho scelto la nave apposta. Speravo che mi stessi vicino.",
+   "rd": "논 무오리. 에 꼬문꿰... 오 셸또 라 나베 아뽀스따. 스뻬라보 께 미 스떼씨 비치노.",
+   "ko": "안 죽어. 그리고 사실… 일부러 배로 고른 거야. 네가 내 옆에 꼭 붙어 있었으면 해서.",
+   "note": "apposta = 일부러",
+   "tags": [
+    "step:4",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "muori",
+     "morire",
+     ""
+    ],
+    [
+     "comunque",
+     "comunque",
+     ""
+    ],
+    [
+     "scelto",
+     "scegliere",
+     ""
+    ],
+    [
+     "nave",
+     "nave",
+     ""
+    ],
+    [
+     "apposta",
+     "apposta",
+     ""
+    ],
+    [
+     "speravo",
+     "sperare",
+     ""
+    ],
+    [
+     "stessi",
+     "stare",
+     ""
+    ],
+    [
+     "vicino",
+     "vicino",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Non muori."
+    ],
+    [
+     "shy",
+     " E comunque... ho scelto la nave apposta. Speravo che mi stessi vicino."
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "it": "Apposta? Volevi vedermi stare male?",
+   "rd": "아뽀스따? 볼레비 베데르미 스따레 말레?",
+   "ko": "일부러? 내가 아픈 걸 보고 싶었어?",
+   "note": "stare male = 몸이 안 좋다",
+   "tags": [
+    "step:3",
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "apposta",
+     "apposta",
+     ""
+    ],
+    [
+     "volevi",
+     "volere",
+     ""
+    ],
+    [
+     "vedermi",
+     "vedere",
+     ""
+    ],
+    [
+     "stare",
+     "stare",
+     ""
+    ],
+    [
+     "male",
+     "male",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Apposta?"
+    ],
+    [
+     "flustered",
+     " Volevi vedermi stare male?"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "No! Volevo solo... che il viaggio durasse un po' di più.",
+   "rd": "노! 볼레보 쏠로... 께 일 비아조 두라쎄 운 뽀 디 삐우.",
+   "ko": "아니! 그냥… 같이 가는 시간이 좀 길었으면 했어.",
+   "note": "che durasse = 계속되기를(접속법 반과거)",
+   "tags": [
+    "step:4",
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "volevo",
+     "volere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "viaggio",
+     "viaggio",
+     ""
+    ],
+    [
+     "durasse",
+     "durare",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Allora oggi hai fortuna. Dicono che ci vuole un'altra ora.",
+   "rd": "알로라 오찌 아이 포르뚜나. 디꼬노 께 치 부올레 우날트라 오라.",
+   "ko": "그럼 오늘 운 좋네. 한 시간 더 걸린대.",
+   "note": "ci vuole = (시간이) 걸리다",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "fortuna",
+     "fortuna",
+     ""
+    ],
+    [
+     "dicono",
+     "dire",
+     ""
+    ],
+    [
+     "vuole",
+     "volere",
+     ""
+    ],
+    [
+     "altra",
+     "altro",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  }
+ ]
+}

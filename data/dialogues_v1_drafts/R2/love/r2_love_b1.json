@@ -1,0 +1,321 @@
+{
+ "id": "r2_love_b1",
+ "region": "R2",
+ "island": "love",
+ "kind": "long",
+ "title": "같은 맛",
+ "emoji": "🍨",
+ "scene": "밤의 트라스테베레. 젤라토를 들고 걷다가 줄리아가 학습자 것을 맛보겠다고 먼저 말을 건다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Certo",
+  "Dai",
+  "Lascia stare"
+ ],
+ "goal": "목표 표현: Certo · Dai · Lascia stare · non farmelo dire",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Posso assaggiare il tuo gelato?",
+   "rd": "뽀쏘 아싸쟈레 일 뚜오 젤라또?",
+   "ko": "네 젤라토 맛봐도 돼?",
+   "note": "assaggiare = 맛보다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "posso",
+     "potere",
+     ""
+    ],
+    [
+     "assaggiare",
+     "assaggiare",
+     ""
+    ],
+    [
+     "gelato",
+     "gelato",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Certo. Ma hai il tuo, no?",
+   "rd": "체르또. 마 아이 일 뚜오, 노?",
+   "ko": "그럼. 근데 네 것도 있잖아?",
+   "note": "문장 끝 no? = ~잖아?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "hai",
+     "avere",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Sì, ma il tuo sembra più buono.",
+   "rd": "씨, 마 일 뚜오 쎔브라 삐우 부오노.",
+   "ko": "응, 근데 네 게 더 맛있어 보여.",
+   "note": "sembra = ~해 보인다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "sembra",
+     "sembrare",
+     ""
+    ],
+    [
+     "buono",
+     "buono",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "È lo stesso gusto, Giulia.",
+   "rd": "에 로 스떼쏘 구스또, 줄리아.",
+   "ko": "같은 맛이잖아, 줄리아.",
+   "note": "lo stesso = 같은",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "stesso",
+     "stesso",
+     ""
+    ],
+    [
+     "gusto",
+     "gusto",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Lo so.",
+   "rd": "로 쏘.",
+   "ko": "알아.",
+   "note": "짧게 끊어서 여운을 남긴다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "so",
+     "sapere",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "E allora perché...?",
+   "rd": "에 알로라 뻬르께...?",
+   "ko": "그럼 왜…?",
+   "note": "말끝을 흐리는 물음",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "perché",
+     "perché",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Dai, non farmelo dire.",
+   "rd": "다이, 논 파르멜로 디레.",
+   "ko": "아이, 그걸 내 입으로 말하게 하지 마.",
+   "note": "non farmelo dire = 그걸 말하게 하지 마",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dai",
+     "dai",
+     ""
+    ],
+    [
+     "farmelo",
+     "fare",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Dire cosa? Non ho capito.",
+   "rd": "디레 꼬자? 논 오 까삐또.",
+   "ko": "뭘 말해? 나 못 알아들었어.",
+   "note": "non ho capito = 못 알아들었어",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "capito",
+     "capire",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Lascia stare. Domani hai da fare?",
+   "rd": "라샤 스따레. 도마니 아이 다 파레?",
+   "ko": "됐어. 내일 뭐 해?",
+   "note": "Lascia stare = 됐어, 신경 쓰지 마",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "lascia",
+     "lasciare",
+     ""
+    ],
+    [
+     "stare",
+     "stare",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shy",
+     "Lascia stare."
+    ],
+    [
+     "gentle",
+     "Domani hai da fare?"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Domani? Per un altro gelato?",
+   "rd": "도마니? 뻬르 운 알트로 젤라또?",
+   "ko": "내일? 젤라토 또 먹으러?",
+   "note": "un altro = 또 하나의",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "altro",
+     "altro",
+     ""
+    ],
+    [
+     "gelato",
+     "gelato",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "it": "Per lo stesso gusto.",
+   "rd": "뻬르 로 스떼쏘 구스또.",
+   "ko": "같은 맛 먹으러.",
+   "note": "앞 대사를 받아 친 마지막 한 줄",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "stesso",
+     "stesso",
+     ""
+    ],
+    [
+     "gusto",
+     "gusto",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  }
+ ]
+}

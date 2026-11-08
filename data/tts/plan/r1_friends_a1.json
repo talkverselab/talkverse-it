@@ -1,0 +1,80 @@
+{
+ "ep": "r1_friends_a1",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mamma mia, non trovo il mio telefono!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilla, lo chiamo io."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Dai, chiama! Senti qualcosa?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Aspetta... sento una musica. Dal frigo?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Dal frigo? Ma che dici?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Ecco, trovato! È nel gelato. Il tuo gelato."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ah, sì! Ho messo il gelato e..."
+    ],
+    [
+     "flustered",
+     "il telefono."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Il telefono è morto."
+    ],
+    [
+     "cheerful",
+     "Ma vorrei finire il gelato."
+    ]
+   ]
+  }
+ }
+}

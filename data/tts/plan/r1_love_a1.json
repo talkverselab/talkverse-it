@@ -1,0 +1,87 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Senti... domani cosa fai?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Niente. Passo il giorno a casa."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Allora domani ti porterò in un posto."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Davvero? Dove mi porti?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Non dico niente. Ti piace la musica?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Sì, tanto. Ma non so ballare."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquillo. Ballo io, e tu mi guardi."
+    ]
+   ],
+   "f": {
+    "text": "Tranquilla. Ballo io, e tu mi guardi.",
+    "rd": "트란뀔라. 발로 이오, 에 뚜 미 구아르디.",
+    "ko": "걱정 마. 춤은 내가 출게, 넌 나만 봐.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquilla. Ballo io, e tu mi guardi."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Va bene."
+    ],
+    [
+     "shy",
+     "Ti guardo già sempre."
+    ]
+   ]
+  }
+ }
+}

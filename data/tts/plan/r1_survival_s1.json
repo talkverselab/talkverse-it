@@ -1,0 +1,85 @@
+{
+ "ep": "r1_survival_s1",
+ "cast": {
+  "B": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Buongiorno! Cosa prende?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Prendo un caffè, per favore."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Lo vuole al banco o al tavolo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Sì, grazie."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Sì... cosa? Non capisce?"
+    ],
+    [
+     "amused",
+     "Ban-co. O. Ta-vo-lo?",
+     "Banco. O. Tavolo?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Capisco, capisco! Sì! Va bene!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Perfetto."
+    ],
+    [
+     "amused",
+     "Un caffè al banco e uno al tavolo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Due caffè?!"
+    ],
+    [
+     "flustered",
+     "Va bene... prendo tutti e due."
+    ]
+   ]
+  }
+ }
+}

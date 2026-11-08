@@ -1,0 +1,283 @@
+{
+ "id": "r2_friends_c3",
+ "region": "R2",
+ "island": "friends",
+ "kind": "short",
+ "title": "안 읽는 마르코",
+ "emoji": "☕",
+ "scene": "아침에 마르코가 새 커피를 맛보러 오라고 한다. 밤늦게 학습자가 취소 문자를 줄줄이 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marco"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "ignore",
+ "flags": [],
+ "expressions": [
+  "Certo",
+  "Cioè",
+  "Va bene"
+ ],
+ "goal": "챗 상황 6 취소 · 10 다음 약속 · 표현 Certo · Cioè · Va bene",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Domani vieni da me? Ho un caffè nuovo.",
+   "rd": "도마니 비에니 다 메? 오 운 까페 누오보.",
+   "ko": "내일 우리 집 올래? 새 커피 있어.",
+   "note": "vieni da me? = 나한테 올래?(venire)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "vieni",
+     "venire",
+     ""
+    ],
+    [
+     "Ho",
+     "avere",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:02",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sì! Certo!",
+   "rd": "씨! 체르또!",
+   "ko": "응! 당연하지!",
+   "note": "Certo! = 당연하지!",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Certo",
+     "certo",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "08:30"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Ehm... Marco, scusa. Domani non posso.",
+   "rd": "엠... 마르꼬, 스꾸자. 도마니 논 뽀쏘.",
+   "ko": "음… 마르코, 미안. 내일 못 가.",
+   "note": "non posso = 못 해(potere)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "posso",
+     "potere",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "23:40",
+   "read": false
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Cioè... sai, ho tanto lavoro.",
+   "rd": "쵸에... 싸이, 오 딴또 라보로.",
+   "ko": "그러니까… 알잖아, 일이 많아서.",
+   "note": "sai = 너 알잖아(sapere, Lo sapevo 와 짝)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sai",
+     "sapere",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:41",
+   "read": false,
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Marco? Ci sei? 🥺",
+   "rd": "마르꼬? 치 쎄이? 🥺",
+   "ko": "마르코? 있어? 🥺",
+   "note": "Ci sei? = 거기 있어?",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sei",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:45",
+   "read": false
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Va bene, va bene! Vengo. Prima del lavoro.",
+   "rd": "바 베네, 바 베네! 벵고. 프리마 델 라보로.",
+   "ko": "알았어, 알았어! 갈게. 일 가기 전에.",
+   "note": "prima del lavoro = 일 전에",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "Vengo",
+     "venire",
+     ""
+    ],
+    [
+     "Prima",
+     "prima",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Va bene, va bene! "
+    ],
+    [
+     "flustered",
+     "Vengo. Prima del lavoro."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:58"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Lo sapevo. Il caffè è già pronto ☕",
+   "rd": "로 싸뻬보. 일 까페 에 쟈 프론또 ☕",
+   "ko": "그럴 줄 알았어. 커피 벌써 준비됐어 ☕",
+   "note": "Lo sapevo = 그럴 줄 알았어",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sapevo",
+     "sapere",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "23:59"
+  }
+ ]
+}

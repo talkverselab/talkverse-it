@@ -1,0 +1,81 @@
+{
+ "ep": "r3_friends_a1",
+ "cast": {
+  "B": "chiara",
+  "C": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mamma mia, non troviamo i nostri telefoni!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquille, li chiamo io."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Dai, chiama! Senti qualcosa?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Aspettate... sento una musica. Dal frigo?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Dal frigo? Ma che dici?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Ecco, trovati! Sono nei gelati. I vostri gelati."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ah, sì! Abbiamo messo i gelati e..."
+    ],
+    [
+     "flustered",
+     "i telefoni."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "I telefoni sono morti."
+    ],
+    [
+     "cheerful",
+     "Ma vorremmo finire i gelati."
+    ]
+   ]
+  }
+ }
+}

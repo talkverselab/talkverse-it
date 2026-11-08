@@ -1,0 +1,306 @@
+{
+ "id": "r2_friends_c1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "short",
+ "title": "마르코네 앞에서",
+ "emoji": "⚽",
+ "scene": "저녁 일곱 시, 룸메이트 루카가 축구 보러 마르코네 카페로 오라고 문자를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Ehi",
+  "Allora",
+  "Dai"
+ ],
+ "goal": "챗 상황 3 약속 · 4 늦음 · 표현 Ehi · Allora · Dai",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Stasera c'è la partita da Marco. Vieni? ⚽",
+   "rd": "에이! 스따제라 체 라 빠르띠따 다 마르꼬. 비에니? ⚽",
+   "ko": "야! 오늘 밤 마르코네서 축구 해. 올래? ⚽",
+   "note": "partita = 경기",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Stasera",
+     "stasera",
+     ""
+    ],
+    [
+     "c'è",
+     "essere",
+     ""
+    ],
+    [
+     "partita",
+     "partita",
+     ""
+    ],
+    [
+     "Vieni",
+     "venire",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Certo, vengo! A che ora?",
+   "rd": "체르또, 벵고! 아 께 오라?",
+   "ko": "당연히 가지! 몇 시?",
+   "note": "vengo = 나 갈게(vieni → vengo)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Certo",
+     "certo",
+     ""
+    ],
+    [
+     "vengo",
+     "venire",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "19:03",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Tra un'ora. E non fare come sempre!",
+   "rd": "트라 우노라. 에 논 파레 꼬메 쎔프레!",
+   "ko": "한 시간 뒤. 맨날처럼 하지 말고!",
+   "note": "come sempre = 늘 그렇듯이",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "19:03"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Allora?? Dove sei? Arrivi?",
+   "rd": "알로라?? 도베 쎄이? 아리비?",
+   "ko": "야?? 어디야? 오고 있어?",
+   "note": "arrivi? = 너 와?(arrivare → sono arrivato 로 받음)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Allora",
+     "allora",
+     ""
+    ],
+    [
+     "Dove",
+     "dove",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "Arrivi",
+     "arrivare",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "20:15",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Scusa! Sono arrivato, sono qui fuori.",
+   "rd": "스꾸자! 쏘노 아리바또, 쏘노 뀌 푸오리.",
+   "ko": "미안! 도착했어, 밖에 있어.",
+   "note": "sono arrivato/arrivata = 나 도착했어(성별 일치)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "arrivato",
+     "arrivare",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "it_f": "Scusa! Sono arrivata, sono qui fuori.",
+   "ko_f": "미안! 도착했어, 밖에 있어.",
+   "ui": "bubble",
+   "at": "20:16",
+   "rd_f": "스꾸자! 쏘노 아리바따, 쏘노 뀌 푸오리."
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Dai, fuori dove? Non ti vedo.",
+   "rd": "다이, 푸오리 도베? 논 띠 베도.",
+   "ko": "아니, 밖 어디? 안 보이는데.",
+   "note": "non ti vedo = 너 안 보여",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ]
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "20:16"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Da Marco! Ma è chiuso...",
+   "rd": "다 마르꼬! 마 에 끼우조...",
+   "ko": "마르코네! 근데 문 닫았는데…",
+   "note": "è chiuso = 닫혀 있다",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "chiuso",
+     "chiudere",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "20:17"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Ah già, Marco è qui. A casa NOSTRA 😂",
+   "rd": "아 쟈, 마르꼬 에 뀌. 아 까자 노스트라 😂",
+   "ko": "아 맞다, 마르코 여기 있어. 우리 집에 😂",
+   "note": "casa nostra = 우리 집",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "NOSTRA",
+     "nostro",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "20:17"
+  }
+ ]
+}

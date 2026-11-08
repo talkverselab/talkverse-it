@@ -1,0 +1,210 @@
+{
+ "id": "r0_life_a2",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "열쇠 어디 갔지",
+ "emoji": "🔑",
+ "scene": "아침, 셰어하우스 거실. 스쿠터를 타야 하는 루카가 열쇠를 찾아 온 집을 뒤진다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Mamma mia",
+  "Tranquillo",
+  "Dai",
+  "Fammi vedere"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Tranquillo · Dai · Fammi vedere",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Hai visto le mie chiavi?",
+   "rd": "아이 비스또 레 미에 끼아비?",
+   "ko": "너 내 열쇠 봤어?",
+   "note": "chiavi = 열쇠들(chiave 복수)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "visto",
+     "vedere",
+     ""
+    ],
+    [
+     "mie",
+     "mio",
+     ""
+    ],
+    [
+     "chiavi",
+     "chiave",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "No. Cerca bene!",
+   "rd": "노. 체르까 베네!",
+   "ko": "아니. 잘 찾아 봐!",
+   "note": "cerca = 찾아(cercare 명령)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Cerca",
+     "cercare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Cerco! Non ci sono! Mamma mia!",
+   "rd": "체르꼬! 논 치 쏘노! 맘마 미아!",
+   "ko": "찾고 있다고! 없어! 미치겠네!",
+   "note": "cerco = 나 찾고 있어(cerca → cerco)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Cerco",
+     "cercare",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "Mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Cerco! Non ci sono! "
+    ],
+    [
+     "shout",
+     "Mamma mia!"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Tranquillo. Fammi vedere...",
+   "rd": "트란뀔로. 팜미 베데레...",
+   "ko": "진정해. 내가 볼게…",
+   "note": "Fammi vedere = 나 좀 보자",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "Fammi",
+     "fare",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Dai! Chiamo tutti: mamma, Chiara, Marco!",
+   "rd": "다이! 끼아모 뚜띠: 맘마, 끼아라, 마르꼬!",
+   "ko": "빨리! 다 부른다. 엄마, 키아라, 마르코!",
+   "note": "chiamo = 내가 부르다·전화하다(chiamare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Chiamo",
+     "chiamare",
+     ""
+    ],
+    [
+     "tutti",
+     "tutto",
+     ""
+    ],
+    [
+     "mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ehm... c'è anche tua mamma!",
+   "rd": "엠... 체 안께 뚜아 맘마!",
+   "ko": "음… 너네 엄마까지 왔어!",
+   "note": "c'è = ~가 있다(esserci)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "anche",
+     "anche",
+     ""
+    ],
+    [
+     "tua",
+     "tuo",
+     ""
+    ],
+    [
+     "mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  }
+ ]
+}

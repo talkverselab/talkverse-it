@@ -1,0 +1,94 @@
+{
+ "ep": "r1_life_a2",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Ehi, sei arrivato! Ti aspetto da un'ora."
+    ]
+   ],
+   "f": {
+    "text": "Ehi, sei arrivata! Ti aspetto da un'ora.",
+    "rd": "에이, 쎄이 아리바따! 띠 아스뻬또 다 우노라.",
+    "ko": "왔구나! 한 시간이나 기다렸잖아.",
+    "segs": [
+     [
+      "teasing",
+      "Ehi, sei arrivata! Ti aspetto da un'ora."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Scusa! Sono pronto. Mi disegni?"
+    ]
+   ],
+   "f": {
+    "text": "Scusa! Sono pronta. Mi disegni?",
+    "rd": "스꾸자! 쏘노 프론따. 미 디제니?",
+    "ko": "미안! 준비됐어. 나 그려 주는 거지?",
+    "segs": [
+     [
+      "cheerful",
+      "Scusa! Sono pronta. Mi disegni?"
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Anch'io sono pronta. Non parlare, ti disegno."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Ti piace disegnare le persone?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Mi piace molto. Ecco, finito!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Ma... è una banana con gli occhiali!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Sei tu. Lo porterò a casa mia."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Vorrei essere una banana più bella."
+    ]
+   ]
+  }
+ }
+}

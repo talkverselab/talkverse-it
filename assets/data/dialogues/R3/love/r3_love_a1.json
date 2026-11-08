@@ -1,0 +1,316 @@
+{
+ "id": "r3_love_a1",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "title": "내일 너희 뭐 해?",
+ "emoji": "🌅",
+ "scene": "R1 「내일 뭐 해?」의 복수판. 해 질 녘 강변 벤치에 학습자와 루카가 앉아 있다. 줄리아가 한참 머뭇거리다 둘에게 먼저 말을 꺼낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia",
+  "C": "Luca"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Senti",
+  "Allora",
+  "Tranquilli"
+ ],
+ "goal": "그래머2: R1 같은 문장을 복수로 — fate · passiamo · vi porterò · ci porti · vi piace · non sappiamo · voi mi guardate (새 단어 0) · 표현 Senti · Allora · Tranquilli",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Senti... domani cosa fate?",
+   "rd": "쎈띠... 도마니 꼬자 파떼?",
+   "ko": "있잖아… 내일 너희 뭐 해?",
+   "note": "fate = 너희 한다(fare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "fate",
+     "fare",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "it": "Niente. Passiamo il giorno a casa.",
+   "rd": "니엔떼. 빠씨아모 일 조르노 아 까자.",
+   "ko": "별거 없어. 하루 종일 집에 있어.",
+   "note": "passiamo = 우리 보낸다(passare)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "passiamo",
+     "passare",
+     ""
+    ],
+    [
+     "giorno",
+     "giorno",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Allora domani vi porterò in un posto.",
+   "rd": "알로라 도마니 비 뽀르떼로 인 운 뽀스또.",
+   "ko": "그럼 내일 너희 어디 데려갈게.",
+   "note": "vi porterò = 너희를 데려갈 거야(vi = 너희를)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "porterò",
+     "portare",
+     ""
+    ],
+    [
+     "posto",
+     "posto",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Davvero? Dove ci porti?",
+   "rd": "다베로? 도베 치 뽀르띠?",
+   "ko": "진짜? 우리 어디 데려가는데?",
+   "note": "ci porti = 우리를 데려간다(ci = 우리를)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "porti",
+     "portare",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Non dico niente. Vi piace la musica?",
+   "rd": "논 디꼬 니엔떼. 비 삐아체 라 무지까?",
+   "ko": "말 안 해. 너희 음악 좋아해?",
+   "note": "vi piace = 너희 좋아해?(piacere)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dico",
+     "dire",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "musica",
+     "musica",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "it": "Sì, tanto. Ma non sappiamo ballare.",
+   "rd": "씨, 딴또. 마 논 싸삐아모 발라레.",
+   "ko": "응, 엄청. 근데 우리 둘 다 춤은 못 춰.",
+   "note": "non sappiamo = 우리 할 줄 모른다(sapere)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [
+    "ballare"
+   ],
+   "lemmas": [
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "sappiamo",
+     "sapere",
+     ""
+    ],
+    [
+     "ballare",
+     "ballare",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Tranquilli. Ballo io, e voi mi guardate.",
+   "rd": "트란뀔리. 발로 이오, 에 보이 미 구아르다떼.",
+   "ko": "걱정 마. 춤은 내가 출게, 너희는 나만 봐.",
+   "note": "voi mi guardate = 너희가 나를 본다(guardare)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquilli",
+     "tranquillo",
+     ""
+    ],
+    [
+     "ballo",
+     "ballare",
+     ""
+    ],
+    [
+     "guardate",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Va bene. Ti guardo già sempre.",
+   "rd": "바 베네. 띠 구아르도 쟈 쎔프레.",
+   "ko": "좋아. 난 원래 너만 보는데.",
+   "note": "ti guardo = 너를 본다(여기만 단수 — 루카 앞에서 실수)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "guardo",
+     "guardare",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "amused",
+     "Va bene."
+    ],
+    [
+     "shy",
+     "Ti guardo già sempre."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "ep": "r4_work_b1",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Si accomodi pure. La direttrice è in ritardo: nel frattempo posso offrirLe un caffè?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Volentieri, grazie. Si vede tanto che sono in ansia?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Un pochino. Ma detto fra noi: che idea si è fatta di questa azienda?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Sinceramente?"
+    ],
+    [
+     "cheerful",
+     "Il prodotto è ottimo, ma il sito sembra fermo al duemila."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Addirittura. E se dovesse cambiare una cosa sola?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Toglierei quel video della direttrice che parla per venti minuti."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Venti minuti sono troppi, secondo Lei?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Nessuno arriva alla fine, glielo garantisco."
+    ],
+    [
+     "teasing",
+     "Nemmeno sua madre."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Capisco. Ha altre osservazioni, prima che arrivi?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Solo una: speriamo che abbia più senso dell'umorismo di quanto sembri nel video."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "Lo spero anch'io."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "Mi scusi, ma perché si siede alla scrivania? Non aspettiamo la direttrice?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "neutral",
+     "È qui da un quarto d'ora."
+    ],
+    [
+     "teasing",
+     "E mia madre, per la cronaca, è arrivata alla fine."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Mi è appena tornato in mente un impegno urgentissimo."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "gentle",
+     "Si sieda."
+    ],
+    [
+     "gentle",
+     "In tre anni nessuno me l'ha mai detto."
+    ]
+   ]
+  }
+ }
+}

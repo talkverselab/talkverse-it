@@ -1,0 +1,144 @@
+{
+ "ep": "r5_work_b1",
+ "cast": {
+  "B": "marco",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Sette e mezza. E la macchina fa già quel rumore."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Non l'ho toccata, te lo giuro! Faceva così anche ieri."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ieri il turno era mio. Oggi è tuo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Infatti, è mio ogni sabato da tre mesi. Quando ne parliamo, di questi turni?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Dai, adesso? Con venti clienti in fila?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Sì, adesso."
+    ],
+    [
+     "sad",
+     " Studio, lavoro, e la sera sono distrutto."
+    ]
+   ],
+   "f": {
+    "text": "Sì, adesso. Studio, lavoro, e la sera sono distrutta.",
+    "rd": "씨, 아데쏘. 스뚜디오, 라보로, 에 라 쎄라 쏘노 디스트루따.",
+    "ko": "응, 지금. 공부하고 일하고, 저녁엔 완전 녹초야.",
+    "segs": [
+     [
+      "annoyed",
+      "Sì, adesso."
+     ],
+     [
+      "sad",
+      " Studio, lavoro, e la sera sono distrutta."
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Lo so. Anch'io sono stanco. Ma tra un anno apro un posto mio."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Un posto tuo? E chi fa il caffè qui, senza di te?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Tu. Diventi tu il responsabile. Ci ho già pensato."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Buongiorno, ragazzi! Marco, che cos'è questo rumore?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Signora Rinaldi! Niente, la macchina ha solo un po' di febbre."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "Si sposti, signora! Sta per scoppiare!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Mamma mia, che fumo!"
+    ],
+    [
+     "amused",
+     " E adesso perché i clienti battono le mani?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Pensano che sia uno spettacolo. Signora, dello stipendio ne parliamo adesso o dopo?"
+    ]
+   ]
+  }
+ }
+}

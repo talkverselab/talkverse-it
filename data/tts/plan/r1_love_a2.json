@@ -1,0 +1,88 @@
+{
+ "ep": "r1_love_a2",
+ "cast": {
+  "B": "giulia",
+  "C": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ecco! Ho fatto la cena per te."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Per me? Hai fatto tutto tu?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo! La pasta, la musica... tutto per te."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Mamma mia. Sei proprio bravo."
+    ]
+   ],
+   "f": {
+    "text": "Mamma mia. Sei proprio brava.",
+    "rd": "맘마 미아. 쎄이 프로프리오 브라바.",
+    "ko": "어머. 너 진짜 대단하다.",
+    "segs": [
+     [
+      "shy",
+      "Mamma mia. Sei proprio brava."
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao! Ho mangiato la pasta. Buonissima!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Tutta?! Luca, hai mangiato la cena di Giulia!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Ah... scusa. Torno al lavoro."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Lascia stare."
+    ],
+    [
+     "gentle",
+     "Vorrei solo stare qui con te."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,562 @@
+{
+ "id": "r4_love_b1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "우산을 두고 온 이유",
+ "emoji": "☂️",
+ "scene": "키아라 집 파티. 학습자가 시끄러운 거실을 피해 발코니로 나오자 줄리아가 따라 나온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Cioè",
+  "Boh",
+  "Dai",
+  "Mamma mia",
+  "Ecco"
+ ],
+ "goal": "어려운 문법 2 접속법 과거 · 4 가정문 · 5 반과거/근과거 · 6 대과거 · 8 ne·ci · 9 재귀 근과거 · 10 a cui · 표현 Cioè·Boh·Dai",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ah, sei qui. Chiara mi ha detto che te n'eri già andato.",
+   "rd": "아, 쎄이 뀌. 끼아라 미 아 데또 께 떼 네리 쟈 안다또.",
+   "ko": "아, 여기 있었네. 키아라가 너 벌써 갔다던데.",
+   "note": "te n'eri andato/a = 넌 가 버렸었다(대과거)",
+   "tags": [
+    "step:6",
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "andato",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "surprised",
+   "it_f": "Ah, sei qui. Chiara mi ha detto che te n'eri già andata.",
+   "ko_f": "아, 여기 있었네. 키아라가 너 벌써 갔다던데.",
+   "rd_f": "아, 쎄이 뀌. 끼아라 미 아 데또 께 떼 네리 쟈 안다따."
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "No, mi sono nascosto qui fuori. Dentro balla troppa gente.",
+   "rd": "노, 미 쏘노 나스꼬스또 뀌 푸오리. 덴트로 발라 트로빠 젠떼.",
+   "ko": "아니, 여기 밖에 숨어 있었어. 안에 춤추는 사람이 너무 많아서.",
+   "note": "mi sono nascosto/a = 숨었다(재귀 근과거)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "nascosto",
+     "nascondere",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "dentro",
+     "dentro",
+     ""
+    ],
+    [
+     "balla",
+     "ballare",
+     ""
+    ],
+    [
+     "troppa",
+     "troppo",
+     ""
+    ],
+    [
+     "gente",
+     "gente",
+     ""
+    ]
+   ],
+   "emotion": "shy",
+   "it_f": "No, mi sono nascosta qui fuori. Dentro balla troppa gente.",
+   "ko_f": "아니, 여기 밖에 숨어 있었어. 안에 춤추는 사람이 너무 많아서.",
+   "rd_f": "노, 미 쏘노 나스꼬스따 뀌 푸오리. 덴트로 발라 트로빠 젠떼."
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Anch'io. Cioè... sono uscita perché ti ho visto uscire.",
+   "rd": "안끼오. 쵸에... 쏘노 우시따 뻬르께 띠 오 비스또 우시레.",
+   "ko": "나도. 그러니까… 너 나가는 거 보고 따라 나왔어.",
+   "note": "Cioè = 그러니까, 아니 내 말은",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "uscita",
+     "uscire",
+     ""
+    ],
+    [
+     "visto",
+     "vedere",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "amused",
+     "Anch'io."
+    ],
+    [
+     "shy",
+     " Cioè... sono uscita perché ti ho visto uscire."
+    ]
+   ],
+   "it_f": "Anch'io. Cioè... sono uscita perché ti ho vista uscire.",
+   "ko_f": "나도. 그러니까… 너 나가는 거 보고 따라 나왔어.",
+   "segs_f": [
+    [
+     "amused",
+     "Anch'io."
+    ],
+    [
+     "shy",
+     " Cioè... sono uscita perché ti ho vista uscire."
+    ]
+   ],
+   "rd_f": "안끼오. 쵸에... 쏘노 우시따 뻬르께 띠 오 비스따 우시레."
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Davvero? E perché?",
+   "rd": "다베로? 에 뻬르께?",
+   "ko": "진짜? 왜?",
+   "note": "Davvero? = 진짜?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "perché",
+     "perché",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Boh. Se avessi più coraggio, te lo direi adesso.",
+   "rd": "보. 쎄 아베씨 삐우 꼬라조, 떼 로 디레이 아데쏘.",
+   "ko": "몰라. 내가 용기가 좀 더 있으면 지금 말할 텐데.",
+   "note": "se avessi … direi = ~라면 …할 텐데(가정문)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "avessi",
+     "avere",
+     ""
+    ],
+    [
+     "coraggio",
+     "coraggio",
+     ""
+    ],
+    [
+     "direi",
+     "dire",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Dai, dimmelo. Ti faccio così paura?",
+   "rd": "다이, 딤멜로. 띠 파쵸 꼬지 빠우라?",
+   "ko": "에이, 말해 봐. 내가 그렇게 무서워?",
+   "note": "dimmelo = 나한테 말해 줘",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dimmelo",
+     "dire",
+     ""
+    ],
+    [
+     "faccio",
+     "fare",
+     ""
+    ],
+    [
+     "paura",
+     "paura",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "No. È che la persona a cui penso da tre settimane... è qui fuori.",
+   "rd": "노. 에 께 라 뻬르쏘나 아 꾸이 뻰쏘 다 트레 쎄띠마네... 에 뀌 푸오리.",
+   "ko": "아니. 그게, 내가 3주째 생각하는 사람이… 지금 여기 밖에 있거든.",
+   "note": "a cui = (그 사람)에게, 를(관계사 · pensare a)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "persona",
+     "persona",
+     ""
+    ],
+    [
+     "penso",
+     "pensare",
+     ""
+    ],
+    [
+     "settimane",
+     "settimana",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Qui fuori? Ma ci siamo solo noi due.",
+   "rd": "뀌 푸오리? 마 치 씨아모 쏠로 노이 두에.",
+   "ko": "여기 밖에? 근데 여기 우리 둘밖에 없잖아.",
+   "note": "ci siamo = (여기에) 우리가 있다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Qui fuori?"
+    ],
+    [
+     "flustered",
+     " Ma ci siamo solo noi due."
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Ecco. Bravo, ci sei arrivato.",
+   "rd": "에꼬. 브라보, 치 쎄이 아리바또.",
+   "ko": "그렇지. 잘했어, 이제 알아들었네.",
+   "note": "arrivarci = 알아듣다, 눈치채다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bravo",
+     "bravo",
+     ""
+    ],
+    [
+     "arrivato",
+     "arrivare",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Ecco. Brava, ci sei arrivata.",
+   "ko_f": "그렇지. 잘했어, 이제 알아들었네.",
+   "rd_f": "에꼬. 브라바, 치 쎄이 아리바따."
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Aspetta. L'altra sera tornavi a casa a piedi e ti ho dato il mio ombrello. Tu lo sapevi già?",
+   "rd": "아스뻬따. 랄트라 쎄라 또르나비 아 까자 아 삐에디 에 띠 오 다또 일 미오 옴브렐로. 뚜 로 싸뻬비 쟈?",
+   "ko": "잠깐. 그저께 너 걸어서 집에 가길래 내가 우산 줬잖아. 너 그때 이미 알고 있었어?",
+   "note": "tornavi(배경, 반과거) · ho dato(일어난 일, 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ],
+    [
+     "altra",
+     "altro",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ],
+    [
+     "tornavi",
+     "tornare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "piedi",
+     "piede",
+     ""
+    ],
+    [
+     "dato",
+     "dare",
+     ""
+    ],
+    [
+     "ombrello",
+     "ombrello",
+     ""
+    ],
+    [
+     "sapevi",
+     "sapere",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "it": "Pensi davvero che l'abbia dimenticato a casa per caso?",
+   "rd": "뻰씨 다베로 께 라비아 디멘띠까또 아 까자 뻬르 까조?",
+   "ko": "내가 진짜 우연히 집에 두고 왔다고 생각해?",
+   "note": "che l'abbia dimenticato = 내가 그걸 깜빡했다고(접속법 과거)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "pensi",
+     "pensare",
+     ""
+    ],
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "abbia",
+     "avere",
+     ""
+    ],
+    [
+     "dimenticato",
+     "dimenticare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "caso",
+     "caso",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "it": "Mamma mia. E io che mi sono sentito così gentile per una settimana.",
+   "rd": "맘마 미아. 에 이오 께 미 쏘노 쎈띠또 꼬지 젠띨레 뻬르 우나 쎄띠마나.",
+   "ko": "세상에. 난 일주일 내내 내가 착한 사람인 줄 알았네.",
+   "note": "mi sono sentito/a = (내가) ~라고 느꼈다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sentito",
+     "sentire",
+     ""
+    ],
+    [
+     "gentile",
+     "gentile",
+     ""
+    ],
+    [
+     "settimana",
+     "settimana",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "it_f": "Mamma mia. E io che mi sono sentita così gentile per una settimana.",
+   "ko_f": "세상에. 난 일주일 내내 내가 착한 사람인 줄 알았네.",
+   "rd_f": "맘마 미아. 에 이오 께 미 쏘노 쎈띠따 꼬지 젠띨레 뻬르 우나 쎄띠마나."
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "Lo eri. E domani... dicono che fa brutto di nuovo.",
+   "rd": "로 에리. 에 도마니... 디꼬노 께 파 브루또 디 누오보.",
+   "ko": "착했어. 그리고 내일… 또 날씨 궂대.",
+   "note": "fa brutto = 날씨가 궂다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "eri",
+     "essere",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "dicono",
+     "dire",
+     ""
+    ],
+    [
+     "fa",
+     "fare",
+     ""
+    ],
+    [
+     "brutto",
+     "brutto",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Allora domani l'ombrello lo dimentico io.",
+   "rd": "알로라 도마니 롬브렐로 로 디멘띠꼬 이오.",
+   "ko": "그럼 내일은 내가 우산 두고 올게.",
+   "note": "l'ombrello lo dimentico = 우산은 내가 두고 온다(목적어를 앞으로)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "ombrello",
+     "ombrello",
+     ""
+    ],
+    [
+     "dimentico",
+     "dimenticare",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  }
+ ]
+}

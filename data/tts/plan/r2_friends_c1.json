@@ -1,0 +1,83 @@
+{
+ "ep": "r2_friends_c1",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ehi! Stasera c'è la partita da Marco. Vieni? ⚽"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo, vengo! A che ora?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Tra un'ora. E non fare come sempre!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Allora?? Dove sei? Arrivi?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Scusa! Sono arrivato, sono qui fuori."
+    ]
+   ],
+   "f": {
+    "text": "Scusa! Sono arrivata, sono qui fuori.",
+    "rd": "스꾸자! 쏘노 아리바따, 쏘노 뀌 푸오리.",
+    "ko": "미안! 도착했어, 밖에 있어.",
+    "segs": [
+     [
+      "flustered",
+      "Scusa! Sono arrivata, sono qui fuori."
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Dai, fuori dove? Non ti vedo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Da Marco! Ma è chiuso..."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ah già, Marco è qui. A casa NOSTRA 😂"
+    ]
+   ]
+  }
+ }
+}

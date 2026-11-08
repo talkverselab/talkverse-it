@@ -1,0 +1,211 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "내일 시간 있어?",
+ "emoji": "🌙",
+ "scene": "저녁, 셰어하우스 옥상. 줄리아가 먼저 학습자 옆에 와서 앉는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Certo",
+  "Allora",
+  "Cioè"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Certo · Allora · Cioè",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi, {name}. Hai un momento?",
+   "rd": "에이, {name}. 아이 운 모멘또?",
+   "ko": "저기, {name}. 잠깐 시간 돼?",
+   "note": "Hai un momento? = 잠깐 시간 있어?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Hai",
+     "avere",
+     ""
+    ],
+    [
+     "momento",
+     "momento",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Certo. Che c'è?",
+   "rd": "체르또. 께 체?",
+   "ko": "그럼. 무슨 일이야?",
+   "note": "Che c'è? = 무슨 일이야?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Certo",
+     "certo",
+     ""
+    ],
+    [
+     "c'è",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Domani... sei libero?",
+   "rd": "도마니... 쎄이 리베로?",
+   "ko": "내일… 시간 있어?",
+   "note": "sei libero/libera = 너 한가해(성별 일치)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "libero",
+     "libero",
+     ""
+    ]
+   ],
+   "emotion": "shy",
+   "it_f": "Domani... sei libera?",
+   "ko_f": "내일… 시간 있어?",
+   "rd_f": "도마니... 쎄이 리베라?"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Libero, liberissimo. Perché?",
+   "rd": "리베로, 리베리씨모. 뻬르께?",
+   "ko": "한가해, 완전 한가해. 왜?",
+   "note": "liberissimo/liberissima = 완전 한가해(libero 최상급, 성별 일치)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Libero",
+     "libero",
+     ""
+    ],
+    [
+     "liberissimo",
+     "libero",
+     ""
+    ],
+    [
+     "Perché",
+     "perché",
+     ""
+    ]
+   ],
+   "it_f": "Libera, liberissima. Perché?",
+   "ko_f": "한가해, 완전 한가해. 왜?",
+   "emotion": "excited",
+   "rd_f": "리베라, 리베리씨마. 뻬르께?"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Allora... vieni con me.",
+   "rd": "알로라... 비에니 꼰 메.",
+   "ko": "그럼… 나랑 가자.",
+   "note": "vieni con me = 나랑 같이 가(venire)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Allora",
+     "allora",
+     ""
+    ],
+    [
+     "vieni",
+     "venire",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shy",
+     "Allora... "
+    ],
+    [
+     "gentle",
+     "vieni con me."
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Sì! Cioè... va bene, vengo.",
+   "rd": "씨! 쵸에... 바 베네, 벵고.",
+   "ko": "응! 아니 그러니까… 좋아, 갈게.",
+   "note": "vengo = 나 갈게(vieni → vengo, venire)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "vengo",
+     "venire",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "excited",
+     "Sì! Cioè... "
+    ],
+    [
+     "shy",
+     "va bene, vengo."
+    ]
+   ]
+  }
+ ]
+}

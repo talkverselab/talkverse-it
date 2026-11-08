@@ -1,0 +1,200 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "젤라토 두 개",
+ "emoji": "🍦",
+ "scene": "셰어하우스 현관. 키아라가 젤라토 두 개를 사 왔다며 들어온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Che bello",
+  "Ecco",
+  "Mamma mia"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Che bello · Ecco · Mamma mia",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Ho due gelati!",
+   "rd": "에이! 오 두에 젤라띠!",
+   "ko": "야! 나 젤라토 두 개 있어!",
+   "note": "gelati = 젤라토들(gelato 복수)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Ho",
+     "avere",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "gelati",
+     "gelato",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Che bello! Dove sono?",
+   "rd": "께 벨로! 도베 쏘노?",
+   "ko": "와 좋다! 어디 있어?",
+   "note": "Che bello! = 와, 좋다!",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "bello",
+     "bello",
+     ""
+    ],
+    [
+     "Dove",
+     "dove",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Ecco... guarda.",
+   "rd": "에꼬... 구아르다.",
+   "ko": "자… 봐.",
+   "note": "Ecco = 자, 여기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ma non c'è niente!",
+   "rd": "마 논 체 니엔떼!",
+   "ko": "아무것도 없잖아!",
+   "note": "non c'è niente = 아무것도 없다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "c'è",
+     "essere",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Scusa... ho mangiato tutto.",
+   "rd": "스꾸자... 오 만쟈또 뚜또.",
+   "ko": "미안… 내가 다 먹었어.",
+   "note": "ho mangiato = 내가 먹었다(mangiare 근과거)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "mangiato",
+     "mangiare",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Hai mangiato tutti e due? Mamma mia!",
+   "rd": "아이 만쟈또 뚜띠 에 두에? 맘마 미아!",
+   "ko": "두 개 다 먹었어? 세상에!",
+   "note": "hai mangiato = 너 먹었어(ho mangiato → hai)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Hai",
+     "avere",
+     ""
+    ],
+    [
+     "mangiato",
+     "mangiare",
+     ""
+    ],
+    [
+     "tutti",
+     "tutto",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "Mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  }
+ ]
+}

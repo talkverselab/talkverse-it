@@ -1,0 +1,617 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "스무 분짜리 영상",
+ "emoji": "🎬",
+ "scene": "로마의 작은 회사 면접. 사장이 늦는다며 한 여성이 커피를 권하고, 학습자는 긴장이 풀려 회사 험담을 시작한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Signora Conti"
+ },
+ "register": "polite",
+ "twist": 13,
+ "twist_type": "reveal",
+ "expressions": [
+  "Si accomodi",
+  "Mi scusi",
+  "Addirittura",
+  "per la cronaca"
+ ],
+ "goal": "어려운 문법 1 접속법(prima che arrivi·speriamo che abbia) · 3 조건법(toglierei) · 7 결합 대명사(me l'ha) · 존댓말 Lei",
+ "draft": true,
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Si accomodi pure. La direttrice è in ritardo: nel frattempo posso offrirLe un caffè?",
+   "rd": "씨 아꼬모디 뿌레. 라 디레트리체 에 인 리따르도: 넬 프라뗌뽀 뽀쏘 오프리를레 운 까페?",
+   "ko": "앉으세요. 대표님이 좀 늦으세요. 그동안 커피 한잔 드릴까요?",
+   "note": "Si accomodi = 앉으세요, 들어오세요",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "accomodi",
+     "accomodare",
+     ""
+    ],
+    [
+     "direttrice",
+     "direttore",
+     ""
+    ],
+    [
+     "ritardo",
+     "ritardo",
+     ""
+    ],
+    [
+     "frattempo",
+     "frattempo",
+     ""
+    ],
+    [
+     "offrirLe",
+     "offrire",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Volentieri, grazie. Si vede tanto che sono in ansia?",
+   "rd": "볼렌띠에리, 그라찌에. 씨 베데 딴또 께 쏘노 인 안씨아?",
+   "ko": "네, 감사합니다. 제가 긴장한 게 그렇게 티 나나요?",
+   "note": "essere in ansia = 긴장하다, 불안하다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "volentieri",
+     "volentieri",
+     ""
+    ],
+    [
+     "vede",
+     "vedere",
+     ""
+    ],
+    [
+     "ansia",
+     "ansia",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Un pochino. Ma detto fra noi: che idea si è fatta di questa azienda?",
+   "rd": "운 뽀끼노. 마 데또 프라 노이: 께 이데아 씨 에 파따 디 꿰스따 아찌엔다?",
+   "ko": "조금요. 우리끼리 얘긴데, 이 회사 어떻게 보셨어요?",
+   "note": "detto fra noi = 우리끼리 얘기지만",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "pochino",
+     "poco",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "idea",
+     "idea",
+     ""
+    ],
+    [
+     "fatta",
+     "fare",
+     ""
+    ],
+    [
+     "azienda",
+     "azienda",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Sinceramente? Il prodotto è ottimo, ma il sito sembra fermo al duemila.",
+   "rd": "씬체라멘떼? 일 프로도또 에 오띠모, 마 일 씨또 쎔브라 페르모 알 두에밀라.",
+   "ko": "솔직히요? 제품은 정말 좋은데, 사이트가 2000년에 멈춘 것 같아요.",
+   "note": "sinceramente = 솔직히",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "sinceramente",
+     "sinceramente",
+     ""
+    ],
+    [
+     "prodotto",
+     "prodotto",
+     ""
+    ],
+    [
+     "ottimo",
+     "ottimo",
+     ""
+    ],
+    [
+     "sito",
+     "sito",
+     ""
+    ],
+    [
+     "sembra",
+     "sembrare",
+     ""
+    ],
+    [
+     "fermo",
+     "fermo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "stiff",
+     "Sinceramente?"
+    ],
+    [
+     "cheerful",
+     "Il prodotto è ottimo, ma il sito sembra fermo al duemila."
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Addirittura. E se dovesse cambiare una cosa sola?",
+   "rd": "아디리뚜라. 에 쎄 도베쎄 깜비아레 우나 꼬자 쏠라?",
+   "ko": "그 정도예요? 딱 하나만 바꾼다면요?",
+   "note": "Addirittura = 그 정도로? 심지어",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "addirittura",
+     "addirittura",
+     ""
+    ],
+    [
+     "dovesse",
+     "dovere",
+     ""
+    ],
+    [
+     "cambiare",
+     "cambiare",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "sola",
+     "solo",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Toglierei quel video della direttrice che parla per venti minuti.",
+   "rd": "똘리에레이 꿸 비데오 델라 디레트리체 께 빠를라 뻬르 벤띠 미누띠.",
+   "ko": "대표님이 20분 동안 말하는 그 영상을 뺄 거예요.",
+   "note": "toglierei = 뺄 텐데(조건법)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "toglierei",
+     "togliere",
+     ""
+    ],
+    [
+     "video",
+     "video",
+     ""
+    ],
+    [
+     "direttrice",
+     "direttore",
+     ""
+    ],
+    [
+     "parla",
+     "parlare",
+     ""
+    ],
+    [
+     "minuti",
+     "minuto",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Venti minuti sono troppi, secondo Lei?",
+   "rd": "벤띠 미누띠 쏘노 트로삐, 쎄꼰도 레이?",
+   "ko": "20분이 너무 길다고 보세요?",
+   "note": "secondo Lei = 당신 생각에는",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "minuti",
+     "minuto",
+     ""
+    ],
+    [
+     "troppi",
+     "troppo",
+     ""
+    ],
+    [
+     "secondo",
+     "secondo",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Nessuno arriva alla fine, glielo garantisco. Nemmeno sua madre.",
+   "rd": "네쑤노 아리바 알라 피네, 리엘로 가란띠스꼬. 넴메노 쑤아 마드레.",
+   "ko": "끝까지 보는 사람 없어요, 장담합니다. 그분 어머니도요.",
+   "note": "glielo garantisco = 그건 제가 보장합니다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "nessuno",
+     "nessuno",
+     ""
+    ],
+    [
+     "arriva",
+     "arrivare",
+     ""
+    ],
+    [
+     "fine",
+     "fine",
+     ""
+    ],
+    [
+     "garantisco",
+     "garantire",
+     ""
+    ],
+    [
+     "madre",
+     "madre",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "amused",
+     "Nessuno arriva alla fine, glielo garantisco."
+    ],
+    [
+     "teasing",
+     "Nemmeno sua madre."
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Capisco. Ha altre osservazioni, prima che arrivi?",
+   "rd": "까삐스꼬. 아 알트레 오쎄르바찌오니, 프리마 께 아리비?",
+   "ko": "알겠습니다. 대표님 오시기 전에 또 하실 말씀은요?",
+   "note": "prima che + 접속법 = ~하기 전에",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "capisco",
+     "capire",
+     ""
+    ],
+    [
+     "altre",
+     "altro",
+     ""
+    ],
+    [
+     "osservazioni",
+     "osservazione",
+     ""
+    ],
+    [
+     "arrivi",
+     "arrivare",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Solo una: speriamo che abbia più senso dell'umorismo di quanto sembri nel video.",
+   "rd": "쏠로 우나: 스뻬리아모 께 아비아 삐우 쎈쏘 델루모리스모 디 꽌또 쎔브리 넬 비데오.",
+   "ko": "하나만요. 영상보다는 유머 감각이 있으시면 좋겠네요.",
+   "note": "speriamo che + 접속법 = ~이면 좋겠다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "speriamo",
+     "sperare",
+     ""
+    ],
+    [
+     "abbia",
+     "avere",
+     ""
+    ],
+    [
+     "senso",
+     "senso",
+     ""
+    ],
+    [
+     "umorismo",
+     "umorismo",
+     ""
+    ],
+    [
+     "sembri",
+     "sembrare",
+     ""
+    ],
+    [
+     "video",
+     "video",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "it": "Lo spero anch'io.",
+   "rd": "로 스뻬로 안끼오.",
+   "ko": "저도 그러길 바라요.",
+   "note": "낮게, 웃음기 없이",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "spero",
+     "sperare",
+     ""
+    ]
+   ],
+   "rd_manual": true,
+   "emotion": "neutral"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "it": "Mi scusi, ma perché si siede alla scrivania? Non aspettiamo la direttrice?",
+   "rd": "미 스꾸지, 마 뻬르께 씨 씨에데 알라 스크리바니아? 논 아스뻬띠아모 라 디레트리체?",
+   "ko": "저기, 왜 그 책상에 앉으세요? 대표님 안 기다리나요?",
+   "note": "Mi scusi = 저기요, 죄송한데요",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "scusi",
+     "scusare",
+     ""
+    ],
+    [
+     "siede",
+     "sedere",
+     ""
+    ],
+    [
+     "scrivania",
+     "scrivania",
+     ""
+    ],
+    [
+     "aspettiamo",
+     "aspettare",
+     ""
+    ],
+    [
+     "direttrice",
+     "direttore",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "È qui da un quarto d'ora. E mia madre, per la cronaca, è arrivata alla fine.",
+   "rd": "에 뀌 다 운 꽈르또 도라. 에 미아 마드레, 뻬르 라 크로나까, 에 아리바따 알라 피네.",
+   "ko": "여기 온 지 15분 됐어요. 그리고 참고로, 그분 어머니는 끝까지 보셨답니다.",
+   "note": "per la cronaca = 참고로 말하자면",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "quarto",
+     "quarto",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "madre",
+     "madre",
+     ""
+    ],
+    [
+     "cronaca",
+     "cronaca",
+     ""
+    ],
+    [
+     "arrivata",
+     "arrivare",
+     ""
+    ],
+    [
+     "fine",
+     "fine",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "neutral",
+     "È qui da un quarto d'ora."
+    ],
+    [
+     "teasing",
+     "E mia madre, per la cronaca, è arrivata alla fine."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Mi è appena tornato in mente un impegno urgentissimo.",
+   "rd": "미 에 아뻬나 또르나또 인 멘떼 운 임뻬뇨 우르젠띠씨모.",
+   "ko": "방금 아주 급한 약속이 생각났습니다.",
+   "note": "tornare in mente = 생각나다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "tornato",
+     "tornare",
+     ""
+    ],
+    [
+     "mente",
+     "mente",
+     ""
+    ],
+    [
+     "impegno",
+     "impegno",
+     ""
+    ],
+    [
+     "urgentissimo",
+     "urgente",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "it": "Si sieda. In tre anni nessuno me l'ha mai detto.",
+   "rd": "씨 씨에다. 인 트레 안니 네쑤노 메 라 마이 데또.",
+   "ko": "앉으세요. 3년 동안 그 말을 해 준 사람이 없었어요.",
+   "note": "Si sieda = 앉으세요(명령)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sieda",
+     "sedere",
+     ""
+    ],
+    [
+     "anni",
+     "anno",
+     ""
+    ],
+    [
+     "nessuno",
+     "nessuno",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Si sieda."
+    ],
+    [
+     "gentle",
+     "In tre anni nessuno me l'ha mai detto."
+    ]
+   ]
+  }
+ ],
+ "flags": []
+}

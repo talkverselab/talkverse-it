@@ -1,0 +1,286 @@
+{
+ "id": "r2_love_c2",
+ "region": "R2",
+ "island": "love",
+ "kind": "short",
+ "title": "번호 받은 다음 날",
+ "emoji": "💬",
+ "scene": "키아라 집 모임 다음 날 저녁, 줄리아가 먼저 문자를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Ehi",
+  "Certo",
+  "Allora"
+ ],
+ "goal": "챗 상황 1 첫 인사 · 3 약속 · 표현 Ehi · Certo · Allora",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ciao! Sono Giulia, l'amica di Chiara. Ti ricordi? 😊",
+   "rd": "챠오! 쏘노 줄리아, 라미까 디 끼아라. 띠 리꼬르디? 😊",
+   "ko": "안녕! 나 줄리아야, 키아라 친구. 기억나? 😊",
+   "note": "ti ricordi? = 기억나?(ricordarsi, 답은 mi ricordo)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Sono",
+     "essere",
+     ""
+    ],
+    [
+     "amica",
+     "amico",
+     ""
+    ],
+    [
+     "ricordi",
+     "ricordare",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "20:41",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Ehi, ciao! Certo, mi ricordo.",
+   "rd": "에이, 챠오! 체르또, 미 리꼬르도.",
+   "ko": "어, 안녕! 당연하지, 기억해.",
+   "note": "mi ricordo = 기억해(ricordare)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Certo",
+     "certo",
+     ""
+    ],
+    [
+     "ricordo",
+     "ricordare",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "20:43"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Allora... domani prendi un caffè con me?",
+   "rd": "알로라... 도마니 프렌디 운 까페 꼰 메?",
+   "ko": "그럼… 내일 나랑 커피 마실래?",
+   "note": "prendere un caffè = 커피 마시다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Allora",
+     "allora",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "prendi",
+     "prendere",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ]
+   ],
+   "emotion": "shy",
+   "ui": "bubble",
+   "at": "20:43"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Domani? Sì, certo! Mi piace l'idea.",
+   "rd": "도마니? 씨, 체르또! 미 삐아체 리데아.",
+   "ko": "내일? 응, 좋아! 그거 좋다.",
+   "note": "mi piace = 나 그거 좋아(마지막 mi piaci 와 짝)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "idea",
+     "idea",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "20:44",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Chiara, ha detto sì!!!",
+   "rd": "끼아라, 아 데또 씨!!!",
+   "ko": "키아라, 걔가 좋대!!!",
+   "note": "ha detto sì = 좋다고 했어(dire 근과거)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "detto",
+     "dire",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "20:44"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Ops. Non era per te.",
+   "rd": "옵스. 논 에라 뻬르 떼.",
+   "ko": "헉. 너한테 보낸 거 아니야.",
+   "note": "per te = 너한테, 너를 위해",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "era",
+     "essere",
+     ""
+    ],
+    [
+     "te",
+     "te",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "rd_manual": true,
+   "ui": "bubble",
+   "at": "20:44"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Ahahah. Ho letto tutto.",
+   "rd": "아하하. 오 레또 뚜또.",
+   "ko": "아하하. 다 읽었어.",
+   "note": "ho letto = 읽었어(leggere 근과거)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "letto",
+     "leggere",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "rd_manual": true,
+   "ui": "bubble",
+   "at": "20:45"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Bene. Così sai che mi piaci.",
+   "rd": "베네. 꼬지 싸이 께 미 삐아치.",
+   "ko": "잘됐네. 이제 내가 너 좋아하는 거 알겠네.",
+   "note": "mi piaci = 나는 네가 좋아",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Bene",
+     "bene",
+     ""
+    ],
+    [
+     "sai",
+     "sapere",
+     ""
+    ],
+    [
+     "piaci",
+     "piacere",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Bene. "
+    ],
+    [
+     "gentle",
+     "Così sai che mi piaci."
+    ]
+   ],
+   "ui": "bubble",
+   "at": "20:46"
+  }
+ ]
+}

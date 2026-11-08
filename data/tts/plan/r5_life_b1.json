@@ -1,0 +1,129 @@
+{
+ "ep": "r5_life_b1",
+ "cast": {
+  "B": "luca",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Ecco l'appartamento. Luminoso, tranquillo, e l'affitto è solo seicento euro."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Seicento? In questo quartiere?"
+    ],
+    [
+     "worried",
+     "Dov'è la fregatura?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Nessun problema! Riscaldamento compreso, balcone, e i vicini sono simpaticissimi."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Guarda, dal balcone si vede lo stadio!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Luca, concentrati. Signor Ferri, perché l'inquilino di prima se n'è andato?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Si è trasferito... per motivi di salute."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Di salute? Cosa gli è successo?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Niente di grave. Dormiva poco, ecco."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "surprised",
+     "Dormiva poco? E perché?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Il vicino di sopra suona la batteria. Ma solo la sera."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Solo la sera... fino a che ora?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "polite",
+     "Dipende dalle partite: è il batterista della curva. "
+    ],
+    [
+     "cheerful",
+     "E quando la squadra vince, festeggiano tutti sul vostro balcone."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "excited",
+     "Tutta la curva? Sul nostro balcone? Firmo subito!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "annoyed",
+     "Luca, non firmare niente. Metti giù quella penna."
+    ]
+   ]
+  }
+ }
+}

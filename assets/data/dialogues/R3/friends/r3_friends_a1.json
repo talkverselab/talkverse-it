@@ -1,0 +1,312 @@
+{
+ "id": "r3_friends_a1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "title": "폰들은 어디 갔지?",
+ "emoji": "📱",
+ "scene": "R1 「폰은 어디 갔지?」의 복수판. 이번엔 키아라와 줄리아가 젤라토를 사 들고 같이 놀러 왔고, 둘 다 폰이 없다고 난리다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara",
+  "C": "Giulia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Mamma mia",
+  "Tranquille",
+  "Dai",
+  "Ecco"
+ ],
+ "goal": "그래머2: R1 같은 문장을 복수로 — non troviamo/trovati · li chiamo · aspettate · abbiamo messo · vorremmo, 여성 복수 tranquille·i telefoni (새 단어 0) · 표현 Mamma mia · Tranquille · Dai · Ecco",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Mamma mia, non troviamo i nostri telefoni!",
+   "rd": "맘마 미아, 논 트로비아모 이 노스트리 뗄레포니!",
+   "ko": "어떡해, 우리 폰이 안 보여!",
+   "note": "troviamo = 우리 찾다(trovare)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "troviamo",
+     "trovare",
+     ""
+    ],
+    [
+     "nostri",
+     "nostro",
+     ""
+    ],
+    [
+     "telefoni",
+     "telefono",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Tranquille, li chiamo io.",
+   "rd": "트란뀔레, 리 끼아모 이오.",
+   "ko": "진정해, 내가 전화 걸어 볼게.",
+   "note": "tranquille = 진정해(여자 둘 → -e), li = 그것들을",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquille",
+     "tranquillo",
+     ""
+    ],
+    [
+     "chiamo",
+     "chiamare",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Dai, chiama! Senti qualcosa?",
+   "rd": "다이, 끼아마! 쎈띠 꽐꼬자?",
+   "ko": "빨리 걸어 봐! 뭐 들려?",
+   "note": "senti = 너 들리다(sentire) — 4턴 sento(나)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "chiama",
+     "chiamare",
+     ""
+    ],
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "qualcosa",
+     "qualcosa",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Aspettate... sento una musica. Dal frigo?",
+   "rd": "아스뻬따떼... 쎈또 우나 무지까. 달 프리고?",
+   "ko": "잠깐만… 음악 소리 나. 냉장고에서?",
+   "note": "aspettate = 너희 기다려(aspettare, voi 명령)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [
+    "frigo"
+   ],
+   "lemmas": [
+    [
+     "aspettate",
+     "aspettare",
+     ""
+    ],
+    [
+     "sento",
+     "sentire",
+     ""
+    ],
+    [
+     "musica",
+     "musica",
+     ""
+    ],
+    [
+     "frigo",
+     "frigo",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "it": "Dal frigo? Ma che dici?",
+   "rd": "달 프리고? 마 께 디치?",
+   "ko": "냉장고에서? 무슨 소리야?",
+   "note": "dici = 너 말한다(dire)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "frigo",
+     "frigo",
+     ""
+    ],
+    [
+     "dici",
+     "dire",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ecco, trovati! Sono nei gelati. I vostri gelati.",
+   "rd": "에꼬, 트로바띠! 쏘노 네이 젤라띠. 이 보스트리 젤라띠.",
+   "ko": "찾았다! 젤라토 안에 있어. 너희 젤라토.",
+   "note": "trovati = 찾았다(trovare, 폰 둘 → -i) — 1턴 troviamo, nei = in + i",
+   "tags": [
+    "step:4",
+    "step:5"
+   ],
+   "new": [
+    "gelato"
+   ],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "trovati",
+     "trovare",
+     ""
+    ],
+    [
+     "gelati",
+     "gelato",
+     ""
+    ],
+    [
+     "vostri",
+     "vostro",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Ah, sì! Abbiamo messo i gelati e... i telefoni.",
+   "rd": "아, 씨! 아비아모 메쏘 이 젤라띠 에... 이 뗄레포니.",
+   "ko": "아, 맞다! 젤라토 넣으면서… 폰도 같이.",
+   "note": "abbiamo messo = 우리 넣었다(mettere 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "abbiamo messo",
+     "mettere",
+     ""
+    ],
+    [
+     "gelati",
+     "gelato",
+     ""
+    ],
+    [
+     "telefoni",
+     "telefono",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Ah, sì! Abbiamo messo i gelati e..."
+    ],
+    [
+     "flustered",
+     "i telefoni."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "it": "I telefoni sono morti. Ma vorremmo finire i gelati.",
+   "rd": "이 뗄레포니 쏘노 모르띠. 마 보렘모 피니레 이 젤라띠.",
+   "ko": "폰은 둘 다 죽었어. 근데 젤라토는 마저 먹을래.",
+   "note": "vorremmo = 우리 ~하고 싶은데(volere 조건)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "telefoni",
+     "telefono",
+     ""
+    ],
+    [
+     "morti",
+     "morire",
+     ""
+    ],
+    [
+     "vorremmo",
+     "volere",
+     ""
+    ],
+    [
+     "finire",
+     "finire",
+     ""
+    ],
+    [
+     "gelati",
+     "gelato",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "sad",
+     "I telefoni sono morti."
+    ],
+    [
+     "cheerful",
+     "Ma vorremmo finire i gelati."
+    ]
+   ]
+  }
+ ]
+}

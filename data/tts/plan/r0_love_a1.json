@@ -1,0 +1,86 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "gentle",
+     "Ehi, {name}. Hai un momento?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo. Che c'è?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Domani... sei libero?"
+    ]
+   ],
+   "f": {
+    "text": "Domani... sei libera?",
+    "rd": "도마니... 쎄이 리베라?",
+    "ko": "내일… 시간 있어?",
+    "segs": [
+     [
+      "shy",
+      "Domani... sei libera?"
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Libero, liberissimo. Perché?"
+    ]
+   ],
+   "f": {
+    "text": "Libera, liberissima. Perché?",
+    "rd": "리베라, 리베리씨마. 뻬르께?",
+    "ko": "한가해, 완전 한가해. 왜?",
+    "segs": [
+     [
+      "excited",
+      "Libera, liberissima. Perché?"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Allora... "
+    ],
+    [
+     "gentle",
+     "vieni con me."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Sì! Cioè... "
+    ],
+    [
+     "shy",
+     "va bene, vengo."
+    ]
+   ]
+  }
+ }
+}

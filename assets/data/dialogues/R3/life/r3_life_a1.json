@@ -1,0 +1,326 @@
+{
+ "id": "r3_life_a1",
+ "region": "R3",
+ "island": "life",
+ "kind": "short",
+ "title": "할머니 이름이 줄리아랑 마르코?",
+ "emoji": "🌹",
+ "scene": "R1 「할머니 이름이 줄리아?」의 복수판. 이번엔 학습자와 키아라가 같이 새벽에 들어왔고, 식탁 위에 장미가 두 송이",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca",
+  "C": "Chiara"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Ehi",
+  "Boh",
+  "Va bene"
+ ],
+ "goal": "그래머2: R1 같은 문장을 복수로 — siete usciti/siamo usciti · le portate/le portiamo · nonna/nonne · ci piacciono (새 단어 0)",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi, con chi siete usciti ieri sera?",
+   "rd": "에이, 꼰 끼 씨에떼 우시띠 이에리 쎄라?",
+   "ko": "야, 너희 어젯밤에 누구랑 나갔어?",
+   "note": "siete usciti = 너희 나갔다(uscire, 남성·혼성 복수 -i) — 2턴 siamo usciti",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "chi",
+     "chi",
+     ""
+    ],
+    [
+     "siete usciti",
+     "uscire",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Ehi, con chi siete uscite ieri sera?",
+   "ko_f": "야, 너희 어젯밤에 누구랑 나갔어?",
+   "rd_f": "에이, 꼰 끼 씨에떼 우시떼 이에리 쎄라?"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Siamo usciti con Giulia e Marco. Solo due pizze.",
+   "rd": "씨아모 우시띠 꼰 줄리아 에 마르꼬. 쏠로 두에 삐쩨.",
+   "ko": "줄리아랑 마르코랑 나갔어. 피자 두 판뿐이야.",
+   "note": "siamo usciti = 우리 나갔다(혼성 복수 = -i)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "siamo usciti",
+     "uscire",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "pizze",
+     "pizza",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "it_f": "Siamo uscite con Giulia e Marco. Solo due pizze.",
+   "ko_f": "줄리아랑 마르코랑 나갔어. 피자 두 판뿐이야.",
+   "rd_f": "씨아모 우시떼 꼰 줄리아 에 마르꼬. 쏠로 두에 삐쩨."
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Due pizze? Fino alle tre di notte?",
+   "rd": "두에 삐쩨? 피노 알레 트레 디 노떼?",
+   "ko": "피자 두 판? 새벽 세 시까지?",
+   "note": "pizza → pizze(여성 복수)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "pizze",
+     "pizza",
+     ""
+    ],
+    [
+     "fino",
+     "fino",
+     ""
+    ],
+    [
+     "tre",
+     "tre",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "it": "Boh, le pizze erano grandi.",
+   "rd": "보, 레 삐쩨 에라노 그란디.",
+   "ko": "글쎄, 피자가 컸어.",
+   "note": "erano = ~였다(복수)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "pizze",
+     "pizza",
+     ""
+    ],
+    [
+     "erano",
+     "essere",
+     ""
+    ],
+    [
+     "grandi",
+     "grande",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "E queste rose? A chi le portate?",
+   "rd": "에 꿰스떼 로제? 아 끼 레 뽀르따떼?",
+   "ko": "그럼 이 장미들은? 누구 갖다 주게?",
+   "note": "le portate = 너희 그것들을 가져간다(portare) — 6턴 le portiamo",
+   "tags": [
+    "step:7",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "queste",
+     "questo",
+     ""
+    ],
+    [
+     "rose",
+     "rosa",
+     ""
+    ],
+    [
+     "chi",
+     "chi",
+     ""
+    ],
+    [
+     "portate",
+     "portare",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Le rose? Le portiamo alle nostre nonne.",
+   "rd": "레 로제? 레 뽀르띠아모 알레 노스트레 논네.",
+   "ko": "장미? 우리 할머니들 갖다 드릴 거야.",
+   "note": "le portiamo = 그것들을 가져간다",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "rose",
+     "rosa",
+     ""
+    ],
+    [
+     "portiamo",
+     "portare",
+     ""
+    ],
+    [
+     "nonne",
+     "nonna",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Le vostre nonne si chiamano Giulia e Marco? Nonna Marco?",
+   "rd": "레 보스트레 논네 씨 끼아마노 줄리아 에 마르꼬? 논나 마르꼬?",
+   "ko": "너희 할머니들 이름이 줄리아랑 마르코야? 마르코 할머니?",
+   "note": "si chiamano = 이름이 ~이다(복수)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "nonne",
+     "nonna",
+     ""
+    ],
+    [
+     "chiamano",
+     "chiamare",
+     ""
+    ],
+    [
+     "Nonna",
+     "nonna",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "it": "Va bene, ci piacciono. Contento?",
+   "rd": "바 베네, 치 삐아쵸노. 꼰뗀또?",
+   "ko": "알았어, 우리 걔네 좋아해. 됐냐?",
+   "note": "ci piacciono = 우리 마음에 든다(복수)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "piacciono",
+     "piacere",
+     ""
+    ],
+    [
+     "contento",
+     "contento",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shy",
+     "Va bene, ci piacciono."
+    ],
+    [
+     "annoyed",
+     "Contento?"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "id": "r2_love_c1",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "갤러리 절반",
+ "emoji": "📸",
+ "scene": "밤 아홉 시, 줄리아가 학습자의 스토리를 보고 먼저 DM 을 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "chat",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Ehi",
+  "Ma dai",
+  "Ecco"
+ ],
+ "goal": "챗 상황 2 사진 · 표현 Ehi · Ma dai · Ecco · Troppo tardi",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Ho visto la tua storia 😍 Dov'eri?",
+   "rd": "에이! 오 비스또 라 뚜아 스또리아 😍 도베리?",
+   "ko": "안녕! 네 스토리 봤어 😍 어디였어?",
+   "note": "storia = (SNS) 스토리",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "visto",
+     "vedere",
+     ""
+    ],
+    [
+     "storia",
+     "storia",
+     ""
+    ],
+    [
+     "eri",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "21:03"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "In centro! Il gelato più buono di Roma.",
+   "rd": "인 첸트로! 일 젤라또 삐우 부오노 디 로마.",
+   "ko": "시내! 로마에서 제일 맛있는 젤라토.",
+   "note": "più buono = 제일 맛있는",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "centro",
+     "centro",
+     ""
+    ],
+    [
+     "gelato",
+     "gelato",
+     ""
+    ],
+    [
+     "buono",
+     "buono",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "21:04"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Ma dai! Mandami una foto del posto.",
+   "rd": "마 다이! 만다미 우나 포또 델 뽀스또.",
+   "ko": "진짜? 거기 사진 좀 보내 줘.",
+   "note": "mandami = 나한테 보내 줘",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mandami",
+     "mandare",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ],
+    [
+     "posto",
+     "posto",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:04"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ecco, guarda! 📸📸📸",
+   "rd": "에꼬, 구아르다! 📸📸📸",
+   "ko": "자, 봐! 📸📸📸",
+   "note": "Ecco = 자, 여기",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "21:06"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Aspetta... mi hai mandato mezza galleria 😂",
+   "rd": "아스뻬따... 미 아이 만다또 메짜 갈레리아 😂",
+   "ko": "잠깐… 너 사진첩 절반을 보냈어 😂",
+   "note": "mezza galleria = 사진첩 절반",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ],
+    [
+     "mandato",
+     "mandare",
+     ""
+    ],
+    [
+     "mezza",
+     "mezzo",
+     ""
+    ],
+    [
+     "galleria",
+     "galleria",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "21:06"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "E in una dormi sul bus. A bocca aperta.",
+   "rd": "에 인 우나 도르미 쑬 부스. 아 보까 아뻬르따.",
+   "ko": "그리고 한 장은 버스에서 자고 있어. 입 벌리고.",
+   "note": "dormi = 너 잔다",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dormi",
+     "dormire",
+     ""
+    ],
+    [
+     "bus",
+     "bus",
+     ""
+    ],
+    [
+     "bocca",
+     "bocca",
+     ""
+    ],
+    [
+     "aperta",
+     "aperto",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "21:07"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "No no no, non guardare! Cancella tutto!",
+   "rd": "노 노 노, 논 구아르다레! 깐첼라 뚜또!",
+   "ko": "안 돼 안 돼, 보지 마! 다 지워!",
+   "note": "non guardare = 보지 마(guarda → 부정 명령은 원형)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "guardare",
+     "guardare",
+     ""
+    ],
+    [
+     "cancella",
+     "cancellare",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "21:07",
+   "emotion": "shout"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Troppo tardi. È già il mio sfondo ❤️",
+   "rd": "트로뽀 따르디. 에 쟈 일 미오 스폰도 ❤️",
+   "ko": "이미 늦었어. 벌써 내 배경 화면이야 ❤️",
+   "note": "sfondo = 배경 화면",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "troppo",
+     "troppo",
+     ""
+    ],
+    [
+     "tardi",
+     "tardi",
+     ""
+    ],
+    [
+     "È",
+     "essere",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "sfondo",
+     "sfondo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Troppo tardi."
+    ],
+    [
+     "gentle",
+     "È già il mio sfondo ❤️"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "21:09"
+  }
+ ]
+}

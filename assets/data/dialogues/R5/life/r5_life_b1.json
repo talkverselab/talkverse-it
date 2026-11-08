@@ -1,0 +1,576 @@
+{
+ "id": "r5_life_b1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "육백 유로짜리 집",
+ "emoji": "🏠",
+ "scene": "학습자와 루카가 집을 보러 왔다. 중개인 페리 씨가 말하는 조건이 너무 좋다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca",
+  "C": "Signor Ferri"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Ecco",
+  "Guarda",
+  "Niente di grave"
+ ],
+ "goal": "어휘 주제 1 집·7 돈 · 존댓말 Lei · 표현 Ecco · Guarda · Niente di grave",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "it": "Ecco l'appartamento. Luminoso, tranquillo, e l'affitto è solo seicento euro.",
+   "rd": "에꼬 라빠르따멘또. 루미노조, 트란뀔로, 에 라피또 에 쏠로 쎄이첸또 에우로.",
+   "ko": "여기가 그 집입니다. 밝고 조용하고, 월세가 겨우 600유로예요.",
+   "note": "affitto = 월세",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "appartamento",
+     "appartamento",
+     ""
+    ],
+    [
+     "luminoso",
+     "luminoso",
+     ""
+    ],
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "affitto",
+     "affitto",
+     ""
+    ],
+    [
+     "seicento",
+     "seicento",
+     ""
+    ],
+    [
+     "euro",
+     "euro",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Seicento? In questo quartiere? Dov'è la fregatura?",
+   "rd": "쎄이첸또? 인 꿰스또 꽈르띠에레? 도베 라 프레가뚜라?",
+   "ko": "600이요? 이 동네에서요? 함정이 뭐예요?",
+   "note": "fregatura = 함정, 바가지",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "seicento",
+     "seicento",
+     ""
+    ],
+    [
+     "quartiere",
+     "quartiere",
+     ""
+    ],
+    [
+     "fregatura",
+     "fregatura",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Seicento? In questo quartiere?"
+    ],
+    [
+     "worried",
+     "Dov'è la fregatura?"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "it": "Nessun problema! Riscaldamento compreso, balcone, e i vicini sono simpaticissimi.",
+   "rd": "네쑨 프로블레마! 리스깔다멘또 꼼프레조, 발꼬네, 에 이 비치니 쏘노 씸빠띠치씨미.",
+   "ko": "문제없어요! 난방비 포함, 발코니 있고, 이웃들도 아주 좋아요.",
+   "note": "compreso = 포함된",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "problema",
+     "problema",
+     ""
+    ],
+    [
+     "riscaldamento",
+     "riscaldamento",
+     ""
+    ],
+    [
+     "compreso",
+     "comprendere",
+     ""
+    ],
+    [
+     "balcone",
+     "balcone",
+     ""
+    ],
+    [
+     "vicini",
+     "vicino",
+     ""
+    ],
+    [
+     "simpaticissimi",
+     "simpatico",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Guarda, dal balcone si vede lo stadio!",
+   "rd": "구아르다, 달 발꼬네 씨 베데 로 스따디오!",
+   "ko": "야 봐, 발코니에서 경기장이 보여!",
+   "note": "si vede = 보인다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "balcone",
+     "balcone",
+     ""
+    ],
+    [
+     "vede",
+     "vedere",
+     ""
+    ],
+    [
+     "stadio",
+     "stadio",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Luca, concentrati. Signor Ferri, perché l'inquilino di prima se n'è andato?",
+   "rd": "루까, 꼰첸트라띠. 씨뇨르 페리, 뻬르께 린뀔리노 디 프리마 쎄 네 안다또?",
+   "ko": "루카, 집중해. 페리 씨, 전에 살던 사람은 왜 나갔어요?",
+   "note": "inquilino = 세입자",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "concentrati",
+     "concentrare",
+     ""
+    ],
+    [
+     "inquilino",
+     "inquilino",
+     ""
+    ],
+    [
+     "prima",
+     "prima",
+     ""
+    ],
+    [
+     "andato",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "it": "Si è trasferito... per motivi di salute.",
+   "rd": "씨 에 트라스페리또... 뻬르 모띠비 디 쌀루떼.",
+   "ko": "이사했죠… 건강상의 이유로.",
+   "note": "trasferirsi = 이사하다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "trasferito",
+     "trasferire",
+     ""
+    ],
+    [
+     "motivi",
+     "motivo",
+     ""
+    ],
+    [
+     "salute",
+     "salute",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Di salute? Cosa gli è successo?",
+   "rd": "디 쌀루떼? 꼬자 리 에 쑤체쏘?",
+   "ko": "건강이요? 무슨 일이 있었는데요?",
+   "note": "gli è successo = 그에게 일어났다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "salute",
+     "salute",
+     ""
+    ],
+    [
+     "successo",
+     "succedere",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "it": "Niente di grave. Dormiva poco, ecco.",
+   "rd": "니엔떼 디 그라베. 도르미바 뽀꼬, 에꼬.",
+   "ko": "별일 아니에요. 잠을 좀 못 잤을 뿐이에요.",
+   "note": "Niente di grave = 별일 아니다",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "dormiva",
+     "dormire",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Dormiva poco? E perché?",
+   "rd": "도르미바 뽀꼬? 에 뻬르께?",
+   "ko": "잠을 못 잤다고요? 왜요?",
+   "note": "dormiva = 자곤 했다(반과거)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dormiva",
+     "dormire",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ],
+    [
+     "perché",
+     "perché",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "it": "Il vicino di sopra suona la batteria. Ma solo la sera.",
+   "rd": "일 비치노 디 쏘프라 쑤오나 라 바떼리아. 마 쏠로 라 쎄라.",
+   "ko": "윗집 사람이 드럼을 쳐요. 근데 저녁에만요.",
+   "note": "suonare la batteria = 드럼을 치다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vicino",
+     "vicino",
+     ""
+    ],
+    [
+     "sopra",
+     "sopra",
+     ""
+    ],
+    [
+     "suona",
+     "suonare",
+     ""
+    ],
+    [
+     "batteria",
+     "batteria",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "it": "Solo la sera... fino a che ora?",
+   "rd": "쏠로 라 쎄라... 피노 아 께 오라?",
+   "ko": "저녁에만… 몇 시까지요?",
+   "note": "fino a che ora = 몇 시까지",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sera",
+     "sera",
+     ""
+    ],
+    [
+     "fino",
+     "fino",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "it": "Dipende dalle partite: è il batterista della curva. E quando la squadra vince, festeggiano tutti sul vostro balcone.",
+   "rd": "디뻰데 달레 빠르띠떼: 에 일 바떼리스따 델라 꾸르바. 에 꽌도 라 스꽈드라 빈체, 페스떼쟈노 뚜띠 쑬 보스트로 발꼬네.",
+   "ko": "경기에 따라 달라요. 응원석 드러머거든요. 그리고 팀이 이기면 다들 이 집 발코니에서 축하 파티를 해요.",
+   "note": "festeggiare = 축하하다, 파티하다 · curva = (경기장) 응원석",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dipende",
+     "dipendere",
+     ""
+    ],
+    [
+     "partite",
+     "partita",
+     ""
+    ],
+    [
+     "batterista",
+     "batterista",
+     ""
+    ],
+    [
+     "curva",
+     "curva",
+     ""
+    ],
+    [
+     "squadra",
+     "squadra",
+     ""
+    ],
+    [
+     "vince",
+     "vincere",
+     ""
+    ],
+    [
+     "festeggiano",
+     "festeggiare",
+     ""
+    ],
+    [
+     "tutti",
+     "tutto",
+     ""
+    ],
+    [
+     "vostro",
+     "vostro",
+     ""
+    ],
+    [
+     "balcone",
+     "balcone",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "polite",
+     "Dipende dalle partite: è il batterista della curva. "
+    ],
+    [
+     "cheerful",
+     "E quando la squadra vince, festeggiano tutti sul vostro balcone."
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "Tutta la curva? Sul nostro balcone? Firmo subito!",
+   "rd": "뚜따 라 꾸르바? 쑬 노스트로 발꼬네? 피르모 쑤비또!",
+   "ko": "응원석 전체가요? 우리 발코니에서요? 당장 계약할게요!",
+   "note": "firmare = 서명하다, 계약하다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Tutta",
+     "tutto",
+     ""
+    ],
+    [
+     "curva",
+     "curva",
+     ""
+    ],
+    [
+     "nostro",
+     "nostro",
+     ""
+    ],
+    [
+     "balcone",
+     "balcone",
+     ""
+    ],
+    [
+     "Firmo",
+     "firmare",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Luca, non firmare niente. Metti giù quella penna.",
+   "rd": "루까, 논 피르마레 니엔떼. 메띠 주 꿸라 뻰나.",
+   "ko": "루카, 아무것도 서명하지 마. 그 펜 내려놔.",
+   "note": "metti giù = 내려놔",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "firmare",
+     "firmare",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "metti",
+     "mettere",
+     ""
+    ],
+    [
+     "penna",
+     "penna",
+     ""
+    ]
+   ],
+   "emotion": "annoyed"
+  }
+ ]
+}

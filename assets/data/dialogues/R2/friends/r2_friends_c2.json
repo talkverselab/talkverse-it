@@ -1,0 +1,316 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "short",
+ "title": "끝났어",
+ "emoji": "🍦",
+ "scene": "오후, 키아라가 심각한 말투로 문자를 보내기 시작한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "Mamma mia",
+  "Ma dai"
+ ],
+ "goal": "챗 상황 8 오해 · 7 농담 · 표현 Mamma mia · Ma dai",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ti devo dire una cosa... è finita.",
+   "rd": "띠 데보 디레 우나 꼬자... 에 피니따.",
+   "ko": "할 말이 있어… 끝났어.",
+   "note": "è finita = 끝났다(finire, 여성 일치)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "devo",
+     "dovere",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "finita",
+     "finire",
+     ""
+    ]
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "15:20"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Cosa?! Con lui? Stai bene? Dimmi.",
+   "rd": "꼬자?! 꼰 루이? 스따이 베네? 딤미.",
+   "ko": "뭐?! 걔랑? 괜찮아? 말해 봐.",
+   "note": "dimmi = 나한테 말해(dire 명령 + mi, ti devo dire 를 받음)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "lui",
+     "lui",
+     ""
+    ],
+    [
+     "Stai",
+     "stare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "Dimmi",
+     "dire",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "15:21",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "No... è peggio. Molto peggio.",
+   "rd": "노... 에 뻬조. 몰또 뻬조.",
+   "ko": "아니… 더 심해. 훨씬 더.",
+   "note": "peggio = 더 나쁜",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "peggio",
+     "peggio",
+     ""
+    ],
+    [
+     "Molto",
+     "molto",
+     ""
+    ]
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "15:21"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Mamma mia. Vengo da te?",
+   "rd": "맘마 미아. 벵고 다 떼?",
+   "ko": "세상에. 너네 집 갈까?",
+   "note": "vengo da te = 너한테 갈게",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "Vengo",
+     "venire",
+     ""
+    ],
+    [
+     "te",
+     "te",
+     ""
+    ]
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "15:22"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Il gelato al pistacchio... finito. Per sempre 😭",
+   "rd": "일 젤라또 알 삐스따끼오... 피니또. 뻬르 쎔프레 😭",
+   "ko": "피스타치오 젤라토가… 끝났대. 영원히 😭",
+   "note": "per sempre = 영원히",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "gelato",
+     "gelato",
+     ""
+    ],
+    [
+     "pistacchio",
+     "pistacchio",
+     ""
+    ],
+    [
+     "finito",
+     "finire",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ]
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "15:22"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Chiara. Ma dai! Pensavo a un ragazzo!",
+   "rd": "끼아라. 마 다이! 뻰싸보 아 운 라가쪼!",
+   "ko": "키아라. 장난해? 남자 얘긴 줄 알았잖아!",
+   "note": "pensavo a = ~를 생각했어",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "Pensavo",
+     "pensare",
+     ""
+    ],
+    [
+     "ragazzo",
+     "ragazzo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Chiara. "
+    ],
+    [
+     "tsukkomi",
+     "Ma dai! Pensavo a un ragazzo!"
+    ]
+   ],
+   "ui": "bubble",
+   "at": "15:23"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Un ragazzo passa. Il pistacchio no.",
+   "rd": "운 라가쪼 빠싸. 일 삐스따끼오 노.",
+   "ko": "남자는 지나가. 피스타치오는 안 돼.",
+   "note": "passa = 지나간다(passare)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ragazzo",
+     "ragazzo",
+     ""
+    ],
+    [
+     "passa",
+     "passare",
+     ""
+    ],
+    [
+     "pistacchio",
+     "pistacchio",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "15:23"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Va bene, va bene. Domani vieni con me in un posto nuovo.",
+   "rd": "바 베네, 바 베네. 도마니 비에니 꼰 메 인 운 뽀스또 누오보.",
+   "ko": "알았어, 알았어. 내일 나랑 새로운 데 가자.",
+   "note": "vieni con me = 나랑 같이 가자(vengo → vieni)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "Domani",
+     "domani",
+     ""
+    ],
+    [
+     "vieni",
+     "venire",
+     ""
+    ],
+    [
+     "posto",
+     "posto",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "15:24",
+   "emotion": "gentle"
+  }
+ ]
+}

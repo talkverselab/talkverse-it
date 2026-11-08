@@ -1,0 +1,89 @@
+{
+ "ep": "r3_love_a2",
+ "cast": {
+  "B": "giulia",
+  "C": "luca",
+  "D": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ecco! Ho fatto la cena per voi."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Per noi? Hai fatto tutto tu?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo! La pasta, la musica... tutto per Lei."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shy",
+     "Mamma mia. È proprio bravo, Giulia."
+    ]
+   ],
+   "f": {
+    "text": "Mamma mia. È proprio brava, Giulia.",
+    "rd": "맘마 미아. 에 프로프리오 브라바, 줄리아.",
+    "ko": "어머. 얘 진짜 대단하다, 줄리아.",
+    "segs": [
+     [
+      "shy",
+      "Mamma mia. È proprio brava, Giulia."
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao! Ho mangiato la pasta. Buonissima!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Tutta?! Hai mangiato la cena della mamma di Giulia!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Ah... mi scusi. Torno al lavoro."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Lascia stare."
+    ],
+    [
+     "gentle",
+     "Vorrei solo stare qui con te."
+    ]
+   ]
+  }
+ }
+}

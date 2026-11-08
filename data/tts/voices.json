@@ -1,0 +1,138 @@
+{
+ "_meta": "이탈리아어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명 instruct 는 영어).",
+ "base_text": "Stasera ho una riunione, quindi ho già preparato tutto stamattina. Quando abbiamo finito, andiamo a cena insieme, va bene?",
+ "voices": {
+  "am": {
+   "desc": "A young Italian man in his twenties, clear and gentle voice"
+  },
+  "af": {
+   "desc": "A young Italian woman in her twenties, clear and soft voice"
+  },
+  "giulia": {
+   "desc": "An Italian woman in her mid twenties from Rome, warm, playful and teasing voice"
+  },
+  "chiara": {
+   "desc": "An Italian woman in her early twenties, fast, talkative and bright voice"
+  },
+  "marco": {
+   "desc": "An Italian man in his late twenties, relaxed, low and laconic voice"
+  },
+  "luca": {
+   "desc": "An Italian man in his mid twenties, direct, energetic and friendly voice"
+  },
+  "man_m": {
+   "desc": "An Italian man in his forties, steady and calm voice"
+  },
+  "woman_m": {
+   "desc": "An Italian woman in her forties, composed, elegant and dry voice"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "plain everyday conversation, flat and relaxed, no acting at all, natural conversational pace, subtle",
+   "ref": "Stasera ho una riunione, quindi preparo tutto adesso."
+  },
+  "polite": {
+   "instruct": "plain and polite, like a clerk at work, no extra warmth, natural conversational pace, subtle",
+   "ref": "Buongiorno, posso aiutarLa? Prego, si accomodi pure."
+  },
+  "stiff": {
+   "instruct": "a little tense, slightly formal, still natural, natural conversational pace, subtle",
+   "ref": "Buongiorno. Mi scusi, sono qui per il colloquio delle dieci."
+  },
+  "cheerful": {
+   "instruct": "lightly friendly, a small smile in the voice, not bubbly, natural conversational pace, subtle",
+   "ref": "Che bella giornata! Andiamo a prendere un gelato insieme?"
+  },
+  "amused": {
+   "instruct": "quietly amused, a slight smile, no laughing, natural conversational pace, subtle",
+   "ref": "Ma dai, questa è bellissima, non ci posso credere!"
+  },
+  "teasing": {
+   "instruct": "dry and lightly teasing, understated, natural conversational pace, subtle",
+   "ref": "Ah sì? Guarda che ti ho visto, sai. Non fare così."
+  },
+  "excited": {
+   "instruct": "mildly pleased and a bit faster, not loud, natural conversational pace, subtle",
+   "ref": "Non ci credo! Abbiamo vinto, abbiamo vinto davvero!"
+  },
+  "surprised": {
+   "instruct": "mildly surprised, a small rise in pitch, not gasping, natural conversational pace, subtle",
+   "ref": "Cosa? Davvero? Ma quando è successo?"
+  },
+  "shout": {
+   "instruct": "raising the voice slightly to be heard, not yelling, natural conversational pace, subtle",
+   "ref": "Ehi, scusa, hai lasciato la borsa là."
+  },
+  "tsukkomi": {
+   "instruct": "dry, deadpan pushback, not loud, natural conversational pace, subtle",
+   "ref": "Ma scherzi? Ma ti sembra normale, secondo te?"
+  },
+  "annoyed": {
+   "instruct": "slightly tired and flat, not angry, natural conversational pace, subtle",
+   "ref": "Basta, te l'ho già detto tre volte. Che pazienza."
+  },
+  "sad": {
+   "instruct": "a little quiet and low, not crying, natural conversational pace, subtle",
+   "ref": "Pensavo che questa volta fosse diverso. Va bene lo stesso."
+  },
+  "worried": {
+   "instruct": "slightly unsure, a little quieter, not panicked, natural conversational pace, subtle",
+   "ref": "Tutto bene? Non hai risposto, volevo solo sapere."
+  },
+  "flustered": {
+   "instruct": "a little awkward and rushed, not panicked, natural conversational pace, subtle",
+   "ref": "No, non volevo dire questo. Scusa, ci riprovo."
+  },
+  "shy": {
+   "instruct": "soft and a little hesitant, not whispering, natural conversational pace, subtle",
+   "ref": "Niente, lascia stare... è una cosa stupida."
+  },
+  "gentle": {
+   "instruct": "soft and calm, not breathy, natural conversational pace, subtle",
+   "ref": "Non ti preoccupare, ci sono qui io. Va tutto bene."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "엠마",
+    "ko": "엠마"
+   }
+  },
+  "{country}": {
+   "text": "Canada",
+   "rd": "까나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "또론또",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "inglese",
+   "rd": "인글레제",
+   "ko": "영어"
+  }
+ },
+ "cast": {
+  "Giulia": "giulia",
+  "Chiara": "chiara",
+  "Marco": "marco",
+  "Luca": "luca",
+  "Signora Conti": "woman_m",
+  "Signor Ferri": "man_m",
+  "Nonno Bruno": "man_m",
+  "Signora Moretti": "woman_m",
+  "Signor Bassi": "man_m",
+  "Signora Rinaldi": "woman_m",
+  "Nonna Rosa": "woman_m"
+ }
+}

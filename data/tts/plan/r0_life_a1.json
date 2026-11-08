@@ -1,0 +1,83 @@
+{
+ "ep": "r0_life_a1",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Ehi, dov'è la mia pizza?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Quale pizza?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "La mia! Buonissima. Era qui."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Boh. Non lo so."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Hai la bocca rossa."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ma dai! È solo pomodoro."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Solo pomodoro? Sei tutto rosso!"
+    ]
+   ],
+   "f": {
+    "text": "Solo pomodoro? Sei tutta rossa!",
+    "rd": "쏠로 뽀모도로? 쎄이 뚜따 로싸!",
+    "ko": "그냥 토마토? 너 얼굴 완전 빨개!",
+    "segs": [
+     [
+      "tsukkomi",
+      "Solo pomodoro? Sei tutta rossa!"
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Va bene... era buona."
+    ]
+   ]
+  }
+ }
+}

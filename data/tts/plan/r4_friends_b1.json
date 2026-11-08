@@ -1,0 +1,125 @@
+{
+ "ep": "r4_friends_b1",
+ "cast": {
+  "B": "luca",
+  "C": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shout",
+     "Ragazzi, la mia moto non c'è più!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Calma. Dove l'avevi lasciata ieri sera?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Davanti a casa, come sempre. Ne sono sicuro."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Sicuro? Ieri sera eri un po' strano. Cantavi in mezzo alla strada alle due di notte."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Abbiamo vinto! Era normale."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Penso che qualcuno l'abbia rubata stanotte. Chiamiamo la polizia?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "neutral",
+     "Aspetta. Luca, a che ora sei tornato a casa?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Per terra? Con le chiavi in mano? Ma dai."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Ragazzi... venite un attimo in bagno."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Non ci credo."
+    ],
+    [
+     "tsukkomi",
+     " C'è una moto nella doccia."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "Ah, ecco dove l'avevo messa! Fuori faceva freddo, poverina."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Luca, stiamo al terzo piano. Come ce l'hai portata?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "cheerful",
+     "Non lo so. Ma chi mi aiuta a portarla giù, stasera ha la cena pagata."
+    ]
+   ]
+  }
+ }
+}

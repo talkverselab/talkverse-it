@@ -1,0 +1,165 @@
+{
+ "ep": "r5_friends_b1",
+ "cast": {
+  "B": "chiara",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ultima cosa prima di entrare: la nonna compie novant'anni, quindi sorridi e mangia tutto."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Sorrido sempre. Ma perché sei così nervosa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Perché ogni anno è la stessa storia: «Quando ti sposi? Quando trovi un lavoro vero?»"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Chiara, tesoro! E questo bel ragazzo chi è?"
+    ]
+   ],
+   "f": {
+    "text": "Chiara, tesoro! E questa bella ragazza chi è?",
+    "rd": "끼아라, 떼조로! 에 꿰스따 벨라 라가짜 끼 에?",
+    "ko": "키아라, 우리 강아지! 이 예쁜 아가씨는 누구니?",
+    "segs": [
+     [
+      "cheerful",
+      "Chiara, tesoro! E questa bella ragazza chi è?"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Piacere, signora. Sono un amico di Chiara. Tanti auguri!"
+    ]
+   ],
+   "f": {
+    "text": "Piacere, signora. Sono un'amica di Chiara. Tanti auguri!",
+    "rd": "삐아체레, 씨뇨라. 쏘노 우나미까 디 끼아라. 딴띠 아우구리!",
+    "ko": "처음 뵙겠습니다. 키아라 친구예요. 생신 축하드려요!",
+    "segs": [
+     [
+      "polite",
+      "Piacere, signora. Sono un'amica di Chiara. Tanti auguri!"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Un amico, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori."
+    ]
+   ],
+   "f": {
+    "text": "Un'amica, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori.",
+    "rd": "우나미까, 에? 마. 뚜아 꾸지나 씨 스뽀자 아 마조, 에 뚜 파이 안꼬라 디제니 디 피오리.",
+    "ko": "친구라, 응? 글쎄다. 네 사촌은 5월에 결혼하는데, 넌 아직도 꽃 그림이나 그리고.",
+    "segs": [
+     [
+      "teasing",
+      "Un'amica, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori."
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Nonna, ti prego!"
+    ],
+    [
+     "shout",
+     " Faccio quello che mi pare, e un giorno vivrò dei miei quadri."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasto senza parole."
+    ]
+   ],
+   "f": {
+    "text": "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole.",
+    "rd": "씨뇨라, 아 비스또 이 꽈드리 디 끼아라? 이오, 라 프리마 볼따, 쏘노 리마스따 쎈짜 빠롤레.",
+    "ko": "할머니, 키아라 그림 보셨어요? 저는 처음 봤을 때 말이 안 나왔어요.",
+    "segs": [
+     [
+      "gentle",
+      "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole."
+     ]
+    ]
+   }
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Li ho visti, sì. Uno l'ho anche comprato l'anno scorso, di nascosto."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Ma dai!"
+    ],
+    [
+     "excited",
+     " Eri tu quella che non ha voluto dire il nome?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Certo. E già che ci siamo: il mese prossimo mi sposo anch'io. Con il vicino del quarto piano."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Nonna! Ma hai novant'anni!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "E lui settantotto. Mi piacciono giovani."
+    ]
+   ]
+  }
+ }
+}

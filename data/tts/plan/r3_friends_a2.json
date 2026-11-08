@@ -1,0 +1,106 @@
+{
+ "ep": "r3_friends_a2",
+ "cast": {
+  "B": "luca",
+  "C": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Allora? Avete preso il mio scooter?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Sì! Siamo andati da Giulia. Bellissimo!"
+    ]
+   ],
+   "f": {
+    "text": "Sì! Siamo andate da Giulia. Bellissimo!",
+    "rd": "씨! 씨아모 안다떼 다 줄리아. 벨리씨모!",
+    "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
+    "segs": [
+     [
+      "excited",
+      "Sì! Siamo andate da Giulia. Bellissimo!"
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "E dove l'avete lasciato? Non lo vedo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Ehm... siamo tornati a piedi."
+    ]
+   ],
+   "f": {
+    "text": "Ehm... siamo tornate a piedi.",
+    "rd": "엠... 씨아모 또르나떼 아 삐에디.",
+    "ko": "음… 둘 다 걸어서 왔어.",
+    "segs": [
+     [
+      "flustered",
+      "Ehm... siamo tornate a piedi."
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "A piedi? E il mio scooter?!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "L'abbiamo lasciato lì. Con la chiave."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilli. Vado io da Giulia, adesso."
+    ]
+   ],
+   "f": {
+    "text": "Tranquille. Vado io da Giulia, adesso.",
+    "rd": "트란뀔레. 바도 이오 다 줄리아, 아데쏘.",
+    "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquille. Vado io da Giulia, adesso."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Aspetta. Perché ti fai così bello?"
+    ]
+   ]
+  }
+ }
+}

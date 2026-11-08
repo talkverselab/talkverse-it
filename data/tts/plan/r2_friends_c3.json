@@ -1,0 +1,68 @@
+{
+ "ep": "r2_friends_c3",
+ "cast": {
+  "B": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Domani vieni da me? Ho un caffè nuovo."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Sì! Certo!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Ehm... Marco, scusa. Domani non posso."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Cioè... sai, ho tanto lavoro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Marco? Ci sei? 🥺"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "Va bene, va bene! "
+    ],
+    [
+     "flustered",
+     "Vengo. Prima del lavoro."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Lo sapevo. Il caffè è già pronto ☕"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "ep": "r4_travel_b1",
+ "cast": {
+  "B": "marco",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Buonasera. Biglietti, prego."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Ecco. Mi scusi, quanto manca a Napoli?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "A Napoli? Ci siamo passati mezz'ora fa."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Mezz'ora fa?"
+    ],
+    [
+     "flustered",
+     " Ma mi sono addormentato solo un attimo!"
+    ]
+   ],
+   "f": {
+    "text": "Mezz'ora fa? Ma mi sono addormentata solo un attimo!",
+    "rd": "메쪼라 파? 마 미 쏘노 아도르멘따따 쏠로 운 아띠모!",
+    "ko": "30분 전이요? 잠깐 잠든 것뿐인데!",
+    "segs": [
+     [
+      "surprised",
+      "Mezz'ora fa?"
+     ],
+     [
+      "flustered",
+      " Ma mi sono addormentata solo un attimo!"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Due ore. Hai dormito due ore."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "annoyed",
+     "E tu perché non mi hai svegliato?"
+    ]
+   ],
+   "f": {
+    "text": "E tu perché non mi hai svegliata?",
+    "rd": "에 뚜 뻬르께 논 미 아이 스벨리아따?",
+    "ko": "근데 넌 왜 안 깨웠어?",
+    "segs": [
+     [
+      "annoyed",
+      "E tu perché non mi hai svegliata?"
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Dormivi così bene. E il signore era già passato due volte."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Se scendesse alla prossima, potrebbe prendere un treno per tornare indietro."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Grazie mille. E quando passa?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "L'ultimo con cui può tornare stasera è partito alle nove."
+    ],
+    [
+     "neutral",
+     " Il prossimo, alle sei di mattina."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mamma mia. Marco, tu lo sapevi che dovevamo scendere a Napoli?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Certo. Mia nonna vive alla prossima, e credo che abbia già detto a mezzo paese che arriviamo."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "La signora Ida? Ma è mia zia! "
+    ],
+    [
+     "excited",
+     "E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Marco, adesso lo sta dicendo a tutto il treno. "
+    ],
+    [
+     "tsukkomi",
+     "Se fossi in te, chiamerei tua nonna: la cena è per cento."
+    ]
+   ]
+  }
+ }
+}

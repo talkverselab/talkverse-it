@@ -1,0 +1,331 @@
+{
+ "id": "r1_survival_s1",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "「네」라고 했을 뿐인데",
+ "emoji": "☕",
+ "scene": "로마의 바. 처음 온 학습자에게 바리스타 마르코가 서서 마실지 앉아서 마실지 묻는데, 학습자는 못 알아듣고 전부 「네」로 답한다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Marco"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "골격 단계 3·7·9 · 존댓말 Lei(prende·vuole·capisce) ↔ 나(prendo·capisco) · 표현 per favore · Scusi · Va bene",
+ "expressions": [
+  "per favore",
+  "Scusi",
+  "Va bene"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Buongiorno! Cosa prende?",
+   "rd": "부온조르노! 꼬자 프렌데?",
+   "ko": "안녕하세요! 뭐 드릴까요?",
+   "note": "prende = (당신이) 드시다, 고르다(Lei)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "prende",
+     "prendere",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Prendo un caffè, per favore.",
+   "rd": "프렌도 운 까페, 뻬르 파보레.",
+   "ko": "커피 한 잔 주세요.",
+   "note": "prendo = (내가) 먹다, 고르다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "prendo",
+     "prendere",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "favore",
+     "favore",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Lo vuole al banco o al tavolo?",
+   "rd": "로 부올레 알 반꼬 오 알 따볼로?",
+   "ko": "바에서 드실래요, 테이블에서 드실래요?",
+   "note": "lo vuole = 그걸 원하세요(Lei) · al banco = 바에서(서서, 더 쌈)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vuole",
+     "volere",
+     ""
+    ],
+    [
+     "banco",
+     "banco",
+     ""
+    ],
+    [
+     "tavolo",
+     "tavolo",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Sì, grazie.",
+   "rd": "씨, 그라찌에.",
+   "ko": "네, 감사합니다.",
+   "note": "못 알아들어도 일단 나오는 말",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sì",
+     "sì",
+     ""
+    ],
+    [
+     "grazie",
+     "grazie",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Sì... cosa? Non capisce? Ban-co. O. Ta-vo-lo?",
+   "rd": "씨… 꼬자? 논 까삐셰? 반-꼬. 오. 따-볼-로?",
+   "ko": "네… 뭐가요? 못 알아들으세요? 바. 아니면. 테이블?",
+   "note": "capisce = 알아듣다(Lei) — 일부러 또박또박",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sì",
+     "sì",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "capisce",
+     "capire",
+     ""
+    ],
+    [
+     "ban-co",
+     "banco",
+     ""
+    ],
+    [
+     "ta-vo-lo",
+     "tavolo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Sì... cosa? Non capisce?"
+    ],
+    [
+     "amused",
+     "Ban-co. O. Ta-vo-lo?",
+     "Banco. O. Tavolo?"
+    ]
+   ],
+   "rd_manual": true
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Capisco, capisco! Sì! Va bene!",
+   "rd": "까삐스꼬, 까삐스꼬! 씨! 바 베네!",
+   "ko": "알아요, 알아요! 네! 좋아요!",
+   "note": "capisco = 알아듣다(나)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "capisco",
+     "capire",
+     ""
+    ],
+    [
+     "sì",
+     "sì",
+     ""
+    ],
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Perfetto. Un caffè al banco e uno al tavolo.",
+   "rd": "뻬르페또. 운 까페 알 반꼬 에 우노 알 따볼로.",
+   "ko": "좋습니다. 커피 한 잔은 바, 한 잔은 테이블.",
+   "note": "perfetto = 좋습니다, 완벽해요",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "perfetto",
+     "perfetto",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "banco",
+     "banco",
+     ""
+    ],
+    [
+     "tavolo",
+     "tavolo",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "polite",
+     "Perfetto."
+    ],
+    [
+     "amused",
+     "Un caffè al banco e uno al tavolo."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Due caffè?! Va bene... prendo tutti e due.",
+   "rd": "두에 까페?! 바 베네... 프렌도 뚜띠 에 두에.",
+   "ko": "커피 두 잔?! 알았어요… 둘 다 마실게요.",
+   "note": "tutti e due = 둘 다",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "prendo",
+     "prendere",
+     ""
+    ],
+    [
+     "tutti",
+     "tutto",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Due caffè?!"
+    ],
+    [
+     "flustered",
+     "Va bene... prendo tutti e due."
+    ]
+   ]
+  }
+ ]
+}

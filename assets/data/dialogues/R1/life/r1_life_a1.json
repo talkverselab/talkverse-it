@@ -1,0 +1,320 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "할머니 이름이 줄리아?",
+ "emoji": "🌹",
+ "scene": "일요일 아침 셰어하우스. 새벽 세 시에 들어온 학습자에게 룸메이트 루카가 꼬치꼬치 묻는다. 식탁 위에 장미 한 송이",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Ehi",
+  "Boh",
+  "Va bene"
+ ],
+ "goal": "골격 단계 2·3·4·6·7·8 · 굴절 반복 sei uscito/sono uscito · porti/porto · era/c'è · 표현 Ehi · Boh · Va bene",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi, con chi sei uscito ieri sera?",
+   "rd": "에이, 꼰 끼 쎄이 우시또 이에리 쎄라?",
+   "ko": "야, 어젯밤에 누구랑 나갔어?",
+   "note": "sei uscito = 너 나갔다(uscire, essere 근과거) — 2턴 sono uscito(나)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "chi",
+     "chi",
+     ""
+    ],
+    [
+     "sei uscito",
+     "uscire",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Ehi, con chi sei uscita ieri sera?",
+   "ko_f": "야, 어젯밤에 누구랑 나갔어?",
+   "rd_f": "에이, 꼰 끼 쎄이 우시따 이에리 쎄라?"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sono uscito con Giulia. Solo una pizza.",
+   "rd": "쏘노 우시또 꼰 줄리아. 쏠로 우나 삐짜.",
+   "ko": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
+   "note": "sono uscito = 나갔다(uscire, essere 근과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sono uscito",
+     "uscire",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ]
+   ],
+   "emotion": "flustered",
+   "it_f": "Sono uscita con Giulia. Solo una pizza.",
+   "ko_f": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
+   "rd_f": "쏘노 우시따 꼰 줄리아. 쏠로 우나 삐짜."
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Una pizza? Fino alle tre di notte?",
+   "rd": "우나 삐짜? 피노 알레 트레 디 노떼?",
+   "ko": "피자? 새벽 세 시까지?",
+   "note": "alle tre = 세 시에(a + le)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "fino",
+     "fino",
+     ""
+    ],
+    [
+     "tre",
+     "tre",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Boh, la pizza era grande.",
+   "rd": "보, 라 삐짜 에라 그란데.",
+   "ko": "글쎄, 피자가 컸어.",
+   "note": "era = ~였다(essere 반과거)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "pizza",
+     "pizza",
+     ""
+    ],
+    [
+     "era",
+     "essere",
+     ""
+    ],
+    [
+     "grande",
+     "grande",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "E questa rosa? A chi la porti?",
+   "rd": "에 꿰스따 로자? 아 끼 라 뽀르띠?",
+   "ko": "그럼 이 장미는? 누구 갖다 주게?",
+   "note": "la porti = 너 그걸 가져간다(portare) — 6턴 la porto(나)",
+   "tags": [
+    "step:7",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "questa",
+     "questo",
+     ""
+    ],
+    [
+     "rosa",
+     "rosa",
+     ""
+    ],
+    [
+     "chi",
+     "chi",
+     ""
+    ],
+    [
+     "porti",
+     "portare",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "La rosa? La porto a mia nonna.",
+   "rd": "라 로자? 라 뽀르또 아 미아 논나.",
+   "ko": "장미? 우리 할머니 갖다 드릴 거야.",
+   "note": "la porto = 그걸 가져간다(la = 그것)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "rosa",
+     "rosa",
+     ""
+    ],
+    [
+     "porto",
+     "portare",
+     ""
+    ],
+    [
+     "nonna",
+     "nonna",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Tua nonna si chiama Giulia? C'è scritto «Per Giulia».",
+   "rd": "뚜아 논나 씨 끼아마 줄리아? 체 스크리또 \"뻬르 줄리아\".",
+   "ko": "너희 할머니 이름이 줄리아야? 「줄리아에게」라고 써 있는데.",
+   "note": "si chiama = 이름이 ~이다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "nonna",
+     "nonna",
+     ""
+    ],
+    [
+     "chiama",
+     "chiamare",
+     ""
+    ],
+    [
+     "scritto",
+     "scrivere",
+     ""
+    ],
+    [
+     "c'è",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Va bene, mi piace. Contento?",
+   "rd": "바 베네, 미 삐아체. 꼰뗀또?",
+   "ko": "알았어, 좋아해. 됐냐?",
+   "note": "mi piace = 내 마음에 든다, 좋아한다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "contento",
+     "contento",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shy",
+     "Va bene, mi piace."
+    ],
+    [
+     "annoyed",
+     "Contento?"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "ep": "r3_friends_b1",
+ "cast": {
+  "B": "man_m",
+  "C": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Domani farò io il caffè per Lei!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Tu? Ma sai fare il caffè?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo che lo so fare! Vi guardo ogni giorno."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Allora fammi vedere. Adesso."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Ecco. Un caffè per Lei. Le piace?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Cos'hai messo? È un caffè o un biscotto?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Ho messo lo zucchero... tutto lo zucchero."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Mi piace. Bravo, un caffè da mangiare."
+    ]
+   ],
+   "f": {
+    "text": "Mi piace. Brava, un caffè da mangiare.",
+    "rd": "미 삐아체. 브라바, 운 까페 다 만쟈레.",
+    "ko": "맘에 든다. 잘했어, 씹어 먹는 커피구나.",
+    "segs": [
+     [
+      "amused",
+      "Mi piace. Brava, un caffè da mangiare."
+     ]
+    ]
+   }
+  }
+ }
+}

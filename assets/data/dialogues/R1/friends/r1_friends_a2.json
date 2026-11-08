@@ -1,0 +1,278 @@
+{
+ "id": "r1_friends_a2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "스쿠터는 줄리아네서 자는 중",
+ "emoji": "🛵",
+ "scene": "밤 열 시 셰어하우스 현관. 룸메이트 루카의 스쿠터를 빌려 나갔던 학습자가 혼자 걸어서 돌아왔다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 8,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "goal": "골격 단계 1·5·6·7·9 · 굴절 반복 sono andato/vado · hai lasciato/ho lasciato · bellissimo/bello · 표현 Allora · Tranquillo",
+ "expressions": [
+  "Allora",
+  "Tranquillo"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Allora? Hai preso il mio scooter?",
+   "rd": "알로라? 아이 프레조 일 미오 스쿠테르?",
+   "ko": "그래서? 내 스쿠터 타고 갔어?",
+   "note": "hai preso = 너 가져갔다(prendere 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [
+    "scooter"
+   ],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "hai preso",
+     "prendere",
+     ""
+    ],
+    [
+     "scooter",
+     "scooter",
+     ""
+    ]
+   ],
+   "rd_manual": true
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sì! Sono andato da Giulia. Bellissimo!",
+   "rd": "씨! 쏘노 안다또 다 줄리아. 벨리씨모!",
+   "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
+   "note": "sono andato = 갔다(andare, essere 근과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "sono andato",
+     "andare",
+     ""
+    ],
+    [
+     "bellissimo",
+     "bello",
+     ""
+    ]
+   ],
+   "it_f": "Sì! Sono andata da Giulia. Bellissimo!",
+   "ko_f": "응! 줄리아네 갔다 왔어. 끝내줬어!",
+   "rd_f": "씨! 쏘노 안다따 다 줄리아. 벨리씨모!"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "E dove l'hai lasciato? Non lo vedo.",
+   "rd": "에 도베 라이 라샤또? 논 로 베도.",
+   "ko": "근데 어디 두고 왔어? 안 보이는데.",
+   "note": "l'hai lasciato = 그걸 두고 왔어(lasciare 근과거, lo → l')",
+   "tags": [
+    "step:5",
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "hai lasciato",
+     "lasciare",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ehm... sono tornato a piedi.",
+   "rd": "엠... 쏘노 또르나또 아 삐에디.",
+   "ko": "음… 걸어서 왔어.",
+   "note": "sono tornato = 돌아왔다(tornare, essere 근과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "sono tornato",
+     "tornare",
+     ""
+    ],
+    [
+     "piedi",
+     "piede",
+     ""
+    ]
+   ],
+   "it_f": "Ehm... sono tornata a piedi.",
+   "ko_f": "음… 걸어서 왔어.",
+   "rd_f": "엠... 쏘노 또르나따 아 삐에디."
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "A piedi? E il mio scooter?!",
+   "rd": "아 삐에디? 에 일 미오 스쿠테르?!",
+   "ko": "걸어서? 그럼 내 스쿠터는?!",
+   "note": "il mio = 내(관사 + 소유)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "piedi",
+     "piede",
+     ""
+    ],
+    [
+     "mio",
+     "mio",
+     ""
+    ],
+    [
+     "scooter",
+     "scooter",
+     ""
+    ]
+   ],
+   "rd_manual": true
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "L'ho lasciato lì. Con la chiave.",
+   "rd": "로 라샤또 리. 꼰 라 끼아베.",
+   "ko": "거기 두고 왔어. 열쇠까지 꽂아서.",
+   "note": "l'ho lasciato = 그걸 두고 왔어(3턴 l'hai lasciato 의 나 꼴)",
+   "tags": [
+    "step:5",
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "ho lasciato",
+     "lasciare",
+     ""
+    ],
+    [
+     "lì",
+     "lì",
+     ""
+    ],
+    [
+     "chiave",
+     "chiave",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Tranquillo. Vado io da Giulia, adesso.",
+   "rd": "트란뀔로. 바도 이오 다 줄리아, 아데쏘.",
+   "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
+   "note": "vado = 나 간다(andare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ]
+   ],
+   "it_f": "Tranquilla. Vado io da Giulia, adesso.",
+   "ko_f": "걱정 마. 내가 지금 줄리아네 갈게.",
+   "rd_f": "트란뀔라. 바도 이오 다 줄리아, 아데쏘."
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Aspetta. Perché ti fai così bello?",
+   "rd": "아스뻬따. 뻬르께 띠 파이 꼬지 벨로?",
+   "ko": "잠깐. 너 왜 그렇게 빼입는데?",
+   "note": "ti fai bello = 꾸민다(fare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ],
+    [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "così",
+     "così",
+     ""
+    ],
+    [
+     "bello",
+     "bello",
+     ""
+    ]
+   ]
+  }
+ ]
+}

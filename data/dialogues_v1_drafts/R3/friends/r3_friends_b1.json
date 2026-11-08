@@ -1,0 +1,539 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "title": "최악의 깜짝 파티",
+ "emoji": "🎂",
+ "scene": "저녁 일곱 시 반, 문 닫은 마르코의 카페. 키아라가 줄리아 깜짝 파티를 지휘하는데 학습자가 단톡방에 뭔가를 보냈다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara",
+  "C": "Marco"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "chaos",
+ "expressions": [
+  "Ce la fai",
+  "Fammi vedere",
+  "Ahia",
+  "Infatti"
+ ],
+ "goal": "목표 표현: Ce la fai · Fammi vedere · Ahia · Infatti · 근과거",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Allora, ripassiamo: Giulia arriva alle otto, spegniamo la luce e tutti zitti. Chiaro?",
+   "rd": "알로라, 리빠씨아모: 줄리아 아리바 알레 오또, 스뻰니아모 라 루체 에 뚜띠 찌띠. 꺄로?",
+   "ko": "자, 복습하자. 줄리아 여덟 시 도착, 불 끄고 다들 조용. 알겠지?",
+   "note": "ripassare = 복습하다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ripassiamo",
+     "ripassare",
+     ""
+    ],
+    [
+     "arriva",
+     "arrivare",
+     ""
+    ],
+    [
+     "otto",
+     "otto",
+     ""
+    ],
+    [
+     "spegniamo",
+     "spegnere",
+     ""
+    ],
+    [
+     "luce",
+     "luce",
+     ""
+    ],
+    [
+     "zitti",
+     "zitto",
+     ""
+    ],
+    [
+     "chiaro",
+     "chiaro",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Chiarissimo. E io che devo fare?",
+   "rd": "꺄리씨모. 에 이오 께 데보 파레?",
+   "ko": "완전 알겠어. 나는 뭐 해야 돼?",
+   "note": "-issimo = 아주 ~한",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "chiarissimo",
+     "chiaro",
+     ""
+    ],
+    [
+     "devo",
+     "dovere",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Niente! Devi solo non parlare. Ce la fai?",
+   "rd": "니엔떼! 데비 쏠로 논 빠를라레. 체 라 파이?",
+   "ko": "아무것도! 그냥 입만 다물고 있으면 돼. 할 수 있지?",
+   "note": "Ce la fai? = 할 수 있겠어?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "devi",
+     "dovere",
+     ""
+    ],
+    [
+     "parlare",
+     "parlare",
+     ""
+    ],
+    [
+     "ce la fai",
+     "farcela",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Niente!"
+    ],
+    [
+     "tsukkomi",
+     "Devi solo non parlare. Ce la fai?"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Certo che ce la faccio. Ho pure scritto sul gruppo che è tutto pronto.",
+   "rd": "체르또 께 체 라 파쵸. 오 뿌레 스크리또 쑬 그루뽀 께 에 뚜또 프론또.",
+   "ko": "당연히 할 수 있지. 단톡방에 다 준비됐다고도 써 놨어.",
+   "note": "gruppo = 단톡방",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "faccio",
+     "farcela",
+     ""
+    ],
+    [
+     "scritto",
+     "scrivere",
+     ""
+    ],
+    [
+     "gruppo",
+     "gruppo",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "it": "Quale gruppo?",
+   "rd": "꽐레 그루뽀?",
+   "ko": "무슨 단톡방?",
+   "note": "마르코는 늘 한두 마디",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "gruppo",
+     "gruppo",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Quello con la torta nella foto, no?",
+   "rd": "꿸로 꼰 라 또르따 넬라 포또, 노?",
+   "ko": "프로필에 케이크 사진 있는 거, 있잖아?",
+   "note": "quello con ~ = ~ 있는 그거",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "torta",
+     "torta",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Aspetta. Fammi vedere il telefono.",
+   "rd": "아스뻬따. 팜미 베데레 일 뗄레포노.",
+   "ko": "잠깐. 폰 좀 보여 줘.",
+   "note": "Fammi vedere = 보여 줘",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ],
+    [
+     "fammi",
+     "fare",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
+    ],
+    [
+     "telefono",
+     "telefono",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "it": "Ahia.",
+   "rd": "아이아.",
+   "ko": "아이고.",
+   "note": "Ahia = 아이고, 아야",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ahia",
+     "ahia",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Ma questo è il gruppo della famiglia di Giulia! C'è pure sua nonna!",
+   "rd": "마 꿰스또 에 일 그루뽀 델라 파밀리아 디 줄리아! 체 뿌레 쑤아 논나!",
+   "ko": "이거 줄리아네 가족 단톡방이잖아! 할머니까지 있어!",
+   "note": "pure = ~까지도",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "famiglia",
+     "famiglia",
+     ""
+    ],
+    [
+     "nonna",
+     "nonna",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shout",
+     "Ma questo è il gruppo della famiglia di Giulia!"
+    ],
+    [
+     "shout",
+     "C'è pure sua nonna!"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Ah. Infatti mi ha risposto con un cuore.",
+   "rd": "아. 인파띠 미 아 리스뽀스또 꼰 운 꾸오레.",
+   "ko": "아. 어쩐지 하트로 답이 왔더라.",
+   "note": "Infatti = 어쩐지, 역시",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "infatti",
+     "infatti",
+     ""
+    ],
+    [
+     "risposto",
+     "rispondere",
+     ""
+    ],
+    [
+     "cuore",
+     "cuore",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "it": "La nonna?",
+   "rd": "라 논나?",
+   "ko": "할머니가?",
+   "note": "되묻기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "nonna",
+     "nonna",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "it": "No, Giulia. Ha scritto: «Arrivo alle otto, faccio finta di niente.»",
+   "rd": "노, 줄리아. 아 스크리또: \"아리보 알레 오또, 파쵸 핀따 디 니엔떼.\"",
+   "ko": "아니, 줄리아가. 「여덟 시에 갈게, 모르는 척할게」래.",
+   "note": "fare finta di niente = 모르는 척하다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "scritto",
+     "scrivere",
+     ""
+    ],
+    [
+     "arrivo",
+     "arrivare",
+     ""
+    ],
+    [
+     "faccio",
+     "fare",
+     ""
+    ],
+    [
+     "finta",
+     "finta",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "Quindi lei sa tutto, la nonna sa tutto... e la torta dov'è?",
+   "rd": "뀐디 레이 싸 뚜또, 라 논나 싸 뚜또... 에 라 또르따 도베?",
+   "ko": "그러니까 줄리아도 다 알고, 할머니도 다 알고… 케이크는 어디 있어?",
+   "note": "quindi = 그러니까",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "quindi",
+     "quindi",
+     ""
+    ],
+    [
+     "sa",
+     "sapere",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "torta",
+     "torta",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Quindi lei sa tutto, la nonna sa tutto..."
+    ],
+    [
+     "worried",
+     "e la torta dov'è?"
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "it": "In forno. Da due ore.",
+   "rd": "인 포르노. 다 두에 오레.",
+   "ko": "오븐에. 두 시간째.",
+   "note": "da + 시간 = ~째",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "forno",
+     "forno",
+     ""
+    ],
+    [
+     "ore",
+     "ora",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "it": "Ragazzi, questa è la festa a sorpresa peggiore della storia.",
+   "rd": "라가찌, 꿰스따 에 라 페스따 아 쏘르프레자 뻬조레 델라 스또리아.",
+   "ko": "얘들아, 이건 역사상 최악의 깜짝 파티야.",
+   "note": "peggiore = 최악의",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ragazzi",
+     "ragazzo",
+     ""
+    ],
+    [
+     "festa",
+     "festa",
+     ""
+    ],
+    [
+     "sorpresa",
+     "sorpresa",
+     ""
+    ],
+    [
+     "peggiore",
+     "peggiore",
+     ""
+    ],
+    [
+     "storia",
+     "storia",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "it": "Però la nonna ha scritto che porta il vino.",
+   "rd": "뻬로 라 논나 아 스크리또 께 뽀르따 일 비노.",
+   "ko": "근데 할머니가 와인 가져오신대.",
+   "note": "però = 하지만",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "però",
+     "però",
+     ""
+    ],
+    [
+     "nonna",
+     "nonna",
+     ""
+    ],
+    [
+     "scritto",
+     "scrivere",
+     ""
+    ],
+    [
+     "porta",
+     "portare",
+     ""
+    ],
+    [
+     "vino",
+     "vino",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  }
+ ],
+ "flags": []
+}

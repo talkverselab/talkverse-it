@@ -1,0 +1,579 @@
+{
+ "id": "r4_friends_b1",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "title": "샤워실의 오토바이",
+ "emoji": "🛵",
+ "scene": "일요일 아침 셰어하우스. 루카가 오토바이를 도둑맞았다며 소리치고, 키아라가 달려온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca",
+  "C": "Chiara"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Boh",
+  "Ma dai",
+  "Non ci credo",
+  "Ecco"
+ ],
+ "goal": "어려운 문법 2 접속법 과거 · 5 반과거/근과거 · 6 대과거 · 8 ne·ci · 9 재귀 근과거 · 10 관계사 chi · 표현 Boh·Ma dai·Non ci credo",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ragazzi, la mia moto non c'è più!",
+   "rd": "라가찌, 라 미아 모또 논 체 삐우!",
+   "ko": "얘들아, 내 오토바이가 없어졌어!",
+   "note": "non c'è più = 이제 없다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [
+    "moto"
+   ],
+   "lemmas": [
+    [
+     "ragazzi",
+     "ragazzo",
+     ""
+    ],
+    [
+     "moto",
+     "moto",
+     ""
+    ],
+    [
+     "più",
+     "più",
+     ""
+    ],
+    [
+     "c'è",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "it": "Calma. Dove l'avevi lasciata ieri sera?",
+   "rd": "깔마. 도베 라베비 라샤따 이에리 쎄라?",
+   "ko": "진정해. 어젯밤에 어디 세워 뒀었는데?",
+   "note": "l'avevi lasciato = 그걸 두었었다(대과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "calma",
+     "calma",
+     ""
+    ],
+    [
+     "avevi",
+     "avere",
+     ""
+    ],
+    [
+     "lasciata",
+     "lasciare",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Davanti a casa, come sempre. Ne sono sicuro.",
+   "rd": "다반띠 아 까자, 꼬메 쎔프레. 네 쏘노 씨꾸로.",
+   "ko": "집 앞에, 늘 하던 대로. 그건 확실해.",
+   "note": "ne sono sicuro = 그건 확실하다(ne = di questo)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "davanti",
+     "davanti",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ],
+    [
+     "sicuro",
+     "sicuro",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Sicuro? Ieri sera eri un po' strano. Cantavi in mezzo alla strada alle due di notte.",
+   "rd": "씨꾸로? 이에리 쎄라 에리 운 뽀 스트라노. 깐따비 인 메쪼 알라 스트라다 알레 두에 디 노떼.",
+   "ko": "확실해? 어젯밤 너 좀 이상했어. 새벽 두 시에 길 한가운데서 노래 불렀잖아.",
+   "note": "eri · cantavi = ~였다 · ~하고 있었다(반과거, 묘사)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sicuro",
+     "sicuro",
+     ""
+    ],
+    [
+     "strano",
+     "strano",
+     ""
+    ],
+    [
+     "cantavi",
+     "cantare",
+     ""
+    ],
+    [
+     "mezzo",
+     "mezzo",
+     ""
+    ],
+    [
+     "strada",
+     "strada",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ],
+    [
+     "eri",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Abbiamo vinto! Era normale.",
+   "rd": "아비아모 빈또! 에라 노르말레.",
+   "ko": "우리 팀이 이겼잖아! 그 정도는 당연하지.",
+   "note": "abbiamo vinto(일어난 일) · era(상태)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vinto",
+     "vincere",
+     ""
+    ],
+    [
+     "normale",
+     "normale",
+     ""
+    ],
+    [
+     "Era",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "it": "Penso che qualcuno l'abbia rubata stanotte. Chiamiamo la polizia?",
+   "rd": "뻰쏘 께 꽐꾸노 라비아 루바따 스따노떼. 끼아미아모 라 뽈리찌아?",
+   "ko": "밤사이에 누가 훔쳐 간 것 같아. 경찰 부를까?",
+   "note": "che l'abbia rubato = 그걸 훔쳤다고(접속법 과거)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "penso",
+     "pensare",
+     ""
+    ],
+    [
+     "qualcuno",
+     "qualcuno",
+     ""
+    ],
+    [
+     "abbia",
+     "avere",
+     ""
+    ],
+    [
+     "rubata",
+     "rubare",
+     ""
+    ],
+    [
+     "stanotte",
+     "stanotte",
+     ""
+    ],
+    [
+     "chiamiamo",
+     "chiamare",
+     ""
+    ],
+    [
+     "polizia",
+     "polizia",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Aspetta. Luca, a che ora sei tornato a casa?",
+   "rd": "아스뻬따. 루까, 아 께 오라 쎄이 또르나또 아 까자?",
+   "ko": "잠깐. 루카, 너 몇 시에 집에 왔어?",
+   "note": "sei tornato = 돌아왔다(essere 근과거)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "tornato",
+     "tornare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano.",
+   "rd": "보. 미 쏘노 스벨리아또 뻬르 떼라, 베스띠또, 꼰 레 끼아비 인 마노.",
+   "ko": "몰라. 깨 보니까 옷 입은 채로 열쇠 쥐고 바닥에 있더라.",
+   "note": "mi sono svegliato = 깨어났다(재귀 근과거)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "svegliato",
+     "svegliare",
+     ""
+    ],
+    [
+     "terra",
+     "terra",
+     ""
+    ],
+    [
+     "vestito",
+     "vestire",
+     ""
+    ],
+    [
+     "chiavi",
+     "chiave",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "it": "Per terra? Con le chiavi in mano? Ma dai.",
+   "rd": "뻬르 떼라? 꼰 레 끼아비 인 마노? 마 다이.",
+   "ko": "바닥에서? 열쇠를 쥐고? 말도 안 돼.",
+   "note": "Ma dai = 에이, 설마",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "terra",
+     "terra",
+     ""
+    ],
+    [
+     "chiavi",
+     "chiave",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Ragazzi... venite un attimo in bagno.",
+   "rd": "라가찌... 베니떼 운 아띠모 인 바뇨.",
+   "ko": "얘들아… 잠깐 화장실로 와 봐.",
+   "note": "un attimo = 잠깐",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ragazzi",
+     "ragazzo",
+     ""
+    ],
+    [
+     "venite",
+     "venire",
+     ""
+    ],
+    [
+     "attimo",
+     "attimo",
+     ""
+    ],
+    [
+     "bagno",
+     "bagno",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "it": "Non ci credo. C'è una moto nella doccia.",
+   "rd": "논 치 크레도. 체 우나 모또 넬라 도챠.",
+   "ko": "말도 안 돼. 샤워실에 오토바이가 있어.",
+   "note": "Non ci credo = 믿을 수가 없어(ci = 그걸)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "credo",
+     "credere",
+     ""
+    ],
+    [
+     "moto",
+     "moto",
+     ""
+    ],
+    [
+     "doccia",
+     "doccia",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Non ci credo."
+    ],
+    [
+     "tsukkomi",
+     " C'è una moto nella doccia."
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "it": "Ah, ecco dove l'avevo messa! Fuori faceva freddo, poverina.",
+   "rd": "아, 에꼬 도베 라베보 메싸! 푸오리 파체바 프레도, 뽀베리나.",
+   "ko": "아, 거기다 뒀었구나! 밖이 추웠거든, 불쌍하잖아.",
+   "note": "l'avevo messa = 그걸 두었었다(대과거)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "messa",
+     "mettere",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "faceva",
+     "fare",
+     ""
+    ],
+    [
+     "freddo",
+     "freddo",
+     ""
+    ],
+    [
+     "poverina",
+     "povero",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "it": "Luca, stiamo al terzo piano. Come ce l'hai portata?",
+   "rd": "루까, 스띠아모 알 떼르쪼 삐아노. 꼬메 체 라이 뽀르따따?",
+   "ko": "루카, 우리 3층 살아. 그걸 어떻게 여기까지 올렸어?",
+   "note": "ce l'hai portata = 그걸 여기로 가져왔다(ci + la)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "stiamo",
+     "stare",
+     ""
+    ],
+    [
+     "terzo",
+     "terzo",
+     ""
+    ],
+    [
+     "piano",
+     "piano",
+     ""
+    ],
+    [
+     "portata",
+     "portare",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "it": "Non lo so. Ma chi mi aiuta a portarla giù, stasera ha la cena pagata.",
+   "rd": "논 로 쏘. 마 끼 미 아이우따 아 뽀르따를라 주, 스따제라 아 라 체나 빠가따.",
+   "ko": "모르지. 근데 내리는 거 도와주는 사람은 오늘 저녁 내가 쏜다.",
+   "note": "chi = ~하는 사람(관계사)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "aiuta",
+     "aiutare",
+     ""
+    ],
+    [
+     "portarla",
+     "portare",
+     ""
+    ],
+    [
+     "giù",
+     "giù",
+     ""
+    ],
+    [
+     "stasera",
+     "stasera",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ],
+    [
+     "pagata",
+     "pagare",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  }
+ ]
+}

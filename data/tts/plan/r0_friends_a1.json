@@ -1,0 +1,56 @@
+{
+ "ep": "r0_friends_a1",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ehi! Ho due gelati!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Che bello! Dove sono?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Ecco... guarda."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Ma non c'è niente!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Scusa... ho mangiato tutto."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Hai mangiato tutti e due? Mamma mia!"
+    ]
+   ]
+  }
+ }
+}

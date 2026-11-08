@@ -1,0 +1,306 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "우리 저녁, 누가 먹었어?",
+ "emoji": "🍝",
+ "scene": "셰어하우스 거실. 학습자가 하루 종일 저녁을 차려 놓고 줄리아를 초대했다. 룸메이트 루카는 나갔다고 했는데…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia",
+  "C": "Luca"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "goal": "골격 단계 1·2·4·5·10 · 굴절 반복 ho fatto/hai fatto · ho mangiato/hai mangiato · tutto/tutta · 표현 Ecco · Mamma mia · Lascia stare",
+ "expressions": [
+  "Ecco",
+  "Mamma mia",
+  "Lascia stare"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "it": "Ecco! Ho fatto la cena per te.",
+   "rd": "에꼬! 오 파또 라 체나 뻬르 떼.",
+   "ko": "짜잔! 너 주려고 저녁 했어.",
+   "note": "ho fatto = 만들었다(fare 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [
+    "cena"
+   ],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "ho fatto",
+     "fare",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "it": "Per me? Hai fatto tutto tu?",
+   "rd": "뻬르 메? 아이 파또 뚜또 뚜?",
+   "ko": "나 주려고? 이거 다 네가 했어?",
+   "note": "hai fatto = 너 했다(fare 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "hai fatto",
+     "fare",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Certo! La pasta, la musica... tutto per te.",
+   "rd": "체르또! 라 빠스따, 라 무지까... 뚜또 뻬르 떼.",
+   "ko": "당연하지! 파스타, 음악… 다 너를 위해서.",
+   "note": "la pasta, la musica = 여성 관사 la",
+   "tags": [
+    "step:1"
+   ],
+   "new": [
+    "pasta"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "musica",
+     "musica",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Mamma mia. Sei proprio bravo.",
+   "rd": "맘마 미아. 쎄이 프로프리오 브라보.",
+   "ko": "어머. 너 진짜 대단하다.",
+   "note": "sei = 너 ~이다(essere)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "proprio",
+     "proprio",
+     ""
+    ],
+    [
+     "bravo",
+     "bravo",
+     ""
+    ]
+   ],
+   "it_f": "Mamma mia. Sei proprio brava.",
+   "ko_f": "어머. 너 진짜 대단하다.",
+   "rd_f": "맘마 미아. 쎄이 프로프리오 브라바."
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "it": "Ciao! Ho mangiato la pasta. Buonissima!",
+   "rd": "챠오! 오 만쟈또 라 빠스따. 부오니씨마!",
+   "ko": "안녕! 파스타 내가 먹었어. 완전 맛있더라!",
+   "note": "ho mangiato = 먹었다(mangiare 근과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "ho mangiato",
+     "mangiare",
+     ""
+    ],
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "buonissima",
+     "buono",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Tutta?! Luca, hai mangiato la cena di Giulia!",
+   "rd": "뚜따?! 루까, 아이 만쟈또 라 체나 디 줄리아!",
+   "ko": "다?! 루카, 너 줄리아 저녁을 먹은 거야!",
+   "note": "hai mangiato = 너 먹었다(mangiare 근과거) — 5턴 ho mangiato(나)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "tutta",
+     "tutto",
+     ""
+    ],
+    [
+     "hai mangiato",
+     "mangiare",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "it": "Ah... scusa. Torno al lavoro.",
+   "rd": "아... 스꾸자. 또르노 알 라보로.",
+   "ko": "아… 미안. 나 일하러 간다.",
+   "note": "al = ~로(a + il)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "torno",
+     "tornare",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Lascia stare. Vorrei solo stare qui con te.",
+   "rd": "라샤 스따레. 보레이 쏠로 스따레 뀌 꼰 떼.",
+   "ko": "신경 쓰지 마. 난 그냥 너랑 여기 있고 싶어.",
+   "note": "vorrei = ~하고 싶어(volere 조건)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Lascia stare."
+    ],
+    [
+     "gentle",
+     "Vorrei solo stare qui con te."
+    ]
+   ],
+   "lemmas": [
+    [
+     "lascia",
+     "lasciare",
+     ""
+    ],
+    [
+     "vorrei",
+     "volere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "stare",
+     "stare",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ]
+   ]
+  }
+ ]
+}
