@@ -1,6 +1,6 @@
 # 심사 메모(App Review Notes) · 개인정보 답 · 방침 추가 문안 — 2026-11-02
 
-> 한자 앱 `docs/store/review_notes.md`·`data_safety.md` 를 이 앱에 맞게 옮김. 로그인(Talkverse ID, 선택) + 인앱 구입(평생 이용권) 이 들어간 판부터 쓴다.
+> 4.3 대비 문단·스크린샷 순서는 `docs/STORE_PRODUCTS.md` §2. 한자 앱 `docs/store/review_notes.md`·`data_safety.md` 를 이 앱에 맞게 옮김. 로그인(Talkverse ID, 선택) + 인앱 구입(평생 이용권) 이 들어간 판부터 쓴다.
 > **아직 유료로 잠근 기능이 없다** — 평생 이용권은 프로필 → 계정 → 평생 이용권에서 살 수 있지만 지금은 모든 기능이 무료(무엇을 잠글지는 사용자 결정 대기). 잠금이 생기면 아래 [인앱 구입] 문안을 고칠 것.
 
 ## App Store Connect "심사 정보 → 메모"
@@ -10,13 +10,13 @@
 - 로그인 화면: 홈 → 프로필·설정 → 계정 → 로그인. Apple로 로그인 + 이메일 로그인(심사·테스트용).
 - 데모 계정(이메일 로그인): review@talkverse.uk / 비밀번호: <Doppler keys/prd TALKVERSE_REVIEW_ACCOUNT 에서 복사해 여기 입력>
 - 계정 삭제: 프로필·설정 → 계정 → 계정 삭제(확인 창) → 서버에서 개인정보가 삭제되고 모든 기기에서 로그아웃됩니다.
-[인앱 구입] 비소모성 "평생 이용권"(com.talkverse.italianUniverse.lifetime) 1개. 프로필·설정 → 계정 → 평생 이용권 → [평생 이용권 구매 ₩…], [이전 구매 복원] 으로 복원합니다. Sandbox 계정으로 시험할 수 있고, 로그인 없이도 구매·복원이 됩니다.
+[인앱 구입] 자동 갱신 구독 lang_it_1m·lang_it_3m·lang_it_1y·all_1y, 비소모성 lang_it_life·all_life(평생 = 서비스 운영 기간 동안). 프로필·설정 → 계정 → 이용권 → 상품 선택, [구매 복원]. 결제 시트에 자동 갱신·해지 방법, 이용약관·개인정보처리방침 링크가 있습니다. Sandbox 계정으로 시험할 수 있고, 로그인 없이도 구매·복원이 됩니다.
 
 [Sign-in] Optional. Every learning feature works without an account; sign-in is only for restoring purchases across devices.
 - Where: Home → Profile & Settings → Account → Sign in (Sign in with Apple, or email sign-in for review/testing).
 - Demo account (email sign-in): review@talkverse.uk / password: <paste from Doppler>
 - Account deletion: Profile & Settings → Account → Delete account (confirmation) → personal data is deleted server-side and all sessions are revoked.
-[IAP] One non-consumable "Lifetime Pass" (com.talkverse.italianUniverse.lifetime). Profile & Settings → Account → Lifetime Pass → [Buy Lifetime Pass ₩…], [Restore purchases] to restore. Works with a Sandbox account; sign-in is not required to buy or restore.
+[IAP] Auto-renewable subscriptions lang_it_1m / lang_it_3m / lang_it_1y / all_1y and non-consumables lang_it_life / all_life ("lifetime" = for as long as the service operates). Profile & Settings → Account → Pass → choose a plan, [Restore purchases]. The sheet shows auto-renewal and cancellation terms with Terms of Use and Privacy Policy links. Works with a Sandbox account; sign-in is not required to buy or restore.
 ```
 
 ## App Store "앱 개인정보 보호" 답
