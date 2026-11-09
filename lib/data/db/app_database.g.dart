@@ -2647,7 +2647,7 @@ final class $$TurnsTableReferences
   static MultiTypedResultKey<$UserProgressTable, List<UserProgressRow>>
   _userProgressRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
     db.userProgress,
-    aliasName: $_aliasNameGenerator(db.turns.id, db.userProgress.turnId),
+    aliasName: 'turns__id__user_progress__turn_id',
   );
 
   $$UserProgressTableProcessedTableManager get userProgressRefs {
@@ -3307,10 +3307,7 @@ final class $$VerbsTableReferences
   static MultiTypedResultKey<$VerbProgressTable, List<VerbProgressRow>>
   _verbProgressRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
     db.verbProgress,
-    aliasName: $_aliasNameGenerator(
-      db.verbs.infinitive,
-      db.verbProgress.infinitive,
-    ),
+    aliasName: 'verbs__infinitive__verb_progress__infinitive',
   );
 
   $$VerbProgressTableProcessedTableManager get verbProgressRefs {
@@ -3629,9 +3626,8 @@ final class $$UserProgressTableReferences
     extends BaseReferences<_$AppDatabase, $UserProgressTable, UserProgressRow> {
   $$UserProgressTableReferences(super.$_db, super.$_table, super.$_typedResult);
 
-  static $TurnsTable _turnIdTable(_$AppDatabase db) => db.turns.createAlias(
-    $_aliasNameGenerator(db.userProgress.turnId, db.turns.id),
-  );
+  static $TurnsTable _turnIdTable(_$AppDatabase db) =>
+      db.turns.createAlias('user_progress__turn_id__turns__id');
 
   $$TurnsTableProcessedTableManager get turnId {
     final $_column = $_itemColumn<int>('turn_id')!;
@@ -3945,9 +3941,8 @@ final class $$VerbProgressTableReferences
     extends BaseReferences<_$AppDatabase, $VerbProgressTable, VerbProgressRow> {
   $$VerbProgressTableReferences(super.$_db, super.$_table, super.$_typedResult);
 
-  static $VerbsTable _infinitiveTable(_$AppDatabase db) => db.verbs.createAlias(
-    $_aliasNameGenerator(db.verbProgress.infinitive, db.verbs.infinitive),
-  );
+  static $VerbsTable _infinitiveTable(_$AppDatabase db) =>
+      db.verbs.createAlias('verb_progress__infinitive__verbs__infinitive');
 
   $$VerbsTableProcessedTableManager get infinitive {
     final $_column = $_itemColumn<String>('infinitive')!;

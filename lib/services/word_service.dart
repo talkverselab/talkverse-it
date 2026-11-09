@@ -1,6 +1,6 @@
 import 'package:drift/drift.dart';
 
-import '../main.dart';
+import '../embed.dart';
 
 /// 단어장 조회 — 문장 레마 칩(`LemmaChips`)이 기본형으로 단어장 항목을 찾는 데 쓴다(일본어앱 `WordService.byLemmas` 를 옮김, 2026-11-04).
 ///

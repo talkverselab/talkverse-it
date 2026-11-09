@@ -1,5 +1,10 @@
+import 'dart:io';
+
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
+import 'package:path_provider/path_provider.dart';
+
+import '../../core/embed_env.dart';
 
 part 'app_database.g.dart';
 
@@ -105,7 +110,29 @@ class AppDatabase extends _$AppDatabase {
         },
       );
 
+  /// DB 파일 = Documents/it_italian_universe.sqlite (통합 앱에서 다른 언어 DB 와 겹치지 않게, 2026-11-09).
+  /// 단독 앱은 옛 이름(spanish_universe — 스페인어 템플릿 흔적)을 처음 한 번 옮긴다.
   static QueryExecutor _openConnection() {
-    return driftDatabase(name: 'spanish_universe');
+    return driftDatabase(
+      name: '${storePrefix}italian_universe',
+      native: DriftNativeOptions(databaseDirectory: _dbDir),
+    );
+  }
+
+  static Future<Object> _dbDir() async {
+    final dir = await getApplicationDocumentsDirectory();
+    if (!embedded) {
+      final now = '${dir.path}/${storePrefix}italian_universe.sqlite';
+      final old = '${dir.path}/spanish_universe.sqlite';
+      try {
+        if (File(old).existsSync() && !File(now).existsSync()) {
+          for (final ext in const ['', '-wal', '-shm', '-journal']) {
+            final f = File('$old$ext');
+            if (f.existsSync()) await f.rename('$now$ext');
+          }
+        }
+      } catch (_) {}
+    }
+    return dir;
   }
 }

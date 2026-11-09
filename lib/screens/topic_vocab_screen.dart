@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -45,7 +46,7 @@ class VocabCatalog {
 
   Future<void> ensureLoaded(String asset) async {
     if (_byAsset.containsKey(asset)) return;
-    final raw = await rootBundle.loadString(asset);
+    final raw = await rootBundle.loadString(assetPath(asset));
     final data = json.decode(raw) as Map<String, dynamic>;
     _byAsset[asset] = [
       for (final t in (data['themes'] as List).whereType<Map>())

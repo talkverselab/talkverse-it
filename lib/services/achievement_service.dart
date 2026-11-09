@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'dialogue_service.dart';
 
@@ -26,7 +26,7 @@ class AchievementService {
   Future<void> load() async {
     if (_loaded) return;
     try {
-      final raw = (await SharedPreferences.getInstance()).getString(_key);
+      final raw = (await Prefs.getInstance()).getString(_key);
       if (raw != null) {
         final j = json.decode(raw) as Map<String, dynamic>;
         (j['episodes'] as Map<String, dynamic>? ?? {}).forEach((k, v) => _episodes[k] = v.toString());
@@ -42,7 +42,7 @@ class AchievementService {
   Future<void> _save() async {
     changes.value++;
     final data = json.encode({'episodes': _episodes, 'cards': _cards, 'daily': _daily});
-    (await SharedPreferences.getInstance()).setString(_key, data);
+    (await Prefs.getInstance()).setString(_key, data);
   }
 
   /// 학습 기록 초기화(프로필 → 기록).

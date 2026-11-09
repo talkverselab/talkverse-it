@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import '../core/platform.dart';
 import 'account.dart';
@@ -41,6 +41,11 @@ class Purchase {
   /// 구매 진행 상태 알림(화면이 듣고 안내): null = 없음, 'pending' · 'error' · 'done' · 'restored' · 'nothing'
   static final status = ValueNotifier<String?>(null);
   static StreamSubscription<List<PurchaseDetails>>? _sub;
+
+  /// 통합 앱 연결(2026-11-09): false 면 이 패키지가 스토어 구매 스트림을 직접 듣지 않는다 —
+  /// 통합 앱의 공용 결제가 스트림 하나를 듣고 [onPurchaseUpdates] 로 넘기며, completePurchase 도 통합 앱이 한다.
+  /// 단독 앱은 true(예전과 같음). `embedInit()` 이 통합 앱이면 false 로 둔다.
+  static bool ownStream = true;
   static bool _restoring = false, _restoredAny = false;
   /// 옛 평생 상품 ID(2026-11-02 첫 판) — 복원·영수증에 오면 `lang_<코드>_life` 로 친다.
   static const _legacy = {'lang_it': 'lang_it_life', 'com.talkverse.italianUniverse.lifetime': 'lang_it_life'};
@@ -56,14 +61,14 @@ class Purchase {
   static Future<void> configure(String code, List<Plan> list) async {
     lang = code;
     plans = list;
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     final raw = p.getString('iap_owned2');
     final m = <String, int>{if (raw != null) ...(jsonDecode(raw) as Map).map((k, v) => MapEntry('$k', (v as num).toInt()))};
     if ((p.getStringList('iap_owned') ?? const []).contains(code)) m['lang_${code}_life'] = 0; // 옛 저장 방식(평생 하나)
     owned.value = m;
     Account.user.addListener(_onAccount);
     if (!(isIOS || isAndroid)) return;
-    _sub ??= InAppPurchase.instance.purchaseStream.listen(_onUpdates, onError: (_) => status.value = 'error');
+    if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
     try {
       if (!await InAppPurchase.instance.isAvailable()) return;
       final r = await InAppPurchase.instance.queryProductDetails({for (final x in list) x.id});
@@ -105,7 +110,8 @@ class Purchase {
     return plan(id) != null || id.startsWith('lang_') || id.startsWith('all_') ? id : null;
   }
 
-  static Future<void> _onUpdates(List<PurchaseDetails> list) async {
+  /// 구매 갱신 처리. 단독 앱은 스토어 스트림이 직접 부르고, 통합 앱은 공용 결제가 이 언어 상품(lang_it_*·all_*)만 골라 부른다.
+  static Future<void> onPurchaseUpdates(List<PurchaseDetails> list) async {
     for (final pd in list) {
       final id = _known(pd.productID);
       switch (pd.status) {
@@ -124,7 +130,7 @@ class Purchase {
             if (_restoring) _restoring = false;
           }
       }
-      if (pd.pendingCompletePurchase) await InAppPurchase.instance.completePurchase(pd);
+      if (ownStream && pd.pendingCompletePurchase) await InAppPurchase.instance.completePurchase(pd); // 통합 앱이면 완료 처리는 통합 앱이
     }
   }
 
@@ -140,7 +146,7 @@ class Purchase {
     final cur = owned.value[id];
     final keep = cur != null && (cur == 0 || (exp != 0 && cur > exp)); // 더 긴 기한이 있으면 유지
     if (!keep) owned.value = {...owned.value, id: exp};
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     await p.setString('iap_owned2', jsonEncode(owned.value));
     // 서버로 보낼 영수증 — 로그인 전이면 쌓아 두었다가 로그인 때 보낸다
     final rec = {
@@ -161,7 +167,7 @@ class Purchase {
   static Future<void> _flush() async {
     final at = Account.signedIn ? await Account.accessToken() : null;
     if (at == null) return;
-    final p = await SharedPreferences.getInstance();
+    final p = await Prefs.getInstance();
     final left = <String>[];
     var sent = false;
     for (final s in [...?p.getStringList('iap_pending')]) {

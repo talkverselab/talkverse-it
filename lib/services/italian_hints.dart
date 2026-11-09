@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:csv/csv.dart';
@@ -27,7 +28,7 @@ class ItalianHints {
 
   Future<void> _load() async {
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/grammar/verbs_core.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/grammar/verbs_core.json'))) as Map<String, dynamic>;
       for (final v in (j['verbs'] as List? ?? const []).whereType<Map>()) {
         final present = (v['present'] as List?)?.map((e) => '$e').toList() ?? const <String>[];
         if (present.length != persons.length) continue;
@@ -38,7 +39,7 @@ class ItalianHints {
       }
     } catch (_) {}
     try {
-      final raw = await rootBundle.loadString('assets/data/freq/lang_es_top.csv');
+      final raw = await rootBundle.loadString(assetPath('assets/data/freq/lang_es_top.csv'));
       final rows = const CsvToListConverter(eol: '\n').convert(raw);
       for (var i = 1; i < rows.length; i++) {
         final r = rows[i];

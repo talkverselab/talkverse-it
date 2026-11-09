@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/foundation.dart' show debugPrint;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'content_sync.dart';
 import 'learner_prefs.dart';
@@ -122,7 +122,7 @@ class ArtService {
   Future<void> _ensure() => _loading ??= _load();
 
   Future<void> _load() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     final at = prefs.getInt(_prefAt) ?? 0;
     final cached = prefs.getString(_prefKey);
     final fresh = DateTime.now().millisecondsSinceEpoch - at < _ttl.inMilliseconds;

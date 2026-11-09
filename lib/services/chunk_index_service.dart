@@ -1,4 +1,4 @@
-import '../main.dart';
+import '../embed.dart';
 import '../screens/episode_screen.dart';
 import '../screens/grammar_lesson_screen.dart';
 import 'speak_match.dart';

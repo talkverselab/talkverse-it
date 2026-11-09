@@ -6,7 +6,7 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../services/dialogue_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';

@@ -8,7 +8,7 @@ import '../widgets/achievement_desk.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../data/account.dart';
 import '../data/entitlement.dart';
 import '../data/purchase.dart';
@@ -73,6 +73,8 @@ class ProfileSections extends StatelessWidget {
         ValueListenableBuilder<bool>(
           valueListenable: KoReadingPrefs.show,
           builder: (context, on, _) => _SettingsGroup(items: [
+            if (switchLanguage != null)
+              _SettingItem(icon: Icons.swap_horiz, title: tr('다른 언어 배우기'), subtitle: tr('Talkverse 의 다른 언어로 이동'), onTap: switchLanguage!),
             _SettingItem(
                 icon: Icons.language,
                 title: tr('언어 / Language'),

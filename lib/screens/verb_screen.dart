@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
 import '../data/db/app_database.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
 import '../core/platform.dart';

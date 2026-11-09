@@ -1,10 +1,10 @@
 import 'package:drift/drift.dart' hide Column;
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import '../core/theme.dart';
 import '../data/db/app_database.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -54,7 +54,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
   }
 
   Future<void> _load() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     _koFirst = prefs.getBool(_kKoFirst) ?? true;
     _showHint = prefs.getBool(_kShowHint) ?? true;
     await EpisodeCatalog.instance.ensureLoaded();
@@ -110,7 +110,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
   }
 
   Future<void> _toggleDir() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     setState(() {
       _koFirst = !_koFirst;
       _flipped = false;
@@ -119,7 +119,7 @@ class _SentenceFlashcardScreenState extends State<SentenceFlashcardScreen> {
   }
 
   Future<void> _toggleHint() async {
-    final prefs = await SharedPreferences.getInstance();
+    final prefs = await Prefs.getInstance();
     setState(() => _showHint = !_showHint);
     await prefs.setBool(_kShowHint, _showHint);
   }

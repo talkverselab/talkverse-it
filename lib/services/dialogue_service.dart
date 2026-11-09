@@ -1,7 +1,8 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:shared_preferences/shared_preferences.dart';
+import '../core/prefs.dart';
 
 import 'art_service.dart';
 import 'learner_prefs.dart';
@@ -136,7 +137,7 @@ class DialogueService {
   String? get lastOpenedId => _lastOpened;
   Future<void> setLastOpened(String id) async {
     _lastOpened = id;
-    (await SharedPreferences.getInstance()).setString(_prefLast, id);
+    (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
   /// 여러 화면이 동시에 불러도 한 번만 읽는다(넓은 화면에서 홈·회화 홈이 함께 떠 편이 두 번 채워지던 문제).
@@ -144,10 +145,10 @@ class DialogueService {
   Future<void>? _loading;
 
   Future<void> _load() async {
-    _lastOpened = (await SharedPreferences.getInstance()).getString(_prefLast);
+    _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
     for (final file in const ['L1', 'L2', 'L3']) {
       try {
-        final j = json.decode(await rootBundle.loadString('assets/data/dialogues/$file.json')) as Map<String, dynamic>;
+        final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/$file.json'))) as Map<String, dynamic>;
         final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
         final names = chars.map((k, v) => MapEntry(k, ((v as Map)['name'] ?? k).toString()));
         final genders = chars.map((k, v) => MapEntry(k, ((v as Map)['gender'] ?? 'female').toString()));

@@ -1,3 +1,4 @@
+import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -29,7 +30,7 @@ class GrammarLesson {
     final out = <GrammarLesson>[];
     for (var i = 1; i <= 20; i++) {
       try {
-        final raw = await rootBundle.loadString('assets/data/grammar/lesson$i.json');
+        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
         final d = json.decode(raw) as Map<String, dynamic>;
         out.add(GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,

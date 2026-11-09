@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
-import '../main.dart';
+import '../embed.dart';
 import '../widgets/spanish_decor.dart';
 import 'episode_screen.dart';
 import '../core/l10n.dart';
