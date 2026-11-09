@@ -13,6 +13,6 @@ for k in $(seq 1 $n); do
   [ -s $dir/cut$k.jpg ] && { echo "있음 cut$k"; continue; }
   if [ $first -eq 1 ]; then echo "첨부 규칙 파일과 컷 목록 파일대로 그린다. 앞으로 cutN 한 줄만 보낸다. cut$k" > $dir/cut${k}_msg.txt; att=(--attach $A); first=0
   else echo "cut$k" > $dir/cut${k}_msg.txt; att=(); fi
-  /usr/bin/python3 tools/grok_image.py $dir/cut${k}_msg.txt $dir/cut$k.jpg --tab grok.com $att --wait 420 2>&1 | tail -1
+  /usr/bin/python3 tools/grok_image.py $dir/cut${k}_msg.txt $dir/cut$k.jpg --tab grok.com $att --wait 180 2>&1 | tail -1
   sleep 90   # 한 번에 몰아 보내지 않는다(사용자 지시 2026-11-09)
 done
