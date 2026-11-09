@@ -18,7 +18,7 @@
   "B": "Chiara"
  },
  "register": "casual",
- "twist": 6,
+ "twist": 8,
  "twist_type": "chaos",
  "flags": [],
  "goal": "골격 단계 3·4·5·7·9·10 · 굴절 반복 chiamo/chiama · senti/sento · trovo/trovato · 표현 Mamma mia · Tranquilla · Dai · Ecco",
@@ -179,9 +179,9 @@
   {
    "num": 6,
    "speaker": "A",
-   "it": "Ecco, trovato! È nel gelato. Il tuo gelato.",
-   "rd": "에꼬, 트로바또! 에 넬 젤라또. 일 뚜오 젤라또.",
-   "ko": "찾았다! 젤라토 안에 있어. 네 젤라토.",
+   "it": "Ecco, trovato! È nel frigo. Ma... dov'è il gelato?",
+   "rd": "에꼬, 트로바또! 에 넬 프리고. 마... 도베 일 젤라또?",
+   "ko": "찾았다! 냉장고 안에 있어. 근데… 젤라토는 어디 있어?",
    "note": "trovato = 찾았다(trovare 과거분사) — 1턴 trovo, nel = in + il",
    "tags": [
     "step:4",
@@ -190,7 +190,6 @@
    "new": [
     "gelato"
    ],
-   "emotion": "amused",
    "lemmas": [
     [
      "ecco",
@@ -203,38 +202,39 @@
      ""
     ],
     [
-     "gelato",
-     "gelato",
+     "frigo",
+     "frigo",
      ""
     ],
     [
-     "tuo",
-     "tuo",
+     "gelato",
+     "gelato",
      ""
+    ]
+   ],
+   "segs": [
+    [
+     "amused",
+     "Ecco, trovato! È nel frigo."
+    ],
+    [
+     "surprised",
+     " Ma... dov'è il gelato?"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ah, sì! Ho messo il gelato e... il telefono.",
-   "rd": "아, 씨! 오 메쏘 일 젤라또 에... 일 뗄레포노.",
-   "ko": "아, 맞다! 젤라토 넣으면서… 폰도 같이.",
+   "it": "Ah, sì! Ho messo il telefono nel frigo e...",
+   "rd": "아, 씨! 오 메쏘 일 뗄레포노 넬 프리고 에...",
+   "ko": "아, 맞다! 폰은 냉장고에 넣고…",
    "note": "ho messo = 넣었다(mettere 근과거)",
    "tags": [
-    "step:5"
+    "step:5",
+    "step:4"
    ],
    "new": [],
-   "segs": [
-    [
-     "surprised",
-     "Ah, sì! Ho messo il gelato e..."
-    ],
-    [
-     "flustered",
-     "il telefono."
-    ]
-   ],
    "lemmas": [
     [
      "ho messo",
@@ -242,47 +242,55 @@
      ""
     ],
     [
-     "gelato",
-     "gelato",
+     "telefono",
+     "telefono",
      ""
     ],
     [
-     "telefono",
-     "telefono",
+     "frigo",
+     "frigo",
      ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Ah, sì! Ho messo il telefono"
+    ],
+    [
+     "flustered",
+     " nel frigo e..."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Il telefono è morto. Ma vorrei finire il gelato.",
-   "rd": "일 뗄레포노 에 모르또. 마 보레이 피니레 일 젤라또.",
-   "ko": "폰은 죽었어. 근데 젤라토는 마저 먹을래.",
-   "note": "vorrei = ~하고 싶은데(volere 조건)",
+   "it": "...il gelato nella mia borsa. Vorrei un altro gelato.",
+   "rd": "...일 젤라또 넬라 미아 보르싸. 보레이 운 알트로 젤라또.",
+   "ko": "…젤라토는 내 가방에 넣었어. 젤라토 하나 더 먹고 싶다.",
+   "note": "vorrei = ~하고 싶은데(volere 조건) · nella = in + la",
    "tags": [
-    "step:10"
+    "step:10",
+    "step:4"
    ],
-   "new": [],
-   "segs": [
-    [
-     "sad",
-     "Il telefono è morto."
-    ],
-    [
-     "cheerful",
-     "Ma vorrei finire il gelato."
-    ]
+   "new": [
+    "borsa"
    ],
    "lemmas": [
     [
-     "telefono",
-     "telefono",
+     "gelato",
+     "gelato",
      ""
     ],
     [
-     "morto",
-     "morire",
+     "mia",
+     "mio",
+     ""
+    ],
+    [
+     "borsa",
+     "borsa",
      ""
     ],
     [
@@ -291,14 +299,19 @@
      ""
     ],
     [
-     "finire",
-     "finire",
+     "altro",
+     "altro",
      ""
+    ]
+   ],
+   "segs": [
+    [
+     "sad",
+     "...il gelato nella mia borsa."
     ],
     [
-     "gelato",
-     "gelato",
-     ""
+     "cheerful",
+     " Vorrei un altro gelato."
     ]
    ]
   }

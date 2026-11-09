@@ -10,18 +10,18 @@
  "domain": [
   "friends"
  ],
- "title": "먹는 커피",
+ "title": "소금 커피",
  "emoji": "☕",
- "scene": "일요일 아침 마르코네 부엌. 바리스타 마르코에게 학습자가 큰소리를 친다",
+ "scene": "일요일 아침 마르코네 부엌. 바리스타 마르코에게 학습자가 커피는 자기가 만들겠다고 큰소리를 친다",
  "speakers": {
   "A": "{name}",
   "B": "Marco"
  },
  "register": "casual",
- "twist": 6,
+ "twist": 7,
  "twist_type": "chaos",
  "flags": [],
- "goal": "골격 단계 1·2·3·5·8·9·10 · 굴절 반복 farò/fare · sai/so · hai messo/ho messo · 표현 Fammi vedere · Ecco · Allora",
+ "goal": "골격 단계 1·3·5·7·9·10 · 굴절 반복 farò/fare/fatta · sai/so · hai messo/ho messo · 표현 Fammi vedere · Ecco · Allora",
  "expressions": [
   "Fammi vedere",
   "Ecco",
@@ -174,15 +174,17 @@
   {
    "num": 5,
    "speaker": "A",
-   "it": "Ecco. Un caffè per un amico.",
-   "rd": "에꼬. 운 까페 뻬르 운 아미꼬.",
-   "ko": "자. 친구를 위한 커피 한 잔.",
-   "note": "un caffè, un amico = 남성 관사 un",
+   "it": "Ecco il caffè. Quanto zucchero vuoi?",
+   "rd": "에꼬 일 까페. 꽌또 쭈께로 부오이?",
+   "ko": "자, 커피. 설탕 얼마나 넣어 줄까?",
+   "note": "vuoi = 너 원하다(volere)",
    "tags": [
-    "step:1"
+    "step:1",
+    "step:9"
    ],
-   "new": [],
-   "emotion": "cheerful",
+   "new": [
+    "zucchero"
+   ],
    "lemmas": [
     [
      "ecco",
@@ -195,114 +197,137 @@
      ""
     ],
     [
-     "amico",
-     "amico",
+     "zucchero",
+     "zucchero",
+     ""
+    ],
+    [
+     "vuoi",
+     "volere",
      ""
     ]
-   ]
+   ],
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "B",
-   "it": "Cos'hai messo? È un caffè o un biscotto?",
-   "rd": "꼬자이 메쏘? 에 운 까페 오 운 비스꼬또?",
-   "ko": "뭘 넣은 거야? 이거 커피야, 과자야?",
+   "it": "Uno, grazie. Mmm... cos'hai messo? È sale!",
+   "rd": "우노, 그라찌에. 믐... 꼬자이 메쏘? 에 쌀레!",
+   "ko": "하나. 음… 뭘 넣은 거야? 소금이잖아!",
    "note": "hai messo = 너 넣었다(mettere 근과거) — 7턴 ho messo(나)",
    "tags": [
-    "step:5",
-    "step:2"
+    "step:5"
    ],
    "new": [
-    "biscotto"
+    "sale"
    ],
-   "emotion": "surprised",
    "lemmas": [
+    [
+     "grazie",
+     "grazie",
+     ""
+    ],
     [
      "hai messo",
      "mettere",
      ""
     ],
     [
-     "caffè",
-     "caffè",
+     "sale",
+     "sale",
      ""
+    ]
+   ],
+   "segs": [
+    [
+     "neutral",
+     "Uno, grazie. Mmm..."
     ],
     [
-     "biscotto",
-     "biscotto",
-     ""
+     "surprised",
+     " cos'hai messo? È sale!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "it": "Ho messo lo zucchero... tutto lo zucchero.",
-   "rd": "오 메쏘 로 쭈께로... 뚜또 로 쭈께로.",
-   "ko": "설탕을 넣었어… 설탕 전부.",
-   "note": "ho messo = 넣었다(mettere 근과거)",
+   "it": "Ho messo il sale?! Allora anche la torta di ieri l'ho fatta con il sale!",
+   "rd": "오 메쏘 일 쌀레?! 알로라 안께 라 또르따 디 이에리 로 파따 꼰 일 쌀레!",
+   "ko": "내가 소금을 넣었어?! 그럼 어제 케이크도 소금으로 만든 거야!",
+   "note": "l'ho fatta = 그걸 만들었다(la torta → fatta)",
    "tags": [
-    "step:5"
+    "step:5",
+    "step:7"
    ],
    "new": [
-    "zucchero"
+    "torta"
    ],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "ho messo",
+     "Ho messo",
      "mettere",
      ""
     ],
     [
-     "zucchero",
-     "zucchero",
+     "sale",
+     "sale",
      ""
     ],
     [
-     "tutto",
-     "tutto",
+     "torta",
+     "torta",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "fatta",
+     "fare",
      ""
     ]
-   ]
+   ],
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Mi piace. Bravo, un caffè da mangiare.",
-   "rd": "미 삐아체. 브라보, 운 까페 다 만쟈레.",
-   "ko": "맘에 들어. 잘했어, 씹어 먹는 커피네.",
-   "note": "mi piace = 맘에 든다(piacere)",
+   "it": "Ecco perché Chiara ha detto «Buonissima!» e non l'ha finita.",
+   "rd": "에꼬 뻬르께 끼아라 아 데또 \"부오니씨마!\" 에 논 라 피니따.",
+   "ko": "그래서 키아라가 「맛있다!」 하고는 다 안 먹었구나.",
+   "note": "l'ha finita = 그걸 다 먹었다(finire, la → -a)",
    "tags": [
-    "step:8"
+    "step:5",
+    "step:7"
    ],
    "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
-     "piace",
-     "piacere",
+     "ecco",
+     "ecco",
      ""
     ],
     [
-     "bravo",
-     "bravo",
+     "detto",
+     "dire",
      ""
     ],
     [
-     "caffè",
-     "caffè",
+     "buonissima",
+     "buono",
      ""
     ],
     [
-     "mangiare",
-     "mangiare",
+     "finita",
+     "finire",
      ""
     ]
    ],
-   "it_f": "Mi piace. Brava, un caffè da mangiare.",
-   "ko_f": "맘에 들어. 잘했어, 씹어 먹는 커피네.",
-   "rd_f": "미 삐아체. 브라바, 운 까페 다 만쟈레."
+   "emotion": "amused"
   }
  ]
 }

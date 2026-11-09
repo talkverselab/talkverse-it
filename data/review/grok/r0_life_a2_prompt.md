@@ -12,5 +12,5 @@
 2 A: No. Cerca bene! / 아니. 잘 찾아 봐!
 3 B: Cerco! Non ci sono! Mamma mia! / 찾고 있다고! 없어! 미치겠네!
 4 A: Tranquillo. Fammi vedere... / 진정해. 내가 볼게…
-5 B: Dai! Chiamo tutti: mamma, Chiara, Marco! / 빨리! 다 부른다. 엄마, 키아라, 마르코!
-6 A: Ehm... c'è anche tua mamma! / 음… 너네 엄마까지 왔어!
+5 B: Dai, è tardi! Prendo le tue chiavi. Ciao! / 아 몰라, 늦었어! 네 열쇠 가져간다. 안녕!
+6 A: Luca! Le tue le hai in mano... e adesso io sono senza! / 루카! 네 건 손에 들고 있잖아… 이제 난 열쇠가 없다고!

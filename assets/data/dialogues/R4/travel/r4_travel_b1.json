@@ -5,22 +5,21 @@
  "kind": "long",
  "title": "두 시간 잔 기차",
  "emoji": "🚆",
- "scene": "밤 기차. 학습자가 깜빡 잠든 사이 차장이 표를 검사하러 오고, 옆자리 마르코는 태연하다",
+ "scene": "밤 기차. 학습자가 깜빡 잠든 사이 내릴 역을 지나쳤고, 차장이 표를 검사하러 온다. 옆자리 마르코는 태연하다",
  "speakers": {
   "A": "{name}",
   "B": "Marco",
   "C": "Signor Bassi"
  },
  "register": "mixed",
- "twist": 13,
+ "twist": 12,
  "twist_type": "chaos",
  "flags": [],
  "expressions": [
   "Ecco",
-  "Mamma mia",
-  "Certo"
+  "Mamma mia"
  ],
- "goal": "어려운 문법 2 접속법 과거 · 4 가정문(se scendesse … potrebbe) · 5 반과거/근과거 · 6 대과거 · 8 ci · 9 재귀 근과거 · 10 con cui · 존댓말 Lei",
+ "goal": "어려운 문법 4 가정문(se scendesse … potrebbe) · 5 반과거/근과거 · 6 대과거(me l'avevi detto) · 7 결합 대명사 · 8 ci · 9 재귀 근과거 · 10 con cui · 존댓말 Lei · 차액 내기",
  "draft": true,
  "purpose": [
   "travel"
@@ -409,199 +408,155 @@
   {
    "num": 12,
    "speaker": "B",
-   "it": "Certo. Mia nonna vive alla prossima, e credo che abbia già detto a mezzo paese che arriviamo.",
-   "rd": "체르또. 미아 논나 비베 알라 프로씨마, 에 크레도 께 아비아 쟈 데또 아 메쪼 빠에제 께 아리비아모.",
-   "ko": "당연하지. 우리 할머니가 다음 역에 사셔. 벌써 온 동네에 우리 온다고 소문냈을걸.",
-   "note": "credo che abbia detto = 말했을 거라고 생각해(접속법 과거)",
+   "it": "Napoli? Credevo che scendessimo a Salerno. Me l'avevi detto tu!",
+   "rd": "나뽈리? 크레데보 께 셴데씨모 아 쌀레르노. 메 라베비 데또 뚜!",
+   "ko": "나폴리? 난 살레르노에서 내리는 줄 알았는데. 네가 그렇게 말했잖아!",
+   "note": "me l'avevi detto = 나한테 그렇게 말했었다(대과거 + me lo)",
    "tags": [
-    "step:2"
+    "step:6",
+    "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "nonna",
-     "nonno",
-     ""
-    ],
-    [
-     "vive",
-     "vivere",
-     ""
-    ],
-    [
-     "prossima",
-     "prossimo",
-     ""
-    ],
-    [
-     "credo",
+     "credevo",
      "credere",
      ""
     ],
     [
-     "abbia",
-     "avere",
+     "scendessimo",
+     "scendere",
      ""
     ],
     [
      "detto",
      "dire",
      ""
-    ],
-    [
-     "mezzo",
-     "mezzo",
-     ""
-    ],
-    [
-     "paese",
-     "paese",
-     ""
-    ],
-    [
-     "arriviamo",
-     "arrivare",
-     ""
-    ]
-   ],
-   "emotion": "amused"
-  },
-  {
-   "num": 13,
-   "speaker": "C",
-   "it": "La signora Ida? Ma è mia zia! E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito.",
-   "rd": "라 씨뇨라 이다? 마 에 미아 찌아! 에 디 프라뗄리 미에이 체 네 쏘노 트레 쑤 꿰스또 트레노. 리엘로 디꼬 쑤비또.",
-   "ko": "이다 할머니요? 우리 이모예요! 이 기차에 제 형제도 셋이나 타고 있어요. 바로 말해 줄게요.",
-   "note": "ce ne sono tre = 셋이나 있다(ne = 그중) · glielo = 그에게 그것을",
-   "tags": [
-    "step:8",
-    "step:7"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "signora",
-     "signore",
-     ""
-    ],
-    [
-     "zia",
-     "zio",
-     ""
-    ],
-    [
-     "fratelli",
-     "fratello",
-     ""
-    ],
-    [
-     "miei",
-     "mio",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "tre",
-     "tre",
-     ""
-    ],
-    [
-     "treno",
-     "treno",
-     ""
-    ],
-    [
-     "dico",
-     "dire",
-     ""
-    ],
-    [
-     "subito",
-     "subito",
-     ""
     ]
    ],
    "segs": [
     [
      "surprised",
-     "La signora Ida? Ma è mia zia! "
+     "Napoli? Credevo che scendessimo a Salerno."
     ],
     [
-     "excited",
-     "E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito."
+     "annoyed",
+     " Me l'avevi detto tu!"
     ]
    ]
   },
   {
-   "num": 14,
-   "speaker": "A",
-   "it": "Marco, adesso lo sta dicendo a tutto il treno. Se fossi in te, chiamerei tua nonna: la cena è per cento.",
-   "rd": "마르꼬, 아데쏘 로 스따 디첸도 아 뚜또 일 트레노. 쎄 포씨 인 떼, 끼아메레이 뚜아 논나: 라 체나 에 뻬르 첸또.",
-   "ko": "마르코, 저분 지금 기차 전체에 말하고 다녀. 내가 너라면 할머니한테 전화드리겠다. 저녁 백 인분이야.",
-   "note": "se fossi in te, chiamerei = 내가 너라면 전화하겠다(가정문) · cento = 백",
-   "tags": [
-    "step:4"
-   ],
+   "num": 13,
+   "speaker": "C",
+   "it": "Il biglietto però vale solo fino a Napoli. Per il resto del viaggio deve pagare la differenza: quattro euro a testa.",
+   "rd": "일 빌리에또 뻬로 발레 쏠로 피노 아 나뽈리. 뻬르 일 레스또 델 비아조 데베 빠가레 라 디페렌짜: 꽈트로 에우로 아 떼스따.",
+   "ko": "그런데 승차권은 나폴리까지만 유효해요. 나머지 구간은 차액을 내셔야 해요. 한 분당 4유로요.",
+   "note": "pagare la differenza = 차액을 내다 · a testa = 1인당",
+   "tags": [],
    "new": [],
    "lemmas": [
     [
-     "adesso",
-     "adesso",
+     "biglietto",
+     "biglietto",
      ""
     ],
     [
-     "dicendo",
-     "dire",
+     "vale",
+     "valere",
      ""
     ],
     [
-     "tutto",
-     "tutto",
+     "resto",
+     "resto",
      ""
     ],
     [
-     "treno",
-     "treno",
+     "viaggio",
+     "viaggio",
      ""
     ],
     [
-     "fossi",
-     "essere",
+     "deve",
+     "dovere",
      ""
     ],
     [
-     "chiamerei",
-     "chiamare",
+     "pagare",
+     "pagare",
      ""
     ],
     [
-     "nonna",
-     "nonno",
+     "differenza",
+     "differenza",
      ""
     ],
     [
-     "cena",
-     "cena",
+     "quattro",
+     "quattro",
      ""
     ],
     [
-     "cento",
-     "cento",
+     "euro",
+     "euro",
+     ""
+    ],
+    [
+     "testa",
+     "testa",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Ecco otto euro, per tutti e due. Marco, stanotte l'albergo lo paghi tu.",
+   "rd": "에꼬 오또 에우로, 뻬르 뚜띠 에 두에. 마르꼬, 스따노떼 랄베르고 로 빠기 뚜.",
+   "ko": "여기 8유로요, 둘 거. 마르코, 오늘 밤 숙소는 네가 내.",
+   "note": "lo paghi tu = 그건 네가 내(pagare) — 13턴 pagare",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "otto",
+     "otto",
+     ""
+    ],
+    [
+     "euro",
+     "euro",
+     ""
+    ],
+    [
+     "stanotte",
+     "stanotte",
+     ""
+    ],
+    [
+     "albergo",
+     "albergo",
+     ""
+    ],
+    [
+     "paghi",
+     "pagare",
      ""
     ]
    ],
    "segs": [
     [
-     "flustered",
-     "Marco, adesso lo sta dicendo a tutto il treno. "
+     "stiff",
+     "Ecco otto euro, per tutti e due."
     ],
     [
-     "tsukkomi",
-     "Se fossi in te, chiamerei tua nonna: la cena è per cento."
+     "annoyed",
+     " Marco, stanotte l'albergo lo paghi tu."
     ]
    ]
   }

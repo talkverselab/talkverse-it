@@ -80,8 +80,8 @@
   "10": {
    "segs": [
     [
-     "worried",
-     "Ragazzi... venite un attimo in bagno."
+     "surprised",
+     "Aspetta, mi scrive Marco. Ha mandato una foto."
     ]
    ]
   },
@@ -93,23 +93,31 @@
     ],
     [
      "tsukkomi",
-     " C'è una moto nella doccia."
+     " È la tua moto, davanti al bar di Marco."
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "excited",
-     "Ah, ecco dove l'avevo messa! Fuori faceva freddo, poverina."
+     "surprised",
+     "Ah, ecco dove l'avevo lasciata!"
+    ],
+    [
+     "flustered",
+     " Avevo bevuto e ho preferito tornare a piedi."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "tsukkomi",
-     "Luca, stiamo al terzo piano. Come ce l'hai portata?"
+     "gentle",
+     "Hai fatto bene."
+    ],
+    [
+     "worried",
+     " Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì."
     ]
    ]
   },
@@ -117,7 +125,7 @@
    "segs": [
     [
      "cheerful",
-     "Non lo so. Ma chi mi aiuta a portarla giù, stasera ha la cena pagata."
+     "Allora corro. A chi mi accompagna, il caffè glielo offro io."
     ]
    ]
   }

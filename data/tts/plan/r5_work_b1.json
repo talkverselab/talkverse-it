@@ -115,28 +115,36 @@
   "12": {
    "segs": [
     [
-     "shout",
-     "Si sposti, signora! Sta per scoppiare!"
+     "flustered",
+     "Anzi, si è fermata del tutto."
+    ],
+    [
+     "stiff",
+     " Signora, niente cappuccini finché non arriva il tecnico."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "surprised",
-     "Mamma mia, che fumo!"
+     "worried",
+     "Mamma mia, con questa fila! Lo chiamo subito."
     ],
     [
-     "amused",
-     " E adesso perché i clienti battono le mani?"
+     "teasing",
+     " E dei turni ne parliamo dopo: vi ho sentiti dalla porta."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "teasing",
-     "Pensano che sia uno spettacolo. Signora, dello stipendio ne parliamo adesso o dopo?"
+     "polite",
+     "Va bene, signora. Lo dico io ai clienti."
+    ],
+    [
+     "shy",
+     " E già che ci siamo... possiamo parlare anche dello stipendio?"
     ]
    ]
   }

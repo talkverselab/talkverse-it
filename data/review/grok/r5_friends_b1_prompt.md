@@ -22,6 +22,6 @@
 8F A: Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole. / 할머니, 키아라 그림 보셨어요? 저는 처음 봤을 때 말이 안 나왔어요.
 9 C: Li ho visti, sì. Uno l'ho anche comprato l'anno scorso, di nascosto. / 봤지. 작년엔 몰래 한 점 사기도 했단다.
 10 B: Ma dai! Eri tu quella che non ha voluto dire il nome? / 말도 안 돼! 이름 안 밝히고 산 사람이 할머니였어요?
-11 C: Certo. E già che ci siamo: il mese prossimo mi sposo anch'io. Con il vicino del quarto piano. / 그럼. 말 나온 김에, 다음 달에 나도 결혼한다. 5층 사는 이웃이랑.
-12 B: Nonna! Ma hai novant'anni! / 할머니! 아흔이시잖아요!
-13 C: E lui settantotto. Mi piacciono giovani. / 그 사람은 일흔여덟이야. 난 젊은 남자가 좋더라.
+11 C: Certo. E già che ci siamo: anch'io ho un fidanzato. Il vicino del quarto piano. / 그럼. 말 나온 김에, 나도 남자 친구 있다. 5층 사는 이웃.
+12 B: Nonna! Ma da quando hai un fidanzato? / 할머니! 남자 친구는 또 언제부터요?
+13 C: Da marzo. Lui ha settantotto anni. Mi piacciono giovani. / 3월부터. 그 사람은 일흔여덟이야. 난 젊은 남자가 좋더라.

@@ -40,15 +40,19 @@
    "segs": [
     [
      "cheerful",
-     "Ecco. Un caffè per un amico."
+     "Ecco il caffè. Quanto zucchero vuoi?"
     ]
    ]
   },
   "6": {
    "segs": [
     [
+     "neutral",
+     "Uno, grazie. Mmm..."
+    ],
+    [
      "surprised",
-     "Cos'hai messo? È un caffè o un biscotto?"
+     " cos'hai messo? È sale!"
     ]
    ]
   },
@@ -56,7 +60,7 @@
    "segs": [
     [
      "flustered",
-     "Ho messo lo zucchero... tutto lo zucchero."
+     "Ho messo il sale?! Allora anche la torta di ieri l'ho fatta con il sale!"
     ]
    ]
   },
@@ -64,20 +68,9 @@
    "segs": [
     [
      "amused",
-     "Mi piace. Bravo, un caffè da mangiare."
+     "Ecco perché Chiara ha detto «Buonissima!» e non l'ha finita."
     ]
-   ],
-   "f": {
-    "text": "Mi piace. Brava, un caffè da mangiare.",
-    "rd": "미 삐아체. 브라바, 운 까페 다 만쟈레.",
-    "ko": "맘에 들어. 잘했어, 씹어 먹는 커피네.",
-    "segs": [
-     [
-      "amused",
-      "Mi piace. Brava, un caffè da mangiare."
-     ]
-    ]
-   }
+   ]
   }
  }
 }

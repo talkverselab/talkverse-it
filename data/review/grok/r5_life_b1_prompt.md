@@ -19,6 +19,6 @@
 9 B: Dormiva poco? E perché? / 잠을 못 잤다고요? 왜요?
 10 C: Il vicino di sopra suona la batteria. Ma solo la sera. / 윗집 사람이 드럼을 쳐요. 근데 저녁에만요.
 11 A: Solo la sera... fino a che ora? / 저녁에만… 몇 시까지요?
-12 C: Dipende dalle partite: è il batterista della curva. E quando la squadra vince, festeggiano tutti sul vostro balcone. / 경기에 따라 달라요. 응원석 드러머거든요. 그리고 팀이 이기면 다들 이 집 발코니에서 축하 파티를 해요.
-13 B: Tutta la curva? Sul nostro balcone? Firmo subito! / 응원석 전체가요? 우리 발코니에서요? 당장 계약할게요!
-14 A: Luca, non firmare niente. Metti giù quella penna. / 루카, 아무것도 서명하지 마. 그 펜 내려놔.
+12 C: Dipende... a volte fino a mezzanotte. E nei giorni di partita qui sotto passano diecimila tifosi. / 그때그때 달라요… 가끔 자정까지요. 그리고 경기 날엔 이 앞으로 응원하는 사람이 만 명쯤 지나가요.
+13 B: La batteria, i tifosi... e la partita la vedo dal balcone. Firmo subito! / 드럼에 응원 팬에… 경기는 발코니에서 보면 되고. 당장 계약할게요!
+14 A: Luca, non firmare... hai già firmato?! Signor Ferri, almeno stasera alle dieci possiamo tornare? / 루카, 서명하지 마… 벌써 했어?! 페리 씨, 적어도 오늘 밤 10시에 다시 와 봐도 되죠?

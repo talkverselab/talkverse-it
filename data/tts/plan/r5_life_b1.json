@@ -100,12 +100,12 @@
   "12": {
    "segs": [
     [
-     "polite",
-     "Dipende dalle partite: è il batterista della curva. "
+     "flustered",
+     "Dipende... a volte fino a mezzanotte."
     ],
     [
-     "cheerful",
-     "E quando la squadra vince, festeggiano tutti sul vostro balcone."
+     "polite",
+     " E nei giorni di partita qui sotto passano diecimila tifosi."
     ]
    ]
   },
@@ -113,7 +113,7 @@
    "segs": [
     [
      "excited",
-     "Tutta la curva? Sul nostro balcone? Firmo subito!"
+     "La batteria, i tifosi... e la partita la vedo dal balcone. Firmo subito!"
     ]
    ]
   },
@@ -121,7 +121,11 @@
    "segs": [
     [
      "annoyed",
-     "Luca, non firmare niente. Metti giù quella penna."
+     "Luca, non firmare... hai già firmato?!"
+    ],
+    [
+     "worried",
+     " Signor Ferri, almeno stasera alle dieci possiamo tornare?"
     ]
    ]
   }

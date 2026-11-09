@@ -130,32 +130,32 @@
   "12": {
    "segs": [
     [
-     "amused",
-     "Certo. Mia nonna vive alla prossima, e credo che abbia già detto a mezzo paese che arriviamo."
+     "surprised",
+     "Napoli? Credevo che scendessimo a Salerno."
+    ],
+    [
+     "annoyed",
+     " Me l'avevi detto tu!"
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "surprised",
-     "La signora Ida? Ma è mia zia! "
-    ],
-    [
-     "excited",
-     "E di fratelli miei ce ne sono tre su questo treno. Glielo dico subito."
+     "polite",
+     "Il biglietto però vale solo fino a Napoli. Per il resto del viaggio deve pagare la differenza: quattro euro a testa."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "flustered",
-     "Marco, adesso lo sta dicendo a tutto il treno. "
+     "stiff",
+     "Ecco otto euro, per tutti e due."
     ],
     [
-     "tsukkomi",
-     "Se fossi in te, chiamerei tua nonna: la cena è per cento."
+     "annoyed",
+     " Marco, stanotte l'albergo lo paghi tu."
     ]
    ]
   }

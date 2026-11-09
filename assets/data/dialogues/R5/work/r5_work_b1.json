@@ -3,7 +3,7 @@
  "region": "R5",
  "island": "work",
  "kind": "long",
- "title": "박수받은 커피 머신",
+ "title": "멈춘 커피 머신",
  "emoji": "☕",
  "scene": "토요일 아침 마르코의 카페. 손님이 줄을 섰는데 커피 머신이 이상한 소리를 내고, 학습자는 근무표 얘기를 꺼낸다",
  "speakers": {
@@ -437,106 +437,83 @@
   {
    "num": 12,
    "speaker": "B",
-   "it": "Si sposti, signora! Sta per scoppiare!",
-   "rd": "씨 스뽀스띠, 씨뇨라! 스따 뻬르 스꼬삐아레!",
-   "ko": "비키세요, 사장님! 터지려고 해요!",
-   "note": "stare per = 막 ~하려 하다",
-   "tags": [],
+   "it": "Anzi, si è fermata del tutto. Signora, niente cappuccini finché non arriva il tecnico.",
+   "rd": "안찌, 씨 에 페르마따 델 뚜또. 씨뇨라, 니엔떼 까뿌치니 핀께 논 아리바 일 떼크니꼬.",
+   "ko": "아니, 아예 멈췄어요. 사장님, 기사님 오실 때까지 카푸치노는 안 돼요.",
+   "note": "finché non = ~할 때까지 · tecnico = 수리 기사",
+   "tags": [
+    "step:2"
+   ],
    "new": [],
    "lemmas": [
     [
-     "sposti",
-     "spostare",
+     "fermata",
+     "fermare",
+     ""
+    ],
+    [
+     "cappuccini",
+     "cappuccino",
+     ""
+    ],
+    [
+     "arriva",
+     "arrivare",
+     ""
+    ],
+    [
+     "tecnico",
+     "tecnico",
      ""
     ],
     [
      "signora",
      "signore",
      ""
-    ],
-    [
-     "scoppiare",
-     "scoppiare",
-     ""
-    ]
-   ],
-   "emotion": "shout"
-  },
-  {
-   "num": 13,
-   "speaker": "C",
-   "it": "Mamma mia, che fumo! E adesso perché i clienti battono le mani?",
-   "rd": "맘마 미아, 께 푸모! 에 아데쏘 뻬르께 이 클리엔띠 바또노 레 마니?",
-   "ko": "세상에, 무슨 김이 이렇게! 근데 손님들은 왜 박수를 쳐?",
-   "note": "battere le mani = 박수 치다",
-   "tags": [
-    "step:4"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "fumo",
-     "fumo",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
-     ""
-    ],
-    [
-     "clienti",
-     "cliente",
-     ""
-    ],
-    [
-     "battono",
-     "battere",
-     ""
-    ],
-    [
-     "mani",
-     "mano",
-     ""
     ]
    ],
    "segs": [
     [
-     "surprised",
-     "Mamma mia, che fumo!"
+     "flustered",
+     "Anzi, si è fermata del tutto."
     ],
     [
-     "amused",
-     " E adesso perché i clienti battono le mani?"
+     "stiff",
+     " Signora, niente cappuccini finché non arriva il tecnico."
     ]
    ]
   },
   {
-   "num": 14,
-   "speaker": "B",
-   "it": "Pensano che sia uno spettacolo. Signora, dello stipendio ne parliamo adesso o dopo?",
-   "rd": "뻰싸노 께 씨아 우노 스뻬따꼴로. 씨뇨라, 델로 스띠뻰디오 네 빠를리아모 아데쏘 오 도뽀?",
-   "ko": "쇼인 줄 아나 봐요. 사장님, 월급 얘기는 지금 할까요, 나중에 할까요?",
-   "note": "stipendio = 월급",
+   "num": 13,
+   "speaker": "C",
+   "it": "Mamma mia, con questa fila! Lo chiamo subito. E dei turni ne parliamo dopo: vi ho sentiti dalla porta.",
+   "rd": "맘마 미아, 꼰 꿰스따 필라! 로 끼아모 쑤비또. 에 데이 뚜르니 네 빠를리아모 도뽀: 비 오 쎈띠띠 달라 뽀르따.",
+   "ko": "세상에, 줄이 이렇게 긴데! 바로 전화할게. 그리고 근무 얘기는 이따 하자. 문 앞에서 다 들었어.",
+   "note": "vi ho sentiti = 너희 말 들었다(sentire, 너희 → -i) · ne parliamo = 그 얘기 하자",
    "tags": [
-    "step:7",
-    "step:10"
+    "step:2",
+    "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "pensano",
-     "pensare",
+     "fila",
+     "fila",
      ""
     ],
     [
-     "spettacolo",
-     "spettacolo",
+     "chiamo",
+     "chiamare",
      ""
     ],
     [
-     "stipendio",
-     "stipendio",
+     "subito",
+     "subito",
+     ""
+    ],
+    [
+     "turni",
+     "turno",
      ""
     ],
     [
@@ -545,17 +522,91 @@
      ""
     ],
     [
-     "adesso",
-     "adesso",
+     "dopo",
+     "dopo",
      ""
     ],
     [
-     "dopo",
-     "dopo",
+     "sentiti",
+     "sentire",
+     ""
+    ],
+    [
+     "porta",
+     "porta",
      ""
     ]
    ],
-   "emotion": "teasing"
+   "segs": [
+    [
+     "worried",
+     "Mamma mia, con questa fila! Lo chiamo subito."
+    ],
+    [
+     "teasing",
+     " E dei turni ne parliamo dopo: vi ho sentiti dalla porta."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Va bene, signora. Lo dico io ai clienti. E già che ci siamo... possiamo parlare anche dello stipendio?",
+   "rd": "바 베네, 씨뇨라. 로 디꼬 이오 아이 클리엔띠. 에 쟈 께 치 씨아모... 뽀씨아모 빠를라레 안께 델로 스띠뻰디오?",
+   "ko": "알겠어요, 사장님. 손님들한텐 제가 말할게요. 그리고 말 나온 김에… 월급 얘기도 해도 될까요?",
+   "note": "già che ci siamo = 말 나온 김에 · stipendio = 월급",
+   "tags": [
+    "step:2",
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "signora",
+     "signore",
+     ""
+    ],
+    [
+     "dico",
+     "dire",
+     ""
+    ],
+    [
+     "clienti",
+     "cliente",
+     ""
+    ],
+    [
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "possiamo",
+     "potere",
+     ""
+    ],
+    [
+     "parlare",
+     "parlare",
+     ""
+    ],
+    [
+     "stipendio",
+     "stipendio",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "polite",
+     "Va bene, signora. Lo dico io ai clienti."
+    ],
+    [
+     "shy",
+     " E già che ci siamo... possiamo parlare anche dello stipendio?"
+    ]
+   ]
   }
  ]
 }

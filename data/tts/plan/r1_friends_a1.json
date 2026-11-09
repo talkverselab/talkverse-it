@@ -48,7 +48,11 @@
    "segs": [
     [
      "amused",
-     "Ecco, trovato! È nel gelato. Il tuo gelato."
+     "Ecco, trovato! È nel frigo."
+    ],
+    [
+     "surprised",
+     " Ma... dov'è il gelato?"
     ]
    ]
   },
@@ -56,11 +60,11 @@
    "segs": [
     [
      "surprised",
-     "Ah, sì! Ho messo il gelato e..."
+     "Ah, sì! Ho messo il telefono"
     ],
     [
      "flustered",
-     "il telefono."
+     " nel frigo e..."
     ]
    ]
   },
@@ -68,11 +72,11 @@
    "segs": [
     [
      "sad",
-     "Il telefono è morto."
+     "...il gelato nella mia borsa."
     ],
     [
      "cheerful",
-     "Ma vorrei finire il gelato."
+     " Vorrei un altro gelato."
     ]
    ]
   }

@@ -485,13 +485,13 @@
   {
    "num": 11,
    "speaker": "C",
-   "it": "Certo. E già che ci siamo: il mese prossimo mi sposo anch'io. Con il vicino del quarto piano.",
-   "rd": "체르또. 에 쟈 께 치 씨아모: 일 메제 프로씨모 미 스뽀조 안끼오. 꼰 일 비치노 델 꽈르또 삐아노.",
-   "ko": "그럼. 말 나온 김에, 다음 달에 나도 결혼한다. 5층 사는 이웃이랑.",
-   "note": "già che ci siamo = 말 나온 김에",
+   "it": "Certo. E già che ci siamo: anch'io ho un fidanzato. Il vicino del quarto piano.",
+   "rd": "체르또. 에 쟈 께 치 씨아모: 안끼오 오 운 피단짜또. 일 비치노 델 꽈르또 삐아노.",
+   "ko": "그럼. 말 나온 김에, 나도 남자 친구 있다. 5층 사는 이웃.",
+   "note": "già che ci siamo = 말 나온 김에 · fidanzato = 애인(남)",
    "tags": [
     "step:8",
-    "step:10"
+    "step:4"
    ],
    "new": [],
    "lemmas": [
@@ -506,18 +506,13 @@
      ""
     ],
     [
-     "mese",
-     "mese",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "prossimo",
-     "prossimo",
-     ""
-    ],
-    [
-     "sposo",
-     "sposare",
+     "fidanzato",
+     "fidanzato",
      ""
     ],
     [
@@ -541,12 +536,12 @@
   {
    "num": 12,
    "speaker": "B",
-   "it": "Nonna! Ma hai novant'anni!",
-   "rd": "논나! 마 아이 노반딴니!",
-   "ko": "할머니! 아흔이시잖아요!",
-   "note": "novant'anni = 아흔 살",
+   "it": "Nonna! Ma da quando hai un fidanzato?",
+   "rd": "논나! 마 다 꽌도 아이 운 피단짜또?",
+   "ko": "할머니! 남자 친구는 또 언제부터요?",
+   "note": "da quando = 언제부터",
    "tags": [
-    "step:9"
+    "step:8"
    ],
    "new": [],
    "lemmas": [
@@ -556,8 +551,18 @@
      ""
     ],
     [
+     "quando",
+     "quando",
+     ""
+    ],
+    [
      "hai",
      "avere",
+     ""
+    ],
+    [
+     "fidanzato",
+     "fidanzato",
      ""
     ]
    ],
@@ -566,18 +571,35 @@
   {
    "num": 13,
    "speaker": "C",
-   "it": "E lui settantotto. Mi piacciono giovani.",
-   "rd": "에 루이 쎄딴또또. 미 삐아쵸노 조바니.",
-   "ko": "그 사람은 일흔여덟이야. 난 젊은 남자가 좋더라.",
+   "it": "Da marzo. Lui ha settantotto anni. Mi piacciono giovani.",
+   "rd": "다 마르쪼. 루이 아 쎄딴또또 안니. 미 삐아쵸노 조바니.",
+   "ko": "3월부터. 그 사람은 일흔여덟이야. 난 젊은 남자가 좋더라.",
    "note": "mi piacciono = 나는 ~가 좋다",
    "tags": [
     "step:4"
    ],
-   "new": [],
+   "new": [
+    "marzo"
+   ],
    "lemmas": [
+    [
+     "marzo",
+     "marzo",
+     ""
+    ],
+    [
+     "ha",
+     "avere",
+     ""
+    ],
     [
      "settantotto",
      "settantotto",
+     ""
+    ],
+    [
+     "anni",
+     "anno",
      ""
     ],
     [

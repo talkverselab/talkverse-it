@@ -148,38 +148,10 @@
   {
    "num": 5,
    "speaker": "B",
-   "it": "Dai! Chiamo tutti: mamma, Chiara, Marco!",
-   "rd": "다이! 끼아모 뚜띠: 맘마, 끼아라, 마르꼬!",
-   "ko": "빨리! 다 부른다. 엄마, 키아라, 마르코!",
-   "note": "chiamo = 내가 부르다·전화하다(chiamare)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Chiamo",
-     "chiamare",
-     ""
-    ],
-    [
-     "tutti",
-     "tutto",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
-     ""
-    ]
-   ],
-   "emotion": "shout"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Ehm... c'è anche tua mamma!",
-   "rd": "엠... 체 안께 뚜아 맘마!",
-   "ko": "음… 너네 엄마까지 왔어!",
-   "note": "c'è = ~가 있다(esserci)",
+   "it": "Dai, è tardi! Prendo le tue chiavi. Ciao!",
+   "rd": "다이, 에 따르디! 프렌도 레 뚜에 끼아비. 챠오!",
+   "ko": "아 몰라, 늦었어! 네 열쇠 가져간다. 안녕!",
+   "note": "prendo = 내가 가져가다(prendere)",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -189,22 +161,79 @@
      ""
     ],
     [
-     "anche",
-     "anche",
+     "tardi",
+     "tardi",
      ""
     ],
     [
-     "tua",
+     "Prendo",
+     "prendere",
+     ""
+    ],
+    [
+     "tue",
      "tuo",
      ""
     ],
     [
-     "mamma",
-     "mamma",
+     "chiavi",
+     "chiave",
      ""
     ]
    ],
-   "emotion": "flustered"
+   "emotion": "shout"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Luca! Le tue le hai in mano... e adesso io sono senza!",
+   "rd": "루까! 레 뚜에 레 아이 인 마노... 에 아데쏘 이오 쏘노 쎈짜!",
+   "ko": "루카! 네 건 손에 들고 있잖아… 이제 난 열쇠가 없다고!",
+   "note": "le hai in mano = 그거 손에 들고 있다 · senza = 없이",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "tue",
+     "tuo",
+     ""
+    ],
+    [
+     "hai",
+     "avere",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "senza",
+     "senza",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shout",
+     "Luca! Le tue le hai in mano..."
+    ],
+    [
+     "flustered",
+     " e adesso io sono senza!"
+    ]
+   ]
   }
  ]
 }

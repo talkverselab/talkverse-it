@@ -49,7 +49,11 @@
    "segs": [
     [
      "amused",
-     "Ecco, trovati! Sono nei gelati. I vostri gelati."
+     "Ecco, trovati! Sono nel frigo."
+    ],
+    [
+     "surprised",
+     " Ma... dove sono i gelati?"
     ]
    ]
   },
@@ -57,11 +61,11 @@
    "segs": [
     [
      "surprised",
-     "Ah, sì! Abbiamo messo i gelati e..."
+     "Ah, sì! Abbiamo messo i telefoni"
     ],
     [
      "flustered",
-     "i telefoni."
+     " nel frigo e..."
     ]
    ]
   },
@@ -69,11 +73,11 @@
    "segs": [
     [
      "sad",
-     "I telefoni sono morti."
+     "...i gelati nelle nostre borse."
     ],
     [
      "cheerful",
-     "Ma vorremmo finire i gelati."
+     " Vorremmo altri due gelati."
     ]
    ]
   }

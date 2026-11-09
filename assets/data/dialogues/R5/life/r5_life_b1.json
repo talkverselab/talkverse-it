@@ -421,10 +421,10 @@
   {
    "num": 12,
    "speaker": "C",
-   "it": "Dipende dalle partite: è il batterista della curva. E quando la squadra vince, festeggiano tutti sul vostro balcone.",
-   "rd": "디뻰데 달레 빠르띠떼: 에 일 바떼리스따 델라 꾸르바. 에 꽌도 라 스꽈드라 빈체, 페스떼쟈노 뚜띠 쑬 보스트로 발꼬네.",
-   "ko": "경기에 따라 달라요. 응원석 드러머거든요. 그리고 팀이 이기면 다들 이 집 발코니에서 축하 파티를 해요.",
-   "note": "festeggiare = 축하하다, 파티하다 · curva = (경기장) 응원석",
+   "it": "Dipende... a volte fino a mezzanotte. E nei giorni di partita qui sotto passano diecimila tifosi.",
+   "rd": "디뻰데... 아 볼떼 피노 아 메짜노떼. 에 네이 조르니 디 빠르띠따 뀌 쏘또 빠싸노 디에치밀라 띠포지.",
+   "ko": "그때그때 달라요… 가끔 자정까지요. 그리고 경기 날엔 이 앞으로 응원하는 사람이 만 명쯤 지나가요.",
+   "note": "dipende = 그때그때 다르다 · tifoso = 응원하는 팬",
    "tags": [
     "step:1"
    ],
@@ -436,68 +436,63 @@
      ""
     ],
     [
-     "partite",
+     "volte",
+     "volta",
+     ""
+    ],
+    [
+     "mezzanotte",
+     "mezzanotte",
+     ""
+    ],
+    [
+     "giorni",
+     "giorno",
+     ""
+    ],
+    [
+     "partita",
      "partita",
      ""
     ],
     [
-     "batterista",
-     "batterista",
+     "sotto",
+     "sotto",
      ""
     ],
     [
-     "curva",
-     "curva",
+     "passano",
+     "passare",
      ""
     ],
     [
-     "squadra",
-     "squadra",
+     "diecimila",
+     "diecimila",
      ""
     ],
     [
-     "vince",
-     "vincere",
-     ""
-    ],
-    [
-     "festeggiano",
-     "festeggiare",
-     ""
-    ],
-    [
-     "tutti",
-     "tutto",
-     ""
-    ],
-    [
-     "vostro",
-     "vostro",
-     ""
-    ],
-    [
-     "balcone",
-     "balcone",
+     "tifosi",
+     "tifoso",
      ""
     ]
    ],
    "segs": [
     [
-     "polite",
-     "Dipende dalle partite: è il batterista della curva. "
+     "flustered",
+     "Dipende... a volte fino a mezzanotte."
     ],
     [
-     "cheerful",
-     "E quando la squadra vince, festeggiano tutti sul vostro balcone."
+     "polite",
+     " E nei giorni di partita qui sotto passano diecimila tifosi."
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "it": "Tutta la curva? Sul nostro balcone? Firmo subito!",
-   "rd": "뚜따 라 꾸르바? 쑬 노스트로 발꼬네? 피르모 쑤비또!",
-   "ko": "응원석 전체가요? 우리 발코니에서요? 당장 계약할게요!",
+   "it": "La batteria, i tifosi... e la partita la vedo dal balcone. Firmo subito!",
+   "rd": "라 바떼리아, 이 띠포지... 에 라 빠르띠따 라 베도 달 발꼬네. 피르모 쑤비또!",
+   "ko": "드럼에 응원 팬에… 경기는 발코니에서 보면 되고. 당장 계약할게요!",
    "note": "firmare = 서명하다, 계약하다",
    "tags": [
     "step:1"
@@ -505,18 +500,23 @@
    "new": [],
    "lemmas": [
     [
-     "Tutta",
-     "tutto",
+     "batteria",
+     "batteria",
      ""
     ],
     [
-     "curva",
-     "curva",
+     "tifosi",
+     "tifoso",
      ""
     ],
     [
-     "nostro",
-     "nostro",
+     "partita",
+     "partita",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
      ""
     ],
     [
@@ -540,10 +540,10 @@
   {
    "num": 14,
    "speaker": "A",
-   "it": "Luca, non firmare niente. Metti giù quella penna.",
-   "rd": "루까, 논 피르마레 니엔떼. 메띠 주 꿸라 뻰나.",
-   "ko": "루카, 아무것도 서명하지 마. 그 펜 내려놔.",
-   "note": "metti giù = 내려놔",
+   "it": "Luca, non firmare... hai già firmato?! Signor Ferri, almeno stasera alle dieci possiamo tornare?",
+   "rd": "루까, 논 피르마레... 아이 쟈 피르마또?! 씨뇨르 페리, 알메노 스따제라 알레 디에치 뽀씨아모 또르나레?",
+   "ko": "루카, 서명하지 마… 벌써 했어?! 페리 씨, 적어도 오늘 밤 10시에 다시 와 봐도 되죠?",
+   "note": "hai già firmato = 벌써 서명했다(firmare 근과거) — 13턴 firmo",
    "tags": [
     "step:1"
    ],
@@ -555,22 +555,41 @@
      ""
     ],
     [
-     "niente",
-     "niente",
+     "firmato",
+     "firmare",
      ""
     ],
     [
-     "metti",
-     "mettere",
+     "stasera",
+     "stasera",
      ""
     ],
     [
-     "penna",
-     "penna",
+     "dieci",
+     "dieci",
+     ""
+    ],
+    [
+     "possiamo",
+     "potere",
+     ""
+    ],
+    [
+     "tornare",
+     "tornare",
      ""
     ]
    ],
-   "emotion": "annoyed"
+   "segs": [
+    [
+     "annoyed",
+     "Luca, non firmare... hai già firmato?!"
+    ],
+    [
+     "worried",
+     " Signor Ferri, almeno stasera alle dieci possiamo tornare?"
+    ]
+   ]
   }
  ]
 }

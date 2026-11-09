@@ -44,15 +44,19 @@
    "segs": [
     [
      "shout",
-     "Dai! Chiamo tutti: mamma, Chiara, Marco!"
+     "Dai, è tardi! Prendo le tue chiavi. Ciao!"
     ]
    ]
   },
   "6": {
    "segs": [
     [
+     "shout",
+     "Luca! Le tue le hai in mano..."
+    ],
+    [
      "flustered",
-     "Ehm... c'è anche tua mamma!"
+     " e adesso io sono senza!"
     ]
    ]
   }

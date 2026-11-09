@@ -20,6 +20,6 @@
 9 B: Tu. Diventi tu il responsabile. Ci ho già pensato. / 너. 네가 책임자가 되는 거야. 벌써 생각해 뒀어.
 10 C: Buongiorno, ragazzi! Marco, che cos'è questo rumore? / 좋은 아침, 얘들아! 마르코, 이게 무슨 소리야?
 11 A: Signora Rinaldi! Niente, la macchina ha solo un po' di febbre. / 리날디 사장님! 아무것도 아니에요, 머신이 열이 좀 있을 뿐이에요.
-12 B: Si sposti, signora! Sta per scoppiare! / 비키세요, 사장님! 터지려고 해요!
-13 C: Mamma mia, che fumo! E adesso perché i clienti battono le mani? / 세상에, 무슨 김이 이렇게! 근데 손님들은 왜 박수를 쳐?
-14 B: Pensano che sia uno spettacolo. Signora, dello stipendio ne parliamo adesso o dopo? / 쇼인 줄 아나 봐요. 사장님, 월급 얘기는 지금 할까요, 나중에 할까요?
+12 B: Anzi, si è fermata del tutto. Signora, niente cappuccini finché non arriva il tecnico. / 아니, 아예 멈췄어요. 사장님, 기사님 오실 때까지 카푸치노는 안 돼요.
+13 C: Mamma mia, con questa fila! Lo chiamo subito. E dei turni ne parliamo dopo: vi ho sentiti dalla porta. / 세상에, 줄이 이렇게 긴데! 바로 전화할게. 그리고 근무 얘기는 이따 하자. 문 앞에서 다 들었어.
+14 A: Va bene, signora. Lo dico io ai clienti. E già che ci siamo... possiamo parlare anche dello stipendio? / 알겠어요, 사장님. 손님들한텐 제가 말할게요. 그리고 말 나온 김에… 월급 얘기도 해도 될까요?

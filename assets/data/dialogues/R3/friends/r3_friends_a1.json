@@ -12,7 +12,7 @@
   "C": "Giulia"
  },
  "register": "casual",
- "twist": 6,
+ "twist": 8,
  "twist_type": "chaos",
  "flags": [],
  "expressions": [
@@ -185,10 +185,10 @@
   {
    "num": 6,
    "speaker": "A",
-   "it": "Ecco, trovati! Sono nei gelati. I vostri gelati.",
-   "rd": "에꼬, 트로바띠! 쏘노 네이 젤라띠. 이 보스트리 젤라띠.",
-   "ko": "찾았다! 젤라토 안에 있어. 너희 젤라토.",
-   "note": "trovati = 찾았다(trovare, 폰 둘 → -i) — 1턴 troviamo, nei = in + i",
+   "it": "Ecco, trovati! Sono nel frigo. Ma... dove sono i gelati?",
+   "rd": "에꼬, 트로바띠! 쏘노 넬 프리고. 마... 도베 쏘노 이 젤라띠?",
+   "ko": "찾았다! 냉장고 안에 있어. 근데… 젤라토는 어디 있어?",
+   "note": "trovati = 찾았다(trovare, 폰 둘 → -i) — 1턴 troviamo",
    "tags": [
     "step:4",
     "step:5"
@@ -208,27 +208,42 @@
      ""
     ],
     [
-     "gelati",
-     "gelato",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "vostri",
-     "vostro",
+     "frigo",
+     "frigo",
+     ""
+    ],
+    [
+     "gelati",
+     "gelato",
      ""
     ]
    ],
-   "emotion": "amused"
+   "segs": [
+    [
+     "amused",
+     "Ecco, trovati! Sono nel frigo."
+    ],
+    [
+     "surprised",
+     " Ma... dove sono i gelati?"
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ah, sì! Abbiamo messo i gelati e... i telefoni.",
-   "rd": "아, 씨! 아비아모 메쏘 이 젤라띠 에... 이 뗄레포니.",
-   "ko": "아, 맞다! 젤라토 넣으면서… 폰도 같이.",
+   "it": "Ah, sì! Abbiamo messo i telefoni nel frigo e...",
+   "rd": "아, 씨! 아비아모 메쏘 이 뗄레포니 넬 프리고 에...",
+   "ko": "아, 맞다! 폰은 냉장고에 넣고…",
    "note": "abbiamo messo = 우리 넣었다(mettere 근과거)",
    "tags": [
-    "step:5"
+    "step:5",
+    "step:4"
    ],
    "new": [],
    "lemmas": [
@@ -238,47 +253,53 @@
      ""
     ],
     [
-     "gelati",
-     "gelato",
+     "telefoni",
+     "telefono",
      ""
     ],
     [
-     "telefoni",
-     "telefono",
+     "frigo",
+     "frigo",
      ""
     ]
    ],
    "segs": [
     [
      "surprised",
-     "Ah, sì! Abbiamo messo i gelati e..."
+     "Ah, sì! Abbiamo messo i telefoni"
     ],
     [
      "flustered",
-     "i telefoni."
+     " nel frigo e..."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "it": "I telefoni sono morti. Ma vorremmo finire i gelati.",
-   "rd": "이 뗄레포니 쏘노 모르띠. 마 보렘모 피니레 이 젤라띠.",
-   "ko": "폰은 둘 다 죽었어. 근데 젤라토는 마저 먹을래.",
-   "note": "vorremmo = 우리 ~하고 싶은데(volere 조건)",
+   "it": "...i gelati nelle nostre borse. Vorremmo altri due gelati.",
+   "rd": "...이 젤라띠 넬레 노스트레 보르쎄. 보렘모 알트리 두에 젤라띠.",
+   "ko": "…젤라토는 우리 가방에 넣었어. 젤라토 두 개 더 먹고 싶다.",
+   "note": "vorremmo = 우리 ~하고 싶은데(volere 조건) · nelle = in + le",
    "tags": [
-    "step:10"
+    "step:10",
+    "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "telefoni",
-     "telefono",
+     "gelati",
+     "gelato",
      ""
     ],
     [
-     "morti",
-     "morire",
+     "nostre",
+     "nostro",
+     ""
+    ],
+    [
+     "borse",
+     "borsa",
      ""
     ],
     [
@@ -287,24 +308,19 @@
      ""
     ],
     [
-     "finire",
-     "finire",
-     ""
-    ],
-    [
-     "gelati",
-     "gelato",
+     "altri",
+     "altro",
      ""
     ]
    ],
    "segs": [
     [
      "sad",
-     "I telefoni sono morti."
+     "...i gelati nelle nostre borse."
     ],
     [
      "cheerful",
-     "Ma vorremmo finire i gelati."
+     " Vorremmo altri due gelati."
     ]
    ]
   }

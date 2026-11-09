@@ -1,5 +1,5 @@
 [IT-r4_friends_b1] 아래는 이탈리아어 학습 앱(한국인 학습자용) 회화 1편의 **초안**입니다. 이걸 베이스로, 지금 로마·밀라노의 20대가 이 장면에서 실제로 그대로 말할 법한 이탈리아어로 **완전히 다시 써 주세요**(판정이 아니라 재작성). 교과서체·번역투·설명하는 대사·정리된 느낌이 조금도 남으면 안 됩니다. WhatsApp 채팅·인스타 댓글·바·길거리에서 실제로 듣는 말로(dai, boh, tipo, cioè, vabbè, ma va, figurati, magari, ci sta 같은 구어 환영).
-등장: A = 학습자(한국인 20대, 이름 {name}, 남녀 모두) / B = Luca / C = Chiara / 장면: 일요일 아침 셰어하우스. 루카가 오토바이를 도둑맞았다며 소리치고, 키아라가 달려온다 / 말투: 친구·연인·룸메이트 사이 반말(tu) / 레벨: 중급(어려운 문법)
+등장: A = 학습자(한국인 20대, 이름 {name}, 남녀 모두) / B = Luca / C = Chiara / 장면: 일요일 아침 셰어하우스. 응원 팀이 이긴 다음 날, 루카가 오토바이를 도둑맞았다며 소리치고 키아라가 달려온다 / 말투: 친구·연인·룸메이트 사이 반말(tu) / 레벨: 중급(어려운 문법)
 가장 중요 — **카오스·재미·심쿵을 초안보다 더 세게**:
  ① 카오스: 작은 말·행동 하나가 걷잡을 수 없이 커지는 전개(오해·말실수·상황 꼬임), 턴 11 근처에서 터지게
  ② 재미: 웃음 포인트, 킥 대사, 되치기 — 이탈리아 생활 문화(바의 에스프레소·아페리티보·축구·논나·스쿠터 등)를 소재로 쓰면 좋다
@@ -17,8 +17,8 @@
 7 A: Aspetta. Luca, a che ora sei tornato a casa? / 잠깐. 루카, 너 몇 시에 집에 왔어?
 8 B: Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano. / 몰라. 깨 보니까 옷 입은 채로 열쇠 쥐고 바닥에 있더라.
 9 C: Per terra? Con le chiavi in mano? Ma dai. / 바닥에서? 열쇠를 쥐고? 말도 안 돼.
-10 A: Ragazzi... venite un attimo in bagno. / 얘들아… 잠깐 화장실로 와 봐.
-11 C: Non ci credo. C'è una moto nella doccia. / 말도 안 돼. 샤워실에 오토바이가 있어.
-12 B: Ah, ecco dove l'avevo messa! Fuori faceva freddo, poverina. / 아, 거기다 뒀었구나! 밖이 추웠거든, 불쌍하잖아.
-13 A: Luca, stiamo al terzo piano. Come ce l'hai portata? / 루카, 우리 3층 살아. 그걸 어떻게 여기까지 올렸어?
-14 B: Non lo so. Ma chi mi aiuta a portarla giù, stasera ha la cena pagata. / 모르지. 근데 내리는 거 도와주는 사람은 오늘 저녁 내가 쏜다.
+10 A: Aspetta, mi scrive Marco. Ha mandato una foto. / 잠깐, 마르코한테 문자 왔어. 사진 보냈네.
+11 C: Non ci credo. È la tua moto, davanti al bar di Marco. / 말도 안 돼. 네 오토바이야, 마르코네 바 앞에 있어.
+12 B: Ah, ecco dove l'avevo lasciata! Avevo bevuto e ho preferito tornare a piedi. / 아, 거기다 뒀었구나! 술 마셔서 걸어오는 게 낫겠다 싶었지.
+13 A: Hai fatto bene. Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì. / 잘했네. 근데 사진 봐. 벌써 딱지 붙었고, 단속하는 사람들 아직 거기 있어.
+14 B: Allora corro. A chi mi accompagna, il caffè glielo offro io. / 그럼 뛰어간다. 같이 가 주는 사람한테는 커피 내가 쏜다.

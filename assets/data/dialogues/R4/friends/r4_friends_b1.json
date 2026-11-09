@@ -3,9 +3,9 @@
  "region": "R4",
  "island": "friends",
  "kind": "long",
- "title": "샤워실의 오토바이",
+ "title": "오토바이는 어디에",
  "emoji": "🛵",
- "scene": "일요일 아침 셰어하우스. 루카가 오토바이를 도둑맞았다며 소리치고, 키아라가 달려온다",
+ "scene": "일요일 아침 셰어하우스. 응원 팀이 이긴 다음 날, 루카가 오토바이를 도둑맞았다며 소리치고 키아라가 달려온다",
  "speakers": {
   "A": "{name}",
   "B": "Luca",
@@ -14,14 +14,16 @@
  "register": "casual",
  "twist": 11,
  "twist_type": "chaos",
- "flags": [],
+ "flags": [
+  "alcohol"
+ ],
  "expressions": [
   "Boh",
   "Ma dai",
   "Non ci credo",
   "Ecco"
  ],
- "goal": "어려운 문법 2 접속법 과거 · 5 반과거/근과거 · 6 대과거 · 8 ne·ci · 9 재귀 근과거 · 10 관계사 chi · 표현 Boh·Ma dai·Non ci credo",
+ "goal": "어려운 문법 2 접속법 과거 · 5 반과거/근과거 · 6 대과거 · 7 결합 대명사 glielo · 8 ne·ci · 9 재귀 근과거 · 10 관계사 chi · 표현 Boh·Ma dai·Non ci credo·Ecco",
  "draft": true,
  "purpose": [
   "friends"
@@ -381,42 +383,42 @@
   {
    "num": 10,
    "speaker": "A",
-   "it": "Ragazzi... venite un attimo in bagno.",
-   "rd": "라가찌... 베니떼 운 아띠모 인 바뇨.",
-   "ko": "얘들아… 잠깐 화장실로 와 봐.",
-   "note": "un attimo = 잠깐",
+   "it": "Aspetta, mi scrive Marco. Ha mandato una foto.",
+   "rd": "아스뻬따, 미 스크리베 마르꼬. 아 만다또 우나 포또.",
+   "ko": "잠깐, 마르코한테 문자 왔어. 사진 보냈네.",
+   "note": "mi scrive = 나한테 문자한다(scrivere)",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "ragazzi",
-     "ragazzo",
+     "aspetta",
+     "aspettare",
      ""
     ],
     [
-     "venite",
-     "venire",
+     "scrive",
+     "scrivere",
      ""
     ],
     [
-     "attimo",
-     "attimo",
+     "mandato",
+     "mandare",
      ""
     ],
     [
-     "bagno",
-     "bagno",
+     "foto",
+     "foto",
      ""
     ]
    ],
-   "emotion": "worried"
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "C",
-   "it": "Non ci credo. C'è una moto nella doccia.",
-   "rd": "논 치 크레도. 체 우나 모또 넬라 도챠.",
-   "ko": "말도 안 돼. 샤워실에 오토바이가 있어.",
+   "it": "Non ci credo. È la tua moto, davanti al bar di Marco.",
+   "rd": "논 치 크레도. 에 라 뚜아 모또, 다반띠 알 바르 디 마르꼬.",
+   "ko": "말도 안 돼. 네 오토바이야, 마르코네 바 앞에 있어.",
    "note": "Non ci credo = 믿을 수가 없어(ci = 그걸)",
    "tags": [
     "step:8"
@@ -434,8 +436,13 @@
      ""
     ],
     [
-     "doccia",
-     "doccia",
+     "davanti",
+     "davanti",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
      ""
     ]
    ],
@@ -446,130 +453,154 @@
     ],
     [
      "tsukkomi",
-     " C'è una moto nella doccia."
+     " È la tua moto, davanti al bar di Marco."
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "it": "Ah, ecco dove l'avevo messa! Fuori faceva freddo, poverina.",
-   "rd": "아, 에꼬 도베 라베보 메싸! 푸오리 파체바 프레도, 뽀베리나.",
-   "ko": "아, 거기다 뒀었구나! 밖이 추웠거든, 불쌍하잖아.",
-   "note": "l'avevo messa = 그걸 두었었다(대과거)",
+   "it": "Ah, ecco dove l'avevo lasciata! Avevo bevuto e ho preferito tornare a piedi.",
+   "rd": "아, 에꼬 도베 라베보 라샤따! 아베보 베부또 에 오 프레페리또 또르나레 아 삐에디.",
+   "ko": "아, 거기다 뒀었구나! 술 마셔서 걸어오는 게 낫겠다 싶었지.",
+   "note": "l'avevo lasciata = 그걸 두었었다(대과거) — 2턴 l'avevi lasciata",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "messa",
-     "mettere",
+     "avevo",
+     "avere",
      ""
     ],
     [
-     "fuori",
-     "fuori",
+     "lasciata",
+     "lasciare",
      ""
     ],
     [
-     "faceva",
-     "fare",
+     "bevuto",
+     "bere",
      ""
     ],
     [
-     "freddo",
-     "freddo",
+     "preferito",
+     "preferire",
      ""
     ],
     [
-     "poverina",
-     "povero",
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "piedi",
+     "piede",
      ""
     ]
    ],
-   "emotion": "excited"
+   "segs": [
+    [
+     "surprised",
+     "Ah, ecco dove l'avevo lasciata!"
+    ],
+    [
+     "flustered",
+     " Avevo bevuto e ho preferito tornare a piedi."
+    ]
+   ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "it": "Luca, stiamo al terzo piano. Come ce l'hai portata?",
-   "rd": "루까, 스띠아모 알 떼르쪼 삐아노. 꼬메 체 라이 뽀르따따?",
-   "ko": "루카, 우리 3층 살아. 그걸 어떻게 여기까지 올렸어?",
-   "note": "ce l'hai portata = 그걸 여기로 가져왔다(ci + la)",
-   "tags": [
-    "step:8"
+   "it": "Hai fatto bene. Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì.",
+   "rd": "아이 파또 베네. 마 구아르다 라 포또: 체 쟈 우나 물따, 에 이 비질리 쏘노 안꼬라 리.",
+   "ko": "잘했네. 근데 사진 봐. 벌써 딱지 붙었고, 단속하는 사람들 아직 거기 있어.",
+   "note": "multa = 벌금 딱지 · vigile = 교통 단속 경찰",
+   "tags": [],
+   "new": [
+    "multa"
    ],
-   "new": [],
    "lemmas": [
     [
-     "stiamo",
-     "stare",
+     "fatto",
+     "fare",
      ""
     ],
     [
-     "terzo",
-     "terzo",
+     "guarda",
+     "guardare",
      ""
     ],
     [
-     "piano",
-     "piano",
+     "foto",
+     "foto",
      ""
     ],
     [
-     "portata",
-     "portare",
+     "multa",
+     "multa",
+     ""
+    ],
+    [
+     "vigili",
+     "vigile",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
      ""
     ]
    ],
-   "emotion": "tsukkomi"
+   "segs": [
+    [
+     "gentle",
+     "Hai fatto bene."
+    ],
+    [
+     "worried",
+     " Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì."
+    ]
+   ]
   },
   {
    "num": 14,
    "speaker": "B",
-   "it": "Non lo so. Ma chi mi aiuta a portarla giù, stasera ha la cena pagata.",
-   "rd": "논 로 쏘. 마 끼 미 아이우따 아 뽀르따를라 주, 스따제라 아 라 체나 빠가따.",
-   "ko": "모르지. 근데 내리는 거 도와주는 사람은 오늘 저녁 내가 쏜다.",
-   "note": "chi = ~하는 사람(관계사)",
+   "it": "Allora corro. A chi mi accompagna, il caffè glielo offro io.",
+   "rd": "알로라 꼬로. 아 끼 미 아꼼빠냐, 일 까페 리엘로 오프로 이오.",
+   "ko": "그럼 뛰어간다. 같이 가 주는 사람한테는 커피 내가 쏜다.",
+   "note": "chi = ~하는 사람(관계사) · glielo = 그 사람에게 그걸",
    "tags": [
-    "step:10"
+    "step:10",
+    "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "so",
-     "sapere",
+     "corro",
+     "correre",
      ""
     ],
     [
-     "aiuta",
-     "aiutare",
+     "chi",
+     "chi",
      ""
     ],
     [
-     "portarla",
-     "portare",
+     "accompagna",
+     "accompagnare",
      ""
     ],
     [
-     "giù",
-     "giù",
+     "caffè",
+     "caffè",
      ""
     ],
     [
-     "stasera",
-     "stasera",
-     ""
-    ],
-    [
-     "cena",
-     "cena",
-     ""
-    ],
-    [
-     "pagata",
-     "pagare",
+     "offro",
+     "offrire",
      ""
     ]
    ],
