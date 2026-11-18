@@ -191,8 +191,8 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 
 ## 15. 회화 초안 — 2026-11-08
 
-- 굴절어 전략(`~/talkverse/INFLECTED_LANG_STRATEGY.md`) 레벨 = 문법 단계 R0~R5. **Claude 초안 35편**(`assets/data/dialogues/R<레벨>/<주제>/<편id>.json`, `draft: true`), 작성 원칙 `tools/prompts/dialogue_it.md`, 이탈리아어 적용값 `docs/DIALOGUE_RULES_it.md`, 문법 요소 배치(사용자 결정) `docs/GRAMMAR_PLACEMENT_it.md`, 앱 전략 `docs/APP_STRATEGY_it.md`, 레벨 1 어휘표 `data/vocab/r1_vocab_it.csv`.
-- 하위 폴더는 `pubspec.yaml` 에 없어 앱에 들어가지 않는다 — Grok 재작성·사용자 통과 뒤 연결. 읽기용 `data/review/write/dialogue_samples_it.md`, 리뷰 페이지 `tools/review_it.sh` → uk 「REVIEW_it 갱신」.
+- 굴절어 전략(`~/talkverse/INFLECTED_LANG_STRATEGY.md`) 레벨 = 문법 단계 R0~R5. **Claude 초안**(지금 65편 — §16, `assets/data/dialogues/R<레벨>/<주제>/<편id>.json`, `draft: true`), 작성 원칙 `tools/prompts/dialogue_it.md`, 이탈리아어 적용값 `docs/DIALOGUE_RULES_it.md`, 문법 요소 배치(사용자 결정) `docs/GRAMMAR_PLACEMENT_it.md`, 앱 전략 `docs/APP_STRATEGY_it.md`, 레벨 1 어휘표 `data/vocab/r1_vocab_it.csv`.
+- 2026-11-18 부터 하위 폴더를 `pubspec.yaml` 에 등록해 앱에 실린다(§16). 새 주제 폴더를 만들면 pubspec 에도 더할 것. 읽기용 `data/review/write/dialogue_samples_it.md`, 리뷰 페이지 `tools/review_it.sh` → uk 「REVIEW_it 갱신」.
 - 독음 `tools/rd_it.py`(gn=뇨·chi=끼아·bl=블), 검사기 `tools/check_dialogues.py --fix-rd`(굴절 반복·Lei·복수 경고). 턴 칸 `it·rd·ko·note·lemmas·emotion|segs`, 여성 학습자판 `it_f·rd_f·ko_f`(성별 어미는 피하지 말고 두 판).
 - 감정 계획 `data/tts/plan/` 은 `tools/tts/make_plans.py` 가 회화 파일에서 만든다(손으로 고치지 않음). 새 인물 목소리는 `voices.json` 의 `cast`.
 - 음성: `tools/tts/run_trial.py <작업폴더> <편id>...`(venv `~/tts_work/it/venv`). PC 는 uk 세션의 「지금 시작」 뒤에만, 끝나면 「GPU 끝」. 초안은 R2 만 올리고 D1 에 넣지 않는다.
