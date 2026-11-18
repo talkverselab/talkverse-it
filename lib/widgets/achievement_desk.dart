@@ -143,10 +143,16 @@ class _IslandGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final svc = DialogueService.instance;
     final islands = DialogueService.islands.where((i) => svc.regions.any((r) => svc.list(region: r, island: i).isNotEmpty)).toList();
+    // 카드 높이 = 레벨 줄 수에 맞춤(레벨 0~5 여섯 줄까지)
+    var maxRows = 1;
+    for (final i in islands) {
+      final n = svc.regions.where((r) => svc.list(region: r, island: i).isNotEmpty).length;
+      if (n > maxRows) maxRows = n;
+    }
     return GridView.builder(
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: columns, mainAxisSpacing: 10, crossAxisSpacing: 10, mainAxisExtent: 182),
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: columns, mainAxisSpacing: 10, crossAxisSpacing: 10, mainAxisExtent: (124 + 27 * maxRows).toDouble().clamp(182, 300)),
       itemCount: islands.length,
       itemBuilder: (context, i) {
         final isl = islands[i];
@@ -165,7 +171,7 @@ class _IslandGrid extends StatelessWidget {
           rows.add(Padding(
             padding: const EdgeInsets.only(bottom: 6),
             child: Row(children: [
-              SizedBox(width: 38, child: Text(tr(DialogueService.levelKo[r] ?? r), style: const TextStyle(fontSize: 9.5, fontWeight: FontWeight.w700, color: AppColors.muted))),
+              SizedBox(width: 38, child: Text('Lv.${r.substring(1)}', style: const TextStyle(fontSize: 9.5, fontWeight: FontWeight.w700, color: AppColors.muted))),
               Expanded(
                 child: Stack(children: [
                   Container(height: 7, decoration: BoxDecoration(color: AppColors.line, borderRadius: BorderRadius.circular(4))),

@@ -14,7 +14,7 @@ import '../widgets/spanish_decor.dart';
 import 'dialogue_card_screen.dart';
 
 /// 회화 홈(주제 목록) → 편 목록 → 편 화면 — 일본어앱 시안 02 「만화책 읽기형」을 옮김(2026-11-03, 이 앱 시안 it-01).
-/// 지금 회화는 옛 L1 이야기 5편뿐(dialogue_service.dart). 맞춤 회화·왕초보/초보 전환은 새 회화 구조가 들어온 뒤.
+/// 회화 = R0~R5 편 파일(서버에 새 판이 있으면 그것 — dialogue_service.dart·script_sync.dart).
 /// 아이패드: 홈 맨 위 「오늘의 컷」(그림 + 아래 대사 띠), 편 화면 = 왼쪽 대화 스크립트 + 오른쪽 큰 장면 컷(말풍선 없음) + 하단 재생 컨트롤.
 /// 폰: 각 단계가 push, 재생은 전체 화면(컷 위·스크립트 아래).
 class DialogueHomeScreen extends StatefulWidget {
@@ -32,6 +32,18 @@ class _DialogueHomeScreenState extends State<DialogueHomeScreen> {
     DialogueService.instance.ensureLoaded().then((_) {
       if (mounted) setState(() => _loading = false);
     });
+    DialogueService.instance.revision.addListener(_reload);
+  }
+
+  // 서버 원고를 뒤에서 받아 다시 읽으면 목록을 새로 그린다
+  void _reload() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    DialogueService.instance.revision.removeListener(_reload);
+    super.dispose();
   }
 
   @override
@@ -87,7 +99,7 @@ class TodayCutCard extends StatelessWidget {
       const SizedBox(height: 2),
       Text('${tr(DialogueService.levelKo[d.region] ?? d.region)} · ${tr(DialogueService.islandKo[d.island] ?? d.island)} · ${trf('{0}턴', [d.turns.length])}', style: const TextStyle(fontSize: 11, color: AppColors.muted)),
       const SizedBox(height: 6),
-      Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
+      Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
       const SizedBox(height: 10),
       FilledButton.icon(
         onPressed: () => openFull(context, (_) => DialogueScreen(dialogue: d)),
@@ -180,7 +192,7 @@ class DialogueListScreen extends StatelessWidget {
                 onTap: () => openFull(context, (_) => DialogueScreen(dialogue: d)),
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
-                subtitle: Text(d.scene, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
+                subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
                 trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
@@ -256,7 +268,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(20, 4, 20, 4),
-                child: Text(d.scene, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
+                child: Text(d.sceneShown, style: const TextStyle(fontSize: 12, color: AppColors.sumiLight, height: 1.4)),
               ),
               const BrushDivider(height: 2),
               Expanded(

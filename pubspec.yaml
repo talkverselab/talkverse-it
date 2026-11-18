@@ -60,6 +60,29 @@ flutter:
     - assets/data/audio_manifest.json
     - assets/data/version.json
     - assets/data/dialogues/
+    - assets/data/dialogues/R0/friends/
+    - assets/data/dialogues/R0/life/
+    - assets/data/dialogues/R0/love/
+    - assets/data/dialogues/R1/friends/
+    - assets/data/dialogues/R1/life/
+    - assets/data/dialogues/R1/love/
+    - assets/data/dialogues/R1/survival/
+    - assets/data/dialogues/R2/friends/
+    - assets/data/dialogues/R2/life/
+    - assets/data/dialogues/R2/love/
+    - assets/data/dialogues/R3/friends/
+    - assets/data/dialogues/R3/life/
+    - assets/data/dialogues/R3/love/
+    - assets/data/dialogues/R3/survival/
+    - assets/data/dialogues/R4/friends/
+    - assets/data/dialogues/R4/love/
+    - assets/data/dialogues/R4/travel/
+    - assets/data/dialogues/R4/work/
+    - assets/data/dialogues/R5/friends/
+    - assets/data/dialogues/R5/life/
+    - assets/data/dialogues/R5/travel/
+    - assets/data/dialogues/R5/work/
+    - assets/data/script_rev.json
     - assets/data/freq/
     - assets/data/grammar/
     - assets/data/vocab/

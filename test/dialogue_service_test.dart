@@ -10,25 +10,29 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   SharedPreferences.setMockInitialValues({});
 
-  test('옛 L1.json 을 회화 리더 모델로 읽는다(데이터는 그대로)', () async {
+  test('R0~R5 편 파일을 읽는다(서버 판이 없으면 앱 안 원고)', () async {
     await DialogueService.instance.ensureLoaded();
-    await DialogueService.instance.ensureLoaded(); // 두 번 불러도 한 번만 채운다
-    final all = DialogueService.instance.all;
-    expect(all.length, 5);
-    expect(all.every((d) => d.turns.length == 8), isTrue);
-    final d = all.first;
-    expect(d.id, 'L1_ep1');
-    expect(d.region, 'L1');
+    await DialogueService.instance.ensureLoaded(); // 두 번 불러도 한 번만 읽는다
+    final svc = DialogueService.instance;
+    expect(svc.all.length, greaterThanOrEqualTo(35));
+    expect(svc.regions, containsAllInOrder(['R0', 'R1', 'R2', 'R3', 'R4', 'R5']));
+    final d = svc.byId('r1_friends_a1')!;
+    expect(d.region, 'R1');
+    expect(d.island, 'friends');
     expect(d.turns.first.tl, isNotEmpty);
     expect(d.turns.first.rd, isNotEmpty);
-    // A = 학습자: 이름은 프로필(없으면 「나」), 목소리는 프로필 성별. B = 데이터 성별.
+    // A = 학습자: 이름은 프로필(없으면 「나」), 목소리는 프로필 성별. B = 인물 성별.
     expect(d.speakerName('A'), '나');
+    expect(d.speakerName('B'), 'Chiara');
     await LearnerPrefs.setGender('female');
     expect(d.voiceGender('A'), 'female');
     expect(d.voiceGender('B'), 'female');
+    // 여성판이 있는 턴은 여성 학습자에게 그 본문
+    final ft = svc.all.expand((e) => e.turns).firstWhere((t) => t.tlF.isNotEmpty);
+    expect(ft.tl, ft.tlF);
     await LearnerPrefs.setGender('male');
     expect(d.voiceGender('A'), 'male');
-    expect(d.speakerName('B'), 'Giulia');
+    expect(ft.tl, ft.tlM);
   });
 
   test('그림 단어는 낱말 단위로 맞춘다(라틴 문자)', () {
@@ -52,8 +56,7 @@ void main() {
     final turns = DialogueService.instance.all.expand((d) => d.turns).toList();
     expect(turns.every((t) => t.lemmas.isNotEmpty), isTrue);
     final bases = turns.expand((t) => t.lemmas.map((l) => l.base)).toSet();
-    expect(bases.contains('minjun'), isFalse);
-    expect(bases.contains('giulia'), isFalse);
+        expect(bases.contains('giulia'), isFalse);
     expect(bases.contains('essere'), isTrue); // Sono → essere
     expect(bases.every((b) => b == b.toLowerCase()), isTrue);
     expect(turns.first.lemmas.first.reading, ''); // 이탈리아어는 읽기 칸 없음
