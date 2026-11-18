@@ -198,3 +198,12 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 음성: `tools/tts/run_trial.py <작업폴더> <편id>...`(venv `~/tts_work/it/venv`). PC 는 uk 세션의 「지금 시작」 뒤에만, 끝나면 「GPU 끝」. 초안은 R2 만 올리고 D1 에 넣지 않는다.
 - 여성 학습자판에서도 연애 상대는 Giulia 그대로(사용자 결정 2026-11-08). `{country}` 는 관사 문제로 전치사 뒤에 쓰지 않는다.
 - Grok 재작성 요청문 `python3 tools/rewrite_request.py <편.json>...` → `data/review/grok/<편id>_prompt.md`. Grok 재개 2026-11-09 13:30(사용자 지시), 샘플 1~2편 → 사용자 통과 → 본작업.
+
+## 16. 원고 서버 받기·심사 준비 — 2026-11-18(일본어앱 빌드 109~114 수준, 사용자 지시 「통합앱으로 iOS 심사」)
+
+- 회화·언어감각 JSON 은 `ScriptSync`(`lib/services/script_sync.dart`)로 읽는다 — 앱 켤 때마다 `https://auth.talkverse.uk/art/script/it/index.json` 확인(15초), 서버 rev 가 앱 안 `assets/data/script_rev.json` 보다 클 때만 바뀐 파일을 받는다. 규격 = 일본어앱 `docs/CONTENT_SYNC.md` §6.
+- 원고를 고쳐 내보내기: `python3 tools/script_publish.py`(보기) → `--publish`(턴 잠금 검사 → R2 → rev+1) → **`script_rev.json` 커밋**. 편 id·턴 번호는 다시 매기지 않는다(`tools/turn_lock.py`, `data/review/turn_lock_it.json`). R2 쓰기는 자동 모드가 막을 수 있다 — 사용자 승인 뒤.
+- 회화 65편(레벨 0~5: 12·14·12·12·8·7, 일본어앱의 30%를 급마다) = Claude 초안. **대사는 Grok 이 쓰고 그대로 붙여 넣는다**(사용자 지시 11-18, uk 전달 — Claude 는 상황·인물·반전·단어 배치까지, 형식·독음·감정·검사기만 손댐). Grok 순서는 uk 가 준다(it = 6번).
+- 레벨 표시 `DialogueService.levelKo`(레벨 0 첫걸음 … 레벨 5 어휘 완성) — 단어 메뉴의 절벽 R1~R5 와 번호가 다르다.
+- 언어감각 과정 `assets/data/grammar/sense_course.json` + `lib/screens/sense_course_screen.dart`(영상 칸 `video` 비면 「영상 준비 중」, `video_player`). 외국어 단어 퀴즈는 단어장이 비어 있어(§11) 넣지 않음.
+- CI Flutter 는 3.47.7 고정(stable 새 판은 Gradle 9.3.1 을 요구해 실패).
