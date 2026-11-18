@@ -1,0 +1,19 @@
+=== r1_life_a2
+level: R1
+kind: short
+title: 바나나 초상화
+emoji: 🎨
+scene: 평일 오후 키아라의 작은 화실. 미대생 키아라가 학습자를 그려 주겠다며 불렀다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 ignore
+goal: 골격 단계 1·2·6·7·8·10 · 굴절 반복 disegni/disegno/disegnare · pronto/pronta · sono/sei/essere · 표현 Ehi · Ecco · Scusa
+expressions: Ehi; Ecco; Scusa
+B | Ehi, sei arrivat{o|a} presto? | 야, 일찍 도착했어? | sei arrivat{o|a} = 도착했어 | emotion=teasing | tags=step:6
+A | Sì, sono pront{o|a} ora. | 응, 지금 준비됐어. | sono = 이야; pront{o|a} = 준비된 | emotion=cheerful | tags=step:2
+B | Sei tu. Ti disegno io. | 너야. 내가 그려 줄게. | sei = 이야; ti disegno = 너를 그려 | emotion=gentle | tags=step:2,step:7
+A | Mi piace il tuo stile. | 네 스타일 좋아. | mi piace = 좋아해 | emotion=cheerful | tags=step:8
+B | Ti piace la banana? | 바나나 좋아해? | ti piace = 좋아해 | emotion=excited | tags=step:8
+A | La banana? Perché? | 바나나? 왜? | la banana = 바나나(여) | emotion=shout | tags=step:1
+B | Ecco, farò la banana. Scusa! | 봐, 바나나 그릴게. 미안! | farò = 그릴 거야 | emotion=cheerful | tags=step:10,twist
+A | Vorrei il mio ritratto. | 내 초상화 원했는데. | vorrei = 원했어 | emotion=sad | tags=step:10

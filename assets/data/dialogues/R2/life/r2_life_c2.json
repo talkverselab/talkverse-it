@@ -20,7 +20,6 @@
   "Tranquillo"
  ],
  "goal": "챗 상황 4 늦음 · 8 오해 · 7 농담 · 표현 Ti prego · Mamma mia · Tranquillo · 통문장 non ce l'ho",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -31,311 +30,281 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Dormi? Ti prego, dimmi di no 🙏",
-   "rd": "도르미? 띠 프레고, 딤미 디 노 🙏",
-   "ko": "자? 제발 아니라고 해 줘 🙏",
-   "note": "dimmi di no = 아니라고 말해 줘",
+   "note": "Mamma mia = 맙소사",
    "tags": [
     "step:4"
    ],
    "new": [],
-   "emotion": "worried",
    "lemmas": [
     [
-     "dormi",
-     "dormire",
+     "mamma",
+     "mamma",
      ""
     ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "ritardo",
+     "ritardo",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:12",
+   "grok": true,
+   "it": "Mamma mia, sono in ritardo! 🔑",
+   "ko": "맙소사, 나 늦었어! 🔑",
+   "rd": "맘마 미아, 쏘노 인 리따르도! 🔑",
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "note": "non ce l'ho = 나 없어",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "chiavi",
+     "chiave",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:13",
+   "grok": true,
+   "it": "Dove sono le chiavi? Non ce l'ho.",
+   "ko": "열쇠 어디 있어? 나 없어.",
+   "rd": "도베 쏘노 레 끼아비? 논 체 로.",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "note": "Ti prego = 제발",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
     [
      "prego",
      "pregare",
      ""
     ],
     [
-     "dimmi",
-     "dire",
+     "cerca",
+     "cercare",
+     ""
+    ],
+    [
+     "divano",
+     "divano",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:12"
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "it": "Sto per dormire. Che c'è?",
-   "rd": "스또 뻬르 도르미레. 께 체?",
-   "ko": "이제 막 자려고. 왜?",
-   "note": "sto per + 원형 = 막 ~하려던 참",
-   "tags": [
-    "step:4"
-   ],
-   "new": [],
-   "emotion": "annoyed",
-   "lemmas": [
-    [
-     "sto",
-     "stare",
-     ""
-    ],
-    [
-     "dormire",
-     "dormire",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "23:13"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Ho perso la chiave. Sono fuori 😭",
-   "rd": "오 뻬르쏘 라 끼아베. 쏘노 푸오리 😭",
-   "ko": "열쇠 잃어버렸어. 밖이야 😭",
-   "note": "ho perso = 잃어버렸어(perdere 근과거)",
-   "tags": [
-    "step:4"
-   ],
-   "new": [
-    "chiave"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "ho",
-     "avere",
-     ""
-    ],
-    [
-     "perso",
-     "perdere",
-     ""
-    ],
-    [
-     "chiave",
-     "chiave",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "fuori",
-     "fuori",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "23:13"
+   "at": "23:13",
+   "grok": true,
+   "it": "Ti prego, cerca sotto il divano! 😢",
+   "ko": "제발, 소파 밑을 찾아봐! 😢",
+   "rd": "띠 프레고, 체르까 쏘또 일 디바노! 😢",
+   "emotion": "sad"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Mamma mia, di nuovo? Arrivo.",
-   "rd": "맘마 미아, 디 누오보? 아리보.",
-   "ko": "아이고, 또야? 갈게.",
-   "note": "di nuovo = 또, 다시",
+   "note": "Ma dai = 정말",
    "tags": [
     "step:4"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "nuovo",
-     "nuovo",
+     "non",
+     "non",
      ""
     ],
     [
-     "arrivo",
-     "arrivare",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "tardi",
+     "tardi",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:14"
+   "at": "23:14",
+   "grok": true,
+   "it": "Non c'è! Ma dai, è tardi.",
+   "ko": "없어! 정말, 늦었잖아.",
+   "rd": "논 체! 마 다이, 에 따르디.",
+   "emotion": "tsukkomi"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Sono arrivato. Dove sei? Non ti vedo.",
-   "rd": "쏘노 아리바또. 도베 쎄이? 논 띠 베도.",
-   "ko": "도착했어. 어디야? 안 보이는데.",
-   "note": "sono arrivato/arrivata = 도착했어(성별 일치)",
+   "note": "Tranquillo = 진정해",
    "tags": [
     "step:4"
    ],
    "new": [],
-   "emotion": "annoyed",
    "lemmas": [
     [
-     "sono",
-     "essere",
+     "vado",
+     "vado",
      ""
     ],
     [
-     "arrivato",
-     "arrivare",
+     "letto",
+     "letto",
      ""
     ],
     [
-     "dove",
-     "dove",
+     "ora",
+     "ora",
      ""
     ],
     [
-     "sei",
-     "essere",
-     ""
-    ],
-    [
-     "vedo",
-     "vedere",
+     "tranquillo",
+     "tranquillo",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:25",
-   "it_f": "Sono arrivata. Dove sei? Non ti vedo.",
-   "rd_f": "쏘노 아리바따. 도베 쎄이? 논 띠 베도.",
-   "ko_f": "도착했어. 어디야? 안 보이는데."
+   "grok": true,
+   "it": "Vado a letto ora. Tranquillo. 😴",
+   "ko": "이제 자러 갈게. 진정해. 😴",
+   "rd": "바도 아 레또 오라. 트란뀔로. 😴",
+   "emotion": "annoyed"
   },
   {
    "num": 6,
    "speaker": "B",
-   "it": "Ehm... non ho perso niente. La chiave era qui 😅",
-   "rd": "엠... 논 오 뻬르쏘 니엔떼. 라 끼아베 에라 뀌 😅",
-   "ko": "음… 아무것도 안 잃어버렸어. 열쇠 여기 있었어 😅",
-   "note": "era qui = 여기 있었어(굳은 말 era)",
+   "note": "le hai tu = 네가 가지고 있어",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "ho",
+     "chiavi",
+     "chiave",
+     ""
+    ],
+    [
+     "hai",
      "avere",
-     ""
-    ],
-    [
-     "perso",
-     "perdere",
-     ""
-    ],
-    [
-     "niente",
-     "niente",
-     ""
-    ],
-    [
-     "chiave",
-     "chiave",
-     ""
-    ],
-    [
-     "era",
-     "essere",
-     ""
-    ],
-    [
-     "qui",
-     "qui",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:26"
+   "at": "23:26",
+   "grok": true,
+   "it": "Cosa? Ma le chiavi le hai tu! 😳",
+   "ko": "뭐? 근데 열쇠는 네가 가지고 있잖아! 😳",
+   "rd": "꼬자? 마 레 끼아비 레 아이 뚜! 😳",
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "A",
-   "it": "E ora io sono fuori. Fammi entrare, io non ce l'ho 🙃",
-   "rd": "에 오라 이오 쏘노 푸오리. 팜미 엔트라레, 이오 논 체 로 🙃",
-   "ko": "그럼 이제 내가 밖이네. 문 열어 줘, 나 열쇠 없어 🙃",
-   "note": "non ce l'ho = 나 그거 없어(통문장)",
+   "note": "Non ce le ho = 나 안 가지고 있어",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "annoyed",
    "lemmas": [
     [
-     "ora",
-     "ora",
+     "non",
+     "non",
      ""
     ],
     [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "fuori",
-     "fuori",
-     ""
-    ],
-    [
-     "fammi",
-     "fare",
-     ""
-    ],
-    [
-     "entrare",
-     "entrare",
-     ""
-    ],
-    [
-     "ce l'ho",
+     "ho",
      "avere",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:26"
+   "at": "23:26",
+   "grok": true,
+   "it": "No! Non ce le ho io.",
+   "ko": "아니! 나 안 가지고 있어.",
+   "rd": "노! 논 체 레 오 이오.",
+   "emotion": "annoyed"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Tranquillo, arrivo! ...Aspetta. Dov'è la chiave? 😳",
-   "rd": "트란뀔로, 아리보! ...아스뻬따. 도베 라 끼아베? 😳",
-   "ko": "진정해, 간다! …잠깐. 열쇠 어디 갔지? 😳",
-   "note": "dov'è = 어디 있어(dove + è)",
+   "note": "Scherzi = 농담이야",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "arrivo",
-     "arrivare",
+     "scherzi",
+     "scherzi",
      ""
     ],
     [
-     "aspetta",
-     "aspettare",
+     "boh",
+     "boh",
      ""
     ],
     [
-     "dov'è",
-     "dove",
+     "vabbè",
+     "vabbère",
      ""
     ],
     [
-     "chiave",
-     "chiave",
+     "magari",
+     "magari",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:27",
-   "it_f": "Tranquilla, arrivo! ...Aspetta. Dov'è la chiave? 😳",
-   "rd_f": "트란뀔라, 아리보! ...아스뻬따. 도베 라 끼아베? 😳",
-   "ko_f": "진정해, 간다! …잠깐. 열쇠 어디 갔지? 😳"
+   "grok": true,
+   "it": "Scherzi? Boh, vabbè magari. 😂",
+   "ko": "농담이야? 뭐, 됐어 내일 하자. 😂",
+   "rd": "스께르찌? 보, 바베 마가리. 😂",
+   "emotion": "flustered"
   }
  ]
 }

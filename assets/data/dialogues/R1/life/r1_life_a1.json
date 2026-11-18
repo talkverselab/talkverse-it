@@ -22,7 +22,6 @@
   "Va bene"
  ],
  "goal": "골격 단계 2·3·4·6·7·8 · 굴절 반복 sei uscito/sono uscito · porti/porto · era/c'è · 표현 Ehi · Boh · Va bene",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -33,151 +32,142 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi, con chi sei uscito ieri sera?",
-   "rd": "에이, 꼰 끼 쎄이 우시또 이에리 쎄라?",
-   "ko": "야, 어젯밤에 누구랑 나갔어?",
-   "note": "sei uscito = 너 나갔다(uscire, essere 근과거) — 2턴 sono uscito(나)",
+   "note": "sei uscit{o|a} = 나갔었어",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "chi",
-     "chi",
+     "ehi",
+     "ehi",
      ""
     ],
     [
-     "sei uscito",
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "uscito",
      "uscire",
      ""
     ],
     [
-     "ieri",
-     "ieri",
-     ""
-    ],
-    [
-     "sera",
-     "sera",
+     "tardi",
+     "tardi",
      ""
     ]
    ],
-   "emotion": "teasing",
-   "it_f": "Ehi, con chi sei uscita ieri sera?",
-   "ko_f": "야, 어젯밤에 누구랑 나갔어?",
-   "rd_f": "에이, 꼰 끼 쎄이 우시따 이에리 쎄라?"
+   "grok": true,
+   "it": "Ehi, sei uscito tardi?",
+   "ko": "야, 늦게 나갔었어?",
+   "rd": "에이, 쎄이 우시또 따르디?",
+   "it_f": "Ehi, sei uscita tardi?",
+   "ko_f": "야, 늦게 나갔었어?",
+   "rd_f": "에이, 쎄이 우시따 따르디?",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Sono uscito con Giulia. Solo una pizza.",
-   "rd": "쏘노 우시또 꼰 줄리아. 쏠로 우나 삐짜.",
-   "ko": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
-   "note": "sono uscito = 나갔다(uscire, essere 근과거)",
+   "note": "sono uscit{o|a} = 나갔었어",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "sono uscito",
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "uscito",
      "uscire",
      ""
     ],
     [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
-     "pizza",
-     "pizza",
+     "amici",
+     "amico",
      ""
     ]
    ],
-   "emotion": "flustered",
-   "it_f": "Sono uscita con Giulia. Solo una pizza.",
-   "ko_f": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
-   "rd_f": "쏘노 우시따 꼰 줄리아. 쏠로 우나 삐짜."
+   "grok": true,
+   "it": "Boh, sono uscito con amici.",
+   "ko": "글쎄, 친구들이랑 나갔었어.",
+   "rd": "보, 쏘노 우시또 꼰 아미치.",
+   "it_f": "Boh, sono uscita con amici.",
+   "ko_f": "글쎄, 친구들이랑 나갔었어.",
+   "rd_f": "보, 쏘노 우시따 꼰 아미치.",
+   "emotion": "flustered"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Una pizza? Fino alle tre di notte?",
-   "rd": "우나 삐짜? 피노 알레 트레 디 노떼?",
-   "ko": "피자? 새벽 세 시까지?",
-   "note": "alle tre = 세 시에(a + le)",
+   "note": "al bar = 바에",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "pizza",
-     "pizza",
+     "bar",
+     "bar",
      ""
     ],
     [
-     "fino",
-     "fino",
-     ""
-    ],
-    [
-     "tre",
-     "tre",
-     ""
-    ],
-    [
-     "notte",
-     "notte",
+     "piazza",
+     "piazza",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Al bar della piazza?",
+   "ko": "광장 바에?",
+   "rd": "알 바르 델라 삐아짜?",
    "emotion": "tsukkomi"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Boh, la pizza era grande.",
-   "rd": "보, 라 삐짜 에라 그란데.",
-   "ko": "글쎄, 피자가 컸어.",
-   "note": "era = ~였다(essere 반과거)",
+   "note": "c'è = 있어",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
-     ""
-    ],
-    [
-     "pizza",
-     "pizza",
-     ""
-    ],
-    [
-     "era",
+     "è",
      "essere",
      ""
     ],
     [
-     "grande",
-     "grande",
+     "posto",
+     "posto",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
      ""
     ]
    ],
+   "grok": true,
+   "it": "No, c'è un posto nuovo.",
+   "ko": "아니, 새로운 곳이 있어.",
+   "rd": "노, 체 운 뽀스또 누오보.",
    "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "E questa rosa? A chi la porti?",
-   "rd": "에 꿰스따 로자? 아 끼 라 뽀르띠?",
-   "ko": "그럼 이 장미는? 누구 갖다 주게?",
-   "note": "la porti = 너 그걸 가져간다(portare) — 6턴 la porto(나)",
+   "note": "mi porti = 나한테 가져와",
    "tags": [
     "step:7",
     "step:3"
@@ -185,100 +175,68 @@
    "new": [],
    "lemmas": [
     [
-     "questa",
-     "questo",
-     ""
-    ],
-    [
-     "rosa",
-     "rosa",
-     ""
-    ],
-    [
-     "chi",
-     "chi",
-     ""
-    ],
-    [
      "porti",
      "portare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mi porti la rosa?",
+   "ko": "나한테 장미 가져와?",
+   "rd": "미 뽀르띠 라 로자?",
    "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "La rosa? La porto a mia nonna.",
-   "rd": "라 로자? 라 뽀르또 아 미아 논나.",
-   "ko": "장미? 우리 할머니 갖다 드릴 거야.",
-   "note": "la porto = 그걸 가져간다(la = 그것)",
+   "note": "la porto = 그걸 가져와",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "rosa",
-     "rosa",
-     ""
-    ],
-    [
      "porto",
-     "portare",
+     "porto",
      ""
     ],
     [
-     "nonna",
-     "nonna",
+     "casa",
+     "casa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "No, la porto a casa.",
+   "ko": "아니, 집에 가져와.",
+   "rd": "노, 라 뽀르또 아 까자.",
    "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Tua nonna si chiama Giulia? C'è scritto «Per Giulia».",
-   "rd": "뚜아 논나 씨 끼아마 줄리아? 체 스크리또 \"뻬르 줄리아\".",
-   "ko": "너희 할머니 이름이 줄리아야? 「줄리아에게」라고 써 있는데.",
-   "note": "si chiama = 이름이 ~이다",
+   "note": "era = 였어",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "nonna",
-     "nonna",
-     ""
-    ],
-    [
-     "chiama",
-     "chiamare",
-     ""
-    ],
-    [
-     "scritto",
-     "scrivere",
-     ""
-    ],
-    [
-     "c'è",
+     "era",
      "essere",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Era di Giulia la rosa?",
+   "ko": "줄리아의 장미였어?",
+   "rd": "에라 디 줄리아 라 로자?",
    "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Va bene, mi piace. Contento?",
-   "rd": "바 베네, 미 삐아체. 꼰뗀또?",
-   "ko": "알았어, 좋아해. 됐냐?",
-   "note": "mi piace = 내 마음에 든다, 좋아한다",
+   "note": "mi piace = 좋아해",
    "tags": [
     "step:8"
    ],
@@ -298,21 +256,20 @@
      "piace",
      "piacere",
      ""
-    ],
-    [
-     "contento",
-     "contento",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "Va bene. Mi piace la rosa.",
+   "ko": "괜찮아. 장미가 좋아.",
+   "rd": "바 베네. 미 삐아체 라 로자.",
    "segs": [
     [
      "shy",
-     "Va bene, mi piace."
+     "Va bene."
     ],
     [
      "annoyed",
-     "Contento?"
+     " Mi piace la rosa."
     ]
    ]
   }

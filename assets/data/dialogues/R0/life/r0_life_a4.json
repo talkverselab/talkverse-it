@@ -19,7 +19,6 @@
   "Ma dai"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Ma dai",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -30,43 +29,36 @@
   {
    "num": 1,
    "speaker": "A",
-   "it": "Luca? Che c'è? Stai male?",
-   "rd": "루까? 께 체? 스따이 말레?",
-   "ko": "루카? 무슨 일이야? 어디 아파?",
-   "note": "stai male = 몸·기분이 안 좋아",
+   "note": "stai = 있다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "c'è",
-     "essere",
+     "stai",
+     "staare",
      ""
     ],
     [
-     "Stai",
-     "stare",
-     ""
-    ],
-    [
-     "male",
-     "male",
+     "bene",
+     "bene",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Luca, stai bene?",
+   "ko": "루카, 괜찮아?",
+   "rd": "루까, 스따이 베네?",
    "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "B",
-   "it": "È finita. Tutto finito.",
-   "rd": "에 피니따. 뚜또 피니또.",
-   "ko": "끝났어. 다 끝났어.",
-   "note": "è finita = 끝났다(finire)",
+   "note": "è = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "È",
+     "è",
      "essere",
      ""
     ],
@@ -74,140 +66,98 @@
      "finita",
      "finire",
      ""
-    ],
-    [
-     "Tutto",
-     "tutto",
-     ""
-    ],
-    [
-     "finito",
-     "finire",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "No... è finita.",
+   "ko": "아니... 끝났어.",
+   "rd": "노... 에 피니따.",
    "emotion": "sad"
   },
   {
    "num": 3,
    "speaker": "A",
-   "it": "Mamma mia! Con la tua ragazza?",
-   "rd": "맘마 미아! 꼰 라 뚜아 라가짜?",
-   "ko": "세상에! 여자친구랑?",
-   "note": "la tua ragazza = 네 여자친구",
+   "note": "la = 그",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Mamma",
-     "mamma",
-     ""
-    ],
-    [
-     "mia",
-     "mio",
-     ""
-    ],
-    [
-     "tua",
-     "tuo",
-     ""
-    ],
-    [
-     "ragazza",
-     "ragazzo",
+     "partita",
+     "partita",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Cosa? La partita?",
+   "ko": "뭐? 경기?",
+   "rd": "꼬자? 라 빠르띠따?",
    "emotion": "surprised"
   },
   {
    "num": 4,
    "speaker": "B",
-   "it": "No... peggio. La partita. Tre a zero.",
-   "rd": "노... 뻬조. 라 빠르띠따. 트레 아 쩨로.",
-   "ko": "아니… 더 나빠. 경기. 3 대 0.",
-   "note": "peggio = 더 나쁜",
+   "note": "perdo = 지다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "peggio",
-     "peggio",
-     ""
-    ],
-    [
-     "partita",
-     "partita",
-     ""
-    ],
-    [
-     "Tre",
-     "tre",
+     "perdo",
+     "perdare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, perdo tutto.",
+   "ko": "응, 다 졌어.",
+   "rd": "씨, 뻬르도 뚜또.",
    "emotion": "sad"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Ma dai! Non capisco... solo una partita?",
-   "rd": "마 다이! 논 까삐스꼬... 쏠로 우나 빠르띠따?",
-   "ko": "아 뭐야! 이해가 안 되네… 그냥 경기잖아?",
-   "note": "non capisco = 이해 못 하겠어",
+   "note": "Mamma mia = 맙소사",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "dai",
-     "dare",
-     ""
-    ],
-    [
-     "capisco",
-     "capire",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
-     "partita",
-     "partita",
+     "mamma",
+     "mamma",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mamma mia! Ma dai.",
+   "ko": "맙소사! 에이.",
+   "rd": "맘마 미아! 마 다이.",
    "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "B",
-   "it": "Solo? Tu non capisci niente.",
-   "rd": "쏠로? 뚜 논 까삐시 니엔떼.",
-   "ko": "그냥? 넌 아무것도 몰라.",
-   "note": "non capisci niente = 아무것도 몰라",
+   "note": "è = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Solo",
-     "solo",
+     "non",
+     "non",
      ""
     ],
     [
-     "capisci",
-     "capire",
+     "è",
+     "essere",
      ""
     ],
     [
-     "niente",
-     "niente",
+     "gioco",
+     "gioco",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non è un gioco.",
+   "ko": "게임이 아니야.",
+   "rd": "논 에 운 조꼬.",
    "emotion": "annoyed"
   }
  ]

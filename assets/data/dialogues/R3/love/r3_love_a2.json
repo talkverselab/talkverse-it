@@ -24,7 +24,6 @@
   "Lascia stare"
  ],
  "goal": "그래머2: Lei 존댓말 — per Lei · Ha fatto (3인칭 = Lei 꼴) · mi scusi, voi — per voi · per noi (새 단어 0) · 표현 Ecco · Mamma mia · Lascia stare",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -35,167 +34,152 @@
   {
    "num": 1,
    "speaker": "A",
-   "it": "Ecco! Ho fatto la cena per voi.",
-   "rd": "에꼬! 오 파또 라 체나 뻬르 보이.",
-   "ko": "짜잔! 두 분 드리려고 저녁 했어요.",
-   "note": "per voi = 너희(두 사람)를 위해",
-   "tags": [
-    "step:5"
-   ],
-   "new": [
-    "cena"
-   ],
-   "lemmas": [
-    [
-     "ecco",
-     "ecco",
-     ""
-    ],
-    [
-     "ho fatto",
-     "fare",
-     ""
-    ],
-    [
-     "cena",
-     "cena",
-     ""
-    ]
-   ],
-   "emotion": "excited"
-  },
-  {
-   "num": 2,
-   "speaker": "B",
-   "it": "Per noi? Hai fatto tutto tu?",
-   "rd": "뻬르 노이? 아이 파또 뚜또 뚜?",
-   "ko": "우리 주려고? 이거 다 네가 했어?",
-   "note": "per noi = 우리를 위해",
+   "note": "Ecco = 여기",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
     [
-     "hai fatto",
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "fatto",
      "fare",
      ""
     ],
     [
-     "tutto",
-     "tutto",
+     "cena",
+     "cena",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ecco, ho fatto la cena per Lei!",
+   "ko": "여기, 어머님께 저녁 차렸어요!",
+   "rd": "에꼬, 오 파또 라 체나 뻬르 레이!",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "note": "Mamma mia = 맙소사",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Mamma mia, è tanto!",
+   "ko": "맙소사, 많아!",
+   "rd": "맘마 미아, 에 딴또!",
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "it": "Certo! La pasta, la musica... tutto per Lei.",
-   "rd": "체르또! 라 빠스따, 라 무지까... 뚜또 뻬르 레이.",
-   "ko": "그럼요! 파스타, 음악… 다 어머님을 위해서요.",
-   "note": "per Lei = 당신을 위해(존댓말 Lei, 대문자)",
+   "note": "per voi e per noi = 너희와 우리를 위해",
    "tags": [
     "step:1"
    ],
-   "new": [
-    "pasta"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "certo",
-     "certo",
+     "voi",
+     "voi",
      ""
     ],
     [
-     "pasta",
-     "pasta",
-     ""
-    ],
-    [
-     "musica",
-     "musica",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
+     "noi",
+     "noi",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Per voi e per noi.",
+   "ko": "당신들과 우리를 위해.",
+   "rd": "뻬르 보이 에 뻬르 노이.",
    "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "D",
-   "it": "Mamma mia. È proprio bravo, Giulia.",
-   "rd": "맘마 미아. 에 프로프리오 브라보, 줄리아.",
-   "ko": "어머. 얘 진짜 대단하다, 줄리아.",
-   "note": "è bravo = 착하다(3인칭 — Lei 꼴과 같음)",
+   "note": "Ha fatto = 했다",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "mamma",
-     "mamma",
+     "ha",
+     "avere",
      ""
     ],
     [
-     "proprio",
-     "proprio",
-     ""
-    ],
-    [
-     "bravo",
-     "bravo",
+     "fatto",
+     "fare",
      ""
     ]
    ],
-   "emotion": "shy",
-   "it_f": "Mamma mia. È proprio brava, Giulia.",
-   "ko_f": "어머. 얘 진짜 대단하다, 줄리아.",
-   "rd_f": "맘마 미아. 에 프로프리오 브라바, 줄리아."
+   "grok": true,
+   "it": "Ha fatto tutto Lei?",
+   "ko": "다 하셨어요?",
+   "rd": "아 파또 뚜또 레이?",
+   "emotion": "shy"
   },
   {
    "num": 5,
    "speaker": "C",
-   "it": "Ciao! Ho mangiato la pasta. Buonissima!",
-   "rd": "챠오! 오 만쟈또 라 빠스따. 부오니씨마!",
-   "ko": "안녕! 파스타 내가 먹었어. 완전 맛있더라!",
-   "note": "ho mangiato = 먹었다(mangiare 근과거)",
+   "note": "l'ho mangiata = 그걸 먹었어(la → 과거분사 -a)",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
     [
-     "ho mangiato",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "mangiata",
      "mangiare",
-     ""
-    ],
-    [
-     "pasta",
-     "pasta",
-     ""
-    ],
-    [
-     "buonissima",
-     "buono",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Io l'ho mangiata! 😳",
+   "ko": "내가 먹었어! 😳",
+   "rd": "이오 로 만쟈따! 😳",
    "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Tutta?! Hai mangiato la cena della mamma di Giulia!",
-   "rd": "뚜따?! 아이 만쟈또 라 체나 델라 맘마 디 줄리아!",
-   "ko": "다?! 줄리아 어머님 저녁을 먹은 거야!",
-   "note": "hai mangiato = 너 먹었다 — 5턴 ho mangiato, della = di + la",
+   "note": "per Lei = 당신(존댓말)을 위해",
    "tags": [
     "step:5",
     "step:4"
@@ -203,65 +187,52 @@
    "new": [],
    "lemmas": [
     [
-     "tutta",
-     "tutto",
+     "cosa",
+     "cosa",
      ""
     ],
     [
-     "hai mangiato",
-     "mangiare",
-     ""
-    ],
-    [
-     "cena",
-     "cena",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
+     "lei",
+     "lei",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Cosa? Per Lei?",
+   "ko": "뭐? 어머님께?",
+   "rd": "꼬자? 뻬르 레이?",
    "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "C",
-   "it": "Ah... mi scusi. Torno al lavoro.",
-   "rd": "아... 미 스꾸지. 또르노 알 라보로.",
-   "ko": "아… 죄송합니다. 저 일하러 갑니다.",
-   "note": "mi scusi = 죄송합니다(존댓말 Lei 명령)",
+   "note": "mi scusi = 실례합니다",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
+     "scusa",
+     "scusa",
+     ""
+    ],
+    [
      "scusi",
      "scusare",
      ""
-    ],
-    [
-     "torno",
-     "tornare",
-     ""
-    ],
-    [
-     "lavoro",
-     "lavoro",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "Scusa, mi scusi.",
+   "ko": "미안, 실례합니다.",
+   "rd": "스꾸자, 미 스꾸지.",
    "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Lascia stare. Vorrei solo stare qui con te.",
-   "rd": "라샤 스따레. 보레이 쏠로 스따레 뀌 꼰 떼.",
-   "ko": "신경 쓰지 마. 난 그냥 너랑 여기 있고 싶어.",
-   "note": "vorrei = ~하고 싶어(volere 조건)",
+   "note": "Lascia stare = 내버려 둬",
    "tags": [
     "step:10"
    ],
@@ -273,36 +244,26 @@
      ""
     ],
     [
-     "vorrei",
-     "volere",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
      "stare",
      "stare",
      ""
     ],
     [
-     "qui",
-     "qui",
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
      ""
     ]
    ],
-   "segs": [
-    [
-     "amused",
-     "Lascia stare."
-    ],
-    [
-     "gentle",
-     "Vorrei solo stare qui con te."
-    ]
-   ]
+   "grok": true,
+   "it": "Lascia stare, va bene.",
+   "ko": "내버려 둬, 괜찮아.",
+   "rd": "라샤 스따레, 바 베네.",
+   "emotion": "amused"
   }
  ]
 }

@@ -21,7 +21,6 @@
   "Cioè"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Allora · Cioè",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -32,164 +31,156 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Allora, io vado. Devo dormire.",
-   "rd": "알로라, 이오 바도. 데보 도르미레.",
-   "ko": "그럼 나 갈게. 자야 돼.",
-   "note": "devo = 나 ~해야 해(dovere)",
+   "note": "Allora = 그러면",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Allora",
+     "allora",
      "allora",
      ""
     ],
     [
      "vado",
-     "andare",
+     "vado",
      ""
     ],
     [
-     "Devo",
-     "dovere",
-     ""
-    ],
-    [
-     "dormire",
-     "dormire",
+     "casa",
+     "casa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Allora, vado a casa.",
+   "ko": "그러면, 집에 가.",
+   "rd": "알로라, 바도 아 까자.",
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Già? Devi andare?",
-   "rd": "쟈? 데비 안다레?",
-   "ko": "벌써? 가야 돼?",
-   "note": "devi andare = 너 가야 해",
+   "note": "resta = 있다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Già",
+     "già",
      "già",
      ""
     ],
     [
-     "Devi",
-     "dovere",
+     "resta",
+     "restare",
      ""
     ],
     [
-     "andare",
-     "andare",
+     "ancora",
+     "ancora",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Già? Resta ancora.",
+   "ko": "벌써? 더 있어.",
+   "rd": "쟈? 레스따 안꼬라.",
    "emotion": "sad"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Sì. A domani. Ciao, amore!",
-   "rd": "씨. 아 도마니. 챠오, 아모레!",
-   "ko": "응. 내일 봐. 안녕, 자기야!",
-   "note": "amore = 사랑, 자기야",
+   "note": "caro = 자기야",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
-     "Ciao",
+     "ciao",
      "ciao",
      ""
     ],
     [
-     "amore",
-     "amore",
+     "caro",
+     "caro",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ciao, caro!",
+   "ko": "안녕, 자기야!",
+   "rd": "챠오, 까로!",
+   "it_f": "Ciao, cara!",
+   "ko_f": "안녕, 자기야!",
+   "rd_f": "챠오, 까라!",
    "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "...Amore?",
-   "rd": "...아모레?",
-   "ko": "…자기?",
-   "note": "amore? = 자기라고?",
+   "note": "cosa = 뭐",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Amore",
-     "amore",
+     "caro",
+     "caro",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Cosa? Caro?",
+   "ko": "뭐? 자기야?",
+   "rd": "꼬자? 까로?",
+   "it_f": "Cosa? Cara?",
+   "ko_f": "뭐? 자기야?",
+   "rd_f": "꼬자? 까라?",
    "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "No! Cioè... ciao! Vado, vado!",
-   "rd": "노! 쵸에... 챠오! 바도, 바도!",
-   "ko": "아니! 그러니까… 안녕! 간다, 가!",
-   "note": "Cioè = 그러니까, 아니 내 말은",
+   "note": "Cioè = 그러니까",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Cioè",
+     "cioè",
      "cioè",
      ""
     ],
     [
-     "ciao",
-     "ciao",
-     ""
-    ],
-    [
-     "Vado",
-     "andare",
+     "scusa",
+     "scusa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Cioè... scusa!",
+   "ko": "그러니까... 미안!",
+   "rd": "쵸에... 스꾸자!",
    "emotion": "flustered"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Dormi bene... amore.",
-   "rd": "도르미 베네... 아모레.",
-   "ko": "잘 자… 자기야.",
-   "note": "dormi bene = 잘 자",
+   "note": "piace = 좋아하다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Dormi",
-     "dormire",
+     "piace",
+     "piacere",
      ""
     ],
     [
-     "bene",
-     "bene",
-     ""
-    ],
-    [
-     "amore",
-     "amore",
+     "eh",
+     "eh",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ti piace, eh?",
+   "ko": "좋아하나 봐, 응?",
+   "rd": "띠 삐아체, 에?",
    "emotion": "teasing"
   }
  ]

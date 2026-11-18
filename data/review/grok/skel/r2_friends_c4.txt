@@ -1,0 +1,20 @@
+=== r2_friends_c4
+level: R2
+kind: chat
+title: 아저씨 아니고 나
+emoji: 🎨
+scene: 오후 네 시, 미대생 키아라가 먼저 문자로 자기가 그린 그림을 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 채팅 반말
+twist: 5 slip
+goal: 챗 상황 2 사진 · 8 오해 · 9 화해 · 표현 Boh · Ma dai · Cioè · Vabbè
+expressions: Boh; Ma dai; Cioè; Vabbè
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=excited | tags=step:1 | at=16:10
+A | ___ | ___ | ___ | emotion=neutral | tags=step:1 | at=16:11
+B | ___ | ___ | ___ | emotion=excited | tags=step:2 | at=16:12
+A | ___ | ___ | ___ | emotion=flustered | tags=step:2 | at=16:14
+B | ___ | ___ | ___ | emotion=shout | tags=step:8,twist | at=16:14
+A | ___ | ___ | ___ | emotion=flustered | tags=step:5 | at=16:15
+B | ___ | ___ | ___ | emotion=teasing | tags=step:9 | at=16:16
+B | ___ | ___ | ___ | emotion=teasing | tags=step:9 | at=16:16

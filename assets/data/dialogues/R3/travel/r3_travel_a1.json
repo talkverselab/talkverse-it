@@ -3,7 +3,6 @@
  "region": "R3",
  "island": "travel",
  "kind": "short",
- "draft": true,
  "purpose": [
   "travel"
  ],
@@ -33,10 +32,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "it": "Pronto, Giulia? Siamo arrivati!",
-   "rd": "프론또, 줄리아? 씨아모 아리바띠!",
-   "ko": "여보세요, 줄리아? 우리 도착했어!",
-   "note": "siamo arrivati = 우리 도착했다(남녀 섞이면 -i)",
+   "note": "siamo arrivati = 우리 도착했다",
    "tags": [
     "step:6"
    ],
@@ -48,30 +44,31 @@
      ""
     ],
     [
-     "siamo arrivati",
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "arrivati",
      "arrivare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Pronto, siamo arrivati noi!",
+   "ko": "여보세요, 우리 도착했어!",
+   "rd": "프론또, 씨아모 아리바띠 노이!",
    "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "B",
-   "it": "Bravi! Che bello! Ma dove siete?",
-   "rd": "브라비! 께 벨로! 마 도베 씨에떼?",
-   "ko": "잘했어! 신난다! 근데 어디야?",
-   "note": "bravi = 잘했어(둘 이상 → -i) · siete = 너희 ~이다",
+   "note": "siete bravi = 너희 잘하다",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
-    [
-     "bravi",
-     "bravo",
-     ""
-    ],
     [
      "bello",
      "bello",
@@ -81,19 +78,56 @@
      "siete",
      "essere",
      ""
+    ],
+    [
+     "bravi",
+     "bravo",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Che bello, siete bravi voi!",
+   "ko": "정말 멋지네, 너희 잘했어!",
+   "rd": "께 벨로, 씨에떼 브라비 보이!",
    "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "C",
-   "it": "Non lo sappiamo. Vediamo due donne molto belle.",
-   "rd": "논 로 싸삐아모. 베디아모 두에 돈네 몰또 벨레.",
-   "ko": "모르겠어. 엄청 예쁜 여자 둘만 보여.",
-   "note": "belle = 예쁜(여성 복수 -e) · donne = 여자들(-a → -e)",
+   "note": "due donne = 두 여자들",
    "tags": [
     "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "donne",
+     "donna",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma dove sono le due donne?",
+   "ko": "그런데 그 두 여자들은 어디 있어?",
+   "rd": "마 도베 쏘노 레 두에 돈네?",
+   "emotion": "shy"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "note": "sappiamo = 우리 알다",
+   "tags": [
+    "step:9"
    ],
    "new": [],
    "lemmas": [
@@ -106,72 +140,18 @@
      "vediamo",
      "vedere",
      ""
-    ],
-    [
-     "due",
-     "due",
-     ""
-    ],
-    [
-     "donne",
-     "donna",
-     ""
-    ],
-    [
-     "molto",
-     "molto",
-     ""
-    ],
-    [
-     "belle",
-     "bello",
-     ""
     ]
    ],
-   "emotion": "shy"
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "it": "Molto belle? E cosa fanno adesso?",
-   "rd": "몰또 벨레? 에 꼬자 판노 아데쏘?",
-   "ko": "엄청 예뻐? 그래서 그 여자들 지금 뭐 하는데?",
-   "note": "fanno = 그들이 하다(fare, loro)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "molto",
-     "molto",
-     ""
-    ],
-    [
-     "belle",
-     "bello",
-     ""
-    ],
-    [
-     "fanno",
-     "fare",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
-     ""
-    ]
-   ],
+   "grok": true,
+   "it": "Sappiamo, vediamo noi.",
+   "ko": "우리 알아, 우리 보고 있어.",
+   "rd": "싸삐아모, 베디아모 노이.",
    "emotion": "teasing"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Ci guardano e ridono. Adesso vengono qui.",
-   "rd": "치 구아르다노 에 리도노. 아데쏘 벵고노 뀌.",
-   "ko": "우릴 보면서 웃어. 지금 이쪽으로 와.",
-   "note": "ci guardano = 우리를 본다(loro) · vengono = 그들이 온다",
+   "note": "ci guardano = 우리를 그들이 보다",
    "tags": [
     "step:7",
     "step:3"
@@ -182,6 +162,38 @@
      "guardano",
      "guardare",
      ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ci guardano loro?",
+   "ko": "그들이 우리 보고 있어?",
+   "rd": "치 구아르다노 로로?",
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "note": "fanno = 그들이 하다",
+   "tags": [
+    "step:3",
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "fanno",
+     "fare",
+     ""
+    ],
+    [
+     "così",
+     "così",
+     ""
     ],
     [
      "ridono",
@@ -189,8 +201,38 @@
      ""
     ],
     [
-     "adesso",
-     "adesso",
+     "vengono",
+     "venire",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Allora, fanno così. Ci ridono e vengono.",
+   "ko": "그럼, 그렇게 해. 우리한테 웃고 와.",
+   "rd": "알로라, 판노 꼬지. 치 리도노 에 벵고노.",
+   "segs": [
+    [
+     "teasing",
+     "Allora, fanno così."
+    ],
+    [
+     "cheerful",
+     " Ci ridono e vengono."
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "note": "guardate = 너희 보다",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "guardate",
+     "guardare",
      ""
     ],
     [
@@ -204,126 +246,36 @@
      ""
     ]
    ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "it": "Allora guardate bene... siamo noi!",
-   "rd": "알로라 구아르다떼 베네... 씨아모 노이!",
-   "ko": "그럼 잘 봐… 우리야!",
-   "note": "guardate = 봐(voi 명령) — 5턴 guardano",
-   "tags": [
-    "step:3",
-    "step:2"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "allora",
-     "allora",
-     ""
-    ],
-    [
-     "guardate",
-     "guardare",
-     ""
-    ],
-    [
-     "bene",
-     "bene",
-     ""
-    ],
-    [
-     "siamo",
-     "essere",
-     ""
-    ]
-   ],
-   "segs": [
-    [
-     "teasing",
-     "Allora guardate bene..."
-    ],
-    [
-     "cheerful",
-     " siamo noi!"
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "A",
-   "it": "Siete voi?! Da quanto tempo ci guardate?",
-   "rd": "씨에떼 보이?! 다 꽌또 뗌뽀 치 구아르다떼?",
-   "ko": "너희였어?! 언제부터 우릴 보고 있었어?",
-   "note": "ci guardate = 너희가 우리를 본다(voi)",
-   "tags": [
-    "step:7"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "siete",
-     "essere",
-     ""
-    ],
-    [
-     "quanto",
-     "quanto",
-     ""
-    ],
-    [
-     "tempo",
-     "tempo",
-     ""
-    ],
-    [
-     "guardate",
-     "guardare",
-     ""
-    ]
-   ],
+   "grok": true,
+   "it": "Guardate, vengono qui!",
+   "ko": "봐, 그들이 여기로 와!",
+   "rd": "구아르다떼, 벵고노 뀌!",
    "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "D",
-   "it": "Da tanto. E siamo molto belle, vero?",
-   "rd": "다 딴또. 에 씨아모 몰또 벨레, 베로?",
-   "ko": "한참 됐지. 그리고 우리 엄청 예쁘다며, 그치?",
-   "note": "siamo belle = 우리 예쁘다(여성 복수)",
+   "note": "siamo = 우리이다",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "tanto",
-     "tanto",
-     ""
-    ],
-    [
      "siamo",
      "essere",
-     ""
-    ],
-    [
-     "molto",
-     "molto",
      ""
     ],
     [
      "belle",
      "bello",
      ""
-    ],
-    [
-     "vero",
-     "vero",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, siamo noi le belle!",
+   "ko": "응, 우리가 그 예쁜 여자들이야!",
+   "rd": "씨, 씨아모 노이 레 벨레!",
    "emotion": "teasing"
   }
  ]

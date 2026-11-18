@@ -21,7 +21,6 @@
   "Dai"
  ],
  "goal": "어려운 문법 1 접속법 현재(speriamo che sia·penso che sia·ce l'abbia) · 7 결합 대명사(ve lo·ce lo·gliene·gliel'ho) · 8 ne·ci · 5 반과거 · 존댓말 Lei · 표현 Ma dai·Figurati·Dai",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -32,57 +31,37 @@
   {
    "num": 1,
    "speaker": "C",
-   "it": "Buongiorno, ragazzi! È arrivato un pacco per voi. Ve lo porto dentro?",
-   "rd": "부온조르노, 라가찌! 에 아리바또 운 빠꼬 뻬르 보이. 베 로 뽀르또 덴트로?",
-   "ko": "안녕, 학생들! 택배가 왔어요. 안에 넣어 줄까?",
-   "note": "ve lo = 그것을 너희에게(결합 대명사)",
-   "tags": [
-    "step:7"
-   ],
-   "new": [
-    "pacco"
-   ],
-   "emotion": "cheerful",
-   "lemmas": [
-    [
-     "ragazzi",
-     "ragazzo",
-     ""
-    ],
-    [
-     "arrivato",
-     "arrivare",
-     ""
-    ],
-    [
-     "pacco",
-     "pacco",
-     ""
-    ],
-    [
-     "porto",
-     "portare",
-     ""
-    ],
-    [
-     "dentro",
-     "dentro",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "it": "Grazie, signora Galli! Ce lo dia pure, è della mamma di Luca.",
-   "rd": "그라찌에, 씨뇨라 갈리! 체 로 디아 뿌레, 에 델라 맘마 디 루까.",
-   "ko": "고맙습니다, 아주머니! 주세요, 루카 어머니가 보내신 거예요.",
-   "note": "ce lo dia = 그걸 우리에게 주세요(Lei 명령)",
+   "note": "ve lo = 너희에게 그것을",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "polite",
+   "lemmas": [
+    [
+     "porto",
+     "porto",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma dai, ve lo porto subito.",
+   "ko": "어머, 바로 가져다드릴게요.",
+   "rd": "마 다이, 베 로 뽀르또 쑤비또.",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "note": "ce lo = 여기에 그것을",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
    "lemmas": [
     [
      "grazie",
@@ -90,42 +69,36 @@
      ""
     ],
     [
-     "dia",
-     "dare",
+     "lascia",
+     "lasciare",
      ""
     ],
     [
-     "è",
-     "essere",
+     "qui",
+     "qui",
      ""
     ],
     [
-     "mamma",
-     "mamma",
+     "favore",
+     "favore",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Grazie. Ce lo lascia qui, per favore.",
+   "ko": "고마워요. 여기 두시겠어요, 부탁해요.",
+   "rd": "그라찌에. 체 로 라샤 뀌, 뻬르 파보레.",
+   "emotion": "polite"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Mia madre? Speriamo che non ci sia di nuovo il formaggio.",
-   "rd": "미아 마드레? 스뻬리아모 께 논 치 씨아 디 누오보 일 포르마조.",
-   "ko": "우리 엄마? 또 치즈만 아니면 좋겠다.",
-   "note": "speriamo che + 접속법 sia = ~이면 좋겠다",
+   "note": "sia = 접속법 현재",
    "tags": [
     "step:1"
    ],
-   "new": [
-    "formaggio"
-   ],
-   "emotion": "worried",
+   "new": [],
    "lemmas": [
-    [
-     "madre",
-     "madre",
-     ""
-    ],
     [
      "speriamo",
      "sperare",
@@ -137,8 +110,8 @@
      ""
     ],
     [
-     "nuovo",
-     "nuovo",
+     "solo",
+     "solo",
      ""
     ],
     [
@@ -146,55 +119,47 @@
      "formaggio",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Speriamo che sia solo formaggio.",
+   "ko": "치즈만 있으면 좋겠어.",
+   "rd": "스뻬리아모 께 씨아 쏠로 포르마조.",
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "C",
-   "it": "Il formaggio c'è, sì. Si sente anche da casa mia.",
-   "rd": "일 포르마조 체, 씨. 씨 쎈떼 안께 다 까자 미아.",
-   "ko": "치즈 맞아요. 우리 집에서도 냄새가 나던걸.",
-   "note": "si sente = 냄새가 나다, 들리다",
+   "note": "ce ne = 거기에 그것들",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
-     "formaggio",
-     "formaggio",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "sente",
+     "sento",
      "sentire",
      ""
-    ],
-    [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "mia",
-     "mio",
-     ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ce ne sono tanti, lo sento.",
+   "ko": "많이 있어요, 냄새가 나요.",
+   "rd": "체 네 쏘노 딴띠, 로 쎈또.",
+   "emotion": "amused"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Allora penso che sia meglio aprirlo subito, qui fuori.",
-   "rd": "알로라 뻰쏘 께 씨아 멜리오 아프리를로 쑤비또, 뀌 푸오리.",
-   "ko": "그럼 지금 바로 여기 밖에서 여는 게 좋겠어요.",
-   "note": "penso che + 접속법 = ~라고 생각하다",
+   "note": "sia = 접속법 현재",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "cheerful",
    "lemmas": [
     [
      "penso",
@@ -207,252 +172,194 @@
      ""
     ],
     [
-     "meglio",
-     "meglio",
+     "buono",
+     "buono",
      ""
     ],
     [
-     "aprirlo",
-     "aprire",
-     ""
-    ],
-    [
-     "subito",
-     "subito",
-     ""
-    ],
-    [
-     "fuori",
-     "fuori",
+     "davvero",
+     "davvero",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Penso che sia buono davvero.",
+   "ko": "정말 맛있을 것 같아요.",
+   "rd": "뻰쏘 께 씨아 부오노 다베로.",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "C",
-   "it": "Bravi. Però ve lo dico subito: un pezzo l'ho già provato.",
-   "rd": "브라비. 뻬로 베 로 디꼬 쑤비또: 운 뻬쪼 로 쟈 프로바또.",
-   "ko": "그래요. 근데 미리 말해 둘게. 한 조각은 내가 벌써 먹어 봤어요.",
-   "note": "ve lo dico = 너희에게 그걸 말하다",
+   "note": "gliel'ho = 그에게 그것을 이미",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
     [
-     "bravi",
-     "bravo",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "dico",
-     "dire",
+     "aperto",
+     "aperto",
      ""
     ],
     [
-     "subito",
-     "subito",
-     ""
-    ],
-    [
-     "pezzo",
-     "pezzo",
-     ""
-    ],
-    [
-     "provato",
-     "provare",
+     "pochino",
+     "pochino",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Gliel'ho aperto un pochino.",
+   "ko": "제가 조금 열어봤어요.",
+   "rd": "리엘로 아뻬르또 운 뽀끼노.",
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ma dai! L'ha aperto Lei? E com'era?",
-   "rd": "마 다이! 라 아뻬르또 레이? 에 꼬메라?",
-   "ko": "에이, 설마요! 아주머니가 여셨어요? 맛은 어땠어요?",
-   "note": "com'era = 어땠어(반과거)",
+   "note": "mandava = 반과거",
    "tags": [
     "step:5"
    ],
    "new": [],
-   "segs": [
-    [
-     "surprised",
-     "Ma dai! L'ha aperto Lei?"
-    ],
-    [
-     "amused",
-     " E com'era?"
-    ]
-   ],
    "lemmas": [
     [
-     "aperto",
-     "aprire",
+     "mamma",
+     "mamma",
      ""
     ],
     [
-     "era",
-     "essere",
+     "mandava",
+     "mandare",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ],
+    [
+     "pacchi",
+     "pacco",
+     ""
+    ],
+    [
+     "così",
+     "così",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Mia mamma mandava sempre pacchi così.",
+   "ko": "엄마는 항상 이렇게 택배를 보내셨어.",
+   "rd": "미아 맘마 만다바 쎔프레 빠끼 꼬지.",
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "C",
-   "it": "Era già un po' aperto... Comunque buonissimo. Ne vorrei ancora un pezzetto, se non vi dispiace.",
-   "rd": "에라 쟈 운 뽀 아뻬르또... 꼬문꿰 부오니씨모. 네 보레이 안꼬라 운 뻬쩨또, 쎄 논 비 디스삐아체.",
-   "ko": "원래 좀 열려 있었어요… 아무튼 정말 맛있더라. 괜찮으면 조금만 더 먹고 싶은데.",
-   "note": "ne vorrei = 그중 조금 원해요(ne = 그것 중 일부)",
+   "note": "ci = 거기에, mettevo = 반과거",
    "tags": [
     "step:8",
     "step:5"
    ],
    "new": [],
-   "emotion": "shy",
    "lemmas": [
     [
-     "era",
-     "essere",
+     "mettevo",
+     "mettere",
      ""
     ],
     [
-     "aperto",
-     "aprire",
+     "formaggio",
+     "formaggio",
      ""
     ],
     [
-     "comunque",
-     "comunque",
-     ""
-    ],
-    [
-     "buonissimo",
-     "buono",
-     ""
-    ],
-    [
-     "vorrei",
-     "volere",
-     ""
-    ],
-    [
-     "pezzetto",
-     "pezzo",
-     ""
-    ],
-    [
-     "dispiace",
-     "dispiacere",
+     "fresco",
+     "fresco",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ci mettevo il formaggio fresco.",
+   "ko": "제가 신선한 치즈를 넣었어요.",
+   "rd": "치 메떼보 일 포르마조 프레스꼬.",
+   "emotion": "shy"
   },
   {
    "num": 9,
    "speaker": "A",
-   "it": "Figurati... cioè, si figuri! Gliene diamo un pezzo grande.",
-   "rd": "피구라띠... 쵸에, 씨 피구리! 리에네 디아모 운 뻬쪼 그란데.",
-   "ko": "그럼…아니, 그럼요! 크게 한 조각 드릴게요.",
-   "note": "gliene = 그녀에게 그중 일부를 · Figurati(반말) → Si figuri(Lei)",
+   "note": "ce lo = 그것을, ne = 그것의",
    "tags": [
     "step:7",
     "step:8"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "figurati",
-     "figurare",
+     "prendo",
+     "prendere",
      ""
     ],
     [
-     "figuri",
-     "figurare",
+     "voglio",
+     "volere",
      ""
     ],
     [
-     "diamo",
-     "dare",
-     ""
-    ],
-    [
-     "pezzo",
-     "pezzo",
-     ""
-    ],
-    [
-     "grande",
-     "grande",
+     "po",
+     "poco",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ce lo prendo? Ne voglio un po'.",
+   "ko": "제가 가져갈까요? 좀 원해요.",
+   "rd": "체 로 프렌도? 네 볼리오 운 뽀.",
+   "emotion": "flustered"
   },
   {
    "num": 10,
    "speaker": "B",
-   "it": "Aspetta, sotto il formaggio c'è una lettera. È di mia madre.",
-   "rd": "아스뻬따, 쏘또 일 포르마조 체 우나 레떼라. 에 디 미아 마드레.",
-   "ko": "잠깐, 치즈 밑에 편지가 있어. 엄마가 쓴 거야.",
-   "note": "sotto = 아래에",
+   "note": "ce n'è = 거기에 있다",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "surprised",
    "lemmas": [
     [
-     "aspetta",
-     "aspettare",
+     "è",
+     "essere",
      ""
     ],
     [
-     "sotto",
-     "sotto",
-     ""
-    ],
-    [
-     "formaggio",
-     "formaggio",
-     ""
-    ],
-    [
-     "lettera",
-     "lettera",
-     ""
-    ],
-    [
-     "madre",
-     "madre",
+     "troppo",
+     "troppo",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ce n'è troppo, dai!",
+   "ko": "너무 많아!",
+   "rd": "체 네 트로뽀, 다이!",
+   "emotion": "surprised"
   },
   {
    "num": 11,
    "speaker": "A",
-   "it": "Leggila, dai. Speriamo che non ce l'abbia con te per la festa di ieri.",
-   "rd": "레찔라, 다이. 스뻬리아모 께 논 체 라비아 꼰 떼 뻬르 라 페스따 디 이에리.",
-   "ko": "읽어 봐, 얼른. 어제 파티 때문에 너한테 화나신 게 아니면 좋겠다.",
-   "note": "avercela con qualcuno = ~에게 화가 나 있다(abbia = 접속법)",
+   "note": "ce l'abbia = 접속법 현재",
    "tags": [
     "step:1",
     "step:8"
    ],
    "new": [],
-   "emotion": "worried",
    "lemmas": [
-    [
-     "leggila",
-     "leggere",
-     ""
-    ],
     [
      "speriamo",
      "sperare",
@@ -464,150 +371,113 @@
      ""
     ],
     [
-     "festa",
-     "festa",
-     ""
-    ],
-    [
-     "ieri",
-     "ieri",
+     "ancora",
+     "ancora",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Speriamo che ce l'abbia ancora.",
+   "ko": "아직 가지고 있으면 좋겠어.",
+   "rd": "스뻬리아모 께 체 라비아 안꼬라.",
+   "emotion": "worried"
   },
   {
    "num": 12,
    "speaker": "B",
-   "it": "«Caro Luca, arrivo domani e resto un mese. Non preoccuparti, la chiave ce l'ho già.»",
-   "rd": "\"까로 루까, 아리보 도마니 에 레스또 운 메제. 논 프레오꾸빠르띠, 라 끼아베 체 로 쟈.\"",
-   "ko": "「사랑하는 루카, 내일 가서 한 달 있을게. 걱정 마, 열쇠는 벌써 있단다.」",
-   "note": "ce l'ho = 그걸 가지고 있다",
+   "note": "ce lo = 그것을",
    "tags": [
     "step:8"
    ],
    "new": [],
+   "lemmas": [
+    [
+     "mangiamo",
+     "mangare",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ],
+    [
+     "aspetta",
+     "aspettare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Dai, ce lo mangiamo subito! Aspetta, no!",
+   "ko": "자, 지금 먹자! 잠깐, 안 돼!",
+   "rd": "다이, 체 로 만쟈모 쑤비또! 아스뻬따, 노!",
    "segs": [
     [
      "neutral",
-     "«Caro Luca, arrivo domani e resto un mese."
+     "Dai, ce lo mangiamo subito!"
     ],
     [
      "shout",
-     " Non preoccuparti, la chiave ce l'ho già.»"
-    ]
-   ],
-   "lemmas": [
-    [
-     "caro",
-     "caro",
-     ""
-    ],
-    [
-     "arrivo",
-     "arrivare",
-     ""
-    ],
-    [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
-     "resto",
-     "restare",
-     ""
-    ],
-    [
-     "mese",
-     "mese",
-     ""
-    ],
-    [
-     "preoccuparti",
-     "preoccupare",
-     ""
-    ],
-    [
-     "chiave",
-     "chiave",
-     ""
+     " Aspetta, no!"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "C",
-   "it": "Ah, la chiave! Gliel'ho data io qualche giorno fa. Che signora gentile, tua madre.",
-   "rd": "아, 라 끼아베! 리엘로 다따 이오 꽐께 조르노 파. 께 씨뇨라 젠띨레, 뚜아 마드레.",
-   "ko": "아, 열쇠! 며칠 전에 내가 드렸어요. 어머님 참 좋으시더라.",
-   "note": "gliel'ho data = 그걸 그녀에게 줬다(la chiave → data 일치)",
+   "note": "ve lo = 너희에게 그것을",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "cheerful",
    "lemmas": [
     [
-     "chiave",
-     "chiave",
+     "figurati",
+     "figurare",
      ""
     ],
     [
-     "data",
-     "dare",
-     ""
-    ],
-    [
-     "giorno",
-     "giorno",
-     ""
-    ],
-    [
-     "gentile",
-     "gentile",
-     ""
-    ],
-    [
-     "madre",
-     "madre",
+     "tengo",
+     "tenere",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Figurati, ve lo tengo io.",
+   "ko": "괜찮아요, 제가 들고 있을게요.",
+   "rd": "피구라띠, 베 로 뗑고 이오.",
+   "emotion": "cheerful"
   },
   {
    "num": 14,
    "speaker": "A",
-   "it": "Signora Galli... quanto formaggio vuole? Ne prenda pure tutto, dai.",
-   "rd": "씨뇨라 갈리... 꽌또 포르마조 부올레? 네 프렌다 뿌레 뚜또, 다이.",
-   "ko": "아주머니… 치즈 얼마나 드릴까요? 그냥 다 가져가세요.",
-   "note": "ne prenda = 그중에서 가져가세요",
+   "note": "ce ne = 거기에 그것",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "formaggio",
-     "formaggio",
+     "rimane",
+     "rimanere",
      ""
     ],
     [
-     "vuole",
-     "volere",
+     "ancora",
+     "ancora",
      ""
     ],
     [
-     "prenda",
-     "prendere",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
+     "tanto",
+     "tanto",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ce ne rimane ancora tanto?",
+   "ko": "아직 많이 남아 있어?",
+   "rd": "체 네 리마네 안꼬라 딴또?",
+   "emotion": "tsukkomi"
   }
  ]
 }

@@ -1,0 +1,20 @@
+=== r1_life_a2
+level: R1
+kind: short
+title: 바나나 초상화
+emoji: 🎨
+scene: 평일 오후 키아라의 작은 화실. 미대생 키아라가 학습자를 그려 주겠다며 불렀다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 ignore
+goal: 골격 단계 1·2·6·7·8·10 · 굴절 반복 disegni/disegno/disegnare · pronto/pronta · sono/sei/essere · 표현 Ehi · Ecco · Scusa
+expressions: Ehi; Ecco; Scusa
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | ___ | ___ | ___ | emotion=teasing | tags=step:6
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:2
+B | ___ | ___ | ___ | emotion=gentle | tags=step:2,step:7
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:8
+B | ___ | ___ | ___ | emotion=excited | tags=step:8
+A | ___ | ___ | ___ | emotion=shout | tags=step:1
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:10,twist
+A | ___ | ___ | ___ | emotion=sad | tags=step:10

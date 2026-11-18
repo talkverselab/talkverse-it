@@ -1,0 +1,19 @@
+=== r2_friends_c3
+level: R2
+kind: short
+title: 안 읽는 마르코
+emoji: ☕
+scene: 아침에 마르코가 새 커피를 맛보러 오라고 한다. 밤늦게 학습자가 취소 문자를 줄줄이 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 5 ignore
+goal: 챗 상황 6 취소 · 10 다음 약속 · 표현 Certo · Cioè · Va bene
+expressions: Certo; Cioè; Va bene
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:3 | at=08:02
+A | ___ | ___ | ___ | emotion=excited | tags=step:3 | at=08:30
+A | ___ | ___ | ___ | emotion=flustered | tags=step:6 | at=23:40 | read=false
+A | ___ | ___ | ___ | emotion=worried | tags=step:6 | at=23:41 | read=false
+A | ___ | ___ | ___ | emotion=worried | tags=step:6,twist | at=23:45 | read=false
+A | ___ | ___ | ___ | emotion=annoyed+flustered | tags=step:10 | at=23:58
+B | ___ | ___ | ___ | emotion=amused | tags=step:10 | at=23:59

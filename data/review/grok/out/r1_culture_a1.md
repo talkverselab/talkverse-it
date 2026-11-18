@@ -1,0 +1,20 @@
+=== r1_culture_a1
+level: R1
+kind: short
+title: 이 손은 무슨 뜻?
+emoji: 🤌
+scene: 마르코의 카페 테이블. 손짓이 큰 키아라가 손가락을 모아 흔드는 이탈리아식 손짓을 가르쳐 주는데, 학습자가 그 손을 마르코에게 해 버린다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아), C: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 ignore
+goal: 골격 단계 1·3·5·7·9 · 굴절 반복 vuol/vuoi · faccio/fai · capisci/ha capito · 표현 Senti · Guarda · Ecco · Vedi
+expressions: Senti; Guarda; Ecco; Vedi
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | Guarda la mano! | 손 봐! | la = 그 (여) | emotion=excited | tags=step:1
+A | Cosa vuoi dire? | 무슨 뜻이야? | vuoi = 원하다 | emotion=neutral | tags=step:9
+B | Faccio così, vedi? | 이렇게 해, 봐? | faccio = 하다 | emotion=amused | tags=step:9,step:3
+A | Lo faccio a Marco. | 마르코한테 그거 해. | lo = 그것을 | emotion=cheerful | tags=step:7
+B | No! Non lo fai così! | 아니! 그렇게 안 해! | fai = 하다 | emotion=tsukkomi | tags=step:9,step:3
+A | Ma cosa vuol dire? // È figo! | 근데 무슨 뜻이야? // 멋져! | vuol = 원하다 | emotion=flustered+excited | tags=step:9
+C | Non capisco. Vado. | 모르겠어. 가. | capisco = 이해하다 | emotion=stiff | tags=step:3,twist
+B | Ha capito tutto! | 다 이해했어! | ha capito = 이해했다 | emotion=amused | tags=step:5

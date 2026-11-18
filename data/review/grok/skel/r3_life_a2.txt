@@ -1,0 +1,20 @@
+=== r3_life_a2
+level: R3
+kind: short
+title: 바나나 초상화 두 장
+emoji: 🍌
+scene: R1 「바나나 초상화」의 복수판. 평일 오후 키아라의 작은 화실. 미대생 키아라가 학습자와 루카를 함께 그려 주겠다며 불렀다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 ignore
+goal: 그래머2: R1 같은 문장을 복수로 — siete arrivati · vi aspetto · siamo pronti/sono pronta · ci disegni · non parlate · due banane · le porterò · vorremmo (새 단어 0) · 표현 Ehi · Ecco · Scusa
+expressions: Ehi; Ecco; Scusa
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | ___ | ___ | ___ | emotion=teasing | tags=step:6
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:2
+B | ___ | ___ | ___ | emotion=gentle | tags=step:2,step:7
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:8
+B | ___ | ___ | ___ | emotion=excited | tags=step:8
+A | ___ | ___ | ___ | emotion=shout | tags=step:1
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:10,twist
+C | ___ | ___ | ___ | emotion=sad | tags=step:10

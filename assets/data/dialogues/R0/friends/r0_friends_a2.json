@@ -5,7 +5,7 @@
  "kind": "short",
  "title": "엄마랑 영상통화",
  "emoji": "📱",
- "scene": "셰어하우스 소파. 키아라가 휴대폰 사진을 보여 주겠다며 학습자 옆에 바짝 붙어 앉는다",
+ "scene": "셰어하우스 소파. 키아라가 엄마랑 영상통화 사진을 보여 주겠다며 학습자 옆에 바짝 붙어 앉는다",
  "speakers": {
   "A": "{name}",
   "B": "Chiara"
@@ -20,7 +20,6 @@
   "Mamma mia"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Davvero · Ma dai · Mamma mia",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -31,10 +30,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi, guarda! Questa sono io.",
-   "rd": "에이, 구아르다! 꿰스따 쏘노 이오.",
-   "ko": "야, 봐 봐! 이거 나야.",
-   "note": "guarda = 봐(guardare)",
+   "note": "è = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -44,138 +40,56 @@
      ""
     ],
     [
-     "Questa",
-     "questo",
+     "è",
+     "essere",
      ""
     ],
     [
-     "sono",
-     "essere",
+     "mamma",
+     "mamma",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Guarda! È la mamma!",
+   "ko": "봐! 엄마야!",
+   "rd": "구아르다! 에 라 맘마!",
    "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Davvero? Sei tu? Che bella!",
-   "rd": "다베로? 쎄이 뚜? 께 벨라!",
-   "ko": "진짜? 너야? 예쁘다!",
-   "note": "Davvero? = 진짜?",
+   "note": "Davvero = 진짜",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Davvero",
+     "davvero",
      "davvero",
      ""
     ],
     [
-     "Sei",
+     "è",
      "essere",
-     ""
-    ],
-    [
-     "bella",
-     "bello",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Davvero? È lei?",
+   "ko": "진짜? 그 사람이야?",
+   "rd": "다베로? 에 레이?",
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Aspetta... oh no! Sto chiamando mamma!",
-   "rd": "아스뻬따... 오 노! 스또 끼아만도 맘마!",
-   "ko": "잠깐… 어 안 돼! 엄마한테 전화 걸고 있어!",
-   "note": "sto chiamando = 걸고 있다(chiamare)",
+   "note": "è = 있다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Aspetta",
-     "aspettare",
-     ""
-    ],
-    [
-     "Sto",
-     "stare",
-     ""
-    ],
-    [
-     "chiamando",
-     "chiamare",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Cosa? Ma dai, non sono pronto!",
-   "rd": "꼬자? 마 다이, 논 쏘노 프론또!",
-   "ko": "뭐? 아 진짜, 나 준비 안 됐다고!",
-   "note": "non sono pronto = 준비 안 됐어",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "dai",
-     "dare",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "pronto",
-     "pronto",
-     ""
-    ]
-   ],
-   "emotion": "shout",
-   "it_f": "Cosa? Ma dai, non sono pronta!",
-   "rd_f": "꼬자? 마 다이, 논 쏘노 프론따!",
-   "ko_f": "뭐? 아 진짜, 나 준비 안 됐다고!"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "it": "Ciao, mamma! Sì, questo è {name}. È il mio amico.",
-   "rd": "챠오, 맘마! 씨, 꿰스또 에 {name}. 에 일 미오 아미꼬.",
-   "ko": "안녕, 엄마! 응, 얘가 {name}이야. 내 친구.",
-   "note": "il mio amico = 내 친구",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Ciao",
-     "ciao",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
-     ""
-    ],
-    [
-     "questo",
-     "questo",
+     "oh",
+     "oh",
      ""
     ],
     [
@@ -184,93 +98,129 @@
      ""
     ],
     [
-     "mio",
-     "mio",
+     "ancora",
+     "ancora",
      ""
     ],
     [
-     "amico",
-     "amico",
+     "accesa",
+     "acceso",
      ""
     ]
    ],
-   "emotion": "cheerful",
-   "it_f": "Ciao, mamma! Sì, questa è {name}. È la mia amica.",
-   "rd_f": "챠오, 맘마! 씨, 꿰스따 에 {name}. 에 라 미아 아미까.",
-   "ko_f": "안녕, 엄마! 응, 얘가 {name}이야. 내 친구."
+   "grok": true,
+   "it": "Oh no! È ancora accesa!",
+   "ko": "어 안돼! 아직 켜져 있어!",
+   "rd": "오 노! 에 안꼬라 아체자!",
+   "emotion": "flustered"
   },
   {
-   "num": 6,
-   "speaker": "B",
-   "it": "Dice che sei bello. E domani vieni da lei!",
-   "rd": "디체 께 쎄이 벨로. 에 도마니 비에니 다 레이!",
-   "ko": "너 잘생겼대. 그리고 내일 엄마 집에 오래!",
-   "note": "vieni da lei = 그분 집에 와",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Dice",
-     "dire",
-     ""
-    ],
-    [
-     "sei",
-     "essere",
-     ""
-    ],
-    [
-     "bello",
-     "bello",
-     ""
-    ],
-    [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
-     "vieni",
-     "venire",
-     ""
-    ],
-    [
-     "lei",
-     "lei",
-     ""
-    ]
-   ],
-   "emotion": "teasing",
-   "it_f": "Dice che sei bella. E domani vieni da lei!",
-   "rd_f": "디체 께 쎄이 벨라. 에 도마니 비에니 다 레이!",
-   "ko_f": "너 예쁘대. 그리고 내일 엄마 집에 오래!"
-  },
-  {
-   "num": 7,
+   "num": 4,
    "speaker": "A",
-   "it": "Domani? Mamma mia...",
-   "rd": "도마니? 맘마 미아...",
-   "ko": "내일? 세상에…",
-   "note": "Mamma mia = 세상에",
+   "note": "chiudi = 끊다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Domani",
-     "domani",
+     "chiudi",
+     "chiudere",
      ""
     ],
     [
-     "Mamma",
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Chiudi! Subito!",
+   "ko": "끊어! 당장!",
+   "rd": "끼우디! 쑤비또!",
+   "emotion": "shout"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "note": "Mamma mia = 맙소사",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "mamma",
      "mamma",
      ""
     ],
     [
-     "mia",
-     "mio",
+     "ride",
+     "ridere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mamma mia, ride tanto!",
+   "ko": "맙소사, 엄청 웃는다!",
+   "rd": "맘마 미아, 리데 딴또!",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "note": "Ma dai = 에이",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "carina",
+     "carino",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma dai, è carina.",
+   "ko": "에이, 귀엽잖아.",
+   "rd": "마 다이, 에 까리나.",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "note": "sono = 이다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "vicino",
+     "vicino",
+     ""
+    ],
+    [
+     "aiuto",
+     "aiuto",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Sono vicino... aiuto.",
+   "ko": "나 너무 붙어 있어... 살려줘.",
+   "rd": "쏘노 비치노... 아이우또.",
+   "it_f": "Sono vicina... aiuto.",
+   "ko_f": "나 너무 붙어 있어... 살려줘.",
+   "rd_f": "쏘노 비치나... 아이우또.",
    "emotion": "flustered"
   }
  ]

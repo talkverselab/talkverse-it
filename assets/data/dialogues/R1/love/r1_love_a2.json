@@ -3,7 +3,6 @@
  "region": "R1",
  "island": "love",
  "kind": "short",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -34,17 +33,11 @@
   {
    "num": 1,
    "speaker": "A",
-   "it": "Ecco! Ho fatto la cena per te.",
-   "rd": "에꼬! 오 파또 라 체나 뻬르 떼.",
-   "ko": "짜잔! 너 주려고 저녁 했어.",
-   "note": "ho fatto = 만들었다(fare 근과거)",
+   "note": "ho fatto = 만들었어",
    "tags": [
     "step:5"
    ],
-   "new": [
-    "cena"
-   ],
-   "emotion": "excited",
+   "new": [],
    "lemmas": [
     [
      "ecco",
@@ -52,7 +45,12 @@
      ""
     ],
     [
-     "ho fatto",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "fatto",
      "fare",
      ""
     ],
@@ -61,123 +59,112 @@
      "cena",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ecco, ho fatto la cena per te.",
+   "ko": "봐, 널 위해 저녁 만들었어.",
+   "rd": "에꼬, 오 파또 라 체나 뻬르 떼.",
+   "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "B",
-   "it": "Per me? Hai fatto tutto tu?",
-   "rd": "뻬르 메? 아이 파또 뚜또 뚜?",
-   "ko": "나 주려고? 이거 다 네가 했어?",
-   "note": "hai fatto = 너 했다(fare 근과거)",
+   "note": "hai fatto = 만들었어",
    "tags": [
     "step:5"
    ],
    "new": [],
-   "emotion": "surprised",
    "lemmas": [
     [
-     "hai fatto",
-     "fare",
+     "hai",
+     "avere",
      ""
     ],
     [
-     "tutto",
-     "tutto",
+     "fatto",
+     "fare",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Hai fatto tutto questo?",
+   "ko": "이 모든 걸 만들었어?",
+   "rd": "아이 파또 뚜또 꿰스또?",
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "it": "Certo! La pasta, la musica... tutto per te.",
-   "rd": "체르또! 라 빠스따, 라 무지까... 뚜또 뻬르 떼.",
-   "ko": "당연하지! 파스타, 음악… 다 너를 위해서.",
-   "note": "la pasta, la musica = 여성 관사 la",
+   "note": "la pasta = 파스타(여)",
    "tags": [
     "step:1"
    ],
-   "new": [
-    "pasta"
-   ],
-   "emotion": "cheerful",
+   "new": [],
    "lemmas": [
     [
-     "certo",
-     "certo",
-     ""
-    ],
-    [
      "pasta",
      "pasta",
      ""
     ],
     [
-     "musica",
-     "musica",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
+     "carbonara",
+     "carbonara",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Sì, la pasta alla carbonara.",
+   "ko": "응, 카르보나라 파스타.",
+   "rd": "씨, 라 빠스따 알라 까르보나라.",
+   "emotion": "cheerful"
   },
   {
    "num": 4,
    "speaker": "B",
-   "it": "Mamma mia. Sei proprio bravo.",
-   "rd": "맘마 미아. 쎄이 프로프리오 브라보.",
-   "ko": "어머. 너 진짜 대단하다.",
-   "note": "sei = 너 ~이다(essere)",
+   "note": "sono = 이야",
    "tags": [
     "step:2"
    ],
    "new": [],
-   "emotion": "shy",
    "lemmas": [
     [
-     "mamma",
-     "mamma",
-     ""
-    ],
-    [
-     "sei",
+     "sono",
      "essere",
      ""
     ],
     [
-     "proprio",
-     "proprio",
+     "po",
+     "poco",
      ""
     ],
     [
-     "bravo",
-     "bravo",
+     "ritardo",
+     "ritardo",
      ""
     ]
    ],
-   "it_f": "Mamma mia. Sei proprio brava.",
-   "ko_f": "어머. 너 진짜 대단하다.",
-   "rd_f": "맘마 미아. 쎄이 프로프리오 브라바."
+   "grok": true,
+   "it": "Sono un po' in ritardo.",
+   "ko": "좀 늦었어.",
+   "rd": "쏘노 운 뽀 인 리따르도.",
+   "emotion": "shy"
   },
   {
    "num": 5,
    "speaker": "C",
-   "it": "Ciao! Ho mangiato la pasta. Buonissima!",
-   "rd": "챠오! 오 만쟈또 라 빠스따. 부오니씨마!",
-   "ko": "안녕! 파스타 내가 먹었어. 완전 맛있더라!",
-   "note": "ho mangiato = 먹었다(mangiare 근과거)",
+   "note": "ho mangiato = 먹었어",
    "tags": [
     "step:5"
    ],
    "new": [],
-   "emotion": "cheerful",
    "lemmas": [
     [
-     "ho mangiato",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "mangiato",
      "mangiare",
      ""
     ],
@@ -185,34 +172,30 @@
      "pasta",
      "pasta",
      ""
-    ],
-    [
-     "buonissima",
-     "buono",
-     ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ho mangiato tutta la pasta!",
+   "ko": "파스타 다 먹었어!",
+   "rd": "오 만쟈또 뚜따 라 빠스따!",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Tutta?! Luca, hai mangiato la cena di Giulia!",
-   "rd": "뚜따?! 루까, 아이 만쟈또 라 체나 디 줄리아!",
-   "ko": "다?! 루카, 너 줄리아 저녁을 먹은 거야!",
-   "note": "hai mangiato = 너 먹었다(mangiare 근과거) — 5턴 ho mangiato(나)",
+   "note": "hai mangiato = 먹었어",
    "tags": [
     "step:5"
    ],
    "new": [],
-   "emotion": "shout",
    "lemmas": [
     [
-     "tutta",
-     "tutto",
+     "hai",
+     "avere",
      ""
     ],
     [
-     "hai mangiato",
+     "mangiato",
      "mangiare",
      ""
     ],
@@ -221,84 +204,81 @@
      "cena",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Hai mangiato tutta la cena?",
+   "ko": "저녁 다 먹었어?",
+   "rd": "아이 만쟈또 뚜따 라 체나?",
+   "emotion": "shout"
   },
   {
    "num": 7,
    "speaker": "C",
-   "it": "Ah... scusa. Torno al lavoro.",
-   "rd": "아... 스꾸자. 또르노 알 라보로.",
-   "ko": "아… 미안. 나 일하러 간다.",
-   "note": "al = ~로(a + il)",
+   "note": "dal frigo = 냉장고에서",
    "tags": [
     "step:4"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "scusa",
-     "scusare",
+     "frigo",
+     "frigo",
      ""
     ],
     [
-     "torno",
-     "tornare",
-     ""
-    ],
-    [
-     "lavoro",
-     "lavoro",
+     "cucina",
+     "cucina",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Dal frigo della cucina.",
+   "ko": "부엌 냉장고에서.",
+   "rd": "달 프리고 델라 꾸치나.",
+   "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Lascia stare. Vorrei solo stare qui con te.",
-   "rd": "라샤 스따레. 보레이 쏠로 스따레 뀌 꼰 떼.",
-   "ko": "신경 쓰지 마. 난 그냥 너랑 여기 있고 싶어.",
-   "note": "vorrei = ~하고 싶어(volere 조건)",
+   "note": "farò = 할 거야",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "segs": [
-    [
-     "amused",
-     "Lascia stare."
-    ],
-    [
-     "gentle",
-     "Vorrei solo stare qui con te."
-    ]
-   ],
    "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
     [
      "lascia",
      "lasciare",
      ""
     ],
     [
-     "vorrei",
-     "volere",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
      "stare",
      "stare",
      ""
     ],
     [
-     "qui",
-     "qui",
+     "farò",
+     "fare",
      ""
+    ]
+   ],
+   "grok": true,
+   "it": "Mamma mia. Lascia stare, farò io.",
+   "ko": "세상에. 내버려 둬, 내가 할게.",
+   "rd": "맘마 미아. 라샤 스따레, 파로 이오.",
+   "segs": [
+    [
+     "amused",
+     "Mamma mia."
+    ],
+    [
+     "gentle",
+     " Lascia stare, farò io."
     ]
    ]
   }

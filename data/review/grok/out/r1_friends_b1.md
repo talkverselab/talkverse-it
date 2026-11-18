@@ -1,0 +1,19 @@
+=== r1_friends_b1
+level: R1
+kind: short
+title: 소금 커피
+emoji: ☕
+scene: 일요일 아침 마르코네 부엌. 바리스타 마르코에게 학습자가 커피는 자기가 만들겠다고 큰소리를 친다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 chaos
+goal: 골격 단계 1·3·5·7·9·10 · 굴절 반복 farò/fare/fatta · sai/so · hai messo/ho messo · 표현 Fammi vedere · Ecco · Allora
+expressions: Fammi vedere; Ecco; Allora
+A | Farò io il caffè oggi. | 오늘 내가 커피 만들게. | farò = 만들 거야 | emotion=excited | tags=step:10
+B | Sai fare il caffè? | 커피 만들 줄 알아? | sai = 알아 | emotion=tsukkomi | tags=step:9
+A | Sì, so fare un caffè buono. | 응, 맛있는 커피 만들 줄 알아. | so = 알아 | emotion=cheerful | tags=step:9,step:3
+B | Allora fammi vedere, dai. | 그럼 보여 줘 봐. | Fammi vedere = 보여 줘 | emotion=teasing | tags=step:9
+A | Metto il caffè nella tazzina. | 작은 잔에 커피 넣어. | il caffè = 커피(남) | emotion=cheerful | tags=step:1,step:9
+B | Senti. // Hai messo il sale? | 들어 봐. // 소금 넣었어? | hai messo = 넣었어 | emotion=neutral+surprised | tags=step:5
+A | Ho messo il sale! // L'ho fatta male. | 소금 넣었어! // 잘못 만들었어. | l'ho fatta = 그걸 만들었어 | emotion=flustered | tags=step:5,step:7,twist
+B | Ecco, l'hai fatta male. | 봐, 잘못 만들었네. | Ecco = 봐 | emotion=amused | tags=step:5,step:7

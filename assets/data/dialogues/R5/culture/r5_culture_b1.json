@@ -22,7 +22,6 @@
   "Magari"
  ],
  "goal": "어휘 주제 8 가족 행사(matrimonio·sposi·busta·battesimo) · 7 돈(soldi·euro·lire·stipendio) · 9 갈등 · 10 미래 · 문화 축의금 봉투 · 표현 Infatti·Mamma mia·Lascia stare·Magari",
- "draft": true,
  "purpose": [
   "culture"
  ],
@@ -33,16 +32,53 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Allora, hai preparato la busta per gli sposi? Ai matrimoni qui si regalano soldi, sai.",
-   "rd": "알로라, 아이 프레빠라또 라 부스따 뻬르 리 스뽀지? 아이 마트리모니 뀌 씨 레갈라노 쏠디, 싸이.",
-   "ko": "그래서, 신랑 신부 줄 봉투 준비했어? 여기 결혼식엔 돈을 선물하거든.",
-   "note": "busta = (축의금) 봉투",
+   "note": "matrimonio = 결혼식",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "cheerful",
    "lemmas": [
+    [
+     "finalmente",
+     "finalmente",
+     ""
+    ],
+    [
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "matrimonio",
+     "matrimonio",
+     ""
+    ],
+    [
+     "cugina",
+     "cugina",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Finalmente siamo al matrimonio di mia cugina!",
+   "ko": "드디어 사촌 결혼식에 왔어!",
+   "rd": "피날멘떼 씨아모 알 마트리모니오 디 미아 꾸지나!",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "note": "busta = 축의금 봉투",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ho",
+     "avere",
+     ""
+    ],
     [
      "preparato",
      "preparare",
@@ -54,107 +90,40 @@
      ""
     ],
     [
-     "sposi",
-     "sposo",
+     "euro",
+     "euro",
      ""
     ],
     [
-     "matrimoni",
-     "matrimonio",
+     "va",
+     "andare",
      ""
     ],
     [
-     "regalano",
-     "regalare",
-     ""
-    ],
-    [
-     "soldi",
-     "soldo",
-     ""
-    ],
-    [
-     "sai",
-     "sapere",
+     "bene",
+     "bene",
      ""
     ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "it": "Sì, ci ho messo cento euro. Sono troppo pochi?",
-   "rd": "씨, 치 오 메쏘 첸또 에우로. 쏘노 트로뽀 뽀끼?",
-   "ko": "응, 100유로 넣었어. 너무 적나?",
-   "note": "ci ho messo = 거기에 넣었다",
-   "tags": [
-    "step:7"
    ],
-   "new": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "messo",
-     "mettere",
-     ""
-    ],
-    [
-     "cento",
-     "cento",
-     ""
-    ],
-    [
-     "euro",
-     "euro",
-     ""
-    ],
-    [
-     "troppo",
-     "troppo",
-     ""
-    ],
-    [
-     "pochi",
-     "poco",
-     ""
-    ]
-   ]
+   "grok": true,
+   "it": "Ho preparato la busta con cento euro. Va bene?",
+   "ko": "백 유로 넣어서 봉투 준비했어. 괜찮아?",
+   "rd": "오 프레빠라또 라 부스따 꼰 첸또 에우로. 바 베네?",
+   "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "C",
-   "it": "Per un amico vanno benissimo, caro. Ai miei tempi si regalavano i piatti.",
-   "rd": "뻬르 운 아미꼬 반노 베니씨모, 까로. 아이 미에이 뗌삐 씨 레갈라바노 이 삐아띠.",
-   "ko": "친구로선 충분해. 우리 때는 접시를 선물했지.",
-   "note": "si regalavano = 선물하곤 했다(반과거)",
+   "note": "lire = 리라 (옛 화폐)",
    "tags": [
     "step:8",
     "step:7"
    ],
    "new": [],
-   "it_f": "Per un'amica vanno benissimo, cara. Ai miei tempi si regalavano i piatti.",
-   "rd_f": "뻬르 우나미까 반노 베니씨모, 까라. 아이 미에이 뗌삐 씨 레갈라바노 이 삐아띠.",
-   "ko_f": "친구로선 충분해. 우리 때는 접시를 선물했지.",
-   "emotion": "amused",
    "lemmas": [
     [
-     "amico",
-     "amico",
-     ""
-    ],
-    [
-     "vanno",
-     "andare",
-     ""
-    ],
-    [
-     "benissimo",
-     "bene",
-     ""
-    ],
-    [
-     "caro",
-     "caro",
+     "mamma",
+     "mamma",
      ""
     ],
     [
@@ -163,53 +132,8 @@
      ""
     ],
     [
-     "regalavano",
-     "regalare",
-     ""
-    ],
-    [
-     "piatti",
-     "piatto",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "it": "Nonna, ai tuoi tempi un caffè costava cento lire!",
-   "rd": "논나, 아이 뚜오이 뗌삐 운 까페 꼬스따바 첸또 리레!",
-   "ko": "할머니, 할머니 때는 커피 한 잔에 100리라였잖아!",
-   "note": "lira = 옛 이탈리아 돈",
-   "tags": [
-    "step:7"
-   ],
-   "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "nonna",
-     "nonno",
-     ""
-    ],
-    [
-     "tempi",
-     "tempo",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
-     ""
-    ],
-    [
-     "costava",
-     "costare",
-     ""
-    ],
-    [
-     "cento",
-     "cento",
+     "erano",
+     "essere",
      ""
     ],
     [
@@ -217,29 +141,21 @@
      "lira",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Mamma mia, ai miei tempi erano le lire!",
+   "ko": "맙소사, 내 때는 리라였는데!",
+   "rd": "맘마 미아, 아이 미에이 뗌삐 에라노 레 리레!",
+   "emotion": "amused"
   },
   {
-   "num": 5,
-   "speaker": "C",
-   "it": "Infatti. E la gente si sposava per amore, non per i regali.",
-   "rd": "인파띠. 에 라 젠떼 씨 스뽀자바 뻬르 아모레, 논 뻬르 이 레갈리.",
-   "ko": "그러니까 말이야. 그리고 그땐 선물이 아니라 사랑 때문에 결혼했지.",
-   "note": "Infatti = 그러니까, 바로 그거야",
+   "num": 4,
+   "speaker": "B",
+   "note": "euro = 유로",
    "tags": [
-    "step:8"
+    "step:7"
    ],
    "new": [],
-   "segs": [
-    [
-     "amused",
-     "Infatti."
-    ],
-    [
-     "annoyed",
-     " E la gente si sposava per amore, non per i regali."
-    ]
-   ],
    "lemmas": [
     [
      "infatti",
@@ -247,344 +163,265 @@
      ""
     ],
     [
-     "gente",
-     "gente",
+     "adesso",
+     "adesso",
      ""
     ],
     [
-     "sposava",
-     "sposare",
+     "mettono",
+     "mettere",
      ""
     ],
     [
-     "amore",
-     "amore",
+     "sempre",
+     "sempre",
      ""
     ],
     [
-     "regali",
-     "regalo",
+     "euro",
+     "euro",
      ""
+    ]
+   ],
+   "grok": true,
+   "it": "Infatti, adesso si mettono sempre gli euro.",
+   "ko": "맞아, 이제는 항상 유로를 넣어.",
+   "rd": "인파띠, 아데쏘 씨 메또노 쎔프레 리 에우로.",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "note": "sposi = 신랑신부",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sposi",
+     "sposo",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "belli",
+     "bello",
+     ""
+    ],
+    [
+     "busta",
+     "busta",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "piccola",
+     "piccolo",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Gli sposi sono belli. Ma la busta è piccola.",
+   "ko": "신랑신부가 예쁘네. 근데 봉투가 작아.",
+   "rd": "리 스뽀지 쏘노 벨리. 마 라 부스따 에 삐꼴라.",
+   "segs": [
+    [
+     "amused",
+     "Gli sposi sono belli."
+    ],
+    [
+     "annoyed",
+     " Ma la busta è piccola."
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Comunque la busta l'ho già lasciata nella scatola bianca, quella con i cuori, vicino alla porta.",
-   "rd": "꼬문꿰 라 부스따 로 쟈 라샤따 넬라 스까똘라 비안까, 꿸라 꼰 이 꾸오리, 비치노 알라 뽀르따.",
-   "ko": "어쨌든 봉투는 벌써 하트 그려진 흰 상자에 넣었어, 문 옆에 있는 거.",
-   "note": "l'ho lasciata = 그걸 두었다(과거분사 일치)",
+   "note": "abbastanza = 충분히 · il pranzo = 점심",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "cheerful",
    "lemmas": [
     [
-     "comunque",
-     "comunque",
+     "magari",
+     "magari",
      ""
     ],
     [
-     "busta",
-     "busta",
-     ""
-    ],
-    [
-     "lasciata",
-     "lasciare",
-     ""
-    ],
-    [
-     "scatola",
-     "scatola",
-     ""
-    ],
-    [
-     "bianca",
-     "bianco",
-     ""
-    ],
-    [
-     "cuori",
-     "cuore",
-     ""
-    ],
-    [
-     "vicino",
-     "vicino",
-     ""
-    ],
-    [
-     "porta",
-     "porta",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Quale porta? Quella del giardino o quella della sala grande?",
-   "rd": "꽐레 뽀르따? 꿸라 델 쟈르디노 오 꿸라 델라 쌀라 그란데?",
-   "ko": "어느 문? 정원 쪽 문, 아니면 큰 홀 쪽?",
-   "note": "quella = 그것(지시 대명사)",
-   "tags": [
-    "step:8"
-   ],
-   "new": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "porta",
-     "porta",
-     ""
-    ],
-    [
-     "giardino",
-     "giardino",
-     ""
-    ],
-    [
-     "sala",
-     "sala",
-     ""
-    ],
-    [
-     "grande",
-     "grande",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "A",
-   "it": "Quella della sala grande. Perché, ce ne sono due?",
-   "rd": "꿸라 델라 쌀라 그란데. 뻬르께, 체 네 쏘노 두에?",
-   "ko": "큰 홀 쪽. 왜, 두 개야?",
-   "note": "ce ne sono due = 두 개 있다",
-   "tags": [
-    "step:8"
-   ],
-   "new": [],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "sala",
-     "sala",
-     ""
-    ],
-    [
-     "grande",
-     "grande",
-     ""
-    ],
-    [
-     "sono",
+     "è",
      "essere",
      ""
     ],
     [
-     "due",
-     "due",
+     "abbastanza",
+     "abbastanza",
+     ""
+    ],
+    [
+     "pranzo",
+     "pranzo",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Magari è abbastanza per il pranzo.",
+   "ko": "식사 값으로는 충분할지도.",
+   "rd": "마가리 에 아바스딴짜 뻬르 일 프란쪼.",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "battesimo = 세례식",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "anche",
+     "anche",
+     ""
+    ],
+    [
+     "battesimo",
+     "battesimo",
+     ""
+    ],
+    [
+     "nipote",
+     "nipote",
+     ""
+    ],
+    [
+     "dopo",
+     "dopo",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "C'è anche il battesimo della nipote dopo.",
+   "ko": "나중에 조카 세례식도 있어.",
+   "rd": "체 안께 일 바떼지모 델라 니뽀떼 도뽀.",
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "note": "la busta = 봉투",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "feste",
+     "festa",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "preparato",
+     "preparare",
+     ""
+    ],
+    [
+     "altra",
+     "altro",
+     ""
+    ],
+    [
+     "busta",
+     "busta",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Due feste? Non ho preparato un'altra busta.",
+   "ko": "행사가 두 개? 다른 봉투는 안 준비했어.",
+   "rd": "두에 페스떼? 논 오 프레빠라또 우날트라 부스따.",
+   "emotion": "surprised"
   },
   {
    "num": 9,
    "speaker": "B",
-   "it": "Oggi in questo ristorante ci sono due matrimoni! Quelli della sala grande non li conosciamo!",
-   "rd": "오찌 인 꿰스또 리스또란떼 치 쏘노 두에 마트리모니! 꿸리 델라 쌀라 그란데 논 리 꼬노샤모!",
-   "ko": "오늘 이 식당에서 결혼식이 두 개라고! 큰 홀 사람들은 우리 모르는 사람들이야!",
-   "note": "conoscere = (사람을) 알다",
+   "note": "È un casino = 완전 난리야",
    "tags": [
     "step:8",
     "step:9"
    ],
    "new": [],
-   "emotion": "shout",
    "lemmas": [
     [
-     "oggi",
-     "oggi",
+     "cosa",
+     "cosa",
      ""
     ],
     [
-     "ristorante",
-     "ristorante",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "matrimoni",
-     "matrimonio",
-     ""
-    ],
-    [
-     "conosciamo",
-     "conoscere",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "C",
-   "it": "Mamma mia. Hai fatto un bel regalo a due che non conosci.",
-   "rd": "맘마 미아. 아이 파또 운 벨 레갈로 아 두에 께 논 꼬노시.",
-   "ko": "어머나. 모르는 두 사람한테 좋은 선물 했네.",
-   "note": "a due che non conosci = 네가 모르는 두 사람에게",
-   "tags": [
-    "step:7"
-   ],
-   "new": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "fatto",
-     "fare",
-     ""
-    ],
-    [
-     "bel",
-     "bello",
-     ""
-    ],
-    [
-     "regalo",
-     "regalo",
-     ""
-    ],
-    [
-     "conosci",
-     "conoscere",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "A",
-   "it": "Vado a riprenderla! Speriamo che non l'abbiano ancora aperta.",
-   "rd": "바도 아 리프렌데를라! 스뻬리아모 께 논 라비아노 안꼬라 아뻬르따.",
-   "ko": "다시 가져올게! 아직 안 열어 봤으면 좋겠다.",
-   "note": "speriamo che + 접속법 과거 = ~했기를 바라다",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "vado",
-     "andare",
-     ""
-    ],
-    [
-     "riprenderla",
-     "riprendere",
-     ""
-    ],
-    [
-     "speriamo",
-     "sperare",
-     ""
-    ],
-    [
-     "abbiano",
+     "hai",
      "avere",
      ""
     ],
     [
-     "ancora",
-     "ancora",
+     "portato",
+     "portare",
      ""
     ],
     [
-     "aperta",
-     "aprire",
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "casino",
+     "casino",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Cosa?! Hai portato solo una? È un casino!",
+   "ko": "뭐?! 하나만 가져왔어? 완전 난리야!",
+   "rd": "꼬자?! 아이 뽀르따또 쏠로 우나? 에 운 까지노!",
+   "emotion": "shout"
   },
   {
-   "num": 12,
-   "speaker": "B",
-   "it": "Fermo! Se entri adesso, rovini il discorso del padre della sposa.",
-   "rd": "페르모! 쎄 엔트리 아데쏘, 로비니 일 디스꼬르쏘 델 빠드레 델라 스뽀자.",
-   "ko": "멈춰! 지금 들어가면 신부 아버지 연설 망쳐.",
-   "note": "rovinare = 망치다",
+   "num": 10,
+   "speaker": "C",
+   "note": "soldi = 돈",
    "tags": [
-    "step:9"
+    "step:7"
    ],
    "new": [],
-   "it_f": "Ferma! Se entri adesso, rovini il discorso del padre della sposa.",
-   "rd_f": "페르마! 쎄 엔트리 아데쏘, 로비니 일 디스꼬르쏘 델 빠드레 델라 스뽀자.",
-   "ko_f": "멈춰! 지금 들어가면 신부 아버지 연설 망쳐.",
-   "emotion": "shout",
-   "lemmas": [
-    [
-     "fermo",
-     "fermo",
-     ""
-    ],
-    [
-     "entri",
-     "entrare",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
-     ""
-    ],
-    [
-     "rovini",
-     "rovinare",
-     ""
-    ],
-    [
-     "discorso",
-     "discorso",
-     ""
-    ],
-    [
-     "padre",
-     "padre",
-     ""
-    ],
-    [
-     "sposa",
-     "sposo",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "C",
-   "it": "Lascia stare, caro. È il destino. Magari ti invitano anche al battesimo.",
-   "rd": "라샤 스따레, 까로. 에 일 데스띠노. 마가리 띠 인비따노 안께 알 바떼지모.",
-   "ko": "그냥 둬. 운명이야. 혹시 알아, 애 세례식에도 초대할지.",
-   "note": "Lascia stare = 그냥 둬",
-   "tags": [
-    "step:10",
-    "step:8"
-   ],
-   "new": [
-    "battesimo"
-   ],
-   "it_f": "Lascia stare, cara. È il destino. Magari ti invitano anche al battesimo.",
-   "rd_f": "라샤 스따레, 까라. 에 일 데스띠노. 마가리 띠 인비따노 안께 알 바떼지모.",
-   "ko_f": "그냥 둬. 운명이야. 혹시 알아, 애 세례식에도 초대할지.",
-   "emotion": "teasing",
    "lemmas": [
     [
      "lascia",
@@ -597,39 +434,154 @@
      ""
     ],
     [
-     "destino",
-     "destino",
+     "soldi",
+     "soldo",
      ""
     ],
     [
-     "invitano",
-     "invitare",
+     "non",
+     "non",
      ""
     ],
     [
-     "battesimo",
-     "battesimo",
+     "sono",
+     "essere",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Lascia stare, i soldi non sono tutto.",
+   "ko": "내버려 둬, 돈이 전부는 아니야.",
+   "rd": "라샤 스따레, 이 쏠디 논 쏘노 뚜또.",
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "note": "conflitto = 갈등",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "conflitto",
+     "conflitto",
+     ""
+    ],
+    [
+     "famiglia",
+     "famiglia",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma adesso c'è conflitto con la famiglia?",
+   "ko": "근데 이제 가족이랑 갈등 생기는 거야?",
+   "rd": "마 아데쏘 체 꼰플리또 꼰 라 파밀리아?",
+   "emotion": "worried"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "note": "si arrabbierà = 화낼 거야(arrabbiarsi 미래)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "zia",
+     "zia",
+     ""
+    ],
+    [
+     "arrabbierà",
+     "arrabbiere",
+     ""
+    ],
+    [
+     "sicuro",
+     "sicuro",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Sì! Mia zia si arrabbierà di sicuro!",
+   "ko": "응! 이모가 분명 화낼 거야!",
+   "rd": "씨! 미아 찌아 씨 아라비에라 디 씨꾸로!",
+   "emotion": "shout"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "note": "il matrimonio = 결혼식",
+   "tags": [
+    "step:10",
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "magari",
+     "magari",
+     ""
+    ],
+    [
+     "anno",
+     "anno",
+     ""
+    ],
+    [
+     "prossimo",
+     "prossimo",
+     ""
+    ],
+    [
+     "sarà",
+     "essere",
+     ""
+    ],
+    [
+     "altro",
+     "altro",
+     ""
+    ],
+    [
+     "matrimonio",
+     "matrimonio",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Magari l'anno prossimo ci sarà un altro matrimonio.",
+   "ko": "내년에는 또 다른 결혼식이 있을지도.",
+   "rd": "마가리 란노 프로씨모 치 싸라 운 알트로 마트리모니오.",
+   "emotion": "teasing"
   },
   {
    "num": 14,
    "speaker": "A",
-   "it": "Al battesimo?! Allora devo chiedere lo stipendio in anticipo.",
-   "rd": "알 바떼지모?! 알로라 데보 끼에데레 로 스띠뻰디오 인 안띠치뽀.",
-   "ko": "세례식?! 그럼 월급 가불부터 받아야겠네.",
-   "note": "in anticipo = 미리",
+   "note": "stipendio = 월급",
    "tags": [
     "step:7",
     "step:10"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "battesimo",
-     "battesimo",
+     "cioè",
+     "cioè",
      ""
     ],
     [
@@ -638,21 +590,26 @@
      ""
     ],
     [
-     "chiedere",
-     "chiedere",
+     "mettere",
+     "mettere",
+     ""
+    ],
+    [
+     "parte",
+     "parte",
      ""
     ],
     [
      "stipendio",
      "stipendio",
-     ""
-    ],
-    [
-     "anticipo",
-     "anticipo",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Cioè, devo mettere da parte lo stipendio?",
+   "ko": "그러니까, 월급을 모아 둬야 해?",
+   "rd": "쵸에, 데보 메떼레 다 빠르떼 로 스띠뻰디오?",
+   "emotion": "tsukkomi"
   }
  ]
 }

@@ -1,0 +1,18 @@
+=== r0_life_a3
+level: R0
+kind: short
+title: 전부 분홍색
+emoji: 🧺
+scene: 셰어하우스 거실. 루카가 처음으로 빨래를 했다며 뿌듯한 얼굴로 바구니를 들고 온다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 4 chaos
+goal: 도구획득 · 짧은 반말 회화 · 표현 Davvero · Dai · Mamma mia
+expressions: Davvero; Dai; Mamma mia
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=cheerful | tags=
+B | ___ | ___ | ___ | emotion=flustered | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=twist
+B | ___ | ___ | ___ | emotion=cheerful | tags=
+A | ___ | ___ | ___ | emotion=shout | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=

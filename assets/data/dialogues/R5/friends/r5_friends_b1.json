@@ -21,7 +21,6 @@
   "Certo"
  ],
  "goal": "어휘 주제 4 감정 · 8 가족 행사 · 9 갈등 · 10 미래 · 존댓말 Lei · 표현 Tanti auguri·Ma dai·Certo",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -32,90 +31,87 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ultima cosa prima di entrare: la nonna compie novant'anni, quindi sorridi e mangia tutto.",
-   "rd": "울띠마 꼬자 프리마 디 엔트라레: 라 논나 꼼삐에 노반딴니, 뀐디 쏘리디 에 만쟈 뚜또.",
-   "ko": "들어가기 전에 마지막으로. 할머니 아흔 살 생신이니까, 웃고 다 먹어.",
-   "note": "compiere … anni = …살이 되다",
+   "note": "compleanno = 생일",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "ultima",
-     "ultimo",
+     "oggi",
+     "oggi",
      ""
     ],
     [
-     "cosa",
-     "cosa",
+     "è",
+     "essere",
      ""
     ],
     [
-     "entrare",
-     "entrare",
+     "compleanno",
+     "compleanno",
      ""
     ],
     [
-     "nonna",
-     "nonno",
-     ""
-    ],
-    [
-     "compie",
-     "compiere",
-     ""
-    ],
-    [
-     "sorridi",
-     "sorridere",
-     ""
-    ],
-    [
-     "mangia",
-     "mangiare",
+     "anni",
+     "anno",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Oggi è il compleanno della nonna, novant'anni!",
+   "ko": "오늘 할머니 생신이야, 아흔 살!",
+   "rd": "오찌 에 일 꼼플레안노 델라 논나, 노반딴니!",
    "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Sorrido sempre. Ma perché sei così nervosa?",
-   "rd": "쏘리도 쎔프레. 마 뻬르께 쎄이 꼬지 네르보자?",
-   "ko": "나 원래 잘 웃어. 근데 너 왜 이렇게 긴장했어?",
-   "note": "nervoso/a = 긴장한, 예민한",
+   "note": "nervos{o|a} = 긴장된",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "sorrido",
-     "sorridere",
+     "sei",
+     "essere",
      ""
     ],
     [
-     "sempre",
-     "sempre",
+     "così",
+     "così",
      ""
     ],
     [
-     "nervosa",
      "nervoso",
+     "nervoso",
+     ""
+    ],
+    [
+     "sembri",
+     "sembrare",
+     ""
+    ],
+    [
+     "preoccupato",
+     "preoccupato",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sei così nervoso? Sembri preoccupato.",
+   "ko": "그렇게 긴장됐어? 걱정돼 보여.",
+   "rd": "쎄이 꼬지 네르보조? 쎔브리 프레오꾸빠또.",
+   "it_f": "Sei così nervosa? Sembri preoccupata.",
+   "ko_f": "그렇게 긴장됐어? 걱정돼 보여.",
+   "rd_f": "쎄이 꼬지 네르보자? 쎔브리 프레오꾸빠따.",
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Perché ogni anno è la stessa storia: «Quando ti sposi? Quando trovi un lavoro vero?»",
-   "rd": "뻬르께 오니 안노 에 라 스떼싸 스또리아: \"꽌도 띠 스뽀지? 꽌도 트로비 운 라보로 베로?\"",
-   "ko": "해마다 똑같거든. '결혼은 언제 하니? 진짜 직장은 언제 구하고?'",
-   "note": "sposarsi = 결혼하다",
+   "note": "conflitto = 갈등",
    "tags": [
     "step:8",
     "step:9"
@@ -123,91 +119,85 @@
    "new": [],
    "lemmas": [
     [
-     "anno",
-     "anno",
+     "è",
+     "essere",
      ""
     ],
     [
-     "stessa",
-     "stesso",
+     "sempre",
+     "sempre",
      ""
     ],
     [
-     "storia",
-     "storia",
+     "conflitto",
+     "conflitto",
      ""
     ],
     [
-     "sposi",
-     "sposare",
+     "famiglia",
+     "famiglia",
      ""
     ],
     [
-     "trovi",
-     "trovare",
-     ""
-    ],
-    [
-     "lavoro",
-     "lavoro",
-     ""
-    ],
-    [
-     "vero",
-     "vero",
+     "feste",
+     "festa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "C'è sempre conflitto in famiglia a queste feste.",
+   "ko": "이런 가족 행사 때마다 항상 갈등이 있어.",
+   "rd": "체 쎔프레 꼰플리또 인 파밀리아 아 꿰스떼 페스떼.",
    "emotion": "annoyed"
   },
   {
    "num": 4,
    "speaker": "C",
-   "it": "Chiara, tesoro! E questo bel ragazzo chi è?",
-   "rd": "끼아라, 떼조로! 에 꿰스또 벨 라가쪼 끼 에?",
-   "ko": "키아라, 우리 강아지! 이 잘생긴 총각은 누구니?",
-   "note": "tesoro = 우리 아가(애칭)",
+   "note": "Tanti auguri = 생일 축하해 · Entrate pure = 들어와(voi)",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "tesoro",
-     "tesoro",
+     "auguri",
+     "augurio",
      ""
     ],
     [
-     "bel",
-     "bello",
+     "entrate",
+     "entrare",
      ""
     ],
     [
-     "ragazzo",
-     "ragazzo",
+     "pure",
+     "pure",
+     ""
+    ],
+    [
+     "cari",
+     "caro",
      ""
     ]
    ],
-   "emotion": "cheerful",
-   "it_f": "Chiara, tesoro! E questa bella ragazza chi è?",
-   "ko_f": "키아라, 우리 강아지! 이 예쁜 아가씨는 누구니?",
-   "rd_f": "끼아라, 떼조로! 에 꿰스따 벨라 라가짜 끼 에?"
+   "grok": true,
+   "it": "Tanti auguri a me! Entrate pure, cari.",
+   "ko": "나한테 생일 축하해! 들어오렴, 얘들아.",
+   "rd": "딴띠 아우구리 아 메! 엔트라떼 뿌레, 까리.",
+   "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Piacere, signora. Sono un amico di Chiara. Tanti auguri!",
-   "rd": "삐아체레, 씨뇨라. 쏘노 운 아미꼬 디 끼아라. 딴띠 아우구리!",
-   "ko": "처음 뵙겠습니다. 키아라 친구예요. 생신 축하드려요!",
-   "note": "Tanti auguri = 축하해요",
+   "note": "conoscerLa = 당신을 알게 되다(La = 존댓말 당신을)",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "piacere",
-     "piacere",
+     "auguri",
+     "augurio",
      ""
     ],
     [
@@ -216,28 +206,26 @@
      ""
     ],
     [
-     "amico",
-     "amico",
+     "è",
+     "essere",
      ""
     ],
     [
-     "auguri",
-     "augurio",
+     "piacere",
+     "piacere",
      ""
     ]
    ],
-   "emotion": "polite",
-   "it_f": "Piacere, signora. Sono un'amica di Chiara. Tanti auguri!",
-   "ko_f": "처음 뵙겠습니다. 키아라 친구예요. 생신 축하드려요!",
-   "rd_f": "삐아체레, 씨뇨라. 쏘노 우나미까 디 끼아라. 딴띠 아우구리!"
+   "grok": true,
+   "it": "Tanti auguri, signora. È un piacere conoscerLa.",
+   "ko": "생일 축하드려요, 부인. 뵙게 되어 기쁩니다.",
+   "rd": "딴띠 아우구리, 씨뇨라. 에 운 삐아체레 꼬노셰를라.",
+   "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "C",
-   "it": "Un amico, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori.",
-   "rd": "운 아미꼬, 에? 마. 뚜아 꾸지나 씨 스뽀자 아 마조, 에 뚜 파이 안꼬라 디제니 디 피오리.",
-   "ko": "친구라, 응? 글쎄다. 네 사촌은 5월에 결혼하는데, 넌 아직도 꽃 그림이나 그리고.",
-   "note": "cugina = 사촌(여)",
+   "note": "chiamami = 나를 불러(chiamare + mi)",
    "tags": [
     "step:8",
     "step:9"
@@ -245,58 +233,29 @@
    "new": [],
    "lemmas": [
     [
+     "chiamami",
+     "chiamamere",
+     ""
+    ],
+    [
      "amico",
      "amico",
-     ""
-    ],
-    [
-     "cugina",
-     "cugino",
-     ""
-    ],
-    [
-     "sposa",
-     "sposare",
-     ""
-    ],
-    [
-     "maggio",
-     "maggio",
-     ""
-    ],
-    [
-     "fai",
-     "fare",
-     ""
-    ],
-    [
-     "ancora",
-     "ancora",
-     ""
-    ],
-    [
-     "disegni",
-     "disegno",
-     ""
-    ],
-    [
-     "fiori",
-     "fiore",
      ""
     ]
    ],
-   "emotion": "teasing",
-   "it_f": "Un'amica, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori.",
-   "ko_f": "친구라, 응? 글쎄다. 네 사촌은 5월에 결혼하는데, 넌 아직도 꽃 그림이나 그리고.",
-   "rd_f": "우나미까, 에? 마. 뚜아 꾸지나 씨 스뽀자 아 마조, 에 뚜 파이 안꼬라 디제니 디 피오리."
+   "grok": true,
+   "it": "Ma dai, chiamami nonna. Sei l'amico di Chiara?",
+   "ko": "에이, 할머니라고 해. 키아라 친구니?",
+   "rd": "마 다이, 끼아마미 논나. 쎄이 라미꼬 디 끼아라?",
+   "it_f": "Ma dai, chiamami nonna. Sei l'amica di Chiara?",
+   "ko_f": "에이, 할머니라고 해. 키아라 친구니?",
+   "rd_f": "마 다이, 끼아마미 논나. 쎄이 라미까 디 끼아라?",
+   "emotion": "teasing"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Nonna, ti prego! Faccio quello che mi pare, e un giorno vivrò dei miei quadri.",
-   "rd": "논나, 띠 프레고! 파쵸 꿸로 께 미 빠레, 에 운 조르노 비브로 데이 미에이 꽈드리.",
-   "ko": "할머니, 제발요! 그리고 싶은 거 그릴 거고, 언젠가 그림으로 먹고살 거예요.",
-   "note": "vivere di … = …로 먹고살다",
+   "note": "niente domande = 질문 금지",
    "tags": [
     "step:9",
     "step:10"
@@ -304,191 +263,180 @@
    "new": [],
    "lemmas": [
     [
-     "nonna",
-     "nonno",
+     "favore",
+     "favore",
      ""
     ],
     [
-     "prego",
-     "pregare",
+     "futuro",
+     "futuro",
      ""
     ],
     [
-     "faccio",
-     "fare",
-     ""
-    ],
-    [
-     "pare",
-     "parere",
-     ""
-    ],
-    [
-     "giorno",
-     "giorno",
-     ""
-    ],
-    [
-     "vivrò",
-     "vivere",
-     ""
-    ],
-    [
-     "quadri",
-     "quadro",
+     "domande",
+     "domanda",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Nonna, per favore! In futuro niente domande.",
+   "ko": "할머니, 제발! 앞으로는 질문 금지.",
+   "rd": "논나, 뻬르 파보레! 인 푸뚜로 니엔떼 도만데.",
    "segs": [
     [
      "annoyed",
-     "Nonna, ti prego!"
+     "Nonna, per favore!"
     ],
     [
      "shout",
-     " Faccio quello che mi pare, e un giorno vivrò dei miei quadri."
+     " In futuro niente domande."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasto senza parole.",
-   "rd": "씨뇨라, 아 비스또 이 꽈드리 디 끼아라? 이오, 라 프리마 볼따, 쏘노 리마스또 쎈짜 빠롤레.",
-   "ko": "할머니, 키아라 그림 보셨어요? 저는 처음 봤을 때 말이 안 나왔어요.",
-   "note": "rimanere senza parole = 말문이 막히다",
+   "note": "content{o|a} = 기쁜",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "visto",
-     "vedere",
+     "tranquilla",
+     "tranquillo",
      ""
     ],
     [
-     "quadri",
-     "quadro",
+     "è",
+     "essere",
      ""
     ],
     [
-     "prima",
-     "primo",
+     "solo",
+     "solo",
      ""
     ],
     [
-     "volta",
-     "volta",
+     "curiosità",
+     "curiosità",
      ""
     ],
     [
-     "rimasto",
-     "rimanere",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "parole",
-     "parola",
+     "contento",
+     "contento",
      ""
     ]
    ],
-   "emotion": "gentle",
-   "it_f": "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole.",
-   "ko_f": "할머니, 키아라 그림 보셨어요? 저는 처음 봤을 때 말이 안 나왔어요.",
-   "rd_f": "씨뇨라, 아 비스또 이 꽈드리 디 끼아라? 이오, 라 프리마 볼따, 쏘노 리마스따 쎈짜 빠롤레."
+   "grok": true,
+   "it": "Tranquilla, è solo curiosità. Sono contento.",
+   "ko": "진정해, 그냥 궁금한 거야. 나는 기뻐.",
+   "rd": "트란뀔라, 에 쏠로 꾸리오지따. 쏘노 꼰뗀또.",
+   "it_f": "Tranquilla, è solo curiosità. Sono contenta.",
+   "ko_f": "진정해, 그냥 궁금한 거야. 나는 기뻐.",
+   "rd_f": "트란뀔라, 에 쏠로 꾸리오지따. 쏘노 꼰뗀따.",
+   "emotion": "gentle"
   },
   {
    "num": 9,
    "speaker": "C",
-   "it": "Li ho visti, sì. Uno l'ho anche comprato l'anno scorso, di nascosto.",
-   "rd": "리 오 비스띠, 씨. 우노 로 안께 꼼프라또 란노 스꼬르쏘, 디 나스꼬스또.",
-   "ko": "봤지. 작년엔 몰래 한 점 사기도 했단다.",
-   "note": "di nascosto = 몰래",
+   "note": "felice = 기쁜",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "visti",
-     "vedere",
+     "anch",
+     "anche",
      ""
     ],
     [
-     "comprato",
-     "comprare",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "anno",
-     "anno",
+     "felice",
+     "felice",
      ""
     ],
     [
-     "scorso",
-     "scorso",
+     "qui",
+     "qui",
      ""
     ],
     [
-     "nascosto",
-     "nascondere",
+     "oggi",
+     "oggi",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Anch'io sono felice di vederti qui oggi.",
+   "ko": "나도 오늘 여기서 너를 보게 되어 기뻐.",
+   "rd": "안끼오 쏘노 펠리체 디 베데르띠 뀌 오찌.",
    "emotion": "gentle"
   },
   {
    "num": 10,
    "speaker": "B",
-   "it": "Ma dai! Eri tu quella che non ha voluto dire il nome?",
-   "rd": "마 다이! 에리 뚜 꿸라 께 논 아 볼루또 디레 일 노메?",
-   "ko": "말도 안 돼! 이름 안 밝히고 산 사람이 할머니였어요?",
-   "note": "quella che = ~한 그 사람",
+   "note": "emozionata = 감동한",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "eri",
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "anch",
+     "anche",
+     ""
+    ],
+    [
+     "sono",
      "essere",
      ""
     ],
     [
-     "voluto",
-     "volere",
-     ""
-    ],
-    [
-     "dire",
-     "dire",
-     ""
-    ],
-    [
-     "nome",
-     "nome",
+     "emozionata",
+     "emozionare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Davvero? Allora anch'io sono emozionata!",
+   "ko": "진짜? 그럼 나도 감동이야!",
+   "rd": "다베로? 알로라 안끼오 쏘노 에모찌오나따!",
    "segs": [
     [
      "surprised",
-     "Ma dai!"
+     "Davvero?"
     ],
     [
      "excited",
-     " Eri tu quella che non ha voluto dire il nome?"
+     " Allora anch'io sono emozionata!"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "it": "Certo. E già che ci siamo: anch'io ho un fidanzato. Il vicino del quarto piano.",
-   "rd": "체르또. 에 쟈 께 치 씨아모: 안끼오 오 운 피단짜또. 일 비치노 델 꽈르또 삐아노.",
-   "ko": "그럼. 말 나온 김에, 나도 남자 친구 있다. 5층 사는 이웃.",
-   "note": "già che ci siamo = 말 나온 김에 · fidanzato = 애인(남)",
+   "note": "il più bello = 제일 좋은",
    "tags": [
     "step:8",
     "step:4"
@@ -496,123 +444,107 @@
    "new": [],
    "lemmas": [
     [
-     "già",
-     "già",
+     "certo",
+     "certo",
      ""
     ],
     [
-     "siamo",
+     "è",
      "essere",
      ""
     ],
     [
-     "ho",
-     "avere",
+     "regalo",
+     "regalo",
      ""
     ],
     [
-     "fidanzato",
-     "fidanzato",
+     "più",
+     "più",
      ""
     ],
     [
-     "vicino",
-     "vicino",
+     "bello",
+     "bello",
      ""
     ],
     [
-     "quarto",
-     "quarto",
-     ""
-    ],
-    [
-     "piano",
-     "piano",
+     "festa",
+     "festa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Certo. È il regalo più bello per la festa.",
+   "ko": "당연하지. 이 잔치에 제일 좋은 선물이야.",
+   "rd": "체르또. 에 일 레갈로 삐우 벨로 뻬르 라 페스따.",
    "emotion": "teasing"
   },
   {
    "num": 12,
    "speaker": "B",
-   "it": "Nonna! Ma da quando hai un fidanzato?",
-   "rd": "논나! 마 다 꽌도 아이 운 피단짜또?",
-   "ko": "할머니! 남자 친구는 또 언제부터요?",
-   "note": "da quando = 언제부터",
+   "note": "col compleanno = 생일 가지고(con + il)",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "nonna",
-     "nonno",
+     "non",
+     "non",
      ""
     ],
     [
-     "quando",
-     "quando",
+     "esagerare",
+     "esagerare",
      ""
     ],
     [
-     "hai",
-     "avere",
-     ""
-    ],
-    [
-     "fidanzato",
-     "fidanzato",
+     "compleanno",
+     "compleanno",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ma dai, nonna, non esagerare col compleanno.",
+   "ko": "에이, 할머니, 생일 가지고 과장하지 마.",
+   "rd": "마 다이, 논나, 논 에자제라레 꼴 꼼플레안노.",
    "emotion": "tsukkomi"
   },
   {
    "num": 13,
    "speaker": "C",
-   "it": "Da marzo. Lui ha settantotto anni. Mi piacciono giovani.",
-   "rd": "다 마르쪼. 루이 아 쎄딴또또 안니. 미 삐아쵸노 조바니.",
-   "ko": "3월부터. 그 사람은 일흔여덟이야. 난 젊은 남자가 좋더라.",
-   "note": "mi piacciono = 나는 ~가 좋다",
+   "note": "contenta = 기쁜",
    "tags": [
     "step:4"
    ],
-   "new": [
-    "marzo"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "marzo",
-     "marzo",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "ha",
-     "avere",
+     "solo",
+     "solo",
      ""
     ],
     [
-     "settantotto",
-     "settantotto",
+     "contenta",
+     "contento",
      ""
     ],
     [
-     "anni",
-     "anno",
-     ""
-    ],
-    [
-     "piacciono",
-     "piacere",
-     ""
-    ],
-    [
-     "giovani",
-     "giovane",
+     "più",
+     "più",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sono solo contenta, niente di più.",
+   "ko": "그냥 기쁠 뿐이야, 그 이상 없어.",
+   "rd": "쏘노 쏠로 꼰뗀따, 니엔떼 디 삐우.",
    "emotion": "amused"
   }
  ]

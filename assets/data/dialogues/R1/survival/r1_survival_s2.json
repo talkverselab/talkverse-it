@@ -3,7 +3,6 @@
  "region": "R1",
  "island": "survival",
  "kind": "survival",
- "draft": true,
  "purpose": [
   "survival"
  ],
@@ -31,20 +30,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Buongiorno. Allora, come sta?",
-   "rd": "부온조르노. 알로라, 꼬메 스따?",
-   "ko": "안녕하세요. 자, 어디가 불편하세요?",
-   "note": "come sta? = 어떠세요?(Lei, stare)",
+   "note": "sta = 있으세요",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
-    [
-     "buongiorno",
-     "buongiorno",
-     ""
-    ],
     [
      "allora",
      "allora",
@@ -54,17 +45,23 @@
      "sta",
      "stare",
      ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Allora, come sta oggi?",
+   "ko": "그럼, 오늘 어떠세요?",
+   "rd": "알로라, 꼬메 스따 오찌?",
    "emotion": "polite"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Non sto bene, dottore. Ho mal di testa.",
-   "rd": "논 스또 베네, 도또레. 오 말 디 떼스따.",
-   "ko": "몸이 안 좋아요, 선생님. 머리가 아파요.",
-   "note": "ho mal di testa = 머리가 아프다(avere) — 1턴 sta, 여기 sto",
+   "note": "sto = 있어요",
    "tags": [
     "step:2",
     "step:9"
@@ -77,13 +74,8 @@
      ""
     ],
     [
-     "bene",
-     "bene",
-     ""
-    ],
-    [
-     "dottore",
-     "dottore",
+     "male",
+     "male",
      ""
     ],
     [
@@ -102,163 +94,171 @@
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sto male, ho mal di testa.",
+   "ko": "아파요, 머리가 아파요.",
+   "rd": "스또 말레, 오 말 디 떼스따.",
    "emotion": "worried"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Mal di testa... Cosa ha fatto questa notte?",
-   "rd": "말 디 떼스따... 꼬자 아 파또 꿰스따 노떼?",
-   "ko": "두통이라… 어젯밤에 뭐 하셨어요?",
-   "note": "ha fatto = (당신이) 했다(fare 근과거, Lei)",
+   "note": "ha dormito = 주무셨어요",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
     [
-     "mal",
-     "male",
+     "ha",
+     "avere",
      ""
     ],
     [
-     "testa",
-     "testa",
+     "dormito",
+     "dormire",
      ""
     ],
     [
-     "ha fatto",
-     "fare",
+     "bene",
+     "bene",
      ""
     ],
     [
-     "notte",
-     "notte",
+     "ieri",
+     "ieri",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ha dormito bene ieri?",
+   "ko": "어제 잘 주무셨어요?",
+   "rd": "아 도르미또 베네 이에리?",
    "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Niente. Ho guardato il telefono tutta la notte.",
-   "rd": "니엔떼. 오 구아르다또 일 뗄레포노 뚜따 라 노떼.",
-   "ko": "별거 안 했어요. 밤새 폰만 봤어요.",
-   "note": "ho guardato = 봤다(guardare 근과거) · tutta la notte = 밤새",
+   "note": "ho dormito = 잤어요",
    "tags": [
     "step:5",
     "step:1"
    ],
-   "new": [
-    "telefono"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "niente",
-     "niente",
+     "boh",
+     "boh",
      ""
     ],
     [
-     "ho guardato",
-     "guardare",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "telefono",
-     "telefono",
+     "dormito",
+     "dormire",
      ""
     ],
     [
-     "tutta",
-     "tutto",
-     ""
-    ],
-    [
-     "notte",
-     "notte",
+     "ora",
+     "ora",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Boh, ho dormito un'ora.",
+   "ko": "글쎄요, 한 시간 잤어요.",
+   "rd": "보, 오 도르미또 우노라.",
    "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Tutta la notte? E quanto ha dormito?",
-   "rd": "뚜따 라 노떼? 에 꽌또 아 도르미또?",
-   "ko": "밤새요? 그럼 얼마나 주무셨어요?",
-   "note": "ha dormito = (당신이) 잤다(dormire 근과거, Lei)",
+   "note": "ha guardato = 보셨어요",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
     [
-     "tutta",
-     "tutto",
+     "ha",
+     "avere",
+     ""
+    ],
+    [
+     "guardato",
+     "guardare",
+     ""
+    ],
+    [
+     "tv",
+     "tv",
      ""
     ],
     [
      "notte",
      "notte",
-     ""
-    ],
-    [
-     "quanto",
-     "quanto",
-     ""
-    ],
-    [
-     "ha dormito",
-     "dormire",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ha guardato la TV tutta la notte?",
+   "ko": "밤새 TV 보셨어요?",
+   "rd": "아 구아르다또 라 트브 뚜따 라 노떼?",
    "emotion": "surprised"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Boh... forse un'ora, dottore.",
-   "rd": "보... 포르쎄 우노라, 도또레.",
-   "ko": "글쎄요… 한 시간쯤요, 선생님.",
-   "note": "un'ora = 한 시간(ora 는 여성 명사 → una)",
+   "note": "la serie = 시리즈(여)",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "forse",
-     "forse",
+     "serie",
+     "serie",
      ""
     ],
     [
-     "ora",
-     "ora",
-     ""
-    ],
-    [
-     "dottore",
-     "dottore",
+     "telefono",
+     "telefono",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, la serie sul telefono.",
+   "ko": "네, 폰으로 시리즈요.",
+   "rd": "씨, 라 쎄리에 쑬 뗄레포노.",
    "emotion": "shy"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Un'ora? Guardi... anch'io ho dormito un'ora.",
-   "rd": "우노라? 구아르디... 안끼오 오 도르미또 우노라.",
-   "ko": "한 시간요? 저기요… 저도 한 시간 잤어요.",
-   "note": "guardi = 저기요, 보세요(guardare, Lei 명령) — 4턴 ho guardato",
+   "note": "ho dormito = 잤어요",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
+    [
+     "anch",
+     "anche",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "dormito",
+     "dormire",
+     ""
+    ],
     [
      "ora",
      "ora",
@@ -270,55 +270,55 @@
      ""
     ],
     [
-     "ho dormito",
-     "dormire",
+     "qui",
+     "qui",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Anch'io ho dormito un'ora. Guardi qui.",
+   "ko": "저도 한 시간 잤어요. 여기 보세요.",
+   "rd": "안끼오 오 도르미또 우노라. 구아르디 뀌.",
    "segs": [
     [
      "surprised",
-     "Un'ora?"
+     "Anch'io ho dormito un'ora."
     ],
     [
      "amused",
-     " Guardi... anch'io ho dormito un'ora."
+     " Guardi qui."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Allora, dottore... chi paga chi?",
-   "rd": "알로라, 도또레... 끼 빠가 끼?",
-   "ko": "그럼 선생님… 누가 누구한테 돈 내요?",
-   "note": "paga = 돈을 내다(pagare, 3인칭 단수)",
+   "note": "guardi = 보세요",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "allora",
-     "allora",
+     "guardi",
+     "guardare",
      ""
     ],
     [
-     "dottore",
-     "dottore",
+     "non",
+     "non",
      ""
     ],
     [
-     "chi",
-     "chi",
-     ""
-    ],
-    [
-     "paga",
-     "pagare",
+     "capisco",
+     "capisco",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Guardi? Non capisco.",
+   "ko": "보세요? 모르겠어요.",
+   "rd": "구아르디? 논 까삐스꼬.",
    "emotion": "tsukkomi"
   }
  ]

@@ -1,0 +1,20 @@
+=== r2_travel_c1
+level: R2
+kind: chat
+title: 벌써 보고 싶어
+emoji: 🚆
+scene: 아침 여덟 시, 로마를 떠나는 기차 안. 키아라가 먼저 문자를 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 채팅 반말
+twist: 7 emotion
+goal: 챗 상황 1 첫 인사 · 7 농담 · 9 화해 · 10 다음 약속 · 표현 Dai · Boh · Senti
+expressions: Dai; Boh; Senti
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:1 | at=08:10
+A | ___ | ___ | ___ | emotion=amused | tags=step:7 | at=08:11
+B | ___ | ___ | ___ | emotion=excited | tags=step:7 | at=08:11
+A | ___ | ___ | ___ | emotion=amused | tags=step:7 | at=08:12
+A | ___ | ___ | ___ | emotion=gentle | tags=step:10 | at=08:15
+B | ___ | ___ | ___ | emotion=sad | tags=step:8 | at=08:15
+B | ___ | ___ | ___ | emotion=sad | tags=step:9,twist | at=08:16
+A | ___ | ___ | ___ | emotion=gentle | tags=step:10 | at=08:17

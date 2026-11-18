@@ -1,0 +1,26 @@
+=== r4_culture_b1
+level: R4
+kind: long
+title: 일요일 점심의 스파게티
+emoji: 🍝
+scene: 일요일 점심, 줄리아네 집. 학습자는 한 시간 늦었고, 줄리아 어머니 모레티 부인이 스파게티를 내온다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림), C: Signora Moretti(여)
+register: Lei 와 tu 가 섞임
+twist: 10 slip
+goal: 어려운 문법 3 조건법 과거(sarei venuto·avrei voluto·avrebbe dovuto) · 6 대과거(ti avevo detto·mi aveva detto) · 10 관계사 chi·di cui · 9 재귀 근과거 · 문화 일요일 점심·스파게티는 자르지 않는다 · 존댓말 Lei · 표현 Tranquillo·Mamma mia·Infatti
+expressions: Tranquillo; Mamma mia; Infatti
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | ___ | ___ | ___ | emotion=annoyed+teasing | tags=step:6
+A | ___ | ___ | ___ | emotion=flustered | tags=step:9,step:3
+C | ___ | ___ | ___ | emotion=teasing | tags=step:10
+A | ___ | ___ | ___ | emotion=polite | tags=step:3,step:5
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:10,step:6
+A | ___ | ___ | ___ | emotion=excited | tags=
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:10
+A | ___ | ___ | ___ | emotion=flustered | tags=
+C | ___ | ___ | ___ | emotion=gentle | tags=
+A | ___ | ___ | ___ | emotion=excited+cheerful | tags=step:6,step:5,twist
+C | ___ | ___ | ___ | emotion=teasing | tags=step:6
+B | ___ | ___ | ___ | emotion=flustered | tags=step:6,step:3
+A | ___ | ___ | ___ | emotion=flustered | tags=step:6
+C | ___ | ___ | ___ | emotion=gentle | tags=step:10

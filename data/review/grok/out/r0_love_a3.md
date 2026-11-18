@@ -1,0 +1,17 @@
+=== r0_love_a3
+level: R0
+kind: short
+title: 안녕, 자기야
+emoji: 🚪
+scene: 셰어하우스 현관. 놀러 왔던 줄리아가 집에 가려고 신발을 신는다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 3 slip
+goal: 도구획득 · 짧은 반말 회화 · 표현 Allora · Cioè
+expressions: Allora; Cioè
+B | Allora, vado a casa. | 그러면, 집에 가. | Allora = 그러면 | emotion=cheerful | tags=
+A | Già? Resta ancora. | 벌써? 더 있어. | resta = 있다 | emotion=sad | tags=
+B | Ciao, car{o|a}! | 안녕, 자기야! | caro = 자기야 | emotion=cheerful | tags=twist
+A | Cosa? Car{o|a}? | 뭐? 자기야? | cosa = 뭐 | emotion=surprised | tags=
+B | Cioè... scusa! | 그러니까... 미안! | Cioè = 그러니까 | emotion=flustered | tags=
+A | Ti piace, eh? | 좋아하나 봐, 응? | piace = 좋아하다 | emotion=teasing | tags=

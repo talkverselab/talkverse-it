@@ -1,0 +1,20 @@
+=== r1_friends_a1
+level: R1
+kind: short
+title: 폰은 어디 갔지?
+emoji: 📱
+scene: 토요일 오후 셰어하우스. 젤라토를 사 들고 놀러 온 키아라가 갑자기 폰이 없다고 난리다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 8 chaos
+goal: 골격 단계 3·4·5·7·9·10 · 굴절 반복 chiamo/chiama · senti/sento · trovo/trovato · 표현 Mamma mia · Tranquilla · Dai · Ecco
+expressions: Mamma mia; Tranquilla; Dai; Ecco
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | ___ | ___ | ___ | emotion=worried | tags=step:3
+A | ___ | ___ | ___ | emotion=gentle | tags=step:7
+B | ___ | ___ | ___ | emotion=excited | tags=step:3
+A | ___ | ___ | ___ | emotion=surprised | tags=step:4
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:9
+A | ___ | ___ | ___ | emotion=amused+surprised | tags=step:4,step:5
+B | ___ | ___ | ___ | emotion=surprised+flustered | tags=step:5,step:4
+B | ___ | ___ | ___ | emotion=sad+cheerful | tags=step:10,step:4,twist

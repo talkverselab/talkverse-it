@@ -4,7 +4,7 @@
 작은 모델이 틀리는 것). 내용어 = NOUN·VERB·AUX·ADJ·ADV·PROPN(등장인물 이름 제외), 기본형은 소문자.
 단어장(assets/data/freq/*.csv 의 word 칸 + vocab/*.json 의 tx + grammar/verbs_core.json 의 inf)에 없는 레마는
 data/review/write/missing_lemmas.csv(lemma,count 빈도순) 로 — uk 세션에 넘겨 단어·그림 제작.
-  <venv>/bin/python tools/add_lemmas.py        # venv 에 spacy + it_core_news_md
+  <venv>/bin/python tools/add_lemmas.py [편.json ...]   # venv 에 spacy + it_core_news_md(M6 ~/venvs/spacy-it). 파일을 안 주면 L1 + R0~R5 전부
 """
 import csv, glob, json, re, sys
 from collections import Counter
@@ -20,6 +20,8 @@ FIX = {
     'preferita': 'preferito', 'stazione': 'stazione', 'termini': 'termini', 'dritto': 'dritto', 'ciao': 'ciao',
     'grazie': 'grazie', 'buonanotte': 'buonanotte',
 }
+# 고정 인물·조연 이름(다른 편에서 이름만 불릴 때도 레마에서 뺀다)
+PEOPLE = {'giulia', 'chiara', 'marco', 'luca', 'bruni', 'moretti', 'rosa', 'neri', 'bruno', 'elena', 'galli', 'conti', 'bassi', 'ferri', 'rinaldi'}
 SKIP = {'no', 'sì', 'si', 'e', 'a', 'o'}  # 기능어·대답말
 
 
@@ -62,11 +64,14 @@ def main():
     db = word_list()
     miss = Counter()
     tot = hit = turns = 0
-    for f in sorted(glob.glob(str(ROOT / 'assets/data/dialogues/L*.json'))):
+    files = sys.argv[1:] or sorted(glob.glob(str(ROOT / 'assets/data/dialogues/L*.json')) + glob.glob(str(ROOT / 'assets/data/dialogues/R[0-5]/*/*.json')))
+    for f in files:
         d = json.load(open(f, encoding='utf-8'))
         names = {str(c.get('name', '')).lower() for c in (d.get('characters') or {}).values()} - {''}
+        # 편 파일(R0~R5, 2026-11-19): 한 파일 = 한 편, 인물 이름은 speakers 에서
+        names |= {w.lower() for v in (d.get('speakers') or {}).values() for w in str(v).split()} | PEOPLE
         changed = False
-        for ep in d.get('episodes') or d.get('dialogues') or []:
+        for ep in d.get('episodes') or d.get('dialogues') or ([d] if 'turns' in d else []):
             for t in ep.get('turns', []):
                 text = t.get('tl') or t.get('it') or t.get('es') or ''
                 out = []

@@ -19,7 +19,6 @@
   "Ecco"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Guarda · Ecco",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -30,10 +29,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "it": "Marco, mi fai un caffè?",
-   "rd": "마르꼬, 미 파이 운 까페?",
-   "ko": "마르코, 커피 한 잔 해 줄래?",
-   "note": "mi fai...? = 나한테 해 줄래?",
+   "note": "fai = 하다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -48,192 +44,139 @@
      ""
     ]
    ],
+   "grok": true,
+   "it": "Marco, fai un caffè?",
+   "ko": "마르코, 커피 한 잔 해 줘?",
+   "rd": "마르꼬, 파이 운 까페?",
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "B",
-   "it": "No. Lo fai tu.",
-   "rd": "노. 로 파이 뚜.",
-   "ko": "아니. 네가 해.",
-   "note": "lo fai tu = 네가 해",
+   "note": "Guarda = 봐",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Lo",
-     "lo",
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "macchina",
+     "macchina",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Guarda la macchina.",
+   "ko": "기계 봐.",
+   "rd": "구아르다 라 마끼나.",
+   "emotion": "amused"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "note": "io = 나",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Cosa? Io solo?",
+   "ko": "뭐? 나 혼자?",
+   "rd": "꼬자? 이오 쏠로?",
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "note": "è = 이다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "facile",
+     "facile",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Sì, è facile.",
+   "ko": "응, 쉬워.",
+   "rd": "씨, 에 파칠레.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "note": "sei = 이다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "barista",
+     "barista",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma sei barista!",
+   "ko": "근데 너 바리스타잖아!",
+   "rd": "마 쎄이 바리스따!",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "note": "Ecco = 여기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
      ""
     ],
     [
      "fai",
      "fare",
      ""
-    ],
-    [
-     "tu",
-     "tu",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "Ecco, fai tu.",
+   "ko": "여기, 네가 해.",
+   "rd": "에꼬, 파이 뚜.",
    "emotion": "amused"
-  },
-  {
-   "num": 3,
-   "speaker": "A",
-   "it": "Io? Ma non so fare il caffè!",
-   "rd": "이오? 마 논 쏘 파레 일 까페!",
-   "ko": "내가? 나 커피 못 만들어!",
-   "note": "non so fare = 할 줄 몰라",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "so",
-     "sapere",
-     ""
-    ],
-    [
-     "fare",
-     "fare",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
-     ""
-    ]
-   ],
-   "emotion": "surprised"
-  },
-  {
-   "num": 4,
-   "speaker": "B",
-   "it": "Guarda bene. Metti qui... e aspetti. Ecco.",
-   "rd": "구아르다 베네. 메띠 뀌... 에 아스뻬띠. 에꼬.",
-   "ko": "잘 봐. 여기 넣고… 기다려. 끝.",
-   "note": "aspetti = 너 기다려(aspettare)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Guarda",
-     "guardare",
-     ""
-    ],
-    [
-     "bene",
-     "bene",
-     ""
-    ],
-    [
-     "Metti",
-     "mettere",
-     ""
-    ],
-    [
-     "qui",
-     "qui",
-     ""
-    ],
-    [
-     "aspetti",
-     "aspettare",
-     ""
-    ],
-    [
-     "Ecco",
-     "ecco",
-     ""
-    ]
-   ],
-   "emotion": "gentle"
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "it": "Aspetto... aspetto... Marco, quanto tempo?",
-   "rd": "아스뻬또... 아스뻬또... 마르꼬, 꽌또 뗌뽀?",
-   "ko": "기다리는 중… 기다리는 중… 마르코, 얼마나 걸려?",
-   "note": "aspetto = 나 기다려",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Aspetto",
-     "aspettare",
-     ""
-    ],
-    [
-     "quanto",
-     "quanto",
-     ""
-    ],
-    [
-     "tempo",
-     "tempo",
-     ""
-    ]
-   ],
-   "emotion": "annoyed"
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "it": "Mm. Buono. Sei bravo.",
-   "rd": "므. 부오노. 쎄이 브라보.",
-   "ko": "음. 맛있네. 잘했어.",
-   "note": "sei bravo = 너 잘한다",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Buono",
-     "buono",
-     ""
-    ],
-    [
-     "Sei",
-     "essere",
-     ""
-    ],
-    [
-     "bravo",
-     "bravo",
-     ""
-    ]
-   ],
-   "emotion": "amused",
-   "it_f": "Mm. Buono. Sei brava.",
-   "rd_f": "므. 부오노. 쎄이 브라바.",
-   "ko_f": "음. 맛있네. 잘했어."
   },
   {
    "num": 7,
    "speaker": "A",
-   "it": "Ehi! Era il mio caffè!",
-   "rd": "에이! 에라 일 미오 까페!",
-   "ko": "야! 그거 내 커피였어!",
-   "note": "era = ~였다(essere)",
+   "note": "sei = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Era",
-     "essere",
-     ""
-    ],
-    [
-     "mio",
-     "mio",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
+     "pigro",
+     "pigro",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sei pigro, Marco.",
+   "ko": "너 게으르다, 마르코.",
+   "rd": "쎄이 삐그로, 마르꼬.",
    "emotion": "tsukkomi"
   }
  ]

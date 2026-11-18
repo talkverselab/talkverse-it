@@ -1,0 +1,20 @@
+=== r1_survival_s2
+level: R1
+kind: survival
+title: 선생님도 한 시간
+emoji: 🩺
+scene: 월요일 아침 동네 병원. 머리가 아파서 온 학습자에게 브루니 선생님이 어젯밤 뭘 했는지 묻는다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Dottor Bruni(남)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 7 chaos
+goal: 골격 단계 1·2·3·5·9 · 존댓말 Lei(sta·ha fatto·ha dormito·guardi) ↔ 나(sto·ho guardato·ho dormito) · 굴절 반복 sta/sto · ho guardato/guardi · ha dormito/ho dormito · 표현 Allora · Boh · Guardi
+expressions: Allora; Boh; Guardi
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | ___ | ___ | ___ | emotion=polite | tags=step:9
+A | ___ | ___ | ___ | emotion=worried | tags=step:2,step:9
+B | ___ | ___ | ___ | emotion=polite | tags=step:5
+A | ___ | ___ | ___ | emotion=flustered | tags=step:5,step:1
+B | ___ | ___ | ___ | emotion=surprised | tags=step:5
+A | ___ | ___ | ___ | emotion=shy | tags=step:1
+B | ___ | ___ | ___ | emotion=surprised+amused | tags=step:5,twist
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:3

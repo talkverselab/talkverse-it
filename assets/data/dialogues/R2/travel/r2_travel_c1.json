@@ -20,7 +20,6 @@
   "Senti"
  ],
  "goal": "챗 상황 1 첫 인사 · 7 농담 · 9 화해 · 10 다음 약속 · 표현 Dai · Boh · Senti",
- "draft": true,
  "purpose": [
   "travel"
  ],
@@ -31,160 +30,77 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi! Sei già sul treno? 🚆",
-   "rd": "에이! 쎄이 쟈 쑬 트레노? 🚆",
-   "ko": "야! 벌써 기차 탔어? 🚆",
-   "note": "sul treno = 기차 안에(su + il)",
+   "note": "Dai = 에이",
    "tags": [
     "step:1"
    ],
-   "new": [
-    "treno"
-   ],
-   "emotion": "cheerful",
+   "new": [],
    "lemmas": [
     [
-     "sei",
-     "essere",
+     "manchi",
+     "mancare",
      ""
     ],
     [
      "già",
      "già",
-     ""
-    ],
-    [
-     "treno",
-     "treno",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "08:10"
+   "at": "08:10",
+   "grok": true,
+   "it": "Dai, mi manchi già! 🚆",
+   "ko": "에이, 벌써 보고 싶어! 🚆",
+   "rd": "다이, 미 만끼 쟈! 🚆",
+   "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Sì! Un signore qui dorme e parla. Tutto il tempo 😴",
-   "rd": "씨! 운 씨뇨레 뀌 도르메 에 빠를라. 뚜또 일 뗌뽀 😴",
-   "ko": "응! 여기 어떤 아저씨가 자면서 말해. 계속 😴",
-   "note": "tutto il tempo = 내내",
+   "note": "Boh = 뭐",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
-     "signore",
-     "signore",
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "ancora",
+     "ancora",
      ""
     ],
     [
      "qui",
      "qui",
-     ""
-    ],
-    [
-     "dorme",
-     "dormire",
-     ""
-    ],
-    [
-     "parla",
-     "parlare",
-     ""
-    ],
-    [
-     "tempo",
-     "tempo",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "08:11"
+   "at": "08:11",
+   "grok": true,
+   "it": "Boh, sono ancora qui. 😂",
+   "ko": "뭐, 아직 여기 있어. 😂",
+   "rd": "보, 쏘노 안꼬라 뀌. 😂",
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Dai, cosa dice? Fammi sentire! 😂",
-   "rd": "다이, 꼬자 디체? 팜미 쎈띠레! 😂",
-   "ko": "헐, 뭐라는데? 나도 좀 들려줘! 😂",
-   "note": "fammi sentire = 나도 들려줘(fare + 원형)",
+   "note": "Senti = 들어",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "excited",
-   "lemmas": [
-    [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "dice",
-     "dire",
-     ""
-    ],
-    [
-     "fammi",
-     "fare",
-     ""
-    ],
-    [
-     "sentire",
-     "sentire",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "08:11"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Boh. Dice solo «mamma, mamma» 😂",
-   "rd": "보. 디체 쏠로 \"맘마, 맘마\" 😂",
-   "ko": "몰라. 그냥 「엄마, 엄마」만 해 😂",
-   "note": "dice solo = ~라고만 해",
-   "tags": [
-    "step:7"
-   ],
-   "new": [],
-   "emotion": "amused",
-   "lemmas": [
-    [
-     "dice",
-     "dire",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "08:12"
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "it": "Senti, ora vado. Ciao Roma 👋",
-   "rd": "쎈띠, 오라 바도. 챠오 로마 👋",
-   "ko": "있잖아, 이제 출발해. 안녕 로마 👋",
-   "note": "Senti = 있잖아(말 꺼낼 때)",
-   "tags": [
-    "step:10"
-   ],
-   "new": [],
-   "emotion": "gentle",
    "lemmas": [
     [
      "senti",
@@ -192,116 +108,163 @@
      ""
     ],
     [
-     "ora",
-     "ora",
-     ""
-    ],
-    [
-     "vado",
-     "andare",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "08:15"
-  },
-  {
-   "num": 6,
-   "speaker": "B",
-   "it": "Già vai? Senza dire ciao a me? 🥺",
-   "rd": "쟈 바이? 쎈짜 디레 챠오 아 메? 🥺",
-   "ko": "벌써 가? 나한테 인사도 없이? 🥺",
-   "note": "senza dire = 말도 없이(senza + 원형)",
-   "tags": [
-    "step:8"
-   ],
-   "new": [],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "già",
-     "già",
-     ""
-    ],
-    [
-     "vai",
-     "andare",
-     ""
-    ],
-    [
-     "senza",
-     "senza",
-     ""
-    ],
-    [
-     "dire",
-     "dire",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "08:15"
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Lo so, torni presto. Ma mi manchi già.",
-   "rd": "로 쏘, 또르니 프레스또. 마 미 만끼 쟈.",
-   "ko": "알아, 금방 오잖아. 근데 벌써 보고 싶어.",
-   "note": "mi manchi = 네가 보고 싶어(mancare)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [
-    "mancare"
-   ],
-   "emotion": "sad",
-   "lemmas": [
-    [
-     "so",
-     "sapere",
-     ""
-    ],
-    [
-     "torni",
+     "torna",
      "tornare",
      ""
     ],
     [
-     "presto",
-     "presto",
-     ""
-    ],
-    [
-     "manchi",
-     "mancare",
-     ""
-    ],
-    [
-     "già",
-     "già",
+     "subito",
+     "subito",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "08:16"
+   "at": "08:11",
+   "grok": true,
+   "it": "Senti, torna subito!",
+   "ko": "들어, 바로 돌아와!",
+   "rd": "쎈띠, 또르나 쑤비또!",
+   "emotion": "excited"
   },
   {
-   "num": 8,
+   "num": 4,
    "speaker": "A",
-   "it": "Anche tu mi manchi. Torno presto, dai.",
-   "rd": "안께 뚜 미 만끼. 또르노 프레스또, 다이.",
-   "ko": "나도 보고 싶어. 금방 올게, 진짜로.",
-   "note": "torno = 나 돌아와(torni → torno)",
+   "note": "Ma dai = 정말",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "appena",
+     "appena",
+     ""
+    ],
+    [
+     "posso",
+     "potere",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:12",
+   "grok": true,
+   "it": "Ma dai, appena posso.",
+   "ko": "정말, 할 수 있으면 바로.",
+   "rd": "마 다이, 아뻬나 뽀쏘.",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "note": "al ritorno = 돌아오면",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "emotion": "gentle",
    "lemmas": [
     [
-     "manchi",
-     "mancare",
+     "vediamo",
+     "vedere",
+     ""
+    ],
+    [
+     "ritorno",
+     "ritorno",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:15",
+   "grok": true,
+   "it": "Ci vediamo al ritorno.",
+   "ko": "돌아오면 보자.",
+   "rd": "치 베디아모 알 리또르노.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "note": "troppo lontano = 너무 먼",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "troppo",
+     "troppo",
+     ""
+    ],
+    [
+     "lontano",
+     "lontano",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:15",
+   "grok": true,
+   "it": "No, è troppo lontano. 😢",
+   "ko": "아니, 너무 멀어. 😢",
+   "rd": "노, 에 트로뽀 론따노. 😢",
+   "emotion": "sad"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "Cioè = 즉",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "cioè",
+     "cioè",
+     ""
+    ],
+    [
+     "voglio",
+     "volere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:16",
+   "grok": true,
+   "it": "Cioè, ti voglio qui ora.",
+   "ko": "즉, 지금 여기 있었으면.",
+   "rd": "쵸에, 띠 볼리오 뀌 오라.",
+   "emotion": "sad"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "note": "Tranquill{o|a} = 진정해",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
      ""
     ],
     [
@@ -316,7 +279,15 @@
     ]
    ],
    "ui": "bubble",
-   "at": "08:17"
+   "at": "08:17",
+   "grok": true,
+   "it": "Tranquillo, torno presto. 💕",
+   "ko": "진정해, 곧 돌아올게. 💕",
+   "rd": "트란뀔로, 또르노 프레스또. 💕",
+   "it_f": "Tranquilla, torno presto. 💕",
+   "ko_f": "진정해, 곧 돌아올게. 💕",
+   "rd_f": "트란뀔라, 또르노 프레스또. 💕",
+   "emotion": "gentle"
   }
  ]
 }

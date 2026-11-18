@@ -204,6 +204,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 회화·언어감각 JSON 은 `ScriptSync`(`lib/services/script_sync.dart`)로 읽는다 — 앱 켤 때마다 `https://auth.talkverse.uk/art/script/it/index.json` 확인(15초), 서버 rev 가 앱 안 `assets/data/script_rev.json` 보다 클 때만 바뀐 파일을 받는다. 규격 = 일본어앱 `docs/CONTENT_SYNC.md` §6.
 - 원고를 고쳐 내보내기: `python3 tools/script_publish.py`(보기) → `--publish`(턴 잠금 검사 → R2 → rev+1) → **`script_rev.json` 커밋**. 편 id·턴 번호는 다시 매기지 않는다(`tools/turn_lock.py`, `data/review/turn_lock_it.json`). R2 쓰기는 자동 모드가 막을 수 있다 — 사용자 승인 뒤.
 - 회화 65편(레벨 0~5: 12·14·12·12·8·7, 일본어앱의 30%를 급마다) = Claude 초안. **대사는 Grok 이 쓰고 그대로 붙여 넣는다**(사용자 지시 11-18, uk 전달 — Claude 는 상황·인물·반전·단어 배치까지, 형식·독음·감정·검사기만 손댐). Grok 순서는 uk 가 준다(it = 6번).
+- **2026-11-19 Grok 재작성 65편 완료**(M4 9238 「빠른」, 방 하나에 15편). `python3 tools/grok/it_dialogue_txt.py export` → 대사·한국어·note 칸을 비운 뼈대 `data/review/grok/skel/` → `zsh tools/grok/rewrite_all.sh`(규칙 첨부 `tools/grok/rewrite_grok_it.md`, 결과 `data/review/grok/out/`) → `it_dialogue_txt.py import`(성별 `{o|a}` → it/it_f, 감정 조각 → segs) → `~/venvs/spacy-it/bin/python tools/add_lemmas.py` → `check_dialogues.py --fix-rd`. Grok 이 비운 note 93줄·레마 4줄은 Claude 가 채움(대사 아님). 뼈대 표시어(Ignore·Slip·Chaos)를 대사에 쓴 4편은 Grok 에 다시 요청.
 - 레벨 표시 `DialogueService.levelKo`(레벨 0 첫걸음 … 레벨 5 어휘 완성) — 단어 메뉴의 절벽 R1~R5 와 번호가 다르다.
 - 언어감각 과정 `assets/data/grammar/sense_course.json` + `lib/screens/sense_course_screen.dart`(영상 칸 `video` 비면 「영상 준비 중」, `video_player`). 외국어 단어 퀴즈는 단어장이 비어 있어(§11) 넣지 않음.
 - CI Flutter 는 3.47.7 고정(stable 새 판은 Gradle 9.3.1 을 요구해 실패).

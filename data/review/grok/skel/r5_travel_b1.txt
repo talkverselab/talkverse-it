@@ -1,0 +1,26 @@
+=== r5_travel_b1
+level: R5
+kind: long
+title: 비수기의 배
+emoji: ⛴️
+scene: 늦가을, 줄리아와 섬으로 가는 배. 하늘은 흐리고 바람이 분다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 11 slip
+goal: 어휘 주제 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 표현 Guarda·Tranquillo/a·Te l'avevo detto
+expressions: Guarda; Tranquillo; Te l'avevo detto
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:5,step:6
+A | ___ | ___ | ___ | emotion=worried | tags=step:5
+B | ___ | ___ | ___ | emotion=teasing | tags=step:6
+A | ___ | ___ | ___ | emotion=worried | tags=step:5,step:6
+B | ___ | ___ | ___ | emotion=teasing | tags=step:5,step:6
+A | ___ | ___ | ___ | emotion=worried+amused | tags=step:3,step:5
+B | ___ | ___ | ___ | emotion=worried | tags=step:3
+A | ___ | ___ | ___ | emotion=sad | tags=step:3
+B | ___ | ___ | ___ | emotion=teasing | tags=step:3
+A | ___ | ___ | ___ | emotion=amused | tags=step:3
+B | ___ | ___ | ___ | emotion=teasing+shy | tags=step:4,step:6,twist
+A | ___ | ___ | ___ | emotion=surprised+flustered | tags=step:3,step:4
+B | ___ | ___ | ___ | emotion=shy | tags=step:4,step:6
+A | ___ | ___ | ___ | emotion=gentle | tags=step:6

@@ -1,0 +1,20 @@
+=== r2_life_c2
+level: R2
+kind: chat
+title: 열쇠는 어디에
+emoji: 🔑
+scene: 밤 열한 시, 자려던 학습자에게 룸메이트 루카가 다급하게 문자를 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 채팅 반말
+twist: 6 chaos
+goal: 챗 상황 4 늦음 · 8 오해 · 7 농담 · 표현 Ti prego · Mamma mia · Tranquillo · 통문장 non ce l'ho
+expressions: Ti prego; Mamma mia; Tranquillo
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=worried | tags=step:4 | at=23:12
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:4 | at=23:13
+B | ___ | ___ | ___ | emotion=sad | tags=step:4 | at=23:13
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:4 | at=23:14
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:4 | at=23:25
+B | ___ | ___ | ___ | emotion=flustered | tags=step:8,twist | at=23:26
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:8 | at=23:26
+B | ___ | ___ | ___ | emotion=flustered | tags=step:7 | at=23:27

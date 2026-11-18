@@ -1,0 +1,20 @@
+=== r2_life_c1
+level: R2
+kind: short
+title: 오늘 저녁은 내가
+emoji: 🍳
+scene: 저녁 여섯 시, 룸메이트 루카가 오늘은 자기가 요리하겠다고 문자를 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 6 chaos
+goal: 챗 상황 7 농담 · 6 취소 · 표현 Davvero · Tranquillo
+expressions: Davvero; Tranquillo
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=excited | tags=step:3 | at=18:05
+A | ___ | ___ | ___ | emotion=teasing | tags=step:7 | at=18:06
+B | ___ | ___ | ___ | emotion=teasing | tags=step:7 | at=18:06
+B | ___ | ___ | ___ | emotion=flustered | tags=step:6 | at=19:20
+A | ___ | ___ | ___ | emotion=worried | tags=step:6 | at=19:20
+B | ___ | ___ | ___ | emotion=flustered+cheerful | tags=step:6,twist | at=19:21
+A | ___ | ___ | ___ | emotion=shout | tags=step:6 | at=19:21
+B | ___ | ___ | ___ | emotion=gentle | tags=step:6 | at=19:22

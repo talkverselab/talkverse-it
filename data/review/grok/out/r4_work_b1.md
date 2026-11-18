@@ -1,0 +1,27 @@
+=== r4_work_b1
+level: R4
+kind: long
+title: 스무 분짜리 영상
+emoji: 🎬
+scene: 로마의 작은 회사 면접. 사장이 늦는다며 한 여성이 커피를 권하고, 학습자는 긴장이 풀려 회사 험담을 시작한다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Signora Conti(여)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 13 reveal
+goal: 어려운 문법 1 접속법(prima che arrivi·speriamo che abbia) · 3 조건법(toglierei) · 7 결합 대명사(me l'ha) · 존댓말 Lei
+expressions: Si accomodi; Mi scusi; Addirittura; per la cronaca
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | Si accomodi pure. Il capo arriva tra poco. | 편히 앉으세요. 사장님은 곧 오십니다. |  | emotion=polite | tags=
+A | Grazie. Mi scusi se sono un po' in anticipo. | 감사합니다. 좀 일찍 와서 죄송합니다. |  | emotion=stiff | tags=
+B | Non si preoccupi. Vuole un caffè intanto? | 괜찮아요. 그동안 커피 한 잔 하실래요? |  | emotion=polite | tags=
+A | Sì, volentieri. // Sono un po' nervos{o|a}. | 네, 좋아요. // 좀 긴장돼요. |  | emotion=stiff+cheerful | tags=
+B | Speriamo che abbia finito la riunione presto. | 회의를 빨리 끝내셨으면 좋겠네요. | abbia finito = 끝내셨으면 (접속법) | emotion=polite | tags=step:1
+A | Toglierei quel video dal sito, per la cronaca. | 솔직히 그 영상은 사이트에서 빼겠어요. | toglierei = 빼겠어요 (조건법) | emotion=amused | tags=step:3
+B | Addirittura? Quale video intende? | 그렇게까지요? 어떤 영상 말씀하시는 거죠? |  | emotion=polite | tags=
+A | Quello di venti minuti. // È lunghissimo e noioso. | 스무 분짜리요. // 엄청 길고 지루해요. |  | emotion=amused+teasing | tags=
+B | Prima che arrivi, mi dica pure cosa pensa. | 오시기 전에, 어떻게 생각하시는지 말씀해 주세요. | arrivi = 오시기 전에 (접속법) | emotion=polite | tags=step:1
+A | Penso che sia da rifare completamente. | 완전히 다시 만들어야 한다고 생각해요. | sia = ~이라고 (접속법) | emotion=amused | tags=step:1
+B | Capisco. Ha già visto altri lavori nostri? | 알겠어요. 우리 다른 작업들도 보셨나요? |  | emotion=neutral | tags=
+A | Sì, e non mi hanno convinto molto. | 네, 그리고 별로 설득이 안 됐어요. |  | emotion=worried | tags=
+B | Me l'ha detto anche il capo. // Sono io. | 사장님도 저한테 그렇게 말씀하셨어요. // 제가 그 사람이에요. | me l'ha = 그것을 저에게 | emotion=neutral+teasing | tags=step:7,twist
+A | Oddio… Mi scusi, non sapevo. | 어머… 죄송합니다, 몰랐어요. |  | emotion=flustered | tags=
+B | Tranquill{o|a}. Me l'ha già fatto capire. // Va bene così. | 괜찮아요. 이미 알려 주셨으니까요. // 이 정도면 돼요. | me l'ha = 그것을 저에게 | emotion=gentle+gentle | tags=step:7

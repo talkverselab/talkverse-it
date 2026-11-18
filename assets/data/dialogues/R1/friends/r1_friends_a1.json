@@ -3,14 +3,13 @@
  "region": "R1",
  "island": "friends",
  "kind": "short",
- "draft": true,
  "purpose": [
   "friends"
  ],
  "domain": [
   "friends"
  ],
- "title": "폰은 어디 갔지?",
+ "title": "젤라토 속에 폰?!",
  "emoji": "📱",
  "scene": "토요일 오후 셰어하우스. 젤라토를 사 들고 놀러 온 키아라가 갑자기 폰이 없다고 난리다",
  "speakers": {
@@ -32,19 +31,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Mamma mia, non trovo il mio telefono!",
-   "rd": "맘마 미아, 논 트로보 일 미오 뗄레포노!",
-   "ko": "어떡해, 내 폰이 안 보여!",
-   "note": "trovo = 나 찾다(trovare)",
+   "note": "trovo = 찾다",
    "tags": [
     "step:3"
    ],
    "new": [],
-   "emotion": "worried",
    "lemmas": [
     [
      "mamma",
      "mamma",
+     ""
+    ],
+    [
+     "non",
+     "non",
      ""
     ],
     [
@@ -57,20 +57,21 @@
      "telefono",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Mamma mia, non trovo il telefono!",
+   "ko": "마마미아, 폰을 못 찾겠어!",
+   "rd": "맘마 미아, 논 트로보 일 뗄레포노!",
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Tranquilla, lo chiamo io.",
-   "rd": "트란뀔라, 로 끼아모 이오.",
-   "ko": "진정해, 내가 전화 걸어 볼게.",
-   "note": "lo chiamo = 그걸 전화 건다(lo = 그것)",
+   "note": "lo = 그것",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "gentle",
    "lemmas": [
     [
      "tranquilla",
@@ -82,56 +83,25 @@
      "chiamare",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Tranquilla, lo chiamo io.",
+   "ko": "진정해, 내가 전화할게.",
+   "rd": "트란뀔라, 로 끼아모 이오.",
+   "emotion": "gentle"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Dai, chiama! Senti qualcosa?",
-   "rd": "다이, 끼아마! 쎈띠 꽐꼬자?",
-   "ko": "빨리 걸어 봐! 뭐 들려?",
-   "note": "senti = 너 들리다(sentire) — 4턴 sento(나)",
+   "note": "sento = 듣다",
    "tags": [
     "step:3"
    ],
    "new": [],
-   "emotion": "excited",
    "lemmas": [
     [
      "chiama",
      "chiamare",
-     ""
-    ],
-    [
-     "senti",
-     "sentire",
-     ""
-    ],
-    [
-     "qualcosa",
-     "qualcosa",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Aspetta... sento una musica. Dal frigo?",
-   "rd": "아스뻬따... 쎈또 우나 무지까. 달 프리고?",
-   "ko": "잠깐… 음악 소리 나. 냉장고에서?",
-   "note": "dal = ~에서(da + il)",
-   "tags": [
-    "step:4"
-   ],
-   "new": [
-    "frigo"
-   ],
-   "emotion": "surprised",
-   "lemmas": [
-    [
-     "aspetta",
-     "aspettare",
      ""
     ],
     [
@@ -140,60 +110,97 @@
      ""
     ],
     [
-     "musica",
-     "musica",
+     "qui",
+     "qui",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Dai, chiama! Lo sento qui!",
+   "ko": "자, 전화해! 여기서 들려!",
+   "rd": "다이, 끼아마! 로 쎈또 뀌!",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "note": "nel = in + il",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sacchetto",
+     "sacchetto",
      ""
     ],
     [
-     "frigo",
-     "frigo",
+     "gelato",
+     "gelato",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Cosa? Nel sacchetto del gelato?",
+   "ko": "뭐? 젤라토 봉지 안에?",
+   "rd": "꼬자? 넬 싸께또 델 젤라또?",
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Dal frigo? Ma che dici?",
-   "rd": "달 프리고? 마 께 디치?",
-   "ko": "냉장고에서? 무슨 소리야?",
-   "note": "dici = 너 말한다(dire)",
+   "note": "so = 알다",
    "tags": [
     "step:9"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "frigo",
-     "frigo",
+     "non",
+     "non",
      ""
     ],
     [
-     "dici",
-     "dire",
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "sta",
+     "stare",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Non so dove sta!",
+   "ko": "어디 있는지 모르겠어!",
+   "rd": "논 쏘 도베 스따!",
+   "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Ecco, trovato! È nel frigo. Ma... dov'è il gelato?",
-   "rd": "에꼬, 트로바또! 에 넬 프리고. 마... 도베 일 젤라또?",
-   "ko": "찾았다! 냉장고 안에 있어. 근데… 젤라토는 어디 있어?",
-   "note": "trovato = 찾았다(trovare 과거분사) — 1턴 trovo, nel = in + il",
+   "note": "trovato = 찾았다",
    "tags": [
     "step:4",
     "step:5"
    ],
-   "new": [
-    "gelato"
-   ],
+   "new": [],
    "lemmas": [
     [
      "ecco",
      "ecco",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
      ""
     ],
     [
@@ -202,34 +209,30 @@
      ""
     ],
     [
-     "frigo",
-     "frigo",
-     ""
-    ],
-    [
-     "gelato",
-     "gelato",
+     "sacchetto",
+     "sacchetto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ecco! L'ho trovato nel sacchetto!",
+   "ko": "여기! 봉지에서 찾았어!",
+   "rd": "에꼬! 로 트로바또 넬 싸께또!",
    "segs": [
     [
      "amused",
-     "Ecco, trovato! È nel frigo."
+     "Ecco!"
     ],
     [
      "surprised",
-     " Ma... dov'è il gelato?"
+     " L'ho trovato nel sacchetto!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ah, sì! Ho messo il telefono nel frigo e...",
-   "rd": "아, 씨! 오 메쏘 일 뗄레포노 넬 프리고 에...",
-   "ko": "아, 맞다! 폰은 냉장고에 넣고…",
-   "note": "ho messo = 넣었다(mettere 근과거)",
+   "note": "messo = 넣었다",
    "tags": [
     "step:5",
     "step:4"
@@ -237,81 +240,75 @@
    "new": [],
    "lemmas": [
     [
-     "ho messo",
+     "oh",
+     "oh",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "messo",
      "mettere",
      ""
     ],
     [
-     "telefono",
-     "telefono",
-     ""
-    ],
-    [
-     "frigo",
-     "frigo",
+     "gelato",
+     "gelato",
      ""
     ]
    ],
-   "segs": [
-    [
-     "surprised",
-     "Ah, sì! Ho messo il telefono"
-    ],
-    [
-     "flustered",
-     " nel frigo e..."
-    ]
-   ]
+   "grok": true,
+   "it": "Oh no, l'ho messo nel gelato!",
+   "ko": "아 안 돼, 젤라토 안에 넣었어!",
+   "rd": "오 노, 로 메쏘 넬 젤라또!",
+   "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "...il gelato nella mia borsa. Vorrei un altro gelato.",
-   "rd": "...일 젤라또 넬라 미아 보르싸. 보레이 운 알트로 젤라또.",
-   "ko": "…젤라토는 내 가방에 넣었어. 젤라토 하나 더 먹고 싶다.",
-   "note": "vorrei = ~하고 싶은데(volere 조건) · nella = in + la",
+   "note": "farò = 하겠다",
    "tags": [
     "step:10",
     "step:4"
    ],
-   "new": [
-    "borsa"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "gelato",
-     "gelato",
+     "mamma",
+     "mamma",
      ""
     ],
     [
-     "mia",
-     "mio",
+     "è",
+     "essere",
      ""
     ],
     [
-     "borsa",
-     "borsa",
+     "telefono",
+     "telefono",
      ""
     ],
     [
-     "vorrei",
-     "volere",
-     ""
-    ],
-    [
-     "altro",
-     "altro",
+     "farò",
+     "fare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mamma mia, è sul telefono! Farò un altro.",
+   "ko": "마마미아, 폰 위에 있어! 새로 사올게.",
+   "rd": "맘마 미아, 에 쑬 뗄레포노! 파로 운 알트로.",
    "segs": [
     [
      "sad",
-     "...il gelato nella mia borsa."
+     "Mamma mia, è sul telefono!"
     ],
     [
      "cheerful",
-     " Vorrei un altro gelato."
+     " Farò un altro."
     ]
    ]
   }

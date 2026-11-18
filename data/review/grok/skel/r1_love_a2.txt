@@ -1,0 +1,20 @@
+=== r1_love_a2
+level: R1
+kind: short
+title: 우리 저녁, 누가 먹었어?
+emoji: 🍝
+scene: 셰어하우스 거실. 학습자가 하루 종일 저녁을 차려 놓고 줄리아를 초대했다. 룸메이트 루카는 나갔다고 했는데…
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 5 chaos
+goal: 골격 단계 1·2·4·5·10 · 굴절 반복 ho fatto/hai fatto · ho mangiato/hai mangiato · tutto/tutta · 표현 Ecco · Mamma mia · Lascia stare
+expressions: Ecco; Mamma mia; Lascia stare
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+A | ___ | ___ | ___ | emotion=excited | tags=step:5
+B | ___ | ___ | ___ | emotion=surprised | tags=step:5
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:1
+B | ___ | ___ | ___ | emotion=shy | tags=step:2
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:5,twist
+A | ___ | ___ | ___ | emotion=shout | tags=step:5
+C | ___ | ___ | ___ | emotion=flustered | tags=step:4
+B | ___ | ___ | ___ | emotion=amused+gentle | tags=step:10

@@ -1,0 +1,18 @@
+=== r0_love_a2
+level: R0
+kind: short
+title: 잠이 안 와
+emoji: 🌙
+scene: 밤 12시, 셰어하우스 부엌. 물 마시러 나온 학습자 앞에 줄리아가 먼저 와 있다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 reveal
+goal: 도구획득 · 짧은 반말 회화 · 표현 Senti · Davvero
+expressions: Senti; Davvero
+B | Oh! Sei qui anche tu. | 어! 너도 여기 있네. | sei = 이다 | emotion=surprised | tags=
+A | Sì, bevo acqua. | 응, 물 마시러. | bevo = 마시다 | emotion=gentle | tags=
+B | Non dormo... | 잠이 안 와... | dormo = 자다 | emotion=worried | tags=
+A | Senti, cosa c'è? | 들어, 무슨 일이야? | Senti = 들어 | emotion=gentle | tags=
+B | Penso a te. | 너 생각해. | penso = 생각하다 | emotion=shy | tags=
+A | Davvero? Io? | 진짜? 나? | Davvero = 진짜 | emotion=surprised | tags=
+B | Sì... da tanto. | 응... 오래전부터. | da = 부터 | emotion=shy | tags=twist

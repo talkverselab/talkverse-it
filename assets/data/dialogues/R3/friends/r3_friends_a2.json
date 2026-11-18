@@ -22,7 +22,6 @@
   "Tranquilli"
  ],
  "goal": "그래머2: R1 같은 문장을 복수로 — avete preso · siamo andati/andate · siamo tornati/tornate · avete lasciato/abbiamo lasciato · tranquilli/tranquille (새 단어 0) · 표현 Allora · Tranquilli",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -33,16 +32,11 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Allora? Avete preso il mio scooter?",
-   "rd": "알로라? 아베떼 프레조 일 미오 스쿠테르?",
-   "ko": "그래서? 너희 내 스쿠터 타고 갔어?",
-   "note": "avete preso = 너희 가져갔다(prendere 근과거)",
+   "note": "Allora = 그럼",
    "tags": [
     "step:5"
    ],
-   "new": [
-    "scooter"
-   ],
+   "new": [],
    "lemmas": [
     [
      "allora",
@@ -50,7 +44,12 @@
      ""
     ],
     [
-     "avete preso",
+     "avete",
+     "avere",
+     ""
+    ],
+    [
+     "preso",
      "prendere",
      ""
     ],
@@ -60,44 +59,50 @@
      ""
     ]
    ],
-   "emotion": "teasing",
-   "rd_manual": true
+   "grok": true,
+   "it": "Allora, avete preso lo scooter?",
+   "ko": "그럼, 스쿠터 탔어?",
+   "rd": "알로라, 아베떼 프레조 로 스꼬오떼르?",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "C",
-   "it": "Sì! Siamo andati da Giulia. Bellissimo!",
-   "rd": "씨! 씨아모 안다띠 다 줄리아. 벨리씨모!",
-   "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
-   "note": "siamo andati = 우리 갔다(혼성 복수 -i)",
+   "note": "andat{i|e} = 간",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "siamo andati",
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "andati",
      "andare",
      ""
     ],
     [
-     "bellissimo",
-     "bello",
+     "centro",
+     "centro",
      ""
     ]
    ],
-   "emotion": "excited",
-   "it_f": "Sì! Siamo andate da Giulia. Bellissimo!",
-   "ko_f": "응! 줄리아네 갔다 왔어. 끝내줬어!",
-   "rd_f": "씨! 씨아모 안다떼 다 줄리아. 벨리씨모!"
+   "grok": true,
+   "it": "Sì, siamo andati in centro!",
+   "ko": "응, 시내로 갔어!",
+   "rd": "씨, 씨아모 안다띠 인 첸트로!",
+   "it_f": "Sì, siamo andate in centro!",
+   "ko_f": "응, 시내로 갔어!",
+   "rd_f": "씨, 씨아모 안다떼 인 첸트로!",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "E dove l'avete lasciato? Non lo vedo.",
-   "rd": "에 도베 라베떼 라샤또? 논 로 베도.",
-   "ko": "근데 어디 두고 왔어? 안 보이는데.",
-   "note": "l'avete lasciato = 너희 그걸 두고 왔다(lasciare 근과거)",
+   "note": "avete lasciato = 너희가 두고 왔다(lasciare, voi)",
    "tags": [
     "step:5",
     "step:7"
@@ -105,32 +110,38 @@
    "new": [],
    "lemmas": [
     [
-     "avete lasciato",
-     "lasciare",
+     "avete",
+     "avere",
      ""
     ],
     [
-     "vedo",
-     "vedere",
+     "lasciato",
+     "lasciare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "L'avete lasciato da Giulia?",
+   "ko": "줄리아네 두고 왔어?",
+   "rd": "라베떼 라샤또 다 줄리아?",
    "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Ehm... siamo tornati a piedi.",
-   "rd": "엠... 씨아모 또르나띠 아 삐에디.",
-   "ko": "음… 둘 다 걸어서 왔어.",
-   "note": "siamo tornati = 우리 돌아왔다(혼성 복수 -i)",
+   "note": "tornat{i|e} = 돌아온",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "siamo tornati",
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "tornati",
      "tornare",
      ""
     ],
@@ -140,49 +151,50 @@
      ""
     ]
    ],
-   "emotion": "flustered",
-   "it_f": "Ehm... siamo tornate a piedi.",
-   "ko_f": "음… 둘 다 걸어서 왔어.",
-   "rd_f": "엠... 씨아모 또르나떼 아 삐에디."
+   "grok": true,
+   "it": "No, siamo tornati a piedi.",
+   "ko": "아니, 걸어서 돌아왔어.",
+   "rd": "노, 씨아모 또르나띠 아 삐에디.",
+   "it_f": "No, siamo tornate a piedi.",
+   "ko_f": "아니, 걸어서 돌아왔어.",
+   "rd_f": "노, 씨아모 또르나떼 아 삐에디.",
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "A piedi? E il mio scooter?!",
-   "rd": "아 삐에디? 에 일 미오 스쿠테르?!",
-   "ko": "걸어서? 그럼 내 스쿠터는?!",
-   "note": "il mio = 내(관사 + 소유)",
+   "note": "i telefoni = 폰들(il telefono 복수)",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "piedi",
-     "piede",
+     "telefoni",
+     "telefono",
      ""
     ],
     [
-     "mio",
-     "mio",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "scooter",
-     "scooter",
+     "sono",
+     "essere",
      ""
     ]
    ],
-   "emotion": "shout",
-   "rd_manual": true
+   "grok": true,
+   "it": "I telefoni? Dove sono?",
+   "ko": "폰들? 어디 있어?",
+   "rd": "이 뗄레포니? 도베 쏘노?",
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "C",
-   "it": "L'abbiamo lasciato lì. Con la chiave.",
-   "rd": "라비아모 라샤또 리. 꼰 라 끼아베.",
-   "ko": "거기 두고 왔어. 열쇠까지 꽂아서.",
-   "note": "l'abbiamo lasciato = 우리 그걸 두고 왔다(3턴 avete ↔ abbiamo)",
+   "note": "lasciati = 둔",
    "tags": [
     "step:5",
     "step:7"
@@ -190,7 +202,12 @@
    "new": [],
    "lemmas": [
     [
-     "abbiamo lasciato",
+     "abbiamo",
+     "avere",
+     ""
+    ],
+    [
+     "lasciati",
      "lasciare",
      ""
     ],
@@ -198,22 +215,18 @@
      "lì",
      "lì",
      ""
-    ],
-    [
-     "chiave",
-     "chiave",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "Li abbiamo lasciati lì.",
+   "ko": "거기에 두고 왔어.",
+   "rd": "리 아비아모 라샤띠 리.",
    "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Tranquilli. Vado io da Giulia, adesso.",
-   "rd": "트란뀔리. 바도 이오 다 줄리아, 아데쏘.",
-   "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
-   "note": "tranquilli = 걱정 마(너희, 혼성 -i)",
+   "note": "Tranquilli = 진정해",
    "tags": [
     "step:9"
    ],
@@ -225,54 +238,51 @@
      ""
     ],
     [
-     "vado",
+     "va",
      "andare",
      ""
     ],
     [
-     "adesso",
-     "adesso",
+     "bene",
+     "bene",
      ""
     ]
    ],
-   "emotion": "gentle",
-   "it_f": "Tranquille. Vado io da Giulia, adesso.",
-   "ko_f": "걱정 마. 내가 지금 줄리아네 갈게.",
-   "rd_f": "트란뀔레. 바도 이오 다 줄리아, 아데쏘."
+   "grok": true,
+   "it": "Tranquilli, va bene.",
+   "ko": "진정해, 괜찮아.",
+   "rd": "트란뀔리, 바 베네.",
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Aspetta. Perché ti fai così bello?",
-   "rd": "아스뻬따. 뻬르께 띠 파이 꼬지 벨로?",
-   "ko": "잠깐. 너 왜 그렇게 빼입는데?",
-   "note": "ti fai bello = 꾸민다(fare)",
+   "note": "ancora lì = 아직 거기",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "aspetta",
-     "aspettare",
+     "è",
+     "essere",
      ""
     ],
     [
-     "fai",
-     "fare",
+     "ancora",
+     "ancora",
      ""
     ],
     [
-     "così",
-     "così",
-     ""
-    ],
-    [
-     "bello",
-     "bello",
+     "lì",
+     "lì",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ma dai, è ancora lì!",
+   "ko": "정말, 아직 거기 있어!",
+   "rd": "마 다이, 에 안꼬라 리!",
    "emotion": "tsukkomi"
   }
  ]

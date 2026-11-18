@@ -23,7 +23,6 @@
   "Infatti"
  ],
  "goal": "어려운 문법 3 조건법 과거(sarei venuto·avrei voluto·avrebbe dovuto) · 6 대과거(ti avevo detto·mi aveva detto) · 10 관계사 chi·di cui · 9 재귀 근과거 · 문화 일요일 점심·스파게티는 자르지 않는다 · 존댓말 Lei · 표현 Tranquillo·Mamma mia·Infatti",
- "draft": true,
  "purpose": [
   "culture"
  ],
@@ -34,30 +33,12 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Finalmente! Ti avevo detto l'una, sono quasi le due.",
-   "rd": "피날멘떼! 띠 아베보 데또 루나, 쏘노 꽈지 레 두에.",
-   "ko": "드디어! 한 시라고 했잖아, 벌써 두 시 다 됐어.",
-   "note": "ti avevo detto = 내가 말했었다(대과거)",
+   "note": "ti avevo detto = 너에게 말했었다",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "segs": [
-    [
-     "annoyed",
-     "Finalmente!"
-    ],
-    [
-     "teasing",
-     " Ti avevo detto l'una, sono quasi le due."
-    ]
-   ],
    "lemmas": [
-    [
-     "finalmente",
-     "finalmente",
-     ""
-    ],
     [
      "avevo",
      "avere",
@@ -69,52 +50,45 @@
      ""
     ],
     [
-     "sono",
-     "essere",
+     "arrivare",
+     "arrivare",
      ""
     ],
     [
-     "quasi",
-     "quasi",
-     ""
-    ],
-    [
-     "due",
-     "due",
+     "presto",
+     "presto",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ti avevo detto di arrivare presto!",
+   "ko": "너 일찍 오라고 말했었잖아!",
+   "rd": "띠 아베보 데또 디 아리바레 프레스또!",
+   "emotion": "annoyed"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Scusa, mi sono perso per strada. Sarei venuto prima, davvero.",
-   "rd": "스꾸자, 미 쏘노 뻬르쏘 뻬르 스트라다. 싸레이 베누또 프리마, 다베로.",
-   "ko": "미안, 길을 잃었어. 진짜 더 일찍 오려고 했는데.",
-   "note": "sarei venuto/a = 왔을 텐데(조건법 과거) · mi sono perso/a = 길을 잃었다",
+   "note": "mi sono sbagliat{o|a} = 제가 착각했다",
    "tags": [
     "step:9",
     "step:3"
    ],
    "new": [],
-   "it_f": "Scusa, mi sono persa per strada. Sarei venuta prima, davvero.",
-   "rd_f": "스꾸자, 미 쏘노 뻬르싸 뻬르 스트라다. 싸레이 베누따 프리마, 다베로.",
-   "ko_f": "미안, 길을 잃었어. 진짜 더 일찍 오려고 했는데.",
-   "emotion": "flustered",
    "lemmas": [
     [
-     "scusa",
-     "scusare",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "perso",
-     "perdere",
+     "sbagliato",
+     "sbagliare",
      ""
     ],
     [
-     "strada",
-     "strada",
+     "sarei",
+     "saere",
      ""
     ],
     [
@@ -123,38 +97,29 @@
      ""
     ],
     [
-     "davvero",
-     "davvero",
+     "prima",
+     "prima",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Mi sono sbagliato, sarei venuto prima.",
+   "ko": "제가 착각했어요, 더 일찍 왔을 텐데요.",
+   "rd": "미 쏘노 스발리아또, 싸레이 베누또 프리마.",
+   "it_f": "Mi sono sbagliata, sarei venuta prima.",
+   "ko_f": "제가 착각했어요, 더 일찍 왔을 텐데요.",
+   "rd_f": "미 쏘노 스발리아따, 싸레이 베누따 프리마.",
+   "emotion": "flustered"
   },
   {
    "num": 3,
    "speaker": "C",
-   "it": "Tranquillo, caro. Ma da noi chi arriva tardi mangia quello che resta.",
-   "rd": "트란뀔로, 까로. 마 다 노이 끼 아리바 따르디 만쟈 꿸로 께 레스따.",
-   "ko": "괜찮아. 근데 우리 집에선 늦게 온 사람은 남은 걸 먹어요.",
-   "note": "chi = ~하는 사람(관계사)",
+   "note": "chi = 누구",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "it_f": "Tranquilla, cara. Ma da noi chi arriva tardi mangia quello che resta.",
-   "rd_f": "트란뀔라, 까라. 마 다 노이 끼 아리바 따르디 만쟈 꿸로 께 레스따.",
-   "ko_f": "괜찮아. 근데 우리 집에선 늦게 온 사람은 남은 걸 먹어요.",
-   "emotion": "teasing",
    "lemmas": [
-    [
-     "tranquillo",
-     "tranquillo",
-     ""
-    ],
-    [
-     "caro",
-     "caro",
-     ""
-    ],
     [
      "arriva",
      "arrivare",
@@ -171,29 +136,30 @@
      ""
     ],
     [
-     "resta",
-     "restare",
+     "freddo",
+     "freddo",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Chi arriva tardi, mangia freddo.",
+   "ko": "늦게 오는 사람은 찬 음식을 먹어요.",
+   "rd": "끼 아리바 따르디, 만쟈 프레도.",
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Va benissimo. Avrei voluto portarLe un dolce, ma era già tutto chiuso.",
-   "rd": "바 베니씨모. 아브레이 볼루또 뽀르따를레 운 돌체, 마 에라 쟈 뚜또 끼우조.",
-   "ko": "완전 좋아요. 디저트라도 사 오고 싶었는데 벌써 다 닫았더라고요.",
-   "note": "avrei voluto = ~하고 싶었는데(조건법 과거)",
+   "note": "avrei voluto = 원했을 것이다",
    "tags": [
     "step:3",
     "step:5"
    ],
    "new": [],
-   "emotion": "polite",
    "lemmas": [
     [
-     "benissimo",
-     "bene",
+     "avrei",
+     "avere",
      ""
     ],
     [
@@ -202,56 +168,35 @@
      ""
     ],
     [
-     "portarLe",
-     "portare",
+     "arrivare",
+     "arrivare",
      ""
     ],
     [
-     "dolce",
-     "dolce",
-     ""
-    ],
-    [
-     "era",
-     "essere",
-     ""
-    ],
-    [
-     "chiuso",
-     "chiudere",
+     "orario",
+     "orario",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Avrei voluto arrivare in orario.",
+   "ko": "정시에 도착하고 싶었을 텐데요.",
+   "rd": "아브레이 볼루또 아리바레 인 오라리오.",
+   "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "C",
-   "it": "Non fa niente. Ecco gli spaghetti di cui ti aveva parlato Giulia.",
-   "rd": "논 파 니엔떼. 에꼬 리 스빠게띠 디 꾸이 띠 아베바 빠를라또 줄리아.",
-   "ko": "괜찮아요. 자, 줄리아가 얘기했던 그 스파게티예요.",
-   "note": "di cui = ~에 대해(관계사) · aveva parlato = 얘기했었다",
+   "note": "mi aveva detto = 제게 말했었다",
    "tags": [
     "step:10",
     "step:6"
    ],
-   "new": [
-    "spaghetti"
-   ],
-   "emotion": "cheerful",
+   "new": [],
    "lemmas": [
     [
-     "fa",
-     "fare",
-     ""
-    ],
-    [
-     "niente",
-     "niente",
-     ""
-    ],
-    [
-     "spaghetti",
-     "spaghetti",
+     "infatti",
+     "infatti",
      ""
     ],
     [
@@ -260,111 +205,113 @@
      ""
     ],
     [
-     "parlato",
-     "parlare",
+     "detto",
+     "dire",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Infatti, mi aveva detto Giulia.",
+   "ko": "맞아요, 줄리아가 제게 말했었어요.",
+   "rd": "인파띠, 미 아베바 데또 줄리아.",
+   "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Mamma mia, che roba! Posso tagliarli? Sono lunghissimi.",
-   "rd": "맘마 미아, 께 로바! 뽀쏘 딸리아를리? 쏘노 룬기씨미.",
-   "ko": "와, 대박! 잘라도 돼요? 너무 길어요.",
-   "note": "tagliarli = 그것들을 자르다",
+   "note": "mamma mia = 엄마야",
    "tags": [],
-   "new": [
-    "tagliare"
-   ],
-   "emotion": "excited",
+   "new": [],
    "lemmas": [
     [
-     "roba",
-     "roba",
+     "mamma",
+     "mamma",
      ""
     ],
     [
-     "posso",
-     "potere",
-     ""
-    ],
-    [
-     "tagliarli",
-     "tagliare",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "lunghissimi",
-     "lungo",
+     "buono",
+     "buire",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Mamma mia, che buono!",
+   "ko": "엄마야, 정말 맛있어!",
+   "rd": "맘마 미아, 께 부오노!",
+   "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ma sei matto? A casa nostra chi taglia gli spaghetti non torna più.",
-   "rd": "마 쎄이 마또? 아 까자 노스트라 끼 딸리아 리 스빠게띠 논 또르나 삐우.",
-   "ko": "너 미쳤어? 우리 집에선 스파게티 자르는 사람은 다시 못 와.",
-   "note": "chi taglia = 자르는 사람은",
+   "note": "non tagliare = 자르지 마",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "it_f": "Ma sei matta? A casa nostra chi taglia gli spaghetti non torna più.",
-   "rd_f": "마 쎄이 마따? 아 까자 노스트라 끼 딸리아 리 스빠게띠 논 또르나 삐우.",
-   "ko_f": "너 미쳤어? 우리 집에선 스파게티 자르는 사람은 다시 못 와.",
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "matto",
-     "matto",
+     "non",
+     "non",
      ""
     ],
     [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "nostra",
-     "nostro",
-     ""
-    ],
-    [
-     "taglia",
+     "tagliare",
      "tagliare",
      ""
     ],
     [
      "spaghetti",
-     "spaghetti",
-     ""
-    ],
-    [
-     "torna",
-     "tornare",
+     "spaghetto",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Non tagliare gli spaghetti, dai!",
+   "ko": "스파게티 자르지 마, 야!",
+   "rd": "논 딸리아레 리 스빠게띠, 다이!",
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Va bene, va bene. Li giro come fai tu.",
-   "rd": "바 베네, 바 베네. 리 지로 꼬메 파이 뚜.",
-   "ko": "알았어, 알았어. 너처럼 포크로 돌돌 말게.",
-   "note": "girare = 돌리다, (포크로) 말다",
+   "note": "non lo sapevo = 그것을 몰랐다",
    "tags": [],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
+    [
+     "scusi",
+     "scusare",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "sapevo",
+     "sapere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Scusi, non lo sapevo.",
+   "ko": "실례합니다, 몰랐어요.",
+   "rd": "스꾸지, 논 로 싸뻬보.",
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "note": "tranquillo = 걱정 마세요",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
     [
      "va",
      "andare",
@@ -376,34 +323,45 @@
      ""
     ],
     [
-     "giro",
-     "girare",
+     "così",
+     "così",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Tranquillo, va bene così.",
+   "ko": "걱정 마세요, 이렇게 괜찮아요.",
+   "rd": "트란뀔로, 바 베네 꼬지.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "note": "avrebbe dovuto = 했어야 했다",
+   "tags": [
+    "step:6",
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "avrei",
+     "avere",
      ""
     ],
     [
-     "fai",
-     "fare",
+     "dovuto",
+     "dovere",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 9,
-   "speaker": "C",
-   "it": "Bravo. Allora, com'è? Dimmi la verità.",
-   "rd": "브라보. 알로라, 꼬메? 딤미 라 베리따.",
-   "ko": "잘했어요. 그래서, 맛은 어때요? 솔직하게 말해 봐요.",
-   "note": "Dimmi = 나에게 말해(dire 명령 + mi)",
-   "tags": [],
-   "new": [],
-   "it_f": "Brava. Allora, com'è? Dimmi la verità.",
-   "rd_f": "브라바. 알로라, 꼬메? 딤미 라 베리따.",
-   "ko_f": "잘했어요. 그래서, 맛은 어때요? 솔직하게 말해 봐요.",
-   "emotion": "gentle",
-   "lemmas": [
+    ],
     [
-     "bravo",
-     "bravo",
+     "ascoltare",
+     "ascoltare",
+     ""
+    ],
+    [
+     "infatti",
+     "infatti",
      ""
     ],
     [
@@ -412,123 +370,66 @@
      ""
     ],
     [
-     "dimmi",
-     "dire",
+     "meglio",
+     "meglio",
      ""
     ],
     [
-     "verità",
-     "verità",
+     "intero",
+     "intero",
      ""
     ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "it": "Buonissimi! E pensare che Giulia mi aveva detto che Lei cucinava malissimo.",
-   "rd": "부오니씨미! 에 뻰싸레 께 줄리아 미 아베바 데또 께 레이 꾸치나바 말리씨모.",
-   "ko": "완전 맛있어요! 줄리아가 어머님 요리 엄청 못하신다고 했었는데.",
-   "note": "mi aveva detto = 나에게 말했었다(대과거) · cucinava = 요리하곤 했다(반과거)",
-   "tags": [
-    "step:6",
-    "step:5"
    ],
-   "new": [],
+   "grok": true,
+   "it": "Avrei dovuto ascoltare. Infatti è meglio intero.",
+   "ko": "들었어야 했을 텐데요. 맞아요 통째로가 더 좋아요.",
+   "rd": "아브레이 도부또 아스꼴따레. 인파띠 에 멜리오 인떼로.",
    "segs": [
     [
      "excited",
-     "Buonissimi!"
+     "Avrei dovuto ascoltare."
     ],
     [
      "cheerful",
-     " E pensare che Giulia mi aveva detto che Lei cucinava malissimo."
-    ]
-   ],
-   "lemmas": [
-    [
-     "buonissimi",
-     "buono",
-     ""
-    ],
-    [
-     "pensare",
-     "pensare",
-     ""
-    ],
-    [
-     "aveva",
-     "avere",
-     ""
-    ],
-    [
-     "detto",
-     "dire",
-     ""
-    ],
-    [
-     "cucinava",
-     "cucinare",
-     ""
-    ],
-    [
-     "malissimo",
-     "male",
-     ""
+     " Infatti è meglio intero."
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "it": "Ah, davvero? Giulia, tesoro, cosa avevi detto esattamente?",
-   "rd": "아, 다베로? 줄리아, 떼조로, 꼬자 아베비 데또 에자따멘떼?",
-   "ko": "어머, 그래요? 줄리아, 우리 딸, 정확히 뭐라고 했었니?",
-   "note": "avevi detto = 네가 말했었다(대과거)",
+   "note": "di cui = 그것의",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
     [
-     "davvero",
-     "davvero",
+     "parlavamo",
+     "parlare",
      ""
     ],
     [
-     "tesoro",
-     "tesoro",
-     ""
-    ],
-    [
-     "avevi",
-     "avere",
-     ""
-    ],
-    [
-     "detto",
-     "dire",
+     "prima",
+     "prima",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Di cui parlavamo prima, sì.",
+   "ko": "우리가 전에 말하던 그것, 네.",
+   "rd": "디 꾸이 빠를라바모 프리마, 씨.",
+   "emotion": "teasing"
   },
   {
    "num": 12,
    "speaker": "B",
-   "it": "Io? Avevo detto... che cucini meglio di me! Avrebbe dovuto capirlo da solo.",
-   "rd": "이오? 아베보 데또... 께 꾸치니 멜리오 디 메! 아브레베 도부또 까삐를로 다 쏠로.",
-   "ko": "나? 엄마가 나보다 요리 잘한다고… 했지! 알아서 알아들었어야지.",
-   "note": "avrebbe dovuto = ~했어야 했다(조건법 과거)",
+   "note": "ti avevo detto = 너에게 말했었다",
    "tags": [
     "step:6",
     "step:3"
    ],
    "new": [],
-   "it_f": "Io? Avevo detto... che cucini meglio di me! Avrebbe dovuto capirlo da sola.",
-   "rd_f": "이오? 아베보 데또... 께 꾸치니 멜리오 디 메! 아브레베 도부또 까삐를로 다 쏠라.",
-   "ko_f": "나? 엄마가 나보다 요리 잘한다고… 했지! 알아서 알아들었어야지.",
-   "emotion": "flustered",
    "lemmas": [
     [
      "avevo",
@@ -541,121 +442,86 @@
      ""
     ],
     [
-     "cucini",
-     "cucinare",
-     ""
-    ],
-    [
-     "meglio",
-     "meglio",
-     ""
-    ],
-    [
-     "dovuto",
-     "dovere",
-     ""
-    ],
-    [
-     "capirlo",
-     "capire",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
+     "non",
+     "non",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Ti avevo detto di non tagliarlo!",
+   "ko": "너에게 자르지 말라고 말했었잖아!",
+   "rd": "띠 아베보 데또 디 논 딸리아를로!",
+   "emotion": "flustered"
   },
   {
    "num": 13,
    "speaker": "A",
-   "it": "Infatti, infatti. Avevo capito male io. Il mio italiano, sa...",
-   "rd": "인파띠, 인파띠. 아베보 까삐또 말레 이오. 일 미오 이딸리아노, 싸...",
-   "ko": "맞아요, 맞아요. 제가 잘못 알아들었어요. 제 이탈리아어가, 아시다시피…",
-   "note": "Infatti = 그러니까요, 맞아요",
+   "note": "sarei venut{o|a} = 왔을 것이다",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "infatti",
-     "infatti",
+     "sarei",
+     "saere",
      ""
     ],
     [
-     "capito",
-     "capire",
+     "venuto",
+     "venire",
      ""
     ],
     [
-     "male",
-     "male",
+     "prima",
+     "prima",
      ""
     ],
     [
-     "italiano",
-     "italiano",
-     ""
-    ],
-    [
-     "sa",
-     "sapere",
+     "scusi",
+     "scusare",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Sarei venuto prima, scusi.",
+   "ko": "더 일찍 왔을 텐데요, 실례합니다.",
+   "rd": "싸레이 베누또 프리마, 스꾸지.",
+   "it_f": "Sarei venuta prima, scusi.",
+   "ko_f": "더 일찍 왔을 텐데요, 실례합니다.",
+   "rd_f": "싸레이 베누따 프리마, 스꾸지.",
+   "emotion": "flustered"
   },
   {
    "num": 14,
    "speaker": "C",
-   "it": "Chi fa ridere mia figlia così può tornare quando vuole. Anche tardi.",
-   "rd": "끼 파 리데레 미아 필리아 꼬지 뿌오 또르나레 꽌도 부올레. 안께 따르디.",
-   "ko": "우리 딸을 이렇게 웃게 하는 사람은 언제든 와도 돼요. 늦어도.",
-   "note": "chi fa ridere = 웃게 하는 사람은",
+   "note": "chi = 누구",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "emotion": "gentle",
    "lemmas": [
-    [
-     "fa",
-     "fare",
-     ""
-    ],
-    [
-     "ridere",
-     "ridere",
-     ""
-    ],
-    [
-     "figlia",
-     "figlio",
-     ""
-    ],
-    [
-     "può",
-     "potere",
-     ""
-    ],
-    [
-     "tornare",
-     "tornare",
-     ""
-    ],
     [
      "vuole",
      "volere",
      ""
     ],
     [
-     "tardi",
-     "tardi",
+     "prende",
+     "prendere",
+     ""
+    ],
+    [
+     "ancora",
+     "ancora",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Chi vuole, ne prende ancora.",
+   "ko": "원하는 사람은 더 가져요.",
+   "rd": "끼 부올레, 네 프렌데 안꼬라.",
+   "emotion": "gentle"
   }
  ]
 }

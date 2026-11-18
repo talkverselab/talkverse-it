@@ -23,7 +23,6 @@
   "Tranquilli"
  ],
  "goal": "그래머2: R1 같은 문장을 복수로 — fate · passiamo · vi porterò · ci porti · vi piace · non sappiamo · voi mi guardate (새 단어 0) · 표현 Senti · Allora · Tranquilli",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -34,10 +33,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Senti... domani cosa fate?",
-   "rd": "쎈띠... 도마니 꼬자 파떼?",
-   "ko": "있잖아… 내일 너희 뭐 해?",
-   "note": "fate = 너희 한다(fare)",
+   "note": "fate = 너희 하다",
    "tags": [
     "step:9"
    ],
@@ -49,65 +45,62 @@
      ""
     ],
     [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
      "fate",
      "fare",
      ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Senti, voi cosa fate domani?",
+   "ko": "들어봐, 너희 내일 뭐 해?",
+   "rd": "쎈띠, 보이 꼬자 파떼 도마니?",
    "emotion": "shy"
   },
   {
    "num": 2,
    "speaker": "C",
-   "it": "Niente. Passiamo il giorno a casa.",
-   "rd": "니엔떼. 빠씨아모 일 조르노 아 까자.",
-   "ko": "별거 없어. 하루 종일 집에 있어.",
-   "note": "passiamo = 우리 보낸다(passare)",
+   "note": "non sappiamo = 우리는 모르다",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "niente",
-     "niente",
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "sappiamo",
+     "sapere",
      ""
     ],
     [
      "passiamo",
-     "passare",
+     "passiamo",
      ""
     ],
     [
-     "giorno",
-     "giorno",
-     ""
-    ],
-    [
-     "casa",
-     "casa",
+     "tempo",
+     "tempo",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non sappiamo. Passiamo il tempo.",
+   "ko": "몰라. 그냥 시간 보내.",
+   "rd": "논 싸삐아모. 빠씨아모 일 뗌뽀.",
    "emotion": "neutral"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Allora domani vi porterò in un posto.",
-   "rd": "알로라 도마니 비 뽀르떼로 인 운 뽀스또.",
-   "ko": "그럼 내일 너희 어디 데려갈게.",
-   "note": "vi porterò = 너희를 데려갈 거야(vi = 너희를)",
+   "note": "vi porterò = 너희를 데려갈게",
    "tags": [
     "step:10"
    ],
@@ -119,105 +112,96 @@
      ""
     ],
     [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
      "porterò",
-     "portare",
+     "porterare",
      ""
     ],
     [
-     "posto",
-     "posto",
+     "centro",
+     "centro",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Allora vi porterò in centro.",
+   "ko": "그럼 너희 시내로 데려갈게.",
+   "rd": "알로라 비 뽀르떼로 인 첸트로.",
    "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Davvero? Dove ci porti?",
-   "rd": "다베로? 도베 치 뽀르띠?",
-   "ko": "진짜? 우리 어디 데려가는데?",
-   "note": "ci porti = 우리를 데려간다(ci = 우리를)",
+   "note": "ci = 우리를",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "davvero",
-     "davvero",
-     ""
-    ],
-    [
-     "dove",
-     "dove",
-     ""
-    ],
-    [
      "porti",
      "portare",
      ""
+    ],
+    [
+     "anche",
+     "anche",
+     ""
+    ],
+    [
+     "fiume",
+     "fiume",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Ci porti anche al fiume?",
+   "ko": "우리도 강으로 데려다 줘?",
+   "rd": "치 뽀르띠 안께 알 피우메?",
    "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Non dico niente. Vi piace la musica?",
-   "rd": "논 디꼬 니엔떼. 비 삐아체 라 무지까?",
-   "ko": "말 안 해. 너희 음악 좋아해?",
-   "note": "vi piace = 너희 좋아해?(piacere)",
+   "note": "vi piace = 너희는 좋아하다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "dico",
-     "dire",
-     ""
-    ],
-    [
-     "niente",
-     "niente",
-     ""
-    ],
-    [
      "piace",
      "piacere",
      ""
     ],
     [
-     "musica",
-     "musica",
+     "fiume",
+     "fiume",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Vi piace il fiume di sera?",
+   "ko": "너희 저녁 강 좋아해?",
+   "rd": "비 삐아체 일 피우메 디 쎄라?",
    "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "C",
-   "it": "Sì, tanto. Ma non sappiamo ballare.",
-   "rd": "씨, 딴또. 마 논 싸삐아모 발라레.",
-   "ko": "응, 엄청. 근데 우리 둘 다 춤은 못 춰.",
-   "note": "non sappiamo = 우리 할 줄 모른다(sapere)",
+   "note": "non sappiamo = 우리는 모르다",
    "tags": [
     "step:9"
    ],
-   "new": [
-    "ballare"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "tanto",
-     "tanto",
+     "non",
+     "non",
      ""
     ],
     [
@@ -226,20 +210,21 @@
      ""
     ],
     [
-     "ballare",
-     "ballare",
+     "dove",
+     "dove",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, ma non sappiamo dove.",
+   "ko": "응, 근데 어디인지 몰라.",
+   "rd": "씨, 마 논 싸삐아모 도베.",
    "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Tranquilli. Ballo io, e voi mi guardate.",
-   "rd": "트란뀔리. 발로 이오, 에 보이 미 구아르다떼.",
-   "ko": "걱정 마. 춤은 내가 출게, 너희는 나만 봐.",
-   "note": "voi mi guardate = 너희가 나를 본다(guardare)",
+   "note": "voi mi guardate = 너희 나를 보다",
    "tags": [
     "step:3"
    ],
@@ -251,64 +236,69 @@
      ""
     ],
     [
-     "ballo",
-     "ballare",
-     ""
-    ],
-    [
      "guardate",
      "guardare",
      ""
+    ],
+    [
+     "così",
+     "così",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Tranquilli. Voi mi guardate così.",
+   "ko": "걱정 마. 너희 날 그렇게 봐.",
+   "rd": "트란뀔리. 보이 미 구아르다떼 꼬지.",
    "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Va bene. Ti guardo già sempre.",
-   "rd": "바 베네. 띠 구아르도 쟈 쎔프레.",
-   "ko": "좋아. 난 원래 너만 보는데.",
-   "note": "ti guardo = 너를 본다(여기만 단수 — 루카 앞에서 실수)",
+   "note": "passiamo = 우리는 보내다",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "va",
-     "andare",
+     "passiamo",
+     "passare",
      ""
     ],
     [
-     "bene",
-     "bene",
+     "sera",
+     "sera",
      ""
     ],
     [
-     "guardo",
-     "guardare",
+     "insieme",
+     "insieme",
      ""
     ],
     [
-     "già",
-     "già",
+     "oh",
+     "oh",
      ""
     ],
     [
-     "sempre",
-     "sempre",
+     "scusa",
+     "scusa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Passiamo la sera insieme. Oh, scusa.",
+   "ko": "저녁 같이 보내자. 아, 미안.",
+   "rd": "빠씨아모 라 쎄라 인씨에메. 오, 스꾸자.",
    "segs": [
     [
      "amused",
-     "Va bene."
+     "Passiamo la sera insieme."
     ],
     [
      "shy",
-     "Ti guardo già sempre."
+     " Oh, scusa."
     ]
    ]
   }

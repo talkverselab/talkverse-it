@@ -1,0 +1,26 @@
+=== r4_travel_b1
+level: R4
+kind: long
+title: 두 시간 잔 기차
+emoji: 🚆
+scene: 밤 기차. 학습자가 깜빡 잠든 사이 내릴 역을 지나쳤고, 차장이 표를 검사하러 온다. 옆자리 마르코는 태연하다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김), C: Signor Bassi(남)
+register: Lei 와 tu 가 섞임
+twist: 12 chaos
+goal: 어려운 문법 4 가정문(se scendesse … potrebbe) · 5 반과거/근과거 · 6 대과거(me l'avevi detto) · 7 결합 대명사 · 8 ci · 9 재귀 근과거 · 10 con cui · 존댓말 Lei · 차액 내기
+expressions: Ecco; Mamma mia
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+C | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=stiff | tags=
+C | ___ | ___ | ___ | emotion=polite | tags=step:8
+A | ___ | ___ | ___ | emotion=surprised+flustered | tags=step:9
+B | ___ | ___ | ___ | emotion=neutral | tags=step:5
+A | ___ | ___ | ___ | emotion=annoyed | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=step:5,step:6
+C | ___ | ___ | ___ | emotion=polite | tags=step:4
+A | ___ | ___ | ___ | emotion=worried | tags=
+C | ___ | ___ | ___ | emotion=polite+neutral | tags=step:10
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:5
+B | ___ | ___ | ___ | emotion=surprised+annoyed | tags=step:6,step:7,twist
+C | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=stiff+annoyed | tags=

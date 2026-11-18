@@ -1,0 +1,20 @@
+=== r2_friends_c1
+level: R2
+kind: short
+title: 마르코네 앞에서
+emoji: ⚽
+scene: 저녁 일곱 시, 룸메이트 루카가 축구 보러 마르코네 카페로 오라고 문자를 보낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 8 chaos
+goal: 챗 상황 3 약속 · 4 늦음 · 표현 Ehi · Allora · Dai
+expressions: Ehi; Allora; Dai
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=excited | tags=step:3 | at=19:02
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:3 | at=19:03
+B | ___ | ___ | ___ | emotion=teasing | tags=step:3 | at=19:03
+B | ___ | ___ | ___ | emotion=annoyed | tags=step:4 | at=20:15
+A | ___ | ___ | ___ | emotion=flustered | tags=step:4 | at=20:16
+B | ___ | ___ | ___ | emotion=surprised | tags=step:4 | at=20:16
+A | ___ | ___ | ___ | emotion=worried | tags=step:4 | at=20:17
+B | ___ | ___ | ___ | emotion=amused | tags=step:4,twist | at=20:17

@@ -1,0 +1,20 @@
+=== r2_friends_c2
+level: R2
+kind: short
+title: 끝났어
+emoji: 🍦
+scene: 오후, 키아라가 심각한 말투로 문자를 보내기 시작한다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 5 reveal
+goal: 챗 상황 8 오해 · 7 농담 · 표현 Mamma mia · Ma dai
+expressions: Mamma mia; Ma dai
+steps(tags 의 step:N): 1 첫 인사 · 2 사진 · 3 약속 · 4 늦음 · 5 사과 · 6 취소 · 7 농담 · 8 오해 · 9 화해 · 10 다음 약속
+B | ___ | ___ | ___ | emotion=sad | tags=step:8 | at=15:20
+A | ___ | ___ | ___ | emotion=worried | tags=step:8 | at=15:21
+B | ___ | ___ | ___ | emotion=sad | tags=step:8 | at=15:21
+A | ___ | ___ | ___ | emotion=worried | tags=step:8 | at=15:22
+B | ___ | ___ | ___ | emotion=sad | tags=step:8,twist | at=15:22
+A | ___ | ___ | ___ | emotion=annoyed+tsukkomi | tags=step:7 | at=15:23
+B | ___ | ___ | ___ | emotion=amused | tags=step:7 | at=15:23
+A | ___ | ___ | ___ | emotion=gentle | tags=step:7 | at=15:24

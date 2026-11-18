@@ -1,0 +1,26 @@
+=== r5_work_b1
+level: R5
+kind: long
+title: 멈춘 커피 머신
+emoji: ☕
+scene: 토요일 아침 마르코의 카페. 손님이 줄을 섰는데 커피 머신이 이상한 소리를 내고, 학습자는 근무표 얘기를 꺼낸다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김), C: Signora Rinaldi(여)
+register: Lei 와 tu 가 섞임
+twist: 12 chaos
+goal: 어휘 주제 2 일 · 3 건강 · 4 감정 · 9 갈등 · 10 미래 · 존댓말 Lei · 표현 Dai·Infatti·Mamma mia
+expressions: Dai; Infatti; Mamma mia
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+B | ___ | ___ | ___ | emotion=annoyed | tags=step:2
+A | ___ | ___ | ___ | emotion=flustered | tags=step:2
+B | ___ | ___ | ___ | emotion=teasing | tags=step:2
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:2,step:9
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:9
+A | ___ | ___ | ___ | emotion=annoyed+sad | tags=step:3,step:4
+B | ___ | ___ | ___ | emotion=gentle | tags=step:10
+A | ___ | ___ | ___ | emotion=surprised | tags=step:10
+B | ___ | ___ | ___ | emotion=gentle | tags=step:2,step:10
+C | ___ | ___ | ___ | emotion=worried | tags=step:2
+A | ___ | ___ | ___ | emotion=flustered | tags=step:3
+B | ___ | ___ | ___ | emotion=flustered+stiff | tags=step:2,twist
+C | ___ | ___ | ___ | emotion=worried+teasing | tags=step:2,step:9
+A | ___ | ___ | ___ | emotion=polite+shy | tags=step:2,step:7

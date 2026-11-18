@@ -1,0 +1,26 @@
+=== r5_culture_b1
+level: R5
+kind: long
+title: 결혼식이 두 개
+emoji: 💒
+scene: 토요일, 키아라 사촌의 결혼식 피로연이 열리는 식당. 학습자는 축의금 봉투를 처음 준비해 왔다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아), C: Nonna Rosa(여)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 9 chaos
+goal: 어휘 주제 8 가족 행사(matrimonio·sposi·busta·battesimo) · 7 돈(soldi·euro·lire·stipendio) · 9 갈등 · 10 미래 · 문화 축의금 봉투 · 표현 Infatti·Mamma mia·Lascia stare·Magari
+expressions: Infatti; Mamma mia; Lascia stare; Magari
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:8
+A | ___ | ___ | ___ | emotion=worried | tags=step:7
+C | ___ | ___ | ___ | emotion=amused | tags=step:8,step:7
+B | ___ | ___ | ___ | emotion=teasing | tags=step:7
+C | ___ | ___ | ___ | emotion=amused+annoyed | tags=step:8
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:8
+B | ___ | ___ | ___ | emotion=worried | tags=step:8
+A | ___ | ___ | ___ | emotion=surprised | tags=step:8
+B | ___ | ___ | ___ | emotion=shout | tags=step:8,step:9,twist
+C | ___ | ___ | ___ | emotion=amused | tags=step:7
+A | ___ | ___ | ___ | emotion=worried | tags=step:9
+B | ___ | ___ | ___ | emotion=shout | tags=step:9
+C | ___ | ___ | ___ | emotion=teasing | tags=step:10,step:8
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:7,step:10

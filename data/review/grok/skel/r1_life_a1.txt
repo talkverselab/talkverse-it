@@ -1,0 +1,20 @@
+=== r1_life_a1
+level: R1
+kind: short
+title: 할머니 이름이 줄리아?
+emoji: 🌹
+scene: 일요일 아침 셰어하우스. 새벽 세 시에 들어온 학습자에게 룸메이트 루카가 꼬치꼬치 묻는다. 식탁 위에 장미 한 송이
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 slip
+goal: 골격 단계 2·3·4·6·7·8 · 굴절 반복 sei uscito/sono uscito · porti/porto · era/c'è · 표현 Ehi · Boh · Va bene
+expressions: Ehi; Boh; Va bene
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | ___ | ___ | ___ | emotion=teasing | tags=step:6
+A | ___ | ___ | ___ | emotion=flustered | tags=step:6
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:4
+A | ___ | ___ | ___ | emotion=amused | tags=step:2
+B | ___ | ___ | ___ | emotion=teasing | tags=step:7,step:3
+A | ___ | ___ | ___ | emotion=flustered | tags=step:7
+B | ___ | ___ | ___ | emotion=amused | tags=step:1,twist
+A | ___ | ___ | ___ | emotion=shy+annoyed | tags=step:8

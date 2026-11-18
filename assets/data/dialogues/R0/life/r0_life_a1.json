@@ -19,7 +19,6 @@
   "Ma dai"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Ehi · Boh · Ma dai",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -30,80 +29,47 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi, dov'è la mia pizza?",
-   "rd": "에이, 도베 라 미아 삐짜?",
-   "ko": "야, 내 피자 어디 있어?",
-   "note": "Ehi = 야, 어이(부르는 말)",
+   "note": "Ehi = 야",
    "tags": [],
    "new": [],
    "lemmas": [
+    [
+     "ehi",
+     "ehi",
+     ""
+    ],
+    [
+     "dov",
+     "dove",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
     [
      "pizza",
      "pizza",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ehi! Dov'è la pizza?",
+   "ko": "야! 피자 어디 갔어?",
+   "rd": "에이! 도베 라 삐짜?",
    "emotion": "annoyed"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Quale pizza?",
-   "rd": "꽐레 삐짜?",
-   "ko": "무슨 피자?",
-   "note": "quale = 어떤",
+   "note": "lo so = 알다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "pizza",
-     "pizza",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "La mia! Buonissima. Era qui.",
-   "rd": "라 미아! 부오니씨마. 에라 뀌.",
-   "ko": "내 거! 엄청 맛있는 거. 여기 있었어.",
-   "note": "buonissima = 엄청 맛있는(buono 최상급, 피자라 여성)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Buonissima",
-     "buono",
-     ""
-    ],
-    [
-     "Era",
-     "essere",
-     ""
-    ],
-    [
-     "qui",
-     "qui",
-     ""
-    ]
-   ],
-   "emotion": "annoyed"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Boh. Non lo so.",
-   "rd": "보. 논 로 쏘.",
-   "ko": "글쎄. 나 몰라.",
-   "note": "Boh = 글쎄, 몰라(입에 달고 사는 말)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "boh",
-     "boh",
+     "non",
+     "non",
      ""
     ],
     [
@@ -112,15 +78,112 @@
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non lo so...",
+   "ko": "모르겠어...",
+   "rd": "논 로 쏘...",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "note": "era = 있었다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "era",
+     "essere",
+     ""
+    ],
+    [
+     "frigo",
+     "frigo",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Era nel frigo!",
+   "ko": "냉장고에 있었어!",
+   "rd": "에라 넬 프리고!",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "note": "Boh = 글쎄",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Boh, non vedo.",
+   "ko": "글쎄, 안 보여.",
+   "rd": "보, 논 베도.",
    "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Hai la bocca rossa.",
-   "rd": "아이 라 보까 로싸.",
-   "ko": "너 입이 빨개.",
-   "note": "bocca = 입",
+   "note": "Ma dai = 에이",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "sei",
+     "essere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma dai, sei tu.",
+   "ko": "에이, 너잖아.",
+   "rd": "마 다이, 쎄이 뚜.",
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "mangio = 먹다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "mangio",
+     "mangiare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "No, non mangio!",
+   "ko": "아니, 안 먹어!",
+   "rd": "노, 논 만조!",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "hai = 가지다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -135,113 +198,39 @@
      ""
     ],
     [
-     "rossa",
-     "rosso",
+     "sporca",
+     "sporco",
      ""
     ]
    ],
-   "emotion": "teasing"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Ma dai! È solo pomodoro.",
-   "rd": "마 다이! 에 쏠로 뽀모도로.",
-   "ko": "에이, 뭐야! 그냥 토마토야.",
-   "note": "Ma dai = 에이, 설마",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
-     "pomodoro",
-     "pomodoro",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Solo pomodoro? Sei tutto rosso!",
-   "rd": "쏠로 뽀모도로? 쎄이 뚜또 로쏘!",
-   "ko": "그냥 토마토? 너 얼굴 완전 빨개!",
-   "note": "sei tutto rosso/tutta rossa = 너 완전 빨개(성별 일치, bocca rossa ↔ rosso)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Solo",
-     "solo",
-     ""
-    ],
-    [
-     "pomodoro",
-     "pomodoro",
-     ""
-    ],
-    [
-     "Sei",
-     "essere",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
-     ""
-    ],
-    [
-     "rosso",
-     "rosso",
-     ""
-    ]
-   ],
-   "it_f": "Solo pomodoro? Sei tutta rossa!",
-   "ko_f": "그냥 토마토? 너 얼굴 완전 빨개!",
-   "emotion": "tsukkomi",
-   "rd_f": "쏠로 뽀모도로? 쎄이 뚜따 로싸!"
+   "grok": true,
+   "it": "Hai la bocca sporca.",
+   "ko": "입 더러워.",
+   "rd": "아이 라 보까 스뽀르까.",
+   "emotion": "tsukkomi"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Va bene... era buona.",
-   "rd": "바 베네... 에라 부오나.",
-   "ko": "알았어… 맛있었어.",
-   "note": "era buona = 맛있었다(피자가 여성 명사)",
+   "note": "è = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "va",
-     "andare",
+     "ok",
+     "ok",
      ""
     ],
     [
-     "bene",
-     "bene",
-     ""
-    ],
-    [
-     "era",
+     "è",
      "essere",
-     ""
-    ],
-    [
-     "buona",
-     "buono",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ok... è mia.",
+   "ko": "알았어... 내 거야.",
+   "rd": "오크... 에 미아.",
    "emotion": "shy"
   }
  ],

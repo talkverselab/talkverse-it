@@ -21,7 +21,6 @@
   "Magari"
  ],
  "goal": "챗 상황 1 첫 인사 · 3 약속 · 10 다음 약속 · 표현 Allora · Magari",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -32,314 +31,261 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ciao! Sei vero? Sembri troppo bello 😏",
-   "rd": "챠오! 쎄이 베로? 쎔브리 트로뽀 벨로 😏",
-   "ko": "안녕! 진짜 있는 사람 맞아? 너무 잘생겨 보여서 😏",
-   "note": "sembri = 너 ~해 보여(sembrare)",
+   "note": "Ehi = 안녕",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
+    [
+     "ehi",
+     "ehi",
+     ""
+    ],
+    [
+     "match",
+     "match",
+     ""
+    ],
+    [
+     "fatto",
+     "fatto",
+     ""
+    ],
     [
      "sei",
      "essere",
-     ""
-    ],
-    [
-     "vero",
-     "vero",
-     ""
-    ],
-    [
-     "sembri",
-     "sembrare",
-     ""
-    ],
-    [
-     "troppo",
-     "troppo",
-     ""
-    ],
-    [
-     "bello",
-     "bello",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:41",
-   "it_f": "Ciao! Sei vera? Sembri troppo bella 😏",
-   "rd_f": "챠오! 쎄이 베라? 쎔브리 트로뽀 벨라 😏",
-   "ko_f": "안녕! 진짜 있는 사람 맞아? 너무 예뻐 보여서 😏"
+   "grok": true,
+   "it": "Ehi, match fatto! Sei tu? 😏",
+   "ko": "안녕, 매치 됐어! 너야? 😏",
+   "rd": "에이, 마트크 파또! 쎄이 뚜? 😏",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Vero, vero! E tu? Sei vera?",
-   "rd": "베로, 베로! 에 뚜? 쎄이 베라?",
-   "ko": "진짜야, 진짜! 너는? 너야말로 진짜야?",
-   "note": "vero/vera = 진짜인(성 일치)",
+   "note": "Boh = 뭐",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
-     "vero",
-     "vero",
+     "ciao",
+     "ciao",
      ""
     ],
     [
-     "vera",
-     "vero",
-     ""
-    ],
-    [
-     "sei",
-     "essere",
+     "boh",
+     "boh",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:42",
-   "it_f": "Vera, vera! E tu? Sei vera?",
-   "rd_f": "베라, 베라! 에 뚜? 쎄이 베라?",
-   "ko_f": "진짜야, 진짜! 너는? 너야말로 진짜야?"
+   "grok": true,
+   "it": "Ciao! Boh, chi sei?",
+   "ko": "안녕! 뭐, 누구야?",
+   "rd": "챠오! 보, 끼 쎄이?",
+   "emotion": "amused"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Allora vieni a vedere. Domani, da Marco? ☕",
-   "rd": "알로라 비에니 아 베데레. 도마니, 다 마르꼬? ☕",
-   "ko": "그럼 와서 확인해 봐. 내일, 마르코네 어때? ☕",
-   "note": "vieni a vedere = 와서 봐(venire a + 원형)",
+   "note": "Allora = 그럼",
    "tags": [
     "step:3"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
     [
-     "vieni",
-     "venire",
+     "allora",
+     "allora",
      ""
     ],
     [
-     "vedere",
-     "vedere",
+     "beviamo",
+     "bevare",
      ""
     ],
     [
-     "domani",
-     "domani",
+     "caffè",
+     "caffè",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:42"
+   "at": "23:42",
+   "grok": true,
+   "it": "Allora, beviamo un caffè?",
+   "ko": "그럼, 커피 한 잔 할까?",
+   "rd": "알로라, 베비아모 운 까페?",
+   "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Magari! Da Marco? Io sono lì ogni giorno!",
-   "rd": "마가리! 다 마르꼬? 이오 쏘노 리 오니 조르노!",
-   "ko": "좋지! 마르코네? 나 거기 매일 가는데!",
-   "note": "Magari! = 그럼 좋지!",
+   "note": "Così presto? = 이렇게 빨리?",
    "tags": [
     "step:3"
    ],
    "new": [],
-   "emotion": "surprised",
    "lemmas": [
     [
-     "sono",
-     "essere",
+     "così",
+     "così",
      ""
     ],
     [
-     "lì",
-     "lì",
-     ""
-    ],
-    [
-     "ogni",
-     "ogni",
-     ""
-    ],
-    [
-     "giorno",
-     "giorno",
+     "presto",
+     "presto",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:43"
+   "at": "23:43",
+   "grok": true,
+   "it": "Cosa? Così presto?",
+   "ko": "뭐? 이렇게 빨리?",
+   "rd": "꼬자? 꼬지 프레스또?",
+   "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Lo so. Ti vedo lì ogni giorno... tu mai.",
-   "rd": "로 쏘. 띠 베도 리 오니 조르노... 뚜 마이.",
-   "ko": "알아. 거기서 매일 너 봐… 넌 나 한 번도 안 보지만.",
-   "note": "ti vedo = 너를 봐(vedere)",
+   "note": "Magari = 혹시",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "shy",
    "lemmas": [
     [
-     "so",
-     "sapere",
+     "magari",
+     "magari",
      ""
     ],
     [
-     "vedo",
+     "vedevo",
      "vedere",
      ""
     ],
     [
-     "lì",
-     "lì",
-     ""
-    ],
-    [
-     "ogni",
-     "ogni",
-     ""
-    ],
-    [
      "giorno",
      "giorno",
-     ""
-    ],
-    [
-     "mai",
-     "mai",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:43"
+   "at": "23:43",
+   "grok": true,
+   "it": "Magari ti vedevo ogni giorno. 😳",
+   "ko": "매일 너를 봤어. 😳",
+   "rd": "마가리 띠 베데보 오니 조르노. 😳",
+   "emotion": "shy"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Aspetta... sei tu quella che legge sempre? 😳",
-   "rd": "아스뻬따... 쎄이 뚜 꿸라 께 레쩨 쎔프레? 😳",
-   "ko": "잠깐… 맨날 책 읽던 그 사람이 너야? 😳",
-   "note": "quella che legge = 읽고 있는 그 여자",
+   "note": "Davvero = 진짜",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "aspetta",
-     "aspettare",
+     "davvero",
+     "davvero",
      ""
     ],
     [
-     "sei",
-     "essere",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "quella",
-     "quello",
+     "non",
+     "non",
      ""
     ],
     [
-     "legge",
-     "leggere",
-     ""
-    ],
-    [
-     "sempre",
-     "sempre",
+     "credo",
+     "credere",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:44"
+   "at": "23:44",
+   "grok": true,
+   "it": "Davvero? Dove? Non ci credo.",
+   "ko": "진짜? 어디서? 안 믿어.",
+   "rd": "다베로? 도베? 논 치 크레도.",
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Leggo, sì. Ma non leggo niente... guardo te.",
-   "rd": "레고, 씨. 마 논 레고 니엔떼... 구아르도 떼.",
-   "ko": "읽지, 응. 근데 한 줄도 안 읽어… 너 보느라.",
-   "note": "guardo te = 너를 봐(te 로 강조)",
+   "note": "al bar = 바에서(a + il)",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "shy",
    "lemmas": [
     [
-     "leggo",
-     "leggere",
+     "bar",
+     "bar",
      ""
     ],
     [
-     "niente",
-     "niente",
-     ""
-    ],
-    [
-     "guardo",
-     "guardare",
-     ""
-    ],
-    [
-     "te",
-     "te",
+     "scusa",
+     "scusa",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:45"
+   "at": "23:45",
+   "grok": true,
+   "it": "Al bar di Chiara. Scusa.",
+   "ko": "키아라 바에서. 미안.",
+   "rd": "알 바르 디 끼아라. 스꾸자.",
+   "emotion": "shy"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Allora domani vengo prima. E guardo io te 😊",
-   "rd": "알로라 도마니 벵고 프리마. 에 구아르도 이오 떼 😊",
-   "ko": "그럼 내일 일찍 갈게. 이번엔 내가 너 볼게 😊",
-   "note": "vengo = 나 갈게(vieni → vengo)",
+   "note": "ci vediamo = (우리) 보자",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "emotion": "shy",
    "lemmas": [
     [
+     "ok",
+     "ok",
+     ""
+    ],
+    [
+     "vediamo",
+     "vedere",
+     ""
+    ],
+    [
      "domani",
      "domani",
-     ""
-    ],
-    [
-     "vengo",
-     "venire",
-     ""
-    ],
-    [
-     "prima",
-     "prima",
-     ""
-    ],
-    [
-     "guardo",
-     "guardare",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "23:46"
+   "at": "23:46",
+   "grok": true,
+   "it": "Ok, ci vediamo domani.",
+   "ko": "오케이, 내일 보자.",
+   "rd": "오크, 치 베디아모 도마니.",
+   "emotion": "shy"
   }
  ]
 }

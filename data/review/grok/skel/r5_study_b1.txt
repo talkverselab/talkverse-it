@@ -1,0 +1,26 @@
+=== r5_study_b1
+level: R5
+kind: long
+title: 모의 면접과 양말
+emoji: 🎓
+scene: 장학금 면접 전날 밤 셰어하우스 거실. 학습자가 연습을 부탁하자 루카가 면접관 흉내를 낸다 — 휴대폰을 손에 쥔 채
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: Lei 와 tu 가 섞임
+twist: 12 ignore
+goal: 어휘 주제 2 일·공부(borsa di studio·ricerca·lavoro) · 7 돈(costare·risparmiare·soldi) · 10 미래(lavorerò·risparmierò·proverò) · 4 감정 · 존댓말 Lei(면접 흉내) · 표현 Certo·Boh·Magari·Tranquillo
+expressions: Certo; Boh; Magari; Tranquillo
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+A | ___ | ___ | ___ | emotion=worried | tags=step:2
+B | ___ | ___ | ___ | emotion=polite | tags=step:2
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:7
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:2,step:7
+A | ___ | ___ | ___ | emotion=amused | tags=step:2,step:1
+B | ___ | ___ | ___ | emotion=polite | tags=step:10
+A | ___ | ___ | ___ | emotion=stiff+gentle | tags=step:10,step:2,step:7
+B | ___ | ___ | ___ | emotion=polite | tags=step:7,step:10
+A | ___ | ___ | ___ | emotion=stiff | tags=step:7,step:2,step:10
+B | ___ | ___ | ___ | emotion=polite | tags=step:10
+A | ___ | ___ | ___ | emotion=gentle | tags=step:4
+B | ___ | ___ | ___ | emotion=excited | tags=step:4,twist
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:4
+B | ___ | ___ | ___ | emotion=teasing | tags=step:4

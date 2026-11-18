@@ -1,0 +1,26 @@
+=== r4_friends_b2
+level: R4
+kind: long
+title: 다음 주 파티
+emoji: 🎉
+scene: 토요일 아침. 루카가 키아라 생일 파티에 늦었다며 학습자를 깨우고, 둘은 옷만 걸치고 마르코의 카페로 달려간다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형), C: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김), D: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 chaos
+goal: 어려운 문법 9 재귀 근과거(mi sono svegliato·ci siamo vestiti) · 3 조건법 과거(te l'avrei detto·avrei preferito) · 4 가정문(se avessi letto) · 2 접속법 과거(mi dispiace che siate venuti) · 5 반과거 · 6 대과거 · 7 결합 대명사 · 8 ci · 표현 Boh·Dai·Tanti auguri
+expressions: Boh; Dai; Tanti auguri
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | ___ | ___ | ___ | emotion=shout | tags=step:9
+A | ___ | ___ | ___ | emotion=flustered | tags=step:9
+B | ___ | ___ | ___ | emotion=annoyed+shout | tags=step:9
+A | ___ | ___ | ___ | emotion=worried | tags=step:9,step:8
+C | ___ | ___ | ___ | emotion=neutral | tags=
+B | ___ | ___ | ___ | emotion=worried | tags=step:5
+C | ___ | ___ | ___ | emotion=amused | tags=step:2,twist
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:7,step:6
+B | ___ | ___ | ___ | emotion=flustered | tags=step:7,step:3,step:4
+A | ___ | ___ | ___ | emotion=annoyed | tags=step:3
+C | ___ | ___ | ___ | emotion=gentle | tags=step:7,step:8
+D | ___ | ___ | ___ | emotion=cheerful+surprised | tags=
+B | ___ | ___ | ___ | emotion=flustered | tags=
+D | ___ | ___ | ___ | emotion=teasing | tags=

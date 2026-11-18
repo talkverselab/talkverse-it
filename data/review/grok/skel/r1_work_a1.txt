@@ -1,0 +1,20 @@
+=== r1_work_a1
+level: R1
+kind: short
+title: 첫 출근에 「엄마」
+emoji: 🍝
+scene: 학습자의 첫 아르바이트 날. 동네 식당 주인 네리 부인이 첫 일을 맡기고, 밥까지 챙겨 준다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Signora Neri(여)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 6 slip
+goal: 골격 단계 1·2·3·4·7·9 · 존댓말 Lei(è·può) ↔ 나(sono·posso) · 성별판 il nuovo ragazzo/la nuova ragazza · pronto/pronta · bravo/brava · 굴절 반복 è/sono · può/posso · portare/porto · 표현 Certo · Davvero · Scusi
+expressions: Certo; Davvero; Scusi
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+B | ___ | ___ | ___ | emotion=polite | tags=step:1
+A | ___ | ___ | ___ | emotion=stiff | tags=step:2
+B | ___ | ___ | ___ | emotion=polite | tags=step:4
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:7,step:3
+B | ___ | ___ | ___ | emotion=gentle | tags=step:9
+A | ___ | ___ | ___ | emotion=excited+cheerful | tags=step:9,twist
+B | ___ | ___ | ___ | emotion=amused | tags=step:9
+A | ___ | ___ | ___ | emotion=flustered | tags=step:3

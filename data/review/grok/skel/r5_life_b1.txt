@@ -1,0 +1,26 @@
+=== r5_life_b1
+level: R5
+kind: long
+title: 육백 유로짜리 집
+emoji: 🏠
+scene: 학습자와 루카가 집을 보러 왔다. 중개인 페리 씨가 말하는 조건이 너무 좋다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형), C: Signor Ferri(남)
+register: Lei 와 tu 가 섞임
+twist: 12 chaos
+goal: 어휘 주제 1 집·7 돈 · 존댓말 Lei · 표현 Ecco · Guarda · Niente di grave
+expressions: Ecco; Guarda; Niente di grave
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+C | ___ | ___ | ___ | emotion=polite | tags=step:1
+A | ___ | ___ | ___ | emotion=surprised+worried | tags=step:7
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:1
+B | ___ | ___ | ___ | emotion=excited | tags=step:1
+A | ___ | ___ | ___ | emotion=stiff | tags=step:1
+C | ___ | ___ | ___ | emotion=worried | tags=step:3
+A | ___ | ___ | ___ | emotion=worried | tags=step:3
+C | ___ | ___ | ___ | emotion=flustered | tags=step:4
+B | ___ | ___ | ___ | emotion=surprised | tags=step:4
+C | ___ | ___ | ___ | emotion=flustered | tags=step:1
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:1
+C | ___ | ___ | ___ | emotion=flustered+polite | tags=step:1,twist
+B | ___ | ___ | ___ | emotion=excited | tags=step:1
+A | ___ | ___ | ___ | emotion=annoyed+worried | tags=step:1

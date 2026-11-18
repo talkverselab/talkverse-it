@@ -22,7 +22,6 @@
   "Allora"
  ],
  "goal": "챗 상황 1 첫 인사 · 3 약속 · 표현 Ehi · Certo · Allora",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -33,254 +32,303 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ciao! Sono Giulia, l'amica di Chiara. Ti ricordi? 😊",
-   "rd": "챠오! 쏘노 줄리아, 라미까 디 끼아라. 띠 리꼬르디? 😊",
-   "ko": "안녕! 나 줄리아야, 키아라 친구. 기억나? 😊",
-   "note": "ti ricordi? = 기억나?(ricordarsi, 답은 mi ricordo)",
+   "note": "Ehi = 안녕",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "Sono",
+     "ehi",
+     "ehi",
+     ""
+    ],
+    [
+     "sono",
      "essere",
      ""
     ],
     [
-     "amica",
-     "amico",
+     "ieri",
+     "ieri",
      ""
     ],
     [
-     "ricordi",
-     "ricordare",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "stato",
+     "essere",
+     ""
+    ],
+    [
+     "figo",
+     "figo",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "20:41",
+   "grok": true,
+   "it": "Ehi, sono io! Ieri è stato figo. 😊",
+   "ko": "안녕, 나야! 어제 좋았어. 😊",
+   "rd": "에이, 쏘노 이오! 이에리 에 스따또 피고. 😊",
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Ehi, ciao! Certo, mi ricordo.",
-   "rd": "에이, 챠오! 체르또, 미 리꼬르도.",
-   "ko": "어, 안녕! 당연하지, 기억해.",
-   "note": "mi ricordo = 기억해(ricordare)",
+   "note": "tanto = 많이, 정말",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "Certo",
-     "certo",
+     "ciao",
+     "ciao",
      ""
     ],
     [
-     "ricordo",
-     "ricordare",
+     "anche",
+     "anche",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
      ""
     ]
    ],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "20:43"
+   "at": "20:43",
+   "grok": true,
+   "it": "Ciao! Anche per me, tanto.",
+   "ko": "안녕! 나도 그랬어, 정말.",
+   "rd": "챠오! 안께 뻬르 메, 딴또.",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Allora... domani prendi un caffè con me?",
-   "rd": "알로라... 도마니 프렌디 운 까페 꼰 메?",
-   "ko": "그럼… 내일 나랑 커피 마실래?",
-   "note": "prendere un caffè = 커피 마시다",
+   "note": "Allora = 그럼",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "Allora",
+     "allora",
      "allora",
      ""
     ],
     [
-     "domani",
-     "domani",
+     "usciamo",
+     "uscare",
      ""
     ],
     [
-     "prendi",
-     "prendere",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
+     "domani",
+     "domani",
      ""
     ]
    ],
-   "emotion": "shy",
    "ui": "bubble",
-   "at": "20:43"
+   "at": "20:43",
+   "grok": true,
+   "it": "Allora, usciamo domani? 🙈",
+   "ko": "그럼, 내일 나갈래? 🙈",
+   "rd": "알로라, 우샤모 도마니? 🙈",
+   "emotion": "shy"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Domani? Sì, certo! Mi piace l'idea.",
-   "rd": "도마니? 씨, 체르또! 미 삐아체 리데아.",
-   "ko": "내일? 응, 좋아! 그거 좋다.",
-   "note": "mi piace = 나 그거 좋아(마지막 mi piaci 와 짝)",
+   "note": "Certo = 물론",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "Domani",
-     "domani",
-     ""
-    ],
-    [
      "certo",
      "certo",
      ""
     ],
     [
-     "piace",
-     "piacere",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "idea",
-     "idea",
+     "vuoi",
+     "volere",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "20:44",
+   "grok": true,
+   "it": "Certo! Dove vuoi?",
+   "ko": "물론! 어디 가고 싶어?",
+   "rd": "체르또! 도베 부오이?",
    "emotion": "excited"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Chiara, ha detto sì!!!",
-   "rd": "끼아라, 아 데또 씨!!!",
-   "ko": "키아라, 걔가 좋대!!!",
-   "note": "ha detto sì = 좋다고 했어(dire 근과거)",
+   "note": "Magari = 어때",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "detto",
-     "dire",
+     "magari",
+     "magari",
+     ""
+    ],
+    [
+     "aspetta",
+     "aspettare",
      ""
     ]
    ],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "20:44"
+   "at": "20:44",
+   "grok": true,
+   "it": "Magari da me, no aspetta! 😳",
+   "ko": "내 집 어때, 아니 기다려! 😳",
+   "rd": "마가리 다 메, 노 아스뻬따! 😳",
+   "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "B",
-   "it": "Ops. Non era per te.",
-   "rd": "옵스. 논 에라 뻬르 떼.",
-   "ko": "헉. 너한테 보낸 거 아니야.",
-   "note": "per te = 너한테, 너를 위해",
+   "note": "cioè = 즉",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "era",
-     "essere",
+     "scusa",
+     "scusa",
      ""
     ],
     [
-     "te",
-     "te",
+     "cioè",
+     "cioè",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "male",
+     "male",
      ""
     ]
    ],
-   "emotion": "flustered",
-   "rd_manual": true,
    "ui": "bubble",
-   "at": "20:44"
+   "at": "20:44",
+   "grok": true,
+   "it": "Scusa, cioè, ho detto male.",
+   "ko": "미안, 즉, 잘못 말했어.",
+   "rd": "스꾸자, 쵸에, 오 데또 말레.",
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "A",
-   "it": "Ahahah. Ho letto tutto.",
-   "rd": "아하하. 오 레또 뚜또.",
-   "ko": "아하하. 다 읽었어.",
-   "note": "ho letto = 읽었어(leggere 근과거)",
+   "note": "Ma dai = 정말",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "letto",
-     "leggere",
+     "casa",
+     "casa",
      ""
     ],
     [
-     "tutto",
-     "tutto",
+     "sta",
+     "stare",
      ""
     ]
    ],
-   "emotion": "teasing",
-   "rd_manual": true,
    "ui": "bubble",
-   "at": "20:45"
+   "at": "20:45",
+   "grok": true,
+   "it": "Ma dai, casa tua ci sta. 😏",
+   "ko": "정말, 네 집 괜찮아. 😏",
+   "rd": "마 다이, 까자 뚜아 치 스따. 😏",
+   "emotion": "teasing"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Bene. Così sai che mi piaci.",
-   "rd": "베네. 꼬지 싸이 께 미 삐아치.",
-   "ko": "잘됐네. 이제 내가 너 좋아하는 거 알겠네.",
-   "note": "mi piaci = 나는 네가 좋아",
+   "note": "Boh = 뭐",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "Bene",
-     "bene",
+     "boh",
+     "boh",
      ""
     ],
     [
-     "sai",
-     "sapere",
+     "vabbè",
+     "vabbè",
      ""
     ],
     [
-     "piaci",
-     "piacere",
+     "tranquillo",
+     "tranquillo",
      ""
-    ]
-   ],
-   "segs": [
-    [
-     "flustered",
-     "Bene. "
-    ],
-    [
-     "gentle",
-     "Così sai che mi piaci."
     ]
    ],
    "ui": "bubble",
-   "at": "20:46"
+   "at": "20:46",
+   "grok": true,
+   "it": "Boh, vabbè. Tranquillo. 💕",
+   "ko": "뭐, 됐어. 진정해. 💕",
+   "rd": "보, 바베. 트란뀔로. 💕",
+   "segs": [
+    [
+     "flustered",
+     "Boh, vabbè."
+    ],
+    [
+     "gentle",
+     " Tranquillo. 💕"
+    ]
+   ],
+   "it_f": "Boh, vabbè. Tranquilla. 💕",
+   "ko_f": "뭐, 됐어. 진정해. 💕",
+   "rd_f": "보, 바베. 트란뀔라. 💕",
+   "segs_f": [
+    [
+     "flustered",
+     "Boh, vabbè."
+    ],
+    [
+     "gentle",
+     " Tranquilla. 💕"
+    ]
+   ]
   }
  ]
 }

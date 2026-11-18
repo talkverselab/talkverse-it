@@ -24,7 +24,6 @@
   "Ecco"
  ],
  "goal": "어려운 문법 2 접속법 과거 · 5 반과거/근과거 · 6 대과거 · 7 결합 대명사 glielo · 8 ne·ci · 9 재귀 근과거 · 10 관계사 chi · 표현 Boh·Ma dai·Non ci credo·Ecco",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -35,224 +34,24 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ragazzi, la mia moto non c'è più!",
-   "rd": "라가찌, 라 미아 모또 논 체 삐우!",
-   "ko": "얘들아, 내 오토바이가 없어졌어!",
-   "note": "non c'è più = 이제 없다",
-   "tags": [
-    "step:8"
-   ],
-   "new": [
-    "moto"
-   ],
-   "lemmas": [
-    [
-     "ragazzi",
-     "ragazzo",
-     ""
-    ],
-    [
-     "moto",
-     "moto",
-     ""
-    ],
-    [
-     "più",
-     "più",
-     ""
-    ],
-    [
-     "c'è",
-     "essere",
-     ""
-    ]
-   ],
-   "emotion": "shout"
-  },
-  {
-   "num": 2,
-   "speaker": "C",
-   "it": "Calma. Dove l'avevi lasciata ieri sera?",
-   "rd": "깔마. 도베 라베비 라샤따 이에리 쎄라?",
-   "ko": "진정해. 어젯밤에 어디 세워 뒀었는데?",
-   "note": "l'avevi lasciato = 그걸 두었었다(대과거)",
-   "tags": [
-    "step:6"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "calma",
-     "calma",
-     ""
-    ],
-    [
-     "avevi",
-     "avere",
-     ""
-    ],
-    [
-     "lasciata",
-     "lasciare",
-     ""
-    ],
-    [
-     "ieri",
-     "ieri",
-     ""
-    ],
-    [
-     "sera",
-     "sera",
-     ""
-    ]
-   ],
-   "emotion": "worried"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Davanti a casa, come sempre. Ne sono sicuro.",
-   "rd": "다반띠 아 까자, 꼬메 쎔프레. 네 쏘노 씨꾸로.",
-   "ko": "집 앞에, 늘 하던 대로. 그건 확실해.",
-   "note": "ne sono sicuro = 그건 확실하다(ne = di questo)",
+   "note": "non ci credo = 믿을 수가 없어",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "davanti",
-     "davanti",
+     "non",
+     "non",
      ""
     ],
     [
-     "casa",
-     "casa",
+     "credo",
+     "credere",
      ""
     ],
     [
-     "sempre",
-     "sempre",
-     ""
-    ],
-    [
-     "sicuro",
-     "sicuro",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Sicuro? Ieri sera eri un po' strano. Cantavi in mezzo alla strada alle due di notte.",
-   "rd": "씨꾸로? 이에리 쎄라 에리 운 뽀 스트라노. 깐따비 인 메쪼 알라 스트라다 알레 두에 디 노떼.",
-   "ko": "확실해? 어젯밤 너 좀 이상했어. 새벽 두 시에 길 한가운데서 노래 불렀잖아.",
-   "note": "eri · cantavi = ~였다 · ~하고 있었다(반과거, 묘사)",
-   "tags": [
-    "step:5"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "sicuro",
-     "sicuro",
-     ""
-    ],
-    [
-     "strano",
-     "strano",
-     ""
-    ],
-    [
-     "cantavi",
-     "cantare",
-     ""
-    ],
-    [
-     "mezzo",
-     "mezzo",
-     ""
-    ],
-    [
-     "strada",
-     "strada",
-     ""
-    ],
-    [
-     "notte",
-     "notte",
-     ""
-    ],
-    [
-     "eri",
-     "essere",
-     ""
-    ]
-   ],
-   "emotion": "teasing"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "it": "Abbiamo vinto! Era normale.",
-   "rd": "아비아모 빈또! 에라 노르말레.",
-   "ko": "우리 팀이 이겼잖아! 그 정도는 당연하지.",
-   "note": "abbiamo vinto(일어난 일) · era(상태)",
-   "tags": [
-    "step:5"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "vinto",
-     "vincere",
-     ""
-    ],
-    [
-     "normale",
-     "normale",
-     ""
-    ],
-    [
-     "Era",
-     "essere",
-     ""
-    ]
-   ],
-   "emotion": "excited"
-  },
-  {
-   "num": 6,
-   "speaker": "C",
-   "it": "Penso che qualcuno l'abbia rubata stanotte. Chiamiamo la polizia?",
-   "rd": "뻰쏘 께 꽐꾸노 라비아 루바따 스따노떼. 끼아미아모 라 뽈리찌아?",
-   "ko": "밤사이에 누가 훔쳐 간 것 같아. 경찰 부를까?",
-   "note": "che l'abbia rubato = 그걸 훔쳤다고(접속법 과거)",
-   "tags": [
-    "step:2"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "penso",
-     "pensare",
-     ""
-    ],
-    [
-     "qualcuno",
-     "qualcuno",
-     ""
-    ],
-    [
-     "abbia",
+     "hanno",
      "avere",
      ""
     ],
@@ -260,212 +59,133 @@
      "rubata",
      "rubare",
      ""
-    ],
+    ]
+   ],
+   "grok": true,
+   "it": "Non ci credo, me l'hanno rubata!",
+   "ko": "믿을 수가 없어, 내 걸 훔쳐갔어!",
+   "rd": "논 치 크레도, 메 란노 루바따!",
+   "emotion": "shout"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "note": "ti avevo detto = 너에게 말했었다",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
     [
-     "stanotte",
-     "stanotte",
+     "avevo",
+     "avere",
      ""
     ],
     [
-     "chiamiamo",
-     "chiamare",
+     "detto",
+     "dire",
      ""
     ],
     [
-     "polizia",
-     "polizia",
+     "bene",
+     "bene",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ti avevo detto di chiuderla bene.",
+   "ko": "너에게 잘 잠그라고 말했었잖아.",
+   "rd": "띠 아베보 데또 디 끼우데를라 베네.",
    "emotion": "worried"
   },
   {
-   "num": 7,
-   "speaker": "A",
-   "it": "Aspetta. Luca, a che ora sei tornato a casa?",
-   "rd": "아스뻬따. 루까, 아 께 오라 쎄이 또르나또 아 까자?",
-   "ko": "잠깐. 루카, 너 몇 시에 집에 왔어?",
-   "note": "sei tornato = 돌아왔다(essere 근과거)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "aspetta",
-     "aspettare",
-     ""
-    ],
-    [
-     "ora",
-     "ora",
-     ""
-    ],
-    [
-     "tornato",
-     "tornare",
-     ""
-    ],
-    [
-     "casa",
-     "casa",
-     ""
-    ]
-   ],
-   "emotion": "neutral"
-  },
-  {
-   "num": 8,
+   "num": 3,
    "speaker": "B",
-   "it": "Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano.",
-   "rd": "보. 미 쏘노 스벨리아또 뻬르 떼라, 베스띠또, 꼰 레 끼아비 인 마노.",
-   "ko": "몰라. 깨 보니까 옷 입은 채로 열쇠 쥐고 바닥에 있더라.",
-   "note": "mi sono svegliato = 깨어났다(재귀 근과거)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "svegliato",
-     "svegliare",
-     ""
-    ],
-    [
-     "terra",
-     "terra",
-     ""
-    ],
-    [
-     "vestito",
-     "vestire",
-     ""
-    ],
-    [
-     "chiavi",
-     "chiave",
-     ""
-    ],
-    [
-     "mano",
-     "mano",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 9,
-   "speaker": "C",
-   "it": "Per terra? Con le chiavi in mano? Ma dai.",
-   "rd": "뻬르 떼라? 꼰 레 끼아비 인 마노? 마 다이.",
-   "ko": "바닥에서? 열쇠를 쥐고? 말도 안 돼.",
-   "note": "Ma dai = 에이, 설마",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "terra",
-     "terra",
-     ""
-    ],
-    [
-     "chiavi",
-     "chiave",
-     ""
-    ],
-    [
-     "mano",
-     "mano",
-     ""
-    ]
-   ],
-   "emotion": "tsukkomi"
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "it": "Aspetta, mi scrive Marco. Ha mandato una foto.",
-   "rd": "아스뻬따, 미 스크리베 마르꼬. 아 만다또 우나 포또.",
-   "ko": "잠깐, 마르코한테 문자 왔어. 사진 보냈네.",
-   "note": "mi scrive = 나한테 문자한다(scrivere)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "aspetta",
-     "aspettare",
-     ""
-    ],
-    [
-     "scrive",
-     "scrivere",
-     ""
-    ],
-    [
-     "mandato",
-     "mandare",
-     ""
-    ],
-    [
-     "foto",
-     "foto",
-     ""
-    ]
-   ],
-   "emotion": "surprised"
-  },
-  {
-   "num": 11,
-   "speaker": "C",
-   "it": "Non ci credo. È la tua moto, davanti al bar di Marco.",
-   "rd": "논 치 크레도. 에 라 뚜아 모또, 다반띠 알 바르 디 마르꼬.",
-   "ko": "말도 안 돼. 네 오토바이야, 마르코네 바 앞에 있어.",
-   "note": "Non ci credo = 믿을 수가 없어(ci = 그걸)",
+   "note": "ci avevo messo = 거기에 넣어뒀었다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "credo",
-     "credere",
+     "boh",
+     "boh",
      ""
     ],
     [
-     "moto",
-     "moto",
+     "avevo",
+     "avere",
      ""
     ],
     [
-     "davanti",
-     "davanti",
+     "messo",
+     "mettere",
      ""
     ],
     [
-     "bar",
-     "bar",
+     "catena",
+     "catena",
      ""
     ]
    ],
-   "segs": [
-    [
-     "surprised",
-     "Non ci credo."
-    ],
-    [
-     "tsukkomi",
-     " È la tua moto, davanti al bar di Marco."
-    ]
-   ]
+   "grok": true,
+   "it": "Boh, ci avevo messo la catena.",
+   "ko": "글쎄, 거기에 체인을 걸어뒀었어.",
+   "rd": "보, 치 아베보 메쏘 라 까떼나.",
+   "emotion": "flustered"
   },
   {
-   "num": 12,
-   "speaker": "B",
-   "it": "Ah, ecco dove l'avevo lasciata! Avevo bevuto e ho preferito tornare a piedi.",
-   "rd": "아, 에꼬 도베 라베보 라샤따! 아베보 베부또 에 오 프레페리또 또르나레 아 삐에디.",
-   "ko": "아, 거기다 뒀었구나! 술 마셔서 걸어오는 게 낫겠다 싶었지.",
-   "note": "l'avevo lasciata = 그걸 두었었다(대과거) — 2턴 l'avevi lasciata",
+   "num": 4,
+   "speaker": "A",
+   "note": "hai vinto = 이겼다",
    "tags": [
-    "step:6"
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "hai",
+     "avere",
+     ""
+    ],
+    [
+     "vinto",
+     "vincere",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "perdi",
+     "perdire",
+     ""
+    ],
+    [
+     "moto",
+     "moto",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ieri hai vinto e oggi perdi la moto.",
+   "ko": "어제 이겼고 오늘 오토바이를 잃네.",
+   "rd": "이에리 아이 빈또 에 오찌 뻬르디 라 모또.",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "note": "l'avevo lasciata = 그것을 놔뒀었다",
+   "tags": [
+    "step:5"
    ],
    "new": [],
    "lemmas": [
@@ -480,98 +200,281 @@
      ""
     ],
     [
-     "bevuto",
-     "bere",
-     ""
-    ],
-    [
-     "preferito",
-     "preferire",
-     ""
-    ],
-    [
-     "tornare",
-     "tornare",
-     ""
-    ],
-    [
-     "piedi",
-     "piede",
+     "qui",
+     "qui",
      ""
     ]
    ],
-   "segs": [
-    [
-     "surprised",
-     "Ah, ecco dove l'avevo lasciata!"
-    ],
-    [
-     "flustered",
-     " Avevo bevuto e ho preferito tornare a piedi."
-    ]
-   ]
+   "grok": true,
+   "it": "Ma dai, l'avevo lasciata qui!",
+   "ko": "야, 내가 여기 놔뒀었잖아!",
+   "rd": "마 다이, 라베보 라샤따 뀌!",
+   "emotion": "excited"
   },
   {
-   "num": 13,
-   "speaker": "A",
-   "it": "Hai fatto bene. Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì.",
-   "rd": "아이 파또 베네. 마 구아르다 라 포또: 체 쟈 우나 물따, 에 이 비질리 쏘노 안꼬라 리.",
-   "ko": "잘했네. 근데 사진 봐. 벌써 딱지 붙었고, 단속하는 사람들 아직 거기 있어.",
-   "note": "multa = 벌금 딱지 · vigile = 교통 단속 경찰",
-   "tags": [],
-   "new": [
-    "multa"
+   "num": 6,
+   "speaker": "C",
+   "note": "speravo che = 바랐다",
+   "tags": [
+    "step:2"
    ],
+   "new": [],
    "lemmas": [
     [
-     "fatto",
-     "fare",
+     "speravo",
+     "sperare",
      ""
     ],
     [
-     "guarda",
-     "guardare",
+     "non",
+     "non",
      ""
     ],
     [
-     "foto",
-     "foto",
+     "fosse",
+     "essere",
      ""
     ],
     [
-     "multa",
-     "multa",
+     "successo",
+     "succedere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Speravo che non fosse successo.",
+   "ko": "그런 일이 안 일어나길 바랐어.",
+   "rd": "스뻬라보 께 논 포쎄 쑤체쏘.",
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "note": "chi = 누구",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ha",
+     "avere",
      ""
     ],
     [
-     "vigili",
-     "vigile",
+     "presa",
+     "prendere",
      ""
     ],
+    [
+     "te",
+     "te",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Chi l'ha presa, secondo te?",
+   "ko": "누가 가져간 거야, 너는?",
+   "rd": "끼 라 프레자, 쎄꼰도 떼?",
+   "emotion": "neutral"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "note": "mi sono arrabbiat{o|a} = 내가 화났다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
     [
      "sono",
      "essere",
      ""
-    ]
-   ],
-   "segs": [
-    [
-     "gentle",
-     "Hai fatto bene."
     ],
     [
-     "worried",
-     " Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì."
+     "arrabbiato",
+     "arrabbiare",
+     ""
+    ],
+    [
+     "tantissimo",
+     "tanto",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Mi sono arrabbiato tantissimo.",
+   "ko": "나 엄청 화났어.",
+   "rd": "미 쏘노 아라비아또 딴띠씨모.",
+   "it_f": "Mi sono arrabbiata tantissimo.",
+   "ko_f": "나 엄청 화났어.",
+   "rd_f": "미 쏘노 아라비아따 딴띠씨모.",
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "note": "ecco = 자",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ],
+    [
+     "stessa",
+     "stesso",
+     ""
+    ],
+    [
+     "storia",
+     "storia",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ecco, sempre la stessa storia.",
+   "ko": "자, 항상 똑같은 이야기.",
+   "rd": "에꼬, 쎔프레 라 스떼싸 스또리아.",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "note": "non ci credo = 믿을 수가 없어",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "credo",
+     "credere",
+     ""
+    ],
+    [
+     "sia",
+     "essere",
+     ""
+    ],
+    [
+     "sparita",
+     "sparire",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Non ci credo che sia sparita.",
+   "ko": "사라진 걸 믿을 수가 없어.",
+   "rd": "논 치 크레도 께 씨아 스빠리따.",
+   "emotion": "surprised"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "note": "ne abbiamo parlato = 그것에 대해 말했다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "abbiamo",
+     "avere",
+     ""
+    ],
+    [
+     "parlato",
+     "parlare",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ne abbiamo parlato ieri! Ma dai.",
+   "ko": "우리가 어제 그것에 대해 말했잖아! 야.",
+   "rd": "네 아비아모 빠를라또 이에리! 마 다이.",
+   "segs": [
+    [
+     "surprised",
+     "Ne abbiamo parlato ieri!"
+    ],
+    [
+     "tsukkomi",
+     " Ma dai."
     ]
    ]
   },
   {
+   "num": 12,
+   "speaker": "B",
+   "note": "glielo avevo detto = 그것을 너에게 말했었다",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "avevo",
+     "avere",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Glielo avevo detto a te!",
+   "ko": "내가 너에게 그것을 말했었잖아!",
+   "rd": "리엘로 아베보 데또 아 떼!",
+   "emotion": "surprised"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "note": "tranquill{o|a} = 진정해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "troviamo",
+     "trovare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Tranquillo, la troviamo noi.",
+   "ko": "진정해, 우리가 찾아낼 거야.",
+   "rd": "트란뀔로, 라 트로비아모 노이.",
+   "it_f": "Tranquilla, la troviamo noi.",
+   "ko_f": "진정해, 우리가 찾아낼 거야.",
+   "rd_f": "트란뀔라, 라 트로비아모 노이.",
+   "emotion": "gentle"
+  },
+  {
    "num": 14,
    "speaker": "B",
-   "it": "Allora corro. A chi mi accompagna, il caffè glielo offro io.",
-   "rd": "알로라 꼬로. 아 끼 미 아꼼빠냐, 일 까페 리엘로 오프로 이오.",
-   "ko": "그럼 뛰어간다. 같이 가 주는 사람한테는 커피 내가 쏜다.",
-   "note": "chi = ~하는 사람(관계사) · glielo = 그 사람에게 그걸",
+   "note": "chi = 누구",
    "tags": [
     "step:10",
     "step:7"
@@ -579,31 +482,20 @@
    "new": [],
    "lemmas": [
     [
-     "corro",
-     "correre",
+     "riporta",
+     "riportare",
      ""
     ],
     [
-     "chi",
-     "chi",
-     ""
-    ],
-    [
-     "accompagna",
-     "accompagnare",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
-     ""
-    ],
-    [
-     "offro",
-     "offrire",
+     "do",
+     "do",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Chi me la riporta, glielo do.",
+   "ko": "누가 내게 돌려주든, 그것을 줄게.",
+   "rd": "끼 메 라 리뽀르따, 리엘로 도.",
    "emotion": "cheerful"
   }
  ]

@@ -3,7 +3,6 @@
  "region": "R3",
  "island": "love",
  "kind": "short",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -33,10 +32,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi... domani tornate a casa. Siete pronti?",
-   "rd": "에이... 도마니 또르나떼 아 까자. 씨에떼 프론띠?",
-   "ko": "있잖아… 내일 집에 가지. 준비됐어?",
-   "note": "tornate = 너희 돌아가다(voi) · pronti = 남녀 섞이면 -i",
+   "note": "tornate = 너희 돌아온다",
    "tags": [
     "step:3",
     "step:2"
@@ -44,8 +40,8 @@
    "new": [],
    "lemmas": [
     [
-     "domani",
-     "domani",
+     "ehi",
+     "ehi",
      ""
     ],
     [
@@ -54,36 +50,32 @@
      ""
     ],
     [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "siete",
-     "essere",
-     ""
-    ],
-    [
-     "pronti",
-     "pronto",
+     "domani",
+     "domani",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ehi, tornate voi domani?",
+   "ko": "야, 너희 내일 돌아와?",
+   "rd": "에이, 또르나떼 보이 도마니?",
    "emotion": "shy"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "No, non siamo pronti. Ma torniamo presto.",
-   "rd": "노, 논 씨아모 프론띠. 마 또르니아모 프레스또.",
-   "ko": "아니, 준비 안 됐어. 근데 금방 올 거야.",
-   "note": "torniamo = 우리 돌아오다(noi) — 1턴 tornate",
+   "note": "siamo pronti = 우리 준비됐다",
    "tags": [
     "step:2",
     "step:3"
    ],
    "new": [],
    "lemmas": [
+    [
+     "non",
+     "non",
+     ""
+    ],
     [
      "siamo",
      "essere",
@@ -95,7 +87,162 @@
      ""
     ],
     [
+     "ancora",
+     "ancora",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "No, non siamo pronti ancora.",
+   "ko": "아니, 우리 아직 준비 안 됐어.",
+   "rd": "노, 논 씨아모 프론띠 안꼬라.",
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "D",
+   "note": "potete = 너희 할 수 있다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "potete",
+     "potere",
+     ""
+    ],
+    [
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "dopo",
+     "dopo",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Certo, potete tornare dopo!",
+   "ko": "당연하지, 너희 나중에 돌아올 수 있어!",
+   "rd": "체르또, 뽀떼떼 또르나레 도뽀!",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "note": "torniamo = 우리 돌아온다",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
      "torniamo",
+     "tornare",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Sì, torniamo domani sera.",
+   "ko": "응, 우리 내일 저녁에 돌아와.",
+   "rd": "씨, 또르니아모 도마니 쎄라.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "note": "diteci = 우리에게 말해",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "diteci",
+     "diteci",
+     ""
+    ],
+    [
+     "tornate",
+     "tornare",
+     ""
+    ],
+    [
+     "ok",
+     "ok",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Diteci quando tornate, ok?",
+   "ko": "너희 언제 돌아오는지 말해, 알겠지?",
+   "rd": "디떼치 꽌도 또르나떼, 오크?",
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "possiamo = 우리 할 수 있다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "possiamo",
+     "potere",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Possiamo dirvi domani, dai.",
+   "ko": "우리 내일 말해줄 수 있어, 야.",
+   "rd": "뽀씨아모 디르비 도마니, 다이.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "ci piacete = 우리가 너희를 좋아한다",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "piacete",
+     "piacete",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "tornate",
      "tornare",
      ""
     ],
@@ -105,210 +252,45 @@
      ""
     ]
    ],
-   "emotion": "sad"
-  },
-  {
-   "num": 3,
-   "speaker": "D",
-   "it": "Presto? Voi dite sempre «presto».",
-   "rd": "프레스또? 보이 디떼 쎔프레 \"프레스또\".",
-   "ko": "금방? 너희는 맨날 「금방」이래.",
-   "note": "dite = 너희 말한다(dire, voi)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "presto",
-     "presto",
-     ""
-    ],
-    [
-     "dite",
-     "dire",
-     ""
-    ],
-    [
-     "sempre",
-     "sempre",
-     ""
-    ]
-   ],
-   "emotion": "teasing"
-  },
-  {
-   "num": 4,
-   "speaker": "C",
-   "it": "Questa volta è vero, davvero.",
-   "rd": "꿰스따 볼따 에 베로, 다베로.",
-   "ko": "이번엔 진짜야, 정말로.",
-   "note": "questa volta = 이번에는(la volta 여성)",
-   "tags": [
-    "step:2"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "volta",
-     "volta",
-     ""
-    ],
-    [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "vero",
-     "vero",
-     ""
-    ],
-    [
-     "davvero",
-     "davvero",
-     ""
-    ]
-   ],
-   "emotion": "gentle"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "it": "Allora... possiamo dire una cosa?",
-   "rd": "알로라... 뽀씨아모 디레 우나 꼬자?",
-   "ko": "그럼… 우리 하나만 말해도 돼?",
-   "note": "possiamo dire = 우리 말해도 돼?(potere, noi)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "allora",
-     "allora",
-     ""
-    ],
-    [
-     "possiamo",
-     "potere",
-     ""
-    ],
-    [
-     "dire",
-     "dire",
-     ""
-    ],
-    [
-     "cosa",
-     "cosa",
-     ""
-    ]
-   ],
-   "emotion": "shy"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Certo. Diteci tutto.",
-   "rd": "체르또. 디떼치 뚜또.",
-   "ko": "그럼. 다 말해.",
-   "note": "diteci = 우리한테 말해(dite + ci, voi 명령)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "certo",
-     "certo",
-     ""
-    ],
-    [
-     "diteci",
-     "dire",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
-     ""
-    ]
-   ],
-   "emotion": "gentle"
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Ci piace quando siete qui. Tanto.",
-   "rd": "치 삐아체 꽌도 씨에떼 뀌. 딴또.",
-   "ko": "너희가 여기 있을 때가 좋아. 많이.",
-   "note": "ci piace = 우리는 ~가 좋다(piacere)",
-   "tags": [
-    "step:8"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "piace",
-     "piacere",
-     ""
-    ],
-    [
-     "quando",
-     "quando",
-     ""
-    ],
-    [
-     "siete",
-     "essere",
-     ""
-    ],
-    [
-     "qui",
-     "qui",
-     ""
-    ],
-    [
-     "tanto",
-     "tanto",
-     ""
-    ]
-   ],
+   "grok": true,
+   "it": "Ci piacete tanto voi. Ma tornate presto.",
+   "ko": "너희 우리 정말 좋아해. 그런데 빨리 돌아와.",
+   "rd": "치 삐아체떼 딴또 보이. 마 또르나떼 프레스또.",
    "segs": [
     [
      "shy",
-     "Ci piace quando siete qui."
+     "Ci piacete tanto voi."
     ],
     [
      "sad",
-     " Tanto."
+     " Ma tornate presto."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Anche voi ci piacete. Tanto, tanto.",
-   "rd": "안께 보이 치 삐아체떼. 딴또, 딴또.",
-   "ko": "우리도 너희가 좋아. 많이, 많이.",
-   "note": "ci piacete = 너희가 우리 마음에 든다(좋은 대상이 voi) — 7턴 ci piace",
+   "note": "piacete = 너희를 좋아한다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "piacete",
-     "piacere",
+     "anche",
+     "anche",
      ""
     ],
     [
-     "tanto",
-     "tanto",
+     "piacete",
+     "piacete",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Anche a noi piacete.",
+   "ko": "우리도 너희 좋아해.",
+   "rd": "안께 아 노이 삐아체떼.",
    "emotion": "shy"
   }
  ]

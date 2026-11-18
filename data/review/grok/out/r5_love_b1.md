@@ -1,0 +1,26 @@
+=== r5_love_b1
+level: R5
+kind: long
+title: 우산은 가방 안에
+emoji: ☔
+scene: 여름 저녁, 학습자 집에서 같이 공부하던 줄리아. 갑자기 비가 쏟아지고 불이 나간다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 13 emotion
+goal: 어휘 주제 5 날씨·계절(pioggia·neve·freddo·previsioni·Natale) · 1 집(luce·camera·tavolo) · 4 감정 · 표현 Senti·Dai·Mamma mia·Magari·Guarda·Cioè
+expressions: Senti; Dai; Mamma mia; Magari; Guarda; Cioè
+steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
+B | Mamma mia, che pioggia! È estate e fa così. | 맙소사, 비 좀 봐! 여름인데 이래. | pioggia = 비 | emotion=surprised | tags=step:5
+A | Senti, la luce se n'è andata. Resta qui. | 들어 봐, 불이 나갔어. 여기 있어. | luce = 불 | emotion=gentle | tags=step:1
+B | Dai, non vedo niente in questa camera! | 에이, 이 방에서 아무것도 안 보여! | camera = 방 | emotion=shout | tags=step:1
+A | Guarda, c'è una candela sul tavolo. | 봐, 탁자 위에 초가 있어. | tavolo = 탁자 | emotion=flustered | tags=step:1
+B | Sei sempre così calmo quando fa buio? | 어두워지면 항상 이렇게 침착해? | calmo = 침착한 | emotion=teasing | tags=step:4
+A | Un po' nervos{o|a}, ma va. Tu come stai? | 좀 긴장되지만 괜찮아. 너는 어때? | nervos{o|a} = 긴장된 | emotion=amused | tags=step:4
+B | Le previsioni dicevano sole. Magari a Natale nevica. | 예보에는 맑대. 크리스마스에 눈 올지도. | previsioni = 일기예보 | emotion=gentle | tags=step:5,step:8
+A | Fa freddo adesso con questa pioggia. | 이 비 때문에 지금 추워. | freddo = 추운 | emotion=gentle | tags=step:5
+B | Cioè, siamo bloccati qui fino a quando? | 그러니까, 언제까지 여기 갇혀 있는 거야? |  | emotion=amused | tags=step:5
+A | Non lo so. Mi piace stare così con te. | 몰라. 이렇게 너랑 있는 게 좋아. |  | emotion=shy | tags=step:5,step:4
+B | Dai, non fare il romantic{o|a}. // Anch'io un po'. | 에이, 로맨틱하게 굴지 마. // 나도 좀. |  | emotion=teasing+shy | tags=step:4
+A | Magari la pioggia smette presto. | 비가 빨리 그쳤으면 좋겠어. |  | emotion=gentle | tags=step:5
+B | Senti… // Volevo restare lo stesso, anche senza luce. | 들어 봐… // 불 없어도 그냥 있고 싶었어. |  | emotion=shy | tags=step:5,step:4,twist
+A | Davvero? // Anch'io ero content{o|a} del buio. | 진짜? // 나도 어두운 게 기뻤어. | content{o|a} = 기쁜 | emotion=surprised+shy | tags=step:4

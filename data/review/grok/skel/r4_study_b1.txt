@@ -1,0 +1,26 @@
+=== r4_study_b1
+level: R4
+kind: long
+title: 맨 뒤에 적힌 말
+emoji: 📒
+scene: 시험 전날 밤 대학 도서관. 수업을 자주 빼먹은 학습자는 엉뚱한 책을 들고 왔고, 키아라가 늘 필기하는 엘레나를 가리킨다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아), C: Elena(여)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 12 emotion
+goal: 어려운 문법 2 접속법 과거(credo che tu abbia preso) · 4 가정문(se fossi venuto… avresti · se potessi… andrei) · 5 반과거/근과거 · 1 접속법(penso che veda·volevo che trovassi) · 7 결합 대명사(te li·me li) · 8 ci · 10 quella che · 표현 Boh·Guarda·Magari·Ma dai
+expressions: Boh; Guarda; Magari; Ma dai
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | ___ | ___ | ___ | emotion=amused | tags=step:2
+A | ___ | ___ | ___ | emotion=flustered | tags=step:5
+B | ___ | ___ | ___ | emotion=teasing | tags=step:4
+A | ___ | ___ | ___ | emotion=sad | tags=step:4,step:8
+B | ___ | ___ | ___ | emotion=teasing | tags=step:10
+A | ___ | ___ | ___ | emotion=worried | tags=step:1
+C | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=flustered | tags=
+C | ___ | ___ | ___ | emotion=gentle | tags=step:7
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=step:7
+C | ___ | ___ | ___ | emotion=teasing | tags=step:7
+A | ___ | ___ | ___ | emotion=surprised+shy | tags=step:8,twist
+C | ___ | ___ | ___ | emotion=shy | tags=step:1
+A | ___ | ___ | ___ | emotion=excited | tags=

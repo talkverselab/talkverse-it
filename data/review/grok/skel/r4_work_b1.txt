@@ -1,0 +1,27 @@
+=== r4_work_b1
+level: R4
+kind: long
+title: 스무 분짜리 영상
+emoji: 🎬
+scene: 로마의 작은 회사 면접. 사장이 늦는다며 한 여성이 커피를 권하고, 학습자는 긴장이 풀려 회사 험담을 시작한다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Signora Conti(여)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 13 reveal
+goal: 어려운 문법 1 접속법(prima che arrivi·speriamo che abbia) · 3 조건법(toglierei) · 7 결합 대명사(me l'ha) · 존댓말 Lei
+expressions: Si accomodi; Mi scusi; Addirittura; per la cronaca
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=stiff | tags=
+B | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=stiff+cheerful | tags=
+B | ___ | ___ | ___ | emotion=polite | tags=step:1
+A | ___ | ___ | ___ | emotion=amused | tags=step:3
+B | ___ | ___ | ___ | emotion=polite | tags=
+A | ___ | ___ | ___ | emotion=amused+teasing | tags=
+B | ___ | ___ | ___ | emotion=polite | tags=step:1
+A | ___ | ___ | ___ | emotion=amused | tags=step:1
+B | ___ | ___ | ___ | emotion=neutral | tags=
+A | ___ | ___ | ___ | emotion=worried | tags=
+B | ___ | ___ | ___ | emotion=neutral+teasing | tags=step:7,twist
+A | ___ | ___ | ___ | emotion=flustered | tags=
+B | ___ | ___ | ___ | emotion=gentle+gentle | tags=step:7

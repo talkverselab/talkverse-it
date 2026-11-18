@@ -1,0 +1,26 @@
+=== r4_love_b1
+level: R4
+kind: long
+title: 우산을 두고 온 이유
+emoji: ☂️
+scene: 키아라 집 파티. 학습자가 시끄러운 거실을 피해 발코니로 나오자 줄리아가 따라 나온다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 11 reveal
+goal: 어려운 문법 2 접속법 과거 · 4 가정문 · 5 반과거/근과거 · 6 대과거 · 8 ne·ci · 9 재귀 근과거 · 10 a cui · 표현 Cioè·Boh·Dai
+expressions: Cioè; Boh; Dai; Mamma mia; Ecco
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+B | ___ | ___ | ___ | emotion=surprised | tags=step:6,step:8
+A | ___ | ___ | ___ | emotion=shy | tags=step:9
+B | ___ | ___ | ___ | emotion=amused+shy | tags=step:5
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=step:4
+A | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=step:10
+A | ___ | ___ | ___ | emotion=surprised+flustered | tags=step:8
+B | ___ | ___ | ___ | emotion=teasing | tags=step:8
+A | ___ | ___ | ___ | emotion=surprised | tags=step:5
+B | ___ | ___ | ___ | emotion=teasing | tags=step:2,twist
+A | ___ | ___ | ___ | emotion=amused | tags=step:9
+B | ___ | ___ | ___ | emotion=shy | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=

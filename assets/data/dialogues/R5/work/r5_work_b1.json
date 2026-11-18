@@ -21,7 +21,6 @@
   "Mamma mia"
  ],
  "goal": "어휘 주제 2 일 · 3 건강 · 4 감정 · 9 갈등 · 10 미래 · 존댓말 Lei · 표현 Dai·Infatti·Mamma mia",
- "draft": true,
  "purpose": [
   "work"
  ],
@@ -32,28 +31,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Sette e mezza. E la macchina fa già quel rumore.",
-   "rd": "쎄떼 에 메짜. 에 라 마끼나 파 쟈 꿸 루모레.",
-   "ko": "7시 반. 근데 머신이 벌써 저 소리를 내네.",
-   "note": "rumore = 소리, 소음",
+   "note": "macchina = 기계",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "sette",
-     "sette",
+     "macchina",
+     "macchina",
      ""
     ],
     [
-     "mezza",
-     "mezzo",
-     ""
-    ],
-    [
-     "macchina",
-     "macchina",
+     "caffè",
+     "caffè",
      ""
     ],
     [
@@ -62,139 +53,34 @@
      ""
     ],
     [
+     "rumori",
      "rumore",
-     "rumore",
+     ""
+    ],
+    [
+     "strani",
+     "strano",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Dai, la macchina del caffè fa rumori strani.",
+   "ko": "에이, 커피 머신이 이상한 소리를 내.",
+   "rd": "다이, 라 마끼나 델 까페 파 루모리 스트라니.",
    "emotion": "annoyed"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Non l'ho toccata, te lo giuro! Faceva così anche ieri.",
-   "rd": "논 로 또까따, 떼 로 주로! 파체바 꼬지 안께 이에리.",
-   "ko": "나 안 건드렸어, 진짜야! 어제도 이랬어.",
-   "note": "te lo giuro = 맹세해, 진짜야",
+   "note": "lavoro = 일",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "toccata",
-     "toccare",
-     ""
-    ],
-    [
-     "giuro",
-     "giurare",
-     ""
-    ],
-    [
-     "faceva",
-     "fare",
-     ""
-    ],
-    [
-     "ieri",
-     "ieri",
-     ""
-    ]
-   ],
-   "emotion": "flustered"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Ieri il turno era mio. Oggi è tuo.",
-   "rd": "이에리 일 뚜르노 에라 미오. 오찌 에 뚜오.",
-   "ko": "어제는 내 근무였지. 오늘은 네 거고.",
-   "note": "turno = 근무 차례, 교대",
-   "tags": [
-    "step:2"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "ieri",
-     "ieri",
-     ""
-    ],
-    [
-     "turno",
-     "turno",
-     ""
-    ],
-    [
-     "oggi",
-     "oggi",
-     ""
-    ]
-   ],
-   "emotion": "teasing"
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Infatti, è mio ogni sabato da tre mesi. Quando ne parliamo, di questi turni?",
-   "rd": "인파띠, 에 미오 오니 싸바또 다 트레 메지. 꽌도 네 빠를리아모, 디 꿰스띠 뚜르니?",
-   "ko": "그러니까. 석 달째 토요일마다 내 근무잖아. 이 근무 얘기는 언제 할 건데?",
-   "note": "ne parliamo = 그것에 대해 얘기하다",
-   "tags": [
-    "step:2",
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
      "infatti",
      "infatti",
-     ""
-    ],
-    [
-     "sabato",
-     "sabato",
-     ""
-    ],
-    [
-     "mesi",
-     "mese",
-     ""
-    ],
-    [
-     "parliamo",
-     "parlare",
-     ""
-    ],
-    [
-     "turni",
-     "turno",
-     ""
-    ]
-   ],
-   "emotion": "annoyed"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "it": "Dai, adesso? Con venti clienti in fila?",
-   "rd": "다이, 아데쏘? 꼰 벤띠 클리엔띠 인 필라?",
-   "ko": "에이, 지금? 손님 스무 명이 줄 서 있는데?",
-   "note": "in fila = 줄 서서",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "adesso",
-     "adesso",
-     ""
-    ],
-    [
-     "venti",
-     "venti",
      ""
     ],
     [
@@ -203,20 +89,150 @@
      ""
     ],
     [
-     "fila",
-     "fila",
+     "aspettano",
+     "aspettare",
+     ""
+    ],
+    [
+     "facciamo",
+     "fare",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Infatti, i clienti aspettano. Cosa facciamo al lavoro?",
+   "ko": "맞아, 손님들이 기다리고 있어. 일에서 뭐 하지?",
+   "rd": "인파띠, 이 클리엔띠 아스뻬따노. 꼬자 파챠모 알 라보로?",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "note": "turno = 근무",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "apri",
+     "aprire",
+     ""
+    ],
+    [
+     "chiudo",
+     "chiudo",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "turno",
+     "turno",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Tu apri, io chiudo. È il turno di oggi.",
+   "ko": "너는 열고, 나는 닫아. 오늘 근무야.",
+   "rd": "뚜 아프리, 이오 끼우도. 에 일 뚜르노 디 오찌.",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "note": "stipendio = 월급",
+   "tags": [
+    "step:2",
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "stipendio",
+     "stipendio",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "basso",
+     "basso",
+     ""
+    ],
+    [
+     "turni",
+     "turno",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma il mio stipendio è basso per questi turni.",
+   "ko": "근데 이 근무들 치고 내 월급이 적어.",
+   "rd": "마 일 미오 스띠뻰디오 에 바쏘 뻬르 꿰스띠 뚜르니.",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "note": "conflitto = 갈등",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ],
+    [
+     "conflitto",
+     "conflitto",
+     ""
+    ],
+    [
+     "soldi",
+     "soldo",
+     ""
+    ],
+    [
+     "vero",
+     "vero",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "C'è sempre conflitto sui soldi, vero?",
+   "ko": "돈 가지고 항상 갈등이지, 그렇지?",
+   "rd": "체 쎔프레 꼰플리또 쑤이 쏠디, 베로?",
    "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Sì, adesso. Studio, lavoro, e la sera sono distrutto.",
-   "rd": "씨, 아데쏘. 스뚜디오, 라보로, 에 라 쎄라 쏘노 디스트루또.",
-   "ko": "응, 지금. 공부하고 일하고, 저녁엔 완전 녹초야.",
-   "note": "distrutto/a = 녹초가 된",
+   "note": "mal di testa = 두통",
    "tags": [
     "step:3",
     "step:4"
@@ -224,132 +240,148 @@
    "new": [],
    "lemmas": [
     [
-     "adesso",
-     "adesso",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "studio",
-     "studiare",
+     "mal",
+     "male",
      ""
     ],
     [
-     "lavoro",
-     "lavorare",
+     "testa",
+     "testa",
      ""
     ],
     [
-     "sera",
-     "sera",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "distrutto",
-     "distruggere",
+     "stanco",
+     "stanco",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ho mal di testa. Sono stanco di questa cosa.",
+   "ko": "머리가 아파. 이 일에 지쳤어.",
+   "rd": "오 말 디 떼스따. 쏘노 스딴꼬 디 꿰스따 꼬자.",
    "segs": [
     [
      "annoyed",
-     "Sì, adesso."
+     "Ho mal di testa."
     ],
     [
      "sad",
-     " Studio, lavoro, e la sera sono distrutto."
+     " Sono stanco di questa cosa."
     ]
    ],
-   "it_f": "Sì, adesso. Studio, lavoro, e la sera sono distrutta.",
-   "ko_f": "응, 지금. 공부하고 일하고, 저녁엔 완전 녹초야.",
+   "it_f": "Ho mal di testa. Sono stanca di questa cosa.",
+   "ko_f": "머리가 아파. 이 일에 지쳤어.",
+   "rd_f": "오 말 디 떼스따. 쏘노 스딴까 디 꿰스따 꼬자.",
    "segs_f": [
     [
      "annoyed",
-     "Sì, adesso."
+     "Ho mal di testa."
     ],
     [
      "sad",
-     " Studio, lavoro, e la sera sono distrutta."
+     " Sono stanca di questa cosa."
     ]
-   ],
-   "rd_f": "씨, 아데쏘. 스뚜디오, 라보로, 에 라 쎄라 쏘노 디스트루따."
+   ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Lo so. Anch'io sono stanco. Ma tra un anno apro un posto mio.",
-   "rd": "로 쏘. 안끼오 쏘노 스딴꼬. 마 트라 운 안노 아프로 운 뽀스또 미오.",
-   "ko": "알아. 나도 지쳤어. 근데 1년 뒤에 내 가게 차릴 거야.",
-   "note": "un posto mio = 내 가게",
+   "note": "futuro = 미래",
    "tags": [
     "step:10"
    ],
    "new": [],
    "lemmas": [
     [
-     "so",
-     "sapere",
+     "futuro",
+     "futuro",
      ""
     ],
     [
-     "stanco",
-     "stanco",
+     "cambieremo",
+     "cambiare",
      ""
     ],
     [
-     "anno",
-     "anno",
+     "orario",
+     "orario",
      ""
     ],
     [
-     "apro",
-     "aprire",
-     ""
-    ],
-    [
-     "posto",
-     "posto",
+     "prometto",
+     "prometto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "In futuro cambieremo orario, prometto.",
+   "ko": "미래에는 시간을 바꿀게, 약속해.",
+   "rd": "인 푸뚜로 깜비에레모 오라리오, 프로메또.",
    "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Un posto tuo? E chi fa il caffè qui, senza di te?",
-   "rd": "운 뽀스또 뚜오? 에 끼 파 일 까페 뀌, 쎈짜 디 떼?",
-   "ko": "네 가게? 그럼 너 없이 여기 커피는 누가 만들어?",
-   "note": "senza di te = 너 없이",
+   "note": "lavorerò = 일할 거야(미래) · sereno = 마음 편한",
    "tags": [
     "step:10"
    ],
    "new": [],
    "lemmas": [
     [
-     "posto",
-     "posto",
+     "davvero",
+     "davvero",
      ""
     ],
     [
-     "fa",
-     "fare",
+     "allora",
+     "allora",
      ""
     ],
     [
-     "caffè",
-     "caffè",
+     "lavorerò",
+     "lavorare",
+     ""
+    ],
+    [
+     "più",
+     "più",
+     ""
+    ],
+    [
+     "sereno",
+     "sereno",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Davvero? Allora lavorerò più sereno.",
+   "ko": "진짜? 그럼 더 편하게 일할 거야.",
+   "rd": "다베로? 알로라 라보레로 삐우 쎄레노.",
+   "it_f": "Davvero? Allora lavorerò più serena.",
+   "ko_f": "진짜? 그럼 더 편하게 일할 거야.",
+   "rd_f": "다베로? 알로라 라보레로 삐우 쎄레나.",
    "emotion": "surprised"
   },
   {
    "num": 9,
    "speaker": "B",
-   "it": "Tu. Diventi tu il responsabile. Ci ho già pensato.",
-   "rd": "뚜. 디벤띠 뚜 일 레스뽄싸빌레. 치 오 쟈 뻰싸또.",
-   "ko": "너. 네가 책임자가 되는 거야. 벌써 생각해 뒀어.",
-   "note": "responsabile = 책임자",
+   "note": "andrà meglio = 더 잘될 거야(andare 미래)",
    "tags": [
     "step:2",
     "step:10"
@@ -357,68 +389,90 @@
    "new": [],
    "lemmas": [
     [
-     "diventi",
-     "diventare",
+     "lavoro",
+     "lavoro",
      ""
     ],
     [
-     "responsabile",
-     "responsabile",
+     "andrà",
+     "andare",
      ""
     ],
     [
-     "pensato",
-     "pensare",
+     "meglio",
+     "meglio",
+     ""
+    ],
+    [
+     "lunedì",
+     "lunedì",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì. Il lavoro andrà meglio da lunedì.",
+   "ko": "응. 월요일부터 일이 더 잘 될 거야.",
+   "rd": "씨. 일 라보로 안드라 멜리오 다 루네디.",
    "emotion": "gentle"
   },
   {
    "num": 10,
    "speaker": "C",
-   "it": "Buongiorno, ragazzi! Marco, che cos'è questo rumore?",
-   "rd": "부온조르노, 라가찌! 마르꼬, 께 꼬제 꿰스또 루모레?",
-   "ko": "좋은 아침, 얘들아! 마르코, 이게 무슨 소리야?",
-   "note": "che cos'è = 이게 뭐야",
+   "note": "Aspetto da tanto = 오래 기다리고 있어요",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
-     "buongiorno",
-     "buongiorno",
+     "scusi",
+     "scusare",
      ""
     ],
     [
-     "ragazzi",
-     "ragazzo",
+     "caffè",
+     "caffè",
      ""
     ],
     [
-     "rumore",
-     "rumore",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ],
+    [
+     "aspetto",
+     "aspetgere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mi scusi, il caffè è pronto? Aspetto da tanto.",
+   "ko": "실례합니다, 커피 나왔나요? 오래 기다렸어요.",
+   "rd": "미 스꾸지, 일 까페 에 프론또? 아스뻬또 다 딴또.",
    "emotion": "worried"
   },
   {
    "num": 11,
    "speaker": "A",
-   "it": "Signora Rinaldi! Niente, la macchina ha solo un po' di febbre.",
-   "rd": "씨뇨라 리날디! 니엔떼, 라 마끼나 아 쏠로 운 뽀 디 페브레.",
-   "ko": "리날디 사장님! 아무것도 아니에요, 머신이 열이 좀 있을 뿐이에요.",
-   "note": "avere la febbre = 열이 나다",
+   "note": "la macchina = 기계",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "niente",
-     "niente",
+     "attimo",
+     "attimo",
      ""
     ],
     [
@@ -427,69 +481,71 @@
      ""
     ],
     [
-     "febbre",
-     "febbre",
+     "ha",
+     "avere",
+     ""
+    ],
+    [
+     "problema",
+     "problema",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Un attimo, signora. La macchina ha un problema.",
+   "ko": "잠깐만요, 부인. 기계에 문제가 있어요.",
+   "rd": "운 아띠모, 씨뇨라. 라 마끼나 아 운 프로블레마.",
    "emotion": "flustered"
   },
   {
    "num": 12,
    "speaker": "B",
-   "it": "Anzi, si è fermata del tutto. Signora, niente cappuccini finché non arriva il tecnico.",
-   "rd": "안찌, 씨 에 페르마따 델 뚜또. 씨뇨라, 니엔떼 까뿌치니 핀께 논 아리바 일 떼크니꼬.",
-   "ko": "아니, 아예 멈췄어요. 사장님, 기사님 오실 때까지 카푸치노는 안 돼요.",
-   "note": "finché non = ~할 때까지 · tecnico = 수리 기사",
+   "note": "Si è fermata = 멈췄다(fermarsi)",
    "tags": [
     "step:2"
    ],
    "new": [],
    "lemmas": [
     [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
      "fermata",
      "fermare",
      ""
     ],
     [
-     "cappuccini",
-     "cappuccino",
-     ""
-    ],
-    [
-     "arriva",
-     "arrivare",
-     ""
-    ],
-    [
-     "tecnico",
-     "tecnico",
-     ""
-    ],
-    [
-     "signora",
-     "signore",
+     "adesso",
+     "adesso",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mamma mia! Si è fermata del tutto adesso.",
+   "ko": "맙소사! 지금 완전히 멈췄어.",
+   "rd": "맘마 미아! 씨 에 페르마따 델 뚜또 아데쏘.",
    "segs": [
     [
      "flustered",
-     "Anzi, si è fermata del tutto."
+     "Mamma mia!"
     ],
     [
      "stiff",
-     " Signora, niente cappuccini finché non arriva il tecnico."
+     " Si è fermata del tutto adesso."
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "C",
-   "it": "Mamma mia, con questa fila! Lo chiamo subito. E dei turni ne parliamo dopo: vi ho sentiti dalla porta.",
-   "rd": "맘마 미아, 꼰 꿰스따 필라! 로 끼아모 쑤비또. 에 데이 뚜르니 네 빠를리아모 도뽀: 비 오 쎈띠띠 달라 뽀르따.",
-   "ko": "세상에, 줄이 이렇게 긴데! 바로 전화할게. 그리고 근무 얘기는 이따 하자. 문 앞에서 다 들었어.",
-   "note": "vi ho sentiti = 너희 말 들었다(sentire, 너희 → -i) · ne parliamo = 그 얘기 하자",
+   "note": "i clienti = 손님들",
    "tags": [
     "step:2",
     "step:9"
@@ -497,78 +553,8 @@
    "new": [],
    "lemmas": [
     [
-     "fila",
-     "fila",
-     ""
-    ],
-    [
-     "chiamo",
-     "chiamare",
-     ""
-    ],
-    [
-     "subito",
-     "subito",
-     ""
-    ],
-    [
-     "turni",
-     "turno",
-     ""
-    ],
-    [
-     "parliamo",
-     "parlare",
-     ""
-    ],
-    [
-     "dopo",
-     "dopo",
-     ""
-    ],
-    [
-     "sentiti",
-     "sentire",
-     ""
-    ],
-    [
-     "porta",
-     "porta",
-     ""
-    ]
-   ],
-   "segs": [
-    [
-     "worried",
-     "Mamma mia, con questa fila! Lo chiamo subito."
-    ],
-    [
-     "teasing",
-     " E dei turni ne parliamo dopo: vi ho sentiti dalla porta."
-    ]
-   ]
-  },
-  {
-   "num": 14,
-   "speaker": "A",
-   "it": "Va bene, signora. Lo dico io ai clienti. E già che ci siamo... possiamo parlare anche dello stipendio?",
-   "rd": "바 베네, 씨뇨라. 로 디꼬 이오 아이 클리엔띠. 에 쟈 께 치 씨아모... 뽀씨아모 빠를라레 안께 델로 스띠뻰디오?",
-   "ko": "알겠어요, 사장님. 손님들한텐 제가 말할게요. 그리고 말 나온 김에… 월급 얘기도 해도 될까요?",
-   "note": "già che ci siamo = 말 나온 김에 · stipendio = 월급",
-   "tags": [
-    "step:2",
-    "step:7"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "signora",
-     "signore",
-     ""
-    ],
-    [
-     "dico",
-     "dire",
+     "oddio",
+     "oddio",
      ""
     ],
     [
@@ -577,34 +563,84 @@
      ""
     ],
     [
-     "siamo",
+     "è",
      "essere",
      ""
     ],
     [
-     "possiamo",
-     "potere",
+     "conflitto",
+     "conflitto",
      ""
     ],
     [
-     "parlare",
-     "parlare",
-     ""
-    ],
-    [
-     "stipendio",
-     "stipendio",
+     "qui",
+     "qui",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Oddio, e i clienti? C'è conflitto qui.",
+   "ko": "어머, 손님들은요? 여기 갈등이 있네요.",
+   "rd": "오디오, 에 이 클리엔띠? 체 꼰플리또 뀌.",
+   "segs": [
+    [
+     "worried",
+     "Oddio, e i clienti?"
+    ],
+    [
+     "teasing",
+     " C'è conflitto qui."
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "note": "Le offro = 드릴게요(Le = 당신에게)",
+   "tags": [
+    "step:2",
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "scusi",
+     "scusare",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "offro",
+     "offrire",
+     ""
+    ],
+    [
+     "tè",
+     "tè",
+     ""
+    ],
+    [
+     "intanto",
+     "intanto",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Mi scusi tanto. Le offro un tè intanto?",
+   "ko": "정말 죄송합니다. 그동안 차라도 드릴까요?",
+   "rd": "미 스꾸지 딴또. 레 오프로 운 떼 인딴또?",
    "segs": [
     [
      "polite",
-     "Va bene, signora. Lo dico io ai clienti."
+     "Mi scusi tanto."
     ],
     [
      "shy",
-     " E già che ci siamo... possiamo parlare anche dello stipendio?"
+     " Le offro un tè intanto?"
     ]
    ]
   }

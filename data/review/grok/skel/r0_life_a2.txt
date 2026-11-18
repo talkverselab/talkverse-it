@@ -1,0 +1,17 @@
+=== r0_life_a2
+level: R0
+kind: short
+title: 열쇠 어디 갔지
+emoji: 🔑
+scene: 아침, 셰어하우스 거실. 스쿠터를 타야 하는 루카가 열쇠를 찾아 온 집을 뒤진다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 6 chaos
+goal: 도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Tranquillo · Dai · Fammi vedere
+expressions: Mamma mia; Tranquillo; Dai; Fammi vedere
+B | ___ | ___ | ___ | emotion=worried | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=
+B | ___ | ___ | ___ | emotion=annoyed+shout | tags=
+A | ___ | ___ | ___ | emotion=gentle | tags=
+B | ___ | ___ | ___ | emotion=shout | tags=
+A | ___ | ___ | ___ | emotion=shout+flustered | tags=twist

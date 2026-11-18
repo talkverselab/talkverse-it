@@ -1,0 +1,18 @@
+=== r0_love_a4
+level: R0
+kind: short
+title: 너 말고, 루카
+emoji: 🎁
+scene: 저녁, 셰어하우스 현관. 줄리아가 작은 선물을 들고 왔는데 문을 연 건 룸메이트 루카다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 4 chaos
+goal: 도구획득 · 짧은 반말 회화 · 표현 Dai · Senti · Ecco
+expressions: Dai; Senti; Ecco
+B | ___ | ___ | ___ | emotion=cheerful | tags=
+C | ___ | ___ | ___ | emotion=teasing | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=
+C | ___ | ___ | ___ | emotion=excited | tags=twist
+B | ___ | ___ | ___ | emotion=tsukkomi | tags=
+C | ___ | ___ | ___ | emotion=sad | tags=
+B | ___ | ___ | ___ | emotion=shy | tags=

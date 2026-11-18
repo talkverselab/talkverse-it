@@ -1,0 +1,18 @@
+=== r0_friends_a2
+level: R0
+kind: short
+title: 엄마랑 영상통화
+emoji: 📱
+scene: 셰어하우스 소파. 키아라가 휴대폰 사진을 보여 주겠다며 학습자 옆에 바짝 붙어 앉는다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 3 chaos
+goal: 도구획득 · 짧은 반말 회화 · 표현 Davvero · Ma dai · Mamma mia
+expressions: Davvero; Ma dai; Mamma mia
+B | ___ | ___ | ___ | emotion=excited | tags=
+A | ___ | ___ | ___ | emotion=surprised | tags=
+B | ___ | ___ | ___ | emotion=flustered | tags=twist
+A | ___ | ___ | ___ | emotion=shout | tags=
+B | ___ | ___ | ___ | emotion=cheerful | tags=
+B | ___ | ___ | ___ | emotion=teasing | tags=
+A | ___ | ___ | ___ | emotion=flustered | tags=

@@ -21,7 +21,6 @@
   "Davvero"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Senti · Davvero",
- "draft": true,
  "purpose": [
   "love"
  ],
@@ -32,177 +31,164 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi... non dormi?",
-   "rd": "에이... 논 도르미?",
-   "ko": "어… 안 자?",
-   "note": "dormi = 너 자(dormire)",
+   "note": "sei = 이다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "dormi",
-     "dormire",
+     "oh",
+     "oh",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "anche",
+     "anche",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Oh! Sei qui anche tu.",
+   "ko": "어! 너도 여기 있네.",
+   "rd": "오! 쎄이 뀌 안께 뚜.",
    "emotion": "surprised"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "No, non dormo. E tu?",
-   "rd": "노, 논 도르모. 에 뚜?",
-   "ko": "응, 잠이 안 와. 너는?",
-   "note": "dormo = 나 자",
+   "note": "bevo = 마시다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "dormo",
-     "dormire",
+     "bevo",
+     "bevo",
      ""
     ],
     [
-     "tu",
-     "tu",
+     "acqua",
+     "acqua",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, bevo acqua.",
+   "ko": "응, 물 마시러.",
+   "rd": "씨, 베보 아꽈.",
    "emotion": "gentle"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Io no. Penso troppo.",
-   "rd": "이오 노. 뻰쏘 트로뽀.",
-   "ko": "나도. 생각이 너무 많아.",
-   "note": "penso = 나 생각해(pensare)",
+   "note": "dormo = 자다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Penso",
-     "pensare",
+     "non",
+     "non",
      ""
     ],
     [
-     "troppo",
-     "troppo",
+     "dormo",
+     "dormare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non dormo...",
+   "ko": "잠이 안 와...",
+   "rd": "논 도르모...",
    "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "A cosa pensi?",
-   "rd": "아 꼬자 뻰씨?",
-   "ko": "무슨 생각 하는데?",
-   "note": "pensi = 너 생각해",
+   "note": "Senti = 들어",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "pensi",
-     "pensare",
-     ""
-    ]
-   ],
-   "emotion": "gentle"
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "it": "Senti... a una persona.",
-   "rd": "쎈띠... 아 우나 뻬르쏘나.",
-   "ko": "있잖아… 어떤 사람.",
-   "note": "Senti = 있잖아, 저기",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Senti",
+     "senti",
      "sentire",
-     ""
-    ],
-    [
-     "persona",
-     "persona",
-     ""
-    ]
-   ],
-   "emotion": "shy"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Davvero? Chi è? La conosco?",
-   "rd": "다베로? 끼 에? 라 꼬노스꼬?",
-   "ko": "진짜? 누군데? 내가 아는 사람이야?",
-   "note": "la conosco = 나 그 사람 알아",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Davvero",
-     "davvero",
-     ""
-    ],
-    [
-     "Chi",
-     "chi",
      ""
     ],
     [
      "è",
      "essere",
      ""
-    ],
+    ]
+   ],
+   "grok": true,
+   "it": "Senti, cosa c'è?",
+   "ko": "들어, 무슨 일이야?",
+   "rd": "쎈띠, 꼬자 체?",
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "note": "penso = 생각하다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
     [
-     "conosco",
-     "conoscere",
+     "penso",
+     "pensare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Penso a te.",
+   "ko": "너 생각해.",
+   "rd": "뻰쏘 아 떼.",
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "Davvero = 진짜",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Davvero? Io?",
+   "ko": "진짜? 나?",
+   "rd": "다베로? 이오?",
    "emotion": "surprised"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Sì, la conosci. È qui... e ti guarda.",
-   "rd": "씨, 라 꼬노시. 에 뀌... 에 띠 구아르다.",
-   "ko": "응, 너도 알아. 여기 있어… 너를 보고 있어.",
-   "note": "ti guarda = 너를 보고 있다",
+   "note": "da = 부터",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "conosci",
-     "conoscere",
-     ""
-    ],
-    [
-     "È",
-     "essere",
-     ""
-    ],
-    [
-     "qui",
-     "qui",
-     ""
-    ],
-    [
-     "guarda",
-     "guardare",
+     "tanto",
+     "tanto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì... da tanto.",
+   "ko": "응... 오래전부터.",
+   "rd": "씨... 다 딴또.",
    "emotion": "shy"
   }
  ]

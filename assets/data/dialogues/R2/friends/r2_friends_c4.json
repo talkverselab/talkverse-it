@@ -21,7 +21,6 @@
   "Vabbè"
  ],
  "goal": "챗 상황 2 사진 · 8 오해 · 9 화해 · 표현 Boh · Ma dai · Cioè · Vabbè",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -32,111 +31,77 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi! Sei a casa? Ho bisogno di te 🙏",
-   "rd": "에이! 쎄이 아 까자? 오 비조뇨 디 떼 🙏",
-   "ko": "야! 집이야? 너 좀 필요해 🙏",
-   "note": "ho bisogno di te = 네가 필요해",
+   "note": "guarda = 봐",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "excited",
    "lemmas": [
     [
-     "sei",
-     "essere",
+     "ehi",
+     "ehi",
      ""
     ],
-    [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "bisogno",
-     "bisogno",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "16:10"
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "it": "Sì, sono a casa. Che fai?",
-   "rd": "씨, 쏘노 아 까자. 께 파이?",
-   "ko": "응, 집이야. 뭐 하는데?",
-   "note": "che fai? = 뭐 해?(fare)",
-   "tags": [
-    "step:1"
-   ],
-   "new": [],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "fai",
-     "fare",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "16:11"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Guarda questo! L'ho fatto io 🎨 Ti piace?",
-   "rd": "구아르다 꿰스또! 로 파또 이오 🎨 띠 삐아체?",
-   "ko": "이거 봐! 내가 그렸어 🎨 마음에 들어?",
-   "note": "l'ho fatto io = 내가 만들었어(fare 근과거)",
-   "tags": [
-    "step:2"
-   ],
-   "new": [],
-   "emotion": "excited",
-   "lemmas": [
     [
      "guarda",
      "guardare",
      ""
     ],
     [
-     "fatto",
-     "fare",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "piace",
-     "piacere",
+     "fatto",
+     "fare",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "16:12"
+   "at": "16:10",
+   "grok": true,
+   "it": "Ehi, guarda cosa ho fatto 🎨",
+   "ko": "야, 내가 만든 거 봐 🎨",
+   "rd": "에이, 구아르다 꼬자 오 파또 🎨",
+   "emotion": "excited"
   },
   {
-   "num": 4,
+   "num": 2,
    "speaker": "A",
-   "it": "Boh... è un signore? Bello, eh! Mi piace.",
-   "rd": "보... 에 운 씨뇨레? 벨로, 에! 미 삐아체.",
-   "ko": "음… 아저씨야? 멋지다! 좋은데.",
-   "note": "Boh = 글쎄(잘 모를 때)",
+   "note": "Boh = 글쎄, 몰라",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "16:11",
+   "grok": true,
+   "it": "Boh, cos'è? 🤔",
+   "ko": "글쎄, 뭐야? 🤔",
+   "rd": "보, 꼬제? 🤔",
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "note": "è = 이야",
    "tags": [
     "step:2"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
      "è",
@@ -144,40 +109,59 @@
      ""
     ],
     [
-     "signore",
-     "signore",
-     ""
-    ],
-    [
-     "bello",
-     "bello",
-     ""
-    ],
-    [
-     "piace",
-     "piacere",
+     "ritratto",
+     "ritratto",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "16:14"
+   "at": "16:12",
+   "grok": true,
+   "it": "È il tuo ritratto! 😍",
+   "ko": "네 초상화야! 😍",
+   "rd": "에 일 뚜오 리트라또! 😍",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "note": "sembra = 같아",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sembra",
+     "sembrare",
+     ""
+    ],
+    [
+     "vecchio",
+     "vecchio",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "16:14",
+   "grok": true,
+   "it": "Sembra un vecchio... 😳",
+   "ko": "아저씨 같아... 😳",
+   "rd": "쎔브라 운 베끼오... 😳",
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Un signore?! Sono IO 😭",
-   "rd": "운 씨뇨레?! 쏘노 이오 😭",
-   "ko": "아저씨?! 그거 나야 😭",
-   "note": "sono io = 나야",
+   "note": "Cioè = 그러니까, 내 말은",
    "tags": [
     "step:8"
    ],
    "new": [],
-   "emotion": "shout",
    "lemmas": [
     [
-     "signore",
-     "signore",
+     "cioè",
+     "cioè",
      ""
     ],
     [
@@ -187,113 +171,106 @@
     ]
    ],
    "ui": "bubble",
-   "at": "16:14"
+   "at": "16:14",
+   "grok": true,
+   "it": "Ma dai! Cioè, sono io! 😤",
+   "ko": "에이! 즉, 나야! 😤",
+   "rd": "마 다이! 쵸에, 쏘노 이오! 😤",
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Ma dai, scusa! Cioè... sei bellissima, davvero!",
-   "rd": "마 다이, 스꾸자! 쵸에... 쎄이 벨리씨마, 다베로!",
-   "ko": "아 진짜, 미안! 그러니까… 너 완전 예뻐, 진짜로!",
-   "note": "bellissima = 엄청 예쁜(bello 여성형 + -issima)",
+   "note": "volevo = 원했어",
    "tags": [
     "step:5"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
      "scusa",
-     "scusare",
+     "scusa",
      ""
     ],
     [
-     "sei",
-     "essere",
+     "non",
+     "non",
      ""
     ],
     [
-     "bellissima",
-     "bello",
-     ""
-    ],
-    [
-     "davvero",
-     "davvero",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "16:15"
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Vabbè. Allora lo do a te. Mettilo dove vuoi 🎁",
-   "rd": "바베. 알로라 로 도 아 떼. 메띨로 도베 부오이 🎁",
-   "ko": "됐어. 그럼 너 줄게. 아무 데나 걸어 둬 🎁",
-   "note": "lo do a te = 그거 너한테 줄게(dare)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "emotion": "teasing",
-   "lemmas": [
-    [
-     "do",
-     "dare",
-     ""
-    ],
-    [
-     "mettilo",
-     "mettere",
-     ""
-    ],
-    [
-     "dove",
-     "dove",
-     ""
-    ],
-    [
-     "vuoi",
+     "volevo",
      "volere",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "16:16"
+   "at": "16:15",
+   "grok": true,
+   "it": "Scusa, non volevo 😅",
+   "ko": "미안, 그런 뜻 아니었어 😅",
+   "rd": "스꾸자, 논 볼레보 😅",
+   "emotion": "flustered"
   },
   {
-   "num": 8,
+   "num": 7,
    "speaker": "B",
-   "it": "Così mi vedi ogni giorno 😘",
-   "rd": "꼬지 미 베디 오니 조르노 😘",
-   "ko": "그럼 매일 나 보겠네 😘",
-   "note": "mi vedi = 너 나를 봐(vedere)",
+   "note": "Vabbè = 뭐 됐어(va bene 줄임)",
    "tags": [
     "step:9"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
     [
-     "vedi",
-     "vedere",
+     "vabbè",
+     "vabbè",
      ""
     ],
     [
-     "ogni",
-     "ogni",
+     "è",
+     "essere",
      ""
     ],
     [
-     "giorno",
-     "giorno",
+     "carino",
+     "carino",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "16:16"
+   "at": "16:16",
+   "grok": true,
+   "it": "Vabbè, ma dai è carino 😂",
+   "ko": "됐어, 에이 귀여워 😂",
+   "rd": "바베, 마 다이 에 까리노 😂",
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "note": "ti piace = 좋아해",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "boh",
+     "boh",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "16:16",
+   "grok": true,
+   "it": "Boh, ti piace o no? 😏",
+   "ko": "글쎄, 좋아해 안 좋아해? 😏",
+   "rd": "보, 띠 삐아체 오 노? 😏",
+   "emotion": "teasing"
   }
  ]
 }

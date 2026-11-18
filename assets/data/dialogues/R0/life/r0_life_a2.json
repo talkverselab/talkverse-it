@@ -21,7 +21,6 @@
   "Fammi vedere"
  ],
  "goal": "도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Tranquillo · Dai · Fammi vedere",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -32,67 +31,13 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Hai visto le mie chiavi?",
-   "rd": "아이 비스또 레 미에 끼아비?",
-   "ko": "너 내 열쇠 봤어?",
-   "note": "chiavi = 열쇠들(chiave 복수)",
+   "note": "sono = 있다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "visto",
-     "vedere",
-     ""
-    ],
-    [
-     "mie",
-     "mio",
-     ""
-    ],
-    [
-     "chiavi",
-     "chiave",
-     ""
-    ]
-   ],
-   "emotion": "worried"
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "it": "No. Cerca bene!",
-   "rd": "노. 체르까 베네!",
-   "ko": "아니. 잘 찾아 봐!",
-   "note": "cerca = 찾아(cercare 명령)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Cerca",
-     "cercare",
-     ""
-    ],
-    [
-     "bene",
-     "bene",
-     ""
-    ]
-   ],
-   "emotion": "gentle"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Cerco! Non ci sono! Mamma mia!",
-   "rd": "체르꼬! 논 치 쏘노! 맘마 미아!",
-   "ko": "찾고 있다고! 없어! 미치겠네!",
-   "note": "cerco = 나 찾고 있어(cerca → cerco)",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "Cerco",
-     "cercare",
+     "dove",
+     "dove",
      ""
     ],
     [
@@ -101,116 +46,118 @@
      ""
     ],
     [
-     "Mamma",
-     "mamma",
+     "chiavi",
+     "chiave",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Dove sono le chiavi?",
+   "ko": "열쇠 어디 있어?",
+   "rd": "도베 쏘노 레 끼아비?",
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "note": "Tranquillo = 진정해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "cerca",
+     "cercare",
+     ""
+    ],
+    [
+     "piano",
+     "piano",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Tranquillo, cerca piano.",
+   "ko": "진정해, 천천히 찾아.",
+   "rd": "트란뀔로, 체르까 삐아노.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "note": "Mamma mia = 맙소사",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Mamma mia! Non le vedo!",
+   "ko": "맙소사! 안 보여!",
+   "rd": "맘마 미아! 논 레 베도!",
    "segs": [
     [
      "annoyed",
-     "Cerco! Non ci sono! "
+     "Mamma mia!"
     ],
     [
      "shout",
-     "Mamma mia!"
+     " Non le vedo!"
     ]
    ]
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Tranquillo. Fammi vedere...",
-   "rd": "트란뀔로. 팜미 베데레...",
-   "ko": "진정해. 내가 볼게…",
-   "note": "Fammi vedere = 나 좀 보자",
+   "note": "Dai = 에이",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "Tranquillo",
-     "tranquillo",
+     "guarda",
+     "guardare",
      ""
     ],
     [
-     "Fammi",
-     "fare",
-     ""
-    ],
-    [
-     "vedere",
-     "vedere",
+     "tavolo",
+     "tavolo",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Dai, guarda sul tavolo.",
+   "ko": "에이, 테이블 봐.",
+   "rd": "다이, 구아르다 쑬 따볼로.",
    "emotion": "gentle"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Dai, è tardi! Prendo le tue chiavi. Ciao!",
-   "rd": "다이, 에 따르디! 프렌도 레 뚜에 끼아비. 챠오!",
-   "ko": "아 몰라, 늦었어! 네 열쇠 가져간다. 안녕!",
-   "note": "prendo = 내가 가져가다(prendere)",
+   "note": "Fammi vedere = 보여 줘",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "tardi",
-     "tardi",
-     ""
-    ],
-    [
-     "Prendo",
-     "prendere",
-     ""
-    ],
-    [
-     "tue",
-     "tuo",
-     ""
-    ],
-    [
-     "chiavi",
-     "chiave",
-     ""
-    ]
-   ],
-   "emotion": "shout"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Luca! Le tue le hai in mano... e adesso io sono senza!",
-   "rd": "루까! 레 뚜에 레 아이 인 마노... 에 아데쏘 이오 쏘노 쎈짜!",
-   "ko": "루카! 네 건 손에 들고 있잖아… 이제 난 열쇠가 없다고!",
-   "note": "le hai in mano = 그거 손에 들고 있다 · senza = 없이",
-   "tags": [],
-   "new": [],
-   "lemmas": [
-    [
-     "tue",
-     "tuo",
-     ""
-    ],
-    [
-     "hai",
-     "avere",
-     ""
-    ],
-    [
-     "mano",
-     "mano",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
+     "non",
+     "non",
      ""
     ],
     [
@@ -219,19 +166,62 @@
      ""
     ],
     [
-     "senza",
-     "senza",
+     "fammi",
+     "fammre",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non ci sono! Fammi vedere!",
+   "ko": "없어! 보여 줘!",
+   "rd": "논 치 쏘노! 팜미 베데레!",
+   "emotion": "shout"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "Ecco = 여기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "cadono",
+     "cadere",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ecco! Sono qui! Cadono!",
+   "ko": "여기! 여기 있어! 떨어진다!",
+   "rd": "에꼬! 쏘노 뀌! 까도노!",
    "segs": [
     [
      "shout",
-     "Luca! Le tue le hai in mano..."
+     "Ecco! Sono qui!"
     ],
     [
      "flustered",
-     " e adesso io sono senza!"
+     " Cadono!"
     ]
    ]
   }

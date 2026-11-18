@@ -3,7 +3,6 @@
  "region": "R1",
  "island": "friends",
  "kind": "short",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -32,26 +31,20 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Allora? Hai preso il mio scooter?",
-   "rd": "알로라? 아이 프레조 일 미오 스쿠테르?",
-   "ko": "그래서? 내 스쿠터 타고 갔어?",
-   "note": "hai preso = 너 가져갔다(prendere 근과거)",
+   "note": "hai lasciato = 두고 왔다",
    "tags": [
     "step:5"
    ],
-   "new": [
-    "scooter"
-   ],
-   "emotion": "teasing",
+   "new": [],
    "lemmas": [
     [
-     "allora",
-     "allora",
+     "hai",
+     "avere",
      ""
     ],
     [
-     "hai preso",
-     "prendere",
+     "lasciato",
+     "lasciare",
      ""
     ],
     [
@@ -60,137 +53,142 @@
      ""
     ]
    ],
-   "rd_manual": true
+   "grok": true,
+   "it": "Hai lasciato lo scooter?",
+   "ko": "스쿠터 두고 왔어?",
+   "rd": "아이 라샤또 로 스꼬오떼르?",
+   "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Sì! Sono andato da Giulia. Bellissimo!",
-   "rd": "씨! 쏘노 안다또 다 줄리아. 벨리씨모!",
-   "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
-   "note": "sono andato = 갔다(andare, essere 근과거)",
+   "note": "sono andato = 갔다",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "emotion": "excited",
    "lemmas": [
     [
-     "sono andato",
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "andato",
      "andare",
      ""
     ],
     [
-     "bellissimo",
-     "bello",
+     "piedi",
+     "piede",
      ""
     ]
    ],
-   "it_f": "Sì! Sono andata da Giulia. Bellissimo!",
-   "ko_f": "응! 줄리아네 갔다 왔어. 끝내줬어!",
-   "rd_f": "씨! 쏘노 안다따 다 줄리아. 벨리씨모!"
+   "grok": true,
+   "it": "Sono andato a piedi.",
+   "ko": "걸어서 왔어.",
+   "rd": "쏘노 안다또 아 삐에디.",
+   "it_f": "Sono andata a piedi.",
+   "ko_f": "걸어서 왔어.",
+   "rd_f": "쏘노 안다따 아 삐에디.",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "E dove l'hai lasciato? Non lo vedo.",
-   "rd": "에 도베 라이 라샤또? 논 로 베도.",
-   "ko": "근데 어디 두고 왔어? 안 보이는데.",
-   "note": "l'hai lasciato = 그걸 두고 왔어(lasciare 근과거, lo → l')",
+   "note": "l'hai = 그것을 가졌다",
    "tags": [
     "step:5",
     "step:7"
    ],
    "new": [],
-   "emotion": "worried",
    "lemmas": [
     [
-     "hai lasciato",
-     "lasciare",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "vedo",
-     "vedere",
+     "hai",
+     "avere",
+     ""
+    ],
+    [
+     "lasciato",
+     "lasciare",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Dove l'hai lasciato?",
+   "ko": "어디다 두고 왔어?",
+   "rd": "도베 라이 라샤또?",
+   "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Ehm... sono tornato a piedi.",
-   "rd": "엠... 쏘노 또르나또 아 삐에디.",
-   "ko": "음… 걸어서 왔어.",
-   "note": "sono tornato = 돌아왔다(tornare, essere 근과거)",
+   "note": "è = 이다",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "sono tornato",
-     "tornare",
+     "è",
+     "essere",
      ""
     ],
     [
-     "piedi",
-     "piede",
+     "bello",
+     "bello",
      ""
     ]
    ],
-   "it_f": "Ehm... sono tornata a piedi.",
-   "ko_f": "음… 걸어서 왔어.",
-   "rd_f": "엠... 쏘노 또르나따 아 삐에디."
+   "grok": true,
+   "it": "Da Giulia... è bello.",
+   "ko": "줄리아네... 예뻐.",
+   "rd": "다 줄리아... 에 벨로.",
+   "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "A piedi? E il mio scooter?!",
-   "rd": "아 삐에디? 에 일 미오 스쿠테르?!",
-   "ko": "걸어서? 그럼 내 스쿠터는?!",
-   "note": "il mio = 내(관사 + 소유)",
+   "note": "la = 그 (여)",
    "tags": [
     "step:1"
    ],
    "new": [],
-   "emotion": "shout",
    "lemmas": [
     [
-     "piedi",
-     "piede",
-     ""
-    ],
-    [
-     "mio",
-     "mio",
-     ""
-    ],
-    [
-     "scooter",
-     "scooter",
+     "moto",
+     "moto",
      ""
     ]
    ],
-   "rd_manual": true
+   "grok": true,
+   "it": "La moto di Luca!",
+   "ko": "루카의 오토바이!",
+   "rd": "라 모또 디 루까!",
+   "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "L'ho lasciato lì. Con la chiave.",
-   "rd": "로 라샤또 리. 꼰 라 끼아베.",
-   "ko": "거기 두고 왔어. 열쇠까지 꽂아서.",
-   "note": "l'ho lasciato = 그걸 두고 왔어(3턴 l'hai lasciato 의 나 꼴)",
+   "note": "l'ho = 그것을 가졌다",
    "tags": [
     "step:5",
     "step:7"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "ho lasciato",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "lasciato",
      "lasciare",
      ""
     ],
@@ -198,26 +196,22 @@
      "lì",
      "lì",
      ""
-    ],
-    [
-     "chiave",
-     "chiave",
-     ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "L'ho lasciato lì.",
+   "ko": "거기 두고 왔어.",
+   "rd": "로 라샤또 리.",
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Tranquillo. Vado io da Giulia, adesso.",
-   "rd": "트란뀔로. 바도 이오 다 줄리아, 아데쏘.",
-   "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
-   "note": "vado = 나 간다(andare)",
+   "note": "Tranquillo = 진정해",
    "tags": [
     "step:9"
    ],
    "new": [],
-   "emotion": "gentle",
    "lemmas": [
     [
      "tranquillo",
@@ -226,53 +220,46 @@
     ],
     [
      "vado",
-     "andare",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
+     "vado",
      ""
     ]
    ],
-   "it_f": "Tranquilla. Vado io da Giulia, adesso.",
-   "ko_f": "걱정 마. 내가 지금 줄리아네 갈게.",
-   "rd_f": "트란뀔라. 바도 이오 다 줄리아, 아데쏘."
+   "grok": true,
+   "it": "Tranquillo, vado io.",
+   "ko": "진정해, 내가 갈게.",
+   "rd": "트란뀔로, 바도 이오.",
+   "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "it": "Aspetta. Perché ti fai così bello?",
-   "rd": "아스뻬따. 뻬르께 띠 파이 꼬지 벨로?",
-   "ko": "잠깐. 너 왜 그렇게 빼입는데?",
-   "note": "ti fai bello = 꾸민다(fare)",
+   "note": "Allora = 그러면",
    "tags": [
     "step:9"
    ],
    "new": [],
-   "emotion": "tsukkomi",
    "lemmas": [
     [
-     "aspetta",
-     "aspettare",
+     "allora",
+     "allora",
      ""
     ],
     [
-     "fai",
-     "fare",
+     "è",
+     "essere",
      ""
     ],
     [
-     "così",
-     "così",
-     ""
-    ],
-    [
-     "bello",
+     "bellissimo",
      "bello",
      ""
     ]
-   ]
+   ],
+   "grok": true,
+   "it": "Allora è bellissimo.",
+   "ko": "그러면 엄청 예쁘다.",
+   "rd": "알로라 에 벨리씨모.",
+   "emotion": "tsukkomi"
   }
  ]
 }

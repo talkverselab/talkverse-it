@@ -20,7 +20,6 @@
   "Va bene"
  ],
  "goal": "챗 상황 6 취소 · 10 다음 약속 · 표현 Certo · Cioè · Va bene",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -31,18 +30,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Domani vieni da me? Ho un caffè nuovo.",
-   "rd": "도마니 비에니 다 메? 오 운 까페 누오보.",
-   "ko": "내일 우리 집 올래? 새 커피 있어.",
-   "note": "vieni da me? = 나한테 올래?(venire)",
+   "note": "vieni = 와",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "Domani",
-     "domani",
+     "ehi",
+     "ehi",
      ""
     ],
     [
@@ -51,54 +47,66 @@
      ""
     ],
     [
-     "Ho",
-     "avere",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
+     "provare",
+     "provare",
      ""
     ],
     [
      "nuovo",
      "nuovo",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "08:02",
+   "grok": true,
+   "it": "Ehi, vieni a provare il nuovo caffè? ☕",
+   "ko": "야, 새 커피 맛보러 올래? ☕",
+   "rd": "에이, 비에니 아 프로바레 일 누오보 까페? ☕",
    "emotion": "cheerful"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Sì! Certo!",
-   "rd": "씨! 체르또!",
-   "ko": "응! 당연하지!",
-   "note": "Certo! = 당연하지!",
+   "note": "arrivo = 도착해",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "Certo",
      "certo",
+     "certo",
+     ""
+    ],
+    [
+     "arrivo",
+     "arrivo",
+     ""
+    ],
+    [
+     "pranzo",
+     "pranzo",
      ""
     ]
    ],
-   "emotion": "excited",
    "ui": "bubble",
-   "at": "08:30"
+   "at": "08:30",
+   "grok": true,
+   "it": "Certo, arrivo dopo pranzo 😊",
+   "ko": "응, 점심 후에 갈게 😊",
+   "rd": "체르또, 아리보 도뽀 프란쪼 😊",
+   "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "A",
-   "it": "Ehm... Marco, scusa. Domani non posso.",
-   "rd": "엠... 마르꼬, 스꾸자. 도마니 논 뽀쏘.",
-   "ko": "음… 마르코, 미안. 내일 못 가.",
-   "note": "non posso = 못 해(potere)",
+   "note": "posso = 할 수 있어",
    "tags": [
     "step:6"
    ],
@@ -106,95 +114,87 @@
    "lemmas": [
     [
      "scusa",
-     "scusare",
+     "scusa",
      ""
     ],
     [
-     "Domani",
-     "domani",
+     "non",
+     "non",
      ""
     ],
     [
      "posso",
      "potere",
      ""
+    ],
+    [
+     "venire",
+     "venire",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
     ]
    ],
-   "emotion": "flustered",
    "ui": "bubble",
    "at": "23:40",
-   "read": false
+   "read": false,
+   "grok": true,
+   "it": "Scusa, non posso venire oggi 😔",
+   "ko": "미안, 오늘 못 가 😔",
+   "rd": "스꾸자, 논 뽀쏘 베니레 오찌 😔",
+   "emotion": "flustered"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Cioè... sai, ho tanto lavoro.",
-   "rd": "쵸에... 싸이, 오 딴또 라보로.",
-   "ko": "그러니까… 알잖아, 일이 많아서.",
-   "note": "sai = 너 알잖아(sapere, Lo sapevo 와 짝)",
+   "note": "sono = 있어",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "sai",
-     "sapere",
+     "cioè",
+     "cioè",
      ""
     ],
     [
-     "ho",
-     "avere",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "tanto",
-     "tanto",
+     "troppo",
+     "troppo",
      ""
     ],
     [
-     "lavoro",
-     "lavoro",
+     "stanco",
+     "stanco",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:41",
    "read": false,
+   "grok": true,
+   "it": "Cioè, sono troppo stanco 😴",
+   "ko": "즉, 너무 피곤해 😴",
+   "rd": "쵸에, 쏘노 트로뽀 스딴꼬 😴",
+   "it_f": "Cioè, sono troppo stanca 😴",
+   "ko_f": "즉, 너무 피곤해 😴",
+   "rd_f": "쵸에, 쏘노 트로뽀 스딴까 😴",
    "emotion": "worried"
   },
   {
    "num": 5,
    "speaker": "A",
-   "it": "Marco? Ci sei? 🥺",
-   "rd": "마르꼬? 치 쎄이? 🥺",
-   "ko": "마르코? 있어? 🥺",
-   "note": "Ci sei? = 거기 있어?",
+   "note": "va bene = 괜찮아",
    "tags": [
     "step:6"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "sei",
-     "essere",
-     ""
-    ]
-   ],
-   "emotion": "worried",
-   "ui": "bubble",
-   "at": "23:45",
-   "read": false
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Va bene, va bene! Vengo. Prima del lavoro.",
-   "rd": "바 베네, 바 베네! 벵고. 프리마 델 라보로.",
-   "ko": "알았어, 알았어! 갈게. 일 가기 전에.",
-   "note": "prima del lavoro = 일 전에",
-   "tags": [
-    "step:10"
    ],
    "new": [],
    "lemmas": [
@@ -209,75 +209,109 @@
      ""
     ],
     [
-     "Vengo",
+     "vengo",
      "venire",
      ""
     ],
     [
-     "Prima",
-     "prima",
+     "domani",
+     "domani",
      ""
-    ],
-    [
-     "lavoro",
-     "lavoro",
-     ""
-    ]
-   ],
-   "segs": [
-    [
-     "annoyed",
-     "Va bene, va bene! "
-    ],
-    [
-     "flustered",
-     "Vengo. Prima del lavoro."
     ]
    ],
    "ui": "bubble",
-   "at": "23:58"
+   "at": "23:45",
+   "read": false,
+   "grok": true,
+   "it": "Va bene se vengo domani? 🙏",
+   "ko": "내일 오면 괜찮아? 🙏",
+   "rd": "바 베네 쎄 벵고 도마니? 🙏",
+   "emotion": "worried"
   },
   {
-   "num": 7,
-   "speaker": "B",
-   "it": "Lo sapevo. Il caffè è già pronto ☕",
-   "rd": "로 싸뻬보. 일 까페 에 쟈 프론또 ☕",
-   "ko": "그럴 줄 알았어. 커피 벌써 준비됐어 ☕",
-   "note": "Lo sapevo = 그럴 줄 알았어",
+   "num": 6,
+   "speaker": "A",
+   "note": "rispondi = 답해(rispondere)",
    "tags": [
     "step:10"
    ],
    "new": [],
    "lemmas": [
     [
-     "sapevo",
-     "sapere",
+     "leggi",
+     "legge",
      ""
     ],
     [
-     "caffè",
-     "caffè",
+     "messaggi",
+     "messaggio",
      ""
     ],
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "già",
-     "già",
-     ""
-    ],
-    [
-     "pronto",
-     "pronto",
+     "rispondi",
+     "rispondi",
      ""
     ]
    ],
-   "emotion": "amused",
    "ui": "bubble",
-   "at": "23:59"
+   "at": "23:58",
+   "grok": true,
+   "it": "Leggi i messaggi! Dai, rispondi 😤",
+   "ko": "메시지 읽어! 야, 답해 😤",
+   "rd": "레찌 이 메싸찌! 다이, 리스뽄디 😤",
+   "segs": [
+    [
+     "annoyed",
+     "Leggi i messaggi!"
+    ],
+    [
+     "flustered",
+     " Dai, rispondi 😤"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "va bene = 괜찮아",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ahah",
+     "ahah",
+     ""
+    ],
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "mattina",
+     "mattina",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "23:59",
+   "grok": true,
+   "it": "Ahah, va bene domani mattina 😂",
+   "ko": "아하, 내일 아침 괜찮아 😂",
+   "rd": "아아, 바 베네 도마니 마띠나 😂",
+   "emotion": "amused"
   }
  ]
 }

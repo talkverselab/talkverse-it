@@ -1,0 +1,26 @@
+=== r4_life_b1
+level: R4
+kind: long
+title: 엄마가 보낸 택배
+emoji: 📦
+scene: 토요일 아침 셰어하우스 문 앞. 옆집 갈리 아주머니가 루카 어머니가 보낸 택배를 들고 왔는데, 상자에서 치즈 냄새가 난다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형), C: Signora Galli(여)
+register: Lei 와 tu 가 섞임
+twist: 12 chaos
+goal: 어려운 문법 1 접속법 현재(speriamo che sia·penso che sia·ce l'abbia) · 7 결합 대명사(ve lo·ce lo·gliene·gliel'ho) · 8 ne·ci · 5 반과거 · 존댓말 Lei · 표현 Ma dai·Figurati·Dai
+expressions: Ma dai; Figurati; Dai
+steps(tags 의 step:N): 1 접속법 현재 · 2 접속법 과거 · 3 조건법 과거 · 4 가정문 se+접속법 반과거+조건법 · 5 반과거 vs 근과거 · 6 대과거 · 7 결합 대명사 glielo·me lo·ce ne · 8 ne·ci · 9 재귀 근과거 · 10 관계사 cui·il quale·chi
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:7
+A | ___ | ___ | ___ | emotion=polite | tags=step:7
+B | ___ | ___ | ___ | emotion=worried | tags=step:1
+C | ___ | ___ | ___ | emotion=amused | tags=step:8
+A | ___ | ___ | ___ | emotion=cheerful | tags=step:1
+C | ___ | ___ | ___ | emotion=teasing | tags=step:7
+B | ___ | ___ | ___ | emotion=surprised+amused | tags=step:5
+C | ___ | ___ | ___ | emotion=shy | tags=step:8,step:5
+A | ___ | ___ | ___ | emotion=flustered | tags=step:7,step:8
+B | ___ | ___ | ___ | emotion=surprised | tags=step:8
+A | ___ | ___ | ___ | emotion=worried | tags=step:1,step:8
+B | ___ | ___ | ___ | emotion=neutral+shout | tags=step:8,twist
+C | ___ | ___ | ___ | emotion=cheerful | tags=step:7
+A | ___ | ___ | ___ | emotion=tsukkomi | tags=step:8

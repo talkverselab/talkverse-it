@@ -1,0 +1,20 @@
+=== r3_survival_s2
+level: R3
+kind: survival
+title: 선생님도 한 시간 (둘이서)
+emoji: 🩺
+scene: R1 「선생님도 한 시간」의 복수판. 이번엔 학습자와 루카가 둘 다 머리가 아파서 브루니 선생님을 찾아왔다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Dottor Bruni(남), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 7 chaos
+goal: 그래머2: R1 같은 문장을 복수로 — state/stiamo · abbiamo · avete fatto · abbiamo guardato i telefoni · avete dormito · guardate · paghiamo (새 단어 0) · 표현 Allora · Boh · Guardate
+expressions: Allora; Boh; Guardate
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | ___ | ___ | ___ | emotion=polite | tags=step:9
+A | ___ | ___ | ___ | emotion=worried | tags=step:2,step:9
+B | ___ | ___ | ___ | emotion=polite | tags=step:5
+C | ___ | ___ | ___ | emotion=flustered | tags=step:5,step:1
+B | ___ | ___ | ___ | emotion=surprised | tags=step:5
+A | ___ | ___ | ___ | emotion=shy | tags=step:1
+B | ___ | ___ | ___ | emotion=surprised+amused | tags=step:5,twist
+C | ___ | ___ | ___ | emotion=tsukkomi | tags=step:3

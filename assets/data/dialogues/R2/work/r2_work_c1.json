@@ -20,7 +20,6 @@
   "Ti prego"
  ],
  "goal": "챗 상황 6 취소 · 4 늦음 · 7 농담 · 10 다음 약속 · 표현 Tranquillo · Mamma mia · Ti prego",
- "draft": true,
  "purpose": [
   "work"
  ],
@@ -31,282 +30,238 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Sto male 🤒 Oggi vai tu, al posto mio? 🙏",
-   "rd": "스또 말레 🤒 오찌 바이 뚜, 알 뽀스또 미오? 🙏",
-   "ko": "나 아파 🤒 오늘 나 대신 가 줄래? 🙏",
-   "note": "al posto mio = 나 대신",
+   "note": "Mamma mia = 맙소사",
    "tags": [
     "step:6"
    ],
    "new": [],
-   "emotion": "worried",
    "lemmas": [
     [
-     "sto",
-     "stare",
+     "mamma",
+     "mamma",
      ""
     ],
     [
-     "male",
-     "male",
+     "sono",
+     "essere",
      ""
     ],
     [
-     "oggi",
-     "oggi",
-     ""
-    ],
-    [
-     "vai",
-     "andare",
-     ""
-    ],
-    [
-     "posto",
-     "posto",
+     "malato",
+     "malare",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "06:10"
+   "at": "06:10",
+   "grok": true,
+   "it": "Mamma mia, sono malato. 🤒",
+   "ko": "맙소사, 나 아팠어. 🤒",
+   "rd": "맘마 미아, 쏘노 말라또. 🤒",
+   "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Io?! Ma io non so fare il caffè!",
-   "rd": "이오?! 마 이오 논 쏘 파레 일 까페!",
-   "ko": "나?! 나 커피 내릴 줄 모르는데!",
-   "note": "non so fare = ~할 줄 몰라(sapere + 원형)",
+   "note": "Aprire io? = 내가 열라고?(동사 원형 그대로)",
    "tags": [
     "step:6"
    ],
-   "new": [
-    "caffè"
-   ],
-   "emotion": "surprised",
+   "new": [],
    "lemmas": [
     [
-     "so",
-     "sapere",
+     "aprire",
+     "aprire",
      ""
     ],
     [
-     "fare",
-     "fare",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
+     "ora",
+     "ora",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "06:12"
+   "at": "06:12",
+   "grok": true,
+   "it": "Cosa? Aprire io? Ora?",
+   "ko": "뭐? 내가 열어? 지금?",
+   "rd": "꼬자? 아프리레 이오? 오라?",
+   "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Tranquillo. Basta un sorriso.",
-   "rd": "트란뀔로. 바스따 운 쏘리조.",
-   "ko": "괜찮아. 웃기만 하면 돼.",
-   "note": "basta = ~면 돼(bastare)",
+   "note": "Ti prego = 제발",
    "tags": [
     "step:6"
    ],
-   "new": [
-    "sorriso"
-   ],
-   "emotion": "neutral",
-   "lemmas": [
-    [
-     "basta",
-     "bastare",
-     ""
-    ],
-    [
-     "sorriso",
-     "sorriso",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "06:13",
-   "it_f": "Tranquilla. Basta un sorriso.",
-   "rd_f": "트란뀔라. 바스따 운 쏘리조.",
-   "ko_f": "괜찮아. 웃기만 하면 돼."
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "it": "Mamma mia. Una signora vuole il «caffè come sempre». Cos'è?",
-   "rd": "맘마 미아. 우나 씨뇨라 부올레 일 \"까페 꼬메 쎔프레\". 꼬제?",
-   "ko": "큰일 났다. 어떤 아주머니가 「늘 먹던 커피」 달래. 그게 뭐야?",
-   "note": "vuole = (그분이) 원해(volere)",
-   "tags": [
-    "step:8"
-   ],
    "new": [],
-   "emotion": "worried",
-   "lemmas": [
-    [
-     "signora",
-     "signore",
-     ""
-    ],
-    [
-     "vuole",
-     "volere",
-     ""
-    ],
-    [
-     "caffè",
-     "caffè",
-     ""
-    ],
-    [
-     "sempre",
-     "sempre",
-     ""
-    ]
-   ],
-   "ui": "bubble",
-   "at": "07:30"
-  },
-  {
-   "num": 5,
-   "speaker": "A",
-   "it": "Marco?? Ti prego! 😰",
-   "rd": "마르꼬?? 띠 프레고! 😰",
-   "ko": "마르코?? 제발! 😰",
-   "note": "Ti prego = 제발",
-   "tags": [
-    "step:4"
-   ],
-   "new": [],
-   "emotion": "worried",
    "lemmas": [
     [
      "prego",
      "pregare",
      ""
+    ],
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
     ]
    ],
    "ui": "bubble",
-   "at": "07:31",
-   "read": false
+   "at": "06:13",
+   "grok": true,
+   "it": "Sì, ti prego. Tranquillo.",
+   "ko": "응, 제발. 진정해.",
+   "rd": "씨, 띠 프레고. 트란뀔로.",
+   "emotion": "neutral"
   },
   {
-   "num": 6,
+   "num": 4,
    "speaker": "A",
-   "it": "Ho fatto un caffè e basta. Lei ride... credo.",
-   "rd": "오 파또 운 까페 에 바스따. 레이 리데... 크레도.",
-   "ko": "그냥 커피 한 잔 줬어. 아주머니 웃어… 아마도.",
-   "note": "credo = 아마(내 생각엔, credere)",
+   "note": "in ritardo = 늦은",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "ritardo",
+     "ritardo",
+     ""
+    ],
+    [
+     "scusa",
+     "scusa",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "07:30",
+   "grok": true,
+   "it": "Sono in ritardo. Scusa.",
+   "ko": "나 늦었어. 미안.",
+   "rd": "쏘노 인 리따르도. 스꾸자.",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "note": "Non rispondi = 너 답을 안 하네(rispondere)",
    "tags": [
     "step:4"
    ],
    "new": [],
-   "emotion": "flustered",
    "lemmas": [
     [
-     "fatto",
-     "fare",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "caffè",
-     "caffè",
+     "non",
+     "non",
      ""
     ],
     [
-     "basta",
-     "bastare",
+     "rispondi",
+     "rispondi",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "07:31",
+   "read": false,
+   "grok": true,
+   "it": "Dove sei? Non rispondi.",
+   "ko": "어디야? 답장 안 해.",
+   "rd": "도베 쎄이? 논 리스뽄디.",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "Ti prego = 제발",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "prego",
+     "pregare",
      ""
     ],
     [
-     "ride",
-     "ridere",
+     "leggi",
+     "legge",
      ""
     ],
     [
-     "credo",
-     "credere",
+     "messaggi",
+     "messaggio",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "07:36",
-   "read": false
+   "read": false,
+   "grok": true,
+   "it": "Ti prego, leggi i messaggi!",
+   "ko": "제발, 메시지 읽어!",
+   "rd": "띠 프레고, 레찌 이 메싸찌!",
+   "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Scusa! Sai chi è la signora? È mia mamma 😂",
-   "rd": "스꾸자! 싸이 끼 에 라 씨뇨라? 에 미아 맘마 😂",
-   "ko": "미안! 그 아주머니 누군지 알아? 우리 엄마야 😂",
-   "note": "sai chi è = 누군지 알아(sapere)",
+   "note": "Boh = 뭐",
    "tags": [
     "step:7"
    ],
    "new": [],
-   "emotion": "amused",
    "lemmas": [
     [
-     "scusa",
-     "scusare",
+     "boh",
+     "boh",
      ""
     ],
     [
-     "sai",
-     "sapere",
+     "dormivo",
+     "dormiviro",
      ""
     ],
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "signora",
-     "signore",
-     ""
-    ],
-    [
-     "mamma",
-     "mamma",
+     "ancora",
+     "ancora",
      ""
     ]
    ],
    "ui": "bubble",
-   "at": "08:02"
+   "at": "08:02",
+   "grok": true,
+   "it": "Boh, dormivo ancora. 😂",
+   "ko": "뭐, 아직 자고 있었어. 😂",
+   "rd": "보, 도르미보 안꼬라. 😂",
+   "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Dice che sei bravo. E che domani torni 😐",
-   "rd": "디체 께 쎄이 브라보. 에 께 도마니 또르니 😐",
-   "ko": "너 잘한대. 그리고 내일도 온대 😐",
-   "note": "dice che = ~래(dire che)",
+   "note": "Tranquillo = 진정해",
    "tags": [
     "step:10"
    ],
    "new": [],
-   "emotion": "teasing",
    "lemmas": [
     [
-     "dice",
-     "dire",
-     ""
-    ],
-    [
-     "sei",
-     "essere",
-     ""
-    ],
-    [
-     "bravo",
-     "bravo",
+     "tranquillo",
+     "tranquillo",
      ""
     ],
     [
@@ -315,16 +270,23 @@
      ""
     ],
     [
-     "torni",
-     "tornare",
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "08:03",
-   "it_f": "Dice che sei brava. E che domani torni 😐",
-   "rd_f": "디체 께 쎄이 브라바. 에 께 도마니 또르니 😐",
-   "ko_f": "너 잘한대. 그리고 내일도 온대 😐"
+   "grok": true,
+   "it": "Tranquillo, domani va bene.",
+   "ko": "진정해, 내일 괜찮아.",
+   "rd": "트란뀔로, 도마니 바 베네.",
+   "emotion": "teasing"
   }
  ]
 }

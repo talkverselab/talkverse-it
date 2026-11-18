@@ -21,7 +21,6 @@
   "Scusa"
  ],
  "goal": "그래머2: R1 같은 문장을 복수로 — siete arrivati · vi aspetto · siamo pronti/sono pronta · ci disegni · non parlate · due banane · le porterò · vorremmo (새 단어 0) · 표현 Ehi · Ecco · Scusa",
- "draft": true,
  "purpose": [
   "life"
  ],
@@ -32,50 +31,51 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Ehi, siete arrivati! Vi aspetto da un'ora.",
-   "rd": "에이, 씨에떼 아리바띠! 비 아스뻬또 다 우노라.",
-   "ko": "왔구나! 한 시간이나 기다렸잖아.",
-   "note": "siete arrivati = 너희 도착했다(혼성 복수 -i)",
+   "note": "siete arrivati = 너희 도착했어",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "siete arrivati",
+     "ehi",
+     "ehi",
+     ""
+    ],
+    [
+     "siete",
+     "essere",
+     ""
+    ],
+    [
+     "arrivati",
      "arrivare",
      ""
     ],
     [
-     "aspetto",
-     "aspettare",
-     ""
-    ],
-    [
-     "ora",
-     "ora",
+     "tardi",
+     "tardi",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ehi, siete arrivati tardi?",
+   "ko": "야, 너희 늦게 왔어?",
+   "rd": "에이, 씨에떼 아리바띠 따르디?",
    "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "C",
-   "it": "Scusa! Siamo pronti. Ci disegni?",
-   "rd": "스꾸자! 씨아모 프론띠. 치 디제니?",
-   "ko": "미안! 준비됐어. 우리 그려 주는 거지?",
-   "note": "siamo pronti = 우리 준비됐다(혼성 복수 -i)",
+   "note": "siamo = 우리는",
    "tags": [
     "step:2"
    ],
-   "new": [
-    "disegnare"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "scusa",
-     "scusare",
+     "siamo",
+     "essere",
      ""
     ],
     [
@@ -84,31 +84,32 @@
      ""
     ],
     [
-     "disegni",
-     "disegnare",
-     ""
-    ],
-    [
-     "siamo",
-     "essere",
+     "adesso",
+     "adesso",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Sì, siamo pronti adesso.",
+   "ko": "응, 우리 지금 준비됐어.",
+   "rd": "씨, 씨아모 프론띠 아데쏘.",
    "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Anch'io sono pronta. Non parlate, vi disegno.",
-   "rd": "안끼오 쏘노 프론따. 논 빠를라떼, 비 디제뇨.",
-   "ko": "나도 준비됐어. 말하지 마, 그린다.",
-   "note": "pronta = 준비된(여자 혼자) ↔ 2턴 pronti(혼성 복수), non parlate = 말하지 마(voi)",
+   "note": "vi = 너희를",
    "tags": [
     "step:2",
     "step:7"
    ],
    "new": [],
    "lemmas": [
+    [
+     "aspetto",
+     "aspettare",
+     ""
+    ],
     [
      "sono",
      "essere",
@@ -120,171 +121,101 @@
      ""
     ],
     [
-     "parlate",
-     "parlare",
+     "ecco",
+     "ecco",
      ""
     ],
     [
-     "disegno",
-     "disegnare",
+     "banane",
+     "banana",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Vi aspetto. Sono pronta. Ecco le banane.",
+   "ko": "너희 기다렸어. 나 준비됐어. 여기 바나나.",
+   "rd": "비 아스뻬또. 쏘노 프론따. 에꼬 레 바나네.",
    "emotion": "gentle"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Ti piace disegnare le persone?",
-   "rd": "띠 삐아체 디제냐레 레 뻬르쏘네?",
-   "ko": "너 사람 그리는 거 좋아해?",
-   "note": "ti piace = 너 좋아해?(piacere)",
+   "note": "mi piacciono = 나는 좋아해",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "piace",
+     "piacciono",
      "piacere",
      ""
     ],
     [
-     "disegnare",
-     "disegnare",
-     ""
-    ],
-    [
-     "persone",
-     "persona",
+     "banane",
+     "banana",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mi piacciono le banane!",
+   "ko": "나 바나나 좋아해!",
+   "rd": "미 삐아쵸노 레 바나네!",
    "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "Mi piace molto. Ecco, finito!",
-   "rd": "미 삐아체 몰또. 에꼬, 피니또!",
-   "ko": "엄청 좋아해. 자, 다 됐다!",
-   "note": "mi piace = 나 좋아해(piacere)",
+   "note": "vorremmo = 우리는 원하다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "piace",
-     "piacere",
+     "pure",
+     "pure",
      ""
     ],
     [
-     "molto",
-     "molto",
+     "vorremmo",
+     "vorremmo",
      ""
     ],
     [
-     "ecco",
-     "ecco",
-     ""
-    ],
-    [
-     "finito",
-     "finire",
+     "banane",
+     "banana",
      ""
     ]
    ],
+   "grok": true,
+   "it": "A me pure. Vorremmo due banane.",
+   "ko": "나도. 우리 바나나 두 개 원해.",
+   "rd": "아 메 뿌레. 보렘모 두에 바나네.",
    "emotion": "excited"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Ma... sono due banane con gli occhiali!",
-   "rd": "마... 쏘노 두에 바나네 꼰 리 오끼알리!",
-   "ko": "근데… 이거 안경 쓴 바나나 두 개잖아!",
-   "note": "due banane = 바나나 두 개(banana → banane)",
+   "note": "le = 정관사 여성 복수",
    "tags": [
     "step:1"
    ],
-   "new": [
-    "banana",
-    "occhiale"
-   ],
+   "new": [],
    "lemmas": [
-    [
-     "due",
-     "due",
-     ""
-    ],
     [
      "banane",
      "banana",
      ""
     ],
     [
-     "occhiali",
-     "occhiale",
-     ""
-    ]
-   ],
-   "emotion": "shout"
-  },
-  {
-   "num": 7,
-   "speaker": "B",
-   "it": "Siete voi. Le porterò a casa mia.",
-   "rd": "씨에떼 보이. 레 뽀르떼로 아 까자 미아.",
-   "ko": "너희잖아. 우리 집에 가져갈 거야.",
-   "note": "le porterò = 그것들을 가져갈 거야(le = 그것들)",
-   "tags": [
-    "step:10"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "porterò",
-     "portare",
+     "gialle",
+     "giallo",
      ""
     ],
     [
-     "casa",
-     "casa",
-     ""
-    ],
-    [
-     "siete",
+     "sono",
      "essere",
-     ""
-    ]
-   ],
-   "emotion": "cheerful"
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "it": "Vorremmo essere banane più belle.",
-   "rd": "보렘모 에쎄레 바나네 삐우 벨레.",
-   "ko": "좀 더 잘생긴 바나나였으면 좋겠다.",
-   "note": "vorremmo = 우리 ~이고 싶은데(volere 조건)",
-   "tags": [
-    "step:10"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "vorremmo",
-     "volere",
-     ""
-    ],
-    [
-     "essere",
-     "essere",
-     ""
-    ],
-    [
-     "banane",
-     "banana",
      ""
     ],
     [
@@ -293,6 +224,77 @@
      ""
     ]
    ],
+   "grok": true,
+   "it": "Le banane gialle sono belle!",
+   "ko": "노란 바나나가 진짜 예뻐!",
+   "rd": "레 바나네 쟐레 쏘노 벨레!",
+   "emotion": "shout"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "note": "non parlate = 말하지 마",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "scusa",
+     "scusa",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "parlate",
+     "parlare",
+     ""
+    ],
+    [
+     "disegni",
+     "disegno",
+     ""
+    ],
+    [
+     "porterò",
+     "porterare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Scusa, non parlate. Ci disegni? Le porterò.",
+   "ko": "미안, 말하지 마. 우리 그려? 내가 가져올게.",
+   "rd": "스꾸자, 논 빠를라떼. 치 디제니? 레 뽀르떼로.",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "note": "vorremmo = 우리는",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vorremmo",
+     "vorremmo",
+     ""
+    ],
+    [
+     "parlare",
+     "parlare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Ma noi vorremmo parlare.",
+   "ko": "하지만 우리도 말하고 싶어.",
+   "rd": "마 노이 보렘모 빠를라레.",
    "emotion": "sad"
   }
  ]

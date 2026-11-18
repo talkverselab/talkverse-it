@@ -1,0 +1,20 @@
+=== r3_friends_a1
+level: R3
+kind: short
+title: 폰들은 어디 갔지?
+emoji: 📱
+scene: R1 「폰은 어디 갔지?」의 복수판. 이번엔 키아라와 줄리아가 젤라토를 사 들고 같이 놀러 왔고, 둘 다 폰이 없다고 난리다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아), C: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 8 chaos
+goal: 그래머2: R1 같은 문장을 복수로 — non troviamo/trovati · li chiamo · aspettate · abbiamo messo · vorremmo, 여성 복수 tranquille·i telefoni (새 단어 0) · 표현 Mamma mia · Tranquille · Dai · Ecco
+expressions: Mamma mia; Tranquille; Dai; Ecco
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | Mamma mia, non troviamo i telefoni! | 맙소사, 폰을 못 찾겠어! | Mamma mia = 맙소사 | emotion=worried | tags=step:3
+A | Li chiamo. Tranquille. | 내가 전화할게. 진정해. | Tranquille = 진정해 | emotion=gentle | tags=step:7
+B | Dai, li abbiamo messi nel frigo? | 에이, 냉장고에 넣었어? | Dai = 에이 | emotion=excited | tags=step:3
+A | Negli zaini? Non li vedo. | 가방들에? 안 보여. | Negli = 안에 | emotion=surprised | tags=step:4
+C | Aspettate, dove sono andati? | 기다려, 어디로 갔어? | Aspettate = 기다려 | emotion=tsukkomi | tags=step:9
+A | Abbiamo messo i gelati sopra? // Ecco! | 젤라토를 위에 뒀어? // 여기! | Ecco = 여기 | emotion=amused+surprised | tags=step:4,step:5
+B | No! Non li abbiamo trovati! | 아니! 못 찾았어! | trovati = 찾은 | emotion=surprised+flustered | tags=step:5,step:4
+C | Vorremmo i nostri! // Sono qui. 😂 | 우리 거 원했어! // 여기 있어. 😂 | Vorremmo = 원했어 | emotion=sad+cheerful | tags=step:10,step:4,twist

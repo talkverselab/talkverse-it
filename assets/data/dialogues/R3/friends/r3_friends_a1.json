@@ -22,7 +22,6 @@
   "Ecco"
  ],
  "goal": "그래머2: R1 같은 문장을 복수로 — non troviamo/trovati · li chiamo · aspettate · abbiamo messo · vorremmo, 여성 복수 tranquille·i telefoni (새 단어 0) · 표현 Mamma mia · Tranquille · Dai · Ecco",
- "draft": true,
  "purpose": [
   "friends"
  ],
@@ -33,10 +32,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Mamma mia, non troviamo i nostri telefoni!",
-   "rd": "맘마 미아, 논 트로비아모 이 노스트리 뗄레포니!",
-   "ko": "어떡해, 우리 폰이 안 보여!",
-   "note": "troviamo = 우리 찾다(trovare)",
+   "note": "Mamma mia = 맙소사",
    "tags": [
     "step:3"
    ],
@@ -45,6 +41,11 @@
     [
      "mamma",
      "mamma",
+     ""
+    ],
+    [
+     "non",
+     "non",
      ""
     ],
     [
@@ -53,86 +54,113 @@
      ""
     ],
     [
-     "nostri",
-     "nostro",
-     ""
-    ],
-    [
      "telefoni",
      "telefono",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Mamma mia, non troviamo i telefoni!",
+   "ko": "맙소사, 폰을 못 찾겠어!",
+   "rd": "맘마 미아, 논 트로비아모 이 뗄레포니!",
    "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "Tranquille, li chiamo io.",
-   "rd": "트란뀔레, 리 끼아모 이오.",
-   "ko": "진정해, 내가 전화 걸어 볼게.",
-   "note": "tranquille = 진정해(여자 둘 → -e), li = 그것들을",
+   "note": "Tranquille = 진정해",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "tranquille",
-     "tranquillo",
-     ""
-    ],
-    [
      "chiamo",
      "chiamare",
      ""
+    ],
+    [
+     "tranquille",
+     "tranquillo",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Li chiamo. Tranquille.",
+   "ko": "내가 전화할게. 진정해.",
+   "rd": "리 끼아모. 트란뀔레.",
    "emotion": "gentle"
   },
   {
    "num": 3,
    "speaker": "B",
-   "it": "Dai, chiama! Senti qualcosa?",
-   "rd": "다이, 끼아마! 쎈띠 꽐꼬자?",
-   "ko": "빨리 걸어 봐! 뭐 들려?",
-   "note": "senti = 너 들리다(sentire) — 4턴 sento(나)",
+   "note": "Dai = 에이",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "chiama",
-     "chiamare",
+     "abbiamo",
+     "avere",
      ""
     ],
     [
-     "senti",
-     "sentire",
+     "messi",
+     "mettere",
      ""
     ],
     [
-     "qualcosa",
-     "qualcosa",
+     "frigo",
+     "frigo",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Dai, li abbiamo messi nel frigo?",
+   "ko": "에이, 냉장고에 넣었어?",
+   "rd": "다이, 리 아비아모 메씨 넬 프리고?",
    "emotion": "excited"
   },
   {
    "num": 4,
    "speaker": "A",
-   "it": "Aspettate... sento una musica. Dal frigo?",
-   "rd": "아스뻬따떼... 쎈또 우나 무지까. 달 프리고?",
-   "ko": "잠깐만… 음악 소리 나. 냉장고에서?",
-   "note": "aspettate = 너희 기다려(aspettare, voi 명령)",
+   "note": "Negli = 안에",
    "tags": [
     "step:4"
    ],
-   "new": [
-    "frigo"
+   "new": [],
+   "lemmas": [
+    [
+     "zaini",
+     "zaini",
+     ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ]
    ],
+   "grok": true,
+   "it": "Negli zaini? Non li vedo.",
+   "ko": "가방들에? 안 보여.",
+   "rd": "넬리 짜이니? 논 리 베도.",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "note": "Aspettate = 기다려",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
    "lemmas": [
     [
      "aspettate",
@@ -140,71 +168,8 @@
      ""
     ],
     [
-     "sento",
-     "sentire",
-     ""
-    ],
-    [
-     "musica",
-     "musica",
-     ""
-    ],
-    [
-     "frigo",
-     "frigo",
-     ""
-    ]
-   ],
-   "emotion": "surprised"
-  },
-  {
-   "num": 5,
-   "speaker": "C",
-   "it": "Dal frigo? Ma che dici?",
-   "rd": "달 프리고? 마 께 디치?",
-   "ko": "냉장고에서? 무슨 소리야?",
-   "note": "dici = 너 말한다(dire)",
-   "tags": [
-    "step:9"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "frigo",
-     "frigo",
-     ""
-    ],
-    [
-     "dici",
-     "dire",
-     ""
-    ]
-   ],
-   "emotion": "tsukkomi"
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "it": "Ecco, trovati! Sono nel frigo. Ma... dove sono i gelati?",
-   "rd": "에꼬, 트로바띠! 쏘노 넬 프리고. 마... 도베 쏘노 이 젤라띠?",
-   "ko": "찾았다! 냉장고 안에 있어. 근데… 젤라토는 어디 있어?",
-   "note": "trovati = 찾았다(trovare, 폰 둘 → -i) — 1턴 troviamo",
-   "tags": [
-    "step:4",
-    "step:5"
-   ],
-   "new": [
-    "gelato"
-   ],
-   "lemmas": [
-    [
-     "ecco",
-     "ecco",
-     ""
-    ],
-    [
-     "trovati",
-     "trovare",
+     "dove",
+     "dove",
      ""
     ],
     [
@@ -213,34 +178,72 @@
      ""
     ],
     [
-     "frigo",
-     "frigo",
+     "andati",
+     "andare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Aspettate, dove sono andati?",
+   "ko": "기다려, 어디로 갔어?",
+   "rd": "아스뻬따떼, 도베 쏘노 안다띠?",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "note": "Ecco = 여기",
+   "tags": [
+    "step:4",
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "abbiamo",
+     "avere",
+     ""
+    ],
+    [
+     "messo",
+     "mettere",
      ""
     ],
     [
      "gelati",
      "gelato",
      ""
+    ],
+    [
+     "sopra",
+     "sopra",
+     ""
+    ],
+    [
+     "ecco",
+     "ecco",
+     ""
     ]
    ],
+   "grok": true,
+   "it": "Abbiamo messo i gelati sopra? Ecco!",
+   "ko": "젤라토를 위에 뒀어? 여기!",
+   "rd": "아비아모 메쏘 이 젤라띠 쏘프라? 에꼬!",
    "segs": [
     [
      "amused",
-     "Ecco, trovati! Sono nel frigo."
+     "Abbiamo messo i gelati sopra?"
     ],
     [
      "surprised",
-     " Ma... dove sono i gelati?"
+     " Ecco!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "it": "Ah, sì! Abbiamo messo i telefoni nel frigo e...",
-   "rd": "아, 씨! 아비아모 메쏘 이 뗄레포니 넬 프리고 에...",
-   "ko": "아, 맞다! 폰은 냉장고에 넣고…",
-   "note": "abbiamo messo = 우리 넣었다(mettere 근과거)",
+   "note": "trovati = 찾은",
    "tags": [
     "step:5",
     "step:4"
@@ -248,39 +251,40 @@
    "new": [],
    "lemmas": [
     [
-     "abbiamo messo",
-     "mettere",
+     "non",
+     "non",
      ""
     ],
     [
-     "telefoni",
-     "telefono",
+     "abbiamo",
+     "avere",
      ""
     ],
     [
-     "frigo",
-     "frigo",
+     "trovati",
+     "trovare",
      ""
     ]
    ],
+   "grok": true,
+   "it": "No! Non li abbiamo trovati!",
+   "ko": "아니! 못 찾았어!",
+   "rd": "노! 논 리 아비아모 트로바띠!",
    "segs": [
     [
      "surprised",
-     "Ah, sì! Abbiamo messo i telefoni"
+     "No!"
     ],
     [
      "flustered",
-     " nel frigo e..."
+     " Non li abbiamo trovati!"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "it": "...i gelati nelle nostre borse. Vorremmo altri due gelati.",
-   "rd": "...이 젤라띠 넬레 노스트레 보르쎄. 보렘모 알트리 두에 젤라띠.",
-   "ko": "…젤라토는 우리 가방에 넣었어. 젤라토 두 개 더 먹고 싶다.",
-   "note": "vorremmo = 우리 ~하고 싶은데(volere 조건) · nelle = in + le",
+   "note": "Vorremmo = 원했어",
    "tags": [
     "step:10",
     "step:4"
@@ -288,39 +292,33 @@
    "new": [],
    "lemmas": [
     [
-     "gelati",
-     "gelato",
-     ""
-    ],
-    [
-     "nostre",
-     "nostro",
-     ""
-    ],
-    [
-     "borse",
-     "borsa",
-     ""
-    ],
-    [
      "vorremmo",
-     "volere",
+     "vorremmo",
      ""
     ],
     [
-     "altri",
-     "altro",
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Vorremmo i nostri! Sono qui. 😂",
+   "ko": "우리 거 원했어! 여기 있어. 😂",
+   "rd": "보렘모 이 노스트리! 쏘노 뀌. 😂",
    "segs": [
     [
      "sad",
-     "...i gelati nelle nostre borse."
+     "Vorremmo i nostri!"
     ],
     [
      "cheerful",
-     " Vorremmo altri due gelati."
+     " Sono qui. 😂"
     ]
    ]
   }

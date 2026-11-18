@@ -3,7 +3,6 @@
  "region": "R1",
  "island": "culture",
  "kind": "short",
- "draft": true,
  "purpose": [
   "culture"
  ],
@@ -33,23 +32,15 @@
   {
    "num": 1,
    "speaker": "B",
-   "it": "Senti, conosci questa mano?",
-   "rd": "쎈띠, 꼬노시 꿰스따 마노?",
-   "ko": "있잖아, 이 손 알아?",
-   "note": "la mano = 손(-o 로 끝나는데 여성 명사 → questa)",
+   "note": "la = 그 (여)",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "senti",
-     "sentire",
-     ""
-    ],
-    [
-     "conosci",
-     "conoscere",
+     "guarda",
+     "guardare",
      ""
     ],
     [
@@ -58,88 +49,45 @@
      ""
     ]
    ],
+   "grok": true,
+   "it": "Guarda la mano!",
+   "ko": "손 봐!",
+   "rd": "구아르다 라 마노!",
    "emotion": "excited"
   },
   {
    "num": 2,
    "speaker": "A",
-   "it": "No. Cosa vuol dire?",
-   "rd": "노. 꼬자 부올 디레?",
-   "ko": "아니. 무슨 뜻이야?",
-   "note": "vuol dire = 뜻하다(volere + dire)",
+   "note": "vuoi = 원하다",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "vuol",
-     "volere",
-     ""
-    ],
-    [
-     "dire",
-     "dire",
-     ""
-    ]
-   ],
-   "emotion": "neutral"
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "it": "Vuol dire «Ma cosa vuoi?». Prova tu!",
-   "rd": "부올 디레 \"마 꼬자 부오이?\". 프로바 뚜!",
-   "ko": "「대체 뭘 원해?」라는 뜻이야. 너도 해 봐!",
-   "note": "vuoi = 너 원하다(volere) — 2턴 vuol",
-   "tags": [
-    "step:9",
-    "step:3"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "vuol",
-     "volere",
-     ""
-    ],
-    [
-     "dire",
-     "dire",
-     ""
-    ],
-    [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
      "vuoi",
      "volere",
      ""
     ],
     [
-     "prova",
-     "provare",
+     "dire",
+     "dire",
      ""
     ]
    ],
-   "emotion": "amused"
+   "grok": true,
+   "it": "Cosa vuoi dire?",
+   "ko": "무슨 뜻이야?",
+   "rd": "꼬자 부오이 디레?",
+   "emotion": "neutral"
   },
   {
-   "num": 4,
-   "speaker": "A",
-   "it": "Lo faccio così? Ma cosa vuoi?",
-   "rd": "로 파쵸 꼬지? 마 꼬자 부오이?",
-   "ko": "이렇게 하는 거야? 대체 뭘 원해?",
-   "note": "lo faccio = 그걸 한다(lo = 그것을, fare)",
+   "num": 3,
+   "speaker": "B",
+   "note": "faccio = 하다",
    "tags": [
-    "step:7"
+    "step:9",
+    "step:3"
    ],
    "new": [],
    "lemmas": [
@@ -154,25 +102,42 @@
      ""
     ],
     [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "vuoi",
-     "volere",
+     "vedi",
+     "vedere",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Faccio così, vedi?",
+   "ko": "이렇게 해, 봐?",
+   "rd": "파쵸 꼬지, 베디?",
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "note": "lo = 그것을",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "faccio",
+     "fare",
+     ""
+    ]
+   ],
+   "grok": true,
+   "it": "Lo faccio a Marco.",
+   "ko": "마르코한테 그거 해.",
+   "rd": "로 파쵸 아 마르꼬.",
    "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "B",
-   "it": "No, no! Non capisci. Fai così, guarda.",
-   "rd": "노, 노! 논 까삐시. 파이 꼬지, 구아르다.",
-   "ko": "아니, 아니! 못 알아들었네. 이렇게 해, 봐 봐.",
-   "note": "fai = 해(fare, tu) — 4턴 faccio(나)",
+   "note": "fai = 하다",
    "tags": [
     "step:9",
     "step:3"
@@ -180,8 +145,8 @@
    "new": [],
    "lemmas": [
     [
-     "capisci",
-     "capire",
+     "non",
+     "non",
      ""
     ],
     [
@@ -193,119 +158,114 @@
      "così",
      "così",
      ""
-    ],
-    [
-     "guarda",
-     "guardare",
-     ""
     ]
    ],
+   "grok": true,
+   "it": "No! Non lo fai così!",
+   "ko": "아니! 그렇게 안 해!",
+   "rd": "노! 논 로 파이 꼬지!",
    "emotion": "tsukkomi"
   },
   {
    "num": 6,
    "speaker": "A",
-   "it": "Così? Ecco Marco... Marco, ma cosa vuoi?",
-   "rd": "꼬지? 에꼬 마르꼬... 마르꼬, 마 꼬자 부오이?",
-   "ko": "이렇게? 아, 마르코 온다… 마르코, 대체 뭘 원해?",
-   "note": "ecco = 저기 ~ 온다, 여기 있다",
+   "note": "vuol = 원하다",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "così",
-     "così",
-     ""
-    ],
-    [
-     "ecco",
-     "ecco",
-     ""
-    ],
-    [
-     "cosa",
-     "cosa",
-     ""
-    ],
-    [
-     "vuoi",
+     "vuol",
      "volere",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "figo",
+     "figo",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ma cosa vuol dire? È figo!",
+   "ko": "근데 무슨 뜻이야? 멋져!",
+   "rd": "마 꼬자 부올 디레? 에 피고!",
    "segs": [
     [
      "flustered",
-     "Così? Ecco Marco..."
+     "Ma cosa vuol dire?"
     ],
     [
      "excited",
-     " Marco, ma cosa vuoi?"
+     " È figo!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "C",
-   "it": "Un caffè, grazie. Tu paghi.",
-   "rd": "운 까페, 그라찌에. 뚜 빠기.",
-   "ko": "커피 한 잔. 고마워. 네가 사.",
-   "note": "paghi = 너 낸다(pagare) — 손짓은 못 본 척하고 말 그대로 대답",
+   "note": "capisco = 이해하다",
    "tags": [
     "step:3"
    ],
-   "new": [
-    "caffè"
-   ],
+   "new": [],
    "lemmas": [
     [
-     "caffè",
-     "caffè",
+     "non",
+     "non",
      ""
     ],
     [
-     "grazie",
-     "grazie",
+     "capisco",
+     "capisco",
      ""
     ],
     [
-     "paghi",
-     "pagare",
+     "vado",
+     "vado",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Non capisco. Vado.",
+   "ko": "모르겠어. 가.",
+   "rd": "논 까삐스꼬. 바도.",
    "emotion": "stiff"
   },
   {
    "num": 8,
    "speaker": "B",
-   "it": "Vedi? Ha capito tutto.",
-   "rd": "베디? 아 까삐또 뚜또.",
-   "ko": "봤지? 다 알아들었잖아.",
-   "note": "ha capito = 알아들었다(capire 근과거) — 5턴 capisci",
+   "note": "ha capito = 이해했다",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
     [
-     "vedi",
-     "vedere",
+     "ha",
+     "avere",
      ""
     ],
     [
-     "ha capito",
+     "capito",
      "capire",
-     ""
-    ],
-    [
-     "tutto",
-     "tutto",
      ""
     ]
    ],
+   "grok": true,
+   "it": "Ha capito tutto!",
+   "ko": "다 이해했어!",
+   "rd": "아 까삐또 뚜또!",
    "emotion": "amused"
   }
  ]

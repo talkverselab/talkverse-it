@@ -1,0 +1,20 @@
+=== r1_travel_a1
+level: R1
+kind: short
+title: 역 앞의 엄청 예쁜 여자
+emoji: 🚉
+scene: 로마에 처음 놀러 온 학습자가 역 앞에서 마중 나오기로 한 줄리아에게 전화한다. 줄리아는 안 보이고, 웬 예쁜 여자가 자꾸 쳐다본다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 6 reveal
+goal: 골격 단계 1·2·3·6·7·9 · 성별판 sono arrivato/arrivata · bravo/brava · 굴절 반복 bello/bella · sei/sono · guarda/guardi · 표현 Pronto · Che bello · Allora
+expressions: Pronto; Che bello; Allora
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
+A | ___ | ___ | ___ | emotion=excited | tags=step:6
+B | ___ | ___ | ___ | emotion=cheerful | tags=step:2
+A | ___ | ___ | ___ | emotion=shy | tags=step:1
+B | ___ | ___ | ___ | emotion=teasing | tags=step:9
+A | ___ | ___ | ___ | emotion=flustered | tags=step:7,step:3
+B | ___ | ___ | ___ | emotion=teasing+cheerful | tags=step:3,step:2,twist
+A | ___ | ___ | ___ | emotion=surprised | tags=step:7
+B | ___ | ___ | ___ | emotion=teasing | tags=step:2
