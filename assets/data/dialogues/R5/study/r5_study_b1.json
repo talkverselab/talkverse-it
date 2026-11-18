@@ -1,0 +1,644 @@
+{
+ "id": "r5_study_b1",
+ "region": "R5",
+ "island": "study",
+ "kind": "long",
+ "title": "모의 면접과 양말",
+ "emoji": "🎓",
+ "scene": "장학금 면접 전날 밤 셰어하우스 거실. 학습자가 연습을 부탁하자 루카가 면접관 흉내를 낸다 — 휴대폰을 손에 쥔 채",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "mixed",
+ "twist": 12,
+ "twist_type": "ignore",
+ "flags": [],
+ "expressions": [
+  "Certo",
+  "Boh",
+  "Magari",
+  "Tranquillo"
+ ],
+ "goal": "어휘 주제 2 일·공부(borsa di studio·ricerca·lavoro) · 7 돈(costare·risparmiare·soldi) · 10 미래(lavorerò·risparmierò·proverò) · 4 감정 · 존댓말 Lei(면접 흉내) · 표현 Certo·Boh·Magari·Tranquillo",
+ "draft": true,
+ "purpose": [
+  "study"
+ ],
+ "domain": [
+  "study"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "it": "Luca, domani ho il colloquio per la borsa di studio. Mi fai qualche domanda?",
+   "rd": "루까, 도마니 오 일 꼴로뀌오 뻬르 라 보르싸 디 스뚜디오. 미 파이 꽐께 도만다?",
+   "ko": "루카, 나 내일 장학금 면접이야. 질문 좀 해 줄래?",
+   "note": "borsa di studio = 장학금",
+   "tags": [
+    "step:2"
+   ],
+   "new": [
+    "colloquio"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "colloquio",
+     "colloquio",
+     ""
+    ],
+    [
+     "borsa",
+     "borsa",
+     ""
+    ],
+    [
+     "studio",
+     "studio",
+     ""
+    ],
+    [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "domanda",
+     "domanda",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "it": "Certo. Allora... buongiorno. Perché vuole studiare in Italia?",
+   "rd": "체르또. 알로라... 부온조르노. 뻬르께 부올레 스뚜디아레 인 이딸리아?",
+   "ko": "당연하지. 자… 안녕하세요. 왜 이탈리아에서 공부하려고 하시죠?",
+   "note": "vuole = (Lei) 원하다 — 면접관 흉내",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "vuole",
+     "volere",
+     ""
+    ],
+    [
+     "studiare",
+     "studiare",
+     ""
+    ],
+    [
+     "italia",
+     "italia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Perché qui studiare costa meno e la vita è più bella.",
+   "rd": "뻬르께 뀌 스뚜디아레 꼬스따 메노 에 라 비따 에 삐우 벨라.",
+   "ko": "여기가 공부하는 데 돈이 덜 들고 사는 게 더 좋아서요.",
+   "note": "costare = (값이) 들다",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "studiare",
+     "studiare",
+     ""
+    ],
+    [
+     "costa",
+     "costare",
+     ""
+    ],
+    [
+     "meno",
+     "meno",
+     ""
+    ],
+    [
+     "vita",
+     "vita",
+     ""
+    ],
+    [
+     "bella",
+     "bello",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "No, no, no. Mai dire «costa meno». Di' che ti interessa la ricerca.",
+   "rd": "노, 노, 노. 마이 디레 \"꼬스따 메노\". 디 께 띠 인떼레싸 라 리체르까.",
+   "ko": "아니, 아니. 「돈이 덜 든다」는 절대 말하지 마. 연구에 관심 있다고 해.",
+   "note": "Di' = 말해(dire 명령)",
+   "tags": [
+    "step:2",
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "costa",
+     "costare",
+     ""
+    ],
+    [
+     "interessa",
+     "interessare",
+     ""
+    ],
+    [
+     "ricerca",
+     "ricerca",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Va bene. Mi interessano molto la ricerca... e le case che costano poco.",
+   "rd": "바 베네. 미 인떼레싸노 몰또 라 리체르까... 에 레 까제 께 꼬스따노 뽀꼬.",
+   "ko": "알았어. 연구에 관심이 아주 많고요… 집값 싼 것도요.",
+   "note": "mi interessano = 나는 ~에 관심 있다(복수 주어)",
+   "tags": [
+    "step:2",
+    "step:1"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "interessano",
+     "interessare",
+     ""
+    ],
+    [
+     "ricerca",
+     "ricerca",
+     ""
+    ],
+    [
+     "case",
+     "casa",
+     ""
+    ],
+    [
+     "costano",
+     "costare",
+     ""
+    ],
+    [
+     "poco",
+     "poco",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Senta, e fra cinque anni dove si vede?",
+   "rd": "쎈따, 에 프라 친꿰 안니 도베 씨 베데?",
+   "ko": "그럼, 5년 뒤에는 어디 계실 것 같으세요?",
+   "note": "Senta = 저기요(Lei 명령, 반말은 Senti)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "senta",
+     "sentire",
+     ""
+    ],
+    [
+     "cinque",
+     "cinque",
+     ""
+    ],
+    [
+     "anni",
+     "anno",
+     ""
+    ],
+    [
+     "vede",
+     "vedere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Fra cinque anni? Boh... Magari lavorerò qui e aprirò un piccolo studio. E manderò soldi ai miei genitori.",
+   "rd": "프라 친꿰 안니? 보... 마가리 라보레로 뀌 에 아프리로 운 삐꼴로 스뚜디오. 에 만데로 쏠디 아이 미에이 제니또리.",
+   "ko": "5년 뒤요? 글쎄요… 여기서 일하면서 작은 사무실 하나 차리고 싶어요. 부모님께 돈도 보내 드리고요.",
+   "note": "lavorerò·aprirò·manderò = 미래형",
+   "tags": [
+    "step:10",
+    "step:2",
+    "step:7"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "stiff",
+     "Fra cinque anni? Boh..."
+    ],
+    [
+     "gentle",
+     " Magari lavorerò qui e aprirò un piccolo studio. E manderò soldi ai miei genitori."
+    ]
+   ],
+   "lemmas": [
+    [
+     "anni",
+     "anno",
+     ""
+    ],
+    [
+     "lavorerò",
+     "lavorare",
+     ""
+    ],
+    [
+     "aprirò",
+     "aprire",
+     ""
+    ],
+    [
+     "piccolo",
+     "piccolo",
+     ""
+    ],
+    [
+     "studio",
+     "studio",
+     ""
+    ],
+    [
+     "manderò",
+     "mandare",
+     ""
+    ],
+    [
+     "soldi",
+     "soldo",
+     ""
+    ],
+    [
+     "genitori",
+     "genitore",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "E se la borsa non gliela danno?",
+   "rd": "에 쎄 라 보르싸 논 리엘라 단노?",
+   "ko": "그런데 장학금을 못 받으시면요?",
+   "note": "gliela danno = 그것을 당신에게 주다(Lei)",
+   "tags": [
+    "step:7",
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "borsa",
+     "borsa",
+     ""
+    ],
+    [
+     "danno",
+     "dare",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "it": "Allora troverò un lavoro la sera, risparmierò, e ci proverò di nuovo l'anno dopo.",
+   "rd": "알로라 트로베로 운 라보로 라 쎄라, 리스빠르미에로, 에 치 프로베로 디 누오보 란노 도뽀.",
+   "ko": "그럼 저녁 일을 구해서 돈 모으고, 다음 해에 다시 도전할 거예요.",
+   "note": "risparmiare = (돈을) 모으다",
+   "tags": [
+    "step:7",
+    "step:2",
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "troverò",
+     "trovare",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
+     ""
+    ],
+    [
+     "sera",
+     "sera",
+     ""
+    ],
+    [
+     "risparmierò",
+     "risparmiare",
+     ""
+    ],
+    [
+     "proverò",
+     "provare",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ],
+    [
+     "anno",
+     "anno",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "it": "Bella risposta. Ultima domanda: perché proprio questa città?",
+   "rd": "벨라 리스뽀스따. 울띠마 도만다: 뻬르께 프로프리오 꿰스따 치따?",
+   "ko": "좋은 대답이에요. 마지막 질문, 왜 하필 이 도시죠?",
+   "note": "proprio = 하필, 바로",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "bella",
+     "bello",
+     ""
+    ],
+    [
+     "risposta",
+     "risposta",
+     ""
+    ],
+    [
+     "ultima",
+     "ultimo",
+     ""
+    ],
+    [
+     "domanda",
+     "domanda",
+     ""
+    ],
+    [
+     "città",
+     "città",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "it": "Perché qui, per la prima volta, mi sono sentito a casa. Le piazze, la gente... perfino tu, che lasci i calzini sul tavolo.",
+   "rd": "뻬르께 뀌, 뻬르 라 프리마 볼따, 미 쏘노 쎈띠또 아 까자. 레 삐아쩨, 라 젠떼... 뻬르피노 뚜, 께 라시 이 깔찌니 쑬 따볼로.",
+   "ko": "여기서 처음으로 집에 있는 것 같았거든요. 광장, 사람들… 식탁에 양말 벗어 두는 너까지도.",
+   "note": "mi sono sentito/a = 나는 느꼈다(재귀 근과거)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [
+    "calzino"
+   ],
+   "it_f": "Perché qui, per la prima volta, mi sono sentita a casa. Le piazze, la gente... perfino tu, che lasci i calzini sul tavolo.",
+   "rd_f": "뻬르께 뀌, 뻬르 라 프리마 볼따, 미 쏘노 쎈띠따 아 까자. 레 삐아쩨, 라 젠떼... 뻬르피노 뚜, 께 라시 이 깔찌니 쑬 따볼로.",
+   "ko_f": "여기서 처음으로 집에 있는 것 같았거든요. 광장, 사람들… 식탁에 양말 벗어 두는 너까지도.",
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "prima",
+     "primo",
+     ""
+    ],
+    [
+     "volta",
+     "volta",
+     ""
+    ],
+    [
+     "sentito",
+     "sentire",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "piazze",
+     "piazza",
+     ""
+    ],
+    [
+     "gente",
+     "gente",
+     ""
+    ],
+    [
+     "perfino",
+     "perfino",
+     ""
+    ],
+    [
+     "lasci",
+     "lasciare",
+     ""
+    ],
+    [
+     "calzini",
+     "calzino",
+     ""
+    ],
+    [
+     "tavolo",
+     "tavolo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "it": "...Sì! Sì! Abbiamo segnato all'ultimo minuto!",
+   "rd": "...씨! 씨! 아비아모 쎄냐또 알룰띠모 미누또!",
+   "ko": "…됐다! 됐어! 마지막 1분에 골 넣었어!",
+   "note": "segnare = 골을 넣다",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "segnato",
+     "segnare",
+     ""
+    ],
+    [
+     "ultimo",
+     "ultimo",
+     ""
+    ],
+    [
+     "minuto",
+     "minuto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "it": "Luca. Stavi guardando il calcio? Ti ho appena aperto il mio cuore!",
+   "rd": "루까. 스따비 구아르단도 일 깔쵸? 띠 오 아뻬나 아뻬르또 일 미오 꾸오레!",
+   "ko": "루카. 너 축구 보고 있었어? 나 방금 속마음 다 털어놨는데!",
+   "note": "stavi guardando = 보고 있었다(진행)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "stavi",
+     "stare",
+     ""
+    ],
+    [
+     "guardando",
+     "guardare",
+     ""
+    ],
+    [
+     "calcio",
+     "calcio",
+     ""
+    ],
+    [
+     "aperto",
+     "aprire",
+     ""
+    ],
+    [
+     "cuore",
+     "cuore",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "it": "Tranquillo, ho sentito tutto. Domani dillo uguale... ma senza calzini.",
+   "rd": "트란뀔로, 오 쎈띠또 뚜또. 도마니 딜로 우구알레... 마 쎈짜 깔찌니.",
+   "ko": "걱정 마, 다 들었어. 내일 똑같이 말해… 양말 얘기만 빼고.",
+   "note": "dillo = 그걸 말해(dire 명령 + lo)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "it_f": "Tranquilla, ho sentito tutto. Domani dillo uguale... ma senza calzini.",
+   "rd_f": "트란뀔라, 오 쎈띠또 뚜또. 도마니 딜로 우구알레... 마 쎈짜 깔찌니.",
+   "ko_f": "걱정 마, 다 들었어. 내일 똑같이 말해… 양말 얘기만 빼고.",
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "tranquillo",
+     "tranquillo",
+     ""
+    ],
+    [
+     "sentito",
+     "sentire",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "dillo",
+     "dire",
+     ""
+    ],
+    [
+     "uguale",
+     "uguale",
+     ""
+    ],
+    [
+     "calzini",
+     "calzino",
+     ""
+    ]
+   ]
+  }
+ ]
+}

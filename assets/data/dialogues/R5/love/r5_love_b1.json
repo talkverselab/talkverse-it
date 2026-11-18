@@ -1,0 +1,627 @@
+{
+ "id": "r5_love_b1",
+ "region": "R5",
+ "island": "love",
+ "kind": "long",
+ "title": "우산은 가방 안에",
+ "emoji": "☔",
+ "scene": "여름 저녁, 학습자 집에서 같이 공부하던 줄리아. 갑자기 비가 쏟아지고 불이 나간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Senti",
+  "Dai",
+  "Mamma mia",
+  "Magari",
+  "Guarda",
+  "Cioè"
+ ],
+ "goal": "어휘 주제 5 날씨·계절(pioggia·neve·freddo·previsioni·Natale) · 1 집(luce·camera·tavolo) · 4 감정 · 표현 Senti·Dai·Mamma mia·Magari·Guarda·Cioè",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Senti che pioggia! E io che ho lasciato l'ombrello a casa...",
+   "rd": "쎈띠 께 삐오쟈! 에 이오 께 오 라샤또 롬브렐로 아 까자...",
+   "ko": "비 오는 소리 들어 봐! 나 우산 집에 두고 왔는데…",
+   "note": "E io che… = 나는 또 ~했는데",
+   "tags": [
+    "step:5"
+   ],
+   "new": [
+    "ombrello"
+   ],
+   "emotion": "surprised",
+   "lemmas": [
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "pioggia",
+     "pioggia",
+     ""
+    ],
+    [
+     "lasciato",
+     "lasciare",
+     ""
+    ],
+    [
+     "ombrello",
+     "ombrello",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Resta qui finché non smette. Ti preparo un tè caldo.",
+   "rd": "레스따 뀌 핀께 논 스메떼. 띠 프레빠로 운 떼 깔도.",
+   "ko": "그칠 때까지 여기 있어. 따뜻한 차 타 줄게.",
+   "note": "finché non smette = 그칠 때까지",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "resta",
+     "restare",
+     ""
+    ],
+    [
+     "finché",
+     "finché",
+     ""
+    ],
+    [
+     "smette",
+     "smettere",
+     ""
+    ],
+    [
+     "preparo",
+     "preparare",
+     ""
+    ],
+    [
+     "tè",
+     "tè",
+     ""
+    ],
+    [
+     "caldo",
+     "caldo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Oddio, è saltata la luce! Hai delle candele?",
+   "rd": "오디오, 에 쌀따따 라 루체! 아이 델레 깐델레?",
+   "ko": "어머, 불 나갔다! 초 있어?",
+   "note": "è saltata la luce = 정전됐다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "oddio",
+     "oddio",
+     ""
+    ],
+    [
+     "saltata",
+     "saltare",
+     ""
+    ],
+    [
+     "luce",
+     "luce",
+     ""
+    ],
+    [
+     "candele",
+     "candela",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Credo di sì, in camera, da qualche parte... Non vedo niente!",
+   "rd": "크레도 디 씨, 인 까메라, 다 꽐께 빠르떼... 논 베도 니엔떼!",
+   "ko": "있을걸, 방 어딘가에… 아무것도 안 보여!",
+   "note": "da qualche parte = 어딘가에",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "credo",
+     "credere",
+     ""
+    ],
+    [
+     "camera",
+     "camera",
+     ""
+    ],
+    [
+     "parte",
+     "parte",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Dammi la mano, dai. Così non cadi.",
+   "rd": "담미 라 마노, 다이. 꼬지 논 까디.",
+   "ko": "손 줘, 얼른. 그래야 안 넘어지지.",
+   "note": "Dammi = 나에게 줘(dare 명령 + mi)",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "dammi",
+     "dare",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ],
+    [
+     "cadi",
+     "cadere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ecco, trovate! Mamma mia, sembra un film romantico.",
+   "rd": "에꼬, 트로바떼! 맘마 미아, 쎔브라 운 필름 로만띠꼬.",
+   "ko": "여기, 찾았다! 와, 무슨 로맨스 영화 같아.",
+   "note": "sembrare = ~같다",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "trovate",
+     "trovare",
+     ""
+    ],
+    [
+     "sembra",
+     "sembrare",
+     ""
+    ],
+    [
+     "film",
+     "film",
+     ""
+    ],
+    [
+     "romantico",
+     "romantico",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Da piccola, a casa di mia nonna, quando pioveva così andava sempre via la luce. Tutti intorno al tavolo a raccontare storie.",
+   "rd": "다 삐꼴라, 아 까자 디 미아 논나, 꽌도 삐오베바 꼬지 안다바 쎔프레 비아 라 루체. 뚜띠 인또르노 알 따볼로 아 라꼰따레 스또리에.",
+   "ko": "어릴 때 할머니 댁에선 이렇게 비가 오면 꼭 불이 나갔어. 다들 식탁에 둘러앉아 이야기하고.",
+   "note": "pioveva = 비가 오곤 했다(반과거)",
+   "tags": [
+    "step:5",
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "piccola",
+     "piccolo",
+     ""
+    ],
+    [
+     "nonna",
+     "nonno",
+     ""
+    ],
+    [
+     "pioveva",
+     "piovere",
+     ""
+    ],
+    [
+     "andava",
+     "andare",
+     ""
+    ],
+    [
+     "luce",
+     "luce",
+     ""
+    ],
+    [
+     "intorno",
+     "intorno",
+     ""
+    ],
+    [
+     "tavolo",
+     "tavolo",
+     ""
+    ],
+    [
+     "raccontare",
+     "raccontare",
+     ""
+    ],
+    [
+     "storie",
+     "storia",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Da me, quando faceva freddo, c'era la neve per settimane. Non si usciva di casa.",
+   "rd": "다 메, 꽌도 파체바 프레도, 체라 라 네베 뻬르 쎄띠마네. 논 씨 우시바 디 까자.",
+   "ko": "우리 동네는 추워지면 몇 주씩 눈이 쌓여 있었어. 집 밖에 못 나갔지.",
+   "note": "faceva freddo = 추웠다(반과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "faceva",
+     "fare",
+     ""
+    ],
+    [
+     "freddo",
+     "freddo",
+     ""
+    ],
+    [
+     "neve",
+     "neve",
+     ""
+    ],
+    [
+     "settimane",
+     "settimana",
+     ""
+    ],
+    [
+     "usciva",
+     "uscire",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Che bello. Io la neve vera l'ho vista una volta sola, ed è durata dieci minuti.",
+   "rd": "께 벨로. 이오 라 네베 베라 로 비스따 우나 볼따 쏠라, 에드 에 두라따 디에치 미누띠.",
+   "ko": "좋겠다. 난 진짜 눈은 딱 한 번 봤는데, 10분 만에 그쳤어.",
+   "note": "durare = 계속되다",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "bello",
+     "bello",
+     ""
+    ],
+    [
+     "neve",
+     "neve",
+     ""
+    ],
+    [
+     "vera",
+     "vero",
+     ""
+    ],
+    [
+     "vista",
+     "vedere",
+     ""
+    ],
+    [
+     "volta",
+     "volta",
+     ""
+    ],
+    [
+     "sola",
+     "solo",
+     ""
+    ],
+    [
+     "durata",
+     "durare",
+     ""
+    ],
+    [
+     "minuti",
+     "minuto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Allora a Natale vieni a {city}. Te la faccio vedere io.",
+   "rd": "알로라 아 나딸레 비에니 아 {city}. 떼 라 파쵸 베데레 이오.",
+   "ko": "그럼 크리스마스에 {city}에 와. 내가 보여 줄게.",
+   "note": "te la faccio vedere = 너에게 그걸 보여 줄게",
+   "tags": [
+    "step:5",
+    "step:4"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "natale",
+     "natale",
+     ""
+    ],
+    [
+     "vieni",
+     "venire",
+     ""
+    ],
+    [
+     "faccio",
+     "fare",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "it": "È un invito? ...Magari.",
+   "rd": "에 운 인비또? ...마가리.",
+   "ko": "그거 초대야? …좋지.",
+   "note": "Magari = 그러면 좋겠다",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "teasing",
+     "È un invito?"
+    ],
+    [
+     "shy",
+     " ...Magari."
+    ]
+   ],
+   "lemmas": [
+    [
+     "invito",
+     "invito",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "it": "Guarda, il telefono dice che fra mezz'ora smette. Puoi tornare a casa tranquilla.",
+   "rd": "구아르다, 일 뗄레포노 디체 께 프라 메쪼라 스메떼. 뿌오이 또르나레 아 까자 트란뀔라.",
+   "ko": "봐, 폰 보니까 30분 뒤면 그친대. 편하게 집에 갈 수 있어.",
+   "note": "fra mezz'ora = 30분 뒤에",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "telefono",
+     "telefono",
+     ""
+    ],
+    [
+     "dice",
+     "dire",
+     ""
+    ],
+    [
+     "mezz",
+     "mezzo",
+     ""
+    ],
+    [
+     "smette",
+     "smettere",
+     ""
+    ],
+    [
+     "tornare",
+     "tornare",
+     ""
+    ],
+    [
+     "tranquilla",
+     "tranquillo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "Lo so. Le previsioni le avevo viste ieri... e l'ombrello è nella mia borsa.",
+   "rd": "로 쏘. 레 프레비지오니 레 아베보 비스떼 이에리... 에 롬브렐로 에 넬라 미아 보르싸.",
+   "ko": "알아. 예보 어제 봤거든… 그리고 우산은 내 가방에 있어.",
+   "note": "le avevo viste = 그것들을 봤었다(대과거, 과거분사 일치)",
+   "tags": [
+    "step:5",
+    "step:4"
+   ],
+   "new": [
+    "previsione"
+   ],
+   "emotion": "shy",
+   "lemmas": [
+    [
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "previsioni",
+     "previsione",
+     ""
+    ],
+    [
+     "viste",
+     "vedere",
+     ""
+    ],
+    [
+     "ieri",
+     "ieri",
+     ""
+    ],
+    [
+     "ombrello",
+     "ombrello",
+     ""
+    ],
+    [
+     "borsa",
+     "borsa",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "it": "Cioè... sei venuta lo stesso? Apposta?",
+   "rd": "쵸에... 쎄이 베누따 로 스떼쏘? 아뽀스따?",
+   "ko": "그러니까… 알면서 온 거야? 일부러?",
+   "note": "apposta = 일부러",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Cioè... sei venuta lo stesso?"
+    ],
+    [
+     "shy",
+     " Apposta?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "venuta",
+     "venire",
+     ""
+    ],
+    [
+     "stesso",
+     "stesso",
+     ""
+    ],
+    [
+     "apposta",
+     "apposta",
+     ""
+    ]
+   ]
+  }
+ ]
+}

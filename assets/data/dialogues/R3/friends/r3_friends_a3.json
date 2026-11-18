@@ -1,0 +1,325 @@
+{
+ "id": "r3_friends_a3",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "엄마표 파스타 (둘이서)",
+ "emoji": "🍝",
+ "scene": "R1 「엄마표 파스타」의 복수판. 이번엔 루카와 마르코가 여자애 둘을 집에 부르고, 학습자를 내보내려 한다. 그런데 초인종이 울리고…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca",
+  "C": "Marco"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "그래머2: R1 같은 문장을 복수로 — vengono due ragazze · ti preghiamo · fate · faremo · delle nostre madri · sentite? · sono · belle·signore (새 단어 0) · 표현 Davvero · Dai · Allora",
+ "expressions": [
+  "Davvero",
+  "Dai",
+  "Allora"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Oggi vengono due ragazze qui a casa!",
+   "rd": "오찌 벵고노 두에 라가쩨 뀌 아 까자!",
+   "ko": "오늘 여자애 둘이 우리 집에 와!",
+   "note": "vengono = 그들이 온다(venire, loro) · ragazze = 여자애들(-a → -e)",
+   "tags": [
+    "step:9",
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "vengono",
+     "venire",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "ragazze",
+     "ragazzo",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Davvero? E io dove vado?",
+   "rd": "다베로? 에 이오 도베 바도?",
+   "ko": "진짜? 그럼 난 어디 가?",
+   "note": "vado = 나 간다(andare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "it": "Tu vai fuori. Dai, ti preghiamo!",
+   "rd": "뚜 바이 푸오리. 다이, 띠 프레기아모!",
+   "ko": "넌 밖에 나가 있어. 제발, 우리가 부탁할게!",
+   "note": "preghiamo = 우리가 부탁한다(pregare, noi)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vai",
+     "andare",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "preghiamo",
+     "pregare",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Va bene. E cosa fate da mangiare?",
+   "rd": "바 베네. 에 꼬자 파떼 다 만쟈레?",
+   "ko": "알았어. 근데 너희 뭐 해 먹을 건데?",
+   "note": "fate = 너희 한다(fare, voi)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "fate",
+     "fare",
+     ""
+    ],
+    [
+     "mangiare",
+     "mangiare",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Faremo la pasta delle nostre madri!",
+   "rd": "파레모 라 빠스따 델레 노스트레 마드리!",
+   "ko": "우리 엄마들표 파스타 할 거야!",
+   "note": "faremo = 우리 할 거야(fare 미래) · delle = di + le",
+   "tags": [
+    "step:10",
+    "step:4"
+   ],
+   "new": [
+    "pasta"
+   ],
+   "lemmas": [
+    [
+     "faremo",
+     "fare",
+     ""
+    ],
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "nostre",
+     "nostro",
+     ""
+    ],
+    [
+     "madri",
+     "madre",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Sentite? Sono già qui!",
+   "rd": "쎈띠떼? 쏘노 쟈 뀌!",
+   "ko": "들려? 벌써 왔어!",
+   "note": "sentite? = 너희 들려?(voi) · sono = 그들이 ~이다(loro)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sentite",
+     "sentire",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Ciao, belle! E... buongiorno, signore?",
+   "rd": "챠오, 벨레! 에... 부온조르노, 씨뇨레?",
+   "ko": "안녕, 예쁜이들! 그리고… 안녕하세요, 어머님들?",
+   "note": "belle·signore = 여성 복수(-a → -e) — 엄마 둘도 같이 왔다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "belle",
+     "bello",
+     ""
+    ],
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "signore",
+     "signore",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Ciao, belle!"
+    ],
+    [
+     "flustered",
+     " E... buongiorno, signore?"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Con le madri?! Allora mangio anch'io.",
+   "rd": "꼰 레 마드리?! 알로라 만조 안끼오.",
+   "ko": "엄마들이랑 같이?! 그럼 나도 먹는다.",
+   "note": "le madri = 엄마들(-e → -i 인데 관사는 le)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "madri",
+     "madre",
+     ""
+    ],
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "mangio",
+     "mangiare",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Con le madri?!"
+    ],
+    [
+     "teasing",
+     " Allora mangio anch'io."
+    ]
+   ]
+  }
+ ]
+}

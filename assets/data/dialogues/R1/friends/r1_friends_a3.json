@@ -1,0 +1,320 @@
+{
+ "id": "r1_friends_a3",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "title": "엄마표 파스타",
+ "emoji": "🍝",
+ "scene": "토요일 셰어하우스. 오늘 여자애가 집에 온다며 들뜬 루카가 학습자를 내보내려 한다. 그런데 초인종이 울리고…",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "골격 단계 1·2·3·9·10 · 굴절 반복 vado/vai/va · fai/farò · mangiare/mangio · 표현 Davvero · Dai · Senti · Allora",
+ "expressions": [
+  "Davvero",
+  "Dai",
+  "Senti",
+  "Allora"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Oggi viene una ragazza qui a casa!",
+   "rd": "오찌 비에네 우나 라가짜 뀌 아 까자!",
+   "ko": "오늘 여자애 하나 우리 집에 와!",
+   "note": "viene = 온다(venire) · una ragazza = 여자애(여성 → una)",
+   "tags": [
+    "step:9",
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "viene",
+     "venire",
+     ""
+    ],
+    [
+     "ragazza",
+     "ragazzo",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Davvero? E io dove vado?",
+   "rd": "다베로? 에 이오 도베 바도?",
+   "ko": "진짜? 그럼 난 어디 가?",
+   "note": "vado = 나 간다(andare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "dove",
+     "dove",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Tu vai fuori. Dai, ti prego!",
+   "rd": "뚜 바이 푸오리. 다이, 띠 프레고!",
+   "ko": "넌 밖에 나가 있어. 제발, 부탁이야!",
+   "note": "vai = 너 간다(andare) — 2턴 vado · ti prego = 제발",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vai",
+     "andare",
+     ""
+    ],
+    [
+     "fuori",
+     "fuori",
+     ""
+    ],
+    [
+     "prego",
+     "pregare",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Va bene. E cosa fai da mangiare?",
+   "rd": "바 베네. 에 꼬자 파이 다 만쟈레?",
+   "ko": "알았어. 근데 뭐 해 먹을 건데?",
+   "note": "fare da mangiare = 요리하다(fai = 너 한다)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "mangiare",
+     "mangiare",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Farò la pasta di mia madre!",
+   "rd": "파로 라 빠스따 디 미아 마드레!",
+   "ko": "우리 엄마표 파스타 할 거야!",
+   "note": "farò = 할 거야(fare 미래) — 4턴 fai · la pasta = 여성 명사",
+   "tags": [
+    "step:10",
+    "step:1"
+   ],
+   "new": [
+    "pasta"
+   ],
+   "lemmas": [
+    [
+     "farò",
+     "fare",
+     ""
+    ],
+    [
+     "pasta",
+     "pasta",
+     ""
+    ],
+    [
+     "mia",
+     "mio",
+     ""
+    ],
+    [
+     "madre",
+     "madre",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Senti? È già qui!",
+   "rd": "쎈띠? 에 쟈 뀌!",
+   "ko": "들려? 벌써 왔어!",
+   "note": "senti? = 들려?(sentire) · già = 벌써",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Ciao, bella! E... buongiorno, signora?",
+   "rd": "챠오, 벨라! 에... 부온조르노, 씨뇨라?",
+   "ko": "안녕, 예쁜이! 그리고… 안녕하세요, 어머님?",
+   "note": "signora = 부인, 어머님(여성 존칭) — 엄마랑 같이 왔다",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bella",
+     "bello",
+     ""
+    ],
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "signora",
+     "signore",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Ciao, bella!"
+    ],
+    [
+     "flustered",
+     " E... buongiorno, signora?"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Con la madre?! Allora mangio anch'io.",
+   "rd": "꼰 라 마드레?! 알로라 만조 안끼오.",
+   "ko": "엄마랑 같이?! 그럼 나도 먹는다.",
+   "note": "mangio = 나 먹다(mangiare) — 4턴 da mangiare",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "madre",
+     "madre",
+     ""
+    ],
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "mangio",
+     "mangiare",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Con la madre?!"
+    ],
+    [
+     "teasing",
+     " Allora mangio anch'io."
+    ]
+   ]
+  }
+ ]
+}

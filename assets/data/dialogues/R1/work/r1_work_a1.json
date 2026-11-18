@@ -1,0 +1,346 @@
+{
+ "id": "r1_work_a1",
+ "region": "R1",
+ "island": "work",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "work"
+ ],
+ "domain": [
+  "work"
+ ],
+ "title": "첫 출근에 「엄마」",
+ "emoji": "🍝",
+ "scene": "학습자의 첫 아르바이트 날. 동네 식당 주인 네리 부인이 첫 일을 맡기고, 밥까지 챙겨 준다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Signora Neri"
+ },
+ "register": "polite",
+ "twist": 6,
+ "twist_type": "slip",
+ "flags": [],
+ "goal": "골격 단계 1·2·3·4·7·9 · 존댓말 Lei(è·può) ↔ 나(sono·posso) · 성별판 il nuovo ragazzo/la nuova ragazza · pronto/pronta · bravo/brava · 굴절 반복 è/sono · può/posso · portare/porto · 표현 Certo · Davvero · Scusi",
+ "expressions": [
+  "Certo",
+  "Davvero",
+  "Scusi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Buongiorno! Lei è il nuovo ragazzo?",
+   "rd": "부온조르노! 레이 에 일 누오보 라가쪼?",
+   "ko": "안녕하세요! 새로 온 분이에요?",
+   "note": "il nuovo ragazzo / la nuova ragazza = 새로 온 사람(관사·형용사 성 일치)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ],
+    [
+     "ragazzo",
+     "ragazzo",
+     ""
+    ]
+   ],
+   "it_f": "Buongiorno! Lei è la nuova ragazza?",
+   "rd_f": "부온조르노! 레이 에 라 누오바 라가짜?",
+   "ko_f": "안녕하세요! 새로 온 분이에요?",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sì, buongiorno. Sono pronto per il lavoro.",
+   "rd": "씨, 부온조르노. 쏘노 프론또 뻬르 일 라보로.",
+   "ko": "네, 안녕하세요. 일할 준비 됐어요.",
+   "note": "pronto/pronta = 준비된(성 일치) — 1턴 è, 여기 sono",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ],
+    [
+     "lavoro",
+     "lavoro",
+     ""
+    ]
+   ],
+   "it_f": "Sì, buongiorno. Sono pronta per il lavoro.",
+   "rd_f": "씨, 부온조르노. 쏘노 프론따 뻬르 일 라보로.",
+   "ko_f": "네, 안녕하세요. 일할 준비 됐어요.",
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Bene. Può portare questo al signore?",
+   "rd": "베네. 뿌오 뽀르따레 꿰스또 알 씨뇨레?",
+   "ko": "좋아요. 이거 저 손님께 갖다드릴래요?",
+   "note": "può portare = ~해 줄 수 있어요?(Lei, potere) · al = a + il",
+   "tags": [
+    "step:4"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "può",
+     "potere",
+     ""
+    ],
+    [
+     "portare",
+     "portare",
+     ""
+    ],
+    [
+     "signore",
+     "signore",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Certo! Lo porto subito.",
+   "rd": "체르또! 로 뽀르또 쑤비또.",
+   "ko": "물론이죠! 바로 갖다드릴게요.",
+   "note": "lo porto = 그걸 갖다준다(lo = 그것을) — 3턴 portare",
+   "tags": [
+    "step:7",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "porto",
+     "portare",
+     ""
+    ],
+    [
+     "subito",
+     "subito",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Bravo. Poi può mangiare qualcosa.",
+   "rd": "브라보. 뽀이 뿌오 만쟈레 꽐꼬자.",
+   "ko": "잘했어요. 그다음엔 뭐 좀 먹어도 돼요.",
+   "note": "può mangiare = 먹어도 된다(potere + 원형)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bravo",
+     "bravo",
+     ""
+    ],
+    [
+     "poi",
+     "poi",
+     ""
+    ],
+    [
+     "può",
+     "potere",
+     ""
+    ],
+    [
+     "mangiare",
+     "mangiare",
+     ""
+    ],
+    [
+     "qualcosa",
+     "qualcosa",
+     ""
+    ]
+   ],
+   "it_f": "Brava. Poi può mangiare qualcosa.",
+   "rd_f": "브라바. 뽀이 뿌오 만쟈레 꽐꼬자.",
+   "ko_f": "잘했어요. 그다음엔 뭐 좀 먹어도 돼요.",
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Davvero? Posso? Grazie, mamma!",
+   "rd": "다베로? 뽀쏘? 그라찌에, 맘마!",
+   "ko": "정말요? 먹어도 돼요? 고마워, 엄마!",
+   "note": "posso = 나 ~해도 돼?(potere) — 말이 헛나옴",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "posso",
+     "potere",
+     ""
+    ],
+    [
+     "grazie",
+     "grazie",
+     ""
+    ],
+    [
+     "mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "excited",
+     "Davvero? Posso?"
+    ],
+    [
+     "cheerful",
+     " Grazie, mamma!"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Mamma? Mio figlio non mi dice mai grazie.",
+   "rd": "맘마? 미오 필리오 논 미 디체 마이 그라찌에.",
+   "ko": "엄마? 우리 아들은 고맙단 말도 안 하는데.",
+   "note": "non … mai = 한 번도 안 ~ · dice = 말한다(dire)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "mio",
+     "mio",
+     ""
+    ],
+    [
+     "figlio",
+     "figlio",
+     ""
+    ],
+    [
+     "dice",
+     "dire",
+     ""
+    ],
+    [
+     "mai",
+     "mai",
+     ""
+    ],
+    [
+     "grazie",
+     "grazie",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Scusi, signora! Adesso porto tutto.",
+   "rd": "스꾸지, 씨뇨라! 아데쏘 뽀르또 뚜또.",
+   "ko": "죄송해요, 사장님! 지금 다 갖다드릴게요.",
+   "note": "scusi = 죄송해요(Lei, scusare)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "scusi",
+     "scusare",
+     ""
+    ],
+    [
+     "signora",
+     "signore",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "porto",
+     "portare",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  }
+ ]
+}

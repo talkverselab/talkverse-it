@@ -1,0 +1,621 @@
+{
+ "id": "r4_friends_b2",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "title": "다음 주 파티",
+ "emoji": "🎉",
+ "scene": "토요일 아침. 루카가 키아라 생일 파티에 늦었다며 학습자를 깨우고, 둘은 옷만 걸치고 마르코의 카페로 달려간다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca",
+  "C": "Marco",
+  "D": "Chiara"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Boh",
+  "Dai",
+  "Tanti auguri"
+ ],
+ "goal": "어려운 문법 9 재귀 근과거(mi sono svegliato·ci siamo vestiti) · 3 조건법 과거(te l'avrei detto·avrei preferito) · 4 가정문(se avessi letto) · 2 접속법 과거(mi dispiace che siate venuti) · 5 반과거 · 6 대과거 · 7 결합 대명사 · 8 ci · 표현 Boh·Dai·Tanti auguri",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Svegliati! Sono quasi le dieci e la festa per Chiara è alle dieci e mezza!",
+   "rd": "스벨리아띠! 쏘노 꽈지 레 디에치 에 라 페스따 뻬르 끼아라 에 알레 디에치 에 메짜!",
+   "ko": "일어나! 벌써 열 시 다 됐어, 키아라 파티 열 시 반이라고!",
+   "note": "svegliati = 일어나(재귀 명령)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "svegliati",
+     "svegliare",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "quasi",
+     "quasi",
+     ""
+    ],
+    [
+     "dieci",
+     "dieci",
+     ""
+    ],
+    [
+     "festa",
+     "festa",
+     ""
+    ],
+    [
+     "mezza",
+     "mezzo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Cosa?! Non mi sono svegliato... perché non mi hai chiamato prima?",
+   "rd": "꼬자?! 논 미 쏘노 스벨리아또... 뻬르께 논 미 아이 끼아마또 프리마?",
+   "ko": "뭐?! 못 일어났어… 왜 더 일찍 안 깨웠어?",
+   "note": "mi sono svegliato/a = 나는 깼다(재귀 근과거)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "it_f": "Cosa?! Non mi sono svegliata... perché non mi hai chiamata prima?",
+   "rd_f": "꼬자?! 논 미 쏘노 스벨리아따... 뻬르께 논 미 아이 끼아마따 프리마?",
+   "ko_f": "뭐?! 못 일어났어… 왜 더 일찍 안 깨웠어?",
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "svegliato",
+     "svegliare",
+     ""
+    ],
+    [
+     "chiamato",
+     "chiamare",
+     ""
+    ],
+    [
+     "prima",
+     "prima",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Perché anch'io mi sono svegliato adesso! Vestiti, ti aspetto giù.",
+   "rd": "뻬르께 안끼오 미 쏘노 스벨리아또 아데쏘! 베스띠띠, 띠 아스뻬또 주.",
+   "ko": "나도 방금 일어났으니까! 옷 입어, 밑에서 기다릴게.",
+   "note": "anch'io mi sono svegliato = 나도 깼다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Perché anch'io mi sono svegliato adesso!"
+    ],
+    [
+     "shout",
+     " Vestiti, ti aspetto giù."
+    ]
+   ],
+   "lemmas": [
+    [
+     "svegliato",
+     "svegliare",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "vestiti",
+     "vestire",
+     ""
+    ],
+    [
+     "aspetto",
+     "aspettare",
+     ""
+    ],
+    [
+     "giù",
+     "giù",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ci siamo vestiti in cinque minuti. Marco, ci sono già tutti?",
+   "rd": "치 씨아모 베스띠띠 인 친꿰 미누띠. 마르꼬, 치 쏘노 쟈 뚜띠?",
+   "ko": "5분 만에 옷 입었어. 마르코, 다들 벌써 와 있어?",
+   "note": "ci siamo vestiti = 우리는 옷을 입었다(재귀 근과거)",
+   "tags": [
+    "step:9",
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "siamo",
+     "essere",
+     ""
+    ],
+    [
+     "vestiti",
+     "vestire",
+     ""
+    ],
+    [
+     "cinque",
+     "cinque",
+     ""
+    ],
+    [
+     "minuti",
+     "minuto",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "tutti",
+     "tutto",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "it": "Tutti chi?",
+   "rd": "뚜띠 끼?",
+   "ko": "다들 누구?",
+   "note": "chi = 누구",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "lemmas": [
+    [
+     "tutti",
+     "tutto",
+     ""
+    ],
+    [
+     "chi",
+     "chi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "La festa di Chiara! Doveva essere qui, da te, stamattina.",
+   "rd": "라 페스따 디 끼아라! 도베바 에쎄레 뀌, 다 떼, 스따마띠나.",
+   "ko": "키아라 파티! 오늘 아침 여기, 네 가게에서 하기로 했잖아.",
+   "note": "doveva essere = ~하기로 되어 있었다(반과거)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "festa",
+     "festa",
+     ""
+    ],
+    [
+     "doveva",
+     "dovere",
+     ""
+    ],
+    [
+     "essere",
+     "essere",
+     ""
+    ],
+    [
+     "stamattina",
+     "stamattina",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "it": "Mi dispiace che siate venuti di fretta. Ma la festa è la settimana prossima.",
+   "rd": "미 디스삐아체 께 씨아떼 베누띠 디 프레따. 마 라 페스따 에 라 쎄띠마나 프로씨마.",
+   "ko": "급하게 온 건 안됐는데, 파티는 다음 주야.",
+   "note": "mi dispiace che + 접속법 과거 siate venuti",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "dispiace",
+     "dispiacere",
+     ""
+    ],
+    [
+     "siate",
+     "essere",
+     ""
+    ],
+    [
+     "venuti",
+     "venire",
+     ""
+    ],
+    [
+     "fretta",
+     "fretta",
+     ""
+    ],
+    [
+     "festa",
+     "festa",
+     ""
+    ],
+    [
+     "settimana",
+     "settimana",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "La settimana prossima? Luca, me l'avevi detto tu che era oggi!",
+   "rd": "라 쎄띠마나 프로씨마? 루까, 메 라베비 데또 뚜 께 에라 오찌!",
+   "ko": "다음 주? 루카, 오늘이라고 네가 그랬잖아!",
+   "note": "me l'avevi detto = 네가 나에게 그걸 말했었다(결합 대명사 + 대과거)",
+   "tags": [
+    "step:7",
+    "step:6"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "settimana",
+     "settimana",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
+     ""
+    ],
+    [
+     "avevi",
+     "avere",
+     ""
+    ],
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "era",
+     "essere",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "it": "Io te l'avrei detto giusto, se avessi letto il messaggio fino in fondo!",
+   "rd": "이오 떼 라브레이 데또 주스또, 쎄 아베씨 레또 일 메싸조 피노 인 폰도!",
+   "ko": "메시지를 끝까지 읽었으면 나도 제대로 말해 줬겠지!",
+   "note": "te l'avrei detto = 너에게 말해 줬을 텐데 · se avessi letto = 읽었더라면",
+   "tags": [
+    "step:7",
+    "step:3",
+    "step:4"
+   ],
+   "new": [
+    "messaggio"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "detto",
+     "dire",
+     ""
+    ],
+    [
+     "giusto",
+     "giusto",
+     ""
+    ],
+    [
+     "avessi",
+     "avere",
+     ""
+    ],
+    [
+     "letto",
+     "leggere",
+     ""
+    ],
+    [
+     "messaggio",
+     "messaggio",
+     ""
+    ],
+    [
+     "fondo",
+     "fondo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "it": "Avrei preferito dormire altre due ore, Luca. Due!",
+   "rd": "아브레이 프레페리또 도르미레 알트레 두에 오레, 루까. 두에!",
+   "ko": "두 시간 더 자는 게 나았어, 루카. 두 시간!",
+   "note": "avrei preferito = ~하는 게 나았을 텐데(조건법 과거)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "lemmas": [
+    [
+     "preferito",
+     "preferire",
+     ""
+    ],
+    [
+     "dormire",
+     "dormire",
+     ""
+    ],
+    [
+     "altre",
+     "altro",
+     ""
+    ],
+    [
+     "ore",
+     "ora",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "it": "Dai, già che ci siete, due caffè? Ve li offro io.",
+   "rd": "다이, 쟈 께 치 씨에떼, 두에 까페? 베 리 오프로 이오.",
+   "ko": "자, 온 김에 커피 두 잔? 내가 살게.",
+   "note": "già che ci siete = 온 김에 · ve li offro = 너희에게 그것들을 사 준다",
+   "tags": [
+    "step:7",
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "siete",
+     "essere",
+     ""
+    ],
+    [
+     "due",
+     "due",
+     ""
+    ],
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "offro",
+     "offrire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "D",
+   "it": "Ciao Marco, un caffè! ...Ragazzi? Ma perché siete vestiti così bene? Io sono ancora in pigiama!",
+   "rd": "챠오 마르꼬, 운 까페! ...라가찌? 마 뻬르께 씨에떼 베스띠띠 꼬지 베네? 이오 쏘노 안꼬라 인 삐쟈마!",
+   "ko": "안녕 마르코, 커피 하나! …얘들아? 왜 그렇게 차려입었어? 난 아직 잠옷인데!",
+   "note": "in pigiama = 잠옷 차림",
+   "tags": [],
+   "new": [
+    "pigiama"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Ciao Marco, un caffè!"
+    ],
+    [
+     "surprised",
+     " ...Ragazzi? Ma perché siete vestiti così bene? Io sono ancora in pigiama!"
+    ]
+   ],
+   "lemmas": [
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "ragazzi",
+     "ragazzo",
+     ""
+    ],
+    [
+     "siete",
+     "essere",
+     ""
+    ],
+    [
+     "vestiti",
+     "vestire",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "pigiama",
+     "pigiama",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "it": "Boh... volevamo farti una festa. Tanti auguri per la settimana prossima!",
+   "rd": "보... 볼레바모 파르띠 우나 페스따. 딴띠 아우구리 뻬르 라 쎄띠마나 프로씨마!",
+   "ko": "그게… 너한테 파티 해 주고 싶었어. 다음 주 생일 미리 축하해!",
+   "note": "Tanti auguri = 축하해",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "volevamo",
+     "volere",
+     ""
+    ],
+    [
+     "farti",
+     "fare",
+     ""
+    ],
+    [
+     "festa",
+     "festa",
+     ""
+    ],
+    [
+     "auguri",
+     "augurio",
+     ""
+    ],
+    [
+     "settimana",
+     "settimana",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "it": "Dai, che carini! Allora oggi offrite voi. E stasera anche la cena.",
+   "rd": "다이, 께 까리니! 알로라 오찌 오프리떼 보이. 에 스따제라 안께 라 체나.",
+   "ko": "어머, 귀여워! 그럼 오늘은 너희가 사. 저녁까지.",
+   "note": "offrite = 너희가 사다(offrire, voi)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "carini",
+     "carino",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "offrite",
+     "offrire",
+     ""
+    ],
+    [
+     "stasera",
+     "stasera",
+     ""
+    ],
+    [
+     "cena",
+     "cena",
+     ""
+    ]
+   ]
+  }
+ ]
+}

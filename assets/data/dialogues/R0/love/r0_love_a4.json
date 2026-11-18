@@ -1,0 +1,239 @@
+{
+ "id": "r0_love_a4",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "너 말고, 루카",
+ "emoji": "🎁",
+ "scene": "저녁, 셰어하우스 현관. 줄리아가 작은 선물을 들고 왔는데 문을 연 건 룸메이트 루카다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia",
+  "C": "Luca"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Dai",
+  "Senti",
+  "Ecco"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Dai · Senti · Ecco",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ciao! C'è {name}?",
+   "rd": "챠오! 체 {name}?",
+   "ko": "안녕! {name} 있어?",
+   "note": "c'è = ~있어?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "C'è",
+     "essere",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "it": "{name}? No, c'è solo Luca. Entra, dai!",
+   "rd": "{name}? 노, 체 쏠로 루까. 엔트라, 다이!",
+   "ko": "{name}? 아니, 루카만 있어. 들어와, 어서!",
+   "note": "entra = 들어와(entrare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "c'è",
+     "essere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "Entra",
+     "entrare",
+     ""
+    ],
+    [
+     "dai",
+     "dare",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Ah, eccolo! Senti... ho una cosa per te.",
+   "rd": "아, 에꼴로! 쎈띠... 오 우나 꼬자 뻬르 떼.",
+   "ko": "아, 저기 있다! 있잖아… 너 줄 게 있어.",
+   "note": "eccolo = 저기 있다(ecco+lo)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "eccolo",
+     "ecco",
+     ""
+    ],
+    [
+     "Senti",
+     "sentire",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "te",
+     "te",
+     ""
+    ]
+   ],
+   "emotion": "shy",
+   "it_f": "Ah, eccola! Senti... ho una cosa per te.",
+   "rd_f": "아, 에꼴라! 쎈띠... 오 우나 꼬자 뻬르 떼.",
+   "ko_f": "아, 저기 있다! 있잖아… 너 줄 게 있어."
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "it": "Per me? Grazie, Giulia!",
+   "rd": "뻬르 메? 그라찌에, 줄리아!",
+   "ko": "나한테? 고마워, 줄리아!",
+   "note": "per me = 나한테",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "me",
+     "me",
+     ""
+    ],
+    [
+     "Grazie",
+     "grazie",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Non per te! Vai via, Luca!",
+   "rd": "논 뻬르 떼! 바이 비아, 루까!",
+   "ko": "너 말고! 저리 가, 루카!",
+   "note": "vai via = 저리 가",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "te",
+     "te",
+     ""
+    ],
+    [
+     "Vai",
+     "andare",
+     ""
+    ],
+    [
+     "via",
+     "via",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "it": "Va bene, vado...",
+   "rd": "바 베네, 바도...",
+   "ko": "알았어, 간다…",
+   "note": "vado = 나 가(andare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Va",
+     "andare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Ecco... è per te. Ti piace?",
+   "rd": "에꼬... 에 뻬르 떼. 띠 삐아체?",
+   "ko": "자… 너 거야. 마음에 들어?",
+   "note": "ti piace? = 마음에 들어?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "te",
+     "te",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  }
+ ]
+}

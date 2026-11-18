@@ -1,0 +1,267 @@
+{
+ "id": "r0_friends_a4",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "혼자 말하기 연습",
+ "emoji": "🗣️",
+ "scene": "셰어하우스 거실. 학습자가 혼자 이탈리아어를 연습하는데 키아라가 엿듣고 다가온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "Dai",
+  "Ecco",
+  "Davvero"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Dai · Ecco · Davvero",
+ "draft": true,
+ "purpose": [
+  "friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Cosa fai? Parli da solo?",
+   "rd": "에이! 꼬자 파이? 빠를리 다 쏠로?",
+   "ko": "야! 뭐 해? 혼자 말해?",
+   "note": "da solo = 혼자",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "Parli",
+     "parlare",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Ehi! Cosa fai? Parli da sola?",
+   "rd_f": "에이! 꼬자 파이? 빠를리 다 쏠라?",
+   "ko_f": "야! 뭐 해? 혼자 말해?"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sì... provo a parlare. Ma parlo male.",
+   "rd": "씨... 프로보 아 빠를라레. 마 빠를로 말레.",
+   "ko": "응… 말하는 연습. 근데 나 너무 못해.",
+   "note": "parlo male = 말을 못해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "provo",
+     "provare",
+     ""
+    ],
+    [
+     "parlare",
+     "parlare",
+     ""
+    ],
+    [
+     "parlo",
+     "parlare",
+     ""
+    ],
+    [
+     "male",
+     "male",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Fammi sentire! Dai!",
+   "rd": "팜미 쎈띠레! 다이!",
+   "ko": "들려줘 봐! 어서!",
+   "note": "Fammi sentire = 들려줘 봐",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Fammi",
+     "fare",
+     ""
+    ],
+    [
+     "sentire",
+     "sentire",
+     ""
+    ],
+    [
+     "Dai",
+     "dare",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ciao... mi chiamo {name}... mi piace la musica.",
+   "rd": "챠오... 미 끼아모 {name}... 미 삐아체 라 무지까.",
+   "ko": "안녕… 내 이름은 {name}… 음악을 좋아해.",
+   "note": "mi piace = 나는 ~가 좋아",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "chiamo",
+     "chiamare",
+     ""
+    ],
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "musica",
+     "musica",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Senti... sembri un bambino!",
+   "rd": "쎈띠... 쎔브리 운 밤비노!",
+   "ko": "야… 꼭 꼬맹이 같아!",
+   "note": "sembri = 너 ~같아(sembrare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Senti",
+     "sentire",
+     ""
+    ],
+    [
+     "sembri",
+     "sembrare",
+     ""
+    ],
+    [
+     "bambino",
+     "bambino",
+     ""
+    ]
+   ],
+   "emotion": "amused",
+   "it_f": "Senti... sembri una bambina!",
+   "rd_f": "쎈띠... 쎔브리 우나 밤비나!",
+   "ko_f": "야… 꼭 꼬맹이 같아!"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Ecco. Parlo male, lo so.",
+   "rd": "에꼬. 빠를로 말레, 로 쏘.",
+   "ko": "거 봐. 나 못한다니까.",
+   "note": "lo so = 알아",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "Parlo",
+     "parlare",
+     ""
+    ],
+    [
+     "male",
+     "male",
+     ""
+    ],
+    [
+     "so",
+     "sapere",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "No, scusa. Parli bene, davvero. Sei bravo.",
+   "rd": "노, 스꾸자. 빠를리 베네, 다베로. 쎄이 브라보.",
+   "ko": "아냐, 미안. 진짜 잘해. 대단해.",
+   "note": "parli bene = 너 말 잘해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "scusa",
+     "scusare",
+     ""
+    ],
+    [
+     "Parli",
+     "parlare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "Sei",
+     "essere",
+     ""
+    ],
+    [
+     "bravo",
+     "bravo",
+     ""
+    ]
+   ],
+   "emotion": "gentle",
+   "it_f": "No, scusa. Parli bene, davvero. Sei brava.",
+   "rd_f": "노, 스꾸자. 빠를리 베네, 다베로. 쎄이 브라바.",
+   "ko_f": "아냐, 미안. 진짜 잘해. 대단해."
+  }
+ ]
+}

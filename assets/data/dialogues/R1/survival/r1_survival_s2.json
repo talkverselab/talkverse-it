@@ -1,0 +1,325 @@
+{
+ "id": "r1_survival_s2",
+ "region": "R1",
+ "island": "survival",
+ "kind": "survival",
+ "draft": true,
+ "purpose": [
+  "survival"
+ ],
+ "domain": [
+  "survival"
+ ],
+ "title": "선생님도 한 시간",
+ "emoji": "🩺",
+ "scene": "월요일 아침 동네 병원. 머리가 아파서 온 학습자에게 브루니 선생님이 어젯밤 뭘 했는지 묻는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Dottor Bruni"
+ },
+ "register": "polite",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "goal": "골격 단계 1·2·3·5·9 · 존댓말 Lei(sta·ha fatto·ha dormito·guardi) ↔ 나(sto·ho guardato·ho dormito) · 굴절 반복 sta/sto · ho guardato/guardi · ha dormito/ho dormito · 표현 Allora · Boh · Guardi",
+ "expressions": [
+  "Allora",
+  "Boh",
+  "Guardi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Buongiorno. Allora, come sta?",
+   "rd": "부온조르노. 알로라, 꼬메 스따?",
+   "ko": "안녕하세요. 자, 어디가 불편하세요?",
+   "note": "come sta? = 어떠세요?(Lei, stare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "buongiorno",
+     "buongiorno",
+     ""
+    ],
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "sta",
+     "stare",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Non sto bene, dottore. Ho mal di testa.",
+   "rd": "논 스또 베네, 도또레. 오 말 디 떼스따.",
+   "ko": "몸이 안 좋아요, 선생님. 머리가 아파요.",
+   "note": "ho mal di testa = 머리가 아프다(avere) — 1턴 sta, 여기 sto",
+   "tags": [
+    "step:2",
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sto",
+     "stare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "dottore",
+     "dottore",
+     ""
+    ],
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "mal",
+     "male",
+     ""
+    ],
+    [
+     "testa",
+     "testa",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Mal di testa... Cosa ha fatto questa notte?",
+   "rd": "말 디 떼스따... 꼬자 아 파또 꿰스따 노떼?",
+   "ko": "두통이라… 어젯밤에 뭐 하셨어요?",
+   "note": "ha fatto = (당신이) 했다(fare 근과거, Lei)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "mal",
+     "male",
+     ""
+    ],
+    [
+     "testa",
+     "testa",
+     ""
+    ],
+    [
+     "ha fatto",
+     "fare",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ]
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Niente. Ho guardato il telefono tutta la notte.",
+   "rd": "니엔떼. 오 구아르다또 일 뗄레포노 뚜따 라 노떼.",
+   "ko": "별거 안 했어요. 밤새 폰만 봤어요.",
+   "note": "ho guardato = 봤다(guardare 근과거) · tutta la notte = 밤새",
+   "tags": [
+    "step:5",
+    "step:1"
+   ],
+   "new": [
+    "telefono"
+   ],
+   "lemmas": [
+    [
+     "niente",
+     "niente",
+     ""
+    ],
+    [
+     "ho guardato",
+     "guardare",
+     ""
+    ],
+    [
+     "telefono",
+     "telefono",
+     ""
+    ],
+    [
+     "tutta",
+     "tutto",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Tutta la notte? E quanto ha dormito?",
+   "rd": "뚜따 라 노떼? 에 꽌또 아 도르미또?",
+   "ko": "밤새요? 그럼 얼마나 주무셨어요?",
+   "note": "ha dormito = (당신이) 잤다(dormire 근과거, Lei)",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tutta",
+     "tutto",
+     ""
+    ],
+    [
+     "notte",
+     "notte",
+     ""
+    ],
+    [
+     "quanto",
+     "quanto",
+     ""
+    ],
+    [
+     "ha dormito",
+     "dormire",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Boh... forse un'ora, dottore.",
+   "rd": "보... 포르쎄 우노라, 도또레.",
+   "ko": "글쎄요… 한 시간쯤요, 선생님.",
+   "note": "un'ora = 한 시간(ora 는 여성 명사 → una)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "forse",
+     "forse",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "dottore",
+     "dottore",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Un'ora? Guardi... anch'io ho dormito un'ora.",
+   "rd": "우노라? 구아르디... 안끼오 오 도르미또 우노라.",
+   "ko": "한 시간요? 저기요… 저도 한 시간 잤어요.",
+   "note": "guardi = 저기요, 보세요(guardare, Lei 명령) — 4턴 ho guardato",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "guardi",
+     "guardare",
+     ""
+    ],
+    [
+     "ho dormito",
+     "dormire",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Un'ora?"
+    ],
+    [
+     "amused",
+     " Guardi... anch'io ho dormito un'ora."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Allora, dottore... chi paga chi?",
+   "rd": "알로라, 도또레... 끼 빠가 끼?",
+   "ko": "그럼 선생님… 누가 누구한테 돈 내요?",
+   "note": "paga = 돈을 내다(pagare, 3인칭 단수)",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "dottore",
+     "dottore",
+     ""
+    ],
+    [
+     "chi",
+     "chi",
+     ""
+    ],
+    [
+     "paga",
+     "pagare",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  }
+ ]
+}

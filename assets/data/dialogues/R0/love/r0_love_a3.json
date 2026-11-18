@@ -1,0 +1,196 @@
+{
+ "id": "r0_love_a3",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "안녕, 자기야",
+ "emoji": "🚪",
+ "scene": "셰어하우스 현관. 놀러 왔던 줄리아가 집에 가려고 신발을 신는다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 3,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Allora",
+  "Cioè"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Allora · Cioè",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Allora, io vado. Devo dormire.",
+   "rd": "알로라, 이오 바도. 데보 도르미레.",
+   "ko": "그럼 나 갈게. 자야 돼.",
+   "note": "devo = 나 ~해야 해(dovere)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Allora",
+     "allora",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ],
+    [
+     "Devo",
+     "dovere",
+     ""
+    ],
+    [
+     "dormire",
+     "dormire",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Già? Devi andare?",
+   "rd": "쟈? 데비 안다레?",
+   "ko": "벌써? 가야 돼?",
+   "note": "devi andare = 너 가야 해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Già",
+     "già",
+     ""
+    ],
+    [
+     "Devi",
+     "dovere",
+     ""
+    ],
+    [
+     "andare",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Sì. A domani. Ciao, amore!",
+   "rd": "씨. 아 도마니. 챠오, 아모레!",
+   "ko": "응. 내일 봐. 안녕, 자기야!",
+   "note": "amore = 사랑, 자기야",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "Ciao",
+     "ciao",
+     ""
+    ],
+    [
+     "amore",
+     "amore",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "...Amore?",
+   "rd": "...아모레?",
+   "ko": "…자기?",
+   "note": "amore? = 자기라고?",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Amore",
+     "amore",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "No! Cioè... ciao! Vado, vado!",
+   "rd": "노! 쵸에... 챠오! 바도, 바도!",
+   "ko": "아니! 그러니까… 안녕! 간다, 가!",
+   "note": "Cioè = 그러니까, 아니 내 말은",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Cioè",
+     "cioè",
+     ""
+    ],
+    [
+     "ciao",
+     "ciao",
+     ""
+    ],
+    [
+     "Vado",
+     "andare",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Dormi bene... amore.",
+   "rd": "도르미 베네... 아모레.",
+   "ko": "잘 자… 자기야.",
+   "note": "dormi bene = 잘 자",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Dormi",
+     "dormire",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "amore",
+     "amore",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  }
+ ]
+}

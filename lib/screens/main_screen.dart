@@ -15,6 +15,7 @@ import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
 import 'profile_screen.dart';
+import 'sense_course_screen.dart';
 import 'sentence_flashcard_screen.dart';
 import 'speaking_practice_screen.dart';
 import 'topic_vocab_screen.dart';
@@ -170,6 +171,11 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 const _HomeTodayCut(),
+                _section(tr('정규과정')),
+                _MenuGrid(items: [
+                  _MenuItem(label: tr('언어감각 익히기'), sub: 'L1~L10', badge: 'L', color: AppColors.ai,
+                      builder: (_) => const SenseCourseScreen()),
+                ]),
                 _section(tr('기초')),
                 _MenuGrid(items: [
                   _MenuItem(label: tr('알파벳과 발음'), sub: 'Alfabeto', badge: 'Aa', color: AppColors.er,
@@ -611,6 +617,14 @@ class ExploreTab extends StatelessWidget {
               subtitle: 'Espressione',
               onTap: () => openPane(
                   context, (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: 'assets/data/vocab/travel_expressions.json')),
+            ),
+            _section(tr('정규과정')),
+            _NavRow(
+              badge: 'L',
+              color: AppColors.ai,
+              title: tr('언어감각 익히기'),
+              subtitle: tr('L1부터 L10까지 · 영상 → 대화 통째로 외우기'),
+              onTap: () => openPane(context, (_) => const SenseCourseScreen()),
             ),
             _section(tr('문법')),
             _NavRow(

@@ -114,7 +114,7 @@ class Dialogue {
   });
 
   /// 남자 인물(목소리 성별) — 고정 인물 `CHARACTERS.md`. 그 밖은 여자.
-  static const _male = {'Marco', 'Luca', 'Nonno Bruno', 'Signor Bassi', 'Signor Ferri'};
+  static const _male = {'Marco', 'Luca', 'Nonno Bruno', 'Signor Bassi', 'Signor Ferri', 'Dottor Bruni'};
 
   factory Dialogue.fromJson(Map<String, dynamic> j) {
     final speakers = ((j['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry(k.toString(), v.toString()));

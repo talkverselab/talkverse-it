@@ -1,0 +1,214 @@
+{
+ "id": "r0_life_a4",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "다 끝났어",
+ "emoji": "⚽",
+ "scene": "밤, 셰어하우스 거실. 불 꺼진 소파에 루카가 멍하니 앉아 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "reveal",
+ "flags": [],
+ "expressions": [
+  "Mamma mia",
+  "Ma dai"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Ma dai",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "it": "Luca? Che c'è? Stai male?",
+   "rd": "루까? 께 체? 스따이 말레?",
+   "ko": "루카? 무슨 일이야? 어디 아파?",
+   "note": "stai male = 몸·기분이 안 좋아",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "c'è",
+     "essere",
+     ""
+    ],
+    [
+     "Stai",
+     "stare",
+     ""
+    ],
+    [
+     "male",
+     "male",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "it": "È finita. Tutto finito.",
+   "rd": "에 피니따. 뚜또 피니또.",
+   "ko": "끝났어. 다 끝났어.",
+   "note": "è finita = 끝났다(finire)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "È",
+     "essere",
+     ""
+    ],
+    [
+     "finita",
+     "finire",
+     ""
+    ],
+    [
+     "Tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "finito",
+     "finire",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Mamma mia! Con la tua ragazza?",
+   "rd": "맘마 미아! 꼰 라 뚜아 라가짜?",
+   "ko": "세상에! 여자친구랑?",
+   "note": "la tua ragazza = 네 여자친구",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "mia",
+     "mio",
+     ""
+    ],
+    [
+     "tua",
+     "tuo",
+     ""
+    ],
+    [
+     "ragazza",
+     "ragazzo",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "No... peggio. La partita. Tre a zero.",
+   "rd": "노... 뻬조. 라 빠르띠따. 트레 아 쩨로.",
+   "ko": "아니… 더 나빠. 경기. 3 대 0.",
+   "note": "peggio = 더 나쁜",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "peggio",
+     "peggio",
+     ""
+    ],
+    [
+     "partita",
+     "partita",
+     ""
+    ],
+    [
+     "Tre",
+     "tre",
+     ""
+    ]
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Ma dai! Non capisco... solo una partita?",
+   "rd": "마 다이! 논 까삐스꼬... 쏠로 우나 빠르띠따?",
+   "ko": "아 뭐야! 이해가 안 되네… 그냥 경기잖아?",
+   "note": "non capisco = 이해 못 하겠어",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dai",
+     "dare",
+     ""
+    ],
+    [
+     "capisco",
+     "capire",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "partita",
+     "partita",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Solo? Tu non capisci niente.",
+   "rd": "쏠로? 뚜 논 까삐시 니엔떼.",
+   "ko": "그냥? 넌 아무것도 몰라.",
+   "note": "non capisci niente = 아무것도 몰라",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Solo",
+     "solo",
+     ""
+    ],
+    [
+     "capisci",
+     "capire",
+     ""
+    ],
+    [
+     "niente",
+     "niente",
+     ""
+    ]
+   ],
+   "emotion": "annoyed"
+  }
+ ]
+}

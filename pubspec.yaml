@@ -18,6 +18,7 @@ dependencies:
   flutter_secure_storage: ^11.2.0
   sign_in_with_apple: ^8.2.0
   crypto: ^3.0.8
+  video_player: ^2.14.1
   in_app_purchase: ^3.3.1
   url_launcher: ^6.3.3
   in_app_purchase_storekit: ^0.4.16
@@ -63,23 +64,35 @@ flutter:
     - assets/data/dialogues/R0/friends/
     - assets/data/dialogues/R0/life/
     - assets/data/dialogues/R0/love/
+    - assets/data/dialogues/R1/culture/
     - assets/data/dialogues/R1/friends/
     - assets/data/dialogues/R1/life/
     - assets/data/dialogues/R1/love/
     - assets/data/dialogues/R1/survival/
+    - assets/data/dialogues/R1/travel/
+    - assets/data/dialogues/R1/work/
     - assets/data/dialogues/R2/friends/
     - assets/data/dialogues/R2/life/
     - assets/data/dialogues/R2/love/
+    - assets/data/dialogues/R2/travel/
+    - assets/data/dialogues/R2/work/
     - assets/data/dialogues/R3/friends/
     - assets/data/dialogues/R3/life/
     - assets/data/dialogues/R3/love/
     - assets/data/dialogues/R3/survival/
+    - assets/data/dialogues/R3/travel/
+    - assets/data/dialogues/R4/culture/
     - assets/data/dialogues/R4/friends/
+    - assets/data/dialogues/R4/life/
     - assets/data/dialogues/R4/love/
+    - assets/data/dialogues/R4/study/
     - assets/data/dialogues/R4/travel/
     - assets/data/dialogues/R4/work/
+    - assets/data/dialogues/R5/culture/
     - assets/data/dialogues/R5/friends/
     - assets/data/dialogues/R5/life/
+    - assets/data/dialogues/R5/love/
+    - assets/data/dialogues/R5/study/
     - assets/data/dialogues/R5/travel/
     - assets/data/dialogues/R5/work/
     - assets/data/script_rev.json

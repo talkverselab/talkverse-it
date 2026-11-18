@@ -7,6 +7,33 @@
 "5": "Scusa... ho mangiato tutto.",
 "6": "Hai mangiato tutti e due? Mamma mia!"
 },
+"r0_friends_a2": {
+"1": "Ehi, guarda! Questa sono io.",
+"2": "Davvero? Sei tu? Che bella!",
+"3": "Aspetta... oh no! Sto chiamando mamma!",
+"4": "Cosa? Ma dai, non sono pronto!",
+"5": "Ciao, mamma! Sì, questo è {name}. È il mio amico.",
+"6": "Dice che sei bello. E domani vieni da lei!",
+"7": "Domani? Mamma mia..."
+},
+"r0_friends_a3": {
+"1": "Marco, mi fai un caffè?",
+"2": "No. Lo fai tu.",
+"3": "Io? Ma non so fare il caffè!",
+"4": "Guarda bene. Metti qui... e aspetti. Ecco.",
+"5": "Aspetto... aspetto... Marco, quanto tempo?",
+"6": "Mm. Buono. Sei bravo.",
+"7": "Ehi! Era il mio caffè!"
+},
+"r0_friends_a4": {
+"1": "Ehi! Cosa fai? Parli da solo?",
+"2": "Sì... provo a parlare. Ma parlo male.",
+"3": "Fammi sentire! Dai!",
+"4": "Ciao... mi chiamo {name}... mi piace la musica.",
+"5": "Senti... sembri un bambino!",
+"6": "Ecco. Parlo male, lo so.",
+"7": "No, scusa. Parli bene, davvero. Sei bravo."
+},
 "r0_life_a1": {
 "1": "Ehi, dov'è la mia pizza?",
 "2": "Quale pizza?",
@@ -25,6 +52,23 @@
 "5": "Dai, è tardi! Prendo le tue chiavi. Ciao!",
 "6": "Luca! Le tue le hai in mano... e adesso io sono senza!"
 },
+"r0_life_a3": {
+"1": "Ehi! Ho lavato tutto. Anche il tuo.",
+"2": "Davvero? Grazie, Luca! Sei bravo.",
+"3": "Prego. Ecco... guarda.",
+"4": "Ma... è tutto rosa!",
+"5": "Bello, no? Adesso è tutto nuovo!",
+"6": "Luca! Da oggi lavo io!",
+"7": "Dai, perché? Sei bellissimo. Mamma mia, che bello!"
+},
+"r0_life_a4": {
+"1": "Luca? Che c'è? Stai male?",
+"2": "È finita. Tutto finito.",
+"3": "Mamma mia! Con la tua ragazza?",
+"4": "No... peggio. La partita. Tre a zero.",
+"5": "Ma dai! Non capisco... solo una partita?",
+"6": "Solo? Tu non capisci niente."
+},
 "r0_love_a1": {
 "1": "Ehi, {name}. Hai un momento?",
 "2": "Certo. Che c'è?",
@@ -32,6 +76,42 @@
 "4": "Libero, liberissimo. Perché?",
 "5": "Allora... vieni con me.",
 "6": "Sì! Cioè... va bene, vengo."
+},
+"r0_love_a2": {
+"1": "Ehi... non dormi?",
+"2": "No, non dormo. E tu?",
+"3": "Io no. Penso troppo.",
+"4": "A cosa pensi?",
+"5": "Senti... a una persona.",
+"6": "Davvero? Chi è? La conosco?",
+"7": "Sì, la conosci. È qui... e ti guarda."
+},
+"r0_love_a3": {
+"1": "Allora, io vado. Devo dormire.",
+"2": "Già? Devi andare?",
+"3": "Sì. A domani. Ciao, amore!",
+"4": "...Amore?",
+"5": "No! Cioè... ciao! Vado, vado!",
+"6": "Dormi bene... amore."
+},
+"r0_love_a4": {
+"1": "Ciao! C'è {name}?",
+"2": "{name}? No, c'è solo Luca. Entra, dai!",
+"3": "Ah, eccolo! Senti... ho una cosa per te.",
+"4": "Per me? Grazie, Giulia!",
+"5": "Non per te! Vai via, Luca!",
+"6": "Va bene, vado...",
+"7": "Ecco... è per te. Ti piace?"
+},
+"r1_culture_a1": {
+"1": "Senti, conosci questa mano?",
+"2": "No. Cosa vuol dire?",
+"3": "Vuol dire «Ma cosa vuoi?». Prova tu!",
+"4": "Lo faccio così? Ma cosa vuoi?",
+"5": "No, no! Non capisci. Fai così, guarda.",
+"6": "Così? Ecco Marco... Marco, ma cosa vuoi?",
+"7": "Un caffè, grazie. Tu paghi.",
+"8": "Vedi? Ha capito tutto."
 },
 "r1_friends_a1": {
 "1": "Mamma mia, non trovo il mio telefono!",
@@ -52,6 +132,16 @@
 "6": "L'ho lasciato lì. Con la chiave.",
 "7": "Tranquillo. Vado io da Giulia, adesso.",
 "8": "Aspetta. Perché ti fai così bello?"
+},
+"r1_friends_a3": {
+"1": "Oggi viene una ragazza qui a casa!",
+"2": "Davvero? E io dove vado?",
+"3": "Tu vai fuori. Dai, ti prego!",
+"4": "Va bene. E cosa fai da mangiare?",
+"5": "Farò la pasta di mia madre!",
+"6": "Senti? È già qui!",
+"7": "Ciao, bella! E... buongiorno, signora?",
+"8": "Con la madre?! Allora mangio anch'io."
 },
 "r1_friends_b1": {
 "1": "Marco, domani farò io il caffè!",
@@ -103,6 +193,16 @@
 "7": "Ah... scusa. Torno al lavoro.",
 "8": "Lascia stare. Vorrei solo stare qui con te."
 },
+"r1_love_a3": {
+"1": "Ehi... domani torni a casa. Sei pronto?",
+"2": "No, non sono pronto. Ma torno presto.",
+"3": "Presto? Tu dici sempre «presto».",
+"4": "Questa volta è vero, davvero.",
+"5": "Allora... posso dire una cosa?",
+"6": "Certo. Dimmi tutto.",
+"7": "Mi piace quando sei qui. Tanto.",
+"8": "Anche tu mi piaci. Tanto, tanto."
+},
 "r1_survival_s1": {
 "1": "Buongiorno! Cosa prende?",
 "2": "Prendo un caffè, per favore.",
@@ -112,6 +212,36 @@
 "6": "Capisco, capisco! Sì! Va bene!",
 "7": "Perfetto. Un caffè al banco e uno al tavolo.",
 "8": "Due caffè?! Va bene... prendo tutti e due."
+},
+"r1_survival_s2": {
+"1": "Buongiorno. Allora, come sta?",
+"2": "Non sto bene, dottore. Ho mal di testa.",
+"3": "Mal di testa... Cosa ha fatto questa notte?",
+"4": "Niente. Ho guardato il telefono tutta la notte.",
+"5": "Tutta la notte? E quanto ha dormito?",
+"6": "Boh... forse un'ora, dottore.",
+"7": "Un'ora? Guardi... anch'io ho dormito un'ora.",
+"8": "Allora, dottore... chi paga chi?"
+},
+"r1_travel_a1": {
+"1": "Pronto, Giulia? Sono arrivato!",
+"2": "Bravo! Che bello! Ma dove sei?",
+"3": "Non lo so. Vedo solo una donna molto bella.",
+"4": "Molto bella? E cosa fa adesso?",
+"5": "Mi guarda e ride. Adesso viene qui.",
+"6": "Allora guarda bene... sono io!",
+"7": "Sei tu?! Da quanto tempo mi guardi?",
+"8": "Da tanto. E sono molto bella, vero?"
+},
+"r1_work_a1": {
+"1": "Buongiorno! Lei è il nuovo ragazzo?",
+"2": "Sì, buongiorno. Sono pronto per il lavoro.",
+"3": "Bene. Può portare questo al signore?",
+"4": "Certo! Lo porto subito.",
+"5": "Bravo. Poi può mangiare qualcosa.",
+"6": "Davvero? Posso? Grazie, mamma!",
+"7": "Mamma? Mio figlio non mi dice mai grazie.",
+"8": "Scusi, signora! Adesso porto tutto."
 },
 "r2_friends_c1": {
 "1": "Ehi! Stasera c'è la partita da Marco. Vieni? ⚽",
@@ -142,6 +272,16 @@
 "6": "Va bene, va bene! Vengo. Prima del lavoro.",
 "7": "Lo sapevo. Il caffè è già pronto ☕"
 },
+"r2_friends_c4": {
+"1": "Ehi! Sei a casa? Ho bisogno di te 🙏",
+"2": "Sì, sono a casa. Che fai?",
+"3": "Guarda questo! L'ho fatto io 🎨 Ti piace?",
+"4": "Boh... è un signore? Bello, eh! Mi piace.",
+"5": "Un signore?! Sono IO 😭",
+"6": "Ma dai, scusa! Cioè... sei bellissima, davvero!",
+"7": "Vabbè. Allora lo do a te. Mettilo dove vuoi 🎁",
+"8": "Così mi vedi ogni giorno 😘"
+},
 "r2_life_c1": {
 "1": "Oggi cucino io! Non mangiare niente.",
 "2": "Davvero? Tu cucini? Allora non mangio niente 😂",
@@ -151,6 +291,16 @@
 "6": "Niente! Solo un po' di fumo 🔥",
 "7": "FUMO?! Torno subito!",
 "8": "Tranquillo. Oggi pizza. Pago io."
+},
+"r2_life_c2": {
+"1": "Dormi? Ti prego, dimmi di no 🙏",
+"2": "Sto per dormire. Che c'è?",
+"3": "Ho perso la chiave. Sono fuori 😭",
+"4": "Mamma mia, di nuovo? Arrivo.",
+"5": "Sono arrivato. Dove sei? Non ti vedo.",
+"6": "Ehm... non ho perso niente. La chiave era qui 😅",
+"7": "E ora io sono fuori. Fammi entrare, io non ce l'ho 🙃",
+"8": "Tranquillo, arrivo! ...Aspetta. Dov'è la chiave? 😳"
 },
 "r2_love_c1": {
 "1": "Ehi! Ho visto la tua storia 😍 Dov'eri?",
@@ -182,6 +332,36 @@
 "7": "Domani, stessa ora. E mi sei mancato.",
 "8": "Anche tu mi sei mancata... cioè, sì! Arrivo prima io."
 },
+"r2_love_c4": {
+"1": "Ciao! Sei vero? Sembri troppo bello 😏",
+"2": "Vero, vero! E tu? Sei vera?",
+"3": "Allora vieni a vedere. Domani, da Marco? ☕",
+"4": "Magari! Da Marco? Io sono lì ogni giorno!",
+"5": "Lo so. Ti vedo lì ogni giorno... tu mai.",
+"6": "Aspetta... sei tu quella che legge sempre? 😳",
+"7": "Leggo, sì. Ma non leggo niente... guardo te.",
+"8": "Allora domani vengo prima. E guardo io te 😊"
+},
+"r2_travel_c1": {
+"1": "Ehi! Sei già sul treno? 🚆",
+"2": "Sì! Un signore qui dorme e parla. Tutto il tempo 😴",
+"3": "Dai, cosa dice? Fammi sentire! 😂",
+"4": "Boh. Dice solo «mamma, mamma» 😂",
+"5": "Senti, ora vado. Ciao Roma 👋",
+"6": "Già vai? Senza dire ciao a me? 🥺",
+"7": "Lo so, torni presto. Ma mi manchi già.",
+"8": "Anche tu mi manchi. Torno presto, dai."
+},
+"r2_work_c1": {
+"1": "Sto male 🤒 Oggi vai tu, al posto mio? 🙏",
+"2": "Io?! Ma io non so fare il caffè!",
+"3": "Tranquillo. Basta un sorriso.",
+"4": "Mamma mia. Una signora vuole il «caffè come sempre». Cos'è?",
+"5": "Marco?? Ti prego! 😰",
+"6": "Ho fatto un caffè e basta. Lei ride... credo.",
+"7": "Scusa! Sai chi è la signora? È mia mamma 😂",
+"8": "Dice che sei bravo. E che domani torni 😐"
+},
 "r3_friends_a1": {
 "1": "Mamma mia, non troviamo i nostri telefoni!",
 "2": "Tranquille, li chiamo io.",
@@ -201,6 +381,16 @@
 "6": "L'abbiamo lasciato lì. Con la chiave.",
 "7": "Tranquilli. Vado io da Giulia, adesso.",
 "8": "Aspetta. Perché ti fai così bello?"
+},
+"r3_friends_a3": {
+"1": "Oggi vengono due ragazze qui a casa!",
+"2": "Davvero? E io dove vado?",
+"3": "Tu vai fuori. Dai, ti preghiamo!",
+"4": "Va bene. E cosa fate da mangiare?",
+"5": "Faremo la pasta delle nostre madri!",
+"6": "Sentite? Sono già qui!",
+"7": "Ciao, belle! E... buongiorno, signore?",
+"8": "Con le madri?! Allora mangio anch'io."
 },
 "r3_friends_b1": {
 "1": "Domani farò io il caffè per Lei!",
@@ -252,6 +442,16 @@
 "7": "Ah... mi scusi. Torno al lavoro.",
 "8": "Lascia stare. Vorrei solo stare qui con te."
 },
+"r3_love_a3": {
+"1": "Ehi... domani tornate a casa. Siete pronti?",
+"2": "No, non siamo pronti. Ma torniamo presto.",
+"3": "Presto? Voi dite sempre «presto».",
+"4": "Questa volta è vero, davvero.",
+"5": "Allora... possiamo dire una cosa?",
+"6": "Certo. Diteci tutto.",
+"7": "Ci piace quando siete qui. Tanto.",
+"8": "Anche voi ci piacete. Tanto, tanto."
+},
 "r3_survival_s1": {
 "1": "Buongiorno! Cosa prendete?",
 "2": "Prendiamo due caffè, per favore.",
@@ -261,6 +461,42 @@
 "6": "Capiamo, capiamo! Sì! Va bene!",
 "7": "Perfetto. Due caffè al banco e due al tavolo.",
 "8": "Quattro caffè?! Va bene... li prendiamo tutti."
+},
+"r3_survival_s2": {
+"1": "Buongiorno. Allora, come state?",
+"2": "Non stiamo bene, dottore. Abbiamo mal di testa.",
+"3": "Mal di testa... Cosa avete fatto questa notte?",
+"4": "Niente. Abbiamo guardato i telefoni tutta la notte.",
+"5": "Tutta la notte? E quanto avete dormito?",
+"6": "Boh... forse un'ora, dottore.",
+"7": "Un'ora? Guardate... anch'io ho dormito un'ora.",
+"8": "Allora, dottore... paghiamo noi o Lei?"
+},
+"r3_travel_a1": {
+"1": "Pronto, Giulia? Siamo arrivati!",
+"2": "Bravi! Che bello! Ma dove siete?",
+"3": "Non lo sappiamo. Vediamo due donne molto belle.",
+"4": "Molto belle? E cosa fanno adesso?",
+"5": "Ci guardano e ridono. Adesso vengono qui.",
+"6": "Allora guardate bene... siamo noi!",
+"7": "Siete voi?! Da quanto tempo ci guardate?",
+"8": "Da tanto. E siamo molto belle, vero?"
+},
+"r4_culture_b1": {
+"1": "Finalmente! Ti avevo detto l'una, sono quasi le due.",
+"10": "Buonissimi! E pensare che Giulia mi aveva detto che Lei cucinava malissimo.",
+"11": "Ah, davvero? Giulia, tesoro, cosa avevi detto esattamente?",
+"12": "Io? Avevo detto... che cucini meglio di me! Avrebbe dovuto capirlo da solo.",
+"13": "Infatti, infatti. Avevo capito male io. Il mio italiano, sa...",
+"14": "Chi fa ridere mia figlia così può tornare quando vuole. Anche tardi.",
+"2": "Scusa, mi sono perso per strada. Sarei venuto prima, davvero.",
+"3": "Tranquillo, caro. Ma da noi chi arriva tardi mangia quello che resta.",
+"4": "Va benissimo. Avrei voluto portarLe un dolce, ma era già tutto chiuso.",
+"5": "Non fa niente. Ecco gli spaghetti di cui ti aveva parlato Giulia.",
+"6": "Mamma mia, che roba! Posso tagliarli? Sono lunghissimi.",
+"7": "Ma sei matto? A casa nostra chi taglia gli spaghetti non torna più.",
+"8": "Va bene, va bene. Li giro come fai tu.",
+"9": "Bravo. Allora, com'è? Dimmi la verità."
 },
 "r4_friends_b1": {
 "1": "Ragazzi, la mia moto non c'è più!",
@@ -278,6 +514,38 @@
 "8": "Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano.",
 "9": "Per terra? Con le chiavi in mano? Ma dai."
 },
+"r4_friends_b2": {
+"1": "Svegliati! Sono quasi le dieci e la festa per Chiara è alle dieci e mezza!",
+"10": "Avrei preferito dormire altre due ore, Luca. Due!",
+"11": "Dai, già che ci siete, due caffè? Ve li offro io.",
+"12": "Ciao Marco, un caffè! ...Ragazzi? Ma perché siete vestiti così bene? Io sono ancora in pigiama!",
+"13": "Boh... volevamo farti una festa. Tanti auguri per la settimana prossima!",
+"14": "Dai, che carini! Allora oggi offrite voi. E stasera anche la cena.",
+"2": "Cosa?! Non mi sono svegliato... perché non mi hai chiamato prima?",
+"3": "Perché anch'io mi sono svegliato adesso! Vestiti, ti aspetto giù.",
+"4": "Ci siamo vestiti in cinque minuti. Marco, ci sono già tutti?",
+"5": "Tutti chi?",
+"6": "La festa di Chiara! Doveva essere qui, da te, stamattina.",
+"7": "Mi dispiace che siate venuti di fretta. Ma la festa è la settimana prossima.",
+"8": "La settimana prossima? Luca, me l'avevi detto tu che era oggi!",
+"9": "Io te l'avrei detto giusto, se avessi letto il messaggio fino in fondo!"
+},
+"r4_life_b1": {
+"1": "Buongiorno, ragazzi! È arrivato un pacco per voi. Ve lo porto dentro?",
+"10": "Aspetta, sotto il formaggio c'è una lettera. È di mia madre.",
+"11": "Leggila, dai. Speriamo che non ce l'abbia con te per la festa di ieri.",
+"12": "«Caro Luca, arrivo domani e resto un mese. Non preoccuparti, la chiave ce l'ho già.»",
+"13": "Ah, la chiave! Gliel'ho data io qualche giorno fa. Che signora gentile, tua madre.",
+"14": "Signora Galli... quanto formaggio vuole? Ne prenda pure tutto, dai.",
+"2": "Grazie, signora Galli! Ce lo dia pure, è della mamma di Luca.",
+"3": "Mia madre? Speriamo che non ci sia di nuovo il formaggio.",
+"4": "Il formaggio c'è, sì. Si sente anche da casa mia.",
+"5": "Allora penso che sia meglio aprirlo subito, qui fuori.",
+"6": "Bravi. Però ve lo dico subito: un pezzo l'ho già provato.",
+"7": "Ma dai! L'ha aperto Lei? E com'era?",
+"8": "Era già un po' aperto... Comunque buonissimo. Ne vorrei ancora un pezzetto, se non vi dispiace.",
+"9": "Figurati... cioè, si figuri! Gliene diamo un pezzo grande."
+},
 "r4_love_b1": {
 "1": "Ah, sei qui. Chiara mi ha detto che te n'eri già andato.",
 "10": "Aspetta. L'altra sera tornavi a casa a piedi e ti ho dato il mio ombrello. Tu lo sapevi già?",
@@ -293,6 +561,22 @@
 "7": "No. È che la persona a cui penso da tre settimane... è qui fuori.",
 "8": "Qui fuori? Ma ci siamo solo noi due.",
 "9": "Ecco. Bravo, ci sei arrivato."
+},
+"r4_study_b1": {
+"1": "Ehi, credo che tu abbia preso il libro sbagliato. Questo è di storia.",
+"10": "Ma dai, Elena, che gentile! Io te li chiedo da un anno.",
+"11": "Tu me li hai chiesti una volta, e me li hai portati indietro con il gelato sopra.",
+"12": "Aspetta, in fondo c'è scritto qualcosa: «Se domani va bene, mi offri un caffè?»",
+"13": "Ah... quella. Volevo che la trovassi stasera, non adesso. Però sì, è per te.",
+"14": "Allora domani devo andare benissimo per forza.",
+"2": "Boh, l'ho preso in fretta. Mentre uscivo, mi è caduto tutto.",
+"3": "Se fossi venuto più spesso, adesso avresti gli appunti.",
+"4": "Lo so. Se potessi tornare indietro, ci andrei ogni giorno.",
+"5": "Guarda quella ragazza là, quella che scrive sempre. Elena ha tutto, ogni parola del professore.",
+"6": "Elena? Non mi ha mai parlato. Penso che non mi veda nemmeno.",
+"7": "Scusate, ho sentito il mio nome. Ti servono gli appunti?",
+"8": "Magari! Ma sei sicura? Domani tocca anche a te.",
+"9": "Sì, ma li ho già letti tre volte. Prendili pure."
 },
 "r4_travel_b1": {
 "1": "Buonasera. Biglietti, prego.",
@@ -327,6 +611,22 @@
 "8": "Nessuno arriva alla fine, glielo garantisco. Nemmeno sua madre.",
 "9": "Capisco. Ha altre osservazioni, prima che arrivi?"
 },
+"r5_culture_b1": {
+"1": "Allora, hai preparato la busta per gli sposi? Ai matrimoni qui si regalano soldi, sai.",
+"10": "Mamma mia. Hai fatto un bel regalo a due che non conosci.",
+"11": "Vado a riprenderla! Speriamo che non l'abbiano ancora aperta.",
+"12": "Fermo! Se entri adesso, rovini il discorso del padre della sposa.",
+"13": "Lascia stare, caro. È il destino. Magari ti invitano anche al battesimo.",
+"14": "Al battesimo?! Allora devo chiedere lo stipendio in anticipo.",
+"2": "Sì, ci ho messo cento euro. Sono troppo pochi?",
+"3": "Per un amico vanno benissimo, caro. Ai miei tempi si regalavano i piatti.",
+"4": "Nonna, ai tuoi tempi un caffè costava cento lire!",
+"5": "Infatti. E la gente si sposava per amore, non per i regali.",
+"6": "Comunque la busta l'ho già lasciata nella scatola bianca, quella con i cuori, vicino alla porta.",
+"7": "Quale porta? Quella del giardino o quella della sala grande?",
+"8": "Quella della sala grande. Perché, ce ne sono due?",
+"9": "Oggi in questo ristorante ci sono due matrimoni! Quelli della sala grande non li conosciamo!"
+},
 "r5_friends_b1": {
 "1": "Ultima cosa prima di entrare: la nonna compie novant'anni, quindi sorridi e mangia tutto.",
 "10": "Ma dai! Eri tu quella che non ha voluto dire il nome?",
@@ -357,6 +657,38 @@
 "7": "Di salute? Cosa gli è successo?",
 "8": "Niente di grave. Dormiva poco, ecco.",
 "9": "Dormiva poco? E perché?"
+},
+"r5_love_b1": {
+"1": "Senti che pioggia! E io che ho lasciato l'ombrello a casa...",
+"10": "Allora a Natale vieni a {city}. Te la faccio vedere io.",
+"11": "È un invito? ...Magari.",
+"12": "Guarda, il telefono dice che fra mezz'ora smette. Puoi tornare a casa tranquilla.",
+"13": "Lo so. Le previsioni le avevo viste ieri... e l'ombrello è nella mia borsa.",
+"14": "Cioè... sei venuta lo stesso? Apposta?",
+"2": "Resta qui finché non smette. Ti preparo un tè caldo.",
+"3": "Oddio, è saltata la luce! Hai delle candele?",
+"4": "Credo di sì, in camera, da qualche parte... Non vedo niente!",
+"5": "Dammi la mano, dai. Così non cadi.",
+"6": "Ecco, trovate! Mamma mia, sembra un film romantico.",
+"7": "Da piccola, a casa di mia nonna, quando pioveva così andava sempre via la luce. Tutti intorno al tavolo a raccontare storie.",
+"8": "Da me, quando faceva freddo, c'era la neve per settimane. Non si usciva di casa.",
+"9": "Che bello. Io la neve vera l'ho vista una volta sola, ed è durata dieci minuti."
+},
+"r5_study_b1": {
+"1": "Luca, domani ho il colloquio per la borsa di studio. Mi fai qualche domanda?",
+"10": "Bella risposta. Ultima domanda: perché proprio questa città?",
+"11": "Perché qui, per la prima volta, mi sono sentito a casa. Le piazze, la gente... perfino tu, che lasci i calzini sul tavolo.",
+"12": "...Sì! Sì! Abbiamo segnato all'ultimo minuto!",
+"13": "Luca. Stavi guardando il calcio? Ti ho appena aperto il mio cuore!",
+"14": "Tranquillo, ho sentito tutto. Domani dillo uguale... ma senza calzini.",
+"2": "Certo. Allora... buongiorno. Perché vuole studiare in Italia?",
+"3": "Perché qui studiare costa meno e la vita è più bella.",
+"4": "No, no, no. Mai dire «costa meno». Di' che ti interessa la ricerca.",
+"5": "Va bene. Mi interessano molto la ricerca... e le case che costano poco.",
+"6": "Senta, e fra cinque anni dove si vede?",
+"7": "Fra cinque anni? Boh... Magari lavorerò qui e aprirò un piccolo studio. E manderò soldi ai miei genitori.",
+"8": "E se la borsa non gliela danno?",
+"9": "Allora troverò un lavoro la sera, risparmierò, e ci proverò di nuovo l'anno dopo."
 },
 "r5_travel_b1": {
 "1": "Guarda che mare! Fuori stagione è il momento perfetto per l'isola: non c'è nessuno.",

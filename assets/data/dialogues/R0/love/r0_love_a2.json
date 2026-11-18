@@ -1,0 +1,209 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "잠이 안 와",
+ "emoji": "🌙",
+ "scene": "밤 12시, 셰어하우스 부엌. 물 마시러 나온 학습자 앞에 줄리아가 먼저 와 있다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "expressions": [
+  "Senti",
+  "Davvero"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Senti · Davvero",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi... non dormi?",
+   "rd": "에이... 논 도르미?",
+   "ko": "어… 안 자?",
+   "note": "dormi = 너 자(dormire)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dormi",
+     "dormire",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "No, non dormo. E tu?",
+   "rd": "노, 논 도르모. 에 뚜?",
+   "ko": "응, 잠이 안 와. 너는?",
+   "note": "dormo = 나 자",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "dormo",
+     "dormire",
+     ""
+    ],
+    [
+     "tu",
+     "tu",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Io no. Penso troppo.",
+   "rd": "이오 노. 뻰쏘 트로뽀.",
+   "ko": "나도. 생각이 너무 많아.",
+   "note": "penso = 나 생각해(pensare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Penso",
+     "pensare",
+     ""
+    ],
+    [
+     "troppo",
+     "troppo",
+     ""
+    ]
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "A cosa pensi?",
+   "rd": "아 꼬자 뻰씨?",
+   "ko": "무슨 생각 하는데?",
+   "note": "pensi = 너 생각해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "pensi",
+     "pensare",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Senti... a una persona.",
+   "rd": "쎈띠... 아 우나 뻬르쏘나.",
+   "ko": "있잖아… 어떤 사람.",
+   "note": "Senti = 있잖아, 저기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Senti",
+     "sentire",
+     ""
+    ],
+    [
+     "persona",
+     "persona",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Davvero? Chi è? La conosco?",
+   "rd": "다베로? 끼 에? 라 꼬노스꼬?",
+   "ko": "진짜? 누군데? 내가 아는 사람이야?",
+   "note": "la conosco = 나 그 사람 알아",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "Chi",
+     "chi",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "conosco",
+     "conoscere",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Sì, la conosci. È qui... e ti guarda.",
+   "rd": "씨, 라 꼬노시. 에 뀌... 에 띠 구아르다.",
+   "ko": "응, 너도 알아. 여기 있어… 너를 보고 있어.",
+   "note": "ti guarda = 너를 보고 있다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "conosci",
+     "conoscere",
+     ""
+    ],
+    [
+     "È",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  }
+ ]
+}

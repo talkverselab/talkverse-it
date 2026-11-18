@@ -1,0 +1,256 @@
+{
+ "id": "r0_life_a3",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "전부 분홍색",
+ "emoji": "🧺",
+ "scene": "셰어하우스 거실. 루카가 처음으로 빨래를 했다며 뿌듯한 얼굴로 바구니를 들고 온다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Luca"
+ },
+ "register": "casual",
+ "twist": 4,
+ "twist_type": "chaos",
+ "flags": [],
+ "expressions": [
+  "Davvero",
+  "Dai",
+  "Mamma mia"
+ ],
+ "goal": "도구획득 · 짧은 반말 회화 · 표현 Davvero · Dai · Mamma mia",
+ "draft": true,
+ "purpose": [
+  "life"
+ ],
+ "domain": [
+  "life"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Ho lavato tutto. Anche il tuo.",
+   "rd": "에이! 오 라바또 뚜또. 안께 일 뚜오.",
+   "ko": "야! 빨래 다 했어. 네 것도.",
+   "note": "ho lavato = 내가 빨았다(lavare)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Ho",
+     "avere",
+     ""
+    ],
+    [
+     "lavato",
+     "lavare",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "tuo",
+     "tuo",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Davvero? Grazie, Luca! Sei bravo.",
+   "rd": "다베로? 그라찌에, 루까! 쎄이 브라보.",
+   "ko": "진짜? 고마워, 루카! 착하다.",
+   "note": "sei bravo = 너 잘했다",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Davvero",
+     "davvero",
+     ""
+    ],
+    [
+     "Grazie",
+     "grazie",
+     ""
+    ],
+    [
+     "Sei",
+     "essere",
+     ""
+    ],
+    [
+     "bravo",
+     "bravo",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Prego. Ecco... guarda.",
+   "rd": "프레고. 에꼬... 구아르다.",
+   "ko": "뭘. 자… 봐.",
+   "note": "Ecco = 자, 여기",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Prego",
+     "pregare",
+     ""
+    ],
+    [
+     "Ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Ma... è tutto rosa!",
+   "rd": "마... 에 뚜또 로자!",
+   "ko": "근데… 전부 분홍색이잖아!",
+   "note": "rosa = 분홍색",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ],
+    [
+     "rosa",
+     "rosa",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Bello, no? Adesso è tutto nuovo!",
+   "rd": "벨로, 노? 아데쏘 에 뚜또 누오보!",
+   "ko": "예쁘지 않아? 이제 다 새 거야!",
+   "note": "nuovo = 새로운",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Bello",
+     "bello",
+     ""
+    ],
+    [
+     "Adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "nuovo",
+     "nuovo",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Luca! Da oggi lavo io!",
+   "rd": "루까! 다 오찌 라보 이오!",
+   "ko": "루카! 오늘부터 빨래는 내가 해!",
+   "note": "lavo io = 내가 빨래해",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "oggi",
+     "oggi",
+     ""
+    ],
+    [
+     "lavo",
+     "lavare",
+     ""
+    ]
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Dai, perché? Sei bellissimo. Mamma mia, che bello!",
+   "rd": "다이, 뻬르께? 쎄이 벨리씨모. 맘마 미아, 께 벨로!",
+   "ko": "에이, 왜? 너 완전 멋있어. 와, 진짜 좋다!",
+   "note": "bellissimo = 정말 멋진(bello 최상급)",
+   "tags": [],
+   "new": [],
+   "lemmas": [
+    [
+     "Dai",
+     "dare",
+     ""
+    ],
+    [
+     "perché",
+     "perché",
+     ""
+    ],
+    [
+     "Sei",
+     "essere",
+     ""
+    ],
+    [
+     "bellissimo",
+     "bello",
+     ""
+    ],
+    [
+     "Mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "mia",
+     "mio",
+     ""
+    ]
+   ],
+   "emotion": "teasing",
+   "it_f": "Dai, perché? Sei bellissima. Mamma mia, che bello!",
+   "rd_f": "다이, 뻬르께? 쎄이 벨리씨마. 맘마 미아, 께 벨로!",
+   "ko_f": "에이, 왜? 너 완전 예뻐. 와, 진짜 좋다!"
+  }
+ ]
+}

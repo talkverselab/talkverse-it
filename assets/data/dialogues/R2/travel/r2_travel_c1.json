@@ -1,0 +1,322 @@
+{
+ "id": "r2_travel_c1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "벌써 보고 싶어",
+ "emoji": "🚆",
+ "scene": "아침 여덟 시, 로마를 떠나는 기차 안. 키아라가 먼저 문자를 보낸다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "expressions": [
+  "Dai",
+  "Boh",
+  "Senti"
+ ],
+ "goal": "챗 상황 1 첫 인사 · 7 농담 · 9 화해 · 10 다음 약속 · 표현 Dai · Boh · Senti",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi! Sei già sul treno? 🚆",
+   "rd": "에이! 쎄이 쟈 쑬 트레노? 🚆",
+   "ko": "야! 벌써 기차 탔어? 🚆",
+   "note": "sul treno = 기차 안에(su + il)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [
+    "treno"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "treno",
+     "treno",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:10"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "Sì! Un signore qui dorme e parla. Tutto il tempo 😴",
+   "rd": "씨! 운 씨뇨레 뀌 도르메 에 빠를라. 뚜또 일 뗌뽀 😴",
+   "ko": "응! 여기 어떤 아저씨가 자면서 말해. 계속 😴",
+   "note": "tutto il tempo = 내내",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "signore",
+     "signore",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "dorme",
+     "dormire",
+     ""
+    ],
+    [
+     "parla",
+     "parlare",
+     ""
+    ],
+    [
+     "tempo",
+     "tempo",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:11"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Dai, cosa dice? Fammi sentire! 😂",
+   "rd": "다이, 꼬자 디체? 팜미 쎈띠레! 😂",
+   "ko": "헐, 뭐라는데? 나도 좀 들려줘! 😂",
+   "note": "fammi sentire = 나도 들려줘(fare + 원형)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "dice",
+     "dire",
+     ""
+    ],
+    [
+     "fammi",
+     "fare",
+     ""
+    ],
+    [
+     "sentire",
+     "sentire",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:11"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Boh. Dice solo «mamma, mamma» 😂",
+   "rd": "보. 디체 쏠로 \"맘마, 맘마\" 😂",
+   "ko": "몰라. 그냥 「엄마, 엄마」만 해 😂",
+   "note": "dice solo = ~라고만 해",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "dice",
+     "dire",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "mamma",
+     "mamma",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:12"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Senti, ora vado. Ciao Roma 👋",
+   "rd": "쎈띠, 오라 바도. 챠오 로마 👋",
+   "ko": "있잖아, 이제 출발해. 안녕 로마 👋",
+   "note": "Senti = 있잖아(말 꺼낼 때)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "ora",
+     "ora",
+     ""
+    ],
+    [
+     "vado",
+     "andare",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:15"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Già vai? Senza dire ciao a me? 🥺",
+   "rd": "쟈 바이? 쎈짜 디레 챠오 아 메? 🥺",
+   "ko": "벌써 가? 나한테 인사도 없이? 🥺",
+   "note": "senza dire = 말도 없이(senza + 원형)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "vai",
+     "andare",
+     ""
+    ],
+    [
+     "senza",
+     "senza",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:15"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Lo so, torni presto. Ma mi manchi già.",
+   "rd": "로 쏘, 또르니 프레스또. 마 미 만끼 쟈.",
+   "ko": "알아, 금방 오잖아. 근데 벌써 보고 싶어.",
+   "note": "mi manchi = 네가 보고 싶어(mancare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [
+    "mancare"
+   ],
+   "emotion": "sad",
+   "lemmas": [
+    [
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "torni",
+     "tornare",
+     ""
+    ],
+    [
+     "presto",
+     "presto",
+     ""
+    ],
+    [
+     "manchi",
+     "mancare",
+     ""
+    ],
+    [
+     "già",
+     "già",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:16"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Anche tu mi manchi. Torno presto, dai.",
+   "rd": "안께 뚜 미 만끼. 또르노 프레스또, 다이.",
+   "ko": "나도 보고 싶어. 금방 올게, 진짜로.",
+   "note": "torno = 나 돌아와(torni → torno)",
+   "tags": [
+    "step:10"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "manchi",
+     "mancare",
+     ""
+    ],
+    [
+     "torno",
+     "tornare",
+     ""
+    ],
+    [
+     "presto",
+     "presto",
+     ""
+    ]
+   ],
+   "ui": "bubble",
+   "at": "08:17"
+  }
+ ]
+}

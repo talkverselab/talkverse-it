@@ -1,0 +1,312 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "culture"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "title": "이 손은 무슨 뜻?",
+ "emoji": "🤌",
+ "scene": "마르코의 카페 테이블. 손짓이 큰 키아라가 손가락을 모아 흔드는 이탈리아식 손짓을 가르쳐 주는데, 학습자가 그 손을 마르코에게 해 버린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Chiara",
+  "C": "Marco"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "ignore",
+ "flags": [],
+ "goal": "골격 단계 1·3·5·7·9 · 굴절 반복 vuol/vuoi · faccio/fai · capisci/ha capito · 표현 Senti · Guarda · Ecco · Vedi",
+ "expressions": [
+  "Senti",
+  "Guarda",
+  "Ecco",
+  "Vedi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Senti, conosci questa mano?",
+   "rd": "쎈띠, 꼬노시 꿰스따 마노?",
+   "ko": "있잖아, 이 손 알아?",
+   "note": "la mano = 손(-o 로 끝나는데 여성 명사 → questa)",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "senti",
+     "sentire",
+     ""
+    ],
+    [
+     "conosci",
+     "conoscere",
+     ""
+    ],
+    [
+     "mano",
+     "mano",
+     ""
+    ]
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "No. Cosa vuol dire?",
+   "rd": "노. 꼬자 부올 디레?",
+   "ko": "아니. 무슨 뜻이야?",
+   "note": "vuol dire = 뜻하다(volere + dire)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "vuol",
+     "volere",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ]
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Vuol dire «Ma cosa vuoi?». Prova tu!",
+   "rd": "부올 디레 \"마 꼬자 부오이?\". 프로바 뚜!",
+   "ko": "「대체 뭘 원해?」라는 뜻이야. 너도 해 봐!",
+   "note": "vuoi = 너 원하다(volere) — 2턴 vuol",
+   "tags": [
+    "step:9",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vuol",
+     "volere",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "vuoi",
+     "volere",
+     ""
+    ],
+    [
+     "prova",
+     "provare",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Lo faccio così? Ma cosa vuoi?",
+   "rd": "로 파쵸 꼬지? 마 꼬자 부오이?",
+   "ko": "이렇게 하는 거야? 대체 뭘 원해?",
+   "note": "lo faccio = 그걸 한다(lo = 그것을, fare)",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "faccio",
+     "fare",
+     ""
+    ],
+    [
+     "così",
+     "così",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "vuoi",
+     "volere",
+     ""
+    ]
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "No, no! Non capisci. Fai così, guarda.",
+   "rd": "노, 노! 논 까삐시. 파이 꼬지, 구아르다.",
+   "ko": "아니, 아니! 못 알아들었네. 이렇게 해, 봐 봐.",
+   "note": "fai = 해(fare, tu) — 4턴 faccio(나)",
+   "tags": [
+    "step:9",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "capisci",
+     "capire",
+     ""
+    ],
+    [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "così",
+     "così",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Così? Ecco Marco... Marco, ma cosa vuoi?",
+   "rd": "꼬지? 에꼬 마르꼬... 마르꼬, 마 꼬자 부오이?",
+   "ko": "이렇게? 아, 마르코 온다… 마르코, 대체 뭘 원해?",
+   "note": "ecco = 저기 ~ 온다, 여기 있다",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "così",
+     "così",
+     ""
+    ],
+    [
+     "ecco",
+     "ecco",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ],
+    [
+     "vuoi",
+     "volere",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Così? Ecco Marco..."
+    ],
+    [
+     "excited",
+     " Marco, ma cosa vuoi?"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "it": "Un caffè, grazie. Tu paghi.",
+   "rd": "운 까페, 그라찌에. 뚜 빠기.",
+   "ko": "커피 한 잔. 고마워. 네가 사.",
+   "note": "paghi = 너 낸다(pagare) — 손짓은 못 본 척하고 말 그대로 대답",
+   "tags": [
+    "step:3"
+   ],
+   "new": [
+    "caffè"
+   ],
+   "lemmas": [
+    [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
+     "grazie",
+     "grazie",
+     ""
+    ],
+    [
+     "paghi",
+     "pagare",
+     ""
+    ]
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Vedi? Ha capito tutto.",
+   "rd": "베디? 아 까삐또 뚜또.",
+   "ko": "봤지? 다 알아들었잖아.",
+   "note": "ha capito = 알아들었다(capire 근과거) — 5턴 capisci",
+   "tags": [
+    "step:5"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "vedi",
+     "vedere",
+     ""
+    ],
+    [
+     "ha capito",
+     "capire",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "amused"
+  }
+ ]
+}

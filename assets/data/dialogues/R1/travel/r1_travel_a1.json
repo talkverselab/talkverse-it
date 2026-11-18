@@ -1,0 +1,334 @@
+{
+ "id": "r1_travel_a1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "title": "역 앞의 엄청 예쁜 여자",
+ "emoji": "🚉",
+ "scene": "로마에 처음 놀러 온 학습자가 역 앞에서 마중 나오기로 한 줄리아에게 전화한다. 줄리아는 안 보이고, 웬 예쁜 여자가 자꾸 쳐다본다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "goal": "골격 단계 1·2·3·6·7·9 · 성별판 sono arrivato/arrivata · bravo/brava · 굴절 반복 bello/bella · sei/sono · guarda/guardi · 표현 Pronto · Che bello · Allora",
+ "expressions": [
+  "Pronto",
+  "Che bello",
+  "Allora"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "it": "Pronto, Giulia? Sono arrivato!",
+   "rd": "프론또, 줄리아? 쏘노 아리바또!",
+   "ko": "여보세요, 줄리아? 나 도착했어!",
+   "note": "sono arrivato/arrivata = 도착했다(essere + 과거분사, 말하는 사람 성에 맞춤)",
+   "tags": [
+    "step:6"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "pronto",
+     "pronto",
+     ""
+    ],
+    [
+     "sono arrivato",
+     "arrivare",
+     ""
+    ]
+   ],
+   "it_f": "Pronto, Giulia? Sono arrivata!",
+   "rd_f": "프론또, 줄리아? 쏘노 아리바따!",
+   "ko_f": "여보세요, 줄리아? 나 도착했어!",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "it": "Bravo! Che bello! Ma dove sei?",
+   "rd": "브라보! 께 벨로! 마 도베 쎄이?",
+   "ko": "잘했어! 신난다! 근데 어디야?",
+   "note": "bravo/brava = 잘했어(듣는 사람 성에 맞춤)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "bravo",
+     "bravo",
+     ""
+    ],
+    [
+     "bello",
+     "bello",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ]
+   ],
+   "it_f": "Brava! Che bello! Ma dove sei?",
+   "rd_f": "브라바! 께 벨로! 마 도베 쎄이?",
+   "ko_f": "잘했어! 신난다! 근데 어디야?",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "it": "Non lo so. Vedo solo una donna molto bella.",
+   "rd": "논 로 쏘. 베도 쏠로 우나 돈나 몰또 벨라.",
+   "ko": "모르겠어. 엄청 예쁜 여자 한 명만 보여.",
+   "note": "bella = 예쁜(bello 의 여성형) — 2턴 che bello",
+   "tags": [
+    "step:1"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "so",
+     "sapere",
+     ""
+    ],
+    [
+     "vedo",
+     "vedere",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "donna",
+     "donna",
+     ""
+    ],
+    [
+     "molto",
+     "molto",
+     ""
+    ],
+    [
+     "bella",
+     "bello",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "it": "Molto bella? E cosa fa adesso?",
+   "rd": "몰또 벨라? 에 꼬자 파 아데쏘?",
+   "ko": "엄청 예뻐? 그래서 그 여자 지금 뭐 하는데?",
+   "note": "fa = (그녀가) 하다(fare)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "molto",
+     "molto",
+     ""
+    ],
+    [
+     "bella",
+     "bello",
+     ""
+    ],
+    [
+     "fa",
+     "fare",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "it": "Mi guarda e ride. Adesso viene qui.",
+   "rd": "미 구아르다 에 리데. 아데쏘 비에네 뀌.",
+   "ko": "날 보면서 웃어. 지금 이쪽으로 와.",
+   "note": "mi guarda = 나를 본다(mi = 나를)",
+   "tags": [
+    "step:7",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "ride",
+     "ridere",
+     ""
+    ],
+    [
+     "adesso",
+     "adesso",
+     ""
+    ],
+    [
+     "viene",
+     "venire",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ]
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "it": "Allora guarda bene... sono io!",
+   "rd": "알로라 구아르다 베네... 쏘노 이오!",
+   "ko": "그럼 잘 봐… 나야!",
+   "note": "guarda = 봐(명령) — 5턴 mi guarda(그녀가 본다)",
+   "tags": [
+    "step:3",
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Allora guarda bene..."
+    ],
+    [
+     "cheerful",
+     " sono io!"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "it": "Sei tu?! Da quanto tempo mi guardi?",
+   "rd": "쎄이 뚜?! 다 꽌또 뗌뽀 미 구아르디?",
+   "ko": "너였어?! 언제부터 날 보고 있었어?",
+   "note": "mi guardi = 너 나를 본다 · da quanto tempo = 얼마나 오래",
+   "tags": [
+    "step:7"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "quanto",
+     "quanto",
+     ""
+    ],
+    [
+     "tempo",
+     "tempo",
+     ""
+    ],
+    [
+     "guardi",
+     "guardare",
+     ""
+    ]
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "it": "Da tanto. E sono molto bella, vero?",
+   "rd": "다 딴또. 에 쏘노 몰또 벨라, 베로?",
+   "ko": "한참 됐지. 그리고 나 엄청 예쁘다며, 그치?",
+   "note": "vero? = 그렇지?(꼬리 질문)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "tanto",
+     "tanto",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "molto",
+     "molto",
+     ""
+    ],
+    [
+     "bella",
+     "bello",
+     ""
+    ],
+    [
+     "vero",
+     "vero",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  }
+ ]
+}

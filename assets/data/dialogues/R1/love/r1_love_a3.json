@@ -1,0 +1,319 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "draft": true,
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "title": "「금방 올게」",
+ "emoji": "🌙",
+ "scene": "학습자가 고향에 돌아가기 전날 밤. 집 앞까지 바래다준 줄리아가 들어가지 않고 머뭇거린다",
+ "speakers": {
+  "A": "{name}",
+  "B": "Giulia"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [],
+ "goal": "골격 단계 2·3·8·9 · 성별판 sei pronto/pronta · 굴절 반복 torni/torno · dici/dire/dimmi · piace/piaci · 표현 Ehi · Allora · Certo",
+ "expressions": [
+  "Ehi",
+  "Allora",
+  "Certo"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "it": "Ehi... domani torni a casa. Sei pronto?",
+   "rd": "에이... 도마니 또르니 아 까자. 쎄이 프론또?",
+   "ko": "있잖아… 내일 집에 가지. 준비됐어?",
+   "note": "torni = 너 돌아가다(tornare) · pronto/pronta = 준비된",
+   "tags": [
+    "step:3",
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "domani",
+     "domani",
+     ""
+    ],
+    [
+     "torni",
+     "tornare",
+     ""
+    ],
+    [
+     "casa",
+     "casa",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ]
+   ],
+   "it_f": "Ehi... domani torni a casa. Sei pronta?",
+   "rd_f": "에이... 도마니 또르니 아 까자. 쎄이 프론따?",
+   "ko_f": "있잖아… 내일 집에 가지. 준비됐어?",
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "it": "No, non sono pronto. Ma torno presto.",
+   "rd": "노, 논 쏘노 프론또. 마 또르노 프레스또.",
+   "ko": "아니, 준비 안 됐어. 근데 금방 올 거야.",
+   "note": "torno = 나 돌아오다 — 1턴 torni",
+   "tags": [
+    "step:2",
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "pronto",
+     "pronto",
+     ""
+    ],
+    [
+     "torno",
+     "tornare",
+     ""
+    ],
+    [
+     "presto",
+     "presto",
+     ""
+    ]
+   ],
+   "it_f": "No, non sono pronta. Ma torno presto.",
+   "rd_f": "노, 논 쏘노 프론따. 마 또르노 프레스또.",
+   "ko_f": "아니, 준비 안 됐어. 근데 금방 올 거야.",
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "it": "Presto? Tu dici sempre «presto».",
+   "rd": "프레스또? 뚜 디치 쎔프레 \"프레스또\".",
+   "ko": "금방? 넌 맨날 「금방」이래.",
+   "note": "dici = 너 말한다(dire)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "presto",
+     "presto",
+     ""
+    ],
+    [
+     "dici",
+     "dire",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ]
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "it": "Questa volta è vero, davvero.",
+   "rd": "꿰스따 볼따 에 베로, 다베로.",
+   "ko": "이번엔 진짜야, 정말로.",
+   "note": "questa volta = 이번에는(la volta 여성)",
+   "tags": [
+    "step:2"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "volta",
+     "volta",
+     ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "vero",
+     "vero",
+     ""
+    ],
+    [
+     "davvero",
+     "davvero",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "it": "Allora... posso dire una cosa?",
+   "rd": "알로라... 뽀쏘 디레 우나 꼬자?",
+   "ko": "그럼… 나 하나만 말해도 돼?",
+   "note": "posso dire = 말해도 돼?(potere + 원형) — 3턴 dici",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "allora",
+     "allora",
+     ""
+    ],
+    [
+     "posso",
+     "potere",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "cosa",
+     "cosa",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "it": "Certo. Dimmi tutto.",
+   "rd": "체르또. 딤미 뚜또.",
+   "ko": "그럼. 다 말해.",
+   "note": "dimmi = 나한테 말해(di' + mi)",
+   "tags": [
+    "step:9"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "certo",
+     "certo",
+     ""
+    ],
+    [
+     "dimmi",
+     "dire",
+     ""
+    ],
+    [
+     "tutto",
+     "tutto",
+     ""
+    ]
+   ],
+   "emotion": "gentle"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "it": "Mi piace quando sei qui. Tanto.",
+   "rd": "미 삐아체 꽌도 쎄이 뀌. 딴또.",
+   "ko": "네가 여기 있을 때가 좋아. 많이.",
+   "note": "mi piace = 나는 ~가 좋다(piacere)",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "piace",
+     "piacere",
+     ""
+    ],
+    [
+     "quando",
+     "quando",
+     ""
+    ],
+    [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ]
+   ],
+   "segs": [
+    [
+     "shy",
+     "Mi piace quando sei qui."
+    ],
+    [
+     "sad",
+     " Tanto."
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "it": "Anche tu mi piaci. Tanto, tanto.",
+   "rd": "안께 뚜 미 삐아치. 딴또, 딴또.",
+   "ko": "나도 네가 좋아. 많이, 많이.",
+   "note": "mi piaci = 네가 좋다(좋은 대상이 tu) — 7턴 mi piace",
+   "tags": [
+    "step:8"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "piaci",
+     "piacere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
+     ""
+    ]
+   ],
+   "emotion": "shy"
+  }
+ ]
+}
