@@ -137,7 +137,7 @@ def apply(ep, head, turns):
         if gendered and o['it_f'] == o['it']:
             for k in ('it_f', 'ko_f', 'rd_f', 'segs_f'):
                 o.pop(k, None)
-        o['note'] = re.sub(r'\s*//\s*', ' ', t['note'])
+        o['note'] = ALT.sub(lambda m: f'{m[1]} / {m[2]}', re.sub(r'\s*//\s*', ' ', t['note']))  # 노트의 성별 표시는 「남 / 여」로
         o['lemmas'], o['new'] = [], []
         o['grok'] = True
     ep.pop('draft', None)

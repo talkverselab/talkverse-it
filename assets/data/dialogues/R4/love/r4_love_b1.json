@@ -91,7 +91,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "Mi sono spostato{o|a} = 자리를 옮겼어",
+   "note": "Mi sono spostato/a = 자리를 옮겼어",
    "tags": [
     "step:9"
    ],
@@ -442,7 +442,7 @@
   {
    "num": 10,
    "speaker": "A",
-   "note": "non c'ero abituato{o|a} = 익숙하지 않았어",
+   "note": "non c'ero abituato/a = 익숙하지 않았어",
    "tags": [
     "step:5"
    ],
@@ -542,7 +542,7 @@
   {
    "num": 12,
    "speaker": "A",
-   "note": "Mi sono emozionato{o|a} = 감동했어",
+   "note": "Mi sono emozionato/a = 감동했어",
    "tags": [
     "step:9"
    ],

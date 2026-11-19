@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "mi sono sbagliat{o|a} = 제가 착각했다",
+   "note": "mi sono sbagliato/a = 제가 착각했다",
    "tags": [
     "step:9",
     "step:3"
@@ -456,7 +456,7 @@
   {
    "num": 13,
    "speaker": "A",
-   "note": "sarei venut{o|a} = 왔을 것이다",
+   "note": "sarei venuto/a = 왔을 것이다",
    "tags": [
     "step:6"
    ],
