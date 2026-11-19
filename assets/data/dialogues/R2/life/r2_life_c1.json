@@ -121,8 +121,11 @@
    "at": "18:06",
    "grok": true,
    "it": "Tranquillo, sono un cuoco 😂",
-   "ko": "진정해, 나는 요리사야 😂",
+   "ko": "걱정 마, 나는 요리사야 😂",
    "rd": "트란뀔로, 쏘노 운 꾸오꼬 😂",
+   "it_f": "Tranquilla, sono un cuoco 😂",
+   "ko_f": "걱정 마, 나는 요리사야 😂",
+   "rd_f": "트란뀔라, 쏘노 운 꾸오꼬 😂",
    "emotion": "teasing"
   },
   {
@@ -194,7 +197,7 @@
   {
    "num": 6,
    "speaker": "B",
-   "note": "ho bruciato = 태웠다(bruciare)",
+   "note": "ho ordinato = 시켰어",
    "tags": [
     "step:6"
    ],
@@ -216,6 +219,11 @@
      ""
     ],
     [
+     "ordinato",
+     "ordinare",
+     ""
+    ],
+    [
      "pizza",
      "pizza",
      ""
@@ -224,9 +232,9 @@
    "ui": "bubble",
    "at": "19:21",
    "grok": true,
-   "it": "Ho bruciato tutto. Ma ho pizza 🍕",
-   "ko": "다 태웠어. 근데 피자 있어 🍕",
-   "rd": "오 브루챠또 뚜또. 마 오 삐짜 🍕",
+   "it": "Ho bruciato tutto. Ma ho ordinato la pizza 🍕",
+   "ko": "다 태웠어. 근데 피자 시켰어 🍕",
+   "rd": "오 브루챠또 뚜또. 마 오 오르디나또 라 삐짜 🍕",
    "segs": [
     [
      "flustered",
@@ -234,14 +242,14 @@
     ],
     [
      "cheerful",
-     " Ma ho pizza 🍕"
+     " Ma ho ordinato la pizza 🍕"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "note": "Ordiniamo? = 우리 주문할까?(ordinare)",
+   "note": "Cosa?! = 뭐?!",
    "tags": [
     "step:6"
    ],
@@ -253,17 +261,17 @@
      ""
     ],
     [
-     "ordiniamo",
-     "ordinare",
+     "pizza",
+     "pizza",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "19:21",
    "grok": true,
-   "it": "Cosa?! Ordiniamo? 😱",
-   "ko": "뭐?! 주문할까? 😱",
-   "rd": "꼬자?! 오르디니아모? 😱",
+   "it": "Cosa?! La pizza? 😱",
+   "ko": "뭐?! 피자? 😱",
+   "rd": "꼬자?! 라 삐짜? 😱",
    "emotion": "shout"
   },
   {
@@ -295,8 +303,11 @@
    "at": "19:22",
    "grok": true,
    "it": "Tranquillo, arriva tra poco 😊",
-   "ko": "진정해, 곧 도착해 😊",
+   "ko": "걱정 마, 곧 도착해 😊",
    "rd": "트란뀔로, 아리바 트라 뽀꼬 😊",
+   "it_f": "Tranquilla, arriva tra poco 😊",
+   "ko_f": "걱정 마, 곧 도착해 😊",
+   "rd_f": "트란뀔라, 아리바 트라 뽀꼬 😊",
    "emotion": "gentle"
   }
  ]

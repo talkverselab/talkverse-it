@@ -30,7 +30,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "sei arrivato/a = 도착했어",
+   "note": "sei arrivato / a = 도착했어",
    "tags": [
     "step:6"
    ],
@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "sono = 이야; pronto/a = 준비된",
+   "note": "sono = 이야; pronto / a = 준비된",
    "tags": [
     "step:2"
    ],
@@ -103,7 +103,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "sei = 이야; ti disegno = 너를 그려",
+   "note": "ti disegno = 너를 그려",
    "tags": [
     "step:2",
     "step:7"
@@ -111,15 +111,25 @@
    "new": [],
    "lemmas": [
     [
+     "fai",
+     "fare",
+     ""
+    ],
+    [
+     "modello",
+     "modello",
+     ""
+    ],
+    [
      "disegno",
      "disegno",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sei tu. Ti disegno io.",
-   "ko": "너야. 내가 그려 줄게.",
-   "rd": "쎄이 뚜. 띠 디제뇨 이오.",
+   "it": "Dai, fai il modello. Ti disegno io.",
+   "ko": "자, 모델 해 봐. 내가 그려 줄게.",
+   "rd": "다이, 파이 일 모델로. 띠 디제뇨 이오.",
    "emotion": "gentle"
   },
   {
@@ -239,7 +249,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "vorrei = 원했어",
+   "note": "vorrei = 원해요",
    "tags": [
     "step:10"
    ],
@@ -257,9 +267,9 @@
     ]
    ],
    "grok": true,
-   "it": "Vorrei il mio ritratto.",
-   "ko": "내 초상화 원했는데.",
-   "rd": "보레이 일 미오 리트라또.",
+   "it": "Ma vorrei il mio ritratto.",
+   "ko": "그래도 내 초상화 원하는데.",
+   "rd": "마 보레이 일 미오 리트라또.",
    "emotion": "sad"
   }
  ]

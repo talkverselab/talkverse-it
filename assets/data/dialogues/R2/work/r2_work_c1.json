@@ -56,14 +56,14 @@
    "at": "06:10",
    "grok": true,
    "it": "Mamma mia, sono malato. 🤒",
-   "ko": "맙소사, 나 아팠어. 🤒",
+   "ko": "맙소사, 나 아파. 🤒",
    "rd": "맘마 미아, 쏘노 말라또. 🤒",
    "emotion": "worried"
   },
   {
    "num": 2,
    "speaker": "A",
-   "note": "Aprire io? = 내가 열라고?(동사 원형 그대로)",
+   "note": "aprire = 열다",
    "tags": [
     "step:6"
    ],
@@ -112,8 +112,11 @@
    "at": "06:13",
    "grok": true,
    "it": "Sì, ti prego. Tranquillo.",
-   "ko": "응, 제발. 진정해.",
+   "ko": "응, 제발. 걱정 마.",
    "rd": "씨, 띠 프레고. 트란뀔로.",
+   "it_f": "Sì, ti prego. Tranquilla.",
+   "ko_f": "응, 제발. 걱정 마.",
+   "rd_f": "씨, 띠 프레고. 트란뀔라.",
    "emotion": "neutral"
   },
   {
@@ -152,7 +155,7 @@
   {
    "num": 5,
    "speaker": "A",
-   "note": "Non rispondi = 너 답을 안 하네(rispondere)",
+   "note": "le chiavi = 열쇠들",
    "tags": [
     "step:4"
    ],
@@ -169,8 +172,13 @@
      ""
     ],
     [
-     "rispondi",
-     "rispondi",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "chiavi",
+     "chiave",
      ""
     ]
    ],
@@ -178,9 +186,9 @@
    "at": "07:31",
    "read": false,
    "grok": true,
-   "it": "Dove sei? Non rispondi.",
-   "ko": "어디야? 답장 안 해.",
-   "rd": "도베 쎄이? 논 리스뽄디.",
+   "it": "Dove sei? Non ho le chiavi.",
+   "ko": "어디야? 열쇠 없어.",
+   "rd": "도베 쎄이? 논 오 레 끼아비.",
    "emotion": "worried"
   },
   {
@@ -198,13 +206,8 @@
      ""
     ],
     [
-     "leggi",
-     "legge",
-     ""
-    ],
-    [
-     "messaggi",
-     "messaggio",
+     "apro",
+     "apro",
      ""
     ]
    ],
@@ -212,23 +215,23 @@
    "at": "07:36",
    "read": false,
    "grok": true,
-   "it": "Ti prego, leggi i messaggi!",
-   "ko": "제발, 메시지 읽어!",
-   "rd": "띠 프레고, 레찌 이 메싸찌!",
+   "it": "Ti prego, come apro?",
+   "ko": "제발, 어떻게 열어?",
+   "rd": "띠 프레고, 꼬메 아프로?",
    "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "Boh = 뭐",
+   "note": "Scusa = 미안",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
+     "scusa",
+     "scusa",
      ""
     ],
     [
@@ -245,15 +248,15 @@
    "ui": "bubble",
    "at": "08:02",
    "grok": true,
-   "it": "Boh, dormivo ancora. 😂",
-   "ko": "뭐, 아직 자고 있었어. 😂",
-   "rd": "보, 도르미보 안꼬라. 😂",
+   "it": "Scusa, dormivo ancora. 😂",
+   "ko": "미안, 아직 자고 있었어. 😂",
+   "rd": "스꾸자, 도르미보 안꼬라. 😂",
    "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "B",
-   "note": "Tranquillo = 진정해",
+   "note": "Tranquillo / a = 걱정 마",
    "tags": [
     "step:10"
    ],
@@ -270,22 +273,20 @@
      ""
     ],
     [
-     "va",
-     "andare",
-     ""
-    ],
-    [
-     "bene",
-     "bene",
+     "apri",
+     "aprire",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "08:03",
    "grok": true,
-   "it": "Tranquillo, domani va bene.",
-   "ko": "진정해, 내일 괜찮아.",
-   "rd": "트란뀔로, 도마니 바 베네.",
+   "it": "Tranquillo, domani apri tu.",
+   "ko": "걱정 마, 내일 네가 열어.",
+   "rd": "트란뀔로, 도마니 아프리 뚜.",
+   "it_f": "Tranquilla, domani apri tu.",
+   "ko_f": "걱정 마, 내일 네가 열어.",
+   "rd_f": "트란뀔라, 도마니 아프리 뚜.",
    "emotion": "teasing"
   }
  ]

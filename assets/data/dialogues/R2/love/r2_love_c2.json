@@ -80,7 +80,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "tanto = 많이, 정말",
+   "note": "è piaciuto = 좋았다(piacere 근과거)",
    "tags": [
     "step:1"
    ],
@@ -97,17 +97,22 @@
      ""
     ],
     [
-     "tanto",
-     "tanto",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "piaciuto",
+     "piacere",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "20:43",
    "grok": true,
-   "it": "Ciao! Anche per me, tanto.",
-   "ko": "안녕! 나도 그랬어, 정말.",
-   "rd": "챠오! 안께 뻬르 메, 딴또.",
+   "it": "Ciao! Anche a me è piaciuto.",
+   "ko": "안녕! 나도 좋았어.",
+   "rd": "챠오! 안께 아 메 에 삐아츄또.",
    "emotion": "excited"
   },
   {
@@ -207,7 +212,7 @@
   {
    "num": 6,
    "speaker": "B",
-   "note": "cioè = 즉",
+   "note": "cioè = 그러니까",
    "tags": [
     "step:3"
    ],
@@ -243,7 +248,7 @@
    "at": "20:44",
    "grok": true,
    "it": "Scusa, cioè, ho detto male.",
-   "ko": "미안, 즉, 잘못 말했어.",
+   "ko": "미안, 그러니까, 잘못 말했어.",
    "rd": "스꾸자, 쵸에, 오 데또 말레.",
    "emotion": "flustered"
   },
@@ -278,15 +283,15 @@
   {
    "num": 8,
    "speaker": "B",
-   "note": "Boh = 뭐",
+   "note": "vabbè = 됐어",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
+     "ehm",
+     "ehm",
      ""
     ],
     [
@@ -295,38 +300,25 @@
      ""
     ],
     [
-     "tranquillo",
-     "tranquillo",
+     "vuoi",
+     "volere",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "20:46",
    "grok": true,
-   "it": "Boh, vabbè. Tranquillo. 💕",
-   "ko": "뭐, 됐어. 진정해. 💕",
-   "rd": "보, 바베. 트란뀔로. 💕",
+   "it": "Ehm... vabbè. Se vuoi. 💕",
+   "ko": "음... 됐어. 원하면. 💕",
+   "rd": "엠... 바베. 쎄 부오이. 💕",
    "segs": [
     [
      "flustered",
-     "Boh, vabbè."
+     "Ehm... vabbè."
     ],
     [
      "gentle",
-     " Tranquillo. 💕"
-    ]
-   ],
-   "it_f": "Boh, vabbè. Tranquilla. 💕",
-   "ko_f": "뭐, 됐어. 진정해. 💕",
-   "rd_f": "보, 바베. 트란뀔라. 💕",
-   "segs_f": [
-    [
-     "flustered",
-     "Boh, vabbè."
-    ],
-    [
-     "gentle",
-     " Tranquilla. 💕"
+     " Se vuoi. 💕"
     ]
    ]
   }

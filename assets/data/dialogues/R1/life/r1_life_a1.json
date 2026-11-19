@@ -32,7 +32,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "sei uscito/a = 나갔었어",
+   "note": "sei tornato / a = 들어왔어",
    "tags": [
     "step:6"
    ],
@@ -49,8 +49,8 @@
      ""
     ],
     [
-     "uscito",
-     "uscire",
+     "tornato",
+     "tornare",
      ""
     ],
     [
@@ -60,18 +60,18 @@
     ]
    ],
    "grok": true,
-   "it": "Ehi, sei uscito tardi?",
-   "ko": "야, 늦게 나갔었어?",
-   "rd": "에이, 쎄이 우시또 따르디?",
-   "it_f": "Ehi, sei uscita tardi?",
-   "ko_f": "야, 늦게 나갔었어?",
-   "rd_f": "에이, 쎄이 우시따 따르디?",
+   "it": "Ehi, sei tornato tardi?",
+   "ko": "야, 늦게 들어왔어?",
+   "rd": "에이, 쎄이 또르나또 따르디?",
+   "it_f": "Ehi, sei tornata tardi?",
+   "ko_f": "야, 늦게 들어왔어?",
+   "rd_f": "에이, 쎄이 또르나따 따르디?",
    "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "note": "sono uscito/a = 나갔었어",
+   "note": "sono uscito / a = 나갔었어",
    "tags": [
     "step:6"
    ],
@@ -167,7 +167,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "mi porti = 나한테 가져와",
+   "note": "di chi = 누구의",
    "tags": [
     "step:7",
     "step:3"
@@ -175,41 +175,41 @@
    "new": [],
    "lemmas": [
     [
-     "porti",
-     "portare",
+     "è",
+     "essere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Mi porti la rosa?",
-   "ko": "나한테 장미 가져와?",
-   "rd": "미 뽀르띠 라 로자?",
+   "it": "Di chi è la rosa?",
+   "ko": "누구 장미야?",
+   "rd": "디 끼 에 라 로자?",
    "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "la porto = 그걸 가져와",
+   "note": "la = 그걸",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "porto",
-     "porto",
+     "è",
+     "essere",
      ""
     ],
     [
-     "casa",
-     "casa",
+     "nonna",
+     "nonna|nonno",
      ""
     ]
    ],
    "grok": true,
-   "it": "No, la porto a casa.",
-   "ko": "아니, 집에 가져와.",
-   "rd": "노, 라 뽀르또 아 까자.",
+   "it": "No, è per la nonna.",
+   "ko": "아니, 할머니 거야.",
+   "rd": "노, 에 뻬르 라 논나.",
    "emotion": "flustered"
   },
   {
@@ -236,7 +236,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "mi piace = 좋아해",
+   "note": "della = 의",
    "tags": [
     "step:8"
    ],
@@ -253,15 +253,20 @@
      ""
     ],
     [
-     "piace",
-     "piacere",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "nonna",
+     "nonna|nonno",
      ""
     ]
    ],
    "grok": true,
-   "it": "Va bene. Mi piace la rosa.",
-   "ko": "괜찮아. 장미가 좋아.",
-   "rd": "바 베네. 미 삐아체 라 로자.",
+   "it": "Va bene. È della nonna Giulia.",
+   "ko": "괜찮아. 줄리아 할머니 거야.",
+   "rd": "바 베네. 에 델라 논나 줄리아.",
    "segs": [
     [
      "shy",
@@ -269,7 +274,7 @@
     ],
     [
      "annoyed",
-     " Mi piace la rosa."
+     " È della nonna Giulia."
     ]
    ]
   }

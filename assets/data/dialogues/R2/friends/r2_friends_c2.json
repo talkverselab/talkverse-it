@@ -174,7 +174,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "Ma dai = 에이, 설마",
+   "note": "mamma mia = 세상에",
    "tags": [
     "step:7"
    ],
@@ -246,15 +246,15 @@
    "ui": "bubble",
    "at": "15:23",
    "grok": true,
-   "it": "Ahah, ma era il preferito 😂",
-   "ko": "아하, 근데 제일 좋아하는 거였어 😂",
-   "rd": "아아, 마 에라 일 프레페리또 😂",
+   "it": "Ahah, ma era il mio preferito 😂",
+   "ko": "아하, 근데 내가 제일 좋아하는 거였어 😂",
+   "rd": "아아, 마 에라 일 미오 프레페리또 😂",
    "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "compro = 사",
+   "note": "te ne compro = 너에게 하나 사",
    "tags": [
     "step:7"
    ],
@@ -262,16 +262,16 @@
    "lemmas": [
     [
      "compro",
-     "comprare",
+     "compro",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "15:24",
    "grok": true,
-   "it": "Ma dai, ne compro uno 🍦",
+   "it": "Ma dai, te ne compro uno 🍦",
    "ko": "에이, 하나 사 줄게 🍦",
-   "rd": "마 다이, 네 꼼프로 우노 🍦",
+   "rd": "마 다이, 떼 네 꼼프로 우노 🍦",
    "emotion": "gentle"
   }
  ]

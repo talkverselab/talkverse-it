@@ -214,27 +214,32 @@
   {
    "num": 7,
    "speaker": "C",
-   "note": "dal frigo = 냉장고에서",
+   "note": "ho fame = 배고파",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "frigo",
-     "frigo",
+     "scusa",
+     "scusa",
      ""
     ],
     [
-     "cucina",
-     "cucina",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "fame",
+     "fame",
      ""
     ]
    ],
    "grok": true,
-   "it": "Dal frigo della cucina.",
-   "ko": "부엌 냉장고에서.",
-   "rd": "달 프리고 델라 꾸치나.",
+   "it": "Sì, scusa... ho fame!",
+   "ko": "응, 미안... 배고팠어!",
+   "rd": "씨, 스꾸자... 오 파메!",
    "emotion": "flustered"
   },
   {
@@ -269,7 +274,7 @@
    ],
    "grok": true,
    "it": "Mamma mia. Lascia stare, farò io.",
-   "ko": "세상에. 내버려 둬, 내가 할게.",
+   "ko": "세상에. 됐어, 신경 쓰지 마, 내가 할게.",
    "rd": "맘마 미아. 라샤 스따레, 파로 이오.",
    "segs": [
     [

@@ -30,7 +30,7 @@
   {
    "num": 1,
    "speaker": "A",
-   "note": "sono arrivato/a = 도착했어",
+   "note": "sono arrivato / a = 도착했어",
    "tags": [
     "step:6"
    ],
@@ -136,7 +136,7 @@
   {
    "num": 4,
    "speaker": "B",
-   "note": "guarda = 봐; vieni = 와",
+   "note": "guarda = 봐",
    "tags": [
     "step:9"
    ],
@@ -154,9 +154,9 @@
     ]
    ],
    "grok": true,
-   "it": "Guarda lei, vieni.",
-   "ko": "그녀 봐, 와.",
-   "rd": "구아르다 레이, 비에니.",
+   "it": "Guarda quella, vieni.",
+   "ko": "저쪽 봐, 와.",
+   "rd": "구아르다 꿸라, 비에니.",
    "emotion": "teasing"
   },
   {
@@ -197,11 +197,6 @@
    "new": [],
    "lemmas": [
     [
-     "allora",
-     "allora",
-     ""
-    ],
-    [
      "sono",
      "essere",
      ""
@@ -213,13 +208,13 @@
     ]
    ],
    "grok": true,
-   "it": "Allora, sono io! Che bello.",
-   "ko": "그럼, 나야! 멋지네.",
-   "rd": "알로라, 쏘노 이오! 께 벨로.",
+   "it": "Sono io, dai! Che bello.",
+   "ko": "나야, 진짜! 신나네.",
+   "rd": "쏘노 이오, 다이! 께 벨로.",
    "segs": [
     [
      "teasing",
-     "Allora, sono io!"
+     "Sono io, dai!"
     ],
     [
      "cheerful",
@@ -249,14 +244,14 @@
    ],
    "grok": true,
    "it": "Ti vedo ora.",
-   "ko": "지금 너를 봐.",
+   "ko": "이제 보인다.",
    "rd": "띠 베도 오라.",
    "emotion": "surprised"
   },
   {
    "num": 8,
    "speaker": "B",
-   "note": "sei = 이야; bravo/a = 잘한",
+   "note": "sei = 이야; bravo / a = 잘한",
    "tags": [
     "step:2"
    ],

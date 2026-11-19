@@ -1,0 +1,24 @@
+=== r1_work_a1
+level: R1
+kind: short
+title: 첫 출근에 「엄마」
+emoji: 🍝
+scene: 학습자의 첫 아르바이트 날. 동네 식당 주인 네리 부인이 첫 일을 맡기고, 밥까지 챙겨 준다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Signora Neri(여)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 6 slip
+goal: 골격 단계 1·2·3·4·7·9 · 존댓말 Lei(è·può) ↔ 나(sono·posso) · 성별판 il nuovo ragazzo/la nuova ragazza · pronto/pronta · bravo/brava · 굴절 반복 è/sono · può/posso · portare/porto · 표현 Certo · Davvero · Scusi
+expressions: Certo; Davvero; Scusi
+B | Lei è {il nuovo ragazzo|la nuova ragazza}? | 당신이 {새로운 남자|새로운 여자}인가요? | {il nuovo ragazzo|la nuova ragazza} = {새로운 남자|새로운 여자} | emotion=polite | tags=step:1
+A | Sì, sono pront{o|a}. | 네, 준비됐어요. | sono = 이에요 | emotion=stiff | tags=step:2
+B | Può portare il piatto al tavolo? | 접시를 테이블로 가져다 주실 수 있나요? | al tavolo = 테이블에 | emotion=polite | tags=step:4
+A | Certo, lo porto io. | 네, 제가 가져갈게요. | lo porto = 그걸 가져가요 | emotion=cheerful | tags=step:7,step:3
+B | È brav{o|a}, davvero. | 잘하시네요, 정말. | è = 이에요 | emotion=gentle | tags=step:9
+A | Grazie, mamma. // Davvero? | 고마워요, 엄마. // 정말요? | posso = 할 수 있어요 | emotion=excited+cheerful | tags=step:9,twist
+B | Scusi? Può ripetere? | 네? 다시 말씀해 주실 수 있나요? | può = 할 수 있나요 | emotion=amused | tags=step:9
+A | Scusi, signora. Porto il piatto. | 실례합니다, 부인. 접시 가져갈게요. | porto = 가져가요 | emotion=flustered | tags=step:3
+
+## 리뷰
+턴1: 한국어 「당신이 새로운 남자인가요?」 번역투 — 「새로 온 분이세요?」 식으로
+턴6: 반전(slip) 「mamma」 의 동기가 없음 — 장면의 「밥까지 챙겨 준다」 줄이 대사에 없음. 앞 턴에서 주인이 밥을 챙겨 줘야 「엄마」 실수가 웃김. 실수 뒤 학습자가 「Davvero?」 하는 것도 엉뚱함. note 「posso」 는 줄에 없는 낱말
+턴8: goal 의 「posso」(학습자)가 편 전체에 안 나옴 — 어딘가 넣게

@@ -16,5 +16,5 @@ C | Ti preghiamo, vai via. | 제발, 나가. | Ti preghiamo = 제발 | emotion=s
 A | Fate la pasta? | 파스타 만들 거야? | Fate = 만들 | emotion=amused | tags=step:9
 B | Faremo quella delle nostre madri. | 우리 엄마들 걸로 할 거야. | Faremo = 할 거야 | emotion=cheerful | tags=step:10,step:4
 A | Sono belle le ragazze? | 여자애들 예뻐? | Sono = 이다 | emotion=surprised | tags=step:2
-B | Sentite? // Sono le signore! | 들려? // 부인들이야! | Sentite = 들려 | emotion=cheerful+flustered | tags=step:1,twist
+B | Sentite? // Sono le nostre madri! | 들려? // 우리 엄마들이야! | Sentite = 들려 | emotion=cheerful+flustered | tags=step:1,twist
 A | Cosa? Le vostre madri? | 뭐? 너희 엄마들? | | emotion=surprised+teasing | tags=step:3

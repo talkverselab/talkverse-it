@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "mi sono sbagliato/a = 제가 착각했다",
+   "note": "mi sono sbagliato / a = 제가 착각했다",
    "tags": [
     "step:9",
     "step:3"
@@ -84,6 +84,16 @@
     [
      "sbagliato",
      "sbagliare",
+     ""
+    ],
+    [
+     "avessi",
+     "avere",
+     ""
+    ],
+    [
+     "saputo",
+     "sapere",
      ""
     ],
     [
@@ -103,12 +113,12 @@
     ]
    ],
    "grok": true,
-   "it": "Mi sono sbagliato, sarei venuto prima.",
-   "ko": "제가 착각했어요, 더 일찍 왔을 텐데요.",
-   "rd": "미 쏘노 스발리아또, 싸레이 베누또 프리마.",
-   "it_f": "Mi sono sbagliata, sarei venuta prima.",
-   "ko_f": "제가 착각했어요, 더 일찍 왔을 텐데요.",
-   "rd_f": "미 쏘노 스발리아따, 싸레이 베누따 프리마.",
+   "it": "Mi sono sbagliato. Se avessi saputo, sarei venuto prima.",
+   "ko": "제가 착각했어요. 알았으면 더 일찍 왔을 텐데요.",
+   "rd": "미 쏘노 스발리아또. 쎄 아베씨 싸뿌또, 싸레이 베누또 프리마.",
+   "it_f": "Mi sono sbagliata. Se avessi saputo, sarei venuta prima.",
+   "ko_f": "제가 착각했어요. 알았으면 더 일찍 왔을 텐데요.",
+   "rd_f": "미 쏘노 스발리아따. 쎄 아베씨 싸뿌또, 싸레이 베누따 프리마.",
    "emotion": "flustered"
   },
   {
@@ -180,14 +190,14 @@
    ],
    "grok": true,
    "it": "Avrei voluto arrivare in orario.",
-   "ko": "정시에 도착하고 싶었을 텐데요.",
+   "ko": "제때 오고 싶었는데.",
    "rd": "아브레이 볼루또 아리바레 인 오라리오.",
    "emotion": "polite"
   },
   {
    "num": 5,
    "speaker": "C",
-   "note": "mi aveva detto = 제게 말했었다",
+   "note": "di cui = 그것의",
    "tags": [
     "step:10",
     "step:6"
@@ -197,6 +207,11 @@
     [
      "infatti",
      "infatti",
+     ""
+    ],
+    [
+     "è",
+     "essere",
      ""
     ],
     [
@@ -211,15 +226,15 @@
     ]
    ],
    "grok": true,
-   "it": "Infatti, mi aveva detto Giulia.",
-   "ko": "맞아요, 줄리아가 제게 말했었어요.",
-   "rd": "인파띠, 미 아베바 데또 줄리아.",
+   "it": "Infatti, è quello di cui mi aveva detto Giulia.",
+   "ko": "맞아요, 줄리아가 제게 말했던 그거예요.",
+   "rd": "인파띠, 에 꿸로 디 꾸이 미 아베바 데또 줄리아.",
    "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "mamma mia = 엄마야",
+   "note": "mamma mia = 와",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -236,14 +251,14 @@
    ],
    "grok": true,
    "it": "Mamma mia, che buono!",
-   "ko": "엄마야, 정말 맛있어!",
+   "ko": "와, 정말 맛있네요!",
    "rd": "맘마 미아, 께 부오노!",
    "emotion": "excited"
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "non tagliare = 자르지 마",
+   "note": "di cui = 그것의",
    "tags": [
     "step:10"
    ],
@@ -263,12 +278,22 @@
      "spaghetti",
      "spaghetto",
      ""
+    ],
+    [
+     "avevo",
+     "avere",
+     ""
+    ],
+    [
+     "parlato",
+     "parlare",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Non tagliare gli spaghetti, dai!",
-   "ko": "스파게티 자르지 마, 야!",
-   "rd": "논 딸리아레 리 스빠게띠, 다이!",
+   "it": "Non tagliare gli spaghetti di cui ti avevo parlato, dai!",
+   "ko": "내가 말했던 그 스파게티 자르지 마!",
+   "rd": "논 딸리아레 리 스빠게띠 디 꾸이 띠 아베보 빠를라또, 다이!",
    "emotion": "tsukkomi"
   },
   {
@@ -303,10 +328,15 @@
   {
    "num": 9,
    "speaker": "C",
-   "note": "tranquillo = 걱정 마세요",
+   "note": "tranquillo / a = 걱정 마세요",
    "tags": [],
    "new": [],
    "lemmas": [
+    [
+     "stia",
+     "stare",
+     ""
+    ],
     [
      "tranquillo",
      "tranquillo",
@@ -329,15 +359,18 @@
     ]
    ],
    "grok": true,
-   "it": "Tranquillo, va bene così.",
+   "it": "Stia tranquillo, va bene così.",
    "ko": "걱정 마세요, 이렇게 괜찮아요.",
-   "rd": "트란뀔로, 바 베네 꼬지.",
+   "rd": "스띠아 트란뀔로, 바 베네 꼬지.",
+   "it_f": "Stia tranquilla, va bene così.",
+   "ko_f": "걱정 마세요, 이렇게 괜찮아요.",
+   "rd_f": "스띠아 트란뀔라, 바 베네 꼬지.",
    "emotion": "gentle"
   },
   {
    "num": 10,
    "speaker": "A",
-   "note": "avrebbe dovuto = 했어야 했다",
+   "note": "avrei dovuto = 했어야 했다",
    "tags": [
     "step:6",
     "step:5"
@@ -365,25 +398,25 @@
      ""
     ],
     [
-     "è",
-     "essere",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "meglio",
-     "meglio",
+     "tagliati",
+     "tagliare",
      ""
     ],
     [
-     "intero",
-     "intero",
+     "scusi",
+     "scusare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Avrei dovuto ascoltare. Infatti è meglio intero.",
-   "ko": "들었어야 했을 텐데요. 맞아요 통째로가 더 좋아요.",
-   "rd": "아브레이 도부또 아스꼴따레. 인파띠 에 멜리오 인떼로.",
+   "it": "Avrei dovuto ascoltare. Infatti li ho tagliati, scusi.",
+   "ko": "들었어야 했을 텐데요. 맞아요 제가 잘라 버렸어요, 실례합니다.",
+   "rd": "아브레이 도부또 아스꼴따레. 인파띠 리 오 딸리아띠, 스꾸지.",
    "segs": [
     [
      "excited",
@@ -391,7 +424,7 @@
     ],
     [
      "cheerful",
-     " Infatti è meglio intero."
+     " Infatti li ho tagliati, scusi."
     ]
    ]
   },
@@ -405,6 +438,11 @@
    "new": [],
    "lemmas": [
     [
+     "è",
+     "essere",
+     ""
+    ],
+    [
      "parlavamo",
      "parlare",
      ""
@@ -416,9 +454,9 @@
     ]
    ],
    "grok": true,
-   "it": "Di cui parlavamo prima, sì.",
-   "ko": "우리가 전에 말하던 그것, 네.",
-   "rd": "디 꾸이 빠를라바모 프리마, 씨.",
+   "it": "È quello di cui parlavamo prima, sì.",
+   "ko": "우리가 전에 말하던 그거예요, 네.",
+   "rd": "에 꿸로 디 꾸이 빠를라바모 프리마, 씨.",
    "emotion": "teasing"
   },
   {
@@ -448,33 +486,33 @@
     ]
    ],
    "grok": true,
-   "it": "Ti avevo detto di non tagliarlo!",
-   "ko": "너에게 자르지 말라고 말했었잖아!",
-   "rd": "띠 아베보 데또 디 논 딸리아를로!",
+   "it": "Ma dai, ti avevo detto di non tagliarlo!",
+   "ko": "에이, 자르지 말라고 내가 말했었잖아!",
+   "rd": "마 다이, 띠 아베보 데또 디 논 딸리아를로!",
    "emotion": "flustered"
   },
   {
    "num": 13,
    "speaker": "A",
-   "note": "sarei venuto/a = 왔을 것이다",
+   "note": "non l'avevo capito = 이해하지 못했다",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "sarei",
-     "saere",
+     "non",
+     "non",
      ""
     ],
     [
-     "venuto",
-     "venire",
+     "avevo",
+     "avere",
      ""
     ],
     [
-     "prima",
-     "prima",
+     "capito",
+     "capire",
      ""
     ],
     [
@@ -484,12 +522,9 @@
     ]
    ],
    "grok": true,
-   "it": "Sarei venuto prima, scusi.",
-   "ko": "더 일찍 왔을 텐데요, 실례합니다.",
-   "rd": "싸레이 베누또 프리마, 스꾸지.",
-   "it_f": "Sarei venuta prima, scusi.",
-   "ko_f": "더 일찍 왔을 텐데요, 실례합니다.",
-   "rd_f": "싸레이 베누따 프리마, 스꾸지.",
+   "it": "Non l'avevo capito, scusi.",
+   "ko": "이해하지 못했어요, 실례합니다.",
+   "rd": "논 라베보 까삐또, 스꾸지.",
    "emotion": "flustered"
   },
   {

@@ -12,7 +12,7 @@ expressions: Senti; Davvero
 B | Oh! Sei qui anche tu. | 어! 너도 여기 있네. | sei = 이다 | emotion=surprised | tags=
 A | Sì, bevo acqua. | 응, 물 마시러. | bevo = 마시다 | emotion=gentle | tags=
 B | Non dormo... | 잠이 안 와... | dormo = 자다 | emotion=worried | tags=
-A | Senti, cosa c'è? | 들어, 무슨 일이야? | Senti = 들어 | emotion=gentle | tags=
+A | Senti, cosa c'è? | 있잖아, 무슨 일이야? | Senti = 있잖아 | emotion=gentle | tags=
 B | Penso a te. | 너 생각해. | penso = 생각하다 | emotion=shy | tags=
 A | Davvero? Io? | 진짜? 나? | Davvero = 진짜 | emotion=surprised | tags=
 B | Sì... da tanto. | 응... 오래전부터. | da = 부터 | emotion=shy | tags=twist

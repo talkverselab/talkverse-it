@@ -120,27 +120,32 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "mi porti = 나를 데려가",
+   "note": "dove = 어디서",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "porti",
-     "portare",
+     "dove",
+     "dove",
      ""
     ],
     [
-     "fiume",
-     "fiume",
+     "vediamo",
+     "vedere",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
      ""
     ]
    ],
    "grok": true,
-   "it": "Mi porti tu al fiume?",
-   "ko": "네가 강으로 데려가 줄래?",
-   "rd": "미 뽀르띠 뚜 알 피우메?",
+   "it": "Dove ci vediamo domani?",
+   "ko": "내일 어디서 봐?",
+   "rd": "도베 치 베디아모 도마니?",
    "emotion": "excited"
   },
   {
@@ -229,6 +234,9 @@
    "it": "Tranquillo, guarda il tramonto.",
    "ko": "진정해, 노을 봐.",
    "rd": "트란뀔로, 구아르다 일 트라몬또.",
+   "it_f": "Tranquilla, guarda il tramonto.",
+   "ko_f": "진정해, 노을 봐.",
+   "rd_f": "트란뀔라, 구아르다 일 트라몬또.",
    "emotion": "gentle"
   },
   {
@@ -263,7 +271,7 @@
    ],
    "grok": true,
    "it": "Mi piace... cioè, stare qui.",
-   "ko": "좋아해... 즉, 여기 있는 거.",
+   "ko": "좋아해... 아니, 그러니까 여기 있는 거.",
    "rd": "미 삐아체... 쵸에, 스따레 뀌.",
    "segs": [
     [

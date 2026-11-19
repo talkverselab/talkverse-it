@@ -67,14 +67,14 @@
    "new": [],
    "lemmas": [
     [
-     "dai",
+     "Dai",
      "dai",
      ""
     ]
    ],
    "grok": true,
    "it": "Per me? Dai!",
-   "ko": "나 거야? 에이!",
+   "ko": "내 거야? 에이!",
    "rd": "뻬르 메? 다이!",
    "emotion": "teasing"
   },
@@ -86,7 +86,7 @@
    "new": [],
    "lemmas": [
     [
-     "no",
+     "No",
      "no",
      ""
     ]
@@ -175,7 +175,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "Dai = 에이",
+   "note": "chiamalo / a = 불러",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -189,6 +189,9 @@
    "it": "Dai, chiamalo.",
    "ko": "에이, 불러.",
    "rd": "다이, 끼아말로.",
+   "it_f": "Dai, chiamala.",
+   "ko_f": "에이, 불러.",
+   "rd_f": "다이, 끼아말라.",
    "emotion": "shy"
   }
  ]

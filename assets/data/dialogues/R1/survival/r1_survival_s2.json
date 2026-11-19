@@ -30,7 +30,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "sta = 있으세요",
+   "note": "sta = 지내세요",
    "tags": [
     "step:9"
    ],
@@ -61,7 +61,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "sto = 있어요",
+   "note": "sto = 지내요",
    "tags": [
     "step:2",
     "step:9"
@@ -212,12 +212,22 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "la serie = 시리즈(여)",
+   "note": "ho guardato = 봤어요",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
+    [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "guardato",
+     "guardare",
+     ""
+    ],
     [
      "serie",
      "serie",
@@ -230,9 +240,9 @@
     ]
    ],
    "grok": true,
-   "it": "Sì, la serie sul telefono.",
-   "ko": "네, 폰으로 시리즈요.",
-   "rd": "씨, 라 쎄리에 쑬 뗄레포노.",
+   "it": "Sì, ho guardato la serie sul telefono.",
+   "ko": "네, 폰으로 시리즈 봤어요.",
+   "rd": "씨, 오 구아르다또 라 쎄리에 쑬 뗄레포노.",
    "emotion": "shy"
   },
   {

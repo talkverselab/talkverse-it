@@ -83,7 +83,7 @@
   {
    "num": 3,
    "speaker": "C",
-   "note": "ci sono = 있다 (ci)",
+   "note": "fermata = 정류장·역",
    "tags": [
     "step:8"
    ],
@@ -95,13 +95,18 @@
      ""
     ],
     [
-     "sono",
-     "essere",
+     "ha",
+     "avere",
      ""
     ],
     [
-     "problemi",
-     "problema",
+     "già",
+     "già",
+     ""
+    ],
+    [
+     "passato",
+     "passare",
      ""
     ],
     [
@@ -111,15 +116,15 @@
     ]
    ],
    "grok": true,
-   "it": "Grazie. Ci sono problemi con la fermata?",
-   "ko": "감사합니다. 내릴 역에 문제 있나요?",
-   "rd": "그라찌에. 치 쏘노 프로블레미 꼰 라 페르마따?",
+   "it": "Grazie. Ha già passato la sua fermata.",
+   "ko": "감사합니다. 내릴 역을 이미 지나치셨네요.",
+   "rd": "그라찌에. 아 쟈 빠싸또 라 쑤아 페르마따.",
    "emotion": "polite"
   },
   {
    "num": 4,
    "speaker": "A",
-   "note": "mi sono addormentato/a = 잠들었다 (재귀 근과거)",
+   "note": "mi sono addormentato / a = 잠들었다 (재귀 근과거)",
    "tags": [
     "step:9"
    ],
@@ -226,35 +231,25 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "Lo sapevo = 알고 있었어(반과거)",
+   "note": "mi avevi detto = 네가 나에게 말했었다(대과거)",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "sapevo",
+     "so",
      "sapere",
      ""
     ],
     [
-     "era",
-     "essere",
-     ""
-    ],
-    [
-     "tardi",
-     "tardi",
-     ""
-    ],
-    [
-     "però",
-     "però",
+     "detto",
+     "dire",
      ""
     ]
    ],
    "grok": true,
-   "it": "Lo sapevo che era tardi, però.",
-   "ko": "늦은 줄은 알았는데, 그래도.",
-   "rd": "로 싸뻬보 께 에라 따르디, 뻬로.",
+   "it": "Lo so, mi avevi detto di svegliarmi.",
+   "ko": "알아, 네가 깨우라고 했었지.",
+   "rd": "로 쏘, 미 아베비 데또 디 스벨리아르미.",
    "emotion": "annoyed"
   },
   {
@@ -278,11 +273,6 @@
      ""
     ],
     [
-     "prima",
-     "prima",
-     ""
-    ],
-    [
      "poi",
      "poi",
      ""
@@ -299,12 +289,12 @@
     ]
    ],
    "grok": true,
-   "it": "Me l'avevi detto prima. Poi ti sei riaddormentato.",
-   "ko": "아까 나한테 말했었잖아. 그다음 또 잠들었어.",
-   "rd": "메 라베비 데또 프리마. 뽀이 띠 쎄이 리아도르멘따또.",
-   "it_f": "Me l'avevi detto prima. Poi ti sei riaddormentata.",
-   "ko_f": "아까 나한테 말했었잖아. 그다음 또 잠들었어.",
-   "rd_f": "메 라베비 데또 프리마. 뽀이 띠 쎄이 리아도르멘따따.",
+   "it": "Me l'avevi detto di svegliarti. Poi ti sei riaddormentato.",
+   "ko": "깨워 달라고 나한테 말했었잖아. 그다음 또 잠들었어.",
+   "rd": "메 라베비 데또 디 스벨리아르띠. 뽀이 띠 쎄이 리아도르멘따또.",
+   "it_f": "Me l'avevi detto di svegliarti. Poi ti sei riaddormentata.",
+   "ko_f": "깨워 달라고 나한테 말했었잖아. 그다음 또 잠들었어.",
+   "rd_f": "메 라베비 데또 디 스벨리아르띠. 뽀이 띠 쎄이 리아도르멘따따.",
    "emotion": "teasing"
   },
   {
@@ -351,7 +341,7 @@
   {
    "num": 9,
    "speaker": "A",
-   "note": "la differenza = 차액 · contanti = 현금",
+   "note": "la differenza = 차액",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -490,35 +480,45 @@
      ""
     ],
     [
-     "adesso",
-     "adesso",
+     "anch",
+     "anch",
      ""
     ],
     [
-     "rimetti",
-     "rimettire",
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "persa",
+     "perdere",
+     ""
+    ],
+    [
+     "apposta",
+     "apposta",
      ""
     ]
    ],
    "grok": true,
-   "it": "Me lo avevi promesso! Adesso ci rimetti tu.",
-   "ko": "나한테 약속했었잖아! 이제 네가 손해 보는 거네.",
-   "rd": "메 로 아베비 프로메쏘! 아데쏘 치 리메띠 뚜.",
+   "it": "Me lo avevi promesso di svegliarmi! Anch'io l'ho persa apposta.",
+   "ko": "깨워 달라고 약속했었잖아! 나도 일부러 놓쳤어.",
+   "rd": "메 로 아베비 프로메쏘 디 스벨리아르미! 안끼오 로 뻬르싸 아뽀스따.",
    "segs": [
     [
      "surprised",
-     "Me lo avevi promesso!"
+     "Me lo avevi promesso di svegliarmi!"
     ],
     [
      "annoyed",
-     " Adesso ci rimetti tu."
+     " Anch'io l'ho persa apposta."
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "C",
-   "note": "Può pagare = 결제하실 수 있어요(Lei)",
+   "note": "se preferisce = 원하시면(Lei)",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -552,7 +552,7 @@
   {
    "num": 14,
    "speaker": "A",
-   "note": "la pago = 그걸 낼게요 · giusto = 공평한",
+   "note": "la pago = 그걸 내다",
    "tags": [],
    "new": [],
    "lemmas": [

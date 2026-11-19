@@ -80,7 +80,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "avevo preso = 집었었다 (반과거+근과거)",
+   "note": "avevo preso = 집었었다 (대과거)",
    "tags": [
     "step:5"
    ],
@@ -131,7 +131,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "fossi venuto/a = 왔다면 (가정문)",
+   "note": "fossi venuto / a = 왔다면 (가정문)",
    "tags": [
     "step:4"
    ],
@@ -288,26 +288,26 @@
      ""
     ],
     [
-     "trovassi",
-     "trovassare",
+     "prestassi",
+     "prestassare",
      ""
     ],
     [
-     "note",
-     "nota",
+     "appunti",
+     "appunto",
      ""
     ]
    ],
    "grok": true,
-   "it": "Penso che veda ogni dettaglio. Volevo che trovassi le note.",
-   "ko": "모든 걸 다 본다고 생각해. 필기 찾아주길 바랐어.",
-   "rd": "뻰쏘 께 베다 오니 데딸리오. 볼레보 께 트로바씨 레 노떼.",
+   "it": "Penso che veda ogni dettaglio. Volevo che mi prestassi gli appunti.",
+   "ko": "모든 디테일을 다 보는 것 같아. 필기 빌려주길 바랐어.",
+   "rd": "뻰쏘 께 베다 오니 데딸리오. 볼레보 께 미 프레스따씨 리 아뿐띠.",
    "emotion": "worried"
   },
   {
    "num": 7,
    "speaker": "C",
-   "note": "le ho = 그것들을 갖고 있다 · se ti servono = 너한테 필요하면",
+   "note": "li ho = 그것들을 가지고 있다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -328,15 +328,15 @@
     ]
    ],
    "grok": true,
-   "it": "Io… le ho sempre con me, se ti servono.",
+   "it": "Io… li ho sempre con me, se ti servono.",
    "ko": "나… 항상 가지고 있어, 필요하면.",
-   "rd": "이오… 레 오 쎔프레 꼰 메, 쎄 띠 쎄르보노.",
+   "rd": "이오… 리 오 쎔프레 꼰 메, 쎄 띠 쎄르보노.",
    "emotion": "shy"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "ce le avessi = 네가 그것들을 갖고 있다(접속법 반과거)",
+   "note": "ce li avessi = 네가 그것들을 가지고 있다(접속법)",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -362,9 +362,9 @@
     ]
    ],
    "grok": true,
-   "it": "Davvero? Non sapevo che ce le avessi tu.",
+   "it": "Davvero? Non sapevo che ce li avessi tu.",
    "ko": "진짜? 네가 가지고 있는 줄 몰랐어.",
-   "rd": "다베로? 논 싸뻬보 께 체 레 아베씨 뚜.",
+   "rd": "다베로? 논 싸뻬보 께 체 리 아베씨 뚜.",
    "emotion": "flustered"
   },
   {
@@ -437,25 +437,25 @@
   {
    "num": 11,
    "speaker": "C",
-   "note": "me li = 그것들을 나에게",
+   "note": "glieli = 그것들을 그(녀)에게",
    "tags": [
     "step:7"
    ],
    "new": [],
    "lemmas": [
     [
-     "ha",
-     "avere",
+     "glieli",
+     "glieli",
      ""
     ],
     [
-     "chiesti",
-     "chiegsiere",
+     "presto",
+     "presto",
      ""
     ],
     [
-     "prima",
-     "prima",
+     "sempre",
+     "sempre",
      ""
     ],
     [
@@ -470,9 +470,9 @@
     ]
    ],
    "grok": true,
-   "it": "Sì, me li ha chiesti prima. Magari ti aiutano.",
-   "ko": "응, 아까 나한테 부탁했어. 도움이 될지도.",
-   "rd": "씨, 메 리 아 끼에스띠 프리마. 마가리 띠 아이우따노.",
+   "it": "Sì, glieli presto sempre. Magari ti aiutano.",
+   "ko": "응, 항상 빌려주곤 해. 도움이 될지도.",
+   "rd": "씨, 리엘리 프레스또 쎔프레. 마가리 띠 아이우따노.",
    "emotion": "teasing"
   },
   {
@@ -505,15 +505,15 @@
      ""
     ],
     [
-     "chiedere",
-     "chiedere",
+     "piaci",
+     "piacare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ci pensavo anch'io… Ma non osavo chiedere.",
-   "ko": "나도 생각하고 있었어… 근데 묻기 무서웠어.",
-   "rd": "치 뻰싸보 안끼오… 마 논 오자보 끼에데레.",
+   "it": "Ci pensavo anch'io… Ma non osavo dirti che mi piaci.",
+   "ko": "나도 생각하고 있었어… 근데 너 좋아한다고 말하기 무서웠어.",
+   "rd": "치 뻰싸보 안끼오… 마 논 오자보 디르띠 께 미 삐아치.",
    "segs": [
     [
      "surprised",
@@ -521,7 +521,7 @@
     ],
     [
      "shy",
-     " Ma non osavo chiedere."
+     " Ma non osavo dirti che mi piaci."
     ]
    ]
   },
@@ -555,26 +555,31 @@
      ""
     ],
     [
-     "scritto",
-     "scrivere",
+     "biglietto",
+     "biglietto",
      ""
     ],
     [
      "fondo",
      "fondo",
      ""
+    ],
+    [
+     "appunti",
+     "appunto",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Volevo che trovassi il coraggio. È scritto in fondo.",
-   "ko": "용기 내길 바랐어. 맨 뒤에 적혀 있어.",
-   "rd": "볼레보 께 트로바씨 일 꼬라조. 에 스크리또 인 폰도.",
+   "it": "Volevo che trovassi il coraggio. C'è un biglietto in fondo agli appunti.",
+   "ko": "용기 내길 바랐어. 필기 맨 뒤에 쪽지가 있어.",
+   "rd": "볼레보 께 트로바씨 일 꼬라조. 체 운 빌리에또 인 폰도 알리 아뿐띠.",
    "emotion": "shy"
   },
   {
    "num": 14,
    "speaker": "A",
-   "note": "ci provo = 해 볼게(ci = 그것에)",
+   "note": "lo leggo = 그걸 읽다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -589,18 +594,13 @@
      ""
     ],
     [
-     "vero",
-     "vero",
-     ""
-    ],
-    [
      "allora",
      "allora",
      ""
     ],
     [
-     "provo",
-     "provare",
+     "leggo",
+     "leggare",
      ""
     ],
     [
@@ -610,9 +610,9 @@
     ]
    ],
    "grok": true,
-   "it": "Magari è vero! Allora ci provo subito.",
-   "ko": "진짜일지도! 그럼 바로 해볼게.",
-   "rd": "마가리 에 베로! 알로라 치 프로보 쑤비또.",
+   "it": "Magari è per me! Allora lo leggo subito.",
+   "ko": "나한테 쓰는 걸지도! 그럼 바로 읽어볼게.",
+   "rd": "마가리 에 뻬르 메! 알로라 로 레고 쑤비또.",
    "emotion": "excited"
   }
  ]

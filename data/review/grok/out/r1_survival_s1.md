@@ -10,10 +10,10 @@ twist: 7 chaos
 goal: 골격 단계 3·7·9 · 존댓말 Lei(prende·vuole·capisce) ↔ 나(prendo·capisco) · 표현 per favore · Scusi · Va bene
 expressions: per favore; Scusi; Va bene
 B | Prende il caffè al banco? | 카운터에서 드시겠어요? | prende = 드시나요 | emotion=polite | tags=step:3
-A | Sì, prendo, per favore. | 네, 마셔요. | prendo = 마셔요 | emotion=stiff | tags=step:3
+A | Sì, lo prendo, per favore. | 네, 그거 마셔요, 부탁해요. | lo prendo = 그걸 마셔요 | emotion=stiff | tags=step:3
 B | Lo vuole con zucchero? | 설탕 넣어서 드릴까요? | lo vuole = 그걸 원하시나요 | emotion=polite | tags=step:7
 A | Sì, capisco tutto. | 네, 다 알아요. | capisco = 알아요 | emotion=stiff | tags=step:9
 B | Capisce? // Vuole anche un cornetto? | 이해하시나요? // 크루아상도 드시겠어요? | vuole = 원하시나요 | emotion=surprised+amused | tags=step:9
 A | Sì, voglio il cornetto. | 네, 크루아상 원해요. | voglio = 원해요 | emotion=excited | tags=step:9
-B | Allora al tavolo. // Va bene, Scusi. | 그럼 테이블로. // 알겠어요, 실례합니다. | al tavolo = 테이블에 | emotion=polite+amused | tags=step:4,twist
+B | Allora sì a tutto. // Va bene al tavolo? | 그럼 다 네로. // 테이블로 괜찮아요? | al tavolo = 테이블에 | emotion=polite+amused | tags=step:4,twist
 A | Scusi? // Prendo solo il caffè. | 네? // 커피만 마셔요. | prendo = 마셔요 | emotion=surprised+flustered | tags=step:3

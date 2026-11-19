@@ -1,0 +1,10 @@
+턴1: 「me l'hanno rubata」 한국어 「내 걸 훔쳐갔어」 — 「내 오토바이 훔쳐 갔어」로 대상 분명히
+턴4: 「어제 이겼고」 — 이긴 건 응원 팀이지 루카가 아님(hai vinto 틀림), 팀이 이긴 다음 날이라는 뜻이 되게
+턴5: 「Ma dai, l'avevo lasciata qui!」 감정 excited 와 「야, 내가 여기 놔뒀었잖아」가 어색 — 억울함이 드러나게
+턴6: 「Speravo che non fosse successo」는 상황에 어색(바랐었다?) — 접속법 과거를 「누가 가져간 게 아니길 바라」처럼 자연스럽게
+턴7: 한국어 「누가 가져간 거야, 너는?」 번역투 — 「네 생각엔 누가 가져간 것 같아?」
+턴8: B 는 루카(남자)인데 학습자 성별 표시 {o|a} 를 씀 — 루카 자신의 성으로 arrabbiato
+턴10: 「Non ci credo che sia sparita」 ci 와 che 절 중복으로 어색 — 「믿기지 않는다」를 한 가지 구조로
+턴11: 반전(chaos)이 안 보임 — 「어제 이야기했잖아」만으로는 무슨 꼬임인지 불분명, 예컨대 어제 축하하다 루카가 오토바이를 다른 데 두고 왔다는 게 드러나게
+턴12: 「Glielo avevo detto a te」 — glielo 는 「그/그녀에게」, a te 와 겹쳐 틀림(te l'avevo detto 가 맞음)
+턴14: 「Chi me la riporta, glielo do」 — glielo 가 무엇을 주는지 불분명, 「돌려주는 사람에게 ~을 준다」가 분명하게

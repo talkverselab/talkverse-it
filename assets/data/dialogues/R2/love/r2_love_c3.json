@@ -65,7 +65,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "addormentato/a = 잠들었어",
+   "note": "addormentato / a = 잠들었어",
    "tags": [
     "step:5"
    ],
@@ -101,7 +101,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "Cioè = 즉",
+   "note": "Cioè = 아니",
    "tags": [
     "step:5"
    ],
@@ -132,7 +132,7 @@
    "at": "22:32",
    "grok": true,
    "it": "Cioè, davvero? Non ci credo.",
-   "ko": "즉, 진짜? 안 믿어.",
+   "ko": "아니, 진짜? 안 믿어.",
    "rd": "쵸에, 다베로? 논 치 크레도.",
    "emotion": "annoyed"
   },
@@ -278,7 +278,7 @@
      ""
     ],
     [
-     "tranquillo",
+     "tranquilla",
      "tranquillo",
      ""
     ]
@@ -286,23 +286,10 @@
    "ui": "bubble",
    "at": "22:38",
    "grok": true,
-   "it": "Certo, ci sto. Tranquillo.",
-   "ko": "물론, 좋아. 진정해.",
-   "rd": "체르또, 치 스또. 트란뀔로.",
+   "it": "Certo, ci sto. Tranquilla.",
+   "ko": "물론, 좋아. 걱정 마.",
+   "rd": "체르또, 치 스또. 트란뀔라.",
    "segs": [
-    [
-     "shy",
-     "Certo, ci sto."
-    ],
-    [
-     "flustered",
-     " Tranquillo."
-    ]
-   ],
-   "it_f": "Certo, ci sto. Tranquilla.",
-   "ko_f": "물론, 좋아. 진정해.",
-   "rd_f": "체르또, 치 스또. 트란뀔라.",
-   "segs_f": [
     [
      "shy",
      "Certo, ci sto."

@@ -10,11 +10,11 @@ twist: 7 emotion
 goal: 그래머2: R1 같은 문장을 복수로 — tornate/torniamo · siete pronti/siamo pronti · dite · possiamo · diteci · ci piace · ci piacete (새 단어 0) · 표현 Ehi · Allora · Certo
 expressions: Ehi; Allora; Certo
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
-B | Ehi, tornate voi domani? | 야, 너희 내일 돌아와? | tornate = 너희 돌아온다 | emotion=shy | tags=step:3,step:2
-A | No, non siamo pronti ancora. | 아니, 우리 아직 준비 안 됐어. | siamo pronti = 우리 준비됐다 | emotion=sad | tags=step:2,step:3
-D | Certo, potete tornare dopo! | 당연하지, 너희 나중에 돌아올 수 있어! | potete = 너희 할 수 있다 | emotion=teasing | tags=step:9
-C | Sì, torniamo domani sera. | 응, 우리 내일 저녁에 돌아와. | torniamo = 우리 돌아온다 | emotion=gentle | tags=step:2
+B | Ehi, quando tornate? | 야, 언제 돌아와? | tornate = 너희 돌아온다 | emotion=shy | tags=step:3,step:2
+A | No, non abbiamo ancora fatto le valigie. | 아니, 아직 짐 안 쌌어. | | emotion=sad | tags=step:2,step:3
+D | Allora, scappate senza di noi! | 그럼, 우리 없이 도망가! | | emotion=teasing | tags=step:9
+C | Sì, torniamo tra due giorni. | 응, 우리 이틀 뒤에 돌아와. | torniamo = 우리 돌아온다 | emotion=gentle | tags=step:2
 B | Diteci quando tornate, ok? | 너희 언제 돌아오는지 말해, 알겠지? | diteci = 우리에게 말해 | emotion=shy | tags=step:9
-A | Possiamo dirvi domani, dai. | 우리 내일 말해줄 수 있어, 야. | possiamo = 우리 할 수 있다 | emotion=gentle | tags=step:9
-B | Ci piacete tanto voi. // Ma tornate presto. | 너희 우리 정말 좋아해. // 그런데 빨리 돌아와. | ci piacete = 우리가 너희를 좋아한다 | emotion=shy+sad | tags=step:8,twist
+A | Vi diciamo quando torniamo, dai. | 돌아오는 날 바로 연락할게, 에이. | possiamo = 우리 할 수 있다 | emotion=gentle | tags=step:9
+B | Ci piacete tanto. // Tornate presto, ok? | 우리 너희 정말 좋아해. // 빨리 돌아와, 알겠지? | ci piacete = 우리가 너희를 좋아한다 | emotion=shy+sad | tags=step:8,twist
 A | Anche a noi piacete. | 우리도 너희 좋아해. | piacete = 너희를 좋아한다 | emotion=shy | tags=step:8

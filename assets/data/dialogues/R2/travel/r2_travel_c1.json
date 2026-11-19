@@ -65,11 +65,6 @@
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
-     ""
-    ],
-    [
      "sono",
      "essere",
      ""
@@ -83,14 +78,19 @@
      "qui",
      "qui",
      ""
+    ],
+    [
+     "boh",
+     "boh",
+     ""
     ]
    ],
    "ui": "bubble",
    "at": "08:11",
    "grok": true,
-   "it": "Boh, sono ancora qui. 😂",
-   "ko": "뭐, 아직 여기 있어. 😂",
-   "rd": "보, 쏘노 안꼬라 뀌. 😂",
+   "it": "Sono ancora qui, boh. 😂",
+   "ko": "나 아직 여기 있잖아. 😂",
+   "rd": "쏘노 안꼬라 뀌, 보. 😂",
    "emotion": "amused"
   },
   {
@@ -185,7 +185,7 @@
   {
    "num": 6,
    "speaker": "B",
-   "note": "troppo lontano = 너무 먼",
+   "note": "lontano = 먼",
    "tags": [
     "step:8"
    ],
@@ -218,7 +218,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "Cioè = 즉",
+   "note": "Cioè = 아니",
    "tags": [
     "step:9"
    ],
@@ -249,21 +249,21 @@
    "at": "08:16",
    "grok": true,
    "it": "Cioè, ti voglio qui ora.",
-   "ko": "즉, 지금 여기 있었으면.",
+   "ko": "아니, 지금 여기 있었으면.",
    "rd": "쵸에, 띠 볼리오 뀌 오라.",
    "emotion": "sad"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "Tranquillo/a = 진정해",
+   "note": "Tranquilla = 걱정 마",
    "tags": [
     "step:10"
    ],
    "new": [],
    "lemmas": [
     [
-     "tranquillo",
+     "tranquilla",
      "tranquillo",
      ""
     ],
@@ -281,12 +281,9 @@
    "ui": "bubble",
    "at": "08:17",
    "grok": true,
-   "it": "Tranquillo, torno presto. 💕",
-   "ko": "진정해, 곧 돌아올게. 💕",
-   "rd": "트란뀔로, 또르노 프레스또. 💕",
-   "it_f": "Tranquilla, torno presto. 💕",
-   "ko_f": "진정해, 곧 돌아올게. 💕",
-   "rd_f": "트란뀔라, 또르노 프레스또. 💕",
+   "it": "Tranquilla, torno presto. 💕",
+   "ko": "걱정 마, 곧 돌아올게. 💕",
+   "rd": "트란뀔라, 또르노 프레스또. 💕",
    "emotion": "gentle"
   }
  ]

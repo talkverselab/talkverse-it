@@ -12,6 +12,6 @@ expressions: Che bello; Ecco; Mamma mia
 B | Guarda! Due gelati! | 봐! 젤라토 두 개! | due = 두 | emotion=excited | tags=
 A | Che bello! Per me? | 와 좋다! 내 거? | Che bello = 와 좋다 | emotion=excited | tags=
 B | Ecco... cade uno! | 여기... 하나 떨어진다! | Ecco = 여기 | emotion=flustered | tags=
-A | Cosa? Si scioglie? | 뭐? 녹는 거야? | si scioglie = 녹다 | emotion=surprised | tags=
-B | Mangio tutti io... scusa. | 내가 다 먹을게... 미안. | mangio = 먹다 | emotion=shy | tags=twist
+A | Oh no! Per terra! | 아 안 돼! 바닥에! | per terra = 바닥에 | emotion=surprised | tags=
+B | Mangio l'altro. Scusa. | 남은 거 내가 먹을게. 미안. | l'altro = 남은 하나 | emotion=shy | tags=twist
 A | Mamma mia! Sei pazza. | 맙소사! 너 미쳤어. | Mamma mia = 맙소사 | emotion=tsukkomi | tags=

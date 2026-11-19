@@ -10,7 +10,7 @@ twist: 6 chaos
 goal: 도구획득 · 짧은 반말 회화 · 표현 Mamma mia · Tranquillo · Dai · Fammi vedere
 expressions: Mamma mia; Tranquillo; Dai; Fammi vedere
 B | Dove sono le chiavi? | 열쇠 어디 있어? | sono = 있다 | emotion=worried | tags=
-A | Tranquillo, cerca piano. | 진정해, 천천히 찾아. | Tranquillo = 진정해 | emotion=gentle | tags=
+A | Tranquillo, cerca con calma. | 진정해, 차분히 찾아. | con calma = 차분히 | emotion=gentle | tags=
 B | Mamma mia! Non le vedo! | 맙소사! 안 보여! | Mamma mia = 맙소사 | emotion=annoyed+shout | tags=
 A | Dai, guarda sul tavolo. | 에이, 테이블 봐. | Dai = 에이 | emotion=gentle | tags=
 B | Non ci sono! Fammi vedere! | 없어! 보여 줘! | Fammi vedere = 보여 줘 | emotion=shout | tags=

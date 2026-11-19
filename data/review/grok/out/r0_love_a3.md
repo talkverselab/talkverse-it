@@ -14,4 +14,4 @@ A | Già? Resta ancora. | 벌써? 더 있어. | resta = 있다 | emotion=sad | t
 B | Ciao, car{o|a}! | 안녕, 자기야! | caro = 자기야 | emotion=cheerful | tags=twist
 A | Cosa? Car{o|a}? | 뭐? 자기야? | cosa = 뭐 | emotion=surprised | tags=
 B | Cioè... scusa! | 그러니까... 미안! | Cioè = 그러니까 | emotion=flustered | tags=
-A | Ti piace, eh? | 좋아하나 봐, 응? | piace = 좋아하다 | emotion=teasing | tags=
+A | Ti piaccio, eh? | 나 좋아하는구나, 응? | piaccio = 좋아하다 | emotion=teasing | tags=

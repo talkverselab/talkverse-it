@@ -12,9 +12,9 @@ expressions: Allora; Tranquilli
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 B | Allora, avete preso lo scooter? | 그럼, 스쿠터 탔어? | Allora = 그럼 | emotion=teasing | tags=step:5
 C | Sì, siamo andat{i|e} in centro! | 응, 시내로 갔어! | andat{i|e} = 간 | emotion=excited | tags=step:6
-B | L'avete lasciato da Giulia? | 줄리아네 두고 왔어? | | emotion=worried | tags=step:5,step:7
+B | L'avete lasciato da qualche parte? | 어디 두고 왔어? | | emotion=worried | tags=step:5,step:7
 A | No, siamo tornat{i|e} a piedi. | 아니, 걸어서 돌아왔어. | tornat{i|e} = 돌아온 | emotion=flustered | tags=step:6
-B | I telefoni? Dove sono? | 폰들? 어디 있어? | | emotion=shout | tags=step:1
-C | Li abbiamo lasciati lì. | 거기에 두고 왔어. | lasciati = 둔 | emotion=flustered | tags=step:5,step:7
-B | Tranquilli, va bene. | 진정해, 괜찮아. | Tranquilli = 진정해 | emotion=gentle | tags=step:9
-A | Ma dai, è ancora lì! | 정말, 아직 거기 있어! | | emotion=tsukkomi | tags=step:9,twist
+B | Lo scooter? Dove l'avete lasciato? | 스쿠터? 어디 두고 왔어? | | emotion=shout | tags=step:1
+C | L'abbiamo lasciato lì. | 거기 두고 왔어. | lasciato = 둔 | emotion=flustered | tags=step:5,step:7
+B | Tranquill{i|e}, va bene. | 걱정 마, 괜찮아. | Tranquill{i|e} = 걱정 마 | emotion=gentle | tags=step:9
+A | Ma dai, dorme da Giulia! | 에이, 줄리아네서 자고 있어! | | emotion=tsukkomi | tags=step:9,twist

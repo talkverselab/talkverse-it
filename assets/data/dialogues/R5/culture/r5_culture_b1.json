@@ -173,8 +173,8 @@
      ""
     ],
     [
-     "sempre",
-     "sempre",
+     "almeno",
+     "almeno",
      ""
     ],
     [
@@ -184,9 +184,9 @@
     ]
    ],
    "grok": true,
-   "it": "Infatti, adesso si mettono sempre gli euro.",
-   "ko": "맞아, 이제는 항상 유로를 넣어.",
-   "rd": "인파띠, 아데쏘 씨 메또노 쎔프레 리 에우로.",
+   "it": "Infatti, adesso si mettono almeno cento euro.",
+   "ko": "맞아, 요즘은 적어도 백 유로는 넣어.",
+   "rd": "인파띠, 아데쏘 씨 메또노 알메노 첸또 에우로.",
    "emotion": "teasing"
   },
   {
@@ -247,7 +247,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "abbastanza = 충분히 · il pranzo = 점심",
+   "note": "abbastanza = 충분한",
    "tags": [
     "step:8"
    ],
@@ -324,7 +324,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "la busta = 봉투",
+   "note": "la busta = 봉투(축의금)",
    "tags": [
     "step:8"
    ],
@@ -370,7 +370,7 @@
   {
    "num": 9,
    "speaker": "B",
-   "note": "È un casino = 완전 난리야",
+   "note": "un casino = 난리",
    "tags": [
     "step:8",
     "step:9"
@@ -451,14 +451,14 @@
    ],
    "grok": true,
    "it": "Lascia stare, i soldi non sono tutto.",
-   "ko": "내버려 둬, 돈이 전부는 아니야.",
+   "ko": "신경 쓰지 마, 돈이 전부는 아니야.",
    "rd": "라샤 스따레, 이 쏠디 논 쏘노 뚜또.",
    "emotion": "amused"
   },
   {
    "num": 11,
    "speaker": "A",
-   "note": "conflitto = 갈등",
+   "note": "si arrabbia = 화내다",
    "tags": [
     "step:9"
    ],
@@ -470,31 +470,26 @@
      ""
     ],
     [
-     "è",
-     "essere",
+     "famiglia",
+     "famiglia",
      ""
     ],
     [
-     "conflitto",
-     "conflitto",
-     ""
-    ],
-    [
-     "famiglia",
-     "famiglia",
+     "arrabbia",
+     "arrabbiare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ma adesso c'è conflitto con la famiglia?",
-   "ko": "근데 이제 가족이랑 갈등 생기는 거야?",
-   "rd": "마 아데쏘 체 꼰플리또 꼰 라 파밀리아?",
+   "it": "Ma adesso la famiglia si arrabbia con me?",
+   "ko": "근데 이제 가족이 나한테 화내는 거 아냐?",
+   "rd": "마 아데쏘 라 파밀리아 씨 아라비아 꼰 메?",
    "emotion": "worried"
   },
   {
    "num": 12,
    "speaker": "B",
-   "note": "si arrabbierà = 화낼 거야(arrabbiarsi 미래)",
+   "note": "si arrabbierà = 화낼 것이다",
    "tags": [
     "step:9"
    ],
@@ -525,7 +520,7 @@
   {
    "num": 13,
    "speaker": "C",
-   "note": "il matrimonio = 결혼식",
+   "note": "ride = 웃다",
    "tags": [
     "step:10",
     "step:8"
@@ -538,35 +533,35 @@
      ""
     ],
     [
-     "anno",
-     "anno",
+     "zia",
+     "zia",
      ""
     ],
     [
-     "prossimo",
-     "prossimo",
+     "ride",
+     "ridere",
      ""
     ],
     [
-     "sarà",
-     "essere",
+     "dice",
+     "dire",
      ""
     ],
     [
-     "altro",
-     "altro",
+     "va",
+     "andare",
      ""
     ],
     [
-     "matrimonio",
-     "matrimonio",
+     "bene",
+     "bene",
      ""
     ]
    ],
    "grok": true,
-   "it": "Magari l'anno prossimo ci sarà un altro matrimonio.",
-   "ko": "내년에는 또 다른 결혼식이 있을지도.",
-   "rd": "마가리 란노 프로씨모 치 싸라 운 알트로 마트리모니오.",
+   "it": "Magari tua zia ride e dice che va bene!",
+   "ko": "이모가 웃으면서 괜찮다고 할지도!",
+   "rd": "마가리 뚜아 찌아 리데 에 디체 께 바 베네!",
    "emotion": "teasing"
   },
   {

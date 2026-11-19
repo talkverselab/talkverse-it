@@ -11,10 +11,10 @@ goal: 골격 단계 1·3·5·7·9 · 굴절 반복 vuol/vuoi · faccio/fai · ca
 expressions: Senti; Guarda; Ecco; Vedi
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
 B | Guarda la mano! | 손 봐! | la = 그 (여) | emotion=excited | tags=step:1
-A | Cosa vuoi dire? | 무슨 뜻이야? | vuoi = 원하다 | emotion=neutral | tags=step:9
-B | Faccio così, vedi? | 이렇게 해, 봐? | faccio = 하다 | emotion=amused | tags=step:9,step:3
+A | Cosa vuoi dire? | 무슨 뜻이야? | vuoi dire = 뜻하다 | emotion=neutral | tags=step:9
+B | Faccio così, vedi? | 이렇게 해, 알겠지? | faccio = 하다 | emotion=amused | tags=step:9,step:3
 A | Lo faccio a Marco. | 마르코한테 그거 해. | lo = 그것을 | emotion=cheerful | tags=step:7
 B | No! Non lo fai così! | 아니! 그렇게 안 해! | fai = 하다 | emotion=tsukkomi | tags=step:9,step:3
-A | Ma cosa vuol dire? // È figo! | 근데 무슨 뜻이야? // 멋져! | vuol = 원하다 | emotion=flustered+excited | tags=step:9
+A | Ma cosa vuol dire? // È figo! | 근데 무슨 뜻이야? // 멋져! | vuol dire = 뜻하다 | emotion=flustered+excited | tags=step:9
 C | Non capisco. Vado. | 모르겠어. 가. | capisco = 이해하다 | emotion=stiff | tags=step:3,twist
 B | Ha capito tutto! | 다 이해했어! | ha capito = 이해했다 | emotion=amused | tags=step:5

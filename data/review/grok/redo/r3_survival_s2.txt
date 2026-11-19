@@ -1,0 +1,26 @@
+=== r3_survival_s2
+level: R3
+kind: survival
+title: 선생님도 한 시간 (둘이서)
+emoji: 🩺
+scene: R1 「선생님도 한 시간」의 복수판. 이번엔 학습자와 루카가 둘 다 머리가 아파서 브루니 선생님을 찾아왔다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Dottor Bruni(남), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 7 chaos
+goal: 그래머2: R1 같은 문장을 복수로 — state/stiamo · abbiamo · avete fatto · abbiamo guardato i telefoni · avete dormito · guardate · paghiamo (새 단어 0) · 표현 Allora · Boh · Guardate
+expressions: Allora; Boh; Guardate
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | Allora, come state oggi? | 그럼, 오늘 상태가 어떠세요? | state = 너희 상태다 | emotion=polite | tags=step:9
+A | Stiamo male. Abbiamo mal di testa. | 몸이 안 좋아요. 머리가 아파요. | stiamo = 우리는, abbiamo = 우리는 가지다 | emotion=worried | tags=step:2,step:9
+B | Avete fatto qualcosa ieri? | 어제 뭘 하셨나요? | avete fatto = 너희 했다 | emotion=polite | tags=step:5
+C | Abbiamo guardato i telefoni tutta la notte. | 밤새 휴대폰을 봤어요. | abbiamo guardato i telefoni = 우리는 휴대폰을 봤다 | emotion=flustered | tags=step:5,step:1
+B | Avete dormito poco allora? | 그럼 잠을 적게 주무셨나요? | avete dormito = 너희 잤다 | emotion=surprised | tags=step:5
+A | Sì, i telefoni sono sempre aperti. | 네, 휴대폰은 항상 켜져 있어요. | i = 정관사 남성 복수 | emotion=shy | tags=step:1
+B | Boh, guardate. Paghiamo dopo? // No, aspettate. | 글쎄요, 보세요. 나중에 계산할까요? // 아니요, 기다리세요. | guardate = 보세요 | emotion=surprised+amused | tags=step:5,twist
+C | No, paghiamo noi adesso. | 아니요, 우리가 지금 낼게요. | paghiamo = 우리는 지불하다 | emotion=tsukkomi | tags=step:3
+
+## 리뷰
+턴1: 의사가 두 환자에게 「come state」(voi)는 맞지만 한국어 「상태가 어떠세요」 번역투 — 「어디가 불편하세요」식 진료 말로
+턴6: 「i telefoni sono sempre aperti」 — 휴대폰이 「켜져 있다」는 accesi, aperti 는 틀림
+턴7: 반전 줄이 의미 불명 — 의사가 「Boh, guardate」 뒤 환자에게 「나중에 계산할까요?」를 묻는 건 뒤집힘. 의사도 사실 밤새 휴대폰 봤다(원작 「선생님도 한 시간」) 같은 꼬임이 드러나게, Guardate 를 그 고백에 쓰기
+턴8: 앞 반전과 이어지지 않음 — 의사의 고백에 루카가 츳코미 하는 말이 되게

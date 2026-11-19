@@ -12,6 +12,6 @@ expressions: Mamma mia; Ma dai
 A | Luca, stai bene? | 루카, 괜찮아? | stai = 있다 | emotion=worried | tags=
 B | No... è finita. | 아니... 끝났어. | è = 이다 | emotion=sad | tags=
 A | Cosa? La partita? | 뭐? 경기? | la = 그 | emotion=surprised | tags=
-B | Sì, perdo tutto. | 응, 다 졌어. | perdo = 지다 | emotion=sad | tags=twist
+B | Sì, la squadra perde. | 응, 팀이 졌어. | perde = 지다 | emotion=sad | tags=twist
 A | Mamma mia! Ma dai. | 맙소사! 에이. | Mamma mia = 맙소사 | emotion=tsukkomi | tags=
 B | Non è un gioco. | 게임이 아니야. | è = 이다 | emotion=annoyed | tags=

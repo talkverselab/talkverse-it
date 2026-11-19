@@ -1,0 +1,28 @@
+=== r3_love_a3
+level: R3
+kind: short
+title: 「금방 올게」 (둘이서)
+emoji: 🌙
+scene: R1 「금방 올게」의 복수판. 학습자와 루카가 내일 루카 고향에 같이 내려가는 전날 밤, 줄리아와 키아라가 집 앞에서 머뭇거린다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림), C: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형), D: Chiara(여, 20대 초 미대생 — 수다·큰 손짓·젤라토 마니아)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 emotion
+goal: 그래머2: R1 같은 문장을 복수로 — tornate/torniamo · siete pronti/siamo pronti · dite · possiamo · diteci · ci piace · ci piacete (새 단어 0) · 표현 Ehi · Allora · Certo
+expressions: Ehi; Allora; Certo
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | Ehi, tornate voi domani? | 야, 너희 내일 돌아와? | tornate = 너희 돌아온다 | emotion=shy | tags=step:3,step:2
+A | No, non siamo pronti ancora. | 아니, 우리 아직 준비 안 됐어. | siamo pronti = 우리 준비됐다 | emotion=sad | tags=step:2,step:3
+D | Certo, potete tornare dopo! | 당연하지, 너희 나중에 돌아올 수 있어! | potete = 너희 할 수 있다 | emotion=teasing | tags=step:9
+C | Sì, torniamo domani sera. | 응, 우리 내일 저녁에 돌아와. | torniamo = 우리 돌아온다 | emotion=gentle | tags=step:2
+B | Diteci quando tornate, ok? | 너희 언제 돌아오는지 말해, 알겠지? | diteci = 우리에게 말해 | emotion=shy | tags=step:9
+A | Possiamo dirvi domani, dai. | 우리 내일 말해줄 수 있어, 야. | possiamo = 우리 할 수 있다 | emotion=gentle | tags=step:9
+B | Ci piacete tanto voi. // Ma tornate presto. | 너희 우리 정말 좋아해. // 그런데 빨리 돌아와. | ci piacete = 우리가 너희를 좋아한다 | emotion=shy+sad | tags=step:8,twist
+A | Anche a noi piacete. | 우리도 너희 좋아해. | piacete = 너희를 좋아한다 | emotion=shy | tags=step:8
+
+## 리뷰
+턴1: 장면은 학습자와 루카가 「내일 내려가는」 것인데 「내일 돌아와?」라고 물음 — 「언제 돌아와?」가 되게
+턴2: 「non siamo pronti ancora」 어순 어색(ancora 위치) — 짐을 아직 다 못 쌌다는 자연스러운 말로
+턴3: 키아라의 「나중에 돌아올 수 있어」는 흐름에 안 맞음 — 장난스럽게 놀리는 말이 되게
+턴4: 턴1과 모순(내일 떠나는데 내일 저녁에 돌아옴) — 돌아오는 날을 앞 장면과 맞게
+턴6: 「Possiamo dirvi domani」(내일 말해줄 수 있어)는 엉뚱함 — 「돌아오는 날 바로 연락할게」식 대답이 되게, 한국어 「야」는 dai 오역
+턴7: 반전(emotion) 한국어 「너희 우리 정말 좋아해」는 주어가 뒤집힘(ci piacete = 우리가 너희를 좋아해) — 한국어를 바로잡고, 머뭇거리던 고백이 여운 있게

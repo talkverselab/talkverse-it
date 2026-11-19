@@ -221,15 +221,15 @@
      ""
     ],
     [
-     "signore",
-     "signore",
+     "madri",
+     "madre",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sentite? Sono le signore!",
-   "ko": "들려? 부인들이야!",
-   "rd": "쎈띠떼? 쏘노 레 씨뇨레!",
+   "it": "Sentite? Sono le nostre madri!",
+   "ko": "들려? 우리 엄마들이야!",
+   "rd": "쎈띠떼? 쏘노 레 노스트레 마드리!",
    "segs": [
     [
      "cheerful",
@@ -237,14 +237,14 @@
     ],
     [
      "flustered",
-     " Sono le signore!"
+     " Sono le nostre madri!"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "le vostre madri = 너희 엄마들(la madre 복수)",
+   "note": "le vostre madri = 너희 엄마들",
    "tags": [
     "step:3"
    ],

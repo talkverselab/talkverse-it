@@ -159,7 +159,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "mangio = 먹다",
+   "note": "non sono = 아니야",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -169,15 +169,15 @@
      ""
     ],
     [
-     "mangio",
-     "mangiare",
+     "sono",
+     "essere",
      ""
     ]
    ],
    "grok": true,
-   "it": "No, non mangio!",
-   "ko": "아니, 안 먹어!",
-   "rd": "노, 논 만조!",
+   "it": "No, non sono io!",
+   "ko": "아니, 나 아니야!",
+   "rd": "노, 논 쏘노 이오!",
    "emotion": "flustered"
   },
   {
@@ -212,7 +212,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "è = 이다",
+   "note": "sono = 나야",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -222,15 +222,15 @@
      ""
     ],
     [
-     "è",
+     "sono",
      "essere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ok... è mia.",
-   "ko": "알았어... 내 거야.",
-   "rd": "오크... 에 미아.",
+   "it": "Ok... sono io.",
+   "ko": "알았어... 나야.",
+   "rd": "오크... 쏘노 이오.",
    "emotion": "shy"
   }
  ],

@@ -34,7 +34,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "Ce n'era = 하나밖에 없었다",
+   "note": "c'era = 있었다",
    "tags": [
     "step:6",
     "step:8"
@@ -42,33 +42,18 @@
    "new": [],
    "lemmas": [
     [
-     "avevi",
-     "avevi",
+     "sei",
+     "essere",
      ""
     ],
     [
-     "già",
-     "già",
+     "uscito",
+     "uscire",
      ""
     ],
     [
-     "messo",
-     "mettere",
-     ""
-    ],
-    [
-     "ombrello",
-     "ombrello",
-     ""
-    ],
-    [
-     "lì",
-     "lì",
-     ""
-    ],
-    [
-     "dentro",
-     "dentro",
+     "rumore",
+     "rumore",
      ""
     ],
     [
@@ -77,21 +62,29 @@
      ""
     ],
     [
-     "solo",
-     "solo",
+     "ombrello",
+     "ombrello",
+     ""
+    ],
+    [
+     "lì",
+     "lì",
      ""
     ]
    ],
    "grok": true,
-   "it": "Avevi già messo l'ombrello lì dentro? Ce n'era uno solo.",
-   "ko": "우산 이미 안에 뒀어? 하나밖에 없었는데.",
-   "rd": "아베비 쟈 메쏘 롬브렐로 리 덴트로? 체 네라 우노 쏠로.",
+   "it": "Sei uscito per il rumore? C'era un ombrello lì.",
+   "ko": "시끄러워서 나왔어? 거기 우산 하나 있었어.",
+   "rd": "쎄이 우시또 뻬르 일 루모레? 체라 운 옴브렐로 리.",
+   "it_f": "Sei uscita per il rumore? C'era un ombrello lì.",
+   "ko_f": "시끄러워서 나왔어? 거기 우산 하나 있었어.",
+   "rd_f": "쎄이 우시따 뻬르 일 루모레? 체라 운 옴브렐로 리.",
    "emotion": "surprised"
   },
   {
    "num": 2,
    "speaker": "A",
-   "note": "Mi sono spostato/a = 자리를 옮겼어",
+   "note": "Mi sono spostatoo / a = 자리를 옮겼어",
    "tags": [
     "step:9"
    ],
@@ -140,7 +133,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "ti avevo vista = 너를 봤었어",
+   "note": "ti avevo visto / a = 너를 봤었어",
    "tags": [
     "step:5"
    ],
@@ -177,7 +170,7 @@
      ""
     ],
     [
-     "vista",
+     "visto",
      "vedere",
      ""
     ],
@@ -192,16 +185,29 @@
      ""
     ],
     [
-     "seguita",
+     "seguito",
      "seguire",
      ""
     ]
    ],
    "grok": true,
-   "it": "Boh, io stavo ancora dentro. Cioè, ti avevo vista uscire e ti ho seguita.",
+   "it": "Boh, io stavo ancora dentro. Cioè, ti avevo visto uscire e ti ho seguito.",
    "ko": "글쎄, 난 아직 안에 있었는데. 그러니까 너 나가는 거 보고 따라 나왔어.",
-   "rd": "보, 이오 스따보 안꼬라 덴트로. 쵸에, 띠 아베보 비스따 우시레 에 띠 오 쎄구이따.",
+   "rd": "보, 이오 스따보 안꼬라 덴트로. 쵸에, 띠 아베보 비스또 우시레 에 띠 오 쎄구이또.",
    "segs": [
+    [
+     "amused",
+     "Boh, io stavo ancora dentro."
+    ],
+    [
+     "shy",
+     " Cioè, ti avevo visto uscire e ti ho seguito."
+    ]
+   ],
+   "it_f": "Boh, io stavo ancora dentro. Cioè, ti avevo vista uscire e ti ho seguita.",
+   "ko_f": "글쎄, 난 아직 안에 있었는데. 그러니까 너 나가는 거 보고 따라 나왔어.",
+   "rd_f": "보, 이오 스따보 안꼬라 덴트로. 쵸에, 띠 아베보 비스따 우시레 에 띠 오 쎄구이따.",
+   "segs_f": [
     [
      "amused",
      "Boh, io stavo ancora dentro."
@@ -215,7 +221,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "me n'ero accorto = 내가 알아챘었다(accorgersi 대과거)",
+   "note": "me n'ero accorto = 내가 알아챘었다(대과거)",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -306,7 +312,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "non esagerare = 오버하지 마",
+   "note": "esagerare = 과장하다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -366,32 +372,32 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "Neanche ci avevo pensato = 그런 생각조차 안 했어",
+   "note": "ci posso credere = 그걸 믿을 수 있다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "neanche",
-     "neanche",
+     "non",
+     "non",
      ""
     ],
     [
-     "avevo",
-     "avere",
+     "posso",
+     "potere",
      ""
     ],
     [
-     "pensato",
-     "pensare",
+     "credere",
+     "credere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Cosa? Neanche ci avevo pensato.",
-   "ko": "뭐라고? 그런 생각도 안 해봤는데.",
-   "rd": "꼬자? 네안께 치 아베보 뻰싸또.",
+   "it": "Cosa? Non ci posso credere, dai.",
+   "ko": "뭐라고? 믿을 수가 없어, 진짜.",
+   "rd": "꼬자? 논 치 뽀쏘 크레데레, 다이.",
    "segs": [
     [
      "surprised",
@@ -399,7 +405,7 @@
     ],
     [
      "flustered",
-     " Neanche ci avevo pensato."
+     " Non ci posso credere, dai."
     ]
    ]
   },
@@ -442,7 +448,7 @@
   {
    "num": 10,
    "speaker": "A",
-   "note": "non c'ero abituato/a = 익숙하지 않았어",
+   "note": "non c'ero abituatoo / a = 익숙하지 않았어",
    "tags": [
     "step:5"
    ],
@@ -486,7 +492,7 @@
   {
    "num": 11,
    "speaker": "B",
-   "note": "non avresti capito = 이해하지 못했을 거라고",
+   "note": "non avessi capito = 이해하지 못했을 거라고",
    "tags": [
     "step:2"
    ],
@@ -505,6 +511,11 @@
     [
      "non",
      "non",
+     ""
+    ],
+    [
+     "avessi",
+     "avere",
      ""
     ],
     [
@@ -534,15 +545,15 @@
     ]
    ],
    "grok": true,
-   "it": "Ecco, sapevo che non avresti capito. Avevo portato l'ombrello apposta per te.",
-   "ko": "봐, 네가 모를 줄 알았어. 일부러 너 주려고 우산 가져왔었어.",
-   "rd": "에꼬, 싸뻬보 께 논 아브레스띠 까삐또. 아베보 뽀르따또 롬브렐로 아뽀스따 뻬르 떼.",
+   "it": "Ecco, sapevo che non avessi capito. Avevo portato l'ombrello apposta per seguirti.",
+   "ko": "봐, 네가 모를 줄 알았어. 일부러 너 따라 나오려고 우산 가져왔었어.",
+   "rd": "에꼬, 싸뻬보 께 논 아베씨 까삐또. 아베보 뽀르따또 롬브렐로 아뽀스따 뻬르 쎄구이르띠.",
    "emotion": "teasing"
   },
   {
    "num": 12,
    "speaker": "A",
-   "note": "Mi sono emozionato/a = 감동했어",
+   "note": "Mi sono emozionatoo / a = 감동했어",
    "tags": [
     "step:9"
    ],
@@ -559,24 +570,24 @@
      ""
     ],
     [
-     "sacco",
-     "sacco",
+     "po",
+     "poco",
      ""
     ]
    ],
    "grok": true,
-   "it": "Mi sono emozionato un sacco, dai.",
-   "ko": "나 완전 감동했어, 진짜.",
-   "rd": "미 쏘노 에모찌오나또 운 싸꼬, 다이.",
-   "it_f": "Mi sono emozionata un sacco, dai.",
-   "ko_f": "나 완전 감동했어, 진짜.",
-   "rd_f": "미 쏘노 에모찌오나따 운 싸꼬, 다이.",
+   "it": "Mi sono emozionato un po', dai.",
+   "ko": "나 좀 감동했어, 진짜.",
+   "rd": "미 쏘노 에모찌오나또 운 뽀, 다이.",
+   "it_f": "Mi sono emozionata un po', dai.",
+   "ko_f": "나 좀 감동했어, 진짜.",
+   "rd_f": "미 쏘노 에모찌오나따 운 뽀, 다이.",
    "emotion": "amused"
   },
   {
    "num": 13,
    "speaker": "B",
-   "note": "la prossima volta = 다음번에",
+   "note": "lo porti = 그걸 가져오다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -615,12 +626,12 @@
   {
    "num": 14,
    "speaker": "A",
-   "note": "ci penso io = 내가 알아서 할게(ci = 그 일)",
+   "note": "ci penso io = 내가 알아서 할게",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "tranquillo",
+     "tranquilla",
      "tranquillo",
      ""
     ],
@@ -631,12 +642,9 @@
     ]
    ],
    "grok": true,
-   "it": "Tranquillo, ci penso io.",
+   "it": "Tranquilla, ci penso io.",
    "ko": "걱정 마, 내가 할게.",
-   "rd": "트란뀔로, 치 뻰쏘 이오.",
-   "it_f": "Tranquilla, ci penso io.",
-   "ko_f": "걱정 마, 내가 할게.",
-   "rd_f": "트란뀔라, 치 뻰쏘 이오.",
+   "rd": "트란뀔라, 치 뻰쏘 이오.",
    "emotion": "gentle"
   }
  ]

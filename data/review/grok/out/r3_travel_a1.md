@@ -11,10 +11,10 @@ goal: 그래머2: R1 같은 문장을 복수로 — siamo arrivati · bravi · s
 expressions: Pronto; Che bello; Allora
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 A | Pronto, siamo arrivati noi! | 여보세요, 우리 도착했어! | siamo arrivati = 우리 도착했다 | emotion=excited | tags=step:6
-B | Che bello, siete bravi voi! | 정말 멋지네, 너희 잘했어! | siete bravi = 너희 잘하다 | emotion=cheerful | tags=step:2
-C | Ma dove sono le due donne? | 그런데 그 두 여자들은 어디 있어? | due donne = 두 여자들 | emotion=shy | tags=step:1
-B | Sappiamo, vediamo noi. | 우리 알아, 우리 보고 있어. | sappiamo = 우리 알다 | emotion=teasing | tags=step:9
+B | Che bello, siete bravi voi! Ma non vi vediamo. | 정말 멋지네, 너희 잘했어! 그런데 안 보여. | non vi vediamo = 너희를 안 보다 | emotion=cheerful | tags=step:2
+C | Ma dove sono le due donne molto belle? | 그런데 그 엄청 예쁜 두 여자들은 어디 있어? | due donne molto belle = 엄청 예쁜 두 여자 | emotion=shy | tags=step:1
+B | Sappiamo noi, le vediamo anche! | 우리 알아, 우리도 보여! | sappiamo = 우리 알다 | emotion=teasing | tags=step:9
 A | Ci guardano loro? | 그들이 우리 보고 있어? | ci guardano = 우리를 그들이 보다 | emotion=flustered | tags=step:7,step:3
-B | Allora, fanno così. // Ci ridono e vengono. | 그럼, 그렇게 해. // 우리한테 웃고 와. | fanno = 그들이 하다 | emotion=teasing+cheerful | tags=step:3,step:2,twist
-A | Guardate, vengono qui! | 봐, 그들이 여기로 와! | guardate = 너희 보다 | emotion=surprised | tags=step:7
+B | Allora, fanno così. // Ci guardano e ridono, veniamo noi! | 그럼, 그렇게 해. // 우리 보고 웃으면서 우리가 온다! | fanno = 그들이 하다 | emotion=teasing+cheerful | tags=step:3,step:2,twist
+A | Guardate, le vedo! Vengono qui! | 봐, 그 여자들 보여! 여기로 와! | le vedo = 그 여자들을 보다 | emotion=surprised | tags=step:7
 D | Sì, siamo noi le belle! | 응, 우리가 그 예쁜 여자들이야! | siamo = 우리이다 | emotion=teasing | tags=step:2

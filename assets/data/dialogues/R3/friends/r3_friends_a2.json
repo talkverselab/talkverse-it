@@ -68,7 +68,7 @@
   {
    "num": 2,
    "speaker": "C",
-   "note": "andati/e = 간",
+   "note": "andati / e = 간",
    "tags": [
     "step:6"
    ],
@@ -102,7 +102,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "avete lasciato = 너희가 두고 왔다(lasciare, voi)",
+   "note": "avete lasciato = 너희 두고 왔다",
    "tags": [
     "step:5",
     "step:7"
@@ -118,18 +118,23 @@
      "lasciato",
      "lasciare",
      ""
+    ],
+    [
+     "parte",
+     "parte",
+     ""
     ]
    ],
    "grok": true,
-   "it": "L'avete lasciato da Giulia?",
-   "ko": "줄리아네 두고 왔어?",
-   "rd": "라베떼 라샤또 다 줄리아?",
+   "it": "L'avete lasciato da qualche parte?",
+   "ko": "어디 두고 왔어?",
+   "rd": "라베떼 라샤또 다 꽐께 빠르떼?",
    "emotion": "worried"
   },
   {
    "num": 4,
    "speaker": "A",
-   "note": "tornati/e = 돌아온",
+   "note": "tornati / e = 돌아온",
    "tags": [
     "step:6"
    ],
@@ -163,15 +168,15 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "i telefoni = 폰들(il telefono 복수)",
+   "note": "l'avete lasciato = 너희가 그걸 두었다",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "telefoni",
-     "telefono",
+     "scooter",
+     "scooter",
      ""
     ],
     [
@@ -180,21 +185,26 @@
      ""
     ],
     [
-     "sono",
-     "essere",
+     "avete",
+     "avere",
+     ""
+    ],
+    [
+     "lasciato",
+     "lasciare",
      ""
     ]
    ],
    "grok": true,
-   "it": "I telefoni? Dove sono?",
-   "ko": "폰들? 어디 있어?",
-   "rd": "이 뗄레포니? 도베 쏘노?",
+   "it": "Lo scooter? Dove l'avete lasciato?",
+   "ko": "스쿠터? 어디 두고 왔어?",
+   "rd": "로 스꼬오떼르? 도베 라베떼 라샤또?",
    "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "C",
-   "note": "lasciati = 둔",
+   "note": "lasciato = 둔",
    "tags": [
     "step:5",
     "step:7"
@@ -207,7 +217,7 @@
      ""
     ],
     [
-     "lasciati",
+     "lasciato",
      "lasciare",
      ""
     ],
@@ -218,15 +228,15 @@
     ]
    ],
    "grok": true,
-   "it": "Li abbiamo lasciati lì.",
-   "ko": "거기에 두고 왔어.",
-   "rd": "리 아비아모 라샤띠 리.",
+   "it": "L'abbiamo lasciato lì.",
+   "ko": "거기 두고 왔어.",
+   "rd": "라비아모 라샤또 리.",
    "emotion": "flustered"
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "Tranquilli = 진정해",
+   "note": "Tranquilli / e = 걱정 마",
    "tags": [
     "step:9"
    ],
@@ -250,39 +260,32 @@
    ],
    "grok": true,
    "it": "Tranquilli, va bene.",
-   "ko": "진정해, 괜찮아.",
+   "ko": "걱정 마, 괜찮아.",
    "rd": "트란뀔리, 바 베네.",
+   "it_f": "Tranquille, va bene.",
+   "ko_f": "걱정 마, 괜찮아.",
+   "rd_f": "트란뀔레, 바 베네.",
    "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "ancora lì = 아직 거기",
+   "note": "da Giulia = 줄리아네 집에서",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "ancora",
-     "ancora",
-     ""
-    ],
-    [
-     "lì",
-     "lì",
+     "dorme",
+     "dormire",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ma dai, è ancora lì!",
-   "ko": "정말, 아직 거기 있어!",
-   "rd": "마 다이, 에 안꼬라 리!",
+   "it": "Ma dai, dorme da Giulia!",
+   "ko": "에이, 줄리아네서 자고 있어!",
+   "rd": "마 다이, 도르메 다 줄리아!",
    "emotion": "tsukkomi"
   }
  ]

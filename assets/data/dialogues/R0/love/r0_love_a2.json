@@ -113,7 +113,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "Senti = 들어",
+   "note": "Senti = 있잖아",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -130,7 +130,7 @@
    ],
    "grok": true,
    "it": "Senti, cosa c'è?",
-   "ko": "들어, 무슨 일이야?",
+   "ko": "있잖아, 무슨 일이야?",
    "rd": "쎈띠, 꼬자 체?",
    "emotion": "gentle"
   },

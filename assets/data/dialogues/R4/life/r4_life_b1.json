@@ -38,20 +38,20 @@
    "new": [],
    "lemmas": [
     [
-     "porto",
-     "porto",
+     "consegno",
+     "consegno",
      ""
     ],
     [
-     "subito",
-     "subito",
+     "qui",
+     "qui",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ma dai, ve lo porto subito.",
-   "ko": "어머, 바로 가져다드릴게요.",
-   "rd": "마 다이, 베 로 뽀르또 쑤비또.",
+   "it": "Ma dai, ve lo consegno qui.",
+   "ko": "어머, 여기 드릴게요.",
+   "rd": "마 다이, 베 로 꼰쎄뇨 뀌.",
    "emotion": "cheerful"
   },
   {
@@ -74,20 +74,20 @@
      ""
     ],
     [
-     "qui",
-     "qui",
+     "pure",
+     "pure",
      ""
     ],
     [
-     "favore",
-     "favore",
+     "qui",
+     "qui",
      ""
     ]
    ],
    "grok": true,
-   "it": "Grazie. Ce lo lascia qui, per favore.",
-   "ko": "고마워요. 여기 두시겠어요, 부탁해요.",
-   "rd": "그라찌에. 체 로 라샤 뀌, 뻬르 파보레.",
+   "it": "Grazie. Ce lo lascia pure qui.",
+   "ko": "고마워요. 여기 그냥 두세요.",
+   "rd": "그라찌에. 체 로 라샤 뿌레 뀌.",
    "emotion": "polite"
   },
   {
@@ -129,27 +129,37 @@
   {
    "num": 4,
    "speaker": "C",
-   "note": "ce ne = 거기에 그것들",
+   "note": "ce n'è = 그게 있다",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "sono",
+     "è",
      "essere",
+     ""
+    ],
+    [
+     "tanto",
+     "tanto",
      ""
     ],
     [
      "sento",
      "sentire",
      ""
+    ],
+    [
+     "formaggio",
+     "formaggio",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Ce ne sono tanti, lo sento.",
-   "ko": "많이 있어요, 냄새가 나요.",
-   "rd": "체 네 쏘노 딴띠, 로 쎈또.",
+   "it": "Ce n'è tanto, sento il formaggio.",
+   "ko": "많이 있어요, 치즈 냄새가 나요.",
+   "rd": "체 네 딴또, 쎈또 일 포르마조.",
    "emotion": "amused"
   },
   {
@@ -211,12 +221,17 @@
      "pochino",
      "pochino",
      ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Gliel'ho aperto un pochino.",
-   "ko": "제가 조금 열어봤어요.",
-   "rd": "리엘로 아뻬르또 운 뽀끼노.",
+   "it": "Gliel'ho aperto un pochino per vedere.",
+   "ko": "확인하려고 조금 열어봤어요.",
+   "rd": "리엘로 아뻬르또 운 뽀끼노 뻬르 베데레.",
    "emotion": "teasing"
   },
   {
@@ -263,7 +278,7 @@
   {
    "num": 8,
    "speaker": "C",
-   "note": "ci = 거기에, mettevo = 반과거",
+   "note": "ci = 거기에, metteva = 반과거",
    "tags": [
     "step:8",
     "step:5"
@@ -271,8 +286,13 @@
    "new": [],
    "lemmas": [
     [
-     "mettevo",
+     "metteva",
      "mettere",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
      ""
     ],
     [
@@ -287,15 +307,15 @@
     ]
    ],
    "grok": true,
-   "it": "Ci mettevo il formaggio fresco.",
-   "ko": "제가 신선한 치즈를 넣었어요.",
-   "rd": "치 메떼보 일 포르마조 프레스꼬.",
+   "it": "Ci metteva sempre il formaggio fresco.",
+   "ko": "항상 신선한 치즈를 넣으셨대요.",
+   "rd": "치 메떼바 쎔프레 일 포르마조 프레스꼬.",
    "emotion": "shy"
   },
   {
    "num": 9,
    "speaker": "A",
-   "note": "ce lo = 그것을, ne = 그것의",
+   "note": "ne = 그것의",
    "tags": [
     "step:7",
     "step:8"
@@ -308,8 +328,8 @@
      ""
     ],
     [
-     "voglio",
-     "volere",
+     "assaggio",
+     "assaggiare",
      ""
     ],
     [
@@ -319,9 +339,9 @@
     ]
    ],
    "grok": true,
-   "it": "Ce lo prendo? Ne voglio un po'.",
-   "ko": "제가 가져갈까요? 좀 원해요.",
-   "rd": "체 로 프렌도? 네 볼리오 운 뽀.",
+   "it": "Lo prendo io? Ne assaggio un po'?",
+   "ko": "제가 받을게요? 좀 맛봐도 돼요?",
+   "rd": "로 프렌도 이오? 네 아싸조 운 뽀?",
    "emotion": "flustered"
   },
   {
@@ -366,6 +386,11 @@
      ""
     ],
     [
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
      "abbia",
      "avere",
      ""
@@ -377,9 +402,9 @@
     ]
    ],
    "grok": true,
-   "it": "Speriamo che ce l'abbia ancora.",
-   "ko": "아직 가지고 있으면 좋겠어.",
-   "rd": "스뻬리아모 께 체 라비아 안꼬라.",
+   "it": "Speriamo che tua mamma ce l'abbia ancora.",
+   "ko": "네 엄마가 아직 갖고 있으면 좋겠어.",
+   "rd": "스뻬리아모 께 뚜아 맘마 체 라비아 안꼬라.",
    "emotion": "worried"
   },
   {
@@ -405,12 +430,27 @@
      "aspetta",
      "aspettare",
      ""
+    ],
+    [
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "anche",
+     "anche",
+     ""
+    ],
+    [
+     "maglia",
+     "maglia",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Dai, ce lo mangiamo subito! Aspetta, no!",
-   "ko": "자, 지금 먹자! 잠깐, 안 돼!",
-   "rd": "다이, 체 로 만쟈모 쑤비또! 아스뻬따, 노!",
+   "it": "Dai, ce lo mangiamo subito! Aspetta, c'è anche la maglia!",
+   "ko": "자, 지금 먹자! 잠깐, 셔츠도 있어!",
+   "rd": "다이, 체 로 만쟈모 쑤비또! 아스뻬따, 체 안께 라 말리아!",
    "segs": [
     [
      "neutral",
@@ -418,7 +458,7 @@
     ],
     [
      "shout",
-     " Aspetta, no!"
+     " Aspetta, c'è anche la maglia!"
     ]
    ]
   },
@@ -471,12 +511,17 @@
      "tanto",
      "tanto",
      ""
+    ],
+    [
+     "formaggio",
+     "formaggio",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Ce ne rimane ancora tanto?",
-   "ko": "아직 많이 남아 있어?",
-   "rd": "체 네 리마네 안꼬라 딴또?",
+   "it": "Ce ne rimane ancora tanto di formaggio?",
+   "ko": "치즈는 아직 많이 남아 있어?",
+   "rd": "체 네 리마네 안꼬라 딴또 디 포르마조?",
    "emotion": "tsukkomi"
   }
  ]

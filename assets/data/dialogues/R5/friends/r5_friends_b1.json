@@ -67,7 +67,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "nervoso/a = 긴장된",
+   "note": "nervosa = 긴장된",
    "tags": [
     "step:4"
    ],
@@ -84,7 +84,7 @@
      ""
     ],
     [
-     "nervoso",
+     "nervosa",
      "nervoso",
      ""
     ],
@@ -94,24 +94,21 @@
      ""
     ],
     [
-     "preoccupato",
+     "preoccupata",
      "preoccupato",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sei così nervoso? Sembri preoccupato.",
+   "it": "Sei così nervosa? Sembri preoccupata.",
    "ko": "그렇게 긴장됐어? 걱정돼 보여.",
-   "rd": "쎄이 꼬지 네르보조? 쎔브리 프레오꾸빠또.",
-   "it_f": "Sei così nervosa? Sembri preoccupata.",
-   "ko_f": "그렇게 긴장됐어? 걱정돼 보여.",
-   "rd_f": "쎄이 꼬지 네르보자? 쎔브리 프레오꾸빠따.",
+   "rd": "쎄이 꼬지 네르보자? 쎔브리 프레오꾸빠따.",
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "B",
-   "note": "conflitto = 갈등",
+   "note": "litighiamo = 우리는 싸우다",
    "tags": [
     "step:8",
     "step:9"
@@ -119,49 +116,44 @@
    "new": [],
    "lemmas": [
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "sempre",
-     "sempre",
-     ""
-    ],
-    [
-     "conflitto",
-     "conflitto",
-     ""
-    ],
-    [
-     "famiglia",
-     "famiglia",
-     ""
-    ],
-    [
      "feste",
      "festa",
+     ""
+    ],
+    [
+     "famiglia",
+     "famiglia",
+     ""
+    ],
+    [
+     "litighiamo",
+     "litighiare",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
      ""
     ]
    ],
    "grok": true,
-   "it": "C'è sempre conflitto in famiglia a queste feste.",
-   "ko": "이런 가족 행사 때마다 항상 갈등이 있어.",
-   "rd": "체 쎔프레 꼰플리또 인 파밀리아 아 꿰스떼 페스떼.",
+   "it": "In queste feste di famiglia litighiamo sempre.",
+   "ko": "이런 가족 행사 때마다 늘 싸워.",
+   "rd": "인 꿰스떼 페스떼 디 파밀리아 리띠기아모 쎔프레.",
    "emotion": "annoyed"
   },
   {
    "num": 4,
    "speaker": "C",
-   "note": "Tanti auguri = 생일 축하해 · Entrate pure = 들어와(voi)",
+   "note": "Benvenuti = 어서 와",
    "tags": [
     "step:8"
    ],
    "new": [],
    "lemmas": [
     [
-     "auguri",
-     "augurio",
+     "benvenuti",
+     "benvenuto",
      ""
     ],
     [
@@ -181,15 +173,15 @@
     ]
    ],
    "grok": true,
-   "it": "Tanti auguri a me! Entrate pure, cari.",
-   "ko": "나한테 생일 축하해! 들어오렴, 얘들아.",
-   "rd": "딴띠 아우구리 아 메! 엔트라떼 뿌레, 까리.",
+   "it": "Benvenuti! Entrate pure, cari.",
+   "ko": "어서 와! 들어오렴, 얘들아.",
+   "rd": "벤베누띠! 엔트라떼 뿌레, 까리.",
    "emotion": "cheerful"
   },
   {
    "num": 5,
    "speaker": "A",
-   "note": "conoscerLa = 당신을 알게 되다(La = 존댓말 당신을)",
+   "note": "conoscerLa = 당신을 뵙다(Lei)",
    "tags": [
     "step:8"
    ],
@@ -198,11 +190,6 @@
     [
      "auguri",
      "augurio",
-     ""
-    ],
-    [
-     "signora",
-     "signore",
      ""
     ],
     [
@@ -217,15 +204,15 @@
     ]
    ],
    "grok": true,
-   "it": "Tanti auguri, signora. È un piacere conoscerLa.",
-   "ko": "생일 축하드려요, 부인. 뵙게 되어 기쁩니다.",
-   "rd": "딴띠 아우구리, 씨뇨라. 에 운 삐아체레 꼬노셰를라.",
+   "it": "Tanti auguri, nonna. È un piacere conoscerLa.",
+   "ko": "생일 축하드려요, 할머니. 뵙게 되어 기쁩니다.",
+   "rd": "딴띠 아우구리, 논나. 에 운 삐아체레 꼬노셰를라.",
    "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "C",
-   "note": "chiamami = 나를 불러(chiamare + mi)",
+   "note": "chiamami = 나를 불러",
    "tags": [
     "step:8",
     "step:9"
@@ -255,7 +242,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "niente domande = 질문 금지",
+   "note": "troppe domande = 너무 많은 질문",
    "tags": [
     "step:9",
     "step:10"
@@ -268,8 +255,13 @@
      ""
     ],
     [
-     "futuro",
-     "futuro",
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "fare",
+     "fare",
      ""
     ],
     [
@@ -279,9 +271,9 @@
     ]
    ],
    "grok": true,
-   "it": "Nonna, per favore! In futuro niente domande.",
-   "ko": "할머니, 제발! 앞으로는 질문 금지.",
-   "rd": "논나, 뻬르 파보레! 인 푸뚜로 니엔떼 도만데.",
+   "it": "Nonna, per favore! Non fare troppe domande.",
+   "ko": "할머니, 제발! 너무 캐묻지 마.",
+   "rd": "논나, 뻬르 파보레! 논 파레 트로뻬 도만데.",
    "segs": [
     [
      "annoyed",
@@ -289,14 +281,14 @@
     ],
     [
      "shout",
-     " In futuro niente domande."
+     " Non fare troppe domande."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "contento/a = 기쁜",
+   "note": "contento / a = 기쁜",
    "tags": [
     "step:4"
    ],
@@ -308,18 +300,13 @@
      ""
     ],
     [
-     "è",
-     "essere",
+     "va",
+     "andare",
      ""
     ],
     [
-     "solo",
-     "solo",
-     ""
-    ],
-    [
-     "curiosità",
-     "curiosità",
+     "bene",
+     "bene",
      ""
     ],
     [
@@ -331,15 +318,25 @@
      "contento",
      "contento",
      ""
+    ],
+    [
+     "essere",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Tranquilla, è solo curiosità. Sono contento.",
-   "ko": "진정해, 그냥 궁금한 거야. 나는 기뻐.",
-   "rd": "트란뀔라, 에 쏠로 꾸리오지따. 쏘노 꼰뗀또.",
-   "it_f": "Tranquilla, è solo curiosità. Sono contenta.",
-   "ko_f": "진정해, 그냥 궁금한 거야. 나는 기뻐.",
-   "rd_f": "트란뀔라, 에 쏠로 꾸리오지따. 쏘노 꼰뗀따.",
+   "it": "Tranquilla, va tutto bene. Sono contento di essere qui.",
+   "ko": "진정해, 다 괜찮아. 여기 있어서 기뻐.",
+   "rd": "트란뀔라, 바 뚜또 베네. 쏘노 꼰뗀또 디 에쎄레 뀌.",
+   "it_f": "Tranquilla, va tutto bene. Sono contenta di essere qui.",
+   "ko_f": "진정해, 다 괜찮아. 여기 있어서 기뻐.",
+   "rd_f": "트란뀔라, 바 뚜또 베네. 쏘노 꼰뗀따 디 에쎄레 뀌.",
    "emotion": "gentle"
   },
   {
@@ -386,7 +383,7 @@
   {
    "num": 10,
    "speaker": "B",
-   "note": "emozionata = 감동한",
+   "note": "mi sento meglio = 기분이 나아지다",
    "tags": [
     "step:4"
    ],
@@ -408,20 +405,20 @@
      ""
     ],
     [
-     "sono",
-     "essere",
+     "sento",
+     "sentire",
      ""
     ],
     [
-     "emozionata",
-     "emozionare",
+     "meglio",
+     "meglio",
      ""
     ]
    ],
    "grok": true,
-   "it": "Davvero? Allora anch'io sono emozionata!",
-   "ko": "진짜? 그럼 나도 감동이야!",
-   "rd": "다베로? 알로라 안끼오 쏘노 에모찌오나따!",
+   "it": "Davvero? Allora anch'io mi sento meglio!",
+   "ko": "진짜? 그럼 나도 마음이 놓여!",
+   "rd": "다베로? 알로라 안끼오 미 쎈또 멜리오!",
    "segs": [
     [
      "surprised",
@@ -429,14 +426,14 @@
     ],
     [
      "excited",
-     " Allora anch'io sono emozionata!"
+     " Allora anch'io mi sento meglio!"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "C",
-   "note": "il più bello = 제일 좋은",
+   "note": "il regalo = 선물",
    "tags": [
     "step:8",
     "step:4"
@@ -446,6 +443,16 @@
     [
      "certo",
      "certo",
+     ""
+    ],
+    [
+     "portare",
+     "portare",
+     ""
+    ],
+    [
+     "amico",
+     "amico",
      ""
     ],
     [
@@ -467,23 +474,21 @@
      "bello",
      "bello",
      ""
-    ],
-    [
-     "festa",
-     "festa",
-     ""
     ]
    ],
    "grok": true,
-   "it": "Certo. È il regalo più bello per la festa.",
-   "ko": "당연하지. 이 잔치에 제일 좋은 선물이야.",
-   "rd": "체르또. 에 일 레갈로 삐우 벨로 뻬르 라 페스따.",
+   "it": "Certo. Portare un amico è il regalo più bello.",
+   "ko": "당연하지. 친구 데려온 게 제일 좋은 선물이야.",
+   "rd": "체르또. 뽀르따레 운 아미꼬 에 일 레갈로 삐우 벨로.",
+   "it_f": "Certo. Portare un'amica è il regalo più bello.",
+   "ko_f": "당연하지. 친구 데려온 게 제일 좋은 선물이야.",
+   "rd_f": "체르또. 뽀르따레 우나미까 에 일 레갈로 삐우 벨로.",
    "emotion": "teasing"
   },
   {
    "num": 12,
    "speaker": "B",
-   "note": "col compleanno = 생일 가지고(con + il)",
+   "note": "non esagerare = 과장하지 마",
    "tags": [
     "step:8"
    ],
@@ -536,15 +541,30 @@
      ""
     ],
     [
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "ancora",
+     "ancora",
+     ""
+    ],
+    [
      "più",
      "più",
+     ""
+    ],
+    [
+     "nervosa",
+     "nervoso",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sono solo contenta, niente di più.",
-   "ko": "그냥 기쁠 뿐이야, 그 이상 없어.",
-   "rd": "쏘노 쏠로 꼰뗀따, 니엔떼 디 삐우.",
+   "it": "Sono solo contenta, e tu sei ancora più nervosa di me!",
+   "ko": "그냥 기쁠 뿐이야, 네가 나보다 더 긴장했구나!",
+   "rd": "쏘노 쏠로 꼰뗀따, 에 뚜 쎄이 안꼬라 삐우 네르보자 디 메!",
    "emotion": "amused"
   }
  ]

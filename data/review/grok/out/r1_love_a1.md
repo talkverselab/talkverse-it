@@ -12,8 +12,8 @@ expressions: Senti; Allora; Tranquillo
 B | Senti, che fai domani? | 있잖아, 내일 뭐 해? | fai = 해 | emotion=shy | tags=step:9
 A | Studio un po' a casa. | 집에서 좀 공부해. | studio = 공부해 | emotion=neutral | tags=step:3
 B | Allora vorrei vederti. | 그럼 너를 보고 싶어. | vorrei = 원하는데 | emotion=teasing | tags=step:10
-A | Mi porti tu al fiume? | 네가 강으로 데려가 줄래? | mi porti = 나를 데려가 | emotion=excited | tags=step:7
+A | Dove ci vediamo domani? | 내일 어디서 봐? | dove = 어디서 | emotion=excited | tags=step:7
 B | Ti piace questo posto? | 여기 좋아해? | ti piace = 좋아해 | emotion=teasing | tags=step:8
 A | Non so, boh. | 모르겠어, 글쎄. | so = 알아 | emotion=flustered | tags=step:9
-B | Tranquillo, guarda il tramonto. | 진정해, 노을 봐. | guarda = 봐 | emotion=gentle | tags=step:3
-A | Mi piace... // cioè, stare qui. | 좋아해... // 즉, 여기 있는 거. | mi piace = 좋아해 | emotion=amused+shy | tags=step:3,twist
+B | Tranquill{o|a}, guarda il tramonto. | 진정해, 노을 봐. | guarda = 봐 | emotion=gentle | tags=step:3
+A | Mi piace... // cioè, stare qui. | 좋아해... // 아니, 그러니까 여기 있는 거. | mi piace = 좋아해 | emotion=amused+shy | tags=step:3,twist

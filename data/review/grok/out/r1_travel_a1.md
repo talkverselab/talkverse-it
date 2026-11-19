@@ -12,8 +12,8 @@ expressions: Pronto; Che bello; Allora
 A | Pronto, sono arrivat{o|a} in stazione. | 여보세요, 역에 도착했어. | sono arrivat{o|a} = 도착했어 | emotion=excited | tags=step:6
 B | Ciao, sono qui vicino. | 안녕, 여기 근처에 있어. | sono = 있어 | emotion=cheerful | tags=step:2
 A | C'è una bella ragazza. | 예쁜 여자가 있어. | una bella ragazza = 예쁜 여자(여) | emotion=shy | tags=step:1
-B | Guarda lei, vieni. | 그녀 봐, 와. | guarda = 봐; vieni = 와 | emotion=teasing | tags=step:9
+B | Guarda quella, vieni. | 저쪽 봐, 와. | guarda = 봐 | emotion=teasing | tags=step:9
 A | Sì, la guardo un po'. | 응, 좀 봐. | la guardo = 그녀를 봐 | emotion=flustered | tags=step:7,step:3
-B | Allora, sono io! // Che bello. | 그럼, 나야! // 멋지네. | sono = 이야 | emotion=teasing+cheerful | tags=step:3,step:2,twist
-A | Ti vedo ora. | 지금 너를 봐. | ti vedo = 너를 봐 | emotion=surprised | tags=step:7
+B | Sono io, dai! // Che bello. | 나야, 진짜! // 신나네. | sono = 이야 | emotion=teasing+cheerful | tags=step:3,step:2,twist
+A | Ti vedo ora. | 이제 보인다. | ti vedo = 너를 봐 | emotion=surprised | tags=step:7
 B | Sei brav{o|a} a trovarmi. | 나를 잘 찾았네. | sei = 이야; brav{o|a} = 잘한 | emotion=teasing | tags=step:2

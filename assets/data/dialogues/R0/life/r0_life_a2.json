@@ -60,7 +60,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "Tranquillo = 진정해",
+   "note": "con calma = 차분히",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -75,15 +75,15 @@
      ""
     ],
     [
-     "piano",
-     "piano",
+     "calma",
+     "calma",
      ""
     ]
    ],
    "grok": true,
-   "it": "Tranquillo, cerca piano.",
-   "ko": "진정해, 천천히 찾아.",
-   "rd": "트란뀔로, 체르까 삐아노.",
+   "it": "Tranquillo, cerca con calma.",
+   "ko": "진정해, 차분히 찾아.",
+   "rd": "트란뀔로, 체르까 꼰 깔마.",
    "emotion": "gentle"
   },
   {

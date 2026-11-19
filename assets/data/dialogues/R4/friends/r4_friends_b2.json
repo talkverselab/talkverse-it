@@ -63,7 +63,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "mi sono svegliato/a = 내가 일어났다",
+   "note": "mi sono svegliato / a = 내가 일어났다",
    "tags": [
     "step:9"
    ],
@@ -187,7 +187,7 @@
    ],
    "grok": true,
    "it": "Ciao, cosa prendete voi?",
-   "ko": "안녕, 너희 뭐 가져?",
+   "ko": "안녕, 뭐 줄까?",
    "rd": "챠오, 꼬자 프렌데떼 보이?",
    "emotion": "neutral"
   },
@@ -238,7 +238,7 @@
     ],
     [
      "siate",
-     "siate",
+     "essare",
      ""
     ],
     [
@@ -247,15 +247,15 @@
      ""
     ],
     [
-     "così",
-     "così",
+     "pigiama",
+     "pigiama",
      ""
     ]
    ],
    "grok": true,
-   "it": "Mi dispiace che siate venuti così.",
-   "ko": "너희 이렇게 와서 미안해.",
-   "rd": "미 디스삐아체 께 씨아떼 베누띠 꼬지.",
+   "it": "Mi dispiace che siate venuti in pigiama.",
+   "ko": "너희 잠옷 차림으로 와서 미안해.",
+   "rd": "미 디스삐아체 께 씨아떼 베누띠 인 삐쟈마.",
    "emotion": "amused"
   },
   {
@@ -279,15 +279,20 @@
      ""
     ],
     [
-     "ieri",
-     "ieri",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "prossima",
+     "prossimo",
      ""
     ]
    ],
    "grok": true,
-   "it": "Te l'avevo detto ieri!",
-   "ko": "내가 어제 너에게 말했었잖아!",
-   "rd": "떼 라베보 데또 이에리!",
+   "it": "Te l'avevo detto che è la prossima!",
+   "ko": "내가 다음 주라고 말했었잖아!",
+   "rd": "떼 라베보 데또 께 에 라 프로씨마!",
    "emotion": "annoyed"
   },
   {
@@ -312,6 +317,11 @@
      ""
     ],
     [
+     "messaggio",
+     "messaggio",
+     ""
+    ],
+    [
      "avrei",
      "avere",
      ""
@@ -323,9 +333,9 @@
     ]
    ],
    "grok": true,
-   "it": "Se avessi letto, te l'avrei detto.",
-   "ko": "읽었더라면, 너에게 말했을 거야.",
-   "rd": "쎄 아베씨 레또, 떼 라브레이 데또.",
+   "it": "Se avessi letto il messaggio, te l'avrei detto.",
+   "ko": "초대 메시지 제대로 읽었더라면, 너에게 말했을 거야.",
+   "rd": "쎄 아베씨 레또 일 메싸조, 떼 라브레이 데또.",
    "emotion": "flustered"
   },
   {
@@ -360,7 +370,7 @@
    ],
    "grok": true,
    "it": "Avrei preferito arrivare prima.",
-   "ko": "더 일찍 도착하고 싶었을 거야.",
+   "ko": "더 일찍 오는 게 나았을 텐데.",
    "rd": "아브레이 프레페리또 아리바레 프리마.",
    "emotion": "annoyed"
   },
@@ -385,15 +395,20 @@
      ""
     ],
     [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
      "penso",
      "pensare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ve lo do subito, ci penso io.",
-   "ko": "그것을 너희에게 바로 줄게, 내가 생각해.",
-   "rd": "베 로 도 쑤비또, 치 뻰쏘 이오.",
+   "it": "Ve lo do subito il caffè, ci penso io.",
+   "ko": "커피 바로 줄게, 내가 알아서 할게.",
+   "rd": "베 로 도 쑤비또 일 까페, 치 뻰쏘 이오.",
    "emotion": "gentle"
   },
   {
@@ -407,13 +422,32 @@
      "auguri",
      "augurio",
      ""
+    ],
+    [
+     "fate",
+     "fare",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Tanti auguri a me!",
-   "ko": "나에게 생일 축하해!",
-   "rd": "딴띠 아우구리 아 메!",
-   "emotion": "cheerful"
+   "it": "Tanti auguri? Cosa fate qui!",
+   "ko": "생일 축하? 너희 여기서 뭐 해!",
+   "rd": "딴띠 아우구리? 꼬자 파떼 뀌!",
+   "segs": [
+    [
+     "cheerful",
+     "Tanti auguri?"
+    ],
+    [
+     "surprised",
+     " Cosa fate qui!"
+    ]
+   ]
   },
   {
    "num": 13,
@@ -457,20 +491,20 @@
      ""
     ],
     [
-     "va",
-     "andare",
+     "siete",
+     "essere",
      ""
     ],
     [
-     "bene",
-     "bene",
+     "disastro",
+     "disastro",
      ""
     ]
    ],
    "grok": true,
-   "it": "Boh, ma dai, va bene!",
-   "ko": "글쎄, 야, 괜찮아!",
-   "rd": "보, 마 다이, 바 베네!",
+   "it": "Boh, ma dai, siete un disastro!",
+   "ko": "글쎄, 야, 너희 완전 엉망이야!",
+   "rd": "보, 마 다이, 씨에떼 운 디자스트로!",
    "emotion": "teasing"
   }
  ]

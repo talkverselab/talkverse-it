@@ -46,6 +46,27 @@
      "caffè",
      "caffè",
      ""
+    ]
+   ],
+   "grok": true,
+   "it": "Prendete un caffè?",
+   "ko": "커피 드시겠어요?",
+   "rd": "프렌데떼 운 까페?",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "note": "due caffè = 커피 두 잔",
+   "tags": [
+    "step:3"
+   ],
+   "new": [],
+   "lemmas": [
+    [
+     "caffè",
+     "caffè",
+     ""
     ],
     [
      "favore",
@@ -54,30 +75,9 @@
     ]
    ],
    "grok": true,
-   "it": "Prendete un caffè, per favore?",
-   "ko": "커피 드시겠어요, 부탁드려요?",
-   "rd": "프렌데떼 운 까페, 뻬르 파보레?",
-   "emotion": "polite"
-  },
-  {
-   "num": 2,
-   "speaker": "C",
-   "note": "prendiamo = 우리 가지다",
-   "tags": [
-    "step:3"
-   ],
-   "new": [],
-   "lemmas": [
-    [
-     "prendiamo",
-     "prendere",
-     ""
-    ]
-   ],
-   "grok": true,
-   "it": "Sì, prendiamo due noi!",
-   "ko": "네, 우리 두 잔 가져요!",
-   "rd": "씨, 프렌디아모 두에 노이!",
+   "it": "Sì, due caffè, per favore!",
+   "ko": "네, 커피 두 잔 주세요!",
+   "rd": "씨, 두에 까페, 뻬르 파보레!",
    "emotion": "cheerful"
   },
   {
@@ -90,25 +90,25 @@
    "new": [],
    "lemmas": [
     [
-     "volete",
-     "volete",
-     ""
-    ],
-    [
-     "caldi",
-     "caldo",
-     ""
-    ],
-    [
      "scusi",
      "scusare",
+     ""
+    ],
+    [
+     "volete",
+     "volere",
+     ""
+    ],
+    [
+     "zucchero",
+     "zucchero",
      ""
     ]
    ],
    "grok": true,
-   "it": "Li volete caldi, Scusi?",
-   "ko": "그것들을 따뜻하게 원하시나요, 실례합니다?",
-   "rd": "리 볼레떼 깔디, 스꾸지?",
+   "it": "Scusi, li volete con zucchero?",
+   "ko": "실례합니다, 설탕 넣으실래요?",
+   "rd": "스꾸지, 리 볼레떼 꼰 쭈께로?",
    "emotion": "polite"
   },
   {
@@ -155,13 +155,32 @@
      "bene",
      "bene",
      ""
+    ],
+    [
+     "dite",
+     "dire",
+     ""
+    ],
+    [
+     "solo",
+     "solo",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Capite bene voi?",
-   "ko": "여러분 잘 이해하시나요?",
-   "rd": "까삐떼 베네 보이?",
-   "emotion": "surprised"
+   "it": "Capite bene? Dite solo sì.",
+   "ko": "잘 이해하세요? 네만 하시네요.",
+   "rd": "까삐떼 베네? 디떼 쏠로 씨.",
+   "segs": [
+    [
+     "surprised",
+     "Capite bene?"
+    ],
+    [
+     "amused",
+     " Dite solo sì."
+    ]
+   ]
   },
   {
    "num": 6,
@@ -187,7 +206,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "ai tavoli = 테이블들에서",
+   "note": "prendete = 너희 주문하다",
    "tags": [
     "step:4"
    ],
@@ -199,37 +218,32 @@
      ""
     ],
     [
-     "tavoli",
-     "tavolo",
+     "prendete",
+     "prendere",
      ""
     ],
     [
-     "prendete",
-     "prendere",
+     "menu",
+     "menu",
      ""
     ]
    ],
    "grok": true,
-   "it": "Allora ai tavoli prendete tutto?",
-   "ko": "그럼 테이블들에서 다 드시겠어요?",
-   "rd": "알로라 아이 따볼리 프렌데떼 뚜또?",
+   "it": "Allora prendete tutto il menu?",
+   "ko": "그럼 메뉴 전부 드시겠어요?",
+   "rd": "알로라 프렌데떼 뚜또 일 메누?",
    "emotion": "polite"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "prendiamo = 우리 가지다",
+   "note": "solo = ~만",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "prendiamo",
-     "prendere",
-     ""
-    ],
-    [
      "solo",
      "solo",
      ""
@@ -241,9 +255,9 @@
     ]
    ],
    "grok": true,
-   "it": "No, noi prendiamo solo caffè!",
-   "ko": "아니, 우리 커피만 가져요!",
-   "rd": "노, 노이 프렌디아모 쏠로 까페!",
+   "it": "No, solo due caffè!",
+   "ko": "아니, 커피 두 잔만요!",
+   "rd": "노, 쏠로 두에 까페!",
    "emotion": "surprised"
   }
  ]

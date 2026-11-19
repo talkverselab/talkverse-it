@@ -72,7 +72,7 @@
   {
    "num": 2,
    "speaker": "B",
-   "note": "la borsa (di studio) = 장학금",
+   "note": "la borsa = 장학금(borsa di studio)",
    "tags": [
     "step:2"
    ],
@@ -120,8 +120,8 @@
      ""
     ],
     [
-     "tanto",
-     "tanto",
+     "molto",
+     "molto",
      ""
     ],
     [
@@ -136,9 +136,9 @@
     ]
    ],
    "grok": true,
-   "it": "Per la ricerca. Costa tanto e devo risparmiare.",
-   "ko": "연구 때문에. 돈이 많이 들고 저축해야 해.",
-   "rd": "뻬르 라 리체르까. 꼬스따 딴또 에 데보 리스빠르미아레.",
+   "it": "Per la mia ricerca. Costa molto e devo risparmiare.",
+   "ko": "제 연구를 위해서입니다. 비용이 많이 들어서 저축해야 합니다.",
+   "rd": "뻬르 라 미아 리체르까. 꼬스따 몰또 에 데보 리스빠르미아레.",
    "emotion": "cheerful"
   },
   {
@@ -157,31 +157,41 @@
      ""
     ],
     [
+     "borsa",
+     "borsa",
+     ""
+    ],
+    [
      "lavoro",
      "lavoro",
      ""
     ],
     [
      "costa",
-     "costa",
+     "costare",
      ""
     ],
     [
      "pure",
      "pure",
+     ""
+    ],
+    [
+     "più",
+     "più",
      ""
     ]
    ],
    "grok": true,
-   "it": "Boh, ma il lavoro dopo costa pure.",
-   "ko": "몰라, 근데 나중에 일도 돈 들어.",
-   "rd": "보, 마 일 라보로 도뽀 꼬스따 뿌레.",
+   "it": "Boh, ma dopo la borsa il lavoro costa pure di più?",
+   "ko": "몰라, 근데 장학금 다음에 일도 더 돈 드는 거 아닌가요?",
+   "rd": "보, 마 도뽀 라 보르싸 일 라보로 꼬스따 뿌레 디 삐우?",
    "emotion": "tsukkomi"
   },
   {
    "num": 5,
    "speaker": "A",
-   "note": "Magari = 아마, ~일지도",
+   "note": "continuo a studiare = 계속 공부하다",
    "tags": [
     "step:2",
     "step:1"
@@ -199,13 +209,23 @@
      ""
     ],
     [
-     "studio",
+     "continuo",
+     "continuo",
+     ""
+    ],
+    [
+     "studiare",
      "studiare",
      ""
     ],
     [
-     "casa",
-     "casa",
+     "qui",
+     "qui",
+     ""
+    ],
+    [
+     "poi",
+     "poi",
      ""
     ],
     [
@@ -215,15 +235,15 @@
     ]
    ],
    "grok": true,
-   "it": "Certo. Magari studio in questa casa e lavoro.",
-   "ko": "당연하지. 이 집에서 공부하고 일할지도.",
-   "rd": "체르또. 마가리 스뚜디오 인 꿰스따 까자 에 라보로.",
+   "it": "Certo. Magari continuo a studiare qui e poi lavoro.",
+   "ko": "당연하죠. 여기서 계속 공부하고 나중에 일할지도요.",
+   "rd": "체르또. 마가리 꼰띠누오 아 스뚜디아레 뀌 에 뽀이 라보로.",
    "emotion": "amused"
   },
   {
    "num": 6,
    "speaker": "B",
-   "note": "farà = 하실 거예요(fare 미래, Lei)",
+   "note": "farà = (Lei) 할 것이다",
    "tags": [
     "step:10"
    ],
@@ -306,7 +326,7 @@
   {
    "num": 8,
    "speaker": "B",
-   "note": "costare = 비용이 들다",
+   "note": "costa = 비용이 들다",
    "tags": [
     "step:7",
     "step:10"
@@ -336,14 +356,14 @@
    ],
    "grok": true,
    "it": "Bene. Quanto costa la vita qui secondo Lei?",
-   "ko": "좋습니다. 여기 생활비가 얼마나 드나요, 당신 생각에?",
+   "ko": "좋습니다. 여기 생활비가 얼마나 드나요?",
    "rd": "베네. 꽌또 꼬스따 라 비따 뀌 쎄꼰도 레이?",
    "emotion": "polite"
   },
   {
    "num": 9,
    "speaker": "A",
-   "note": "Risparmierò = 저축할 거예요(risparmiare 미래)",
+   "note": "risparmierò = 저축할 것이다",
    "tags": [
     "step:7",
     "step:2",
@@ -381,7 +401,7 @@
   {
    "num": 10,
    "speaker": "B",
-   "note": "altre domande = 다른 질문들",
+   "note": "domande = 질문들",
    "tags": [
     "step:10"
    ],
@@ -422,7 +442,7 @@
   {
    "num": 11,
    "speaker": "A",
-   "note": "sicuro/a = 자신 있는",
+   "note": "sicuro / a = 자신 있는",
    "tags": [
     "step:4"
    ],
@@ -458,15 +478,15 @@
    "it": "Tranquillo, mi sento più sicuro adesso.",
    "ko": "진정해, 이제 더 자신 있어.",
    "rd": "트란뀔로, 미 쎈또 삐우 씨꾸로 아데쏘.",
-   "it_f": "Tranquilla, mi sento più sicura adesso.",
+   "it_f": "Tranquillo, mi sento più sicura adesso.",
    "ko_f": "진정해, 이제 더 자신 있어.",
-   "rd_f": "트란뀔라, 미 쎈또 삐우 씨꾸라 아데쏘.",
+   "rd_f": "트란뀔로, 미 쎈또 삐우 씨꾸라 아데쏘.",
    "emotion": "gentle"
   },
   {
    "num": 12,
    "speaker": "B",
-   "note": "è iniziata = 시작됐다(iniziare, essere)",
+   "note": "è iniziata = 시작됐다",
    "tags": [
     "step:4"
    ],
@@ -507,7 +527,7 @@
   {
    "num": 13,
    "speaker": "A",
-   "note": "nervoso/a = 긴장된",
+   "note": "nervoso / a = 긴장된",
    "tags": [
     "step:4"
    ],
@@ -541,7 +561,7 @@
   {
    "num": 14,
    "speaker": "B",
-   "note": "tifo per te = 너를 응원해(tifare)",
+   "note": "tifo per te = 너를 응원해",
    "tags": [
     "step:4"
    ],

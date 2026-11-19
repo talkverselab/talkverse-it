@@ -127,14 +127,14 @@
   {
    "num": 3,
    "speaker": "C",
-   "note": "in centro = 시내에 · il proprietario = 집주인",
+   "note": "il proprietario = 집주인",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "guarda",
+     "guardino",
      "guardare",
      ""
     ],
@@ -165,9 +165,9 @@
     ]
    ],
    "grok": true,
-   "it": "Guarda, è in centro e il proprietario è gentile.",
+   "it": "Guardino, è in centro e il proprietario è gentile.",
    "ko": "보세요, 중심가에 있고 집주인이 친절해요.",
-   "rd": "구아르다, 에 인 첸트로 에 일 프로프리에따리오 에 젠띨레.",
+   "rd": "구아르디노, 에 인 첸트로 에 일 프로프리에따리오 에 젠띨레.",
    "emotion": "cheerful"
   },
   {
@@ -262,6 +262,21 @@
    "new": [],
    "lemmas": [
     [
+     "spese",
+     "spesa",
+     ""
+    ],
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "incluse",
+     "incluse",
+     ""
+    ],
+    [
      "grave",
      "grave",
      ""
@@ -288,9 +303,9 @@
     ]
    ],
    "grok": true,
-   "it": "Niente di grave, solo un piccolo problema di umidità.",
-   "ko": "별거 아니에요, 습기 문제만 조금 있어요.",
-   "rd": "니엔떼 디 그라베, 쏠로 운 삐꼴로 프로블레마 디 우미디따.",
+   "it": "Le spese sono incluse. Niente di grave, solo un piccolo problema di umidità.",
+   "ko": "관리비는 포함입니다. 별거 아니에요, 습기 문제만 조금 있어요.",
+   "rd": "레 스뻬제 쏘노 인클루제. 니엔떼 디 그라베, 쏠로 운 삐꼴로 프로블레마 디 우미디따.",
    "emotion": "worried"
   },
   {
@@ -337,47 +352,47 @@
   {
    "num": 8,
    "speaker": "C",
-   "note": "preoccupato = 걱정되는",
+   "note": "un dettaglio = 작은 사항",
    "tags": [
     "step:4"
    ],
    "new": [],
    "lemmas": [
     [
-     "sono",
+     "beh",
+     "beh",
+     ""
+    ],
+    [
+     "è",
      "essere",
      ""
     ],
     [
-     "po",
-     "poco",
+     "dettaglio",
+     "dettaglio",
      ""
     ],
     [
-     "preoccupato",
-     "preoccupato",
+     "non",
+     "non",
      ""
     ],
     [
-     "anch",
-     "anche",
+     "ho",
+     "avere",
      ""
     ],
     [
+     "detto",
      "dire",
-     "dire",
-     ""
-    ],
-    [
-     "vero",
-     "vero",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sono un po' preoccupato anch'io, a dire il vero.",
-   "ko": "사실 저도 좀 걱정돼요.",
-   "rd": "쏘노 운 뽀 프레오꾸빠또 안끼오, 아 디레 일 베로.",
+   "it": "Beh… c'è un dettaglio che non ho detto.",
+   "ko": "그게… 말씀 안 드린 게 하나 있어요.",
+   "rd": "베… 체 운 데딸리오 께 논 오 데또.",
    "emotion": "flustered"
   },
   {
@@ -389,6 +404,11 @@
    ],
    "new": [],
    "lemmas": [
+    [
+     "guarda",
+     "guardare",
+     ""
+    ],
     [
      "preoccupato",
      "preoccupato",
@@ -411,9 +431,9 @@
     ]
    ],
    "grok": true,
-   "it": "Preoccupato? Ma la casa è bellissima!",
-   "ko": "걱정된다고? 근데 집이 완전 예쁜데!",
-   "rd": "프레오꾸빠또? 마 라 까자 에 벨리씨마!",
+   "it": "Guarda, preoccupato? Ma la casa è bellissima!",
+   "ko": "봐, 걱정된다고? 근데 집이 완전 예쁜데!",
+   "rd": "구아르다, 프레오꾸빠또? 마 라 까자 에 벨리씨마!",
    "emotion": "surprised"
   },
   {

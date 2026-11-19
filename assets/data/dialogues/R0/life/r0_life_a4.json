@@ -96,20 +96,25 @@
   {
    "num": 4,
    "speaker": "B",
-   "note": "perdo = 지다",
+   "note": "perde = 지다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "perdo",
-     "perdare",
+     "squadra",
+     "squadra",
+     ""
+    ],
+    [
+     "perde",
+     "perdere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sì, perdo tutto.",
-   "ko": "응, 다 졌어.",
-   "rd": "씨, 뻬르도 뚜또.",
+   "it": "Sì, la squadra perde.",
+   "ko": "응, 팀이 졌어.",
+   "rd": "씨, 라 스꽈드라 뻬르데.",
    "emotion": "sad"
   },
   {

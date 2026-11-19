@@ -11,10 +11,10 @@ goal: 그래머2: R1 같은 문장을 복수로 — fate · passiamo · vi porte
 expressions: Senti; Allora; Tranquilli
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 B | Senti, voi cosa fate domani? | 들어봐, 너희 내일 뭐 해? | fate = 너희 하다 | emotion=shy | tags=step:9
-C | Non sappiamo. Passiamo il tempo. | 몰라. 그냥 시간 보내. | non sappiamo = 우리는 모르다 | emotion=neutral | tags=step:3
+C | Non sappiamo. Non abbiamo piani. | 몰라. 별 계획 없어. | non sappiamo = 우리는 모르다 | emotion=neutral | tags=step:3
 B | Allora vi porterò in centro. | 그럼 너희 시내로 데려갈게. | vi porterò = 너희를 데려갈게 | emotion=teasing | tags=step:10
-A | Ci porti anche al fiume? | 우리도 강으로 데려다 줘? | ci = 우리를 | emotion=excited | tags=step:7
+A | Ci porti anche al fiume? | 강가에도 데려가 줄 거야? | ci = 우리를 | emotion=excited | tags=step:7
 B | Vi piace il fiume di sera? | 너희 저녁 강 좋아해? | vi piace = 너희는 좋아하다 | emotion=teasing | tags=step:8
-C | Sì, ma non sappiamo dove. | 응, 근데 어디인지 몰라. | non sappiamo = 우리는 모르다 | emotion=flustered | tags=step:9
-B | Tranquilli. Voi mi guardate così. | 걱정 마. 너희 날 그렇게 봐. | voi mi guardate = 너희 나를 보다 | emotion=gentle | tags=step:3
-A | Passiamo la sera insieme. // Oh, scusa. | 저녁 같이 보내자. // 아, 미안. | passiamo = 우리는 보내다 | emotion=amused+shy | tags=step:3,twist
+C | Sì, ci piace tanto. | 응, 우리 정말 좋아해. | | emotion=flustered | tags=step:9
+B | Tranquilli. Passiamo la sera insieme? | 걱정 마. 저녁 같이 보낼래? | | emotion=gentle | tags=step:3
+A | Passiamo la sera noi due. // Oh, scusa Luca. | 우리 둘만 저녁 보내자. // 아, 미안 루카. | passiamo = 우리는 보내다 | emotion=amused+shy | tags=step:3,twist

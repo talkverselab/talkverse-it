@@ -194,7 +194,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "calmo = 침착한",
+   "note": "calmo / a = 침착한",
    "tags": [
     "step:4"
    ],
@@ -235,12 +235,15 @@
    "it": "Sei sempre così calmo quando fa buio?",
    "ko": "어두워지면 항상 이렇게 침착해?",
    "rd": "쎄이 쎔프레 꼬지 깔모 꽌도 파 부이오?",
+   "it_f": "Sei sempre così calma quando fa buio?",
+   "ko_f": "어두워지면 항상 이렇게 침착해?",
+   "rd_f": "쎄이 쎔프레 꼬지 깔마 꽌도 파 부이오?",
    "emotion": "teasing"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "nervoso/a = 긴장된",
+   "note": "nervoso / a = 긴장된",
    "tags": [
     "step:4"
    ],
@@ -257,8 +260,13 @@
      ""
     ],
     [
-     "va",
-     "andare",
+     "sto",
+     "stare",
+     ""
+    ],
+    [
+     "bene",
+     "bene",
      ""
     ],
     [
@@ -268,12 +276,12 @@
     ]
    ],
    "grok": true,
-   "it": "Un po' nervoso, ma va. Tu come stai?",
+   "it": "Un po' nervoso, ma sto bene. Tu come stai?",
    "ko": "좀 긴장되지만 괜찮아. 너는 어때?",
-   "rd": "운 뽀 네르보조, 마 바. 뚜 꼬메 스따이?",
-   "it_f": "Un po' nervosa, ma va. Tu come stai?",
+   "rd": "운 뽀 네르보조, 마 스또 베네. 뚜 꼬메 스따이?",
+   "it_f": "Un po' nervosa, ma sto bene. Tu come stai?",
    "ko_f": "좀 긴장되지만 괜찮아. 너는 어때?",
-   "rd_f": "운 뽀 네르보자, 마 바. 뚜 꼬메 스따이?",
+   "rd_f": "운 뽀 네르보자, 마 스또 베네. 뚜 꼬메 스따이?",
    "emotion": "amused"
   },
   {
@@ -298,17 +306,37 @@
     ],
     [
      "sole",
-     "solo",
+     "sole",
      ""
     ],
     [
-     "magari",
-     "magari",
+     "fa",
+     "fare",
+     ""
+    ],
+    [
+     "così",
+     "così",
+     ""
+    ],
+    [
+     "freddo",
+     "freddo",
+     ""
+    ],
+    [
+     "sembra",
+     "sembrare",
      ""
     ],
     [
      "natale",
      "natale",
+     ""
+    ],
+    [
+     "magari",
+     "magari",
      ""
     ],
     [
@@ -318,9 +346,9 @@
     ]
    ],
    "grok": true,
-   "it": "Le previsioni dicevano sole. Magari a Natale nevica.",
-   "ko": "예보에는 맑대. 크리스마스에 눈 올지도.",
-   "rd": "레 프레비지오니 디체바노 쏠레. 마가리 아 나딸레 네비까.",
+   "it": "Le previsioni dicevano sole. Fa così freddo che sembra Natale, magari nevica.",
+   "ko": "예보에는 맑대. 이렇게 추우니 크리스마스 같고, 눈 올지도.",
+   "rd": "레 프레비지오니 디체바노 쏠레. 파 꼬지 프레도 께 쎔브라 나딸레, 마가리 네비까.",
    "emotion": "gentle"
   },
   {
@@ -362,7 +390,7 @@
   {
    "num": 9,
    "speaker": "B",
-   "note": "bloccati = 갇힌 · fino a quando = 언제까지",
+   "note": "bloccati = 갇힌",
    "tags": [
     "step:5"
    ],
@@ -450,7 +478,7 @@
   {
    "num": 11,
    "speaker": "B",
-   "note": "fare il romantico = 로맨틱한 척하다",
+   "note": "il romantico / la romantica = 로맨틱한 사람",
    "tags": [
     "step:4"
    ],
@@ -496,13 +524,13 @@
      " Anch'io un po'."
     ]
    ],
-   "it_f": "Dai, non fare il romantica. Anch'io un po'.",
+   "it_f": "Dai, non fare la romantica. Anch'io un po'.",
    "ko_f": "에이, 로맨틱하게 굴지 마. 나도 좀.",
-   "rd_f": "다이, 논 파레 일 로만띠까. 안끼오 운 뽀.",
+   "rd_f": "다이, 논 파레 라 로만띠까. 안끼오 운 뽀.",
    "segs_f": [
     [
      "teasing",
-     "Dai, non fare il romantica."
+     "Dai, non fare la romantica."
     ],
     [
      "shy",
@@ -513,7 +541,7 @@
   {
    "num": 12,
    "speaker": "A",
-   "note": "la pioggia = 비 · smette = 그치다(smettere)",
+   "note": "smette = 그치다",
    "tags": [
     "step:5"
    ],
@@ -549,7 +577,7 @@
   {
    "num": 13,
    "speaker": "B",
-   "note": "Volevo restare = 남고 싶었어 · senza luce = 불 없이",
+   "note": "lo stesso = 그래도",
    "tags": [
     "step:5",
     "step:4"
@@ -591,7 +619,7 @@
   {
    "num": 14,
    "speaker": "A",
-   "note": "contento/a = 기쁜",
+   "note": "contento / a = 기쁜",
    "tags": [
     "step:4"
    ],
@@ -618,15 +646,20 @@
      ""
     ],
     [
+     "stare",
+     "stare",
+     ""
+    ],
+    [
      "buio",
      "buio",
      ""
     ]
    ],
    "grok": true,
-   "it": "Davvero? Anch'io ero contento del buio.",
-   "ko": "진짜? 나도 어두운 게 기뻤어.",
-   "rd": "다베로? 안끼오 에로 꼰뗀또 델 부이오.",
+   "it": "Davvero? Anch'io ero contento di stare al buio con te.",
+   "ko": "진짜? 나도 너랑 어두운 데 있어서 좋았어.",
+   "rd": "다베로? 안끼오 에로 꼰뗀또 디 스따레 알 부이오 꼰 떼.",
    "segs": [
     [
      "surprised",
@@ -634,12 +667,12 @@
     ],
     [
      "shy",
-     " Anch'io ero contento del buio."
+     " Anch'io ero contento di stare al buio con te."
     ]
    ],
-   "it_f": "Davvero? Anch'io ero contenta del buio.",
-   "ko_f": "진짜? 나도 어두운 게 기뻤어.",
-   "rd_f": "다베로? 안끼오 에로 꼰뗀따 델 부이오.",
+   "it_f": "Davvero? Anch'io ero contenta di stare al buio con te.",
+   "ko_f": "진짜? 나도 너랑 어두운 데 있어서 좋았어.",
+   "rd_f": "다베로? 안끼오 에로 꼰뗀따 디 스따레 알 부이오 꼰 떼.",
    "segs_f": [
     [
      "surprised",
@@ -647,7 +680,7 @@
     ],
     [
      "shy",
-     " Anch'io ero contenta del buio."
+     " Anch'io ero contenta di stare al buio con te."
     ]
    ]
   }

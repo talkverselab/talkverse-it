@@ -50,26 +50,26 @@
      ""
     ],
     [
-     "usciti",
-     "uscire",
+     "tornati",
+     "tornare",
      ""
     ],
     [
-     "presto",
-     "presto",
+     "tardi",
+     "tardi",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ehi, siete usciti presto?",
-   "ko": "안녕, 일찍 나갔어?",
-   "rd": "에이, 씨에떼 우시띠 프레스또?",
+   "it": "Ehi, siete tornati tardi?",
+   "ko": "안녕, 늦게 들어왔어?",
+   "rd": "에이, 씨에떼 또르나띠 따르디?",
    "emotion": "teasing"
   },
   {
    "num": 2,
    "speaker": "A",
-   "note": "siamo usciti = 나갔어",
+   "note": "siamo tornati / e = 들어온",
    "tags": [
     "step:6"
    ],
@@ -81,8 +81,8 @@
      ""
     ],
     [
-     "usciti",
-     "uscire",
+     "tornati",
+     "tornare",
      ""
     ],
     [
@@ -92,15 +92,18 @@
     ]
    ],
    "grok": true,
-   "it": "Sì, siamo usciti insieme.",
-   "ko": "응, 같이 나갔어.",
-   "rd": "씨, 씨아모 우시띠 인씨에메.",
+   "it": "Sì, siamo tornati insieme.",
+   "ko": "응, 같이 들어왔어.",
+   "rd": "씨, 씨아모 또르나띠 인씨에메.",
+   "it_f": "Sì, siamo tornate insieme.",
+   "ko_f": "응, 같이 들어왔어.",
+   "rd_f": "씨, 씨아모 또르나떼 인씨에메.",
    "emotion": "flustered"
   },
   {
    "num": 3,
    "speaker": "B",
-   "note": "le rose = 장미들(la rosa 복수) · sulla = su + la",
+   "note": "le rose = 장미들",
    "tags": [
     "step:4"
    ],
@@ -128,11 +131,6 @@
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
-     ""
-    ],
-    [
      "piacciono",
      "piacere",
      ""
@@ -141,12 +139,17 @@
      "tanto",
      "tanto",
      ""
+    ],
+    [
+     "boh",
+     "boh",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Boh, ci piacciono tanto.",
-   "ko": "뭐, 우리 정말 좋아해.",
-   "rd": "보, 치 삐아쵸노 딴또.",
+   "it": "Ci piacciono tanto, boh.",
+   "ko": "우리 정말 좋아해, 뭐.",
+   "rd": "치 삐아쵸노 딴또, 보.",
    "emotion": "amused"
   },
   {
@@ -189,12 +192,17 @@
      "portiamo",
      "portare",
      ""
+    ],
+    [
+     "nonne",
+     "nonna",
+     ""
     ]
    ],
    "grok": true,
-   "it": "No, le portiamo noi.",
-   "ko": "아니, 우리가 가져가.",
-   "rd": "노, 레 뽀르띠아모 노이.",
+   "it": "Sì, le portiamo alle nonne. Giulia e Marco!",
+   "ko": "응, 할머니들께 가져가. 줄리아랑 마르코!",
+   "rd": "씨, 레 뽀르띠아모 알레 논네. 줄리아 에 마르꼬!",
    "emotion": "flustered"
   },
   {
@@ -223,15 +231,15 @@
     ]
    ],
    "grok": true,
-   "it": "Va bene, per le nonne. Giulia e Marco?",
-   "ko": "괜찮아, 할머니들 위해. 줄리아랑 마르코?",
-   "rd": "바 베네, 뻬르 레 논네. 줄리아 에 마르꼬?",
+   "it": "Va bene. Per le nonne.",
+   "ko": "괜찮아. 할머니들 위해.",
+   "rd": "바 베네. 뻬르 레 논네.",
    "emotion": "amused"
   },
   {
    "num": 8,
    "speaker": "C",
-   "note": "le nonne = 할머니들(la nonna 복수)",
+   "note": "le nonne = 할머니들",
    "tags": [
     "step:8"
    ],

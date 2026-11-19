@@ -162,13 +162,13 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "piace = 좋아하다",
+   "note": "piaccio = 좋아하다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "piace",
-     "piacere",
+     "piaccio",
+     "piacciare",
      ""
     ],
     [
@@ -178,9 +178,9 @@
     ]
    ],
    "grok": true,
-   "it": "Ti piace, eh?",
-   "ko": "좋아하나 봐, 응?",
-   "rd": "띠 삐아체, 에?",
+   "it": "Ti piaccio, eh?",
+   "ko": "나 좋아하는구나, 응?",
+   "rd": "띠 삐아쵸, 에?",
    "emotion": "teasing"
   }
  ]

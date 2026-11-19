@@ -11,10 +11,10 @@ goal: 그래머2: Lei 존댓말 — per Lei · vuole, voi — vi guardo, 복수 
 expressions: Fammi vedere; Ecco; Allora
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 A | Allora, faccio il caffè per Lei! | 그럼, 할아버지께 커피 만들어 드릴게요! | Allora = 그럼 | emotion=excited | tags=step:10
-C | I miei amici hanno detto che è buono. | 내 친구들이 맛있다고 했어. | hanno detto = 말했다 | emotion=tsukkomi | tags=step:9
-A | Vuole il sale? Fammi vedere. | 소금 넣으실래요? 보여 드릴게요. | Fammi vedere = 보여 줘 | emotion=cheerful | tags=step:9,step:3
+C | I miei amici hanno detto che il tuo caffè è buono. | 내 친구들이 네 커피가 맛있다고 했어. | hanno detto = 말했다 | emotion=tsukkomi | tags=step:9
+A | Vuole un caffè? | 커피 하실래요? | | emotion=cheerful | tags=step:9,step:3
 B | Ecco, lo prendo. | 여기, 내가 받을게. | Ecco = 여기 | emotion=teasing | tags=step:9
-A | Vi guardo mentre lo faccio. | 만드는 동안 볼게요. | Vi guardo = 볼게요 | emotion=polite | tags=step:1,step:9
-B | Non l'hanno finita ieri. | 어제 다 안 마셨어. | non l'hanno finita = 다 안 마셨다 | emotion=neutral+surprised | tags=step:5
+A | Guardate mentre lo faccio. | 만드는 동안 보세요. | Guardate = 보세요 | emotion=polite | tags=step:1,step:9
+B | Fammi vedere. // Non l'hanno finita ieri. | 보여 줘. // 어제 다 안 마셨어. | Fammi vedere = 보여 줘 | emotion=neutral+surprised | tags=step:5
 A | Cosa? // Ho messo troppo sale! | 뭐? // 소금을 너무 많이 넣었어! | | emotion=flustered | tags=step:5,step:7,twist
-B | È salato! Ma dai. | 짜! 정말. | | emotion=amused | tags=step:5,step:7
+B | È salato! Ma dai. | 짜! 에이. | | emotion=amused | tags=step:5,step:7

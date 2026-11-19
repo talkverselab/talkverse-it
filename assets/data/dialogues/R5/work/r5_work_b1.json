@@ -72,7 +72,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "lavoro = 일",
+   "note": "clienti = 손님들",
    "tags": [
     "step:2"
    ],
@@ -99,15 +99,15 @@
      ""
     ],
     [
-     "lavoro",
-     "lavoro",
+     "adesso",
+     "adesso",
      ""
     ]
    ],
    "grok": true,
-   "it": "Infatti, i clienti aspettano. Cosa facciamo al lavoro?",
-   "ko": "맞아, 손님들이 기다리고 있어. 일에서 뭐 하지?",
-   "rd": "인파띠, 이 클리엔띠 아스뻬따노. 꼬자 파챠모 알 라보로?",
+   "it": "Infatti, i clienti aspettano. Che facciamo adesso?",
+   "ko": "맞아, 손님들이 기다리고 있어. 이제 어떡하지?",
+   "rd": "인파띠, 이 클리엔띠 아스뻬따노. 께 파챠모 아데쏘?",
    "emotion": "flustered"
   },
   {
@@ -191,30 +191,30 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "conflitto = 갈등",
+   "note": "casino = 난리",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "sempre",
-     "sempre",
-     ""
-    ],
-    [
-     "conflitto",
-     "conflitto",
-     ""
-    ],
-    [
      "soldi",
      "soldo",
+     ""
+    ],
+    [
+     "fanno",
+     "fare",
+     ""
+    ],
+    [
+     "sempre",
+     "sempre",
+     ""
+    ],
+    [
+     "casino",
+     "casino",
      ""
     ],
     [
@@ -224,9 +224,9 @@
     ]
    ],
    "grok": true,
-   "it": "C'è sempre conflitto sui soldi, vero?",
-   "ko": "돈 가지고 항상 갈등이지, 그렇지?",
-   "rd": "체 쎔프레 꼰플리또 쑤이 쏠디, 베로?",
+   "it": "I soldi fanno sempre casino, vero?",
+   "ko": "돈만 나오면 항상 난리야, 그치?",
+   "rd": "이 쏠디 판노 쎔프레 까지노, 베로?",
    "emotion": "tsukkomi"
   },
   {
@@ -301,43 +301,43 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "futuro = 미래",
+   "note": "turni = 근무표",
    "tags": [
     "step:10"
    ],
    "new": [],
    "lemmas": [
     [
-     "futuro",
-     "futuro",
+     "lunedì",
+     "lunedì",
      ""
     ],
     [
-     "cambieremo",
-     "cambiare",
+     "cambiamo",
+     "cambere",
      ""
     ],
     [
-     "orario",
-     "orario",
+     "turni",
+     "turno",
      ""
     ],
     [
-     "prometto",
-     "prometto",
+     "promesso",
+     "promettere",
      ""
     ]
    ],
    "grok": true,
-   "it": "In futuro cambieremo orario, prometto.",
-   "ko": "미래에는 시간을 바꿀게, 약속해.",
-   "rd": "인 푸뚜로 깜비에레모 오라리오, 프로메또.",
+   "it": "Da lunedì cambiamo i turni, promesso.",
+   "ko": "다음 주부터 근무표 바꾸자, 약속해.",
+   "rd": "다 루네디 깜비아모 이 뚜르니, 프로메쏘.",
    "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "lavorerò = 일할 거야(미래) · sereno = 마음 편한",
+   "note": "sereno = 편안한",
    "tags": [
     "step:10"
    ],
@@ -381,7 +381,7 @@
   {
    "num": 9,
    "speaker": "B",
-   "note": "andrà meglio = 더 잘될 거야(andare 미래)",
+   "note": "andrà meglio = 더 잘될 것이다",
    "tags": [
     "step:2",
     "step:10"
@@ -418,7 +418,7 @@
   {
    "num": 10,
    "speaker": "C",
-   "note": "Aspetto da tanto = 오래 기다리고 있어요",
+   "note": "aspetto da tanto = 오래 기다리다",
    "tags": [
     "step:2"
    ],
@@ -500,7 +500,7 @@
   {
    "num": 12,
    "speaker": "B",
-   "note": "Si è fermata = 멈췄다(fermarsi)",
+   "note": "si è fermata = 멈췄다",
    "tags": [
     "step:2"
    ],
@@ -563,13 +563,8 @@
      ""
     ],
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "conflitto",
-     "conflitto",
+     "casino",
+     "casino",
      ""
     ],
     [
@@ -579,9 +574,9 @@
     ]
    ],
    "grok": true,
-   "it": "Oddio, e i clienti? C'è conflitto qui.",
-   "ko": "어머, 손님들은요? 여기 갈등이 있네요.",
-   "rd": "오디오, 에 이 클리엔띠? 체 꼰플리또 뀌.",
+   "it": "Oddio, e i clienti? Che casino qui.",
+   "ko": "어머, 손님들은요? 여기 완전 난리네요.",
+   "rd": "오디오, 에 이 클리엔띠? 께 까지노 뀌.",
    "segs": [
     [
      "worried",
@@ -589,14 +584,14 @@
     ],
     [
      "teasing",
-     " C'è conflitto qui."
+     " Che casino qui."
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "note": "Le offro = 드릴게요(Le = 당신에게)",
+   "note": "Le offro = 당신께 드리다(Lei)",
    "tags": [
     "step:2",
     "step:7"

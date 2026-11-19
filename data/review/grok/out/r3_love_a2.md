@@ -11,10 +11,10 @@ goal: 그래머2: Lei 존댓말 — per Lei · Ha fatto (3인칭 = Lei 꼴) · m
 expressions: Ecco; Mamma mia; Lascia stare
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 A | Ecco, ho fatto la cena per Lei! | 여기, 어머님께 저녁 차렸어요! | Ecco = 여기 | emotion=excited | tags=step:5
-B | Mamma mia, è tanto! | 맙소사, 많아! | Mamma mia = 맙소사 | emotion=surprised | tags=step:5
-A | Per voi e per noi. | 당신들과 우리를 위해. | | emotion=cheerful | tags=step:1
-D | Ha fatto tutto Lei? | 다 하셨어요? | Ha fatto = 했다 | emotion=shy | tags=step:2
-C | Io l'ho mangiata! 😳 | 내가 먹었어! 😳 | | emotion=cheerful | tags=step:5,twist
-A | Cosa? Per Lei? | 뭐? 어머님께? | | emotion=shout | tags=step:5,step:4
-C | Scusa, mi scusi. | 미안, 실례합니다. | mi scusi = 실례합니다 | emotion=flustered | tags=step:4
-B | Lascia stare, va bene. | 내버려 둬, 괜찮아. | Lascia stare = 내버려 둬 | emotion=amused+gentle | tags=step:10
+B | Mamma mia, mamma sarà contenta! | 맙소사, 엄마 좋아하시겠네! | Mamma mia = 맙소사 | emotion=surprised | tags=step:5
+A | Per voi e per noi. | 두 분이랑 우리 거예요. | | emotion=cheerful | tags=step:1
+D | Ha fatto tutto Lei? | 이거 다 혼자 하셨어요? | Ha fatto = 했다 | emotion=shy | tags=step:2
+C | Sono qui! Io l'ho mangiata! 😳 | 나 여기 있어! 내가 먹었어! 😳 | | emotion=cheerful | tags=step:5,twist
+A | Cosa? Hai mangiato quella per Lei? | 뭐? 어머님 드릴 걸 먹었어? | | emotion=shout | tags=step:5,step:4
+C | Scusa. Mi scusi, signora. | 미안. 아, 죄송합니다 어머님. | mi scusi = 실례합니다 | emotion=flustered | tags=step:4
+B | Lascia stare, è divertente. | 됐어, 신경 쓰지 마. 웃기네. | Lascia stare = 됐어 | emotion=amused+gentle | tags=step:10

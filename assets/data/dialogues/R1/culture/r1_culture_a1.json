@@ -58,7 +58,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "vuoi = 원하다",
+   "note": "vuoi dire = 뜻하다",
    "tags": [
     "step:9"
    ],
@@ -109,7 +109,7 @@
    ],
    "grok": true,
    "it": "Faccio così, vedi?",
-   "ko": "이렇게 해, 봐?",
+   "ko": "이렇게 해, 알겠지?",
    "rd": "파쵸 꼬지, 베디?",
    "emotion": "amused"
   },
@@ -169,7 +169,7 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "vuol = 원하다",
+   "note": "vuol dire = 뜻하다",
    "tags": [
     "step:9"
    ],

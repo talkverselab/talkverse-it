@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "Boh = 글쎄, 몰라",
+   "note": "Boh = 글쎄(모르겠다)",
    "tags": [
     "step:1"
    ],
@@ -117,9 +117,9 @@
    "ui": "bubble",
    "at": "16:12",
    "grok": true,
-   "it": "È il tuo ritratto! 😍",
-   "ko": "네 초상화야! 😍",
-   "rd": "에 일 뚜오 리트라또! 😍",
+   "it": "È il mio ritratto! 😍",
+   "ko": "내 초상화야! 😍",
+   "rd": "에 일 미오 리트라또! 😍",
    "emotion": "excited"
   },
   {
@@ -153,7 +153,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "Cioè = 그러니까, 내 말은",
+   "note": "cioè = 그러니까",
    "tags": [
     "step:8"
    ],
@@ -174,7 +174,7 @@
    "at": "16:14",
    "grok": true,
    "it": "Ma dai! Cioè, sono io! 😤",
-   "ko": "에이! 즉, 나야! 😤",
+   "ko": "에이! 그러니까, 나야! 😤",
    "rd": "마 다이! 쵸에, 쏘노 이오! 😤",
    "emotion": "shout"
   },
@@ -214,7 +214,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "Vabbè = 뭐 됐어(va bene 줄임)",
+   "note": "vabbè = 됐어",
    "tags": [
     "step:9"
    ],
@@ -231,17 +231,17 @@
      ""
     ],
     [
-     "carino",
-     "carino",
+     "ok",
+     "ok",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "16:16",
    "grok": true,
-   "it": "Vabbè, ma dai è carino 😂",
-   "ko": "됐어, 에이 귀여워 😂",
-   "rd": "바베, 마 다이 에 까리노 😂",
+   "it": "Vabbè, dai è tutto ok 😂",
+   "ko": "됐어, 다 괜찮아 😂",
+   "rd": "바베, 다이 에 뚜또 오크 😂",
    "emotion": "teasing"
   },
   {
@@ -254,8 +254,8 @@
    "new": [],
    "lemmas": [
     [
-     "boh",
-     "boh",
+     "allora",
+     "allora",
      ""
     ],
     [
@@ -267,9 +267,9 @@
    "ui": "bubble",
    "at": "16:16",
    "grok": true,
-   "it": "Boh, ti piace o no? 😏",
-   "ko": "글쎄, 좋아해 안 좋아해? 😏",
-   "rd": "보, 띠 삐아체 오 노? 😏",
+   "it": "Allora, ti piace o no? 😏",
+   "ko": "그래서, 좋아해 안 좋아해? 😏",
+   "rd": "알로라, 띠 삐아체 오 노? 😏",
    "emotion": "teasing"
   }
  ]

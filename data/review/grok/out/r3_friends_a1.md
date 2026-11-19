@@ -11,10 +11,10 @@ goal: 그래머2: R1 같은 문장을 복수로 — non troviamo/trovati · li c
 expressions: Mamma mia; Tranquille; Dai; Ecco
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 B | Mamma mia, non troviamo i telefoni! | 맙소사, 폰을 못 찾겠어! | Mamma mia = 맙소사 | emotion=worried | tags=step:3
-A | Li chiamo. Tranquille. | 내가 전화할게. 진정해. | Tranquille = 진정해 | emotion=gentle | tags=step:7
+A | Li chiamo. Tranquille. | 내가 전화할게. 걱정 마. | Tranquille = 걱정 마 | emotion=gentle | tags=step:7
 B | Dai, li abbiamo messi nel frigo? | 에이, 냉장고에 넣었어? | Dai = 에이 | emotion=excited | tags=step:3
 A | Negli zaini? Non li vedo. | 가방들에? 안 보여. | Negli = 안에 | emotion=surprised | tags=step:4
-C | Aspettate, dove sono andati? | 기다려, 어디로 갔어? | Aspettate = 기다려 | emotion=tsukkomi | tags=step:9
-A | Abbiamo messo i gelati sopra? // Ecco! | 젤라토를 위에 뒀어? // 여기! | Ecco = 여기 | emotion=amused+surprised | tags=step:4,step:5
-B | No! Non li abbiamo trovati! | 아니! 못 찾았어! | trovati = 찾은 | emotion=surprised+flustered | tags=step:5,step:4
-C | Vorremmo i nostri! // Sono qui. 😂 | 우리 거 원했어! // 여기 있어. 😂 | Vorremmo = 원했어 | emotion=sad+cheerful | tags=step:10,step:4,twist
+C | Aspettate, dove sono andati? | 잠깐만, 어디로 갔어? | Aspettate = 잠깐만 | emotion=tsukkomi | tags=step:9
+A | Abbiamo messo i gelati sopra? // Ecco, sotto! | 젤라토를 위에 뒀어? // 여기, 밑에! | Ecco = 여기 | emotion=amused+surprised | tags=step:4,step:5
+B | No! // Non li abbiamo visti! | 아니! // 못 봤어! | visti = 본 | emotion=surprised+flustered | tags=step:5,step:4
+C | Vorremmo i nostri! // Sono qui sotto i gelati. 😂 | 우리 거 갖고 싶어! // 여기 젤라토 밑에 있어. 😂 | Vorremmo = 갖고 싶어 | emotion=sad+cheerful | tags=step:10,step:4,twist

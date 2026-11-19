@@ -62,7 +62,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "sono andato = 갔다",
+   "note": "sono tornato = 돌아왔다",
    "tags": [
     "step:6"
    ],
@@ -74,8 +74,8 @@
      ""
     ],
     [
-     "andato",
-     "andare",
+     "tornato",
+     "tornare",
      ""
     ],
     [
@@ -85,18 +85,18 @@
     ]
    ],
    "grok": true,
-   "it": "Sono andato a piedi.",
-   "ko": "걸어서 왔어.",
-   "rd": "쏘노 안다또 아 삐에디.",
-   "it_f": "Sono andata a piedi.",
-   "ko_f": "걸어서 왔어.",
-   "rd_f": "쏘노 안다따 아 삐에디.",
+   "it": "Sono tornato a piedi.",
+   "ko": "걸어서 돌아왔어.",
+   "rd": "쏘노 또르나또 아 삐에디.",
+   "it_f": "Sono tornata a piedi.",
+   "ko_f": "걸어서 돌아왔어.",
+   "rd_f": "쏘노 또르나따 아 삐에디.",
    "emotion": "excited"
   },
   {
    "num": 3,
    "speaker": "B",
-   "note": "l'hai = 그것을 가졌다",
+   "note": "l'hai lasciato = 두고 왔다",
    "tags": [
     "step:5",
     "step:7"
@@ -128,54 +128,54 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "è = 이다",
+   "note": "sono rimasto = 남아 있었다",
    "tags": [
     "step:6"
    ],
    "new": [],
    "lemmas": [
     [
-     "è",
+     "sono",
      "essere",
      ""
     ],
     [
-     "bello",
-     "bello",
+     "rimasto",
+     "rimanere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Da Giulia... è bello.",
-   "ko": "줄리아네... 예뻐.",
-   "rd": "다 줄리아... 에 벨로.",
+   "it": "Da Giulia... sono rimasto.",
+   "ko": "줄리아네... 거기 있었어.",
+   "rd": "다 줄리아... 쏘노 리마스또.",
    "emotion": "flustered"
   },
   {
    "num": 5,
    "speaker": "B",
-   "note": "la = 그 (여)",
+   "note": "il = 그 (남)",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "moto",
-     "moto",
+     "scooter",
+     "scooter",
      ""
     ]
    ],
    "grok": true,
-   "it": "La moto di Luca!",
-   "ko": "루카의 오토바이!",
-   "rd": "라 모또 디 루까!",
+   "it": "Il mio scooter!",
+   "ko": "내 스쿠터!",
+   "rd": "일 미오 스꼬오떼르!",
    "emotion": "shout"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "l'ho = 그것을 가졌다",
+   "note": "l'ho lasciato = 두고 왔다",
    "tags": [
     "step:5",
     "step:7"
@@ -207,7 +207,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "Tranquillo = 진정해",
+   "note": "Tranquillo / a = 진정해",
    "tags": [
     "step:9"
    ],
@@ -228,12 +228,15 @@
    "it": "Tranquillo, vado io.",
    "ko": "진정해, 내가 갈게.",
    "rd": "트란뀔로, 바도 이오.",
+   "it_f": "Tranquilla, vado io.",
+   "ko_f": "진정해, 내가 갈게.",
+   "rd_f": "트란뀔라, 바도 이오.",
    "emotion": "gentle"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "Allora = 그러면",
+   "note": "sto = 있다",
    "tags": [
     "step:9"
    ],
@@ -245,20 +248,15 @@
      ""
     ],
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "bellissimo",
-     "bello",
+     "sto",
+     "sto",
      ""
     ]
    ],
    "grok": true,
-   "it": "Allora è bellissimo.",
-   "ko": "그러면 엄청 예쁘다.",
-   "rd": "알로라 에 벨리씨모.",
+   "it": "Allora, sto da Giulia.",
+   "ko": "그러면, 줄리아네 있어.",
+   "rd": "알로라, 스또 다 줄리아.",
    "emotion": "tsukkomi"
   }
  ]

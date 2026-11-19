@@ -31,7 +31,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "vado = 가다",
+   "note": "viene = 오다",
    "tags": [
     "step:9",
     "step:1"
@@ -39,25 +39,25 @@
    "new": [],
    "lemmas": [
     [
-     "vado",
-     "vado",
-     ""
-    ],
-    [
-     "prendere",
-     "prendere",
+     "viene",
+     "venire",
      ""
     ],
     [
      "ragazza",
      "ragazza",
+     ""
+    ],
+    [
+     "oggi",
+     "oggi",
      ""
     ]
    ],
    "grok": true,
-   "it": "Vado a prendere la ragazza.",
-   "ko": "여자 데리러 가.",
-   "rd": "바도 아 프렌데레 라 라가짜.",
+   "it": "Viene la ragazza oggi.",
+   "ko": "오늘 여자애가 와.",
+   "rd": "비에네 라 라가짜 오찌.",
    "emotion": "excited"
   },
   {
@@ -75,15 +75,20 @@
      ""
     ],
     [
-     "bella",
-     "bello",
+     "sei",
+     "essere",
+     ""
+    ],
+    [
+     "nervoso",
+     "nervoso",
      ""
     ]
    ],
    "grok": true,
-   "it": "Davvero? Che bella!",
-   "ko": "진짜? 예쁘겠다!",
-   "rd": "다베로? 께 벨라!",
+   "it": "Davvero? Sei nervoso!",
+   "ko": "진짜? 긴장했어!",
+   "rd": "다베로? 쎄이 네르보조!",
    "emotion": "teasing"
   },
   {
@@ -199,35 +204,40 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "la = 그",
+   "note": "suona = 울리다",
    "tags": [
     "step:1"
    ],
    "new": [],
    "lemmas": [
     [
-     "porta",
-     "porta",
+     "suona",
+     "suonare",
      ""
     ],
     [
-     "oh",
-     "oh",
+     "è",
+     "essere",
+     ""
+    ],
+    [
+     "mamma",
+     "mamma",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sì! La porta! Oh no.",
-   "ko": "응! 문이야! 어 안돼.",
-   "rd": "씨! 라 뽀르따! 오 노.",
+   "it": "Sì! Suona! È la mamma!",
+   "ko": "응! 초인종! 엄마야!",
+   "rd": "씨! 쑤오나! 에 라 맘마!",
    "segs": [
     [
      "cheerful",
-     "Sì! La porta!"
+     "Sì! Suona!"
     ],
     [
      "flustered",
-     " Oh no."
+     " È la mamma!"
     ]
    ]
   },

@@ -14,6 +14,6 @@ A | Non lo so... | 모르겠어... | lo so = 알다 | emotion=flustered | tags=
 B | Era nel frigo! | 냉장고에 있었어! | era = 있었다 | emotion=annoyed | tags=
 A | Boh, non vedo. | 글쎄, 안 보여. | Boh = 글쎄 | emotion=flustered | tags=
 B | Ma dai, sei tu. | 에이, 너잖아. | Ma dai = 에이 | emotion=teasing | tags=
-A | No, non mangio! | 아니, 안 먹어! | mangio = 먹다 | emotion=flustered | tags=
+A | No, non sono io! | 아니, 나 아니야! | non sono = 아니야 | emotion=flustered | tags=
 B | Hai la bocca sporca. | 입 더러워. | hai = 가지다 | emotion=tsukkomi | tags=
-A | Ok... è mia. | 알았어... 내 거야. | è = 이다 | emotion=shy | tags=twist
+A | Ok... sono io. | 알았어... 나야. | sono = 나야 | emotion=shy | tags=twist

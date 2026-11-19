@@ -15,5 +15,5 @@ A | Sì, la pasta alla carbonara. | 응, 카르보나라 파스타. | la pasta =
 B | Sono un po' in ritardo. | 좀 늦었어. | sono = 이야 | emotion=shy | tags=step:2
 C | Ho mangiato tutta la pasta! | 파스타 다 먹었어! | ho mangiato = 먹었어 | emotion=cheerful | tags=step:5,twist
 A | Hai mangiato tutta la cena? | 저녁 다 먹었어? | hai mangiato = 먹었어 | emotion=shout | tags=step:5
-C | Dal frigo della cucina. | 부엌 냉장고에서. | dal frigo = 냉장고에서 | emotion=flustered | tags=step:4
-B | Mamma mia. // Lascia stare, farò io. | 세상에. // 내버려 둬, 내가 할게. | farò = 할 거야 | emotion=amused+gentle | tags=step:10
+C | Sì, scusa... ho fame! | 응, 미안... 배고팠어! | ho fame = 배고파 | emotion=flustered | tags=step:4
+B | Mamma mia. // Lascia stare, farò io. | 세상에. // 됐어, 신경 쓰지 마, 내가 할게. | farò = 할 거야 | emotion=amused+gentle | tags=step:10

@@ -84,6 +84,11 @@
      ""
     ],
     [
+     "caffè",
+     "caffè",
+     ""
+    ],
+    [
      "è",
      "essere",
      ""
@@ -95,15 +100,15 @@
     ]
    ],
    "grok": true,
-   "it": "I miei amici hanno detto che è buono.",
-   "ko": "내 친구들이 맛있다고 했어.",
-   "rd": "이 미에이 아미치 안노 데또 께 에 부오노.",
+   "it": "I miei amici hanno detto che il tuo caffè è buono.",
+   "ko": "내 친구들이 네 커피가 맛있다고 했어.",
+   "rd": "이 미에이 아미치 안노 데또 께 일 뚜오 까페 에 부오노.",
    "emotion": "tsukkomi"
   },
   {
    "num": 3,
    "speaker": "A",
-   "note": "Fammi vedere = 보여 줘",
+   "note": "Vuole = (Lei) 원하세요",
    "tags": [
     "step:9",
     "step:3"
@@ -116,25 +121,15 @@
      ""
     ],
     [
-     "sale",
-     "sale",
-     ""
-    ],
-    [
-     "fammi",
-     "fammre",
-     ""
-    ],
-    [
-     "vedere",
-     "vedere",
+     "caffè",
+     "caffè",
      ""
     ]
    ],
    "grok": true,
-   "it": "Vuole il sale? Fammi vedere.",
-   "ko": "소금 넣으실래요? 보여 드릴게요.",
-   "rd": "부올레 일 쌀레? 팜미 베데레.",
+   "it": "Vuole un caffè?",
+   "ko": "커피 하실래요?",
+   "rd": "부올레 운 까페?",
    "emotion": "cheerful"
   },
   {
@@ -166,7 +161,7 @@
   {
    "num": 5,
    "speaker": "A",
-   "note": "Vi guardo = 볼게요",
+   "note": "Guardate = 보세요",
    "tags": [
     "step:1",
     "step:9"
@@ -174,7 +169,7 @@
    "new": [],
    "lemmas": [
     [
-     "guardo",
+     "guardate",
      "guardare",
      ""
     ],
@@ -185,20 +180,30 @@
     ]
    ],
    "grok": true,
-   "it": "Vi guardo mentre lo faccio.",
-   "ko": "만드는 동안 볼게요.",
-   "rd": "비 구아르도 멘트레 로 파쵸.",
+   "it": "Guardate mentre lo faccio.",
+   "ko": "만드는 동안 보세요.",
+   "rd": "구아르다떼 멘트레 로 파쵸.",
    "emotion": "polite"
   },
   {
    "num": 6,
    "speaker": "B",
-   "note": "non l'hanno finita = 다 안 마셨다",
+   "note": "Fammi vedere = 보여 줘",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
+    [
+     "fammi",
+     "fammre",
+     ""
+    ],
+    [
+     "vedere",
+     "vedere",
+     ""
+    ],
     [
      "non",
      "non",
@@ -221,15 +226,24 @@
     ]
    ],
    "grok": true,
-   "it": "Non l'hanno finita ieri.",
-   "ko": "어제 다 안 마셨어.",
-   "rd": "논 란노 피니따 이에리.",
-   "emotion": "neutral"
+   "it": "Fammi vedere. Non l'hanno finita ieri.",
+   "ko": "보여 줘. 어제 다 안 마셨어.",
+   "rd": "팜미 베데레. 논 란노 피니따 이에리.",
+   "segs": [
+    [
+     "neutral",
+     "Fammi vedere."
+    ],
+    [
+     "surprised",
+     " Non l'hanno finita ieri."
+    ]
+   ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "note": "troppo sale = 소금 너무 많이",
+   "note": "ho messo = 넣었다(mettere 근과거)",
    "tags": [
     "step:5",
     "step:7"
@@ -281,7 +295,7 @@
    ],
    "grok": true,
    "it": "È salato! Ma dai.",
-   "ko": "짜! 정말.",
+   "ko": "짜! 에이.",
    "rd": "에 쌀라또! 마 다이.",
    "emotion": "amused"
   }

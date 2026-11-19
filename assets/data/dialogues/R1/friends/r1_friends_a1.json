@@ -60,7 +60,7 @@
    ],
    "grok": true,
    "it": "Mamma mia, non trovo il telefono!",
-   "ko": "마마미아, 폰을 못 찾겠어!",
+   "ko": "맙소사, 폰을 못 찾겠어!",
    "rd": "맘마 미아, 논 트로보 일 뗄레포노!",
    "emotion": "worried"
   },
@@ -110,15 +110,15 @@
      ""
     ],
     [
-     "qui",
-     "qui",
+     "già",
+     "già",
      ""
     ]
    ],
    "grok": true,
-   "it": "Dai, chiama! Lo sento qui!",
-   "ko": "자, 전화해! 여기서 들려!",
-   "rd": "다이, 끼아마! 로 쎈또 뀌!",
+   "it": "Dai, chiama! Lo sento già!",
+   "ko": "자, 전화해! 벌써 들려!",
+   "rd": "다이, 끼아마! 로 쎈또 쟈!",
    "emotion": "excited"
   },
   {
@@ -167,20 +167,15 @@
      ""
     ],
     [
-     "dove",
-     "dove",
-     ""
-    ],
-    [
-     "sta",
-     "stare",
+     "sento",
+     "sentire",
      ""
     ]
    ],
    "grok": true,
-   "it": "Non so dove sta!",
-   "ko": "어디 있는지 모르겠어!",
-   "rd": "논 쏘 도베 스따!",
+   "it": "Non so, ma lo sento!",
+   "ko": "모르겠어, 근데 들려!",
+   "rd": "논 쏘, 마 로 쎈또!",
    "emotion": "tsukkomi"
   },
   {
@@ -232,7 +227,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "messo = 넣었다",
+   "note": "lasciato = 뒀다",
    "tags": [
     "step:5",
     "step:4"
@@ -250,8 +245,8 @@
      ""
     ],
     [
-     "messo",
-     "mettere",
+     "lasciato",
+     "lasciare",
      ""
     ],
     [
@@ -261,9 +256,9 @@
     ]
    ],
    "grok": true,
-   "it": "Oh no, l'ho messo nel gelato!",
-   "ko": "아 안 돼, 젤라토 안에 넣었어!",
-   "rd": "오 노, 로 메쏘 넬 젤라또!",
+   "it": "Oh no, l'ho lasciato nel gelato!",
+   "ko": "아 안 돼, 젤라토에 뒀어!",
+   "rd": "오 노, 로 라샤또 넬 젤라또!",
    "emotion": "surprised"
   },
   {
@@ -287,8 +282,8 @@
      ""
     ],
     [
-     "telefono",
-     "telefono",
+     "gelato",
+     "gelato",
      ""
     ],
     [
@@ -298,13 +293,13 @@
     ]
    ],
    "grok": true,
-   "it": "Mamma mia, è sul telefono! Farò un altro.",
-   "ko": "마마미아, 폰 위에 있어! 새로 사올게.",
-   "rd": "맘마 미아, 에 쑬 뗄레포노! 파로 운 알트로.",
+   "it": "Mamma mia, è nel gelato! Farò un altro.",
+   "ko": "맙소사, 젤라토 안에 있어! 새로 사올게.",
+   "rd": "맘마 미아, 에 넬 젤라또! 파로 운 알트로.",
    "segs": [
     [
      "sad",
-     "Mamma mia, è sul telefono!"
+     "Mamma mia, è nel gelato!"
     ],
     [
      "cheerful",

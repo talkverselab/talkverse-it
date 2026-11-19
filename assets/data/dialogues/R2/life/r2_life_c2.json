@@ -70,21 +70,6 @@
    "new": [],
    "lemmas": [
     [
-     "dove",
-     "dove",
-     ""
-    ],
-    [
-     "sono",
-     "essere",
-     ""
-    ],
-    [
-     "chiavi",
-     "chiave",
-     ""
-    ],
-    [
      "non",
      "non",
      ""
@@ -98,9 +83,9 @@
    "ui": "bubble",
    "at": "23:13",
    "grok": true,
-   "it": "Dove sono le chiavi? Non ce l'ho.",
-   "ko": "열쇠 어디 있어? 나 없어.",
-   "rd": "도베 쏘노 레 끼아비? 논 체 로.",
+   "it": "Non ce l'ho io.",
+   "ko": "나 없어.",
+   "rd": "논 체 로 이오.",
    "emotion": "annoyed"
   },
   {
@@ -177,7 +162,7 @@
   {
    "num": 5,
    "speaker": "A",
-   "note": "Tranquillo = 진정해",
+   "note": "Tranquillo = 걱정 마",
    "tags": [
     "step:4"
    ],
@@ -208,7 +193,7 @@
    "at": "23:25",
    "grok": true,
    "it": "Vado a letto ora. Tranquillo. 😴",
-   "ko": "이제 자러 갈게. 진정해. 😴",
+   "ko": "이제 자러 갈게. 걱정 마. 😴",
    "rd": "바도 아 레또 오라. 트란뀔로. 😴",
    "emotion": "annoyed"
   },
@@ -283,27 +268,22 @@
      ""
     ],
     [
-     "boh",
-     "boh",
-     ""
-    ],
-    [
      "vabbè",
-     "vabbère",
+     "vabbè",
      ""
     ],
     [
-     "magari",
-     "magari",
+     "cerco",
+     "cercare",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "23:27",
    "grok": true,
-   "it": "Scherzi? Boh, vabbè magari. 😂",
-   "ko": "농담이야? 뭐, 됐어 내일 하자. 😂",
-   "rd": "스께르찌? 보, 바베 마가리. 😂",
+   "it": "Scherzi? Vabbè, le cerco io. 😂",
+   "ko": "농담이야? 됐어, 내가 찾을게. 😂",
+   "rd": "스께르찌? 바베, 레 체르꼬 이오. 😂",
    "emotion": "flustered"
   }
  ]

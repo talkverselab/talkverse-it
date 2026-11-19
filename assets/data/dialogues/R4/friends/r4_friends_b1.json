@@ -63,7 +63,7 @@
    ],
    "grok": true,
    "it": "Non ci credo, me l'hanno rubata!",
-   "ko": "믿을 수가 없어, 내 걸 훔쳐갔어!",
+   "ko": "믿을 수가 없어, 내 오토바이 훔쳐 갔어!",
    "rd": "논 치 크레도, 메 란노 루바따!",
    "emotion": "shout"
   },
@@ -137,7 +137,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "hai vinto = 이겼다",
+   "note": "ha vinto = 이겼다",
    "tags": [
     "step:5"
    ],
@@ -149,7 +149,12 @@
      ""
     ],
     [
-     "hai",
+     "squadra",
+     "squadra",
+     ""
+    ],
+    [
+     "ha",
      "avere",
      ""
     ],
@@ -175,9 +180,9 @@
     ]
    ],
    "grok": true,
-   "it": "Ieri hai vinto e oggi perdi la moto.",
-   "ko": "어제 이겼고 오늘 오토바이를 잃네.",
-   "rd": "이에리 아이 빈또 에 오찌 뻬르디 라 모또.",
+   "it": "Ieri la squadra ha vinto e oggi perdi la moto.",
+   "ko": "어제 팀이 이겼고 오늘 오토바이를 잃네.",
+   "rd": "이에리 라 스꽈드라 아 빈또 에 오찌 뻬르디 라 모또.",
    "emotion": "teasing"
   },
   {
@@ -200,15 +205,20 @@
      ""
     ],
     [
+     "proprio",
+     "proprio",
+     ""
+    ],
+    [
      "qui",
      "qui",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ma dai, l'avevo lasciata qui!",
-   "ko": "야, 내가 여기 놔뒀었잖아!",
-   "rd": "마 다이, 라베보 라샤따 뀌!",
+   "it": "Ma dai, l'avevo lasciata proprio qui!",
+   "ko": "야, 내가 바로 여기 놔뒀었잖아!",
+   "rd": "마 다이, 라베보 라샤따 프로프리오 뀌!",
    "emotion": "excited"
   },
   {
@@ -226,25 +236,20 @@
      ""
     ],
     [
-     "non",
-     "non",
+     "avesse",
+     "avere",
      ""
     ],
     [
-     "fosse",
-     "essere",
-     ""
-    ],
-    [
-     "successo",
-     "succedere",
+     "presa",
+     "prendere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Speravo che non fosse successo.",
-   "ko": "그런 일이 안 일어나길 바랐어.",
-   "rd": "스뻬라보 께 논 포쎄 쑤체쏘.",
+   "it": "Speravo che nessuno l'avesse presa.",
+   "ko": "누가 가져간 게 아니길 바랐어.",
+   "rd": "스뻬라보 께 네쑤노 라베쎄 프레자.",
    "emotion": "worried"
   },
   {
@@ -272,14 +277,14 @@
    ],
    "grok": true,
    "it": "Chi l'ha presa, secondo te?",
-   "ko": "누가 가져간 거야, 너는?",
+   "ko": "네 생각엔 누가 가져간 것 같아?",
    "rd": "끼 라 프레자, 쎄꼰도 떼?",
    "emotion": "neutral"
   },
   {
    "num": 8,
    "speaker": "B",
-   "note": "mi sono arrabbiato/a = 내가 화났다",
+   "note": "mi sono arrabbiato = 내가 화났다",
    "tags": [
     "step:9"
    ],
@@ -305,9 +310,6 @@
    "it": "Mi sono arrabbiato tantissimo.",
    "ko": "나 엄청 화났어.",
    "rd": "미 쏘노 아라비아또 딴띠씨모.",
-   "it_f": "Mi sono arrabbiata tantissimo.",
-   "ko_f": "나 엄청 화났어.",
-   "rd_f": "미 쏘노 아라비아따 딴띠씨모.",
    "emotion": "flustered"
   },
   {
@@ -362,20 +364,25 @@
      ""
     ],
     [
-     "sia",
+     "è",
      "essere",
      ""
     ],
     [
      "sparita",
-     "sparire",
+     "sparitare",
+     ""
+    ],
+    [
+     "così",
+     "così",
      ""
     ]
    ],
    "grok": true,
-   "it": "Non ci credo che sia sparita.",
-   "ko": "사라진 걸 믿을 수가 없어.",
-   "rd": "논 치 크레도 께 씨아 스빠리따.",
+   "it": "Non ci credo, è sparita così!",
+   "ko": "믿기지 않아, 이렇게 사라져?",
+   "rd": "논 치 크레도, 에 스빠리따 꼬지!",
    "emotion": "surprised"
   },
   {
@@ -401,12 +408,27 @@
      "ieri",
      "ieri",
      ""
+    ],
+    [
+     "avevi",
+     "avevi",
+     ""
+    ],
+    [
+     "lasciata",
+     "lasciare",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Ne abbiamo parlato ieri! Ma dai.",
-   "ko": "우리가 어제 그것에 대해 말했잖아! 야.",
-   "rd": "네 아비아모 빠를라또 이에리! 마 다이.",
+   "it": "Ne abbiamo parlato ieri! L'avevi lasciata al bar.",
+   "ko": "우리가 어제 그것에 대해 말했잖아! 바에 두고 왔잖아.",
+   "rd": "네 아비아모 빠를라또 이에리! 라베비 라샤따 알 바르.",
    "segs": [
     [
      "surprised",
@@ -414,14 +436,14 @@
     ],
     [
      "tsukkomi",
-     " Ma dai."
+     " L'avevi lasciata al bar."
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "B",
-   "note": "glielo avevo detto = 그것을 너에게 말했었다",
+   "note": "te l'avevo detto = 너에게 그것을 말했었다",
    "tags": [
     "step:6"
    ],
@@ -436,18 +458,42 @@
      "detto",
      "dire",
      ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "hai",
+     "avere",
+     ""
+    ],
+    [
+     "ascoltato",
+     "ascoltare",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Glielo avevo detto a te!",
-   "ko": "내가 너에게 그것을 말했었잖아!",
-   "rd": "리엘로 아베보 데또 아 떼!",
-   "emotion": "surprised"
+   "it": "Te l'avevo detto! Non mi hai ascoltato.",
+   "ko": "내가 너에게 말했었잖아! 안 들었잖아.",
+   "rd": "떼 라베보 데또! 논 미 아이 아스꼴따또.",
+   "segs": [
+    [
+     "surprised",
+     "Te l'avevo detto!"
+    ],
+    [
+     "flustered",
+     " Non mi hai ascoltato."
+    ]
+   ]
   },
   {
    "num": 13,
    "speaker": "A",
-   "note": "tranquillo/a = 진정해",
+   "note": "tranquillo / a = 진정해",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -490,12 +536,17 @@
      "do",
      "do",
      ""
+    ],
+    [
+     "birra",
+     "birra",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Chi me la riporta, glielo do.",
-   "ko": "누가 내게 돌려주든, 그것을 줄게.",
-   "rd": "끼 메 라 리뽀르따, 리엘로 도.",
+   "it": "Chi me la riporta, gli do una birra.",
+   "ko": "누가 내게 돌려주든, 맥주 한 잔 줄게.",
+   "rd": "끼 메 라 리뽀르따, 리 도 우나 비라.",
    "emotion": "cheerful"
   }
  ]

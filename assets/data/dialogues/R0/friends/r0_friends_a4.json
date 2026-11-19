@@ -49,25 +49,20 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "è = 이다",
+   "note": "pratico = 연습하다",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "è",
-     "essere",
-     ""
-    ],
-    [
-     "pratica",
+     "pratico",
      "pratico",
      ""
     ]
    ],
    "grok": true,
-   "it": "No... è pratica.",
-   "ko": "아니... 연습이야.",
-   "rd": "노... 에 프라띠까.",
+   "it": "No, pratico.",
+   "ko": "아니, 연습해.",
+   "rd": "노, 프라띠꼬.",
    "emotion": "shy"
   },
   {
@@ -102,25 +97,20 @@
    "new": [],
    "lemmas": [
     [
-     "non",
-     "non",
-     ""
-    ],
-    [
      "è",
      "essere",
      ""
     ],
     [
-     "bello",
-     "bello",
+     "strano",
+     "strano",
      ""
     ]
    ],
    "grok": true,
-   "it": "Non è bello.",
-   "ko": "안 예뻐.",
-   "rd": "논 에 벨로.",
+   "it": "Ma no... è strano.",
+   "ko": "아니야... 이상해.",
+   "rd": "마 노... 에 스트라노.",
    "emotion": "stiff"
   },
   {
@@ -196,10 +186,10 @@
    ],
    "grok": true,
    "it": "Sei bravo, dai.",
-   "ko": "너 잘해, 진정해.",
+   "ko": "잘하는데, 에이.",
    "rd": "쎄이 브라보, 다이.",
    "it_f": "Sei brava, dai.",
-   "ko_f": "너 잘해, 진정해.",
+   "ko_f": "잘하는데, 에이.",
    "rd_f": "쎄이 브라바, 다이.",
    "emotion": "gentle"
   }

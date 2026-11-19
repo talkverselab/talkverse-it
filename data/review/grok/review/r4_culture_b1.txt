@@ -1,0 +1,10 @@
+턴2: 「sarei venut{o|a} prima」(더 일찍 왔을 텐데)는 조건 없이 매달림 — 「알았으면 더 일찍 왔을 텐데」처럼 이유가 붙게
+턴4: 「Avrei voluto arrivare in orario」 한국어 「도착하고 싶었을 텐데요」 오역 — 「제때 오고 싶었는데」
+턴5: 「mi aveva detto Giulia」 무엇을 말했는지 빠짐(목적어 없음) — 「줄리아가 늦을 거라고 했어요」처럼, tags step:10 인데 관계사 없음
+턴6: 학습자가 어머니 앞에서 한국어 「엄마야, 정말 맛있어!」 반말 — 존댓말로, 「엄마야」 대신 감탄
+턴7: tags step:10 인데 관계사 없음 / 「야!」 번역 어색
+턴9: Lei 로 말하는 어머니가 학습자에게 「Tranquillo」 — 학습자 성별 따라 tranquill{o|a}, Lei 형 명령으로 맞출 것
+턴10: 반전(slip)이 안 보임 — 학습자가 이미 스파게티를 잘라 버렸다는 실수가 드러나게. note 「avrebbe dovuto」는 대사(avrei dovuto)와 다름
+턴11: 「Di cui parlavamo prima, sì」는 문장이 아님 — di cui 가 들어간 완전한 문장으로
+턴12: 줄리아 감정 flustered 와 같은 말(턴1) 되풀이 — 놀리는 츳코미로
+턴13: 턴2와 같은 문장 되풀이 — 새 말로

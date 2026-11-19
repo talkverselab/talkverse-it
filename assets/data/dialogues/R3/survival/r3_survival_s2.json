@@ -55,7 +55,7 @@
    ],
    "grok": true,
    "it": "Allora, come state oggi?",
-   "ko": "그럼, 오늘 상태가 어떠세요?",
+   "ko": "그럼, 어디가 불편하세요?",
    "rd": "알로라, 꼬메 스따떼 오찌?",
    "emotion": "polite"
   },
@@ -230,15 +230,15 @@
      ""
     ],
     [
-     "aperti",
-     "aperto",
+     "accesi",
+     "accendere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sì, i telefoni sono sempre aperti.",
+   "it": "Sì, i telefoni sono sempre accesi.",
    "ko": "네, 휴대폰은 항상 켜져 있어요.",
-   "rd": "씨, 이 뗄레포니 쏘노 쎔프레 아뻬르띠.",
+   "rd": "씨, 이 뗄레포니 쏘노 쎔프레 아체지.",
    "emotion": "shy"
   },
   {
@@ -261,60 +261,60 @@
      ""
     ],
     [
-     "paghiamo",
-     "paghiare",
+     "anch",
+     "anch",
      ""
     ],
     [
-     "dopo",
-     "dopo",
+     "ho",
+     "avere",
      ""
     ],
     [
-     "aspettate",
-     "aspettare",
+     "guardato",
+     "guardare",
+     ""
+    ],
+    [
+     "telefono",
+     "telefono",
      ""
     ]
    ],
    "grok": true,
-   "it": "Boh, guardate. Paghiamo dopo? No, aspettate.",
-   "ko": "글쎄요, 보세요. 나중에 계산할까요? 아니요, 기다리세요.",
-   "rd": "보, 구아르다떼. 빠기아모 도뽀? 노, 아스뻬따떼.",
+   "it": "Boh, guardate. Anch'io ho guardato il telefono.",
+   "ko": "글쎄요, 보세요. 저도 휴대폰 봤어요.",
+   "rd": "보, 구아르다떼. 안끼오 오 구아르다또 일 뗄레포노.",
    "segs": [
     [
      "surprised",
-     "Boh, guardate. Paghiamo dopo?"
+     "Boh, guardate."
     ],
     [
      "amused",
-     " No, aspettate."
+     " Anch'io ho guardato il telefono."
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "note": "paghiamo = 우리는 지불하다",
+   "note": "Anche Lei? = 당신도요?",
    "tags": [
     "step:3"
    ],
    "new": [],
    "lemmas": [
     [
-     "paghiamo",
-     "pagare",
-     ""
-    ],
-    [
-     "adesso",
-     "adesso",
+     "anche",
+     "anche",
      ""
     ]
    ],
    "grok": true,
-   "it": "No, paghiamo noi adesso.",
-   "ko": "아니요, 우리가 지금 낼게요.",
-   "rd": "노, 빠기아모 노이 아데쏘.",
+   "it": "Anche Lei? Ma dai!",
+   "ko": "선생님도요? 에이!",
+   "rd": "안께 레이? 마 다이!",
    "emotion": "tsukkomi"
   }
  ]

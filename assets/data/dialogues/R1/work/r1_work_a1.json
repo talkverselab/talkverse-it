@@ -54,10 +54,10 @@
    ],
    "grok": true,
    "it": "Lei è il nuovo ragazzo?",
-   "ko": "당신이 새로운 남자인가요?",
+   "ko": "새로 온 분이세요?",
    "rd": "레이 에 일 누오보 라가쪼?",
    "it_f": "Lei è la nuova ragazza?",
-   "ko_f": "당신이 새로운 여자인가요?",
+   "ko_f": "새로 온 분이세요?",
    "rd_f": "레이 에 라 누오바 라가짜?",
    "emotion": "polite"
   },
@@ -129,7 +129,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "lo porto = 그걸 가져가요",
+   "note": "posso = 할 수 있어요",
    "tags": [
     "step:7",
     "step:3"
@@ -142,15 +142,15 @@
      ""
     ],
     [
-     "porto",
-     "porto",
+     "posso",
+     "potere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Certo, lo porto io.",
-   "ko": "네, 제가 가져갈게요.",
-   "rd": "체르또, 로 뽀르또 이오.",
+   "it": "Certo, posso portarlo.",
+   "ko": "네, 제가 가져갈 수 있어요.",
+   "rd": "체르또, 뽀쏘 뽀르따를로.",
    "emotion": "cheerful"
   },
   {
@@ -176,21 +176,26 @@
      "davvero",
      "davvero",
      ""
+    ],
+    [
+     "prenda",
+     "prendere",
+     ""
     ]
    ],
    "grok": true,
-   "it": "È bravo, davvero.",
-   "ko": "잘하시네요, 정말.",
-   "rd": "에 브라보, 다베로.",
-   "it_f": "È brava, davvero.",
-   "ko_f": "잘하시네요, 정말.",
-   "rd_f": "에 브라바, 다베로.",
+   "it": "È bravo, davvero. Prenda questo.",
+   "ko": "잘하시네요, 정말. 이거 드세요.",
+   "rd": "에 브라보, 다베로. 프렌다 꿰스또.",
+   "it_f": "È brava, davvero. Prenda questo.",
+   "ko_f": "잘하시네요, 정말. 이거 드세요.",
+   "rd_f": "에 브라바, 다베로. 프렌다 꿰스또.",
    "emotion": "gentle"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "posso = 할 수 있어요",
+   "note": "mamma = 엄마",
    "tags": [
     "step:9"
    ],
@@ -207,15 +212,20 @@
      ""
     ],
     [
-     "davvero",
-     "davvero",
+     "oddio",
+     "oddio",
+     ""
+    ],
+    [
+     "scusi",
+     "scusare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Grazie, mamma. Davvero?",
-   "ko": "고마워요, 엄마. 정말요?",
-   "rd": "그라찌에, 맘마. 다베로?",
+   "it": "Grazie, mamma. Oddio, scusi.",
+   "ko": "고마워요, 엄마. 세상에, 실례합니다.",
+   "rd": "그라찌에, 맘마. 오디오, 스꾸지.",
    "segs": [
     [
      "excited",
@@ -223,7 +233,7 @@
     ],
     [
      "cheerful",
-     " Davvero?"
+     " Oddio, scusi."
     ]
    ]
   },

@@ -221,7 +221,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "Te l'avevo detto = 내가 말했었잖아(대과거)",
+   "note": "la giacca = 재킷",
    "tags": [
     "step:5",
     "step:6"
@@ -239,7 +239,7 @@
      ""
     ],
     [
-     "prendere",
+     "prendi",
      "prendere",
      ""
     ],
@@ -250,9 +250,9 @@
     ]
    ],
    "grok": true,
-   "it": "Te l'avevo detto di prendere la giacca.",
-   "ko": "재킷 챙기라고 말했었잖아.",
-   "rd": "떼 라베보 데또 디 프렌데레 라 쟈까.",
+   "it": "Te l'avevo detto. Prendi la giacca.",
+   "ko": "말했었잖아. 재킷 챙겨.",
+   "rd": "떼 라베보 데또. 프렌디 라 쟈까.",
    "emotion": "teasing"
   },
   {
@@ -286,20 +286,15 @@
      ""
     ],
     [
-     "vento",
-     "vento",
-     ""
-    ],
-    [
-     "forse",
-     "forse",
+     "rido",
+     "ridere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Ho un po' di mal di testa. Dal vento, forse.",
-   "ko": "머리가 좀 아파. 바람 때문일지도.",
-   "rd": "오 운 뽀 디 말 디 떼스따. 달 벤또, 포르쎄.",
+   "it": "Ho un po' di mal di testa. Ma rido lo stesso.",
+   "ko": "머리가 좀 아파. 근데 그래도 웃겨.",
+   "rd": "오 운 뽀 디 말 디 떼스따. 마 리도 로 스떼쏘.",
    "segs": [
     [
      "worried",
@@ -307,14 +302,14 @@
     ],
     [
      "amused",
-     " Dal vento, forse."
+     " Ma rido lo stesso."
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "sederti = 너 앉다(sedersi)",
+   "note": "sederti = 앉다",
    "tags": [
     "step:3"
    ],
@@ -350,7 +345,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "stanco/a = 피곤한",
+   "note": "stancho / a = 피곤한",
    "tags": [
     "step:3"
    ],
@@ -430,7 +425,7 @@
   {
    "num": 10,
    "speaker": "A",
-   "note": "va meglio = 나아졌어",
+   "note": "va meglio = 나아지다",
    "tags": [
     "step:3"
    ],
@@ -471,7 +466,7 @@
   {
    "num": 11,
    "speaker": "B",
-   "note": "si vede = 보인다 · sola con te = 너랑 단둘이",
+   "note": "si vede = 보이다",
    "tags": [
     "step:4",
     "step:6"
@@ -527,7 +522,7 @@
   {
    "num": 12,
    "speaker": "A",
-   "note": "emozionato/a = 설레는",
+   "note": "emozionato / a = 설레는",
    "tags": [
     "step:3",
     "step:4"
@@ -586,7 +581,7 @@
   {
    "num": 13,
    "speaker": "B",
-   "note": "mi è scappato = 말이 튀어나왔어",
+   "note": "mi è scappato = (말이) 튀어나왔다",
    "tags": [
     "step:4",
     "step:6"
@@ -638,7 +633,7 @@
   {
    "num": 14,
    "speaker": "A",
-   "note": "insieme = 같이",
+   "note": "Tranquilla = 걱정 마",
    "tags": [
     "step:6"
    ],
@@ -650,30 +645,20 @@
      ""
     ],
     [
-     "arriviamo",
-     "arrivare",
+     "anch",
+     "anch",
      ""
     ],
     [
-     "insieme",
-     "insieme",
-     ""
-    ],
-    [
-     "va",
-     "andare",
-     ""
-    ],
-    [
-     "bene",
-     "bene",
+     "volevo",
+     "volere",
      ""
     ]
    ],
    "grok": true,
-   "it": "Tranquilla. Arriviamo insieme, va bene.",
-   "ko": "괜찮아. 같이 도착하자, 좋지.",
-   "rd": "트란뀔라. 아리비아모 인씨에메, 바 베네.",
+   "it": "Tranquilla. Anch'io volevo questo con te.",
+   "ko": "괜찮아. 나도 너랑 이랬으면 했어.",
+   "rd": "트란뀔라. 안끼오 볼레보 꿰스또 꼰 떼.",
    "emotion": "gentle"
   }
  ]

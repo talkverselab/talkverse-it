@@ -1,0 +1,23 @@
+=== r1_survival_s1
+level: R1
+kind: survival
+title: 「네」라고 했을 뿐인데
+emoji: ☕
+scene: 로마의 바. 처음 온 학습자에게 바리스타 마르코가 서서 마실지 앉아서 마실지 묻는데, 학습자는 못 알아듣고 전부 「네」로 답한다
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김)
+register: 존댓말 Lei(가게·처음 보는 사이·일)
+twist: 7 chaos
+goal: 골격 단계 3·7·9 · 존댓말 Lei(prende·vuole·capisce) ↔ 나(prendo·capisco) · 표현 per favore · Scusi · Va bene
+expressions: per favore; Scusi; Va bene
+B | Prende il caffè al banco? | 카운터에서 드시겠어요? | prende = 드시나요 | emotion=polite | tags=step:3
+A | Sì, prendo, per favore. | 네, 마셔요. | prendo = 마셔요 | emotion=stiff | tags=step:3
+B | Lo vuole con zucchero? | 설탕 넣어서 드릴까요? | lo vuole = 그걸 원하시나요 | emotion=polite | tags=step:7
+A | Sì, capisco tutto. | 네, 다 알아요. | capisco = 알아요 | emotion=stiff | tags=step:9
+B | Capisce? // Vuole anche un cornetto? | 이해하시나요? // 크루아상도 드시겠어요? | vuole = 원하시나요 | emotion=surprised+amused | tags=step:9
+A | Sì, voglio il cornetto. | 네, 크루아상 원해요. | voglio = 원해요 | emotion=excited | tags=step:9
+B | Allora al tavolo. // Va bene, Scusi. | 그럼 테이블로. // 알겠어요, 실례합니다. | al tavolo = 테이블에 | emotion=polite+amused | tags=step:4,twist
+A | Scusi? // Prendo solo il caffè. | 네? // 커피만 마셔요. | prendo = 마셔요 | emotion=surprised+flustered | tags=step:3
+
+## 리뷰
+턴2: 「prendo」 를 목적어 없이 홀로 써서 어색함 — 무엇을 마시는지(lo·il caffè) 붙게. 한국어 칸에 per favore 몫이 빠짐
+턴7: 반전(chaos)이 안 삼 — 1턴에서 카운터라고 「네」 했는데 갑자기 테이블로, 이유가 안 보임. 학습자가 다 「네」라고 해서 주문이 잔뜩 쌓인 혼란이 드러나게. 바리스타가 「Scusi」(대문자, 사과)를 말할 까닭도 없음

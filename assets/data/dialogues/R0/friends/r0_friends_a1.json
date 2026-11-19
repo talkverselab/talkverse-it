@@ -97,26 +97,31 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "si scioglie = 녹다",
+   "note": "per terra = 바닥에",
    "tags": [],
    "new": [],
    "lemmas": [
     [
-     "scioglie",
-     "sciogliere",
+     "oh",
+     "oh",
+     ""
+    ],
+    [
+     "terra",
+     "terra",
      ""
     ]
    ],
    "grok": true,
-   "it": "Cosa? Si scioglie?",
-   "ko": "뭐? 녹는 거야?",
-   "rd": "꼬자? 씨 숄리에?",
+   "it": "Oh no! Per terra!",
+   "ko": "아 안 돼! 바닥에!",
+   "rd": "오 노! 뻬르 떼라!",
    "emotion": "surprised"
   },
   {
    "num": 5,
    "speaker": "B",
-   "note": "mangio = 먹다",
+   "note": "l'altro = 남은 하나",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -132,9 +137,9 @@
     ]
    ],
    "grok": true,
-   "it": "Mangio tutti io... scusa.",
-   "ko": "내가 다 먹을게... 미안.",
-   "rd": "만조 뚜띠 이오... 스꾸자.",
+   "it": "Mangio l'altro. Scusa.",
+   "ko": "남은 거 내가 먹을게. 미안.",
+   "rd": "만조 랄트로. 스꾸자.",
    "emotion": "shy"
   },
   {

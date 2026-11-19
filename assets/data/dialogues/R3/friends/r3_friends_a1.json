@@ -68,7 +68,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "Tranquille = 진정해",
+   "note": "Tranquille = 걱정 마",
    "tags": [
     "step:7"
    ],
@@ -87,7 +87,7 @@
    ],
    "grok": true,
    "it": "Li chiamo. Tranquille.",
-   "ko": "내가 전화할게. 진정해.",
+   "ko": "내가 전화할게. 걱정 마.",
    "rd": "리 끼아모. 트란뀔레.",
    "emotion": "gentle"
   },
@@ -156,7 +156,7 @@
   {
    "num": 5,
    "speaker": "C",
-   "note": "Aspettate = 기다려",
+   "note": "Aspettate = 잠깐만",
    "tags": [
     "step:9"
    ],
@@ -185,7 +185,7 @@
    ],
    "grok": true,
    "it": "Aspettate, dove sono andati?",
-   "ko": "기다려, 어디로 갔어?",
+   "ko": "잠깐만, 어디로 갔어?",
    "rd": "아스뻬따떼, 도베 쏘노 안다띠?",
    "emotion": "tsukkomi"
   },
@@ -223,12 +223,17 @@
      "ecco",
      "ecco",
      ""
+    ],
+    [
+     "sotto",
+     "sotto",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Abbiamo messo i gelati sopra? Ecco!",
-   "ko": "젤라토를 위에 뒀어? 여기!",
-   "rd": "아비아모 메쏘 이 젤라띠 쏘프라? 에꼬!",
+   "it": "Abbiamo messo i gelati sopra? Ecco, sotto!",
+   "ko": "젤라토를 위에 뒀어? 여기, 밑에!",
+   "rd": "아비아모 메쏘 이 젤라띠 쏘프라? 에꼬, 쏘또!",
    "segs": [
     [
      "amused",
@@ -236,14 +241,14 @@
     ],
     [
      "surprised",
-     " Ecco!"
+     " Ecco, sotto!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "trovati = 찾은",
+   "note": "visti = 본",
    "tags": [
     "step:5",
     "step:4"
@@ -261,15 +266,15 @@
      ""
     ],
     [
-     "trovati",
-     "trovare",
+     "visti",
+     "vedere",
      ""
     ]
    ],
    "grok": true,
-   "it": "No! Non li abbiamo trovati!",
-   "ko": "아니! 못 찾았어!",
-   "rd": "노! 논 리 아비아모 트로바띠!",
+   "it": "No! Non li abbiamo visti!",
+   "ko": "아니! 못 봤어!",
+   "rd": "노! 논 리 아비아모 비스띠!",
    "segs": [
     [
      "surprised",
@@ -277,14 +282,14 @@
     ],
     [
      "flustered",
-     " Non li abbiamo trovati!"
+     " Non li abbiamo visti!"
     ]
    ]
   },
   {
    "num": 8,
    "speaker": "C",
-   "note": "Vorremmo = 원했어",
+   "note": "Vorremmo = 갖고 싶어",
    "tags": [
     "step:10",
     "step:4"
@@ -305,12 +310,17 @@
      "qui",
      "qui",
      ""
+    ],
+    [
+     "gelati",
+     "gelato",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Vorremmo i nostri! Sono qui. 😂",
-   "ko": "우리 거 원했어! 여기 있어. 😂",
-   "rd": "보렘모 이 노스트리! 쏘노 뀌. 😂",
+   "it": "Vorremmo i nostri! Sono qui sotto i gelati. 😂",
+   "ko": "우리 거 갖고 싶어! 여기 젤라토 밑에 있어. 😂",
+   "rd": "보렘모 이 노스트리! 쏘노 뀌 쏘또 이 젤라띠. 😂",
    "segs": [
     [
      "sad",
@@ -318,7 +328,7 @@
     ],
     [
      "cheerful",
-     " Sono qui. 😂"
+     " Sono qui sotto i gelati. 😂"
     ]
    ]
   }

@@ -10,11 +10,11 @@ twist: 7 chaos
 goal: 그래머2: 같은 문장을 복수로 — prendete·prendiamo · li volete · capite·capiamo (새 단어 0)
 expressions: per favore; Scusi; Va bene
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
-B | Prendete un caffè, per favore? | 커피 드시겠어요, 부탁드려요? | prendete = 여러분 드시다 | emotion=polite | tags=step:3
-C | Sì, prendiamo due noi! | 네, 우리 두 잔 가져요! | prendiamo = 우리 가지다 | emotion=cheerful | tags=step:3
-B | Li volete caldi, Scusi? | 그것들을 따뜻하게 원하시나요, 실례합니다? | li volete = 그것들을 여러분 원하다 | emotion=polite | tags=step:7
+B | Prendete un caffè? | 커피 드시겠어요? | prendete = 여러분 드시다 | emotion=polite | tags=step:3
+C | Sì, due caffè, per favore! | 네, 커피 두 잔 주세요! | prendiamo = 우리 가지다 | emotion=cheerful | tags=step:3
+B | Scusi, li volete con zucchero? | 실례합니다, 설탕 넣으실래요? | li volete = 그것들을 여러분 원하다 | emotion=polite | tags=step:7
 A | Sì, va bene. | 네, 괜찮아요. | va bene = 괜찮다 | emotion=stiff | tags=step:9
-B | Capite bene voi? | 여러분 잘 이해하시나요? | capite = 여러분 이해하다 | emotion=surprised+amused | tags=step:9
+B | Capite bene? Dite solo sì. | 잘 이해하세요? 네만 하시네요. | capite = 여러분 이해하다 | emotion=surprised+amused | tags=step:9
 C | Sì, capiamo tutto! | 네, 우리 다 이해해요! | capiamo = 우리 이해하다 | emotion=excited | tags=step:9
-B | Allora ai tavoli prendete tutto? | 그럼 테이블들에서 다 드시겠어요? | ai tavoli = 테이블들에서 | emotion=polite+amused | tags=step:4,twist
-A | No, noi prendiamo solo caffè! | 아니, 우리 커피만 가져요! | prendiamo = 우리 가지다 | emotion=surprised+flustered | tags=step:3
+B | Allora prendete tutto il menu? | 그럼 메뉴 전부 드시겠어요? | ai tavoli = 테이블들에서 | emotion=polite+amused | tags=step:4,twist
+A | No, solo due caffè! | 아니, 커피 두 잔만요! | prendiamo = 우리 가지다 | emotion=surprised+flustered | tags=step:3

@@ -1,0 +1,23 @@
+=== r3_friends_a3
+level: R3
+kind: short
+title: 엄마표 파스타 (둘이서)
+emoji: 🍝
+scene: R1 「엄마표 파스타」의 복수판. 이번엔 루카와 마르코가 여자애 둘을 집에 부르고, 학습자를 내보내려 한다. 그런데 초인종이 울리고…
+cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Luca(남, 20대 중반 룸메이트 — 축구·스쿠터, 직진형), C: Marco(남, 20대 후반 동네 카페 바리스타 — 말수 적은데 한마디가 웃김)
+register: 반말 tu(친구·연인·룸메이트)
+twist: 7 chaos
+goal: 그래머2: R1 같은 문장을 복수로 — vengono due ragazze · ti preghiamo · fate · faremo · delle nostre madri · sentite? · sono · belle·signore (새 단어 0) · 표현 Davvero · Dai · Allora
+expressions: Davvero; Dai; Allora
+steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
+B | Dai, vengono due ragazze! | 에이, 여자애 둘이 와! | Dai = 에이 | emotion=excited | tags=step:9,step:1
+A | Davvero? Allora usciamo. | 진짜? 그럼 나가자. | Davvero = 진짜 | emotion=teasing | tags=step:9
+C | Ti preghiamo, vai via. | 제발, 나가. | Ti preghiamo = 제발 | emotion=stiff | tags=step:9
+A | Fate la pasta? | 파스타 만들 거야? | Fate = 만들 | emotion=amused | tags=step:9
+B | Faremo quella delle nostre madri. | 우리 엄마들 걸로 할 거야. | Faremo = 할 거야 | emotion=cheerful | tags=step:10,step:4
+A | Sono belle le ragazze? | 여자애들 예뻐? | Sono = 이다 | emotion=surprised | tags=step:2
+B | Sentite? // Sono le signore! | 들려? // 부인들이야! | Sentite = 들려 | emotion=cheerful+flustered | tags=step:1,twist
+A | Cosa? Le vostre madri? | 뭐? 너희 엄마들? | | emotion=surprised+teasing | tags=step:3
+
+## 리뷰
+턴7: 「Sono le signore!」(부인들이야) 어색·흐림 — 초인종 울리고 온 사람이 자기네 엄마들이라는 게 루카의 놀란 말로 분명하게

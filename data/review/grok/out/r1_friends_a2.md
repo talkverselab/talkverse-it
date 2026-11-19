@@ -11,10 +11,10 @@ goal: 골격 단계 1·5·6·7·9 · 굴절 반복 sono andato/vado · hai lasci
 expressions: Allora; Tranquillo
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei)
 B | Hai lasciato lo scooter? | 스쿠터 두고 왔어? | hai lasciato = 두고 왔다 | emotion=teasing | tags=step:5
-A | Sono andat{o|a} a piedi. | 걸어서 왔어. | sono andato = 갔다 | emotion=excited | tags=step:6
-B | Dove l'hai lasciato? | 어디다 두고 왔어? | l'hai = 그것을 가졌다 | emotion=worried | tags=step:5,step:7
-A | Da Giulia... è bello. | 줄리아네... 예뻐. | è = 이다 | emotion=flustered | tags=step:6
-B | La moto di Luca! | 루카의 오토바이! | la = 그 (여) | emotion=shout | tags=step:1
-A | L'ho lasciato lì. | 거기 두고 왔어. | l'ho = 그것을 가졌다 | emotion=flustered | tags=step:5,step:7
-B | Tranquillo, vado io. | 진정해, 내가 갈게. | Tranquillo = 진정해 | emotion=gentle | tags=step:9
-A | Allora è bellissimo. | 그러면 엄청 예쁘다. | Allora = 그러면 | emotion=tsukkomi | tags=step:9,twist
+A | Sono tornat{o|a} a piedi. | 걸어서 돌아왔어. | sono tornato = 돌아왔다 | emotion=excited | tags=step:6
+B | Dove l'hai lasciato? | 어디다 두고 왔어? | l'hai lasciato = 두고 왔다 | emotion=worried | tags=step:5,step:7
+A | Da Giulia... sono rimasto. | 줄리아네... 거기 있었어. | sono rimasto = 남아 있었다 | emotion=flustered | tags=step:6
+B | Il mio scooter! | 내 스쿠터! | il = 그 (남) | emotion=shout | tags=step:1
+A | L'ho lasciato lì. | 거기 두고 왔어. | l'ho lasciato = 두고 왔다 | emotion=flustered | tags=step:5,step:7
+B | Tranquill{o|a}, vado io. | 진정해, 내가 갈게. | Tranquill{o|a} = 진정해 | emotion=gentle | tags=step:9
+A | Allora, sto da Giulia. | 그러면, 줄리아네 있어. | sto = 있다 | emotion=tsukkomi | tags=step:9,twist

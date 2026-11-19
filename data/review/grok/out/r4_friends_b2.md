@@ -14,13 +14,13 @@ B | Dai, mi sono svegliato tardi! | 야, 나 늦게 일어났어! | mi sono sveg
 A | Anch'io mi sono svegliat{o|a} ora. | 나도 지금 일어났어. | mi sono svegliat{o|a} = 내가 일어났다 | emotion=flustered | tags=step:9
 B | Ci siamo vestiti in fretta! | 우리 급하게 옷 입었어! | ci siamo vestiti = 우리가 옷을 입었다 | emotion=annoyed+shout | tags=step:9
 A | Boh, ci siamo dimenticati l'orario. | 글쎄, 우리 시간을 잊어버렸어. | ci siamo dimenticati = 우리가 잊어버렸다 | emotion=worried | tags=step:9,step:8
-C | Ciao, cosa prendete voi? | 안녕, 너희 뭐 가져? | cosa prendete = 너희 무엇을 가지다 | emotion=neutral | tags=
+C | Ciao, cosa prendete voi? | 안녕, 뭐 줄까? | cosa prendete = 너희 무엇을 가지다 | emotion=neutral | tags=
 B | Ieri facevamo i preparativi. | 어제 우리 준비를 하고 있었어. | facevamo = 하고 있었다 | emotion=worried | tags=step:5
-C | Mi dispiace che siate venuti così. | 너희 이렇게 와서 미안해. | mi dispiace che = 유감이다 | emotion=amused | tags=step:2,twist
-A | Te l'avevo detto ieri! | 내가 어제 너에게 말했었잖아! | te l'avevo detto = 그것을 너에게 말했었다 | emotion=annoyed | tags=step:7,step:6
-B | Se avessi letto, te l'avrei detto. | 읽었더라면, 너에게 말했을 거야. | se avessi letto = 만약 읽었더라면 | emotion=flustered | tags=step:7,step:3,step:4
-A | Avrei preferito arrivare prima. | 더 일찍 도착하고 싶었을 거야. | avrei preferito = 선호했을 것이다 | emotion=annoyed | tags=step:3
-C | Ve lo do subito, ci penso io. | 그것을 너희에게 바로 줄게, 내가 생각해. | ve lo do = 그것을 너희에게 주다 | emotion=gentle | tags=step:7,step:8
-D | Tanti auguri a me! | 나에게 생일 축하해! | tanti auguri = 생일 축하 | emotion=cheerful+surprised | tags=
+C | Mi dispiace che siate venuti in pigiama. | 너희 잠옷 차림으로 와서 미안해. | mi dispiace che = 유감이다 | emotion=amused | tags=step:2,twist
+A | Te l'avevo detto che è la prossima! | 내가 다음 주라고 말했었잖아! | te l'avevo detto = 그것을 너에게 말했었다 | emotion=annoyed | tags=step:7,step:6
+B | Se avessi letto il messaggio, te l'avrei detto. | 초대 메시지 제대로 읽었더라면, 너에게 말했을 거야. | se avessi letto = 만약 읽었더라면 | emotion=flustered | tags=step:7,step:3,step:4
+A | Avrei preferito arrivare prima. | 더 일찍 오는 게 나았을 텐데. | avrei preferito = 선호했을 것이다 | emotion=annoyed | tags=step:3
+C | Ve lo do subito il caffè, ci penso io. | 커피 바로 줄게, 내가 알아서 할게. | ve lo do = 그것을 너희에게 주다 | emotion=gentle | tags=step:7,step:8
+D | Tanti auguri? Cosa fate qui! | 생일 축하? 너희 여기서 뭐 해! | tanti auguri = 생일 축하 | emotion=cheerful+surprised | tags=
 B | Scusa, siamo in ritardo. | 미안, 우리 늦었어. | siamo in ritardo = 우리 늦다 | emotion=flustered | tags=
-D | Boh, ma dai, va bene! | 글쎄, 야, 괜찮아! | boh = 글쎄 | emotion=teasing | tags=
+D | Boh, ma dai, siete un disastro! | 글쎄, 야, 너희 완전 엉망이야! | boh = 글쎄 | emotion=teasing | tags=

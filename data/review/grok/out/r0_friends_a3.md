@@ -9,7 +9,7 @@ register: 반말 tu(친구·연인·룸메이트)
 twist: 6 ignore
 goal: 도구획득 · 짧은 반말 회화 · 표현 Guarda · Ecco
 expressions: Guarda; Ecco
-A | Marco, fai un caffè? | 마르코, 커피 한 잔 해 줘? | fai = 하다 | emotion=cheerful | tags=
+A | Marco, fai un caffè? | 마르코, 커피 좀 타 줄래? | fai = 하다 | emotion=cheerful | tags=
 B | Guarda la macchina. | 기계 봐. | Guarda = 봐 | emotion=amused | tags=
 A | Cosa? Io solo? | 뭐? 나 혼자? | io = 나 | emotion=surprised | tags=
 B | Sì, è facile. | 응, 쉬워. | è = 이다 | emotion=gentle | tags=

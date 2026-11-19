@@ -61,7 +61,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "prendo = 마셔요",
+   "note": "lo prendo = 그걸 마셔요",
    "tags": [
     "step:3"
    ],
@@ -79,9 +79,9 @@
     ]
    ],
    "grok": true,
-   "it": "Sì, prendo, per favore.",
-   "ko": "네, 마셔요.",
-   "rd": "씨, 프렌도, 뻬르 파보레.",
+   "it": "Sì, lo prendo, per favore.",
+   "ko": "네, 그거 마셔요, 부탁해요.",
+   "rd": "씨, 로 프렌도, 뻬르 파보레.",
    "emotion": "stiff"
   },
   {
@@ -217,11 +217,6 @@
      ""
     ],
     [
-     "tavolo",
-     "tavolo",
-     ""
-    ],
-    [
      "va",
      "andare",
      ""
@@ -232,23 +227,23 @@
      ""
     ],
     [
-     "scusi",
-     "scusare",
+     "tavolo",
+     "tavolo",
      ""
     ]
    ],
    "grok": true,
-   "it": "Allora al tavolo. Va bene, Scusi.",
-   "ko": "그럼 테이블로. 알겠어요, 실례합니다.",
-   "rd": "알로라 알 따볼로. 바 베네, 스꾸지.",
+   "it": "Allora sì a tutto. Va bene al tavolo?",
+   "ko": "그럼 다 네로. 테이블로 괜찮아요?",
+   "rd": "알로라 씨 아 뚜또. 바 베네 알 따볼로?",
    "segs": [
     [
      "polite",
-     "Allora al tavolo."
+     "Allora sì a tutto."
     ],
     [
      "amused",
-     " Va bene, Scusi."
+     " Va bene al tavolo?"
     ]
    ]
   },

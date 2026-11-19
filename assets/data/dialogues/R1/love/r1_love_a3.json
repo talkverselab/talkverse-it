@@ -141,14 +141,14 @@
    ],
    "grok": true,
    "it": "Allora, cosa dici? Torni o resti?",
-   "ko": "그래서 뭐라고 해? 가거나 남거나?",
+   "ko": "그래서 뭐라고 해? 갈 거야, 남을 거야?",
    "rd": "알로라, 꼬자 디치? 또르니 오 레스띠?",
    "emotion": "teasing"
   },
   {
    "num": 4,
    "speaker": "A",
-   "note": "certo = 물론",
+   "note": "sono = 이다",
    "tags": [
     "step:2"
    ],
@@ -165,25 +165,28 @@
      ""
     ],
     [
+     "non",
+     "non",
+     ""
+    ],
+    [
      "sono",
      "essere",
      ""
     ],
     [
-     "po",
-     "poco",
-     ""
-    ],
-    [
-     "triste",
-     "triste",
+     "contento",
+     "contento",
      ""
     ]
    ],
    "grok": true,
-   "it": "Certo che torno. Sono un po' triste.",
-   "ko": "당연히 가. 좀 슬퍼.",
-   "rd": "체르또 께 또르노. 쏘노 운 뽀 트리스떼.",
+   "it": "Certo che torno. Non sono contento.",
+   "ko": "당연히 가. 기쁘지 않아.",
+   "rd": "체르또 께 또르노. 논 쏘노 꼰뗀또.",
+   "it_f": "Certo che torno. Non sono contenta.",
+   "ko_f": "당연히 가. 기쁘지 않아.",
+   "rd_f": "체르또 께 또르노. 논 쏘노 꼰뗀따.",
    "emotion": "gentle"
   },
   {
@@ -279,7 +282,7 @@
     ],
     [
      "triste",
-     "trisire",
+     "triste",
      ""
     ],
     [
@@ -289,9 +292,9 @@
     ]
    ],
    "grok": true,
-   "it": "Mi piaci tanto. Sono triste che parti.",
+   "it": "Mi piaci tanto. Sono triste perché parti.",
    "ko": "너 정말 좋아해. 떠나는 거 슬퍼.",
-   "rd": "미 삐아치 딴또. 쏘노 트리스떼 께 빠르띠.",
+   "rd": "미 삐아치 딴또. 쏘노 트리스떼 뻬르께 빠르띠.",
    "segs": [
     [
      "shy",
@@ -299,7 +302,7 @@
     ],
     [
      "sad",
-     " Sono triste che parti."
+     " Sono triste perché parti."
     ]
    ]
   },

@@ -70,7 +70,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "nuova di oggi = 오늘 새로 나온",
+   "note": "nuova = 새로운(여성형)",
    "tags": [
     "step:2"
    ],
@@ -108,7 +108,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "Ma dai = 정말",
+   "note": "Ma dai = 에이",
    "tags": [
     "step:2"
    ],
@@ -129,7 +129,7 @@
    "at": "21:04",
    "grok": true,
    "it": "Ma dai, manca metà! 😂",
-   "ko": "정말, 절반이 없어! 😂",
+   "ko": "에이, 절반이 없어! 😂",
    "rd": "마 다이, 만까 메따! 😂",
    "emotion": "teasing"
   },
@@ -181,22 +181,27 @@
      ""
     ],
     [
-     "già",
-     "già",
+     "ho",
+     "avere",
      ""
     ],
     [
      "visto",
      "vedere",
      ""
+    ],
+    [
+     "galleria",
+     "galleria",
+     ""
     ]
    ],
    "ui": "bubble",
    "at": "21:06",
    "grok": true,
-   "it": "Troppo tardi! Già visto tutto 😏",
-   "ko": "너무 늦었어! 이미 다 봤어 😏",
-   "rd": "트로뽀 따르디! 쟈 비스또 뚜또 😏",
+   "it": "Troppo tardi! Ho visto tutta la galleria 😏",
+   "ko": "너무 늦었어! 갤러리 다 봤어 😏",
+   "rd": "트로뽀 따르디! 오 비스또 뚜따 라 갈레리아 😏",
    "emotion": "amused"
   },
   {
@@ -240,7 +245,7 @@
   {
    "num": 7,
    "speaker": "A",
-   "note": "Ne ho di più = 더 있어(ne = 그것 중에서)",
+   "note": "Aspetta = 기다려",
    "tags": [
     "step:2"
    ],
@@ -257,23 +262,28 @@
      ""
     ],
     [
-     "più",
-     "più",
+     "altre",
+     "altro",
+     ""
+    ],
+    [
+     "foto",
+     "foto",
      ""
     ]
    ],
    "ui": "bubble",
    "at": "21:07",
    "grok": true,
-   "it": "Aspetta! Ne ho di più!",
-   "ko": "기다려! 더 있어!",
-   "rd": "아스뻬따! 네 오 디 삐우!",
+   "it": "Aspetta! Ho altre foto!",
+   "ko": "기다려! 사진 더 있어!",
+   "rd": "아스뻬따! 오 알트레 포또!",
    "emotion": "shout"
   },
   {
    "num": 8,
    "speaker": "B",
-   "note": "Tranquillo/a = 진정해",
+   "note": "Tranquillo / a = 걱정 마",
    "tags": [
     "step:2"
    ],
@@ -304,7 +314,7 @@
    "at": "21:09",
    "grok": true,
    "it": "Vabbè, mi piace così. Tranquillo. 💕",
-   "ko": "됐어, 이렇게 좋아. 진정해. 💕",
+   "ko": "됐어, 이렇게 좋아. 걱정 마. 💕",
    "rd": "바베, 미 삐아체 꼬지. 트란뀔로. 💕",
    "segs": [
     [
@@ -317,7 +327,7 @@
     ]
    ],
    "it_f": "Vabbè, mi piace così. Tranquilla. 💕",
-   "ko_f": "됐어, 이렇게 좋아. 진정해. 💕",
+   "ko_f": "됐어, 이렇게 좋아. 걱정 마. 💕",
    "rd_f": "바베, 미 삐아체 꼬지. 트란뀔라. 💕",
    "segs_f": [
     [

@@ -133,7 +133,7 @@
    ],
    "grok": true,
    "it": "Vi aspetto. Sono pronta. Ecco le banane.",
-   "ko": "너희 기다렸어. 나 준비됐어. 여기 바나나.",
+   "ko": "너희 기다려. 나 준비됐어. 여기 바나나.",
    "rd": "비 아스뻬또. 쏘노 프론따. 에꼬 레 바나네.",
    "emotion": "gentle"
   },
@@ -166,7 +166,7 @@
   {
    "num": 5,
    "speaker": "B",
-   "note": "vorremmo = 우리는 원하다",
+   "note": "pure = ~도",
    "tags": [
     "step:8"
    ],
@@ -178,8 +178,8 @@
      ""
     ],
     [
-     "vorremmo",
-     "vorremmo",
+     "prendo",
+     "prendere",
      ""
     ],
     [
@@ -189,9 +189,9 @@
     ]
    ],
    "grok": true,
-   "it": "A me pure. Vorremmo due banane.",
-   "ko": "나도. 우리 바나나 두 개 원해.",
-   "rd": "아 메 뿌레. 보렘모 두에 바나네.",
+   "it": "A me pure. Prendo due banane.",
+   "ko": "나도. 바나나 두 개 가져.",
+   "rd": "아 메 뿌레. 프렌도 두에 바나네.",
    "emotion": "excited"
   },
   {
@@ -255,20 +255,25 @@
      ""
     ],
     [
-     "disegni",
+     "disegno",
      "disegno",
      ""
     ],
     [
-     "porterò",
-     "porterare",
+     "solo",
+     "solo",
+     ""
+    ],
+    [
+     "banane",
+     "banana",
      ""
     ]
    ],
    "grok": true,
-   "it": "Scusa, non parlate. Ci disegni? Le porterò.",
-   "ko": "미안, 말하지 마. 우리 그려? 내가 가져올게.",
-   "rd": "스꾸자, 논 빠를라떼. 치 디제니? 레 뽀르떼로.",
+   "it": "Scusa. Non parlate. Disegno solo le banane.",
+   "ko": "미안. 말하지 마. 바나나만 그릴게.",
+   "rd": "스꾸자. 논 빠를라떼. 디제뇨 쏠로 레 바나네.",
    "emotion": "cheerful"
   },
   {

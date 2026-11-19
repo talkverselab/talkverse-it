@@ -14,8 +14,8 @@ B | Guarda che cielo grigio. Il traghetto parte lo stesso. | 회색 하늘 좀 �
 A | Fa freddo e c'è vento. Spero non piova. | 춥고 바람 불어. 비 안 왔으면 좋겠어. | vento = 바람 | emotion=worried | tags=step:5
 B | Tranquill{o|a}, in bassa stagione è più comodo. | 진정해, 비수기라 더 편해. | stagione = 계절 | emotion=teasing | tags=step:6
 A | Il mare è mosso. Non mi piace questo viaggio. | 바다가 거칠어. 이 여행 별로야. | mare = 바다 | emotion=worried | tags=step:5,step:6
-B | Te l'avevo detto di prendere la giacca. | 재킷 챙기라고 말했었잖아. |  | emotion=teasing | tags=step:5,step:6
-A | Ho un po' di mal di testa. // Dal vento, forse. | 머리가 좀 아파. // 바람 때문일지도. | mal di testa = 두통 | emotion=worried+amused | tags=step:3,step:5
+B | Te l'avevo detto. Prendi la giacca. | 말했었잖아. 재킷 챙겨. |  | emotion=teasing | tags=step:5,step:6
+A | Ho un po' di mal di testa. // Ma rido lo stesso. | 머리가 좀 아파. // 근데 그래도 웃겨. | mal di testa = 두통 | emotion=worried+amused | tags=step:3,step:5
 B | Stai bene? Vuoi sederti un attimo? | 괜찮아? 잠깐 앉을래? |  | emotion=worried | tags=step:3
 A | Sì, ma mi sento stanch{o|a} oggi. | 응, 근데 오늘 피곤해. | stanch{o|a} = 피곤한 | emotion=sad | tags=step:3
 B | Bevi un po' d'acqua. Fa bene alla salute. | 물 좀 마셔. 건강에 좋아. | salute = 건강 | emotion=teasing | tags=step:3
@@ -23,4 +23,4 @@ A | Grazie. Adesso va un po' meglio. | 고마워. 이제 좀 나아. |  | emotio
 B | Guarda, l'isola si vede. // Volevo stare sola con te. | 봐, 섬이 보여. // 너랑 단둘이 있고 싶었어. |  | emotion=teasing+shy | tags=step:4,step:6,twist
 A | Cosa? // Anch'io ero un po' emozionat{o|a}. | 뭐? // 나도 좀 설렜어. | emozionat{o|a} = 설레는 | emotion=surprised+flustered | tags=step:3,step:4
 B | Scusa, mi è scappato. Il viaggio è bello così. | 미안, 실수로 나왔어. 여행이 이래서 좋아. |  | emotion=shy | tags=step:4,step:6
-A | Tranquilla. Arriviamo insieme, va bene. | 괜찮아. 같이 도착하자, 좋지. |  | emotion=gentle | tags=step:6
+A | Tranquilla. Anch'io volevo questo con te. | 괜찮아. 나도 너랑 이랬으면 했어. |  | emotion=gentle | tags=step:6

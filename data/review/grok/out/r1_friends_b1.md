@@ -15,5 +15,5 @@ A | Sì, so fare un caffè buono. | 응, 맛있는 커피 만들 줄 알아. | s
 B | Allora fammi vedere, dai. | 그럼 보여 줘 봐. | Fammi vedere = 보여 줘 | emotion=teasing | tags=step:9
 A | Metto il caffè nella tazzina. | 작은 잔에 커피 넣어. | il caffè = 커피(남) | emotion=cheerful | tags=step:1,step:9
 B | Senti. // Hai messo il sale? | 들어 봐. // 소금 넣었어? | hai messo = 넣었어 | emotion=neutral+surprised | tags=step:5
-A | Ho messo il sale! // L'ho fatta male. | 소금 넣었어! // 잘못 만들었어. | l'ho fatta = 그걸 만들었어 | emotion=flustered | tags=step:5,step:7,twist
-B | Ecco, l'hai fatta male. | 봐, 잘못 만들었네. | Ecco = 봐 | emotion=amused | tags=step:5,step:7
+A | Ho messo il sale! // L'ho fatto male. | 소금 넣었어! // 잘못 만들었어. | l'ho fatto = 그걸 만들었어 | emotion=flustered | tags=step:5,step:7,twist
+B | Ecco, l'hai fatto male. | 봐, 잘못 만들었네. | Ecco = 봐 | emotion=amused | tags=step:5,step:7

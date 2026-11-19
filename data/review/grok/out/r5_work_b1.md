@@ -11,16 +11,16 @@ goal: 어휘 주제 2 일 · 3 건강 · 4 감정 · 9 갈등 · 10 미래 · �
 expressions: Dai; Infatti; Mamma mia
 steps(tags 의 step:N): 1 집 · 2 일 · 3 건강 · 4 감정 · 5 날씨·계절 · 6 여행·이동 · 7 돈 · 8 가족 행사 · 9 갈등 · 10 미래
 B | Dai, la macchina del caffè fa rumori strani. | 에이, 커피 머신이 이상한 소리를 내. | macchina = 기계 | emotion=annoyed | tags=step:2
-A | Infatti, i clienti aspettano. Cosa facciamo al lavoro? | 맞아, 손님들이 기다리고 있어. 일에서 뭐 하지? | lavoro = 일 | emotion=flustered | tags=step:2
+A | Infatti, i clienti aspettano. Che facciamo adesso? | 맞아, 손님들이 기다리고 있어. 이제 어떡하지? | clienti = 손님들 | emotion=flustered | tags=step:2
 B | Tu apri, io chiudo. È il turno di oggi. | 너는 열고, 나는 닫아. 오늘 근무야. | turno = 근무 | emotion=teasing | tags=step:2
 A | Ma il mio stipendio è basso per questi turni. | 근데 이 근무들 치고 내 월급이 적어. | stipendio = 월급 | emotion=annoyed | tags=step:2,step:9
-B | C'è sempre conflitto sui soldi, vero? | 돈 가지고 항상 갈등이지, 그렇지? | conflitto = 갈등 | emotion=tsukkomi | tags=step:9
+B | I soldi fanno sempre casino, vero? | 돈만 나오면 항상 난리야, 그치? | casino = 난리 | emotion=tsukkomi | tags=step:9
 A | Ho mal di testa. // Sono stanc{o|a} di questa cosa. | 머리가 아파. // 이 일에 지쳤어. | mal di testa = 두통 | emotion=annoyed+sad | tags=step:3,step:4
-B | In futuro cambieremo orario, prometto. | 미래에는 시간을 바꿀게, 약속해. | futuro = 미래 | emotion=gentle | tags=step:10
+B | Da lunedì cambiamo i turni, promesso. | 다음 주부터 근무표 바꾸자, 약속해. | turni = 근무표 | emotion=gentle | tags=step:10
 A | Davvero? Allora lavorerò più seren{o|a}. | 진짜? 그럼 더 편하게 일할 거야. |  | emotion=surprised | tags=step:10
 B | Sì. Il lavoro andrà meglio da lunedì. | 응. 월요일부터 일이 더 잘 될 거야. |  | emotion=gentle | tags=step:2,step:10
 C | Mi scusi, il caffè è pronto? Aspetto da tanto. | 실례합니다, 커피 나왔나요? 오래 기다렸어요. |  | emotion=worried | tags=step:2
 A | Un attimo, signora. La macchina ha un problema. | 잠깐만요, 부인. 기계에 문제가 있어요. |  | emotion=flustered | tags=step:3
 B | Mamma mia! // Si è fermata del tutto adesso. | 맙소사! // 지금 완전히 멈췄어. |  | emotion=flustered+stiff | tags=step:2,twist
-C | Oddio, e i clienti? // C'è conflitto qui. | 어머, 손님들은요? // 여기 갈등이 있네요. |  | emotion=worried+teasing | tags=step:2,step:9
+C | Oddio, e i clienti? // Che casino qui. | 어머, 손님들은요? // 여기 완전 난리네요. |  | emotion=worried+teasing | tags=step:2,step:9
 A | Mi scusi tanto. // Le offro un tè intanto? | 정말 죄송합니다. // 그동안 차라도 드릴까요? |  | emotion=polite+shy | tags=step:2,step:7

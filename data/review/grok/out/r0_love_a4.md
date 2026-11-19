@@ -10,9 +10,9 @@ twist: 4 chaos
 goal: 도구획득 · 짧은 반말 회화 · 표현 Dai · Senti · Ecco
 expressions: Dai; Senti; Ecco
 B | Ciao! Ho un regalo. | 안녕! 선물 있어. | ho = 가지다 | emotion=cheerful | tags=
-C | Per me? Dai! | 나 거야? 에이! | Dai = 에이 | emotion=teasing | tags=
+C | Per me? Dai! | 내 거야? 에이! | Dai = 에이 | emotion=teasing | tags=
 B | No... per {name}. | 아니... {name} 거야. | per = 위해 | emotion=shy | tags=
 C | Ecco, lo prendo io! | 여기, 내가 가져갈게! | Ecco = 여기 | emotion=excited | tags=twist
 B | Senti! È per {lui|lei}! | 들어! 그 사람 거야! | Senti = 들어 | emotion=tsukkomi | tags=
 C | Ah... scusa. | 아... 미안. | scusa = 미안 | emotion=sad | tags=
-B | Dai, chiamalo. | 에이, 불러. | Dai = 에이 | emotion=shy | tags=
+B | Dai, chiamal{o|a}. | 에이, 불러. | chiamal{o|a} = 불러 | emotion=shy | tags=

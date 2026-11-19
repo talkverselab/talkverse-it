@@ -48,23 +48,18 @@
      "tornate",
      "tornare",
      ""
-    ],
-    [
-     "domani",
-     "domani",
-     ""
     ]
    ],
    "grok": true,
-   "it": "Ehi, tornate voi domani?",
-   "ko": "야, 너희 내일 돌아와?",
-   "rd": "에이, 또르나떼 보이 도마니?",
+   "it": "Ehi, quando tornate?",
+   "ko": "야, 언제 돌아와?",
+   "rd": "에이, 꽌도 또르나떼?",
    "emotion": "shy"
   },
   {
    "num": 2,
    "speaker": "A",
-   "note": "siamo pronti = 우리 준비됐다",
+   "note": "abbiamo fatto = 우리가 했다",
    "tags": [
     "step:2",
     "step:3"
@@ -77,61 +72,56 @@
      ""
     ],
     [
-     "siamo",
-     "essere",
-     ""
-    ],
-    [
-     "pronti",
-     "pronto",
+     "abbiamo",
+     "avere",
      ""
     ],
     [
      "ancora",
      "ancora",
+     ""
+    ],
+    [
+     "fatto",
+     "fare",
+     ""
+    ],
+    [
+     "valigie",
+     "valigia",
      ""
     ]
    ],
    "grok": true,
-   "it": "No, non siamo pronti ancora.",
-   "ko": "아니, 우리 아직 준비 안 됐어.",
-   "rd": "노, 논 씨아모 프론띠 안꼬라.",
+   "it": "No, non abbiamo ancora fatto le valigie.",
+   "ko": "아니, 아직 짐 안 쌌어.",
+   "rd": "노, 논 아비아모 안꼬라 파또 레 발리지에.",
    "emotion": "sad"
   },
   {
    "num": 3,
    "speaker": "D",
-   "note": "potete = 너희 할 수 있다",
+   "note": "scappate = 너희 도망가",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "certo",
-     "certo",
+     "allora",
+     "allora",
      ""
     ],
     [
-     "potete",
-     "potere",
-     ""
-    ],
-    [
-     "tornare",
-     "tornare",
-     ""
-    ],
-    [
-     "dopo",
-     "dopo",
+     "scappate",
+     "scappare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Certo, potete tornare dopo!",
-   "ko": "당연하지, 너희 나중에 돌아올 수 있어!",
-   "rd": "체르또, 뽀떼떼 또르나레 도뽀!",
+   "it": "Allora, scappate senza di noi!",
+   "ko": "그럼, 우리 없이 도망가!",
+   "rd": "알로라, 스까빠떼 쎈짜 디 노이!",
    "emotion": "teasing"
   },
   {
@@ -149,20 +139,15 @@
      ""
     ],
     [
-     "domani",
-     "domani",
-     ""
-    ],
-    [
-     "sera",
-     "sera",
+     "giorni",
+     "giorno",
      ""
     ]
    ],
    "grok": true,
-   "it": "Sì, torniamo domani sera.",
-   "ko": "응, 우리 내일 저녁에 돌아와.",
-   "rd": "씨, 또르니아모 도마니 쎄라.",
+   "it": "Sì, torniamo tra due giorni.",
+   "ko": "응, 우리 이틀 뒤에 돌아와.",
+   "rd": "씨, 또르니아모 트라 두에 조르니.",
    "emotion": "gentle"
   },
   {
@@ -199,27 +184,27 @@
   {
    "num": 6,
    "speaker": "A",
-   "note": "possiamo = 우리 할 수 있다",
+   "note": "vi diciamo = 너희에게 말하다",
    "tags": [
     "step:9"
    ],
    "new": [],
    "lemmas": [
     [
-     "possiamo",
-     "potere",
+     "diciamo",
+     "dire",
      ""
     ],
     [
-     "domani",
-     "domani",
+     "torniamo",
+     "tornare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Possiamo dirvi domani, dai.",
-   "ko": "우리 내일 말해줄 수 있어, 야.",
-   "rd": "뽀씨아모 디르비 도마니, 다이.",
+   "it": "Vi diciamo quando torniamo, dai.",
+   "ko": "돌아오는 날 바로 연락할게, 에이.",
+   "rd": "비 디챠모 꽌도 또르니아모, 다이.",
    "emotion": "gentle"
   },
   {
@@ -250,20 +235,25 @@
      "presto",
      "presto",
      ""
+    ],
+    [
+     "ok",
+     "ok",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Ci piacete tanto voi. Ma tornate presto.",
-   "ko": "너희 우리 정말 좋아해. 그런데 빨리 돌아와.",
-   "rd": "치 삐아체떼 딴또 보이. 마 또르나떼 프레스또.",
+   "it": "Ci piacete tanto. Tornate presto, ok?",
+   "ko": "우리 너희 정말 좋아해. 빨리 돌아와, 알겠지?",
+   "rd": "치 삐아체떼 딴또. 또르나떼 프레스또, 오크?",
    "segs": [
     [
      "shy",
-     "Ci piacete tanto voi."
+     "Ci piacete tanto."
     ],
     [
      "sad",
-     " Ma tornate presto."
+     " Tornate presto, ok?"
     ]
    ]
   },

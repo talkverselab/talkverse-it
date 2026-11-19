@@ -12,9 +12,9 @@ expressions: Ehi; Ecco; Scusa
 steps(tags 의 step:N): 1 관사+명사 성 · 2 essere·avere 현재 · 3 -are 동사 현재 · 4 결합 전치사 al·alla·del·della·nel · 5 근과거 avere · 6 근과거 essere(과거분사 성 일치) · 7 직접목적 대명사 lo·la·ti·mi · 8 mi piace/ti piace · 9 불규칙 동사(andare·fare·stare·venire·volere·potere·dovere·sapere·dire·uscire·bere) · 10 미래·조건 씨앗(farò·vorrei) — 레벨 3 은 같은 것을 복수·Lei 로
 B | Ehi, siete arrivati tardi? | 야, 너희 늦게 왔어? | siete arrivati = 너희 도착했어 | emotion=teasing | tags=step:6
 C | Sì, siamo pronti adesso. | 응, 우리 지금 준비됐어. | siamo = 우리는 | emotion=cheerful | tags=step:2
-B | Vi aspetto. Sono pronta. Ecco le banane. | 너희 기다렸어. 나 준비됐어. 여기 바나나. | vi = 너희를 | emotion=gentle | tags=step:2,step:7
+B | Vi aspetto. Sono pronta. Ecco le banane. | 너희 기다려. 나 준비됐어. 여기 바나나. | vi = 너희를 | emotion=gentle | tags=step:2,step:7
 A | Mi piacciono le banane! | 나 바나나 좋아해! | mi piacciono = 나는 좋아해 | emotion=cheerful | tags=step:8
-B | A me pure. Vorremmo due banane. | 나도. 우리 바나나 두 개 원해. | vorremmo = 우리는 원하다 | emotion=excited | tags=step:8
+B | A me pure. Prendo due banane. | 나도. 바나나 두 개 가져. | | emotion=excited | tags=step:8
 A | Le banane gialle sono belle! | 노란 바나나가 진짜 예뻐! | le = 정관사 여성 복수 | emotion=shout | tags=step:1
-B | Scusa, non parlate. Ci disegni? Le porterò. | 미안, 말하지 마. 우리 그려? 내가 가져올게. | non parlate = 말하지 마 | emotion=cheerful | tags=step:10,twist
+B | Scusa. Non parlate. Disegno solo le banane. | 미안. 말하지 마. 바나나만 그릴게. | non parlate = 말하지 마 | emotion=cheerful | tags=step:10,twist
 C | Ma noi vorremmo parlare. | 하지만 우리도 말하고 싶어. | vorremmo = 우리는 | emotion=sad | tags=step:10

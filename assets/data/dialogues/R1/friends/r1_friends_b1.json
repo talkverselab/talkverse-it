@@ -237,7 +237,7 @@
   {
    "num": 7,
    "speaker": "A",
-   "note": "l'ho fatta = 그걸 만들었어",
+   "note": "l'ho fatto = 그걸 만들었어",
    "tags": [
     "step:5",
     "step:7"
@@ -265,7 +265,7 @@
      ""
     ],
     [
-     "fatta",
+     "fatto",
      "fare",
      ""
     ],
@@ -276,9 +276,9 @@
     ]
    ],
    "grok": true,
-   "it": "Ho messo il sale! L'ho fatta male.",
+   "it": "Ho messo il sale! L'ho fatto male.",
    "ko": "소금 넣었어! 잘못 만들었어.",
-   "rd": "오 메쏘 일 쌀레! 로 파따 말레.",
+   "rd": "오 메쏘 일 쌀레! 로 파또 말레.",
    "emotion": "flustered"
   },
   {
@@ -302,7 +302,7 @@
      ""
     ],
     [
-     "fatta",
+     "fatto",
      "fare",
      ""
     ],
@@ -313,9 +313,9 @@
     ]
    ],
    "grok": true,
-   "it": "Ecco, l'hai fatta male.",
+   "it": "Ecco, l'hai fatto male.",
    "ko": "봐, 잘못 만들었네.",
-   "rd": "에꼬, 라이 파따 말레.",
+   "rd": "에꼬, 라이 파또 말레.",
    "emotion": "amused"
   }
  ]

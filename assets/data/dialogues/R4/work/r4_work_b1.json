@@ -30,7 +30,7 @@
   {
    "num": 1,
    "speaker": "B",
-   "note": "Si accomodi = 앉으세요(Lei 명령)",
+   "note": "Si accomodi = 앉으세요(Lei)",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "in anticipo = 일찍, 미리",
+   "note": "in anticipo = 일찍",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -108,7 +108,7 @@
   {
    "num": 3,
    "speaker": "B",
-   "note": "Non si preoccupi = 걱정 마세요(Lei)",
+   "note": "intanto = 그동안",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -147,7 +147,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "volentieri = 기꺼이 · nervoso = 긴장한",
+   "note": "nervoso = 긴장한",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -251,36 +251,51 @@
    "new": [],
    "lemmas": [
     [
+     "ho",
+     "avere",
+     ""
+    ],
+    [
+     "visto",
+     "vedere",
+     ""
+    ],
+    [
+     "video",
+     "video",
+     ""
+    ],
+    [
+     "sito",
+     "sito",
+     ""
+    ],
+    [
+     "cronaca",
+     "cronaca",
+     ""
+    ],
+    [
      "toglierei",
-     "togliereare",
+     "toglierei",
      ""
     ],
     [
-     "video",
-     "video",
-     ""
-    ],
-    [
-     "sito",
-     "sito",
-     ""
-    ],
-    [
-     "cronaca",
-     "cronaca",
+     "minuti",
+     "minuto",
      ""
     ]
    ],
    "grok": true,
-   "it": "Toglierei quel video dal sito, per la cronaca.",
-   "ko": "솔직히 그 영상은 사이트에서 빼겠어요.",
-   "rd": "똘리에레이 꿸 비데오 달 씨또, 뻬르 라 크로나까.",
+   "it": "Ho visto il video sul sito, per la cronaca. Toglierei quello di venti minuti.",
+   "ko": "사이트 영상을 봤어요, 참고로. 스무 분짜리는 빼겠어요.",
+   "rd": "오 비스또 일 비데오 쑬 씨또, 뻬르 라 크로나까. 똘리에레이 꿸로 디 벤띠 미누띠.",
    "emotion": "amused"
   },
   {
    "num": 7,
    "speaker": "B",
-   "note": "Addirittura? = 그 정도로요?",
+   "note": "intende = (Lei) 뜻하다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -309,7 +324,7 @@
   {
    "num": 8,
    "speaker": "A",
-   "note": "lunghissimo = 엄청 긴(-issimo)",
+   "note": "lunghissimo = 아주 긴",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -429,7 +444,7 @@
   {
    "num": 11,
    "speaker": "B",
-   "note": "Ha già visto = 벌써 보셨어요(Lei 근과거)",
+   "note": "ha visto = (Lei) 보셨다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -473,7 +488,7 @@
   {
    "num": 12,
    "speaker": "A",
-   "note": "non mi hanno convinto = 나를 설득하지 못했다",
+   "note": "mi hanno convinto = 나를 설득했다",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -519,45 +534,45 @@
      ""
     ],
     [
+     "già",
+     "già",
+     ""
+    ],
+    [
      "detto",
      "dire",
-     ""
-    ],
-    [
-     "anche",
-     "anche",
-     ""
-    ],
-    [
-     "capo",
-     "capo",
      ""
     ],
     [
      "sono",
      "essere",
      ""
+    ],
+    [
+     "capo",
+     "capo",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Me l'ha detto anche il capo. Sono io.",
-   "ko": "사장님도 저한테 그렇게 말씀하셨어요. 제가 그 사람이에요.",
-   "rd": "메 라 데또 안께 일 까뽀. 쏘노 이오.",
+   "it": "Me l'ha già detto qualcuno. Sono io il capo.",
+   "ko": "누군가 저한테 그렇게 말했어요. 제가 사장이에요.",
+   "rd": "메 라 쟈 데또 꽐꾸노. 쏘노 이오 일 까뽀.",
    "segs": [
     [
      "neutral",
-     "Me l'ha detto anche il capo."
+     "Me l'ha già detto qualcuno."
     ],
     [
      "teasing",
-     " Sono io."
+     " Sono io il capo."
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "A",
-   "note": "Oddio = 세상에",
+   "note": "Oddio = 어머나",
    "tags": [],
    "new": [],
    "lemmas": [
@@ -597,6 +612,11 @@
    ],
    "new": [],
    "lemmas": [
+    [
+     "stia",
+     "stare",
+     ""
+    ],
     [
      "tranquillo",
      "tranquillo",
@@ -639,26 +659,26 @@
     ]
    ],
    "grok": true,
-   "it": "Tranquillo. Me l'ha già fatto capire. Va bene così.",
-   "ko": "괜찮아요. 이미 알려 주셨으니까요. 이 정도면 돼요.",
-   "rd": "트란뀔로. 메 라 쟈 파또 까삐레. 바 베네 꼬지.",
+   "it": "Stia tranquillo. Me l'ha già fatto capire. Va bene così.",
+   "ko": "걱정 마세요. 이미 알려 주셨으니까요. 이 정도면 돼요.",
+   "rd": "스띠아 트란뀔로. 메 라 쟈 파또 까삐레. 바 베네 꼬지.",
    "segs": [
     [
      "gentle",
-     "Tranquillo. Me l'ha già fatto capire."
+     "Stia tranquillo. Me l'ha già fatto capire."
     ],
     [
      "gentle",
      " Va bene così."
     ]
    ],
-   "it_f": "Tranquilla. Me l'ha già fatto capire. Va bene così.",
-   "ko_f": "괜찮아요. 이미 알려 주셨으니까요. 이 정도면 돼요.",
-   "rd_f": "트란뀔라. 메 라 쟈 파또 까삐레. 바 베네 꼬지.",
+   "it_f": "Stia tranquilla. Me l'ha già fatto capire. Va bene così.",
+   "ko_f": "걱정 마세요. 이미 알려 주셨으니까요. 이 정도면 돼요.",
+   "rd_f": "스띠아 트란뀔라. 메 라 쟈 파또 까삐레. 바 베네 꼬지.",
    "segs_f": [
     [
      "gentle",
-     "Tranquilla. Me l'ha già fatto capire."
+     "Stia tranquilla. Me l'ha già fatto capire."
     ],
     [
      "gentle",

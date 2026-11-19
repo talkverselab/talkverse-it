@@ -82,26 +82,31 @@
      ""
     ],
     [
-     "è",
+     "mamma",
+     "mamma",
+     ""
+    ],
+    [
+     "sarà",
      "essere",
      ""
     ],
     [
-     "tanto",
-     "tanto",
+     "contenta",
+     "contento",
      ""
     ]
    ],
    "grok": true,
-   "it": "Mamma mia, è tanto!",
-   "ko": "맙소사, 많아!",
-   "rd": "맘마 미아, 에 딴또!",
+   "it": "Mamma mia, mamma sarà contenta!",
+   "ko": "맙소사, 엄마 좋아하시겠네!",
+   "rd": "맘마 미아, 맘마 싸라 꼰뗀따!",
    "emotion": "surprised"
   },
   {
    "num": 3,
    "speaker": "A",
-   "note": "per voi e per noi = 너희와 우리를 위해",
+   "note": "per voi = 너희를 위해",
    "tags": [
     "step:1"
    ],
@@ -120,7 +125,7 @@
    ],
    "grok": true,
    "it": "Per voi e per noi.",
-   "ko": "당신들과 우리를 위해.",
+   "ko": "두 분이랑 우리 거예요.",
    "rd": "뻬르 보이 에 뻬르 노이.",
    "emotion": "cheerful"
   },
@@ -146,19 +151,29 @@
    ],
    "grok": true,
    "it": "Ha fatto tutto Lei?",
-   "ko": "다 하셨어요?",
+   "ko": "이거 다 혼자 하셨어요?",
    "rd": "아 파또 뚜또 레이?",
    "emotion": "shy"
   },
   {
    "num": 5,
    "speaker": "C",
-   "note": "l'ho mangiata = 그걸 먹었어(la → 과거분사 -a)",
+   "note": "l'ho mangiata = 내가 그걸 먹었다",
    "tags": [
     "step:5"
    ],
    "new": [],
    "lemmas": [
+    [
+     "sono",
+     "essere",
+     ""
+    ],
+    [
+     "qui",
+     "qui",
+     ""
+    ],
     [
      "ho",
      "avere",
@@ -171,15 +186,15 @@
     ]
    ],
    "grok": true,
-   "it": "Io l'ho mangiata! 😳",
-   "ko": "내가 먹었어! 😳",
-   "rd": "이오 로 만쟈따! 😳",
+   "it": "Sono qui! Io l'ho mangiata! 😳",
+   "ko": "나 여기 있어! 내가 먹었어! 😳",
+   "rd": "쏘노 뀌! 이오 로 만쟈따! 😳",
    "emotion": "cheerful"
   },
   {
    "num": 6,
    "speaker": "A",
-   "note": "per Lei = 당신(존댓말)을 위해",
+   "note": "per Lei = 그분(Lei)을 위해",
    "tags": [
     "step:5",
     "step:4"
@@ -187,20 +202,20 @@
    "new": [],
    "lemmas": [
     [
-     "cosa",
-     "cosa",
+     "hai",
+     "avere",
      ""
     ],
     [
-     "lei",
-     "lei",
+     "mangiato",
+     "mangiare",
      ""
     ]
    ],
    "grok": true,
-   "it": "Cosa? Per Lei?",
-   "ko": "뭐? 어머님께?",
-   "rd": "꼬자? 뻬르 레이?",
+   "it": "Cosa? Hai mangiato quella per Lei?",
+   "ko": "뭐? 어머님 드릴 걸 먹었어?",
+   "rd": "꼬자? 아이 만쟈또 꿸라 뻬르 레이?",
    "emotion": "shout"
   },
   {
@@ -224,15 +239,15 @@
     ]
    ],
    "grok": true,
-   "it": "Scusa, mi scusi.",
-   "ko": "미안, 실례합니다.",
-   "rd": "스꾸자, 미 스꾸지.",
+   "it": "Scusa. Mi scusi, signora.",
+   "ko": "미안. 아, 죄송합니다 어머님.",
+   "rd": "스꾸자. 미 스꾸지, 씨뇨라.",
    "emotion": "flustered"
   },
   {
    "num": 8,
    "speaker": "B",
-   "note": "Lascia stare = 내버려 둬",
+   "note": "Lascia stare = 됐어",
    "tags": [
     "step:10"
    ],
@@ -249,20 +264,20 @@
      ""
     ],
     [
-     "va",
-     "andare",
+     "è",
+     "essere",
      ""
     ],
     [
-     "bene",
-     "bene",
+     "divertente",
+     "divertente",
      ""
     ]
    ],
    "grok": true,
-   "it": "Lascia stare, va bene.",
-   "ko": "내버려 둬, 괜찮아.",
-   "rd": "라샤 스따레, 바 베네.",
+   "it": "Lascia stare, è divertente.",
+   "ko": "됐어, 신경 쓰지 마. 웃기네.",
+   "rd": "라샤 스따레, 에 디베르뗀떼.",
    "emotion": "amused"
   }
  ]

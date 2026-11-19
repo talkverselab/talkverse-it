@@ -63,7 +63,7 @@
   {
    "num": 2,
    "speaker": "B",
-   "note": "siete bravi = 너희 잘하다",
+   "note": "non vi vediamo = 너희를 안 보다",
    "tags": [
     "step:2"
    ],
@@ -83,18 +83,28 @@
      "bravi",
      "bravo",
      ""
+    ],
+    [
+     "non",
+     "non",
+     ""
+    ],
+    [
+     "vediamo",
+     "vedere",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Che bello, siete bravi voi!",
-   "ko": "정말 멋지네, 너희 잘했어!",
-   "rd": "께 벨로, 씨에떼 브라비 보이!",
+   "it": "Che bello, siete bravi voi! Ma non vi vediamo.",
+   "ko": "정말 멋지네, 너희 잘했어! 그런데 안 보여.",
+   "rd": "께 벨로, 씨에떼 브라비 보이! 마 논 비 베디아모.",
    "emotion": "cheerful"
   },
   {
    "num": 3,
    "speaker": "C",
-   "note": "due donne = 두 여자들",
+   "note": "due donne molto belle = 엄청 예쁜 두 여자",
    "tags": [
     "step:1"
    ],
@@ -114,12 +124,22 @@
      "donne",
      "donna",
      ""
+    ],
+    [
+     "molto",
+     "molto",
+     ""
+    ],
+    [
+     "belle",
+     "bello",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Ma dove sono le due donne?",
-   "ko": "그런데 그 두 여자들은 어디 있어?",
-   "rd": "마 도베 쏘노 레 두에 돈네?",
+   "it": "Ma dove sono le due donne molto belle?",
+   "ko": "그런데 그 엄청 예쁜 두 여자들은 어디 있어?",
+   "rd": "마 도베 쏘노 레 두에 돈네 몰또 벨레?",
    "emotion": "shy"
   },
   {
@@ -140,12 +160,17 @@
      "vediamo",
      "vedere",
      ""
+    ],
+    [
+     "anche",
+     "anche",
+     ""
     ]
    ],
    "grok": true,
-   "it": "Sappiamo, vediamo noi.",
-   "ko": "우리 알아, 우리 보고 있어.",
-   "rd": "싸삐아모, 베디아모 노이.",
+   "it": "Sappiamo noi, le vediamo anche!",
+   "ko": "우리 알아, 우리도 보여!",
+   "rd": "싸삐아모 노이, 레 베디아모 안께!",
    "emotion": "teasing"
   },
   {
@@ -196,20 +221,25 @@
      ""
     ],
     [
+     "guardano",
+     "guardare",
+     ""
+    ],
+    [
      "ridono",
      "ridere",
      ""
     ],
     [
-     "vengono",
+     "veniamo",
      "venire",
      ""
     ]
    ],
    "grok": true,
-   "it": "Allora, fanno così. Ci ridono e vengono.",
-   "ko": "그럼, 그렇게 해. 우리한테 웃고 와.",
-   "rd": "알로라, 판노 꼬지. 치 리도노 에 벵고노.",
+   "it": "Allora, fanno così. Ci guardano e ridono, veniamo noi!",
+   "ko": "그럼, 그렇게 해. 우리 보고 웃으면서 우리가 온다!",
+   "rd": "알로라, 판노 꼬지. 치 구아르다노 에 리도노, 베니아모 노이!",
    "segs": [
     [
      "teasing",
@@ -217,14 +247,14 @@
     ],
     [
      "cheerful",
-     " Ci ridono e vengono."
+     " Ci guardano e ridono, veniamo noi!"
     ]
    ]
   },
   {
    "num": 7,
    "speaker": "A",
-   "note": "guardate = 너희 보다",
+   "note": "le vedo = 그 여자들을 보다",
    "tags": [
     "step:7"
    ],
@@ -236,6 +266,11 @@
      ""
     ],
     [
+     "vedo",
+     "vedere",
+     ""
+    ],
+    [
      "vengono",
      "venire",
      ""
@@ -247,9 +282,9 @@
     ]
    ],
    "grok": true,
-   "it": "Guardate, vengono qui!",
-   "ko": "봐, 그들이 여기로 와!",
-   "rd": "구아르다떼, 벵고노 뀌!",
+   "it": "Guardate, le vedo! Vengono qui!",
+   "ko": "봐, 그 여자들 보여! 여기로 와!",
+   "rd": "구아르다떼, 레 베도! 벵고노 뀌!",
    "emotion": "surprised"
   },
   {

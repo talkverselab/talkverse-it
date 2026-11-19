@@ -69,7 +69,7 @@
   {
    "num": 2,
    "speaker": "A",
-   "note": "Boh = 뭐",
+   "note": "Ma = 근데",
    "tags": [
     "step:1"
    ],
@@ -79,19 +79,14 @@
      "ciao",
      "ciao",
      ""
-    ],
-    [
-     "boh",
-     "boh",
-     ""
     ]
    ],
    "ui": "bubble",
    "at": "23:42",
    "grok": true,
-   "it": "Ciao! Boh, chi sei?",
-   "ko": "안녕! 뭐, 누구야?",
-   "rd": "챠오! 보, 끼 쎄이?",
+   "it": "Ciao! Ma chi sei?",
+   "ko": "안녕! 근데 누구야?",
+   "rd": "챠오! 마 끼 쎄이?",
    "emotion": "amused"
   },
   {
@@ -130,7 +125,7 @@
   {
    "num": 4,
    "speaker": "A",
-   "note": "Così presto? = 이렇게 빨리?",
+   "note": "così presto = 이렇게 일찍",
    "tags": [
     "step:3"
    ],
@@ -165,11 +160,6 @@
    "new": [],
    "lemmas": [
     [
-     "magari",
-     "magari",
-     ""
-    ],
-    [
      "vedevo",
      "vedere",
      ""
@@ -178,14 +168,24 @@
      "giorno",
      "giorno",
      ""
+    ],
+    [
+     "magari",
+     "magari",
+     ""
+    ],
+    [
+     "domani",
+     "domani",
+     ""
     ]
    ],
    "ui": "bubble",
    "at": "23:43",
    "grok": true,
-   "it": "Magari ti vedevo ogni giorno. 😳",
-   "ko": "매일 너를 봤어. 😳",
-   "rd": "마가리 띠 베데보 오니 조르노. 😳",
+   "it": "Ti vedevo ogni giorno. Magari domani? 😳",
+   "ko": "매일 너를 봤어. 내일 할까? 😳",
+   "rd": "띠 베데보 오니 조르노. 마가리 도마니? 😳",
    "emotion": "shy"
   },
   {
@@ -229,7 +229,7 @@
   {
    "num": 7,
    "speaker": "B",
-   "note": "al bar = 바에서(a + il)",
+   "note": "al bar = 바에서",
    "tags": [
     "step:1"
    ],
@@ -249,15 +249,15 @@
    "ui": "bubble",
    "at": "23:45",
    "grok": true,
-   "it": "Al bar di Chiara. Scusa.",
-   "ko": "키아라 바에서. 미안.",
-   "rd": "알 바르 디 끼아라. 스꾸자.",
+   "it": "Al bar di Marco. Scusa.",
+   "ko": "마르코 바에서. 미안.",
+   "rd": "알 바르 디 마르꼬. 스꾸자.",
    "emotion": "shy"
   },
   {
    "num": 8,
    "speaker": "A",
-   "note": "ci vediamo = (우리) 보자",
+   "note": "ci vediamo = 보자(만나자)",
    "tags": [
     "step:10"
    ],
