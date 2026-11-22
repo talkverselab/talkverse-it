@@ -9,7 +9,9 @@ for f in $(ls assets/data/dialogues/R*/*/*.json | sort); do
   [ "$have" -ge "$c" ] && continue
   [ $done_n -ge $N ] && break
   echo "$(date +%H:%M) $f"
-  zsh tools/scene_run.sh $f 2>&1 | grep -v '^있음'
+  zsh tools/scene_run.sh $f > ${TMPDIR:-/tmp}/scene_it_one.log 2>&1; rc=$?
+  grep -v '^있음' ${TMPDIR:-/tmp}/scene_it_one.log
+  [ $rc -eq 3 ] && { echo "$(date +%H:%M) LIMIT — 전체 멈춤"; exit 3; }
   done_n=$((done_n+1)); sleep 300
 done
 echo "$(date +%H:%M) 끝"
