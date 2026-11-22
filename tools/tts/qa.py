@@ -86,13 +86,16 @@ def main():
             k = f'{ep}/{name}'; f = f'{wav}/{k}'; q = Q.setdefault(k, {'tries': 0})
             if not os.path.exists(f):
                 q.update(sim=0.0, ok=False); bad += 1; continue
-            if 'sim' not in q:
+            st = os.stat(f); sig = f'{st.st_size}:{int(st.st_mtime)}'
+            if 'sim' not in q or q.get('sig') != sig:                       # 캐시는 파일 내용(크기·시각) 기준 — 같은 이름으로 다시 만든 조각에 옛 점수가 남지 않게(11-23 한국어앱 발견)
                 q['sim'], q['dur'] = score(f, text)
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
                     shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    st = os.stat(f); sig = f'{st.st_size}:{int(st.st_mtime)}'
                 os.remove(c)
+            q['sig'] = sig
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
