@@ -12,6 +12,7 @@ import '../services/dialogue_service.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'chunk_search_screen.dart';
+import 'curriculum_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -172,8 +173,12 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 const _HomeTodayCut(),
+                const SizedBox(height: 12),
+                const CurriculumTodayCard(), // 토크버스 커리큘럼(2026-11-22 전 언어 공통, CURRICULUM_SPEC)
                 _section(tr('정규과정')),
                 _MenuGrid(items: [
+                  _MenuItem(label: tr('토크버스 커리큘럼'), sub: 'R0~R5', badge: 'TV', color: AppColors.ai,
+                      builder: (_) => const CurriculumScreen()),
                   _MenuItem(label: tr('언어감각 익히기'), sub: 'L1~L10', badge: 'L', color: AppColors.ai,
                       builder: (_) => const SenseCourseScreen()),
                 ]),
@@ -646,6 +651,13 @@ class ExploreTab extends StatelessWidget {
               },
             ),
             _section(tr('정규과정')),
+            _NavRow(
+              badge: 'TV',
+              color: AppColors.ai,
+              title: tr('토크버스 커리큘럼'),
+              subtitle: tr('회화를 골라 연습 → 복습 → 코스 시험 80%'),
+              onTap: () => openPane(context, (_) => const CurriculumScreen()),
+            ),
             _NavRow(
               badge: 'L',
               color: AppColors.ai,

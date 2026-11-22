@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter_tts/flutter_tts.dart';
 import '../core/platform.dart';
 
@@ -37,9 +39,9 @@ class TtsService {
     await _tts.setSpeechRate(0.45);
     await _tts.setPitch(1.0);
     await _tts.setVolume(1.0);
-    _tts.setCompletionHandler(() => _speaking = null);
-    _tts.setCancelHandler(() => _speaking = null);
-    _tts.setErrorHandler((msg) => _speaking = null);
+    _tts.setCompletionHandler(() => _finish());
+    _tts.setCancelHandler(() => _finish());
+    _tts.setErrorHandler((msg) => _finish());
     _initialized = true;
   }
 
@@ -99,8 +101,24 @@ class TtsService {
     await _tts.speak(text);
   }
 
+  Completer<void>? _done;
+  void _finish() {
+    _speaking = null;
+    final c = _done;
+    _done = null;
+    if (c != null && !c.isCompleted) c.complete();
+  }
+
+  /// 다 읽을 때까지 기다리는 speakAs(커리큘럼 전체 듣기, 2026-11-22). 끝 신호가 안 오면 글 길이로 잡은 시간 뒤 넘어간다.
+  Future<void> speakAsWait(String text, {required String gender, double? rate}) async {
+    final c = Completer<void>();
+    await speakAs(text, gender: gender, rate: rate);
+    _done = c;
+    await c.future.timeout(Duration(milliseconds: 2500 + text.length * 120), onTimeout: () {});
+  }
+
   Future<void> stop() async {
     await _tts.stop();
-    _speaking = null;
+    _finish();
   }
 }
