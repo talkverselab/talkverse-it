@@ -21,9 +21,31 @@ const _kAsset = 'assets/data/grammar/sense_course.json';
 
 class SenseCourse {
   static Map<String, dynamic>? _cache;
-  static Future<Map<String, dynamic>> load() async =>
-      // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
-      _cache ??= json.decode(await ScriptSync.instance.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+  static int _cacheRev = -1;
+
+  /// 스텝(급) 목록·제목·순서·내용은 모두 이 파일에서 — 서버 원고가 있으면 그것([ScriptSync]). 화면은 틀만(2026-11-23 사용자 지시).
+  /// 내용이 없는 스텝(회차 0개, 외울 대화에 문장 0줄)은 숨긴다 — 서버에 내용이 오면 저절로 나타남. 서버 판이 바뀌면 다시 읽는다.
+  static Future<Map<String, dynamic>> load() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    if (_cache != null && _cacheRev == sync.shownRev) return _cache!;
+    // loadString 은 큰 파일을 다른 isolate 에서 풀어 위젯 테스트가 멈춘다 — 바이트로 읽어 여기서 푼다.
+    final d = json.decode(await sync.load(_kAsset.substring('assets/data/'.length))) as Map<String, dynamic>;
+    _cacheRev = sync.shownRev;
+    return _cache = visible(d);
+  }
+
+  /// 빈 스텝·빈 회차를 뺀 사본.
+  static Map<String, dynamic> visible(Map<String, dynamic> d) {
+    bool hasContent(Map<String, dynamic> ls) =>
+        ls['open'] != null || ls['kind'] != 'memorize' || ((ls['sentences'] as List?) ?? const []).isNotEmpty;
+    final levels = <Map<String, dynamic>>[];
+    for (final lv in ((d['levels'] as List?) ?? const []).cast<Map<String, dynamic>>()) {
+      final lessons = ((lv['lessons'] as List?) ?? const []).cast<Map<String, dynamic>>().where(hasContent).toList();
+      if (lessons.any((ls) => ls['kind'] == 'memorize' || ls['open'] != null)) levels.add({...lv, 'lessons': lessons});
+    }
+    return {...d, 'levels': levels};
+  }
 
   static Future<Set<String>> done() async => ((await Prefs.getInstance()).getStringList(_kDoneKey) ?? const []).toSet();
 

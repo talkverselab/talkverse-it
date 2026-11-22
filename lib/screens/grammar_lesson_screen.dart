@@ -1,8 +1,6 @@
-import '../core/embed_env.dart';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
@@ -11,6 +9,7 @@ import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../services/script_sync.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -26,21 +25,35 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
+  /// 문법 스텝 틀 — 1~[kGrammarSteps] 칸은 늘 찾아보고, 서버가 그 너머 스텝을 더하면 그것도(2026-11-23 사용자 「스텝 10 까지 다 미리 만들어놓고 DB업데이트 하면서 업뎃되게」).
+  /// 내용은 [ScriptSync] — 서버 원고(`grammar/lesson<N>.json`)가 있으면 그것, 없으면 앱 안 파일. 파일이 없거나 비어 있는 스텝은 숨긴다.
+  static const kGrammarSteps = 15; // 11-23 사용자 「스텝 15까지 하자 내용이 없으면 자동으로 안나타나게」(문법 세션 전달)
+
   static Future<List<GrammarLesson>> loadAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final nums = <int>{for (var i = 1; i <= kGrammarSteps; i++) i};
+    final pat = RegExp(r'^grammar/lesson(\d+)\.json$');
+    for (final p in sync.added) {
+      final m = pat.firstMatch(p);
+      if (m != null) nums.add(int.parse(m.group(1)!));
+    }
     final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+    for (final i in nums.toList()..sort()) {
+      final rel = 'grammar/lesson$i.json';
+      if (sync.removed.contains(rel)) continue;
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
-        out.add(GrammarLesson(
+        final d = json.decode(await sync.load(rel)) as Map<String, dynamic>;
+        final l = GrammarLesson(
           (d['lesson'] as num?)?.toInt() ?? i,
           d['title'] as String? ?? trf('문법 {0}', [i]),
           d['subtitle'] as String? ?? '',
           [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
           [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
-        ));
+        );
+        if (l.patterns.isNotEmpty || l.stages.isNotEmpty) out.add(l);
       } catch (_) {
-        break;
+        // 이 스텝은 아직 내용 없음 — 숨김
       }
     }
     return out;
