@@ -13,6 +13,7 @@ import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -174,7 +175,7 @@ class HomeScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 const _HomeTodayCut(),
                 const SizedBox(height: 12),
-                const CurriculumTodayCard(), // 토크버스 커리큘럼(2026-11-22 전 언어 공통, CURRICULUM_SPEC)
+                const CurriculumHomeCard(), // 토크버스 커리큘럼(2026-11-22 전 언어 공통, CURRICULUM_SPEC)
                 _section(tr('정규과정')),
                 _MenuGrid(items: [
                   _MenuItem(label: tr('토크버스 커리큘럼'), sub: 'R0~R5', badge: 'TV', color: AppColors.ai,
@@ -658,6 +659,15 @@ class ExploreTab extends StatelessWidget {
               subtitle: tr('회화를 골라 연습 → 복습 → 코스 시험 80%'),
               onTap: () => openPane(context, (_) => const CurriculumScreen()),
             ),
+            // AI 회화 작성 — 일본어앱과 같은 화면, 작성기·결제가 준비되고 사용자가 정할 때까지 숨김(kCustomScriptLive)
+            if (kCustomScriptLive)
+              _NavRow(
+                badge: '✨',
+                color: AppColors.ai,
+                title: tr('맞춤 회화 만들기'),
+                subtitle: tr('주제·상황·레벨 → 나만의 1편 · 첫 편 무료'),
+                onTap: () => openPane(context, (_) => const CustomScriptScreen()),
+              ),
             _NavRow(
               badge: 'L',
               color: AppColors.ai,
