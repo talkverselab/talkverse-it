@@ -1,0 +1,22 @@
+title: 생각·바람·가정 (조건법 vorrei·potrei, 접속법, se)
+note: 일부러 조건법·접속법을 설명하지 않았어요. vorrei, penso che sia 를 통째로 외우는 게 가장 빨라요.
+footnotes: vorrei·potrei 는 voglio·posso 를 부드럽게 한 꼴(조건법). 한국어 「~하고 싶은데요」「~해도 될 텐데」. / penso che·credo che 뒤에는 접속법(sia·abbia·venga)이 와요. 한국어 「~인 것 같아」에 해당해요. / se + 현재 = 진짜 있을 수 있는 조건. se + avessi·fossi + 조건법 = 사실과 반대인 가정 「~라면 ~할 텐데」.
+marks: 1 = Vorrei, Potremmo, sarebbe, inviterei, potrei 무리 · 2 = penso che, sia, Credo che, abbia, venga 무리 · 3 = Se, avessi 무리
+=== L10-talk
+키아라 | {Vorrei|1} un gelato adesso. | {지금|1} 젤라토 먹고 싶어.
+나 | {Potremmo|1} andare al bar. | {바에|1} 갈 수 있어.
+키아라 | {Penso che|2} {sia|2} chiuso. | {닫은|2} 것 같아.
+나 | {Credo che|2} Marco {abbia|2} aperto. | 마르코가 {연|2} 것 같아.
+키아라 | {Se|3} {avessi|3} soldi, andrei. | {돈|3} 있으면 갈 텐데.
+나 | {Potrei|1} pagare io, dai. | {내가|1} 낼 수 있어, 다이.
+키아라 | {Sarebbe|1} bello, no? | {좋을|1} 텐데, 그렇지?
+나 | Sì, e {inviterei|1} anche Luca. | 응, 루카도 {초대할|1} 텐데.
+키아라 | {Se|3} viene, {penso che|2} {venga|2} tardi. | {오면|3} {늦게|2} 올 것 같아.
+나 | Figurati, {vorrei|1} restare qui. | 에이, {여기|1} 있고 싶어.
+
+## 리뷰
+모든 과 공통: 한국어 칸의 {…|번호} 는 이탈리아어에서 감싼 문법 형태의 「뜻」에 해당하는 한국어 부분(어미·조사 포함)을 감싸야 한다 — 명사·부사를 감싸지 말 것(예: {Ho prenotato|1} ↔ {예약했어|1}). 이탈리아어 쪽도 형태 전체(조동사+분사, 전치사+관사)를 감쌀 것. 한국어에 「다이」 같은 소리 옮김 금지(dai = 「에이·얼른·자」). 「Figurati」 를 매 과 끝줄에 쓰지 말 것(뜻 = 「천만에·별말을」, 맞는 자리에만). 과마다 끝에 작은 웃음·반전.
+턴2: 한국어 「갈 수 있어」 는 조건법 뉘앙스(갈 수도 있잖아) 빠짐
+턴9: 「Se viene, penso che venga tardi」 어색
+턴10: Figurati 가 앞과 안 맞음
+전체: 한국어 강조가 명사(지금·바에·돈·내가·여기)에 걸림 — 「-고 싶어·-ㄹ 텐데·-인 것 같아·-면」 어미에

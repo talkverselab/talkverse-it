@@ -15,63 +15,73 @@
      "sentences": [
       {
        "who": "나",
-       "it": "Buongiorno! {Un|1} caffè e {una|2} brioche, per favore.",
-       "rd": "부온조르노! 운 까페 에 우나 브리오께, 뻬르 파보레.",
-       "ko": "안녕하세요! 커피 {한 잔|1}이랑 브리오슈 {하나|2} 주세요."
+       "it": "{Un|1} caffè e {un|1} cornetto, per favore.",
+       "rd": "운 까페 에 운 꼬르네또, 뻬르 파보레.",
+       "ko": "커피 {하나|1}랑 코르네토 {하나|1}, 부탁해요.",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "{Il|3} caffè sì. {La|4} brioche è finita.",
-       "rd": "일 까페 씨. 라 브리오께 에 피니따.",
-       "ko": "커피{는|3} 돼요. 브리오슈{는|4} 다 떨어졌어요."
+       "it": "Subito. {Il|3} cornetto è caldo.",
+       "rd": "쑤비또. 일 꼬르네또 에 깔도.",
+       "ko": "바로요. 코르네토{는|3} 따뜻해요.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Peccato. Allora {un|1} cornetto?",
-       "rd": "뻬까또. 알로라 운 꼬르네또?",
-       "ko": "아쉽네요. 그럼 코르네토 {하나|1}는요?"
+       "it": "Bene. E {una|2} brioche?",
+       "rd": "베네. 에 우나 브리오께?",
+       "ko": "좋아요. 그리고 브리오슈 {하나|2}?",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "{L'|5}ultimo cornetto è per {la|4} ragazza là.",
-       "rd": "룰띠모 꼬르네또 에 뻬르 라 라가짜 라.",
-       "ko": "마지막 코르네토{는|5} 저기 {그|4} 아가씨 거예요."
+       "it": "Sì, {la|4} brioche al cioccolato.",
+       "rd": "씨, 라 브리오께 알 쵸꼴라또.",
+       "ko": "네, 초콜릿 브리오슈{가|4} 있어요.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Dai, facciamo a metà: {un|1} pezzo a te e {un|1} pezzo a me.",
-       "rd": "다이, 파챠모 아 메따: 운 뻬쪼 아 떼 에 운 뻬쪼 아 메.",
-       "ko": "에이, 반씩 하자. {한 조각|1}은 너, {한 조각|1}은 나."
+       "it": "Ciao! {L'|5}amico è già qui?",
+       "rd": "챠오! 라미꼬 에 쟈 뀌?",
+       "ko": "안녕! 친구{는|5} 이미 여기 있어?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Davvero? Grazie mille!",
-       "rd": "다베로? 그라찌에 밀레!",
-       "ko": "정말? 진짜 고마워!"
+       "it": "Sì, e {il|3} caffè è pronto.",
+       "rd": "씨, 에 일 까페 에 프론또.",
+       "ko": "응, 그리고 커피{는|3} 준비됐어.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Però offri tu {il|3} caffè!",
-       "rd": "뻬로 오프리 뚜 일 까페!",
-       "ko": "대신 커피{는|3} 네가 사!"
+       "it": "Ottimo! {La|4} brioche è per me.",
+       "rd": "오띠모! 라 브리오께 에 뻬르 메.",
+       "ko": "좋아! 브리오슈{는|4} 내 거야.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Marco, {un|1} altro caffè, per favore!",
-       "rd": "마르꼬, 운 알트로 까페, 뻬르 파보레!",
-       "ko": "마르코, 커피 {한 잔|1} 더요!"
+       "it": "Guarda, {l'|5}ultimo cornetto è lì.",
+       "rd": "구아르다, 룰띠모 꼬르네또 에 리.",
+       "ko": "봐, 마지막 코르네토{가|5} 거기 있어.",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "Ecco {il|3} caffè. E per {la|4} signorina, {una|2} brioche nascosta.",
-       "rd": "에꼬 일 까페. 에 뻬르 라 씨뇨리나, 우나 브리오께 나스꼬스따.",
-       "ko": "여기 커피{요|3}. 그리고 아가씨{께는|4} 숨겨 둔 브리오슈 {하나|2}."
+       "it": "Ecco {un|1} altro cornetto.",
+       "rd": "에꼬 운 알트로 꼬르네또.",
+       "ko": "자, 코르네토 {하나|1} 더.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Visto? Qui {la|4} regina sono io.",
-       "rd": "비스또? 뀌 라 레지나 쏘노 이오.",
-       "ko": "봤지? 여기 여왕{은|4} 나야."
+       "it": "Allora prendo {il|3} tuo caffè, ma è amaro.",
+       "rd": "알로라 프렌도 일 뚜오 까페, 마 에 아마로.",
+       "ko": "그럼 네 커피{를|3} 가져갈게, 근데 쓰네.",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -199,67 +209,77 @@
      "title": "동사가 사람마다 바뀐다 (essere·avere, -are 현재)",
      "kind": "memorize",
      "video": "",
-     "note": "일부러 활용표를 보여 주지 않았어요. 대화를 통째로 외우면 sono·sei·è 가 저절로 나와요.",
+     "note": "일부러 활용표를 보여 주지 않았어요. 대화를 통째로 외우면 sei·è·ho·hai 가 저절로 나와요.",
      "sentences": [
       {
        "who": "루카",
-       "it": "Buongiorno! {Sei|1} già sveglio?",
-       "rd": "부온조르노! 쎄이 쟈 스벨리오?",
-       "ko": "좋은 아침! 벌써 깼{어|1}?"
+       "it": "{Sei|1} a casa?",
+       "rd": "쎄이 아 까자?",
+       "ko": "집에 {있어|1}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Sì, {ho|2} fame. {Mangi|3} qualcosa anche tu?",
-       "rd": "씨, 오 파메. 만지 꽐꼬자 안께 뚜?",
-       "ko": "응, 배{고파|2}. 너도 뭐 좀 {먹을래|3}?"
+       "it": "Sì, {ho|2} fame. Tu {hai|2} fame?",
+       "rd": "씨, 오 파메. 뚜 아이 파메?",
+       "ko": "응, {배고파|2}. 너도 {배고파|2}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "No, {ho|2} una partita alle dieci. {Gioco|3} con gli amici.",
-       "rd": "노, 오 우나 빠르띠따 알레 디에치. 조꼬 꼰 리 아미치.",
-       "ko": "아니, 10시에 경기{가 있어|2}. 친구들이랑 공 {차|3}."
+       "it": "Sì, {ho|2} fame. {Mangi|3} qualcosa?",
+       "rd": "씨, 오 파메. 만지 꽐꼬자?",
+       "ko": "응, {배고파|2}. 뭐 {먹을래|3}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Con questo tempo? {È|1} tutto grigio.",
-       "rd": "꼰 꿰스또 뗌뽀? 에 뚜또 그리조.",
-       "ko": "이 날씨에? 하늘이 온통 잿빛{이야|1}."
+       "it": "Boh, {guardo|3} nel frigo.",
+       "rd": "보, 구아르도 넬 프리고.",
+       "ko": "몰라, 냉장고 {볼게|3}.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Io {gioco|3} sempre, anche con la pioggia.",
-       "rd": "이오 조꼬 쎔프레, 안께 꼰 라 삐오쟈.",
-       "ko": "난 비가 와도 늘 공 {차|3}."
+       "it": "{È|1} vuoto, lo so.",
+       "rd": "에 부오또, 로 쏘.",
+       "ko": "{비어|1} 있어, 알아.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "E Chiara? {È|1} a casa?",
-       "rd": "에 끼아라? 에 아 까자?",
-       "ko": "키아라는? 집에 {있어|1}?"
+       "it": "Allora {porto|3} una pizza?",
+       "rd": "알로라 뽀르또 우나 삐짜?",
+       "ko": "그럼 피자 {사 올까|3}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "No, {lavora|3} in gelateria. {Ha|2} il turno fino alle tre.",
-       "rd": "노, 라보라 인 젤라떼리아. 아 일 뚜르노 피노 알레 트레.",
-       "ko": "아니, 젤라또 가게에서 {일해|3}. 세 시까지 근무{가 있어|2}."
+       "it": "Sì, {aspetto|3} un attimo.",
+       "rd": "씨, 아스뻬또 운 아띠모.",
+       "ko": "응, 잠깐 {기다릴게|3}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Allora io {guardo|3} la partita e tu {porti|3} il gelato?",
-       "rd": "알로라 이오 구아르도 라 빠르띠따 에 뚜 뽀르띠 일 젤라또?",
-       "ko": "그럼 내가 경기를 {보고|3}, 넌 젤라또를 {가져오고|3}?"
+       "it": "{Hai|2} soldi?",
+       "rd": "아이 쏠디?",
+       "ko": "돈 {있어|2}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Affare fatto! Ma tu {hai|2} soldi? Io no.",
-       "rd": "아파레 파또! 마 뚜 아이 쏠디? 이오 노.",
-       "ko": "콜! 근데 너 돈 {있어|2}? 난 없어."
+       "it": "{Ho|2} poco, ma {è|1} ok.",
+       "rd": "오 뽀꼬, 마 에 오크.",
+       "ko": "{조금|2} 있어, 근데 {괜찮아|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Io {ho|2} sempre soldi per il gelato.",
-       "rd": "이오 오 쎔프레 쏠디 뻬르 일 젤라또.",
-       "ko": "난 젤라또 살 돈은 늘 {있지|2}."
+       "it": "Ok, {pago|3} io... ma costa tanto!",
+       "rd": "오크, 빠고 이오... 마 꼬스따 딴또!",
+       "ko": "알겠어, {내가|3} 낼게... 근데 비싸다!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -386,63 +406,73 @@
      "sentences": [
       {
        "who": "나",
-       "it": "Chiara, dove sei? Io sono {al|1} bar.",
-       "rd": "끼아라, 도베 쎄이? 이오 쏘노 알 바르.",
-       "ko": "키아라, 어디야? 난 바{에|1} 있어."
+       "it": "Vai {al|1} bar con me?",
+       "rd": "바이 알 바르 꼰 메?",
+       "ko": "{바에|1} 나랑 갈래?",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Sono ancora {alla|2} fermata {dell'|3}autobus!",
-       "rd": "쏘노 안꼬라 알라 페르마따 델라우또부스!",
-       "ko": "아직 {버스|3} 정류장{에|2} 있어!"
+       "it": "Sì, {alla|2} piazza c'è gente.",
+       "rd": "씨, 알라 삐아짜 체 젠떼.",
+       "ko": "응, {광장에|2} 사람 많아.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Ancora? Il gelato {nel|4} bicchiere si scioglie!",
-       "rd": "안꼬라? 일 젤라또 넬 비끼에레 씨 숄리에!",
-       "ko": "아직? 컵{에 든|4} 젤라또 녹는다!"
+       "it": "Aspetta, guardo {nel|4} telefono.",
+       "rd": "아스뻬따, 구아르도 넬 뗄레포노.",
+       "ko": "잠깐, 폰{에서|4} 볼게.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Scusa, cerco gli occhiali {nella|4} borsa da dieci minuti.",
-       "rd": "스꾸자, 체르꼬 리 오끼알리 넬라 보르싸 다 디에치 미누띠.",
-       "ko": "미안, 10분째 가방{ 속에서|4} 안경 찾고 있어."
+       "it": "Prendiamo {del|3} gelato al pistacchio.",
+       "rd": "프렌디아모 델 젤라또 알 삐스따끼오.",
+       "ko": "{피스타치오|3} 젤라토 좀 먹자.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Chiara… guarda {sulla|5} tua testa.",
-       "rd": "끼아라… 구아르다 쑬라 뚜아 떼스따.",
-       "ko": "키아라… 네 머리 {위|5}를 봐."
+       "it": "Sì, {sulla|5} lavagna c'è.",
+       "rd": "씨, 쑬라 라바냐 체.",
+       "ko": "응, {칠판 위에|5} 있어.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Trovati! Sei un genio. Passo {dal|6} parco e arrivo.",
-       "rd": "트로바띠! 쎄이 운 제니오. 빠쏘 달 빠르꼬 에 아리보.",
-       "ko": "찾았다! 너 천재다. 공원{을 지나서|6} 갈게."
+       "it": "Prendo quello {dal|6} banco.",
+       "rd": "프렌도 꿸로 달 반꼬.",
+       "ko": "{카운터에서|6} 그거 살게.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Ti aspetto {al|1} tavolo vicino {alla|2} finestra.",
-       "rd": "띠 아스뻬또 알 따볼로 비치노 알라 피네스트라.",
-       "ko": "창가{ 옆|2} 테이블{에서|1} 기다릴게."
+       "it": "Mettilo {nella|4} borsa.",
+       "rd": "메띨로 넬라 보르싸.",
+       "ko": "{가방 안에|4} 넣어.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Per me un gelato {al|1} pistacchio, grazie!",
-       "rd": "뻬르 메 운 젤라또 알 삐스따끼오, 그라찌에!",
-       "ko": "난 피스타치오{맛|1} 젤라또, 부탁해!"
+       "it": "{Al|1} bar pago io.",
+       "rd": "알 바르 빠고 이오.",
+       "ko": "{바에서|1} 내가 낼게.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Il pistacchio? Marco dice che è finito {nel|4} pomeriggio.",
-       "rd": "일 삐스따끼오? 마르꼬 디체 께 에 피니또 넬 뽀메리조.",
-       "ko": "피스타치오? 마르코가 오후{에|4} 다 떨어졌대."
+       "it": "Figurati, è {del|3} mio amico.",
+       "rd": "피구라띠, 에 델 미오 아미꼬.",
+       "ko": "천만에, {내 친구의|3} 거야.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Allora vengo per gli occhi {del|3} barista. Scherzo, per te!",
-       "rd": "알로라 벵고 뻬르 리 오끼 델 바리스따. 스께르쪼, 뻬르 떼!",
-       "ko": "그럼 바리스타{의|3} 눈 보러 갈게. 농담이야, 너 보러!"
+       "it": "Dai, {alla|2} prossima allora... ma costa!",
+       "rd": "다이, 알라 프로씨마 알로라... 마 꼬스따!",
+       "ko": "자, 그럼 {다음에|2}... 근데 비싸!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -565,67 +595,77 @@
      "title": "형용사 성·수 맞추기 (buono·buona, 복수 -i·-e)",
      "kind": "memorize",
      "video": "",
-     "note": "일부러 끝 모음 규칙을 설명하지 않았어요. 문장째 외우면 rosse·grossi 가 귀에 맞춰져요.",
+     "note": "일부러 끝 모음 규칙을 설명하지 않았어요. 문장째 외우면 rossi·grossi 가 귀에 맞춰져요.",
      "sentences": [
       {
        "who": "줄리아",
-       "it": "Guarda queste fragole! Sono {rosse|4} e {piccole|4}.",
-       "rd": "구아르다 꿰스떼 프라골레! 쏘노 로쎄 에 삐꼴레.",
-       "ko": "이 딸기 좀 봐! {빨갛고|4} {작아|4}."
+       "it": "Questa pizza è {buona|2}, no?",
+       "rd": "꿰스따 삐짜 에 부오나, 노?",
+       "ko": "이 피자 {맛있어|2}, 그렇지?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "E questi pomodori? Sono {grossi|3}!",
-       "rd": "에 꿰스띠 뽀모도리? 쏘노 그로씨!",
-       "ko": "이 토마토는? {엄청 커|3}!"
+       "it": "Sì, {romana|2} autentica.",
+       "rd": "씨, 로마나 아우뗀띠까.",
+       "ko": "응, {로마식|2} 진짜야.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Il pomodoro {romano|1} è {buono|1}, ma la pizza {romana|2} è più {buona|2}.",
-       "rd": "일 뽀모도로 로마노 에 부오노, 마 라 삐짜 로마나 에 삐우 부오나.",
-       "ko": "{로마|1} 토마토도 {맛있지만|1}, {로마|2} 피자가 더 {맛있어|2}."
+       "it": "Guarda i cornetti {grossi|3}.",
+       "rd": "구아르다 이 꼬르네띠 그로씨.",
+       "ko": "{큰|3} 코르네토들 봐.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Tu parli sempre di Roma. Sei proprio {orgogliosa|2}.",
-       "rd": "뚜 빠를리 쎔프레 디 로마. 쎄이 프로프리오 오르골리오자.",
-       "ko": "넌 맨날 로마 얘기야. 진짜 {자랑스러운가 보다|2}."
+       "it": "I {rossi|3} sono al pistacchio?",
+       "rd": "이 로씨 쏘노 알 삐스따끼오?",
+       "ko": "{빨간|3} 거 피스타치오야?",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Certo! E in Corea le fragole sono così {belle|4}?",
-       "rd": "체르또! 에 인 꼬레아 레 프라골레 쏘노 꼬지 벨레?",
-       "ko": "당연하지! 한국 딸기도 이렇게 {예뻐|4}?"
+       "it": "No, sono {dolci|4} normali.",
+       "rd": "노, 쏘노 돌치 노르말리.",
+       "ko": "아니, 그냥 {단|4} 거야.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Sono {belle|4}, ma molto {care|4}. Una scatola costa dieci euro!",
-       "rd": "쏘노 벨레, 마 몰또 까레. 우나 스까똘라 꼬스따 디에치 에우로!",
-       "ko": "{예쁘긴|4} 한데 엄청 {비싸|4}. 한 상자에 10유로야!"
+       "it": "Prendo quelli {piccoli|3}.",
+       "rd": "프렌도 꿸리 삐꼴리.",
+       "ko": "{작은|3} 걸로 할게.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Allora compriamo due chili di fragole {italiane|4}!",
-       "rd": "알로라 꼼프리아모 두에 낄리 디 프라골레 이딸리아네!",
-       "ko": "그럼 {이탈리아|4} 딸기 2킬로 사자!"
+       "it": "Marco è {goloso|1} oggi.",
+       "rd": "마르꼬 에 골로조 오찌.",
+       "ko": "마르코 오늘 {많이|1} 먹네.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Due chili? Ma noi non siamo così {golosi|3}!",
-       "rd": "두에 낄리? 마 노이 논 씨아모 꼬지 골로지!",
-       "ko": "2킬로? 우리 그렇게 {먹보|3}는 아니잖아!"
+       "it": "Siamo {golosi|3} tutti oggi.",
+       "rd": "씨아모 골로지 뚜띠 오찌.",
+       "ko": "우리 오늘 다 {많이|3} 먹네.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Parla per te. Io sono {golosa|2}, e anche Chiara è {golosa|2}.",
-       "rd": "빠를라 뻬르 떼. 이오 쏘노 골로자, 에 안께 끼아라 에 골로자.",
-       "ko": "너나 그렇지. 난 {먹보|2}야, 키아라도 {먹보|2}고."
+       "it": "Le brioche {italiane|4} sono {care|4}.",
+       "rd": "레 브리오께 이딸리아네 쏘노 까레.",
+       "ko": "{이탈리아|4} 브리오슈는 {비싸|4}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Va bene, due chili. Le giornate con te sono sempre {dolci|4}.",
-       "rd": "바 베네, 두에 낄리. 레 조르나떼 꼰 떼 쏘노 쎔프레 돌치.",
-       "ko": "좋아, 2킬로. 너랑 있는 날은 늘 {달콤하네|4}."
+       "it": "Allora un {buono|1} caffè... ma è amaro!",
+       "rd": "알로라 운 부오노 까페... 마 에 아마로!",
+       "ko": "그럼 {좋은|1} 커피... 근데 쓰다!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -752,63 +792,73 @@
      "sentences": [
       {
        "who": "루카",
-       "it": "Allora? Com'{è andata|2} ieri sera?",
-       "rd": "알로라? 꼬메 안다따 이에리 쎄라?",
-       "ko": "그래서? 어젯밤 어떻게 {됐어|2}?"
+       "it": "{Ho prenotato|1} per stasera.",
+       "rd": "오 프레노따또 뻬르 스따제라.",
+       "ko": "오늘 저녁 {예약했어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Benissimo! {Ho prenotato|1} un tavolo in una trattoria.",
-       "rd": "베니씨모! 오 프레노따또 운 따볼로 인 우나 트라또리아.",
-       "ko": "최고였어! 작은 식당에 자리를 {예약했어|1}."
+       "it": "Bene, {hai portato|1} i soldi?",
+       "rd": "베네, 아이 뽀르따또 이 쏠디?",
+       "ko": "좋아, 돈 {가져왔어|1}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "E Giulia {è arrivata|2} in orario?",
-       "rd": "에 줄리아 에 아리바따 인 오라리오?",
-       "ko": "줄리아는 제시간에 {왔어|2}?"
+       "it": "Sì, ma Giulia {è andata|2} via.",
+       "rd": "씨, 마 줄리아 에 안다따 비아.",
+       "ko": "응, 근데 줄리아 {갔어|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "{È arrivata|2} tardi, ma {ha portato|1} un regalo per me.",
-       "rd": "에 아리바따 따르디, 마 아 뽀르따또 운 레갈로 뻬르 메.",
-       "ko": "늦게 {왔는데|2}, 나 줄 선물을 {가져왔어|1}."
+       "it": "Perché? {Si è arrabbiata|2}?",
+       "rd": "뻬르께? 씨 에 아라비아따?",
+       "ko": "왜? {화났어|2}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Che cosa? Dai, racconta!",
-       "rd": "께 꼬자? 다이, 라꼰따!",
-       "ko": "뭔데? 얼른 말해 봐!"
+       "it": "Boh, {ha lavorato|1} tutto il giorno.",
+       "rd": "보, 아 라보라또 뚜또 일 조르노.",
+       "ko": "몰라, 하루 종일 {일했어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Una sciarpa. {Ha lavorato|1} a maglia tutta la settimana.",
-       "rd": "우나 샤르빠. 아 라보라또 아 말리아 뚜따 라 쎄띠마나.",
-       "ko": "목도리. 일주일 내내 뜨개질{했대|1}."
+       "it": "{Ho dimenticato|1} di chiamarla.",
+       "rd": "오 디멘띠까또 디 끼아마를라.",
+       "ko": "전화 {깜빡했어|1}.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Che carina! E tu che cosa {hai regalato|1}?",
-       "rd": "께 까리나! 에 뚜 께 꼬자 아이 레갈라또?",
-       "ko": "착하다! 넌 뭘 {선물했는데|1}?"
+       "it": "{È arrivata|2} la pizza prima.",
+       "rd": "에 아리바따 라 삐짜 프리마.",
+       "ko": "피자가 먼저 {도착했어|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Niente… {ho dimenticato|1} il portafoglio. {Ha pagato|1} lei la cena.",
-       "rd": "니엔떼… 오 디멘띠까또 일 뽀르따폴리오. 아 빠가또 레이 라 체나.",
-       "ko": "아무것도… 지갑을 {두고 왔어|1}. 저녁은 걔가 {냈어|1}."
+       "it": "Allora {hai pagato|1} tu?",
+       "rd": "알로라 아이 빠가또 뚜?",
+       "ko": "그럼 너 {냈어|1}?",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Ahia. E lei non {si è arrabbiata|2}?",
-       "rd": "아이아. 에 레이 논 씨 에 아라비아따?",
-       "ko": "아이고. 걔 {화 안 냈어|2}?"
+       "it": "No, {ha pagato|1} Marco.",
+       "rd": "노, 아 빠가또 마르꼬.",
+       "ko": "아니, 마르코가 {냈어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "No, {è scoppiata|2} a ridere. La prossima volta pago io, giuro.",
-       "rd": "노, 에 스꼬삐아따 아 리데레. 라 프로씨마 볼따 빠고 이오, 주로.",
-       "ko": "아니, 웃음이 {터졌어|2}. 다음엔 내가 낼게, 맹세해."
+       "it": "Allora {ho già mangiato|1}... ma era fredda!",
+       "rd": "알로라 오 쟈 만쟈또... 마 에라 프레다!",
+       "ko": "그럼 난 이미 {먹었어|1}... 근데 차가웠어!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -935,63 +985,73 @@
      "sentences": [
       {
        "who": "마르코",
-       "it": "Buonasera. Che cosa {prende|1}?",
-       "rd": "부오나제라. 께 꼬자 프렌데?",
-       "ko": "안녕하세요. 뭘로 {드릴까요|1}?"
+       "it": "{Lei|1} prende un caffè?",
+       "rd": "레이 프렌데 운 까페?",
+       "ko": "커피 {드시겠어요|1}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Un cappuccino, per favore. {Lei è|1} il nuovo barista?",
-       "rd": "운 까뿌치노, 뻬르 파보레. 레이 에 일 누오보 바리스따?",
-       "ko": "카푸치노 주세요. 새로 오신 바리스타{세요|1}?"
+       "it": "Sì, grazie. {Lei|1} è il barista?",
+       "rd": "씨, 그라찌에. 레이 에 일 바리스따?",
+       "ko": "네, 고마워요. 바리스타 {이세요|1}?",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "Sì. Ma {vuole|1} davvero un cappuccino alle nove di sera?",
-       "rd": "씨. 마 부올레 다베로 운 까뿌치노 알레 노베 디 쎄라?",
-       "ko": "네. 그런데 저녁 9시에 정말 카푸치노를 {드시겠어요|1}?"
+       "it": "Sì. {Le|2} consiglio questo.",
+       "rd": "씨. 레 꼰씰리오 꿰스또.",
+       "ko": "네. 이걸로 {추천드려요|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Perché? È vietato?",
-       "rd": "뻬르께? 에 비에따또?",
-       "ko": "왜요? 금지예요?"
+       "it": "Bene. {Le|2} piace il caffè forte?",
+       "rd": "베네. 레 삐아체 일 까페 포르떼?",
+       "ko": "좋아요. 진한 커피 {좋아하세요|2}?",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "No, ma qui {La|2} guardano tutti.",
-       "rd": "노, 마 뀌 라 구아르다노 뚜띠.",
-       "ko": "아니요, 그런데 여기선 다들 {손님을|2} 쳐다봐요."
+       "it": "Sì, ma {vuole|1} un cornetto?",
+       "rd": "씨, 마 부올레 운 꼬르네또?",
+       "ko": "네, 근데 코르네토 {드시겠어요|1}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Allora mi {consiglia|1} qualcosa {Lei|1}?",
-       "rd": "알로라 미 꼰씰리아 꽐꼬자 레이?",
-       "ko": "그럼 {추천해 주시겠어요|1}?"
+       "it": "No, grazie. {Lei|1} è di Roma?",
+       "rd": "노, 그라찌에. 레이 에 디 로마?",
+       "ko": "아니요, 고마워요. 로마 {분이세요|1}?",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "Un amaro. {Le|2} piace l'amaro?",
-       "rd": "운 아마로. 레 삐아체 라마로?",
-       "ko": "아마로 한 잔요. {손님은|2} 쓴 술 좋아하세요?"
+       "it": "Sì. Dai, ci diamo del {tu|3}.",
+       "rd": "씨. 다이, 치 디아모 델 뚜.",
+       "ko": "네. 자, {말|3} 놓자.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Non lo so, ma mi fido di {Lei|1}.",
-       "rd": "논 로 쏘, 마 미 피도 디 레이.",
-       "ko": "잘 모르겠지만 {바리스타님|1}을 믿어 볼게요."
+       "it": "Ok, {sei|3} qui da tanto?",
+       "rd": "오크, 쎄이 뀌 다 딴또?",
+       "ko": "좋아, 여기서 {오래 했어|3}?",
+       "grok": true
       },
       {
        "who": "마르코",
-       "it": "Perfetto. E… possiamo darci del {tu|3}?",
-       "rd": "뻬르페또. 에… 뽀씨아모 다르치 델 뚜?",
-       "ko": "좋아요. 그런데… 우리 {말 놓을까요|3}?"
+       "it": "Sì, e {tu|3} vieni spesso?",
+       "rd": "씨, 에 뚜 비에니 스뻬쏘?",
+       "ko": "응, 그리고 {너|3} 자주 와?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Volentieri! Allora, Marco, {sei|3} gentilissimo.",
-       "rd": "볼렌띠에리! 알로라, 마르꼬, 쎄이 젠띨리씨모.",
-       "ko": "좋지! 그럼 마르코, 너 진짜 친절{하다|3}."
+       "it": "Sì, spesso... e oggi {sei|3} fortunato!",
+       "rd": "씨, 스뻬쏘... 에 오찌 쎄이 포르뚜나또!",
+       "ko": "응, 자주... 그리고 오늘 {운|3} 좋네!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -1118,63 +1178,73 @@
      "sentences": [
       {
        "who": "키아라",
-       "it": "Assaggia! {Ti|1} {piace|2} il pistacchio?",
-       "rd": "아싸쟈! 띠 삐아체 일 삐스따끼오?",
-       "ko": "먹어 봐! {너|1} 피스타치오 {좋아해|2}?"
+       "it": "{Ti|1} {piace|2} questo gelato?",
+       "rd": "띠 삐아체 꿰스또 젤라또?",
+       "ko": "{너는|1} 이 젤라토 {좋아|2}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Sì, {mi|1} {piace|2} tanto. Ma le fragole {mi|1} {piacciono|2} di più.",
-       "rd": "씨, 미 삐아체 딴또. 마 레 프라골레 미 삐아쵸노 디 삐우.",
-       "ko": "응, {나|1} 진짜 {좋아해|2}. 근데 딸기가 더 {좋아|2}."
+       "it": "Sì, {mi|1} {piace|2} tanto.",
+       "rd": "씨, 미 삐아체 딴또.",
+       "ko": "응, {나는|1} 정말 {좋아|2}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Anche {a Luca|1} {piacciono|2} le fragole! Strano.",
-       "rd": "안께 아 루까 삐아쵸노 레 프라골레! 스트라노.",
-       "ko": "{루카도|1} 딸기 {좋아해|2}! 신기하다."
+       "it": "{A me|1} {piacciono|2} le fragole.",
+       "rd": "아 메 삐아쵸노 레 프라골레.",
+       "ko": "{나는|1} 딸기 {좋아해|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "E a te? Che cosa {ti|1} {piace|2} di più?",
-       "rd": "에 아 떼? 께 꼬자 띠 삐아체 디 삐우?",
-       "ko": "너는? 뭐가 제일 {좋아|2}?"
+       "it": "{A Luca|1} {manca|2} Roma?",
+       "rd": "아 루까 만까 로마?",
+       "ko": "{루카는|1} 로마 {그리워해|2}?",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "{A me|1} {piace|2} tutto. Però {mi|1} {manca|2} il gelato della nonna.",
-       "rd": "아 메 삐아체 뚜또. 뻬로 미 만까 일 젤라또 델라 논나.",
-       "ko": "{난|1} 다 {좋아|2}. 근데 할머니 젤라또가 {그리워|2}."
+       "it": "Boh, {mi|1} {manca|2} lui.",
+       "rd": "보, 미 만까 루이.",
+       "ko": "몰라, {나는|1} 걔 {보고 싶어|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Anche {a me|1} {manca|2} qualcosa… la cucina di mia madre.",
-       "rd": "안께 아 메 만까 꽐꼬자… 라 꾸치나 디 미아 마드레.",
-       "ko": "{나도|1} {그리운|2} 게 있어… 엄마 밥."
+       "it": "{Ti|1} {piace|2} il bar di Marco?",
+       "rd": "띠 삐아체 일 바르 디 마르꼬?",
+       "ko": "{너는|1} 마르코 바 {좋아|2}?",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Che dolce! E Giulia? {Ti|1} {piace|2}, vero?",
-       "rd": "께 돌체! 에 줄리아? 띠 삐아체, 베로?",
-       "ko": "귀엽다! 그럼 줄리아는? {너|1} 줄리아 {좋아하지|2}?"
+       "it": "Sì, e {a Marco|1} {piaci|2} tu.",
+       "rd": "씨, 에 아 마르꼬 삐아치 뚜.",
+       "ko": "응, 그리고 {마르코는|1} 너 {좋아해|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Ma che dici! … Un po'.",
-       "rd": "마 께 디치! … 운 뽀.",
-       "ko": "무슨 소리야! … 조금."
+       "it": "Figurati, {mi|1} {piace|2} solo il caffè.",
+       "rd": "피구라띠, 미 삐아체 쏠로 일 까페.",
+       "ko": "천만에, {나는|1} 커피만 {좋아|2}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Lo sapevo! Secondo me anche tu {le|1} {piaci|2}.",
-       "rd": "로 싸뻬보! 쎄꼰도 메 안께 뚜 레 삐아치.",
-       "ko": "그럴 줄 알았어! 내 생각엔 {줄리아도|1} {너를|2} 좋아해."
+       "it": "Dai, {ti|1} {manca|2} il gelato?",
+       "rd": "다이, 띠 만까 일 젤라또?",
+       "ko": "자, {너는|1} 젤라토 {그리워해|2}?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Davvero? Allora oggi offro io il gelato a tutti!",
-       "rd": "다베로? 알로라 오찌 오프로 이오 일 젤라또 아 뚜띠!",
-       "ko": "진짜? 그럼 오늘 젤라또는 내가 다 쏜다!"
+       "it": "No, {a me|1} {piace|2} questo... ma è finito!",
+       "rd": "노, 아 메 삐아체 꿰스또... 마 에 피니또!",
+       "ko": "아니, {나는|1} 이거 {좋아|2}... 근데 다 먹었어!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -1297,67 +1367,77 @@
      "title": "대명사 lo·la·gli·ne·ci (동사 앞에 붙는 작은 말)",
      "kind": "memorize",
      "video": "",
-     "note": "일부러 대명사 표를 보여 주지 않았어요. non lo trovo, ne ho tre 를 통째로 외워요.",
+     "note": "일부러 대명사 표를 보여 주지 않았어요. non lo trovo, ne compro uno 를 통째로 외워요.",
      "sentences": [
       {
        "who": "루카",
-       "it": "Hai visto il mio casco? Non {lo|1} trovo da un'ora.",
-       "rd": "아이 비스또 일 미오 까스꼬? 논 로 트로보 다 우노라.",
-       "ko": "내 헬멧 봤어? 한 시간째 {그걸|1} 못 찾고 있어."
+       "it": "Non {lo|1} trovo, il telefono.",
+       "rd": "논 로 트로보, 일 뗄레포노.",
+       "ko": "{그걸|1} 못 찾겠어, 폰.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "{L'|1}hai lasciato sullo scooter, come sempre?",
-       "rd": "라이 라샤또 쑬로 스꼬오떼르, 꼬메 쎔프레?",
-       "ko": "또 스쿠터에 {그거|1} 두고 온 거 아냐?"
+       "it": "{L'|1}ho visto sul tavolo.",
+       "rd": "로 비스또 쑬 따볼로.",
+       "ko": "{그걸|1} 테이블 위에서 봤어.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Ah, eccolo! Senti, stasera c'è la partita. {Ci|4} andiamo?",
-       "rd": "아, 에꼴로! 쎈띠, 스따제라 체 라 빠르띠따. 치 안디아모?",
-       "ko": "아, 여기 있다! 있잖아, 오늘 밤 경기 있어. {거기|4} 갈래?"
+       "it": "{Gli|2} hai detto di portare i cornetti?",
+       "rd": "리 아이 데또 디 뽀르따레 이 꼬르네띠?",
+       "ko": "{걔한테|2} 코르네토 가져오라고 했어?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Hai i biglietti? Quanti {ne|3} hai?",
-       "rd": "아이 이 빌리에띠? 꽌띠 네 아이?",
-       "ko": "표 있어? 몇 {장|3} 있는데?"
+       "it": "Sì, {ne|3} ha presi due.",
+       "rd": "씨, 네 아 프레지 두에.",
+       "ko": "응, {그중|3} 두 개 가져왔어.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "{Ne|3} ho tre: per te, per me e per Giulia.",
-       "rd": "네 오 트레: 뻬르 떼, 뻬르 메 에 뻬르 줄리아.",
-       "ko": "세 {장|3}. 너, 나, 그리고 줄리아."
+       "it": "{Ci|4} andiamo adesso?",
+       "rd": "치 안디아모 아데쏘?",
+       "ko": "{거기|4} 지금 갈까?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Giulia? {Lo|1} sa già?",
-       "rd": "줄리아? 로 싸 쟈?",
-       "ko": "줄리아? {그거|1} 벌써 알아?"
+       "it": "Boh, {lo|1} chiamo subito.",
+       "rd": "보, 로 끼아모 쑤비또.",
+       "ko": "몰라, {그걸|1} 바로 전화할게.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Sì, {le|2} ho scritto. {Ci|4} viene solo se vieni anche tu.",
-       "rd": "씨, 레 오 스크리또. 치 비에네 쏠로 쎄 비에니 안께 뚜.",
-       "ko": "응, {줄리아한테|2} 문자했어. 너도 와야 {거기|4} 온대."
+       "it": "{Le|2} piace il gelato, a Giulia?",
+       "rd": "레 삐아체 일 젤라또, 아 줄리아?",
+       "ko": "{걔한테|2} 젤라토 좋아하지, 줄리아?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Allora {ci|4} vengo, ovvio! E Marco?",
-       "rd": "알로라 치 벵고, 오비오! 에 마르꼬?",
-       "ko": "그럼 당연히 {가야지|4}! 마르코는?"
+       "it": "Sì, {ne|3} compro uno.",
+       "rd": "씨, 네 꼼프로 우노.",
+       "ko": "응, {그중|3} 하나 사 올게.",
+       "grok": true
       },
       {
        "who": "루카",
-       "it": "Marco lavora. {Gli|2} porto un gelato dopo la partita.",
-       "rd": "마르꼬 라보라. 리 뽀르또 운 젤라또 도뽀 라 빠르띠따.",
-       "ko": "마르코는 일해. 경기 끝나고 {마르코한테|2} 젤라또 하나 갖다 줄 거야."
+       "it": "{Ci|4} vediamo al bar.",
+       "rd": "치 베디아모 알 바르.",
+       "ko": "{거기|4} 바에서 보자.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Il gelato? Scommetto che {lo|1} mangi tu sullo scooter.",
-       "rd": "일 젤라또? 스꼼메또 께 로 만지 뚜 쑬로 스꼬오떼르.",
-       "ko": "젤라또? 장담하는데 네가 스쿠터에서 {그거|1} 먹어 버릴걸."
+       "it": "Ok, {lo|1} pago io... ma è caro!",
+       "rd": "오크, 로 빠고 이오... 마 에 까로!",
+       "ko": "알겠어, {그걸|1} 내가 낼게... 근데 비싸!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -1500,63 +1580,73 @@
      "sentences": [
       {
        "who": "줄리아",
-       "it": "Guarda questa foto! Qui {avevo|1} sette anni.",
-       "rd": "구아르다 꿰스따 포또! 뀌 아베보 쎄떼 안니.",
-       "ko": "이 사진 봐! 여기서 나 일곱 살{이었어|1}."
+       "it": "Da piccola {avevo|1} un cane.",
+       "rd": "다 삐꼴라 아베보 운 까네.",
+       "ko": "어릴 때 개 {있었어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Che carina! {Eri|1} sempre così seria?",
-       "rd": "께 까리나! 에리 쎔프레 꼬지 쎄리아?",
-       "ko": "귀엽다! 늘 이렇게 {진지했어|1}?"
+       "it": "Anch'io {ero|1} sempre fuori.",
+       "rd": "안끼오 에로 쎔프레 푸오리.",
+       "ko": "나도 항상 밖에 {있었어|1}.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "No, {ero|1} una peste. Ogni estate {andavo|1} al mare con i nonni.",
-       "rd": "노, 에로 우나 뻬스떼. 오니 에스따떼 안다보 알 마레 꼰 이 논니.",
-       "ko": "아니, 완전 말썽꾸러기{였어|1}. 여름마다 할머니 할아버지랑 바다{에 가곤 했지|1}."
+       "it": "{Andavo|1} al parco ogni giorno.",
+       "rd": "안다보 알 빠르꼬 오니 조르노.",
+       "ko": "매일 공원에 {가곤 했어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "E questa cicatrice sul ginocchio?",
-       "rd": "에 꿰스따 치까트리체 쑬 지노끼오?",
-       "ko": "그럼 무릎에 이 흉터는?"
+       "it": "Poi {ho deciso|2} di restare a casa.",
+       "rd": "뽀이 오 데치조 디 레스따레 아 까자.",
+       "ko": "그러다 집에 {있기로 했어|2}.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Un giorno {correvo|1} sulla spiaggia e {sono caduta|2}.",
-       "rd": "운 조르노 꼬레보 쑬라 스삐아쟈 에 쏘노 까두따.",
-       "ko": "어느 날 해변을 {뛰고 있었는데|1} {넘어졌어|2}."
+       "it": "Un giorno {correvo|1} e {sono caduta|2}.",
+       "rd": "운 조르노 꼬레보 에 쏘노 까두따.",
+       "ko": "어느 날 {뛰고 있었는데|1} {넘어졌어|2}.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Mentre {piangevo|1}, un bambino mi {ha dato|2} il suo gelato.",
-       "rd": "멘트레 삐안제보, 운 밤비노 미 아 다또 일 쑤오 젤라또.",
-       "ko": "{울고 있는데|1} 어떤 남자애가 자기 젤라또를 {줬어|2}."
+       "it": "Mamma {ha pianto|2} tanto.",
+       "rd": "맘마 아 삐안또 딴또.",
+       "ko": "엄마가 많이 {울었어|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Che romantico! E poi?",
-       "rd": "께 로만띠꼬! 에 뽀이?",
-       "ko": "로맨틱하다! 그다음엔?"
+       "it": "Boh, io {piangevo|1} per niente.",
+       "rd": "보, 이오 삐안제보 뻬르 니엔떼.",
+       "ko": "몰라, 난 아무 일로 {울곤 했어|1}.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Poi {ha pianto|2} lui, perché non {aveva|1} più il gelato.",
-       "rd": "뽀이 아 삐안또 루이, 뻬르께 논 아베바 삐우 일 젤라또.",
-       "ko": "그다음엔 걔가 {울었어|2}. 젤라또가 더는 {없었으니까|1}."
+       "it": "Poi mamma {ha dato|2} un gelato a me.",
+       "rd": "뽀이 맘마 아 다또 운 젤라또 아 메.",
+       "ko": "그러다 엄마가 나한테 젤라토 {줬어|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Allora quel bambino {era|1} un vero gentiluomo.",
-       "rd": "알로라 꿸 밤비노 에라 운 베로 젠띨루오모.",
-       "ko": "그 남자애, 진짜 신사{였네|1}."
+       "it": "{Eri|1} proprio fortunata.",
+       "rd": "에리 프로프리오 포르뚜나따.",
+       "ko": "정말 운 {좋았네|1}.",
+       "grok": true
       },
       {
        "who": "줄리아",
-       "it": "Sì. Quel giorno {ho deciso|2}: sposo solo chi mi offre il gelato.",
-       "rd": "씨. 꿸 조르노 오 데치조: 스뽀조 쏠로 끼 미 오프레 일 젤라또.",
-       "ko": "응. 그날 {결심했어|2}. 젤라또 사 주는 사람이랑만 결혼할 거야."
+       "it": "Sì, ma il gelato {era|1} sciolto!",
+       "rd": "씨, 마 일 젤라또 에라 숄또!",
+       "ko": "응, 근데 젤라토가 {녹아 있었어|1}!",
+       "grok": true
       }
      ],
      "footnotes": [
@@ -1683,63 +1773,73 @@
      "sentences": [
       {
        "who": "키아라",
-       "it": "Che stanchezza! {Vorrei|1} una vacanza al mare.",
-       "rd": "께 스딴께짜! 보레이 우나 바깐짜 알 마레.",
-       "ko": "아, 피곤해! 바다로 휴가 {가고 싶다|1}."
+       "it": "{Vorrei|1} un gelato adesso.",
+       "rd": "보레이 운 젤라또 아데쏘.",
+       "ko": "지금 젤라토 {먹고 싶어|1}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Anch'io. {Potremmo|1} andare in Sicilia questo fine settimana.",
-       "rd": "안끼오. 뽀트렘모 안다레 인 씨칠리아 꿰스또 피네 쎄띠마나.",
-       "ko": "나도. 이번 주말에 시칠리아 {가도 되잖아|1}."
+       "it": "{Potremmo|1} andare al bar.",
+       "rd": "뽀트렘모 안다레 알 바르.",
+       "ko": "바에 {갈 수도 있잖아|1}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Bello! Ma {penso che|2} il treno {sia|2} carissimo.",
-       "rd": "벨로! 마 뻰쏘 께 일 트레노 씨아 까리씨모.",
-       "ko": "좋다! 근데 기차가 엄청 {비쌀 것 같아|2}."
+       "it": "{Penso che|2} {sia|2} chiuso.",
+       "rd": "뻰쏘 께 씨아 끼우조.",
+       "ko": "{닫은 것 같아|2}.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "{Se|3} prendiamo il treno di notte, costa meno.",
-       "rd": "쎄 프렌디아모 일 트레노 디 노떼, 꼬스따 메노.",
-       "ko": "밤기차{를 타면|3} 덜 들어."
+       "it": "{Credo che|2} Marco {abbia|2} aperto.",
+       "rd": "크레도 께 마르꼬 아비아 아뻬르또.",
+       "ko": "마르코가 {연 것 같아|2}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "E Luca? {Credo che|2} {abbia|2} una partita sabato.",
-       "rd": "에 루까? 크레도 께 아비아 우나 빠르띠따 싸바또.",
-       "ko": "루카는? 토요일에 경기{가 있는 것 같은데|2}."
+       "it": "{Se|3} {avessi|3} soldi, andrei.",
+       "rd": "쎄 아베씨 쏠디, 안드레이.",
+       "ko": "돈 {있으면|3} 갈 텐데.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Allora {sarebbe|1} un viaggio solo per noi… e Giulia.",
-       "rd": "알로라 싸레베 운 비아조 쏠로 뻬르 노이… 에 줄리아.",
-       "ko": "그럼 우리끼리 여행{이 되겠네|1}… 줄리아까지."
+       "it": "{Potrei|1} pagare io.",
+       "rd": "뽀트레이 빠가레 이오.",
+       "ko": "내가 {낼 수도 있어|1}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Ah, ecco perché vuoi andare!",
-       "rd": "아, 에꼬 뻬르께 부오이 안다레!",
-       "ko": "아, 그래서 가고 싶은 거구나!"
+       "it": "{Sarebbe|1} bello, no?",
+       "rd": "싸레베 벨로, 노?",
+       "ko": "{좋을 텐데|1}, 그렇지?",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Ma no! {Se|3} {avessi|3} più soldi, {inviterei|1} tutti.",
-       "rd": "마 노! 쎄 아베씨 삐우 쏠디, 인비떼레이 뚜띠.",
-       "ko": "아니거든! 돈이 더 {있으면|3} 다 {초대할 텐데|1}."
+       "it": "Sì, e {inviterei|1} anche Luca.",
+       "rd": "씨, 에 인비떼레이 안께 루까.",
+       "ko": "응, 루카도 {초대할 텐데|1}.",
+       "grok": true
       },
       {
        "who": "키아라",
-       "it": "Non preoccuparti, {penso che|2} Giulia {venga|2} volentieri.",
-       "rd": "논 프레오꾸빠르띠, 뻰쏘 께 줄리아 벵가 볼렌띠에리.",
-       "ko": "걱정 마, 줄리아는 기꺼이 {올 것 같아|2}."
+       "it": "{Se|3} viene, arriva tardi.",
+       "rd": "쎄 비에네, 아리바 따르디.",
+       "ko": "{오면|3} 늦게 와.",
+       "grok": true
       },
       {
        "who": "나",
-       "it": "Davvero? Allora {potrei|1} comprare i biglietti stasera!",
-       "rd": "다베로? 알로라 뽀트레이 꼼프라레 이 빌리에띠 스따제라!",
-       "ko": "진짜? 그럼 오늘 밤에 표 {사도 되겠다|1}!"
+       "it": "Allora restiamo qui... ma {vorrei|1} il gelato!",
+       "rd": "알로라 레스띠아모 뀌... 마 보레이 일 젤라또!",
+       "ko": "그럼 여기 있자... 근데 젤라토 {먹고 싶어|1}!",
+       "grok": true
       }
      ],
      "footnotes": [

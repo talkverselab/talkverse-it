@@ -1,0 +1,23 @@
+title: 형용사 성·수 맞추기 (buono·buona, 복수 -i·-e)
+note: 일부러 끝 모음 규칙을 설명하지 않았어요. 문장째 외우면 rosse·grossi 가 귀에 맞춰져요.
+footnotes: 한국어 형용사는 모양이 하나지만, 이탈리아어 형용사는 꾸미는 명사의 성·수에 맞춰 끝이 바뀌어요 (buono·buona·buoni·buone). / 형용사는 대개 명사 뒤에 와요 (la pizza romana = 로마 피자). / 남녀가 섞인 무리는 남성 복수 (noi siamo golosi). dolce 처럼 -e 로 끝나는 형용사는 단수 -e, 복수 -i 뿐이에요.
+marks: 1 = romano, buono 무리 · 2 = romana, buona, orgogliosa, golosa 무리 · 3 = grossi, golosi 무리 · 4 = rosse, piccole, belle, care, italiane, dolci 무리
+=== L4-talk
+줄리아 | Questa pizza è {buona|2}, no? | 이 피자 {맛있어|2}, 그렇지?
+나 | Sì, proprio {romana|2} vera. | 응, 진짜 {로마|2} 스타일이야.
+줄리아 | Guarda i cornetti {grossi|3}. | {큰|3} 코르네토들 봐.
+나 | Quelli {rossi|1} sono al pistacchio? | {빨간|1} 거 피스타치오야?
+줄리아 | No, sono {dolci|4} normali. | 아니, 그냥 {단|4} 거야.
+나 | Io prendo quelli {piccoli|4}. | 난 {작은|4} 걸로 할게.
+줄리아 | Sei {golosa|2} oggi, dai. | 오늘 {많이|2} 먹네, 다이.
+나 | Figurati, sono {golosi|3} tutti. | 에이, 다 {많이|3} 먹잖아.
+줄리아 | Le brioche {italiane|4} sono care. | {이탈리아|4} 브리오슈는 비싸.
+나 | Allora prendo solo {buono|1} caffè. | 그럼 {좋은|1} 커피만 마실게.
+
+## 리뷰
+모든 과 공통: 한국어 칸의 {…|번호} 는 이탈리아어에서 감싼 문법 형태의 「뜻」에 해당하는 한국어 부분(어미·조사 포함)을 감싸야 한다 — 명사·부사를 감싸지 말 것(예: {Ho prenotato|1} ↔ {예약했어|1}). 이탈리아어 쪽도 형태 전체(조동사+분사, 전치사+관사)를 감쌀 것. 한국어에 「다이」 같은 소리 옮김 금지(dai = 「에이·얼른·자」). 「Figurati」 를 매 과 끝줄에 쓰지 말 것(뜻 = 「천만에·별말을」, 맞는 자리에만). 과마다 끝에 작은 웃음·반전.
+턴2: 「proprio romana vera」 어색
+턴7: 「Sei golosa」 — 학습자 성별로 바뀌는 형용사 금지(규칙 5). 다른 인물에게 쓰거나 성이 안 바뀌는 말로
+턴8: 「sono golosi tutti」 어색, 한국어 강조 {많이} 는 형용사 뜻이 아님
+턴10: 「solo buono caffè」 비문(관사·어순)
+전체: buono/buona/buoni/buone 처럼 같은 형용사가 성·수로 바뀌는 게 보이게, 한국어 강조는 형용사 뜻(맛있는·큰·작은)에

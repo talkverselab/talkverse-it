@@ -1,0 +1,4 @@
+턴1: 「Sei a casa, dai?」 의 dai 가 뜻이 안 맞음, 한국어 「다이」
+턴2~10: 한국어 강조가 명사(집에·배고파·뭐·냉장고·피자…)에 걸림 — 동사 활용 뜻 부분(있어·고파·먹을래·볼게…)에
+턴7: 「gioco un attimo」 흐름이 어색(피자 사러 가는데 게임) — 이어지게
+전체: essere·avere·-are 동사가 io·tu·lui 로 바뀌는 게 더 보이게(sono/sei/è, ho/hai/ha, mangio/mangi/mangia 를 묻고 답하기로)

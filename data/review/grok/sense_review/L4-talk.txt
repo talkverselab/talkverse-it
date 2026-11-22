@@ -1,0 +1,5 @@
+턴2: 「proprio romana vera」 어색
+턴7: 「Sei golosa」 — 학습자 성별로 바뀌는 형용사 금지(규칙 5). 다른 인물에게 쓰거나 성이 안 바뀌는 말로
+턴8: 「sono golosi tutti」 어색, 한국어 강조 {많이} 는 형용사 뜻이 아님
+턴10: 「solo buono caffè」 비문(관사·어순)
+전체: buono/buona/buoni/buone 처럼 같은 형용사가 성·수로 바뀌는 게 보이게, 한국어 강조는 형용사 뜻(맛있는·큰·작은)에
