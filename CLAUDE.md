@@ -155,7 +155,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 
 ## 10. iOS TestFlight (맥미니 직접 업로드) — 2026-11-01
 
-- `bash tools/ios_release.sh [--no-build]` — 아카이브 → 자동 서명 export → PC `D:\OneDrive\app project\italian_universe\ios\` 백업 → App Store Connect 업로드. 번들 ID `com.talkverse.italianUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`.
+- `bash tools/ios_release.sh [--no-build] [--pc-backup]` — 아카이브 → 자동 서명 export → App Store Connect 업로드(PC `D:\OneDrive\app project\italian_universe\ios\` 백업은 `--pc-backup` 일 때만, 11-22). 번들 ID `com.talkverse.italianUniverse`, 팀 `QP8QRMA9CC`, 빌드 번호 = KST `yymmddHHMM`.
 - 2026-11-01 첫 시도는 앱 레코드가 없어 missingApp. **2026-11-03 빌드 2611030208 TestFlight 업로드 성공**(아이패드 두 화면·리더·로그인 포함, UIDeviceFamily 1·2).
 - 새 플러그인을 넣은 뒤 iOS 아카이브가 `Module '…' not found` 로 실패하면 `flutter clean && flutter pub get && (cd ios && pod install)` 뒤 다시.
 - **Sign in with Apple**: 개발자 포털 App ID `com.talkverse.italianUniverse` 에 capability 를 켜야 IPA 에 `applesignin` 이 들어간다(2611030208 에는 없음 — 켠 뒤 다시 빌드).

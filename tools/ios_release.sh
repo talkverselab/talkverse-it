@@ -1,7 +1,7 @@
 #!/bin/bash
 # iOS 배포(맥미니): 아카이브(서명 없음) → App Store 용 자동 서명 export → App Store Connect 업로드(Xcode 에 로그인된 Apple ID 사용)
-#   → PC OneDrive(D:\OneDrive\app project\italian_universe\ios\)에 .ipa 백업.
-#   bash tools/ios_release.sh [--no-build] [--no-upload] [--build <번호>]
+#   → (--pc-backup 일 때만) PC OneDrive(D:\OneDrive\app project\italian_universe\ios\)에 .ipa 백업.
+#   bash tools/ios_release.sh [--no-build] [--no-upload] [--build <번호>] [--pc-backup]
 # 빌드 번호(CFBundleVersion)는 업로드마다 커져야 한다 — 기본값은 KST 시각(yymmddHHMM, 예 2611011230).
 # 전제: Xcode 에 Apple ID 로그인·팀 QP8QRMA9CC, App Store Connect 에 앱 레코드(번들 ID com.talkverse.italianUniverse) 존재.
 #   레코드가 없으면 업로드가 missingApp 으로 실패한다(export 까지는 된다 — 번들 ID 는 그때 포털에 자동 등록).
@@ -49,7 +49,10 @@ VER="$(grep '^version:' pubspec.yaml | awk '{print $2}' | cut -d+ -f1)"
 REV="$(git rev-parse --short HEAD)"
 STAMP="$(TZ=Asia/Seoul date +%Y%m%d_%H%M)"
 NAME="${APP}_${VER}_${BUILD}_${STAMP}_${REV}_appstore.ipa"
-if ssh -o ConnectTimeout=10 "$PC" "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force -Path 'D:\\OneDrive\\app project\\$APP\\ios' | Out-Null\"" \
+# PC 백업은 명령할 때만(일본어앱과 같게, 11-22 PC 작업 멈춤 중 기본 백업이 PC 로 나간 일 뒤) — --pc-backup 을 줄 때만 복사
+if [[ " $* " != *" --pc-backup "* ]]; then
+  echo "PC 백업 건너뜀(--pc-backup 없음) — $IPA"
+elif ssh -o ConnectTimeout=10 "$PC" "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force -Path 'D:\\OneDrive\\app project\\$APP\\ios' | Out-Null\"" \
    && scp -q "$IPA" "$PC:D:/OneDrive/app project/$APP/ios/$NAME"; then
   echo "백업 완료: OneDrive/app project/$APP/ios/$NAME"
 else
