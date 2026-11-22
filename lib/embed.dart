@@ -1,3 +1,4 @@
+import 'core/content_ready.dart';
 import 'package:flutter/material.dart';
 
 import 'core/embed_env.dart';
@@ -36,6 +37,7 @@ Future<void> embedInit({bool standalone = false}) async {
   WidgetsFlutterBinding.ensureInitialized();
   appDb = AppDatabase();
   await SeedLoader(appDb).seedIfNeeded();
+  ContentReady.check(); // 빈 메뉴 숨기기(기다리지 않음 — 다 읽으면 메뉴가 다시 그려진다)
   await KoReadingPrefs.load();
   await AppLangPrefs.load();
   await LearnerPrefs.load();

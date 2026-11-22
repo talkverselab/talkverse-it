@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'alphabet_screen.dart';
 
+import '../core/content_ready.dart';
 import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
@@ -199,17 +200,28 @@ class HomeScreen extends StatelessWidget {
                   _MenuItem(label: tr('문장 카드'), sub: 'Frasi', badge: 'S', color: AppColors.tinta, full: true,
                       builder: (_) => const SentenceFlashcardScreen()),
                 ]),
-                _section(tr('단어')),
-                _MenuGrid(items: [
-                  _MenuItem(label: tr('절벽 단어'), sub: 'R1~R5', badge: 'F', color: AppColors.italia,
-                      builder: (_) => const WordFreqScreen()),
-                  _MenuItem(label: tr('단어'), sub: 'Vocabolario', badge: 'W', color: AppColors.oliva,
-                      builder: (_) => const TopicVocabScreen()),
-                  _MenuItem(label: tr('표현'), sub: 'Espressione', badge: 'E', color: AppColors.rojoLight,
-                      builder: (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: 'assets/data/vocab/travel_expressions.json')),
-                  _MenuItem(label: tr('단어 카드'), sub: 'Carte', badge: 'R', color: AppColors.gualdaDeep, full: true,
-                      builder: (_) => const WordFlashcardScreen()),
-                ]),
+                // 단어 메뉴는 내용이 있을 때만(2026-11-22 심사 정리, ContentReady)
+                ListenableBuilder(
+                  listenable: Listenable.merge([ContentReady.cliffWords, ContentReady.topicWords, ContentReady.topicExpr]),
+                  builder: (context, _) {
+                    final items = [
+                      if (ContentReady.cliffWords.value)
+                        _MenuItem(label: tr('절벽 단어'), sub: 'R1~R5', badge: 'F', color: AppColors.italia,
+                            builder: (_) => const WordFreqScreen()),
+                      if (ContentReady.topicWords.value)
+                        _MenuItem(label: tr('단어'), sub: 'Vocabolario', badge: 'W', color: AppColors.oliva,
+                            builder: (_) => const TopicVocabScreen()),
+                      if (ContentReady.topicExpr.value)
+                        _MenuItem(label: tr('표현'), sub: 'Espressione', badge: 'E', color: AppColors.rojoLight,
+                            builder: (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: ContentReady.exprAsset)),
+                      if (ContentReady.topicWords.value)
+                        _MenuItem(label: tr('단어 카드'), sub: 'Carte', badge: 'R', color: AppColors.gualdaDeep, full: true,
+                            builder: (_) => const WordFlashcardScreen()),
+                    ];
+                    if (items.isEmpty) return const SizedBox.shrink();
+                    return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [_section(tr('단어')), _MenuGrid(items: items)]);
+                  },
+                ),
                 _section(tr('참고')),
                 _MenuGrid(items: [
                   _MenuItem(label: tr('청크 검색'), sub: 'Ricerca', badge: '🔍', color: AppColors.gualdaDeep,
@@ -425,12 +437,17 @@ class ReviewTab extends StatelessWidget {
               subtitle: tr('회화 문장 · 학습한 턴'),
               onTap: () => openFull(context, (_) => const SentenceFlashcardScreen()),
             ),
-            _NavRow(
-              badge: 'R',
-              color: AppColors.gualdaDeep,
-              title: tr('단어 카드'),
-              subtitle: 'Carte',
-              onTap: () => openFull(context, (_) => const WordFlashcardScreen()),
+            ValueListenableBuilder<bool>(
+              valueListenable: ContentReady.topicWords,
+              builder: (context, ready, _) => !ready
+                  ? const SizedBox.shrink()
+                  : _NavRow(
+                      badge: 'R',
+                      color: AppColors.gualdaDeep,
+                      title: tr('단어 카드'),
+                      subtitle: 'Carte',
+                      onTap: () => openFull(context, (_) => const WordFlashcardScreen()),
+                    ),
             ),
             _NavRow(
               badge: '🎙',
@@ -595,28 +612,38 @@ class ExploreTab extends StatelessWidget {
                 ),
               ),
             ),
-            _section(tr('단어')),
-            _NavRow(
-              badge: 'F',
-              color: AppColors.italia,
-              title: tr('절벽 단어'),
-              subtitle: 'R1~R5',
-              onTap: () => openPane(context, (_) => const WordFreqScreen()),
-            ),
-            _NavRow(
-              badge: 'W',
-              color: AppColors.oliva,
-              title: tr('단어'),
-              subtitle: 'Vocabolario',
-              onTap: () => openPane(context, (_) => const TopicVocabScreen()),
-            ),
-            _NavRow(
-              badge: 'E',
-              color: AppColors.rojoLight,
-              title: tr('표현'),
-              subtitle: 'Espressione',
-              onTap: () => openPane(
-                  context, (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: 'assets/data/vocab/travel_expressions.json')),
+            ListenableBuilder(
+              listenable: Listenable.merge([ContentReady.cliffWords, ContentReady.topicWords, ContentReady.topicExpr]),
+              builder: (context, _) {
+                final rows = [
+                  if (ContentReady.cliffWords.value)
+                    _NavRow(
+                      badge: 'F',
+                      color: AppColors.italia,
+                      title: tr('절벽 단어'),
+                      subtitle: 'R1~R5',
+                      onTap: () => openPane(context, (_) => const WordFreqScreen()),
+                    ),
+                  if (ContentReady.topicWords.value)
+                    _NavRow(
+                      badge: 'W',
+                      color: AppColors.oliva,
+                      title: tr('단어'),
+                      subtitle: 'Vocabolario',
+                      onTap: () => openPane(context, (_) => const TopicVocabScreen()),
+                    ),
+                  if (ContentReady.topicExpr.value)
+                    _NavRow(
+                      badge: 'E',
+                      color: AppColors.rojoLight,
+                      title: tr('표현'),
+                      subtitle: 'Espressione',
+                      onTap: () => openPane(context, (_) => TopicVocabScreen(title: tr('주제별 표현'), asset: ContentReady.exprAsset)),
+                    ),
+                ];
+                if (rows.isEmpty) return const SizedBox.shrink();
+                return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [_section(tr('단어')), ...rows]);
+              },
             ),
             _section(tr('정규과정')),
             _NavRow(
