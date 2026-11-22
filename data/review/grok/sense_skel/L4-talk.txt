@@ -1,0 +1,15 @@
+=== L4-talk
+title: 형용사 성·수 맞추기 (buono·buona, 복수 -i·-e)
+note: 일부러 끝 모음 규칙을 설명하지 않았어요. 문장째 외우면 rosse·grossi 가 귀에 맞춰져요.
+footnotes: 한국어 형용사는 모양이 하나지만, 이탈리아어 형용사는 꾸미는 명사의 성·수에 맞춰 끝이 바뀌어요 (buono·buona·buoni·buone). / 형용사는 대개 명사 뒤에 와요 (la pizza romana = 로마 피자). / 남녀가 섞인 무리는 남성 복수 (noi siamo golosi). dolce 처럼 -e 로 끝나는 형용사는 단수 -e, 복수 -i 뿐이에요.
+marks: 1 = romano, buono 무리 · 2 = romana, buona, orgogliosa, golosa 무리 · 3 = grossi, golosi 무리 · 4 = rosse, piccole, belle, care, italiane, dolci 무리
+줄리아 | ___ | ___
+나 | ___ | ___
+줄리아 | ___ | ___
+나 | ___ | ___
+줄리아 | ___ | ___
+나 | ___ | ___
+줄리아 | ___ | ___
+나 | ___ | ___
+줄리아 | ___ | ___
+나 | ___ | ___

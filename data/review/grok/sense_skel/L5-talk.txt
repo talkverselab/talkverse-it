@@ -1,0 +1,15 @@
+=== L5-talk
+title: 지나간 일 말하기 (근과거 avere·essere, 분사 일치)
+note: 일부러 avere 와 essere 를 가르는 규칙을 설명하지 않았어요. ho prenotato, è arrivata 를 통째로 외워요.
+footnotes: 한국어는 「-었-」 하나지만, 이탈리아어는 avere 나 essere 에 분사(-ato·-uto·-ito)를 붙여 말해요. / 오고 가고 남고 변하는 동사(andare·arrivare·rimanere)와 si 동사는 essere 를 써요. / essere 와 쓰면 분사 끝을 주어에 맞춰요 — Giulia è arrivata, Luca è arrivato. 내가 여자면 나도 sono arrivata.
+marks: 1 = Ho prenotato, ha portato, Ha lavorato, hai regalato, ho dimenticato, Ha pagato 무리 · 2 = è andata, è arrivata, si è arrabbiata, è scoppiata 무리
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___

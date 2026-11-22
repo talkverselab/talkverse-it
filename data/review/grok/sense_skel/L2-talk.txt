@@ -1,0 +1,15 @@
+=== L2-talk
+title: 동사가 사람마다 바뀐다 (essere·avere, -are 현재)
+note: 일부러 활용표를 보여 주지 않았어요. 대화를 통째로 외우면 sono·sei·è 가 저절로 나와요.
+footnotes: 동사 끝만 봐도 누가 하는지 알아서 io·tu 는 자주 빠져요 (ho fame = 나 배고파). / essere 는 「~이다·(어디에) 있다」, avere 는 「가지고 있다」. 배고프다·목마르다는 avere 로 말해요 (ho fame, ho sete). / -are 동사는 나 -o, 너 -i, 그·그녀 -a (gioco·giochi·gioca).
+marks: 1 = Sei, È 무리 · 2 = ho, Ha, hai 무리 · 3 = Mangi, Gioco, lavora, guardo, porti 무리
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___
+루카 | ___ | ___
+나 | ___ | ___

@@ -1,0 +1,15 @@
+=== L10-talk
+title: 생각·바람·가정 (조건법 vorrei·potrei, 접속법, se)
+note: 일부러 조건법·접속법을 설명하지 않았어요. vorrei, penso che sia 를 통째로 외우는 게 가장 빨라요.
+footnotes: vorrei·potrei 는 voglio·posso 를 부드럽게 한 꼴(조건법). 한국어 「~하고 싶은데요」「~해도 될 텐데」. / penso che·credo che 뒤에는 접속법(sia·abbia·venga)이 와요. 한국어 「~인 것 같아」에 해당해요. / se + 현재 = 진짜 있을 수 있는 조건. se + avessi·fossi + 조건법 = 사실과 반대인 가정 「~라면 ~할 텐데」.
+marks: 1 = Vorrei, Potremmo, sarebbe, inviterei, potrei 무리 · 2 = penso che, sia, Credo che, abbia, venga 무리 · 3 = Se, avessi 무리
+키아라 | ___ | ___
+나 | ___ | ___
+키아라 | ___ | ___
+나 | ___ | ___
+키아라 | ___ | ___
+나 | ___ | ___
+키아라 | ___ | ___
+나 | ___ | ___
+키아라 | ___ | ___
+나 | ___ | ___
