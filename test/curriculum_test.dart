@@ -147,4 +147,24 @@ void main() {
     expect(q, isNotEmpty);
     expect(q.where((x) => x.kind == 'blank'), isNotEmpty); // 레마 표면형이 있는 줄은 빈칸 문제
   });
+
+  for (final w in [360.0, 300.0]) {
+    testWidgets('코스 고르기 — 폭 ${w.toInt()}px 에서 칩·추천 줄이 넘치지 않음', (t) async {
+      SharedPreferences.setMockInitialValues({});
+      t.view.physicalSize = Size(w * 3, 780 * 3);
+      t.view.devicePixelRatio = 3;
+      addTearDown(t.view.reset);
+      await t.runAsync(() async {
+        await DialogueService.instance.ensureLoaded();
+        await CurriculumService.instance.ensureLoaded();
+      });
+      CurriculumService.instance.state = CurriculumState(level: 'R0');
+      await t.pumpWidget(const MaterialApp(home: CurriculumScreen()));
+      await t.runAsync(() => Future.delayed(const Duration(milliseconds: 200)));
+      await t.pump();
+      await t.pump(const Duration(milliseconds: 300));
+      expect(find.text('추천으로 채우기'), findsOneWidget);
+      expect(t.takeException(), isNull);
+    });
+  }
 }
