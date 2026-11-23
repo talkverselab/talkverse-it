@@ -7,7 +7,8 @@ import '../core/theme.dart';
 import '../data/account.dart';
 
 /// 로그인 — Talkverse 공용 계정(한자 앱 login_screen 을 옮김, 2026-11-02). 로그인은 선택.
-/// 네 버튼을 늘 같은 순서로(구글·네이버·카카오·애플), 서버 `/providers` 에 없는 건 누르면 '준비 중'.
+/// 버튼 순서는 구글·네이버·카카오·애플, 서버 `/providers` 가 켠 것만 보인다(11-23 심사 점검 — 눌러도 안 되는 버튼은 애플 2.1 거절).
+/// 서버를 못 받으면 iOS 의 Apple(기기 직접 로그인)과 이메일만.
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
   static Future<bool?> open(BuildContext context) =>
@@ -30,13 +31,10 @@ class _LoginScreenState extends State<LoginScreen> {
     Account.providers().then((p) => mounted ? setState(() => providers = p) : null);
   }
 
-  bool _ready(String p) => p == 'apple' ? (providers?.contains('apple') ?? true) : (providers?.contains(p) ?? false);
+  bool _ready(String p) => providers?.contains(p) ?? false;
 
   Future<void> _go(String p) async {
-    if (!_ready(p)) {
-      setState(() => error = trf('{0} 로그인은 준비 중입니다. 지금은 Apple 로그인이나 이메일 로그인을 써 주세요.', [_name(p)]));
-      return;
-    }
+    if (!_ready(p)) return; // 보이지 않는 버튼(서버가 끈 제공자)
     setState(() { busy = p; error = null; });
     try {
       final ok = await Account.signIn(p);
@@ -93,7 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   if (providers == null)
                     const Center(child: Padding(padding: EdgeInsets.all(24), child: CircularProgressIndicator()))
                   else
-                    for (final p in const ['google', 'naver', 'kakao', 'apple'])
+                    for (final p in const ['google', 'naver', 'kakao', 'apple'].where(_ready))
                       Padding(padding: const EdgeInsets.only(bottom: 12), child: _button(p)),
                   if (error != null) ...[
                     const SizedBox(height: 8),
@@ -129,14 +127,6 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
         ),
       );
-
-  String _name(String p) => switch (p) {
-        'google' => 'Google',
-        'naver' => tr('네이버'),
-        'kakao' => tr('카카오'),
-        'apple' => 'Apple',
-        _ => p,
-      };
 
   Widget _button(String p) {
     final disabled = busy != null;
