@@ -57,7 +57,7 @@ def ref_bad():
     for p in sorted(glob.glob(f'{work}/ref/*.wav')):
         n = os.path.basename(p); v = n.rsplit('_', 1)[0]
         c = float(np.corrcoef(spectrum(p), spectrum(f'{work}/ref/{v}_base.wav'))[0, 1])
-        if qa.floor(p) > -60 or c < 0.90:
+        if qa.noisy(p, -60) or c < 0.90:
             bad.append(n)
     return bad
 
