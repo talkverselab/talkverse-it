@@ -54,7 +54,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Viene la ragazza oggi.",
    "ko": "오늘 여자애가 와.",
    "rd": "비에네 라 라가짜 오찌.",
@@ -85,7 +84,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Davvero? Sei nervoso!",
    "ko": "진짜? 긴장했어!",
    "rd": "다베로? 쎄이 네르보조!",
@@ -111,7 +109,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti, esci tu.",
    "ko": "들어, 너 나가.",
    "rd": "쎈띠, 에시 뚜.",
@@ -137,7 +134,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, vado dopo.",
    "ko": "에이, 나중에 갈게.",
    "rd": "다이, 바도 도뽀.",
@@ -169,7 +165,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Farò la pasta della mamma.",
    "ko": "엄마표 파스타 할 거야.",
    "rd": "파로 라 빠스따 델라 맘마.",
@@ -195,7 +190,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "È la mamma?",
    "ko": "엄마야?",
    "rd": "에 라 맘마?",
@@ -226,7 +220,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì! Suona! È la mamma!",
    "ko": "응! 초인종! 엄마야!",
    "rd": "씨! 쑤오나! 에 라 맘마!",
@@ -261,7 +254,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mangio anch'io?",
    "ko": "나도 먹어?",
    "rd": "만조 안끼오?",

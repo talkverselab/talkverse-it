@@ -58,7 +58,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ehi, siete arrivati tardi?",
    "ko": "야, 너희 늦게 왔어?",
    "rd": "에이, 씨에떼 아리바띠 따르디?",
@@ -89,7 +88,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, siamo pronti adesso.",
    "ko": "응, 우리 지금 준비됐어.",
    "rd": "씨, 씨아모 프론띠 아데쏘.",
@@ -131,7 +129,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Vi aspetto. Sono pronta. Ecco le banane.",
    "ko": "너희 기다려. 나 준비됐어. 여기 바나나.",
    "rd": "비 아스뻬또. 쏘노 프론따. 에꼬 레 바나네.",
@@ -157,7 +154,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi piacciono le banane!",
    "ko": "나 바나나 좋아해!",
    "rd": "미 삐아쵸노 레 바나네!",
@@ -188,7 +184,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "A me pure. Prendo due banane.",
    "ko": "나도. 바나나 두 개 가져.",
    "rd": "아 메 뿌레. 프렌도 두에 바나네.",
@@ -224,7 +219,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Le banane gialle sono belle!",
    "ko": "노란 바나나가 진짜 예뻐!",
    "rd": "레 바나네 쟐레 쏘노 벨레!",
@@ -270,7 +264,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusa. Non parlate. Disegno solo le banane.",
    "ko": "미안. 말하지 마. 바나나만 그릴게.",
    "rd": "스꾸자. 논 빠를라떼. 디제뇨 쏠로 레 바나네.",
@@ -296,7 +289,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma noi vorremmo parlare.",
    "ko": "하지만 우리도 말하고 싶어.",
    "rd": "마 노이 보렘모 빠를라레.",

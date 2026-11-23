@@ -53,7 +53,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, faccio il caffè per Lei!",
    "ko": "그럼, 할아버지께 커피 만들어 드릴게요!",
    "rd": "알로라, 파쵸 일 까페 뻬르 레이!",
@@ -99,7 +98,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "I miei amici hanno detto che il tuo caffè è buono.",
    "ko": "내 친구들이 네 커피가 맛있다고 했어.",
    "rd": "이 미에이 아미치 안노 데또 께 일 뚜오 까페 에 부오노.",
@@ -126,7 +124,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Vuole un caffè?",
    "ko": "커피 하실래요?",
    "rd": "부올레 운 까페?",
@@ -152,7 +149,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, lo prendo.",
    "ko": "여기, 내가 받을게.",
    "rd": "에꼬, 로 프렌도.",
@@ -179,7 +175,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guardate mentre lo faccio.",
    "ko": "만드는 동안 보세요.",
    "rd": "구아르다떼 멘트레 로 파쵸.",
@@ -225,7 +220,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Fammi vedere. Non l'hanno finita ieri.",
    "ko": "보여 줘. 어제 다 안 마셨어.",
    "rd": "팜미 베데레. 논 란노 피니따 이에리.",
@@ -266,7 +260,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Ho messo troppo sale!",
    "ko": "뭐? 소금을 너무 많이 넣었어!",
    "rd": "꼬자? 오 메쏘 트로뽀 쌀레!",
@@ -293,7 +286,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "È salato! Ma dai.",
    "ko": "짜! 에이.",
    "rd": "에 쌀라또! 마 다이.",

@@ -57,7 +57,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Pronto, sono arrivato in stazione.",
    "ko": "여보세요, 역에 도착했어.",
    "rd": "프론또, 쏘노 아리바또 인 스따찌오네.",
@@ -96,7 +95,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ciao, sono qui vicino.",
    "ko": "안녕, 여기 근처에 있어.",
    "rd": "챠오, 쏘노 뀌 비치노.",
@@ -127,7 +125,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "C'è una bella ragazza.",
    "ko": "예쁜 여자가 있어.",
    "rd": "체 우나 벨라 라가짜.",
@@ -153,7 +150,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guarda quella, vieni.",
    "ko": "저쪽 봐, 와.",
    "rd": "구아르다 꿸라, 비에니.",
@@ -180,7 +176,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, la guardo un po'.",
    "ko": "응, 좀 봐.",
    "rd": "씨, 라 구아르도 운 뽀.",
@@ -207,7 +202,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sono io, dai! Che bello.",
    "ko": "나야, 진짜! 신나네.",
    "rd": "쏘노 이오, 다이! 께 벨로.",
@@ -242,7 +236,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti vedo ora.",
    "ko": "이제 보인다.",
    "rd": "띠 베도 오라.",
@@ -268,7 +261,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sei bravo a trovarmi.",
    "ko": "나를 잘 찾았네.",
    "rd": "쎄이 브라보 아 트로바르미.",

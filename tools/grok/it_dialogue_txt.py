@@ -139,7 +139,7 @@ def apply(ep, head, turns):
                 o.pop(k, None)
         o['note'] = ALT.sub(lambda m: f'{m[1]} / {m[2]}', re.sub(r'\s*//\s*', ' ', t['note']))  # 노트의 성별 표시는 「남 / 여」로
         o['lemmas'], o['new'] = [], []
-        o['grok'] = True
+        o.pop('grok', None)  # 작업 기록 칸은 앱·서버 원고에 두지 않음(11-23 심사 점검 — 출처·AI 이름 공개 금지)
     ep.pop('draft', None)
     return None
 

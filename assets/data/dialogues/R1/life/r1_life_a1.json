@@ -59,7 +59,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ehi, sei tornato tardi?",
    "ko": "야, 늦게 들어왔어?",
    "rd": "에이, 쎄이 또르나또 따르디?",
@@ -98,7 +97,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, sono uscito con amici.",
    "ko": "글쎄, 친구들이랑 나갔었어.",
    "rd": "보, 쏘노 우시또 꼰 아미치.",
@@ -127,7 +125,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Al bar della piazza?",
    "ko": "광장 바에?",
    "rd": "알 바르 델라 삐아짜?",
@@ -158,7 +155,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No, c'è un posto nuovo.",
    "ko": "아니, 새로운 곳이 있어.",
    "rd": "노, 체 운 뽀스또 누오보.",
@@ -180,7 +176,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Di chi è la rosa?",
    "ko": "누구 장미야?",
    "rd": "디 끼 에 라 로자?",
@@ -206,7 +201,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No, è per la nonna.",
    "ko": "아니, 할머니 거야.",
    "rd": "노, 에 뻬르 라 논나.",
@@ -227,7 +221,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Era di Giulia la rosa?",
    "ko": "줄리아의 장미였어?",
    "rd": "에라 디 줄리아 라 로자?",
@@ -263,7 +256,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Va bene. È della nonna Giulia.",
    "ko": "괜찮아. 줄리아 할머니 거야.",
    "rd": "바 베네. 에 델라 논나 줄리아.",

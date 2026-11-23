@@ -416,6 +416,12 @@ const Map<String, String> kDictEn = {
   '코스 시험 보기 ({0}% 이상 통과)': 'Take the course test (pass at {0}%)',
   '이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.': 'Practise these dialogues; score {0}% or more on the course test to move on.',
   '레벨에서 다이얼로그를 골라 연습 · {0}% 넘으면 다음 코스': 'Pick dialogues at your level · {0}% moves you on',
+  // 심사 점검(11-23)
+  '이메일로 로그인': 'Sign in with email',
+  '로그인하면 아이폰·아이패드 어디서나': 'Sign in to use it on any iPhone or iPad',
+  '로그인하면 다른 기기에서도': 'Sign in to use it on your other devices',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by the App Store. Prices follow the store and may include tax. No hidden fees.',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by Google Play. Prices follow the store and may include tax. No hidden fees.',
 };
 
 const Map<String, String> kDictJa = {
@@ -820,6 +826,12 @@ const Map<String, String> kDictJa = {
   '코스 시험 보기 ({0}% 이상 통과)': 'コーステスト（{0}%以上で合格）',
   '이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.': 'この会話で練習し、コーステスト{0}%以上で次のコースへ。',
   '레벨에서 다이얼로그를 골라 연습 · {0}% 넘으면 다음 코스': 'レベルの会話を選んで練習 · {0}%で次のコースへ',
+  // 심사 점검(11-23)
+  '이메일로 로그인': 'メールでログイン',
+  '로그인하면 아이폰·아이패드 어디서나': 'ログインすればiPhone・iPadのどこでも',
+  '로그인하면 다른 기기에서도': 'ログインすれば他の端末でも',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはApp Storeで処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはGoogle Playで処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
 };
 
 const Map<String, String> kDictZh = {
@@ -1224,4 +1236,10 @@ const Map<String, String> kDictZh = {
   '코스 시험 보기 ({0}% 이상 통과)': '参加课程考试（{0}%以上通过）',
   '이 편들로 연습하고, 코스 시험에서 {0}% 이상이면 다음 코스로 넘어가요.': '用这些对话练习，课程考试{0}%以上即进入下一课程。',
   '레벨에서 다이얼로그를 골라 연습 · {0}% 넘으면 다음 코스': '在级别中选对话练习 · {0}%进入下一课程',
+  // 심사 점검(11-23)
+  '이메일로 로그인': '用邮箱登录',
+  '로그인하면 아이폰·아이패드 어디서나': '登录后可在任意 iPhone、iPad 上使用',
+  '로그인하면 다른 기기에서도': '登录后在其他设备上也能使用',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
 };

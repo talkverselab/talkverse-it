@@ -55,7 +55,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti, voi cosa fate domani?",
    "ko": "들어봐, 너희 내일 뭐 해?",
    "rd": "쎈띠, 보이 꼬자 파떼 도마니?",
@@ -96,7 +95,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non sappiamo. Non abbiamo piani.",
    "ko": "몰라. 별 계획 없어.",
    "rd": "논 싸삐아모. 논 아비아모 삐아니.",
@@ -127,7 +125,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora vi porterò in centro.",
    "ko": "그럼 너희 시내로 데려갈게.",
    "rd": "알로라 비 뽀르떼로 인 첸트로.",
@@ -158,7 +155,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ci porti anche al fiume?",
    "ko": "강가에도 데려가 줄 거야?",
    "rd": "치 뽀르띠 안께 알 피우메?",
@@ -189,7 +185,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Vi piace il fiume di sera?",
    "ko": "너희 저녁 강 좋아해?",
    "rd": "비 삐아체 일 피우메 디 쎄라?",
@@ -215,7 +210,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, ci piace tanto.",
    "ko": "응, 우리 정말 좋아해.",
    "rd": "씨, 치 삐아체 딴또.",
@@ -251,7 +245,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquilli. Passiamo la sera insieme?",
    "ko": "걱정 마. 저녁 같이 보낼래?",
    "rd": "트란뀔리. 빠씨아모 라 쎄라 인씨에메?",
@@ -287,7 +280,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Passiamo la sera noi due. Oh, scusa Luca.",
    "ko": "우리 둘만 저녁 보내자. 아, 미안 루카.",
    "rd": "빠씨아모 라 쎄라 노이 두에. 오, 스꾸자 루까.",

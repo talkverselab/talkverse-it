@@ -52,7 +52,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Farò io il caffè oggi.",
    "ko": "오늘 내가 커피 만들게.",
    "rd": "파로 이오 일 까페 오찌.",
@@ -83,7 +82,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sai fare il caffè?",
    "ko": "커피 만들 줄 알아?",
    "rd": "싸이 파레 일 까페?",
@@ -120,7 +118,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, so fare un caffè buono.",
    "ko": "응, 맛있는 커피 만들 줄 알아.",
    "rd": "씨, 쏘 파레 운 까페 부오노.",
@@ -151,7 +148,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora fammi vedere, dai.",
    "ko": "그럼 보여 줘 봐.",
    "rd": "알로라 팜미 베데레, 다이.",
@@ -183,7 +179,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Metto il caffè nella tazzina.",
    "ko": "작은 잔에 커피 넣어.",
    "rd": "메또 일 까페 넬라 따찌나.",
@@ -219,7 +214,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti. Hai messo il sale?",
    "ko": "들어 봐. 소금 넣었어?",
    "rd": "쎈띠. 아이 메쏘 일 쌀레?",
@@ -275,7 +269,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ho messo il sale! L'ho fatto male.",
    "ko": "소금 넣었어! 잘못 만들었어.",
    "rd": "오 메쏘 일 쌀레! 로 파또 말레.",
@@ -312,7 +305,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, l'hai fatto male.",
    "ko": "봐, 잘못 만들었네.",
    "rd": "에꼬, 라이 파또 말레.",

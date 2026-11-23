@@ -59,7 +59,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Finalmente siamo al matrimonio di mia cugina!",
    "ko": "드디어 사촌 결혼식에 왔어!",
    "rd": "피날멘떼 씨아모 알 마트리모니오 디 미아 꾸지나!",
@@ -105,7 +104,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ho preparato la busta con cento euro. Va bene?",
    "ko": "백 유로 넣어서 봉투 준비했어. 괜찮아?",
    "rd": "오 프레빠라또 라 부스따 꼰 첸또 에우로. 바 베네?",
@@ -142,7 +140,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, ai miei tempi erano le lire!",
    "ko": "맙소사, 내 때는 리라였는데!",
    "rd": "맘마 미아, 아이 미에이 뗌삐 에라노 레 리레!",
@@ -183,7 +180,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Infatti, adesso si mettono almeno cento euro.",
    "ko": "맞아, 요즘은 적어도 백 유로는 넣어.",
    "rd": "인파띠, 아데쏘 씨 메또노 알메노 첸또 에우로.",
@@ -229,7 +225,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Gli sposi sono belli. Ma la busta è piccola.",
    "ko": "신랑신부가 예쁘네. 근데 봉투가 작아.",
    "rd": "리 스뽀지 쏘노 벨리. 마 라 부스따 에 삐꼴라.",
@@ -274,7 +269,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Magari è abbastanza per il pranzo.",
    "ko": "식사 값으로는 충분할지도.",
    "rd": "마가리 에 아바스딴짜 뻬르 일 프란쪼.",
@@ -315,7 +309,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "C'è anche il battesimo della nipote dopo.",
    "ko": "나중에 조카 세례식도 있어.",
    "rd": "체 안께 일 바떼지모 델라 니뽀떼 도뽀.",
@@ -361,7 +354,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Due feste? Non ho preparato un'altra busta.",
    "ko": "행사가 두 개? 다른 봉투는 안 준비했어.",
    "rd": "두에 페스떼? 논 오 프레빠라또 우날트라 부스따.",
@@ -408,7 +400,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa?! Hai portato solo una? È un casino!",
    "ko": "뭐?! 하나만 가져왔어? 완전 난리야!",
    "rd": "꼬자?! 아이 뽀르따또 쏠로 우나? 에 운 까지노!",
@@ -449,7 +440,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lascia stare, i soldi non sono tutto.",
    "ko": "신경 쓰지 마, 돈이 전부는 아니야.",
    "rd": "라샤 스따레, 이 쏠디 논 쏘노 뚜또.",
@@ -480,7 +470,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma adesso la famiglia si arrabbia con me?",
    "ko": "근데 이제 가족이 나한테 화내는 거 아냐?",
    "rd": "마 아데쏘 라 파밀리아 씨 아라비아 꼰 메?",
@@ -511,7 +500,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì! Mia zia si arrabbierà di sicuro!",
    "ko": "응! 이모가 분명 화낼 거야!",
    "rd": "씨! 미아 찌아 씨 아라비에라 디 씨꾸로!",
@@ -558,7 +546,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Magari tua zia ride e dice che va bene!",
    "ko": "이모가 웃으면서 괜찮다고 할지도!",
    "rd": "마가리 뚜아 찌아 리데 에 디체 께 바 베네!",
@@ -600,7 +587,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cioè, devo mettere da parte lo stipendio?",
    "ko": "그러니까, 월급을 모아 둬야 해?",
    "rd": "쵸에, 데보 메떼레 다 빠르떼 로 스띠뻰디오?",

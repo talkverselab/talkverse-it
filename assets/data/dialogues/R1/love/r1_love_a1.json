@@ -54,7 +54,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti, che fai domani?",
    "ko": "있잖아, 내일 뭐 해?",
    "rd": "쎈띠, 께 파이 도마니?",
@@ -85,7 +84,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Studio un po' a casa.",
    "ko": "집에서 좀 공부해.",
    "rd": "스뚜디오 운 뽀 아 까자.",
@@ -111,7 +109,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora vorrei vederti.",
    "ko": "그럼 너를 보고 싶어.",
    "rd": "알로라 보레이 베데르띠.",
@@ -142,7 +139,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dove ci vediamo domani?",
    "ko": "내일 어디서 봐?",
    "rd": "도베 치 베디아모 도마니?",
@@ -168,7 +164,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti piace questo posto?",
    "ko": "여기 좋아해?",
    "rd": "띠 삐아체 꿰스또 뽀스또?",
@@ -199,7 +194,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non so, boh.",
    "ko": "모르겠어, 글쎄.",
    "rd": "논 쏘, 보.",
@@ -230,7 +224,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquillo, guarda il tramonto.",
    "ko": "진정해, 노을 봐.",
    "rd": "트란뀔로, 구아르다 일 트라몬또.",
@@ -269,7 +262,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi piace... cioè, stare qui.",
    "ko": "좋아해... 아니, 그러니까 여기 있는 거.",
    "rd": "미 삐아체... 쵸에, 스따레 뀌.",

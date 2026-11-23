@@ -48,7 +48,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Prendete un caffè?",
    "ko": "커피 드시겠어요?",
    "rd": "프렌데떼 운 까페?",
@@ -74,7 +73,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, due caffè, per favore!",
    "ko": "네, 커피 두 잔 주세요!",
    "rd": "씨, 두에 까페, 뻬르 파보레!",
@@ -105,7 +103,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusi, li volete con zucchero?",
    "ko": "실례합니다, 설탕 넣으실래요?",
    "rd": "스꾸지, 리 볼레떼 꼰 쭈께로?",
@@ -131,7 +128,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, va bene.",
    "ko": "네, 괜찮아요.",
    "rd": "씨, 바 베네.",
@@ -167,7 +163,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Capite bene? Dite solo sì.",
    "ko": "잘 이해하세요? 네만 하시네요.",
    "rd": "까삐떼 베네? 디떼 쏠로 씨.",
@@ -197,7 +192,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, capiamo tutto!",
    "ko": "네, 우리 다 이해해요!",
    "rd": "씨, 까삐아모 뚜또!",
@@ -228,7 +222,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora prendete tutto il menu?",
    "ko": "그럼 메뉴 전부 드시겠어요?",
    "rd": "알로라 프렌데떼 뚜또 일 메누?",
@@ -254,7 +247,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No, solo due caffè!",
    "ko": "아니, 커피 두 잔만요!",
    "rd": "노, 쏠로 두에 까페!",

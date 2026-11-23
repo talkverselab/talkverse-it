@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
+import '../core/embed_env.dart';
 import '../core/platform.dart';
 import '../data/account.dart';
 import '../data/purchase.dart';
@@ -33,6 +34,9 @@ class PaywallScreen extends StatefulWidget {
 }
 
 class _PaywallScreenState extends State<PaywallScreen> {
+  // 통합 앱(심사 빌드)에선 앱 이름이 Talkverse — 옛 단독 앱 이름을 보이지 않게(11-23 심사 점검)
+  String get _appName => embedded ? 'Talkverse' : tr('이탈리아어유니버스');
+
   String? _sel; // 미리 고르지 않는다
 
   static String _won(int v) => '₩${v.toString().replaceAllMapped(RegExp(r'(\d)(?=(\d{3})+$)'), (m) => '${m[1]},')}';
@@ -68,13 +72,13 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 child: SingleChildScrollView(
                   padding: EdgeInsets.fromLTRB(20, 0, 20, 16 + bottomInset(context)),
                   child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-                    Text(tr('이탈리아어유니버스'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.rojo)),
+                    Text(_appName, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.rojo)),
                     Text(tr('이용권 선택'), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.tinta)),
                     const SizedBox(height: 10),
-                    _row(Icons.check_circle, trf('{0}의 유료 과정 전부 — 지금 있는 것과 앞으로 추가되는 것', [tr('이탈리아어유니버스')])),
-                    _row(Icons.check_circle, tr('로그인하면 아이폰·아이패드·안드로이드 어디서나')),
+                    _row(Icons.check_circle, trf('{0}의 유료 과정 전부 — 지금 있는 것과 앞으로 추가되는 것', [_appName])),
+                    _row(Icons.check_circle, isIOS ? tr('로그인하면 아이폰·아이패드 어디서나') : tr('로그인하면 다른 기기에서도')),
                     const SizedBox(height: 10),
-                    Text(tr('이탈리아어유니버스'), style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.tintaLight)),
+                    Text(_appName, style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.tintaLight)),
                     const SizedBox(height: 6),
                     for (final p in Purchase.plans.where((x) => !x.bundle)) _planTile(p, busy),
                     const SizedBox(height: 8),
@@ -103,7 +107,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      isIOS ? trf('구독 해지: 아이폰 설정 → 내 이름(Apple ID) → 구독 → {0} → 구독 취소', [tr('이탈리아어유니버스')]) : trf('구독 해지: Google Play → 프로필 → 결제 및 정기 결제 → 정기 결제 → {0} → 해지', [tr('이탈리아어유니버스')]),
+                      isIOS ? trf('구독 해지: 아이폰 설정 → 내 이름(Apple ID) → 구독 → {0} → 구독 취소', [_appName]) : trf('구독 해지: Google Play → 프로필 → 결제 및 정기 결제 → 정기 결제 → {0} → 해지', [_appName]),
                       textAlign: TextAlign.center,
                       style: const TextStyle(fontSize: 11.5, color: AppColors.tintaLight, height: 1.4),
                     ),
@@ -121,7 +125,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                           : Text(tr('로그인됨 — 구매는 Talkverse 계정에 기록되어 다른 기기에서도 열립니다.'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 12.5, color: AppColors.tintaLight)),
                     ),
                     Text(
-                      tr('결제는 App Store / Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.'),
+                      isIOS
+                          ? tr('결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.')
+                          : tr('결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.'),
                       textAlign: TextAlign.center,
                       style: const TextStyle(fontSize: 11, color: AppColors.tintaLight, height: 1.4),
                     ),

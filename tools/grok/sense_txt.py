@@ -73,7 +73,7 @@ def do_import(ids):
         for x, r in zip(s['sentences'], rows):
             x['it'], x['ko'] = r['it'], r['ko']
             x['rd'] = to_rd(MARK.sub(r'\1', r['it']))
-            x['grok'] = True
+            x.pop('grok', None)  # 작업 기록 칸은 앱·서버 원고에 두지 않음(11-23 심사 점검)
         done.append(s['id'])
     SRC.write_text(json.dumps(d, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print('넣음', len(done), ' '.join(done))

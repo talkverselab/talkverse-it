@@ -61,7 +61,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non ci credo, me l'hanno rubata!",
    "ko": "믿을 수가 없어, 내 오토바이 훔쳐 갔어!",
    "rd": "논 치 크레도, 메 란노 루바따!",
@@ -92,7 +91,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti avevo detto di chiuderla bene.",
    "ko": "너에게 잘 잠그라고 말했었잖아.",
    "rd": "띠 아베보 데또 디 끼우데를라 베네.",
@@ -128,7 +126,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, ci avevo messo la catena.",
    "ko": "글쎄, 거기에 체인을 걸어뒀었어.",
    "rd": "보, 치 아베보 메쏘 라 까떼나.",
@@ -179,7 +176,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ieri la squadra ha vinto e oggi perdi la moto.",
    "ko": "어제 팀이 이겼고 오늘 오토바이를 잃네.",
    "rd": "이에리 라 스꽈드라 아 빈또 에 오찌 뻬르디 라 모또.",
@@ -215,7 +211,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma dai, l'avevo lasciata proprio qui!",
    "ko": "야, 내가 바로 여기 놔뒀었잖아!",
    "rd": "마 다이, 라베보 라샤따 프로프리오 뀌!",
@@ -246,7 +241,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Speravo che nessuno l'avesse presa.",
    "ko": "누가 가져간 게 아니길 바랐어.",
    "rd": "스뻬라보 께 네쑤노 라베쎄 프레자.",
@@ -275,7 +269,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Chi l'ha presa, secondo te?",
    "ko": "네 생각엔 누가 가져간 것 같아?",
    "rd": "끼 라 프레자, 쎄꼰도 떼?",
@@ -306,7 +299,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi sono arrabbiato tantissimo.",
    "ko": "나 엄청 화났어.",
    "rd": "미 쏘노 아라비아또 딴띠씨모.",
@@ -340,7 +332,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, sempre la stessa storia.",
    "ko": "자, 항상 똑같은 이야기.",
    "rd": "에꼬, 쎔프레 라 스떼싸 스또리아.",
@@ -379,7 +370,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non ci credo, è sparita così!",
    "ko": "믿기지 않아, 이렇게 사라져?",
    "rd": "논 치 크레도, 에 스빠리따 꼬지!",
@@ -425,7 +415,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ne abbiamo parlato ieri! L'avevi lasciata al bar.",
    "ko": "우리가 어제 그것에 대해 말했잖아! 바에 두고 왔잖아.",
    "rd": "네 아비아모 빠를라또 이에리! 라베비 라샤따 알 바르.",
@@ -475,7 +464,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Te l'avevo detto! Non mi hai ascoltato.",
    "ko": "내가 너에게 말했었잖아! 안 들었잖아.",
    "rd": "떼 라베보 데또! 논 미 아이 아스꼴따또.",
@@ -508,7 +496,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquillo, la troviamo noi.",
    "ko": "진정해, 우리가 찾아낼 거야.",
    "rd": "트란뀔로, 라 트로비아모 노이.",
@@ -543,7 +530,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Chi me la riporta, gli do una birra.",
    "ko": "누가 내게 돌려주든, 맥주 한 잔 줄게.",
    "rd": "끼 메 라 리뽀르따, 리 도 우나 비라.",

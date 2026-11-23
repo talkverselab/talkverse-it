@@ -52,7 +52,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, come sta oggi?",
    "ko": "그럼, 오늘 어떠세요?",
    "rd": "알로라, 꼬메 스따 오찌?",
@@ -94,7 +93,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sto male, ho mal di testa.",
    "ko": "아파요, 머리가 아파요.",
    "rd": "스또 말레, 오 말 디 떼스따.",
@@ -130,7 +128,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ha dormito bene ieri?",
    "ko": "어제 잘 주무셨어요?",
    "rd": "아 도르미또 베네 이에리?",
@@ -167,7 +164,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, ho dormito un'ora.",
    "ko": "글쎄요, 한 시간 잤어요.",
    "rd": "보, 오 도르미또 우노라.",
@@ -203,7 +199,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ha guardato la TV tutta la notte?",
    "ko": "밤새 TV 보셨어요?",
    "rd": "아 구아르다또 라 트브 뚜따 라 노떼?",
@@ -239,7 +234,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, ho guardato la serie sul telefono.",
    "ko": "네, 폰으로 시리즈 봤어요.",
    "rd": "씨, 오 구아르다또 라 쎄리에 쑬 뗄레포노.",
@@ -285,7 +279,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Anch'io ho dormito un'ora. Guardi qui.",
    "ko": "저도 한 시간 잤어요. 여기 보세요.",
    "rd": "안끼오 오 도르미또 우노라. 구아르디 뀌.",
@@ -325,7 +318,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guardi? Non capisco.",
    "ko": "보세요? 모르겠어요.",
    "rd": "구아르디? 논 까삐스꼬.",

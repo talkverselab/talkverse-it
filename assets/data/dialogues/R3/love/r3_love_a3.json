@@ -50,7 +50,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ehi, quando tornate?",
    "ko": "야, 언제 돌아와?",
    "rd": "에이, 꽌도 또르나떼?",
@@ -92,7 +91,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No, non abbiamo ancora fatto le valigie.",
    "ko": "아니, 아직 짐 안 쌌어.",
    "rd": "노, 논 아비아모 안꼬라 파또 레 발리지에.",
@@ -118,7 +116,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, scappate senza di noi!",
    "ko": "그럼, 우리 없이 도망가!",
    "rd": "알로라, 스까빠떼 쎈짜 디 노이!",
@@ -144,7 +141,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, torniamo tra due giorni.",
    "ko": "응, 우리 이틀 뒤에 돌아와.",
    "rd": "씨, 또르니아모 트라 두에 조르니.",
@@ -175,7 +171,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Diteci quando tornate, ok?",
    "ko": "너희 언제 돌아오는지 말해, 알겠지?",
    "rd": "디떼치 꽌도 또르나떼, 오크?",
@@ -201,7 +196,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Vi diciamo quando torniamo, dai.",
    "ko": "돌아오는 날 바로 연락할게, 에이.",
    "rd": "비 디챠모 꽌도 또르니아모, 다이.",
@@ -242,7 +236,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ci piacete tanto. Tornate presto, ok?",
    "ko": "우리 너희 정말 좋아해. 빨리 돌아와, 알겠지?",
    "rd": "치 삐아체떼 딴또. 또르나떼 프레스또, 오크?",
@@ -277,7 +270,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Anche a noi piacete.",
    "ko": "우리도 너희 좋아해.",
    "rd": "안께 아 노이 삐아체떼.",

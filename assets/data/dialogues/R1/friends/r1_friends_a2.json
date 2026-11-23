@@ -53,7 +53,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Hai lasciato lo scooter?",
    "ko": "스쿠터 두고 왔어?",
    "rd": "아이 라샤또 로 스꼬오떼르?",
@@ -84,7 +83,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sono tornato a piedi.",
    "ko": "걸어서 돌아왔어.",
    "rd": "쏘노 또르나또 아 삐에디.",
@@ -119,7 +117,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dove l'hai lasciato?",
    "ko": "어디다 두고 왔어?",
    "rd": "도베 라이 라샤또?",
@@ -145,7 +142,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Da Giulia... sono rimasto.",
    "ko": "줄리아네... 거기 있었어.",
    "rd": "다 줄리아... 쏘노 리마스또.",
@@ -166,7 +162,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Il mio scooter!",
    "ko": "내 스쿠터!",
    "rd": "일 미오 스꼬오떼르!",
@@ -198,7 +193,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "L'ho lasciato lì.",
    "ko": "거기 두고 왔어.",
    "rd": "로 라샤또 리.",
@@ -224,7 +218,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquillo, vado io.",
    "ko": "진정해, 내가 갈게.",
    "rd": "트란뀔로, 바도 이오.",
@@ -253,7 +246,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, sto da Giulia.",
    "ko": "그러면, 줄리아네 있어.",
    "rd": "알로라, 스또 다 줄리아.",

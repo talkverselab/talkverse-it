@@ -63,7 +63,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ehi, sei pronto? Torni domani?",
    "ko": "야, 준비됐어? 내일 돌아가?",
    "rd": "에이, 쎄이 프론또? 또르니 도마니?",
@@ -103,7 +102,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, torno domani. Sono triste.",
    "ko": "응, 내일 가. 슬퍼.",
    "rd": "씨, 또르노 도마니. 쏘노 트리스떼.",
@@ -139,7 +137,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, cosa dici? Torni o resti?",
    "ko": "그래서 뭐라고 해? 갈 거야, 남을 거야?",
    "rd": "알로라, 꼬자 디치? 또르니 오 레스띠?",
@@ -180,7 +177,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Certo che torno. Non sono contento.",
    "ko": "당연히 가. 기쁘지 않아.",
    "rd": "체르또 께 또르노. 논 쏘노 꼰뗀또.",
@@ -214,7 +210,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dimmi quando torni, per favore.",
    "ko": "언제 오는지 말해 줘, 제발.",
    "rd": "딤미 꽌도 또르니, 뻬르 파보레.",
@@ -250,7 +245,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti dico: torno in estate. Prometto.",
    "ko": "말해 줄게: 여름에 와. 약속해.",
    "rd": "띠 디꼬: 또르노 인 에스따떼. 프로메또.",
@@ -291,7 +285,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi piaci tanto. Sono triste perché parti.",
    "ko": "너 정말 좋아해. 떠나는 거 슬퍼.",
    "rd": "미 삐아치 딴또. 쏘노 트리스떼 뻬르께 빠르띠.",
@@ -336,7 +329,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Anche tu mi piaci. Torno presto, dai.",
    "ko": "나도 너 좋아. 빨리 올게, 진짜.",
    "rd": "안께 뚜 미 삐아치. 또르노 프레스또, 다이.",

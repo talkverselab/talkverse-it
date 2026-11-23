@@ -60,7 +60,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, ho fatto la cena per te.",
    "ko": "봐, 널 위해 저녁 만들었어.",
    "rd": "에꼬, 오 파또 라 체나 뻬르 떼.",
@@ -86,7 +85,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Hai fatto tutto questo?",
    "ko": "이 모든 걸 만들었어?",
    "rd": "아이 파또 뚜또 꿰스또?",
@@ -112,7 +110,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, la pasta alla carbonara.",
    "ko": "응, 카르보나라 파스타.",
    "rd": "씨, 라 빠스따 알라 까르보나라.",
@@ -143,7 +140,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sono un po' in ritardo.",
    "ko": "좀 늦었어.",
    "rd": "쏘노 운 뽀 인 리따르도.",
@@ -174,7 +170,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ho mangiato tutta la pasta!",
    "ko": "파스타 다 먹었어!",
    "rd": "오 만쟈또 뚜따 라 빠스따!",
@@ -205,7 +200,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Hai mangiato tutta la cena?",
    "ko": "저녁 다 먹었어?",
    "rd": "아이 만쟈또 뚜따 라 체나?",
@@ -236,7 +230,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, scusa... ho fame!",
    "ko": "응, 미안... 배고팠어!",
    "rd": "씨, 스꾸자... 오 파메!",
@@ -272,7 +265,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia. Lascia stare, farò io.",
    "ko": "세상에. 됐어, 신경 쓰지 마, 내가 할게.",
    "rd": "맘마 미아. 라샤 스따레, 파로 이오.",

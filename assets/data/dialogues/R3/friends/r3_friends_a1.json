@@ -59,7 +59,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, non troviamo i telefoni!",
    "ko": "맙소사, 폰을 못 찾겠어!",
    "rd": "맘마 미아, 논 트로비아모 이 뗄레포니!",
@@ -85,7 +84,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Li chiamo. Tranquille.",
    "ko": "내가 전화할게. 걱정 마.",
    "rd": "리 끼아모. 트란뀔레.",
@@ -116,7 +114,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, li abbiamo messi nel frigo?",
    "ko": "에이, 냉장고에 넣었어?",
    "rd": "다이, 리 아비아모 메씨 넬 프리고?",
@@ -147,7 +144,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Negli zaini? Non li vedo.",
    "ko": "가방들에? 안 보여.",
    "rd": "넬리 짜이니? 논 리 베도.",
@@ -183,7 +179,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Aspettate, dove sono andati?",
    "ko": "잠깐만, 어디로 갔어?",
    "rd": "아스뻬따떼, 도베 쏘노 안다띠?",
@@ -230,7 +225,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Abbiamo messo i gelati sopra? Ecco, sotto!",
    "ko": "젤라토를 위에 뒀어? 여기, 밑에!",
    "rd": "아비아모 메쏘 이 젤라띠 쏘프라? 에꼬, 쏘또!",
@@ -271,7 +265,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No! Non li abbiamo visti!",
    "ko": "아니! 못 봤어!",
    "rd": "노! 논 리 아비아모 비스띠!",
@@ -317,7 +310,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Vorremmo i nostri! Sono qui sotto i gelati. 😂",
    "ko": "우리 거 갖고 싶어! 여기 젤라토 밑에 있어. 😂",
    "rd": "보렘모 이 노스트리! 쏘노 뀌 쏘또 이 젤라띠. 😂",

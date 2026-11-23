@@ -45,7 +45,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guarda! Due gelati!",
    "ko": "봐! 젤라토 두 개!",
    "rd": "구아르다! 두에 젤라띠!",
@@ -64,7 +63,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Che bello! Per me?",
    "ko": "와 좋다! 내 거?",
    "rd": "께 벨로! 뻬르 메?",
@@ -88,7 +86,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco... cade uno!",
    "ko": "여기... 하나 떨어진다!",
    "rd": "에꼬... 까데 우노!",
@@ -112,7 +109,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Oh no! Per terra!",
    "ko": "아 안 돼! 바닥에!",
    "rd": "오 노! 뻬르 떼라!",
@@ -136,7 +132,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mangio l'altro. Scusa.",
    "ko": "남은 거 내가 먹을게. 미안.",
    "rd": "만조 랄트로. 스꾸자.",
@@ -165,7 +160,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia! Sei pazza.",
    "ko": "맙소사! 너 미쳤어.",
    "rd": "맘마 미아! 쎄이 빠짜.",

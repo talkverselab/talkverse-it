@@ -49,7 +49,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, vengono due ragazze!",
    "ko": "에이, 여자애 둘이 와!",
    "rd": "다이, 벵고노 두에 라가쩨!",
@@ -80,7 +79,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Davvero? Allora usciamo.",
    "ko": "진짜? 그럼 나가자.",
    "rd": "다베로? 알로라 우샤모.",
@@ -111,7 +109,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti preghiamo, vai via.",
    "ko": "제발, 나가.",
    "rd": "띠 프레기아모, 바이 비아.",
@@ -137,7 +134,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Fate la pasta?",
    "ko": "파스타 만들 거야?",
    "rd": "파떼 라 빠스따?",
@@ -164,7 +160,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Faremo quella delle nostre madri.",
    "ko": "우리 엄마들 걸로 할 거야.",
    "rd": "파레모 꿸라 델레 노스트레 마드리.",
@@ -195,7 +190,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sono belle le ragazze?",
    "ko": "여자애들 예뻐?",
    "rd": "쏘노 벨레 레 라가쩨?",
@@ -226,7 +220,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sentite? Sono le nostre madri!",
    "ko": "들려? 우리 엄마들이야!",
    "rd": "쎈띠떼? 쏘노 레 노스트레 마드리!",
@@ -256,7 +249,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Le vostre madri?",
    "ko": "뭐? 너희 엄마들?",
    "rd": "꼬자? 레 보스트레 마드리?",

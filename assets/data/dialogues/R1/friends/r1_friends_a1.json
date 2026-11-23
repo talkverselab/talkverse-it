@@ -58,7 +58,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, non trovo il telefono!",
    "ko": "맙소사, 폰을 못 찾겠어!",
    "rd": "맘마 미아, 논 트로보 일 뗄레포노!",
@@ -84,7 +83,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquilla, lo chiamo io.",
    "ko": "진정해, 내가 전화할게.",
    "rd": "트란뀔라, 로 끼아모 이오.",
@@ -115,7 +113,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, chiama! Lo sento già!",
    "ko": "자, 전화해! 벌써 들려!",
    "rd": "다이, 끼아마! 로 쎈또 쟈!",
@@ -141,7 +138,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Nel sacchetto del gelato?",
    "ko": "뭐? 젤라토 봉지 안에?",
    "rd": "꼬자? 넬 싸께또 델 젤라또?",
@@ -172,7 +168,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non so, ma lo sento!",
    "ko": "모르겠어, 근데 들려!",
    "rd": "논 쏘, 마 로 쎈또!",
@@ -209,7 +204,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco! L'ho trovato nel sacchetto!",
    "ko": "여기! 봉지에서 찾았어!",
    "rd": "에꼬! 로 트로바또 넬 싸께또!",
@@ -255,7 +249,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Oh no, l'ho lasciato nel gelato!",
    "ko": "아 안 돼, 젤라토에 뒀어!",
    "rd": "오 노, 로 라샤또 넬 젤라또!",
@@ -292,7 +285,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, è nel gelato! Farò un altro.",
    "ko": "맙소사, 젤라토 안에 있어! 새로 사올게.",
    "rd": "맘마 미아, 에 넬 젤라또! 파로 운 알트로.",

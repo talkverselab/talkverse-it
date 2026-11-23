@@ -51,7 +51,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dove sono le chiavi?",
    "ko": "열쇠 어디 있어?",
    "rd": "도베 쏘노 레 끼아비?",
@@ -80,7 +79,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquillo, cerca con calma.",
    "ko": "진정해, 차분히 찾아.",
    "rd": "트란뀔로, 체르까 꼰 깔마.",
@@ -109,7 +107,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia! Non le vedo!",
    "ko": "맙소사! 안 보여!",
    "rd": "맘마 미아! 논 레 베도!",
@@ -142,7 +139,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, guarda sul tavolo.",
    "ko": "에이, 테이블 봐.",
    "rd": "다이, 구아르다 쑬 따볼로.",
@@ -176,7 +172,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non ci sono! Fammi vedere!",
    "ko": "없어! 보여 줘!",
    "rd": "논 치 쏘노! 팜미 베데레!",
@@ -210,7 +205,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco! Sono qui! Cadono!",
    "ko": "여기! 여기 있어! 떨어진다!",
    "rd": "에꼬! 쏘노 뀌! 까도노!",

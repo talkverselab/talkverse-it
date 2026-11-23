@@ -72,7 +72,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, che pioggia! È estate e fa così.",
    "ko": "맙소사, 비 좀 봐! 여름인데 이래.",
    "rd": "맘마 미아, 께 삐오쟈! 에 에스따떼 에 파 꼬지.",
@@ -118,7 +117,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti, la luce se n'è andata. Resta qui.",
    "ko": "들어 봐, 불이 나갔어. 여기 있어.",
    "rd": "쎈띠, 라 루체 쎄 네 안다따. 레스따 뀌.",
@@ -149,7 +147,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, non vedo niente in questa camera!",
    "ko": "에이, 이 방에서 아무것도 안 보여!",
    "rd": "다이, 논 베도 니엔떼 인 꿰스따 까메라!",
@@ -185,7 +182,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guarda, c'è una candela sul tavolo.",
    "ko": "봐, 탁자 위에 초가 있어.",
    "rd": "구아르다, 체 우나 깐델라 쑬 따볼로.",
@@ -231,7 +227,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sei sempre così calmo quando fa buio?",
    "ko": "어두워지면 항상 이렇게 침착해?",
    "rd": "쎄이 쎔프레 꼬지 깔모 꽌도 파 부이오?",
@@ -275,7 +270,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Un po' nervoso, ma sto bene. Tu come stai?",
    "ko": "좀 긴장되지만 괜찮아. 너는 어때?",
    "rd": "운 뽀 네르보조, 마 스또 베네. 뚜 꼬메 스따이?",
@@ -345,7 +339,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Le previsioni dicevano sole. Fa così freddo che sembra Natale, magari nevica.",
    "ko": "예보에는 맑대. 이렇게 추우니 크리스마스 같고, 눈 올지도.",
    "rd": "레 프레비지오니 디체바노 쏠레. 파 꼬지 프레도 께 쎔브라 나딸레, 마가리 네비까.",
@@ -381,7 +374,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Fa freddo adesso con questa pioggia.",
    "ko": "이 비 때문에 지금 추워.",
    "rd": "파 프레도 아데쏘 꼰 꿰스따 삐오쟈.",
@@ -427,7 +419,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cioè, siamo bloccati qui fino a quando?",
    "ko": "그러니까, 언제까지 여기 갇혀 있는 거야?",
    "rd": "쵸에, 씨아모 블로까띠 뀌 피노 아 꽌도?",
@@ -469,7 +460,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non lo so. Mi piace stare così con te.",
    "ko": "몰라. 이렇게 너랑 있는 게 좋아.",
    "rd": "논 로 쏘. 미 삐아체 스따레 꼬지 꼰 떼.",
@@ -510,7 +500,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, non fare il romantico. Anch'io un po'.",
    "ko": "에이, 로맨틱하게 굴지 마. 나도 좀.",
    "rd": "다이, 논 파레 일 로만띠꼬. 안끼오 운 뽀.",
@@ -568,7 +557,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Magari la pioggia smette presto.",
    "ko": "비가 빨리 그쳤으면 좋겠어.",
    "rd": "마가리 라 삐오쟈 스메떼 프레스또.",
@@ -610,7 +598,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Senti… Volevo restare lo stesso, anche senza luce.",
    "ko": "들어 봐… 불 없어도 그냥 있고 싶었어.",
    "rd": "쎈띠… 볼레보 레스따레 로 스떼쏘, 안께 쎈짜 루체.",
@@ -656,7 +643,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Davvero? Anch'io ero contento di stare al buio con te.",
    "ko": "진짜? 나도 너랑 어두운 데 있어서 좋았어.",
    "rd": "다베로? 안끼오 에로 꼰뗀또 디 스따레 알 부이오 꼰 떼.",

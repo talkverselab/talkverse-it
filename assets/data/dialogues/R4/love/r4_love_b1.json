@@ -72,7 +72,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sei uscito per il rumore? C'era un ombrello lì.",
    "ko": "시끄러워서 나왔어? 거기 우산 하나 있었어.",
    "rd": "쎄이 우시또 뻬르 일 루모레? 체라 운 옴브렐로 리.",
@@ -121,7 +120,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi sono spostato fuori perché c'era troppo rumore.",
    "ko": "너무 시끄러워서 밖으로 나왔어.",
    "rd": "미 쏘노 스뽀스따또 푸오리 뻬르께 체라 트로뽀 루모레.",
@@ -190,7 +188,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, io stavo ancora dentro. Cioè, ti avevo visto uscire e ti ho seguito.",
    "ko": "글쎄, 난 아직 안에 있었는데. 그러니까 너 나가는 거 보고 따라 나왔어.",
    "rd": "보, 이오 스따보 안꼬라 덴트로. 쵸에, 띠 아베보 비스또 우시레 에 띠 오 쎄구이또.",
@@ -246,7 +243,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sul serio? Non me n'ero accorto.",
    "ko": "진짜? 난 전혀 몰랐어.",
    "rd": "쑬 쎄리오? 논 메 네로 아꼬르또.",
@@ -300,7 +296,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Se fossi rimasta dentro, non ti avrei incontrato qui.",
    "ko": "안에 있었으면 여기서 너를 못 만났을 거야.",
    "rd": "쎄 포씨 리마스따 덴트로, 논 띠 아브레이 인꼰트라또 뀌.",
@@ -327,7 +322,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, non esagerare.",
    "ko": "에이, 과장하지 마.",
    "rd": "다이, 논 에자제라레.",
@@ -363,7 +357,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "La persona a cui pensavo da un po' sei proprio tu.",
    "ko": "내가 좀 전부터 생각하던 사람이 바로 너야.",
    "rd": "라 뻬르쏘나 아 꾸이 뻰싸보 다 운 뽀 쎄이 프로프리오 뚜.",
@@ -394,7 +387,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Non ci posso credere, dai.",
    "ko": "뭐라고? 믿을 수가 없어, 진짜.",
    "rd": "꼬자? 논 치 뽀쏘 크레데레, 다이.",
@@ -439,7 +431,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, ce ne hai messo di tempo.",
    "ko": "어머, 너 정말 시간 많이 걸렸네.",
    "rd": "맘마 미아, 체 네 아이 메쏘 디 뗌뽀.",
@@ -480,7 +471,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Io non c'ero mica abituato a queste cose.",
    "ko": "난 이런 일에 익숙하지 않았어.",
    "rd": "이오 논 체로 미까 아비뚜아또 아 꿰스떼 꼬제.",
@@ -544,7 +534,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, sapevo che non avessi capito. Avevo portato l'ombrello apposta per seguirti.",
    "ko": "봐, 네가 모를 줄 알았어. 일부러 너 따라 나오려고 우산 가져왔었어.",
    "rd": "에꼬, 싸뻬보 께 논 아베씨 까삐또. 아베보 뽀르따또 롬브렐로 아뽀스따 뻬르 쎄구이르띠.",
@@ -575,7 +564,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi sono emozionato un po', dai.",
    "ko": "나 좀 감동했어, 진짜.",
    "rd": "미 쏘노 에모찌오나또 운 뽀, 다이.",
@@ -617,7 +605,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, magari la prossima volta lo porti tu.",
    "ko": "글쎄, 다음엔 네가 가져오는 게 어때.",
    "rd": "보, 마가리 라 프로씨마 볼따 로 뽀르띠 뚜.",
@@ -641,7 +628,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquilla, ci penso io.",
    "ko": "걱정 마, 내가 할게.",
    "rd": "트란뀔라, 치 뻰쏘 이오.",

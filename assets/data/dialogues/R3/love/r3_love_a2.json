@@ -61,7 +61,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, ho fatto la cena per Lei!",
    "ko": "여기, 어머님께 저녁 차렸어요!",
    "rd": "에꼬, 오 파또 라 체나 뻬르 레이!",
@@ -97,7 +96,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, mamma sarà contenta!",
    "ko": "맙소사, 엄마 좋아하시겠네!",
    "rd": "맘마 미아, 맘마 싸라 꼰뗀따!",
@@ -123,7 +121,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Per voi e per noi.",
    "ko": "두 분이랑 우리 거예요.",
    "rd": "뻬르 보이 에 뻬르 노이.",
@@ -149,7 +146,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ha fatto tutto Lei?",
    "ko": "이거 다 혼자 하셨어요?",
    "rd": "아 파또 뚜또 레이?",
@@ -185,7 +181,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sono qui! Io l'ho mangiata! 😳",
    "ko": "나 여기 있어! 내가 먹었어! 😳",
    "rd": "쏘노 뀌! 이오 로 만쟈따! 😳",
@@ -212,7 +207,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Hai mangiato quella per Lei?",
    "ko": "뭐? 어머님 드릴 걸 먹었어?",
    "rd": "꼬자? 아이 만쟈또 꿸라 뻬르 레이?",
@@ -238,7 +232,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusa. Mi scusi, signora.",
    "ko": "미안. 아, 죄송합니다 어머님.",
    "rd": "스꾸자. 미 스꾸지, 씨뇨라.",
@@ -274,7 +267,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lascia stare, è divertente.",
    "ko": "됐어, 신경 쓰지 마. 웃기네.",
    "rd": "라샤 스따레, 에 디베르뗀떼.",

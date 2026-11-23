@@ -60,7 +60,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ehi, siete tornati tardi?",
    "ko": "안녕, 늦게 들어왔어?",
    "rd": "에이, 씨에떼 또르나띠 따르디?",
@@ -91,7 +90,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, siamo tornati insieme.",
    "ko": "응, 같이 들어왔어.",
    "rd": "씨, 씨아모 또르나띠 인씨에메.",
@@ -115,7 +113,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Le rose sulla tavola?",
    "ko": "식탁 위 장미들?",
    "rd": "레 로제 쑬라 따볼라?",
@@ -146,7 +143,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ci piacciono tanto, boh.",
    "ko": "우리 정말 좋아해, 뭐.",
    "rd": "치 삐아쵸노 딴또, 보.",
@@ -173,7 +169,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Le portate alle nonne?",
    "ko": "할머니들께 가져가?",
    "rd": "레 뽀르따떼 알레 논네?",
@@ -199,7 +194,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, le portiamo alle nonne. Giulia e Marco!",
    "ko": "응, 할머니들께 가져가. 줄리아랑 마르코!",
    "rd": "씨, 레 뽀르띠아모 알레 논네. 줄리아 에 마르꼬!",
@@ -230,7 +224,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Va bene. Per le nonne.",
    "ko": "괜찮아. 할머니들 위해.",
    "rd": "바 베네. 뻬르 레 논네.",
@@ -256,7 +249,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa? Le nonne?",
    "ko": "뭐? 할머니들?",
    "rd": "꼬자? 레 논네?",

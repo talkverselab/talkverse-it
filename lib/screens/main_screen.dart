@@ -187,8 +187,7 @@ class HomeScreen extends StatelessWidget {
                 _MenuGrid(items: [
                   _MenuItem(label: tr('알파벳과 발음'), sub: 'Alfabeto', badge: 'Aa', color: AppColors.er,
                       builder: (_) => const AlphabetScreen()),
-                  _MenuItem(label: tr('성·수'), sub: 'Genere', badge: 'il/la', color: AppColors.mar,
-                      builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
+                  // 「성·수」 타일은 내용이 생길 때까지 뺌(11-23 심사 점검 — 「준비 중」 화면은 미완성 앱으로 거절)
                 ]),
                 _section(tr('문법')),
                 _MenuGrid(items: [
@@ -715,25 +714,6 @@ class MeTab extends StatelessWidget {
             const SizedBox(height: 12),
             const ProfileSections(),
           ],
-        ),
-      ),
-    );
-  }
-}
-
-class _ComingSoon extends StatelessWidget {
-  final String title;
-  const _ComingSoon({required this.title});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(title)),
-      body: Center(
-        child: Text(
-          tr('Próximamente · 준비 중'),
-          style: const TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),
     );

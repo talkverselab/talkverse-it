@@ -27,13 +27,27 @@ BUCKET = 'talkverse-art'
 PREFIX = 'script/it'
 
 
+WORK_KEYS = {'grok', 'grok_rewrite', 'draft', 'review', 'prev', 'src'}
+
+
+def _work_keys(o):
+    if isinstance(o, dict):
+        return (WORK_KEYS & set(o)) | {k for v in o.values() for k in _work_keys(v)}
+    if isinstance(o, list):
+        return {k for v in o for k in _work_keys(v)}
+    return set()
+
+
 def current():
     paths = sorted(glob.glob(str(DATA / 'dialogues/R[0-5]/*/*.json'))) + [str(p) for p in [DATA / 'grammar/sense_course.json'] if p.exists()] \
         + sorted(glob.glob(str(DATA / 'grammar/lesson[0-9]*.json')))  # 문법 스텝(2026-11-23 사용자 「DB업데이트 하면서 업뎃」)
     out = {}
     for p in paths:
         b = Path(p).read_bytes()
-        json.loads(b)  # 깨진 JSON 은 올리지 않는다
+        j = json.loads(b)  # 깨진 JSON 은 올리지 않는다
+        bad = _work_keys(j)
+        if bad:  # 작업 기록 칸(AI 이름 등)은 공개 원고에 두지 않는다(11-23 심사 점검)
+            sys.exit(f'작업 기록 칸이 남아 있음 {Path(p).relative_to(DATA)}: {sorted(bad)}')
         out[str(Path(p).relative_to(DATA))] = hashlib.sha1(b).hexdigest()[:12]
     return out
 

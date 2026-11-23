@@ -50,7 +50,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Buonasera, il biglietto per favore.",
    "ko": "안녕하세요, 표 좀 보여 주세요.",
    "rd": "부오나제라, 일 빌리에또 뻬르 파보레.",
@@ -74,7 +73,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ecco, glielo do subito.",
    "ko": "여기요, 바로 드릴게요.",
    "rd": "에꼬, 리엘로 도 쑤비또.",
@@ -115,7 +113,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Grazie. Ha già passato la sua fermata.",
    "ko": "감사합니다. 내릴 역을 이미 지나치셨네요.",
    "rd": "그라찌에. 아 쟈 빠싸또 라 쑤아 페르마따.",
@@ -156,7 +153,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, mi sono addormentato! L'ho persa.",
    "ko": "맙소사, 잠들어 버렸어요! 놓쳤어요.",
    "rd": "맘마 미아, 미 쏘노 아도르멘따또! 로 뻬르싸.",
@@ -219,7 +215,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dormivi da un'ora. Non ti sei svegliato.",
    "ko": "한 시간째 자고 있었어. 안 깼잖아.",
    "rd": "도르미비 다 우노라. 논 띠 쎄이 스벨리아또.",
@@ -246,7 +241,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lo so, mi avevi detto di svegliarmi.",
    "ko": "알아, 네가 깨우라고 했었지.",
    "rd": "로 쏘, 미 아베비 데또 디 스벨리아르미.",
@@ -288,7 +282,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Me l'avevi detto di svegliarti. Poi ti sei riaddormentato.",
    "ko": "깨워 달라고 나한테 말했었잖아. 그다음 또 잠들었어.",
    "rd": "메 라베비 데또 디 스벨리아르띠. 뽀이 띠 쎄이 리아도르멘따또.",
@@ -332,7 +325,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Se scendesse alla prossima, potrebbe prendere il regionale.",
    "ko": "다음 역에서 내리시면 로컬 기차를 타실 수 있어요.",
    "rd": "쎄 셴데쎄 알라 프로씨마, 뽀트레베 프렌데레 일 레조날레.",
@@ -371,7 +363,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Quanto costa la differenza? Non ho contanti.",
    "ko": "차액이 얼마예요? 현금이 없어요.",
    "rd": "꽌또 꼬스따 라 디페렌짜? 논 오 꼰딴띠.",
@@ -412,7 +403,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Il treno con cui viaggia ha la tariffa piena.",
    "ko": "타고 계신 기차는 전액 요금입니다.",
    "rd": "일 트레노 꼰 꾸이 비아쟈 아 라 따리파 삐에나.",
@@ -453,7 +443,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cioè, dormivo e adesso pago di più?",
    "ko": "그러니까, 자고 있었는데 지금 더 내라고요?",
    "rd": "쵸에, 도르미보 에 아데쏘 빠고 디 삐우?",
@@ -500,7 +489,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Me lo avevi promesso di svegliarmi! Anch'io l'ho persa apposta.",
    "ko": "깨워 달라고 약속했었잖아! 나도 일부러 놓쳤어.",
    "rd": "메 로 아베비 프로메쏘 디 스벨리아르미! 안끼오 로 뻬르싸 아뽀스따.",
@@ -543,7 +531,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Può pagare con la carta, se preferisce.",
    "ko": "카드로 결제하셔도 됩니다, 원하시면.",
    "rd": "뿌오 빠가레 꼰 라 까르따, 쎄 프레페리셰.",
@@ -587,7 +574,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Va bene, la pago. Ma non è giusto.",
    "ko": "알겠어요, 낼게요. 근데 공평하지 않아요.",
    "rd": "바 베네, 라 빠고. 마 논 에 주스또.",

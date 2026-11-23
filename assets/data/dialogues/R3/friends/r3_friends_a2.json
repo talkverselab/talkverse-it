@@ -59,7 +59,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, avete preso lo scooter?",
    "ko": "그럼, 스쿠터 탔어?",
    "rd": "알로라, 아베떼 프레조 로 스꼬오떼르?",
@@ -90,7 +89,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, siamo andati in centro!",
    "ko": "응, 시내로 갔어!",
    "rd": "씨, 씨아모 안다띠 인 첸트로!",
@@ -125,7 +123,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "L'avete lasciato da qualche parte?",
    "ko": "어디 두고 왔어?",
    "rd": "라베떼 라샤또 다 꽐께 빠르떼?",
@@ -156,7 +153,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No, siamo tornati a piedi.",
    "ko": "아니, 걸어서 돌아왔어.",
    "rd": "노, 씨아모 또르나띠 아 삐에디.",
@@ -195,7 +191,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lo scooter? Dove l'avete lasciato?",
    "ko": "스쿠터? 어디 두고 왔어?",
    "rd": "로 스꼬오떼르? 도베 라베떼 라샤또?",
@@ -227,7 +222,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "L'abbiamo lasciato lì.",
    "ko": "거기 두고 왔어.",
    "rd": "라비아모 라샤또 리.",
@@ -258,7 +252,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tranquilli, va bene.",
    "ko": "걱정 마, 괜찮아.",
    "rd": "트란뀔리, 바 베네.",
@@ -282,7 +275,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma dai, dorme da Giulia!",
    "ko": "에이, 줄리아네서 자고 있어!",
    "rd": "마 다이, 도르메 다 줄리아!",

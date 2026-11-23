@@ -53,7 +53,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, come state oggi?",
    "ko": "그럼, 어디가 불편하세요?",
    "rd": "알로라, 꼬메 스따떼 오찌?",
@@ -95,7 +94,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Stiamo male. Abbiamo mal di testa.",
    "ko": "몸이 안 좋아요. 머리가 아파요.",
    "rd": "스띠아모 말레. 아비아모 말 디 떼스따.",
@@ -126,7 +124,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Avete fatto qualcosa ieri?",
    "ko": "어제 뭘 하셨나요?",
    "rd": "아베떼 파또 꽐꼬자 이에리?",
@@ -163,7 +160,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Abbiamo guardato i telefoni tutta la notte.",
    "ko": "밤새 휴대폰을 봤어요.",
    "rd": "아비아모 구아르다또 이 뗄레포니 뚜따 라 노떼.",
@@ -199,7 +195,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Avete dormito poco allora?",
    "ko": "그럼 잠을 적게 주무셨나요?",
    "rd": "아베떼 도르미또 뽀꼬 알로라?",
@@ -235,7 +230,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, i telefoni sono sempre accesi.",
    "ko": "네, 휴대폰은 항상 켜져 있어요.",
    "rd": "씨, 이 뗄레포니 쏘노 쎔프레 아체지.",
@@ -281,7 +275,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, guardate. Anch'io ho guardato il telefono.",
    "ko": "글쎄요, 보세요. 저도 휴대폰 봤어요.",
    "rd": "보, 구아르다떼. 안끼오 오 구아르다또 일 뗄레포노.",
@@ -311,7 +304,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Anche Lei? Ma dai!",
    "ko": "선생님도요? 에이!",
    "rd": "안께 레이? 마 다이!",

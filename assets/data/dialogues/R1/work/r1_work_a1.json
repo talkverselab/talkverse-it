@@ -52,7 +52,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lei è il nuovo ragazzo?",
    "ko": "새로 온 분이세요?",
    "rd": "레이 에 일 누오보 라가쪼?",
@@ -81,7 +80,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, sono pronto.",
    "ko": "네, 준비됐어요.",
    "rd": "씨, 쏘노 프론또.",
@@ -120,7 +118,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Può portare il piatto al tavolo?",
    "ko": "접시를 테이블로 가져다 주실 수 있나요?",
    "rd": "뿌오 뽀르따레 일 삐아또 알 따볼로?",
@@ -147,7 +144,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Certo, posso portarlo.",
    "ko": "네, 제가 가져갈 수 있어요.",
    "rd": "체르또, 뽀쏘 뽀르따를로.",
@@ -183,7 +179,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "È bravo, davvero. Prenda questo.",
    "ko": "잘하시네요, 정말. 이거 드세요.",
    "rd": "에 브라보, 다베로. 프렌다 꿰스또.",
@@ -222,7 +217,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Grazie, mamma. Oddio, scusi.",
    "ko": "고마워요, 엄마. 세상에, 실례합니다.",
    "rd": "그라찌에, 맘마. 오디오, 스꾸지.",
@@ -262,7 +256,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusi? Può ripetere?",
    "ko": "네? 다시 말씀해 주실 수 있나요?",
    "rd": "스꾸지? 뿌오 리뻬떼레?",
@@ -293,7 +286,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusi, signora. Porto il piatto.",
    "ko": "실례합니다, 부인. 접시 가져갈게요.",
    "rd": "스꾸지, 씨뇨라. 뽀르또 일 삐아또.",

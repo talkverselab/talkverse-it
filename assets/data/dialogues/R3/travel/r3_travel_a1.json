@@ -54,7 +54,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Pronto, siamo arrivati noi!",
    "ko": "여보세요, 우리 도착했어!",
    "rd": "프론또, 씨아모 아리바띠 노이!",
@@ -95,7 +94,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Che bello, siete bravi voi! Ma non vi vediamo.",
    "ko": "정말 멋지네, 너희 잘했어! 그런데 안 보여.",
    "rd": "께 벨로, 씨에떼 브라비 보이! 마 논 비 베디아모.",
@@ -136,7 +134,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma dove sono le due donne molto belle?",
    "ko": "그런데 그 엄청 예쁜 두 여자들은 어디 있어?",
    "rd": "마 도베 쏘노 레 두에 돈네 몰또 벨레?",
@@ -167,7 +164,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sappiamo noi, le vediamo anche!",
    "ko": "우리 알아, 우리도 보여!",
    "rd": "싸삐아모 노이, 레 베디아모 안께!",
@@ -189,7 +185,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ci guardano loro?",
    "ko": "그들이 우리 보고 있어?",
    "rd": "치 구아르다노 로로?",
@@ -236,7 +231,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Allora, fanno così. Ci guardano e ridono, veniamo noi!",
    "ko": "그럼, 그렇게 해. 우리 보고 웃으면서 우리가 온다!",
    "rd": "알로라, 판노 꼬지. 치 구아르다노 에 리도노, 베니아모 노이!",
@@ -281,7 +275,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guardate, le vedo! Vengono qui!",
    "ko": "봐, 그 여자들 보여! 여기로 와!",
    "rd": "구아르다떼, 레 베도! 벵고노 뀌!",
@@ -307,7 +300,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, siamo noi le belle!",
    "ko": "응, 우리가 그 예쁜 여자들이야!",
    "rd": "씨, 씨아모 노이 레 벨레!",

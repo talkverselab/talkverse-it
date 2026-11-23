@@ -63,7 +63,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Dai, la macchina del caffè fa rumori strani.",
    "ko": "에이, 커피 머신이 이상한 소리를 내.",
    "rd": "다이, 라 마끼나 델 까페 파 루모리 스트라니.",
@@ -104,7 +103,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Infatti, i clienti aspettano. Che facciamo adesso?",
    "ko": "맞아, 손님들이 기다리고 있어. 이제 어떡하지?",
    "rd": "인파띠, 이 클리엔띠 아스뻬따노. 께 파챠모 아데쏘?",
@@ -145,7 +143,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Tu apri, io chiudo. È il turno di oggi.",
    "ko": "너는 열고, 나는 닫아. 오늘 근무야.",
    "rd": "뚜 아프리, 이오 끼우도. 에 일 뚜르노 디 오찌.",
@@ -182,7 +179,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma il mio stipendio è basso per questi turni.",
    "ko": "근데 이 근무들 치고 내 월급이 적어.",
    "rd": "마 일 미오 스띠뻰디오 에 바쏘 뻬르 꿰스띠 뚜르니.",
@@ -223,7 +219,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "I soldi fanno sempre casino, vero?",
    "ko": "돈만 나오면 항상 난리야, 그치?",
    "rd": "이 쏠디 판노 쎔프레 까지노, 베로?",
@@ -270,7 +265,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ho mal di testa. Sono stanco di questa cosa.",
    "ko": "머리가 아파. 이 일에 지쳤어.",
    "rd": "오 말 디 떼스따. 쏘노 스딴꼬 디 꿰스따 꼬자.",
@@ -328,7 +322,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Da lunedì cambiamo i turni, promesso.",
    "ko": "다음 주부터 근무표 바꾸자, 약속해.",
    "rd": "다 루네디 깜비아모 이 뚜르니, 프로메쏘.",
@@ -369,7 +362,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Davvero? Allora lavorerò più sereno.",
    "ko": "진짜? 그럼 더 편하게 일할 거야.",
    "rd": "다베로? 알로라 라보레로 삐우 쎄레노.",
@@ -409,7 +401,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì. Il lavoro andrà meglio da lunedì.",
    "ko": "응. 월요일부터 일이 더 잘 될 거야.",
    "rd": "씨. 일 라보로 안드라 멜리오 다 루네디.",
@@ -455,7 +446,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi scusi, il caffè è pronto? Aspetto da tanto.",
    "ko": "실례합니다, 커피 나왔나요? 오래 기다렸어요.",
    "rd": "미 스꾸지, 일 까페 에 프론또? 아스뻬또 다 딴또.",
@@ -491,7 +481,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Un attimo, signora. La macchina ha un problema.",
    "ko": "잠깐만요, 부인. 기계에 문제가 있어요.",
    "rd": "운 아띠모, 씨뇨라. 라 마끼나 아 운 프로블레마.",
@@ -527,7 +516,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia! Si è fermata del tutto adesso.",
    "ko": "맙소사! 지금 완전히 멈췄어.",
    "rd": "맘마 미아! 씨 에 페르마따 델 뚜또 아데쏘.",
@@ -573,7 +561,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Oddio, e i clienti? Che casino qui.",
    "ko": "어머, 손님들은요? 여기 완전 난리네요.",
    "rd": "오디오, 에 이 클리엔띠? 께 까지노 뀌.",
@@ -624,7 +611,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi scusi tanto. Le offro un tè intanto?",
    "ko": "정말 죄송합니다. 그동안 차라도 드릴까요?",
    "rd": "미 스꾸지 딴또. 레 오프로 운 떼 인딴또?",

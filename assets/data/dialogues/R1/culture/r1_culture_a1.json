@@ -49,7 +49,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guarda la mano!",
    "ko": "손 봐!",
    "rd": "구아르다 라 마노!",
@@ -75,7 +74,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Cosa vuoi dire?",
    "ko": "무슨 뜻이야?",
    "rd": "꼬자 부오이 디레?",
@@ -107,7 +105,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Faccio così, vedi?",
    "ko": "이렇게 해, 알겠지?",
    "rd": "파쵸 꼬지, 베디?",
@@ -128,7 +125,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Lo faccio a Marco.",
    "ko": "마르코한테 그거 해.",
    "rd": "로 파쵸 아 마르꼬.",
@@ -160,7 +156,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "No! Non lo fai così!",
    "ko": "아니! 그렇게 안 해!",
    "rd": "노! 논 로 파이 꼬지!",
@@ -196,7 +191,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma cosa vuol dire? È figo!",
    "ko": "근데 무슨 뜻이야? 멋져!",
    "rd": "마 꼬자 부올 디레? 에 피고!",
@@ -236,7 +230,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non capisco. Vado.",
    "ko": "모르겠어. 가.",
    "rd": "논 까삐스꼬. 바도.",
@@ -262,7 +255,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ha capito tutto!",
    "ko": "다 이해했어!",
    "rd": "아 까삐또 뚜또!",

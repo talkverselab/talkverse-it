@@ -71,7 +71,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Guarda, credo che tu abbia preso il libro sbagliato.",
    "ko": "봐, 너 엉뚱한 책 가져왔다고 생각해.",
    "rd": "구아르다, 크레도 께 뚜 아비아 프레조 일 리브로 스발리아또.",
@@ -122,7 +121,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Boh, ieri l'avevo preso in fretta e non guardavo.",
    "ko": "몰라, 어제 급하게 집었는데 안 봤어.",
    "rd": "보, 이에리 라베보 프레조 인 프레따 에 논 구아르다보.",
@@ -158,7 +156,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Se fossi venuto a lezione, avresti saputo quale.",
    "ko": "수업에 왔으면 어떤 건지 알았을 텐데.",
    "rd": "쎄 포씨 베누또 아 레찌오네, 아브레스띠 싸뿌또 꽐레.",
@@ -213,7 +210,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Se potessi tornare indietro, ci andrei. Ma non ci sono andato.",
    "ko": "돌아갈 수 있으면 갈 텐데. 근데 안 갔어.",
    "rd": "쎄 뽀떼씨 또르나레 인디에트로, 치 안드레이. 마 논 치 쏘노 안다또.",
@@ -252,7 +248,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Quella che scrive sempre tutto è Elena, guarda.",
    "ko": "항상 다 적는 사람이 엘레나야, 봐.",
    "rd": "꿸라 께 스크리베 쎔프레 뚜또 에 엘레나, 구아르다.",
@@ -298,7 +293,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Penso che veda ogni dettaglio. Volevo che mi prestassi gli appunti.",
    "ko": "모든 디테일을 다 보는 것 같아. 필기 빌려주길 바랐어.",
    "rd": "뻰쏘 께 베다 오니 데딸리오. 볼레보 께 미 프레스따씨 리 아뿐띠.",
@@ -327,7 +321,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Io… li ho sempre con me, se ti servono.",
    "ko": "나… 항상 가지고 있어, 필요하면.",
    "rd": "이오… 리 오 쎔프레 꼰 메, 쎄 띠 쎄르보노.",
@@ -361,7 +354,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Davvero? Non sapevo che ce li avessi tu.",
    "ko": "진짜? 네가 가지고 있는 줄 몰랐어.",
    "rd": "다베로? 논 싸뻬보 께 체 리 아베씨 뚜.",
@@ -392,7 +384,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Te li presto volentieri, me li ridai dopo.",
    "ko": "기꺼이 빌려줄게, 나중에 돌려줘.",
    "rd": "떼 리 프레스또 볼렌띠에리, 메 리 리다이 도뽀.",
@@ -428,7 +419,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma dai, te li ha già dati? Che figata.",
    "ko": "에이, 이미 줬어? 대박이네.",
    "rd": "마 다이, 떼 리 아 쟈 다띠? 께 피가따.",
@@ -469,7 +459,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Sì, glieli presto sempre. Magari ti aiutano.",
    "ko": "응, 항상 빌려주곤 해. 도움이 될지도.",
    "rd": "씨, 리엘리 프레스또 쎔프레. 마가리 띠 아이우따노.",
@@ -510,7 +499,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ci pensavo anch'io… Ma non osavo dirti che mi piaci.",
    "ko": "나도 생각하고 있었어… 근데 너 좋아한다고 말하기 무서웠어.",
    "rd": "치 뻰싸보 안끼오… 마 논 오자보 디르띠 께 미 삐아치.",
@@ -570,7 +558,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Volevo che trovassi il coraggio. C'è un biglietto in fondo agli appunti.",
    "ko": "용기 내길 바랐어. 필기 맨 뒤에 쪽지가 있어.",
    "rd": "볼레보 께 트로바씨 일 꼬라조. 체 운 빌리에또 인 폰도 알리 아뿐띠.",
@@ -609,7 +596,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Magari è per me! Allora lo leggo subito.",
    "ko": "나한테 쓰는 걸지도! 그럼 바로 읽어볼게.",
    "rd": "마가리 에 뻬르 메! 알로라 로 레고 쑤비또.",

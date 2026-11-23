@@ -60,7 +60,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ti avevo detto di arrivare presto!",
    "ko": "너 일찍 오라고 말했었잖아!",
    "rd": "띠 아베보 데또 디 아리바레 프레스또!",
@@ -112,7 +111,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mi sono sbagliato. Se avessi saputo, sarei venuto prima.",
    "ko": "제가 착각했어요. 알았으면 더 일찍 왔을 텐데요.",
    "rd": "미 쏘노 스발리아또. 쎄 아베씨 싸뿌또, 싸레이 베누또 프리마.",
@@ -151,7 +149,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Chi arriva tardi, mangia freddo.",
    "ko": "늦게 오는 사람은 찬 음식을 먹어요.",
    "rd": "끼 아리바 따르디, 만쟈 프레도.",
@@ -188,7 +185,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Avrei voluto arrivare in orario.",
    "ko": "제때 오고 싶었는데.",
    "rd": "아브레이 볼루또 아리바레 인 오라리오.",
@@ -225,7 +221,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Infatti, è quello di cui mi aveva detto Giulia.",
    "ko": "맞아요, 줄리아가 제게 말했던 그거예요.",
    "rd": "인파띠, 에 꿸로 디 꾸이 미 아베바 데또 줄리아.",
@@ -249,7 +244,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Mamma mia, che buono!",
    "ko": "와, 정말 맛있네요!",
    "rd": "맘마 미아, 께 부오노!",
@@ -290,7 +284,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non tagliare gli spaghetti di cui ti avevo parlato, dai!",
    "ko": "내가 말했던 그 스파게티 자르지 마!",
    "rd": "논 딸리아레 리 스빠게띠 디 꾸이 띠 아베보 빠를라또, 다이!",
@@ -319,7 +312,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Scusi, non lo sapevo.",
    "ko": "실례합니다, 몰랐어요.",
    "rd": "스꾸지, 논 로 싸뻬보.",
@@ -358,7 +350,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Stia tranquillo, va bene così.",
    "ko": "걱정 마세요, 이렇게 괜찮아요.",
    "rd": "스띠아 트란뀔로, 바 베네 꼬지.",
@@ -413,7 +404,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Avrei dovuto ascoltare. Infatti li ho tagliati, scusi.",
    "ko": "들었어야 했을 텐데요. 맞아요 제가 잘라 버렸어요, 실례합니다.",
    "rd": "아브레이 도부또 아스꼴따레. 인파띠 리 오 딸리아띠, 스꾸지.",
@@ -453,7 +443,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "È quello di cui parlavamo prima, sì.",
    "ko": "우리가 전에 말하던 그거예요, 네.",
    "rd": "에 꿸로 디 꾸이 빠를라바모 프리마, 씨.",
@@ -485,7 +474,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Ma dai, ti avevo detto di non tagliarlo!",
    "ko": "에이, 자르지 말라고 내가 말했었잖아!",
    "rd": "마 다이, 띠 아베보 데또 디 논 딸리아를로!",
@@ -521,7 +509,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Non l'avevo capito, scusi.",
    "ko": "이해하지 못했어요, 실례합니다.",
    "rd": "논 라베보 까삐또, 스꾸지.",
@@ -552,7 +539,6 @@
      ""
     ]
    ],
-   "grok": true,
    "it": "Chi vuole, ne prende ancora.",
    "ko": "원하는 사람은 더 가져요.",
    "rd": "끼 부올레, 네 프렌데 안꼬라.",
