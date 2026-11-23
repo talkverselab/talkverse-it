@@ -4,6 +4,8 @@ import 'package:italian_universe/screens/curriculum_screen.dart';
 import 'package:italian_universe/services/curriculum_service.dart';
 import 'package:italian_universe/services/dialogue_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'dart:convert';
+import 'dart:io';
 
 Dialogue _d(String id, String island, int n) => Dialogue.fromJson({
       'id': id,
@@ -167,4 +169,56 @@ void main() {
       expect(t.takeException(), isNull);
     });
   }
+
+  group('§12 단계는 서버 JSON(앱 안 기본값)', () {
+    late Directory dir;
+    setUp(() {
+      dir = Directory.systemTemp.createTempSync('cur12');
+      SharedPreferences.setMockInitialValues({});
+      CurriculumService.instance
+        ..resetForTest()
+        ..cacheDirOverride = dir
+        ..fetchOverride = (_) async => null;
+    });
+    tearDown(() => dir.deleteSync(recursive: true));
+
+    test('서버를 못 받으면 앱 안 JSON — 5단계, 1단계 = R0+R1', () async {
+      final svc = CurriculumService.instance;
+      await svc.ensureLoaded();
+      expect(svc.stages.map((s) => s.id), ['1', '2', '3', '4', '5']);
+      expect(svc.levelList('1').map((d) => d.region).toSet(), {'R0', 'R1'});
+      expect(svc.levelList('5').every((d) => d.region == 'R5'), isTrue);
+      expect(svc.nextLevel('1'), '2');
+      expect(svc.nextLevel('5'), isNull);
+    });
+
+    test('옛 진도 level=R2 는 2단계로 읽음', () async {
+      SharedPreferences.setMockInitialValues({'it_curriculum_v1': json.encode({'level': 'R2'})});
+      final svc = CurriculumService.instance;
+      await svc.ensureLoaded();
+      expect(svc.state.level, '2');
+    });
+
+    test('서버 rev 가 높으면 바꿔 씀 — 앱에 없는 편 건너뜀, 편 0개 단계 숨김', () async {
+      final svc = CurriculumService.instance;
+      await svc.ensureLoaded();
+      final first = DialogueService.instance.list(region: 'R0').first.id;
+      svc.fetchOverride = (_) async => json.encode({
+            'rev': 99,
+            'stages': [
+              {'n': 1, 'title': '첫 단계', 'dialogueIds': [first, 'no_such_ep']},
+              {'n': 2, 'title': '빈 단계', 'dialogueIds': ['no_such_ep']},
+            ],
+            'prep': [],
+          });
+      expect(await svc.refreshConfig(), isTrue);
+      expect(svc.stages.map((s) => s.id), ['1']);
+      expect(svc.levelList('1').map((d) => d.id), [first]);
+      expect(svc.stageTitle('1'), '첫 단계');
+      // 같은·낮은 rev 는 무시
+      svc.fetchOverride = (_) async => json.encode({'rev': 1, 'stages': []});
+      expect(await svc.refreshConfig(), isFalse);
+      expect(File('${dir.path}/curriculum_it.json').existsSync(), isTrue);
+    });
+  });
 }
