@@ -220,5 +220,26 @@ void main() {
       expect(await svc.refreshConfig(), isFalse);
       expect(File('${dir.path}/curriculum_it.json').existsSync(), isTrue);
     });
+
+    test('pass·daily 도 단계 JSON 에서(없으면 80 · 1·2·3)', () async {
+      final svc = CurriculumService.instance;
+      await svc.ensureLoaded();
+      final first = DialogueService.instance.list(region: 'R0').first.id;
+      expect(svc.passFor('1'), 80);
+      svc.fetchOverride = (_) async => json.encode({
+            'rev': 100,
+            'stages': [
+              {'n': 1, 'title': '1단계', 'dialogueIds': [first], 'pass': 70, 'daily': {'light': 2, 'normal': 4, 'focus': 6}},
+            ],
+          });
+      await svc.refreshConfig();
+      svc.state.level = '1';
+      svc.state.dailyGoal = 2;
+      svc.syncDaily();
+      expect(svc.passFor(), 70);
+      expect(svc.state.newLeft(svc.today), 4);
+      svc.state.course = Course('c', [first], practiced: [first]);
+      expect(svc.state.recordExam(7, 10, {}, svc.today, pass: svc.passFor()), isTrue); // 70% 통과
+    });
   });
 }

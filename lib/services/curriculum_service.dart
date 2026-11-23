@@ -71,7 +71,9 @@ class Course {
 /// `curriculum_v1` 한 벌. 기준 형식 + `today`(오늘 한 양 — 홈 카드 진행 막대용, 기준 문서에 없는 칸이라 uk 에 알림).
 class CurriculumState {
   String? level;
-  int dailyGoal; // 새 편 수: 1 가볍게 · 2 보통 · 3 집중
+  int dailyGoal; // 하루 목표: 1 가볍게 · 2 보통 · 3 집중(새 편 수는 단계 JSON daily 가 정함, 없으면 1·2·3)
+  /// 오늘 새 편 수 — 서비스가 단계 JSON `daily` 로 채움(저장하지 않음). null 이면 dailyGoal 그대로.
+  int? newPerDay;
   Course? course;
   final List<String> passedDialogues;
   final List<ReviewItem> review;
@@ -131,7 +133,7 @@ class CurriculumState {
   List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
 
   /// 오늘 남은 새 편 수.
-  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+  int newLeft(String today) => max(0, (newPerDay ?? dailyGoal) - (todayDay == today ? todayNew : 0));
 
   /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
   bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
@@ -185,12 +187,12 @@ class CurriculumState {
   }
 
   /// 코스 시험 결과. 통과면 코스 완료·통과 편 기록, 아니면 틀린 편의 연습 표시를 지워 다시 연습하게.
-  bool recordExam(int correct, int total, Set<String> wrongDialogues, String today) {
+  bool recordExam(int correct, int total, Set<String> wrongDialogues, String today, {int pass = kPassPercent}) {
     final c = course;
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= pass) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -289,7 +291,8 @@ class CurStage {
   final List<String> dialogueIds;
   final List<int> pick;
   final int pass;
-  const CurStage(this.id, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent});
+  final Map<String, int> daily; // light·normal·focus → 하루 새 편 수
+  const CurStage(this.id, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = kDefaultDaily});
 }
 
 /// 옛 회화 레벨(R0~R5) → 단계(§12 기본 대응: R0+R1 → 1, R2 → 2 … R5 → 5).
@@ -307,12 +310,16 @@ List<CurStage> parseStages(Map d, bool Function(String id) has) {
     if (ids.isEmpty) continue;
     final n = '${s['n']}';
     out.add(CurStage(n, '${s['title'] ?? trStage(n)}', '${s['desc'] ?? ''}', ids,
-        pick: [for (final x in (s['pick'] as List? ?? const [3, 5, 10])) (x as num).toInt()], pass: (s['pass'] as num?)?.toInt() ?? kPassPercent));
+        pick: [for (final x in (s['pick'] as List? ?? const [3, 5, 10])) (x as num).toInt()], pass: (s['pass'] as num?)?.toInt() ?? kPassPercent,
+        daily: {...kDefaultDaily, for (final e in ((s['daily'] as Map?) ?? const {}).entries) if (e.value is num) '${e.key}': (e.value as num).toInt()}));
   }
   return out;
 }
 
 String trStage(String n) => '$n단계';
+
+const kDefaultDaily = {'light': 1, 'normal': 2, 'focus': 3};
+const kDailyKeys = ['light', 'normal', 'focus']; // dailyGoal 1·2·3
 
 class CurriculumService {
   CurriculumService._();
@@ -363,6 +370,7 @@ class CurriculumService {
     final lv = state.level;
     if (lv != null && lv.startsWith('R')) state.level = stageOfRegion(lv);
     if (state.level != null && stageById(state.level!) == null) state.level = stages.isEmpty ? null : stages.first.id;
+    syncDaily();
     _loaded = true;
     refreshConfig(); // 뒤에서 서버 판 확인(실패해도 그대로)
   }
@@ -419,6 +427,7 @@ class CurriculumService {
       if (rev <= configRev || parseStages(d, _has).isEmpty) return false;
       _apply(d);
       (await _cacheFile())?.writeAsStringSync(body, flush: true);
+      syncDaily();
       changed.value++;
       return true;
     } catch (_) {
@@ -439,7 +448,18 @@ class CurriculumService {
     }
   }
 
+  /// 지금 단계의 통과 점수(단계 JSON `pass`, 없으면 80).
+  int passFor([String? level]) => stageById(level ?? state.level ?? '')?.pass ?? kPassPercent;
+
+  /// 하루 새 편 수를 단계 JSON `daily` 로 맞춘다.
+  void syncDaily() {
+    final st = stageById(state.level ?? '');
+    final k = kDailyKeys[(state.dailyGoal - 1).clamp(0, 2)];
+    state.newPerDay = st?.daily[k];
+  }
+
   Future<void> save() async {
+    syncDaily();
     await (await Prefs.getInstance()).setString(key, json.encode(state.toJson()));
     changed.value++;
   }
