@@ -1,0 +1,78 @@
+{
+ "ep": "r0_love_a3",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Allora, vado a casa."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Già? Resta ancora."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao, caro!"
+    ]
+   ],
+   "f": {
+    "text": "Ciao, cara!",
+    "rd": "챠오, 까라!",
+    "ko": "안녕, 자기야!",
+    "segs": [
+     [
+      "cheerful",
+      "Ciao, cara!"
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Cosa? Caro?"
+    ]
+   ],
+   "f": {
+    "text": "Cosa? Cara?",
+    "rd": "꼬자? 까라?",
+    "ko": "뭐? 자기야?",
+    "segs": [
+     [
+      "surprised",
+      "Cosa? Cara?"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Cioè... scusa!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ti piaccio, eh?"
+    ]
+   ]
+  }
+ }
+}

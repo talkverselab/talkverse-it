@@ -1,0 +1,125 @@
+{
+ "ep": "r5_culture_b1",
+ "cast": {
+  "B": "chiara",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Finalmente siamo al matrimonio di mia cugina!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Ho preparato la busta con cento euro. Va bene?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Mamma mia, ai miei tempi erano le lire!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Infatti, adesso si mettono almeno cento euro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Gli sposi sono belli."
+    ],
+    [
+     "annoyed",
+     " Ma la busta è piccola."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Magari è abbastanza per il pranzo."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "C'è anche il battesimo della nipote dopo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Due feste? Non ho preparato un'altra busta."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Cosa?! Hai portato solo una? È un casino!"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Lascia stare, i soldi non sono tutto."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Ma adesso la famiglia si arrabbia con me?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "Sì! Mia zia si arrabbierà di sicuro!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "teasing",
+     "Magari tua zia ride e dice che va bene!"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Cioè, devo mettere da parte lo stipendio?"
+    ]
+   ]
+  }
+ }
+}

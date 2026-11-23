@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Marco, domani farò io il caffè!"
+     "Farò io il caffè oggi."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Tu? Ma sai fare il caffè?"
+     "Sai fare il caffè?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo che lo so fare! Ti guardo ogni giorno."
+     "Sì, so fare un caffè buono."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Allora fammi vedere. Adesso."
+     "Allora fammi vedere, dai."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "cheerful",
-     "Ecco il caffè. Quanto zucchero vuoi?"
+     "Metto il caffè nella tazzina."
     ]
    ]
   },
@@ -48,11 +48,11 @@
    "segs": [
     [
      "neutral",
-     "Uno, grazie. Mmm..."
+     "Senti."
     ],
     [
      "surprised",
-     " cos'hai messo? È sale!"
+     " Hai messo il sale?"
     ]
    ]
   },
@@ -60,7 +60,7 @@
    "segs": [
     [
      "flustered",
-     "Ho messo il sale?! Allora anche la torta di ieri l'ho fatta con il sale!"
+     "Ho messo il sale! L'ho fatto male."
     ]
    ]
   },
@@ -68,7 +68,7 @@
    "segs": [
     [
      "amused",
-     "Ecco perché Chiara ha detto «Buonissima!» e non l'ha finita."
+     "Ecco, l'hai fatto male."
     ]
    ]
   }

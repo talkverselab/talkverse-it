@@ -8,7 +8,7 @@
    "segs": [
     [
      "shy",
-     "Senti... domani cosa fai?"
+     "Senti, che fai domani?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "neutral",
-     "Niente. Passo il giorno a casa."
+     "Studio un po' a casa."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "teasing",
-     "Allora domani ti porterò in un posto."
+     "Allora vorrei vederti."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "Davvero? Dove mi porti?"
+     "Dove ci vediamo domani?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "teasing",
-     "Non dico niente. Ti piace la musica?"
+     "Ti piace questo posto?"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Sì, tanto. Ma non so ballare."
+     "Non so, boh."
     ]
    ]
   },
@@ -56,17 +56,17 @@
    "segs": [
     [
      "gentle",
-     "Tranquillo. Ballo io, e tu mi guardi."
+     "Tranquillo, guarda il tramonto."
     ]
    ],
    "f": {
-    "text": "Tranquilla. Ballo io, e tu mi guardi.",
-    "rd": "트란뀔라. 발로 이오, 에 뚜 미 구아르디.",
-    "ko": "걱정 마. 춤은 내가 출게, 넌 나만 봐.",
+    "text": "Tranquilla, guarda il tramonto.",
+    "rd": "트란뀔라, 구아르다 일 트라몬또.",
+    "ko": "진정해, 노을 봐.",
     "segs": [
      [
       "gentle",
-      "Tranquilla. Ballo io, e tu mi guardi."
+      "Tranquilla, guarda il tramonto."
      ]
     ]
    }
@@ -75,11 +75,11 @@
    "segs": [
     [
      "amused",
-     "Va bene."
+     "Mi piace..."
     ],
     [
      "shy",
-     "Ti guardo già sempre."
+     " cioè, stare qui."
     ]
    ]
   }

@@ -9,7 +9,7 @@
    "segs": [
     [
      "shy",
-     "Senti... domani cosa fate?"
+     "Senti, voi cosa fate domani?"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "neutral",
-     "Niente. Passiamo il giorno a casa."
+     "Non sappiamo. Non abbiamo piani."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "teasing",
-     "Allora domani vi porterò in un posto."
+     "Allora vi porterò in centro."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "excited",
-     "Davvero? Dove ci porti?"
+     "Ci porti anche al fiume?"
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "teasing",
-     "Non dico niente. Vi piace la musica?"
+     "Vi piace il fiume di sera?"
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "flustered",
-     "Sì, tanto. Ma non sappiamo ballare."
+     "Sì, ci piace tanto."
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "gentle",
-     "Tranquilli. Ballo io, e voi mi guardate."
+     "Tranquilli. Passiamo la sera insieme?"
     ]
    ]
   },
@@ -65,11 +65,11 @@
    "segs": [
     [
      "amused",
-     "Va bene."
+     "Passiamo la sera noi due."
     ],
     [
      "shy",
-     "Ti guardo già sempre."
+     " Oh, scusa Luca."
     ]
    ]
   }

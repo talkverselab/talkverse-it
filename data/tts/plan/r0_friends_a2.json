@@ -1,0 +1,75 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Guarda! È la mamma!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Davvero? È lei?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Oh no! È ancora accesa!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shout",
+     "Chiudi! Subito!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Mamma mia, ride tanto!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ma dai, è carina."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Sono vicino... aiuto."
+    ]
+   ],
+   "f": {
+    "text": "Sono vicina... aiuto.",
+    "rd": "쏘노 비치나... 아이우또.",
+    "ko": "나 너무 붙어 있어... 살려줘.",
+    "segs": [
+     [
+      "flustered",
+      "Sono vicina... aiuto."
+     ]
+    ]
+   }
+  }
+ }
+}

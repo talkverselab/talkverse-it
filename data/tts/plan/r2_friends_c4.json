@@ -1,0 +1,72 @@
+{
+ "ep": "r2_friends_c4",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ehi, guarda cosa ho fatto 🎨"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Boh, cos'è? 🤔"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "È il mio ritratto! 😍"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Sembra un vecchio... 😳"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Ma dai! Cioè, sono io! 😤"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Scusa, non volevo 😅"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Vabbè, dai è tutto ok 😂"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Allora, ti piace o no? 😏"
+    ]
+   ]
+  }
+ }
+}

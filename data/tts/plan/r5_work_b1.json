@@ -9,7 +9,7 @@
    "segs": [
     [
      "annoyed",
-     "Sette e mezza. E la macchina fa già quel rumore."
+     "Dai, la macchina del caffè fa rumori strani."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "flustered",
-     "Non l'ho toccata, te lo giuro! Faceva così anche ieri."
+     "Infatti, i clienti aspettano. Che facciamo adesso?"
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "teasing",
-     "Ieri il turno era mio. Oggi è tuo."
+     "Tu apri, io chiudo. È il turno di oggi."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "annoyed",
-     "Infatti, è mio ogni sabato da tre mesi. Quando ne parliamo, di questi turni?"
+     "Ma il mio stipendio è basso per questi turni."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Dai, adesso? Con venti clienti in fila?"
+     "I soldi fanno sempre casino, vero?"
     ]
    ]
   },
@@ -49,25 +49,25 @@
    "segs": [
     [
      "annoyed",
-     "Sì, adesso."
+     "Ho mal di testa."
     ],
     [
      "sad",
-     " Studio, lavoro, e la sera sono distrutto."
+     " Sono stanco di questa cosa."
     ]
    ],
    "f": {
-    "text": "Sì, adesso. Studio, lavoro, e la sera sono distrutta.",
-    "rd": "씨, 아데쏘. 스뚜디오, 라보로, 에 라 쎄라 쏘노 디스트루따.",
-    "ko": "응, 지금. 공부하고 일하고, 저녁엔 완전 녹초야.",
+    "text": "Ho mal di testa. Sono stanca di questa cosa.",
+    "rd": "오 말 디 떼스따. 쏘노 스딴까 디 꿰스따 꼬자.",
+    "ko": "머리가 아파. 이 일에 지쳤어.",
     "segs": [
      [
       "annoyed",
-      "Sì, adesso."
+      "Ho mal di testa."
      ],
      [
       "sad",
-      " Studio, lavoro, e la sera sono distrutta."
+      " Sono stanca di questa cosa."
      ]
     ]
    }
@@ -76,7 +76,7 @@
    "segs": [
     [
      "gentle",
-     "Lo so. Anch'io sono stanco. Ma tra un anno apro un posto mio."
+     "Da lunedì cambiamo i turni, promesso."
     ]
    ]
   },
@@ -84,15 +84,26 @@
    "segs": [
     [
      "surprised",
-     "Un posto tuo? E chi fa il caffè qui, senza di te?"
+     "Davvero? Allora lavorerò più sereno."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Davvero? Allora lavorerò più serena.",
+    "rd": "다베로? 알로라 라보레로 삐우 쎄레나.",
+    "ko": "진짜? 그럼 더 편하게 일할 거야.",
+    "segs": [
+     [
+      "surprised",
+      "Davvero? Allora lavorerò più serena."
+     ]
+    ]
+   }
   },
   "9": {
    "segs": [
     [
      "gentle",
-     "Tu. Diventi tu il responsabile. Ci ho già pensato."
+     "Sì. Il lavoro andrà meglio da lunedì."
     ]
    ]
   },
@@ -100,7 +111,7 @@
    "segs": [
     [
      "worried",
-     "Buongiorno, ragazzi! Marco, che cos'è questo rumore?"
+     "Mi scusi, il caffè è pronto? Aspetto da tanto."
     ]
    ]
   },
@@ -108,7 +119,7 @@
    "segs": [
     [
      "flustered",
-     "Signora Rinaldi! Niente, la macchina ha solo un po' di febbre."
+     "Un attimo, signora. La macchina ha un problema."
     ]
    ]
   },
@@ -116,11 +127,11 @@
    "segs": [
     [
      "flustered",
-     "Anzi, si è fermata del tutto."
+     "Mamma mia!"
     ],
     [
      "stiff",
-     " Signora, niente cappuccini finché non arriva il tecnico."
+     " Si è fermata del tutto adesso."
     ]
    ]
   },
@@ -128,11 +139,11 @@
    "segs": [
     [
      "worried",
-     "Mamma mia, con questa fila! Lo chiamo subito."
+     "Oddio, e i clienti?"
     ],
     [
      "teasing",
-     " E dei turni ne parliamo dopo: vi ho sentiti dalla porta."
+     " Che casino qui."
     ]
    ]
   },
@@ -140,11 +151,11 @@
    "segs": [
     [
      "polite",
-     "Va bene, signora. Lo dico io ai clienti."
+     "Mi scusi tanto."
     ],
     [
      "shy",
-     " E già che ci siamo... possiamo parlare anche dello stipendio?"
+     " Le offro un tè intanto?"
     ]
    ]
   }

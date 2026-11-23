@@ -8,7 +8,7 @@
    "segs": [
     [
      "sad",
-     "Ti devo dire una cosa... è finita."
+     "È finita... 😢"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "worried",
-     "Cosa?! Con lui? Stai bene? Dimmi."
+     "Cosa? Stai bene? 😟"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "sad",
-     "No... è peggio. Molto peggio."
+     "Non ce l'ho più 😭"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "worried",
-     "Mamma mia. Vengo da te?"
+     "Il gelato? 😱"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "sad",
-     "Il gelato al pistacchio... finito. Per sempre 😭"
+     "Sì, il mio gelato è finito 😔"
     ]
    ]
   },
@@ -48,11 +48,11 @@
    "segs": [
     [
      "annoyed",
-     "Chiara. "
+     "Mamma mia."
     ],
     [
      "tsukkomi",
-     "Ma dai! Pensavo a un ragazzo!"
+     " Ma dai, è solo gelato 🙄"
     ]
    ]
   },
@@ -60,7 +60,7 @@
    "segs": [
     [
      "amused",
-     "Un ragazzo passa. Il pistacchio no."
+     "Ahah, ma era il mio preferito 😂"
     ]
    ]
   },
@@ -68,7 +68,7 @@
    "segs": [
     [
      "gentle",
-     "Va bene, va bene. Domani vieni con me in un posto nuovo."
+     "Ma dai, te ne compro uno 🍦"
     ]
    ]
   }

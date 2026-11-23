@@ -9,7 +9,7 @@ import ttslib as L
 M = 'mlx-community/whisper-large-v3-turbo'
 NUM = {'1': 'uno', '2': 'due', '3': 'tre', '8': 'otto', '15': 'quindici', '20': 'venti', '2000': 'duemila'}
 RATE_MIN = 12 / 1.15   # 이탈리아어 일상 대화는 12~18 글자/초로 잡는다, pack 이 최대 1.15배 보정
-PASS = 0.90     # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다
+PASS = float(os.environ.get('TTS_PASS', '0.90'))   # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다. 11-23 uk: 새로 만든 조각만 0.85 하한(TTS_PASS=0.85)
 FLOOR = -55.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
 
 

@@ -1,0 +1,75 @@
+{
+ "ep": "r0_friends_a4",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Parli da solo?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "shy",
+     "No, pratico."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Dai! È carino!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Ma no... è strano."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Ecco, ripeti con me."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "sad",
+     "È difficile... Davvero."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Sei bravo, dai."
+    ]
+   ],
+   "f": {
+    "text": "Sei brava, dai.",
+    "rd": "쎄이 브라바, 다이.",
+    "ko": "잘하는데, 에이.",
+    "segs": [
+     [
+      "gentle",
+      "Sei brava, dai."
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -9,36 +9,25 @@
    "segs": [
     [
      "teasing",
-     "Ehi, con chi siete usciti ieri sera?"
+     "Ehi, siete tornati tardi?"
     ]
-   ],
-   "f": {
-    "text": "Ehi, con chi siete uscite ieri sera?",
-    "rd": "에이, 꼰 끼 씨에떼 우시떼 이에리 쎄라?",
-    "ko": "야, 너희 어젯밤에 누구랑 나갔어?",
-    "segs": [
-     [
-      "teasing",
-      "Ehi, con chi siete uscite ieri sera?"
-     ]
-    ]
-   }
+   ]
   },
   "2": {
    "segs": [
     [
      "flustered",
-     "Siamo usciti con Giulia e Marco. Solo due pizze."
+     "Sì, siamo tornati insieme."
     ]
    ],
    "f": {
-    "text": "Siamo uscite con Giulia e Marco. Solo due pizze.",
-    "rd": "씨아모 우시떼 꼰 줄리아 에 마르꼬. 쏠로 두에 삐쩨.",
-    "ko": "줄리아랑 마르코랑 나갔어. 피자 두 판뿐이야.",
+    "text": "Sì, siamo tornate insieme.",
+    "rd": "씨, 씨아모 또르나떼 인씨에메.",
+    "ko": "응, 같이 들어왔어.",
     "segs": [
      [
       "flustered",
-      "Siamo uscite con Giulia e Marco. Solo due pizze."
+      "Sì, siamo tornate insieme."
      ]
     ]
    }
@@ -47,7 +36,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Due pizze? Fino alle tre di notte?"
+     "Le rose sulla tavola?"
     ]
    ]
   },
@@ -55,7 +44,7 @@
    "segs": [
     [
      "amused",
-     "Boh, le pizze erano grandi."
+     "Ci piacciono tanto, boh."
     ]
    ]
   },
@@ -63,7 +52,7 @@
    "segs": [
     [
      "teasing",
-     "E queste rose? A chi le portate?"
+     "Le portate alle nonne?"
     ]
    ]
   },
@@ -71,7 +60,7 @@
    "segs": [
     [
      "flustered",
-     "Le rose? Le portiamo alle nostre nonne."
+     "Sì, le portiamo alle nonne. Giulia e Marco!"
     ]
    ]
   },
@@ -79,7 +68,7 @@
    "segs": [
     [
      "amused",
-     "Le vostre nonne si chiamano Giulia e Marco? Nonna Marco?"
+     "Va bene. Per le nonne."
     ]
    ]
   },
@@ -87,11 +76,11 @@
    "segs": [
     [
      "shy",
-     "Va bene, ci piacciono."
+     "Cosa?"
     ],
     [
      "annoyed",
-     "Contento?"
+     " Le nonne?"
     ]
    ]
   }

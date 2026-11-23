@@ -9,7 +9,7 @@
    "segs": [
     [
      "shout",
-     "Ragazzi, la mia moto non c'è più!"
+     "Non ci credo, me l'hanno rubata!"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "worried",
-     "Calma. Dove l'avevi lasciata ieri sera?"
+     "Ti avevo detto di chiuderla bene."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "flustered",
-     "Davanti a casa, come sempre. Ne sono sicuro."
+     "Boh, ci avevo messo la catena."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "teasing",
-     "Sicuro? Ieri sera eri un po' strano. Cantavi in mezzo alla strada alle due di notte."
+     "Ieri la squadra ha vinto e oggi perdi la moto."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "excited",
-     "Abbiamo vinto! Era normale."
+     "Ma dai, l'avevo lasciata proprio qui!"
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "worried",
-     "Penso che qualcuno l'abbia rubata stanotte. Chiamiamo la polizia?"
+     "Speravo che nessuno l'avesse presa."
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "neutral",
-     "Aspetta. Luca, a che ora sei tornato a casa?"
+     "Chi l'ha presa, secondo te?"
     ]
    ]
   },
@@ -65,7 +65,7 @@
    "segs": [
     [
      "flustered",
-     "Boh. Mi sono svegliato per terra, vestito, con le chiavi in mano."
+     "Mi sono arrabbiato tantissimo."
     ]
    ]
   },
@@ -73,7 +73,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Per terra? Con le chiavi in mano? Ma dai."
+     "Ecco, sempre la stessa storia."
     ]
    ]
   },
@@ -81,7 +81,7 @@
    "segs": [
     [
      "surprised",
-     "Aspetta, mi scrive Marco. Ha mandato una foto."
+     "Non ci credo, è sparita così!"
     ]
    ]
   },
@@ -89,11 +89,11 @@
    "segs": [
     [
      "surprised",
-     "Non ci credo."
+     "Ne abbiamo parlato ieri!"
     ],
     [
      "tsukkomi",
-     " È la tua moto, davanti al bar di Marco."
+     " L'avevi lasciata al bar."
     ]
    ]
   },
@@ -101,11 +101,11 @@
    "segs": [
     [
      "surprised",
-     "Ah, ecco dove l'avevo lasciata!"
+     "Te l'avevo detto!"
     ],
     [
      "flustered",
-     " Avevo bevuto e ho preferito tornare a piedi."
+     " Non mi hai ascoltato."
     ]
    ]
   },
@@ -113,19 +113,26 @@
    "segs": [
     [
      "gentle",
-     "Hai fatto bene."
-    ],
-    [
-     "worried",
-     " Ma guarda la foto: c'è già una multa, e i vigili sono ancora lì."
+     "Tranquillo, la troviamo noi."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Tranquilla, la troviamo noi.",
+    "rd": "트란뀔라, 라 트로비아모 노이.",
+    "ko": "진정해, 우리가 찾아낼 거야.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquilla, la troviamo noi."
+     ]
+    ]
+   }
   },
   "14": {
    "segs": [
     [
      "cheerful",
-     "Allora corro. A chi mi accompagna, il caffè glielo offro io."
+     "Chi me la riporta, gli do una birra."
     ]
    ]
   }

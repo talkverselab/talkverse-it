@@ -8,17 +8,17 @@
    "segs": [
     [
      "teasing",
-     "Ehi, con chi sei uscito ieri sera?"
+     "Ehi, sei tornato tardi?"
     ]
    ],
    "f": {
-    "text": "Ehi, con chi sei uscita ieri sera?",
-    "rd": "에이, 꼰 끼 쎄이 우시따 이에리 쎄라?",
-    "ko": "야, 어젯밤에 누구랑 나갔어?",
+    "text": "Ehi, sei tornata tardi?",
+    "rd": "에이, 쎄이 또르나따 따르디?",
+    "ko": "야, 늦게 들어왔어?",
     "segs": [
      [
       "teasing",
-      "Ehi, con chi sei uscita ieri sera?"
+      "Ehi, sei tornata tardi?"
      ]
     ]
    }
@@ -27,17 +27,17 @@
    "segs": [
     [
      "flustered",
-     "Sono uscito con Giulia. Solo una pizza."
+     "Boh, sono uscito con amici."
     ]
    ],
    "f": {
-    "text": "Sono uscita con Giulia. Solo una pizza.",
-    "rd": "쏘노 우시따 꼰 줄리아. 쏠로 우나 삐짜.",
-    "ko": "줄리아랑 나갔어. 피자 하나 먹었을 뿐이야.",
+    "text": "Boh, sono uscita con amici.",
+    "rd": "보, 쏘노 우시따 꼰 아미치.",
+    "ko": "글쎄, 친구들이랑 나갔었어.",
     "segs": [
      [
       "flustered",
-      "Sono uscita con Giulia. Solo una pizza."
+      "Boh, sono uscita con amici."
      ]
     ]
    }
@@ -46,7 +46,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Una pizza? Fino alle tre di notte?"
+     "Al bar della piazza?"
     ]
    ]
   },
@@ -54,7 +54,7 @@
    "segs": [
     [
      "amused",
-     "Boh, la pizza era grande."
+     "No, c'è un posto nuovo."
     ]
    ]
   },
@@ -62,7 +62,7 @@
    "segs": [
     [
      "teasing",
-     "E questa rosa? A chi la porti?"
+     "Di chi è la rosa?"
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "segs": [
     [
      "flustered",
-     "La rosa? La porto a mia nonna."
+     "No, è per la nonna."
     ]
    ]
   },
@@ -78,7 +78,7 @@
    "segs": [
     [
      "amused",
-     "Tua nonna si chiama Giulia? C'è scritto «Per Giulia»."
+     "Era di Giulia la rosa?"
     ]
    ]
   },
@@ -86,11 +86,11 @@
    "segs": [
     [
      "shy",
-     "Va bene, mi piace."
+     "Va bene."
     ],
     [
      "annoyed",
-     "Contento?"
+     " È della nonna Giulia."
     ]
    ]
   }

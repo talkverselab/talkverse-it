@@ -1,0 +1,146 @@
+{
+ "ep": "r5_study_b1",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Domani ho il colloquio per la borsa di studio."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Buonasera. Perché vuole questa borsa?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Per la mia ricerca. Costa molto e devo risparmiare."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Boh, ma dopo la borsa il lavoro costa pure di più?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Certo. Magari continuo a studiare qui e poi lavoro."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Cosa farà in futuro con i soldi?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Lavorerò e risparmierò."
+    ],
+    [
+     "gentle",
+     " Proverò a finire la ricerca."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Bene. Quanto costa la vita qui secondo Lei?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "stiff",
+     "Tanto. Risparmierò ogni mese per il progetto."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Perfetto. Ha altre domande sul lavoro?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquillo, mi sento più sicuro adesso."
+    ]
+   ],
+   "f": {
+    "text": "Tranquillo, mi sento più sicura adesso.",
+    "rd": "트란뀔로, 미 쎈또 삐우 씨꾸라 아데쏘.",
+    "ko": "진정해, 이제 더 자신 있어.",
+    "segs": [
+     [
+      "gentle",
+      "Tranquillo, mi sento più sicura adesso."
+     ]
+    ]
+   }
+  },
+  "12": {
+   "segs": [
+    [
+     "excited",
+     "Gol! La partita è iniziata, scusa!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "annoyed",
+     "Luca! Sono ancora nervoso, dai."
+    ]
+   ],
+   "f": {
+    "text": "Luca! Sono ancora nervosa, dai.",
+    "rd": "루까! 쏘노 안꼬라 네르보자, 다이.",
+    "ko": "루카! 아직도 긴장되는데, 진짜.",
+    "segs": [
+     [
+      "annoyed",
+      "Luca! Sono ancora nervosa, dai."
+     ]
+    ]
+   }
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Magari vinci la borsa. Io tifo per te."
+    ]
+   ]
+  }
+ }
+}

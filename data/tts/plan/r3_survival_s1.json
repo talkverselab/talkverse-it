@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Buongiorno! Cosa prendete?"
+     "Prendete un caffè?"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "cheerful",
-     "Prendiamo due caffè, per favore."
+     "Sì, due caffè, per favore!"
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "polite",
-     "Li volete al banco o al tavolo?"
+     "Scusi, li volete con zucchero?"
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "stiff",
-     "Sì, grazie."
+     "Sì, va bene."
     ]
    ]
   },
@@ -41,12 +41,11 @@
    "segs": [
     [
      "surprised",
-     "Sì... cosa? Non capite?"
+     "Capite bene?"
     ],
     [
      "amused",
-     "Ban-co. O. Ta-vo-lo?",
-     "Banco. O. Tavolo?"
+     " Dite solo sì."
     ]
    ]
   },
@@ -54,7 +53,7 @@
    "segs": [
     [
      "excited",
-     "Capiamo, capiamo! Sì! Va bene!"
+     "Sì, capiamo tutto!"
     ]
    ]
   },
@@ -62,11 +61,7 @@
    "segs": [
     [
      "polite",
-     "Perfetto."
-    ],
-    [
-     "amused",
-     "Due caffè al banco e due al tavolo."
+     "Allora prendete tutto il menu?"
     ]
    ]
   },
@@ -74,11 +69,7 @@
    "segs": [
     [
      "surprised",
-     "Quattro caffè?!"
-    ],
-    [
-     "flustered",
-     "Va bene... li prendiamo tutti."
+     "No, solo due caffè!"
     ]
    ]
   }

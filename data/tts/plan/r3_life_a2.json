@@ -9,7 +9,7 @@
    "segs": [
     [
      "teasing",
-     "Ehi, siete arrivati! Vi aspetto da un'ora."
+     "Ehi, siete arrivati tardi?"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "cheerful",
-     "Scusa! Siamo pronti. Ci disegni?"
+     "Sì, siamo pronti adesso."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "gentle",
-     "Anch'io sono pronta. Non parlate, vi disegno."
+     "Vi aspetto. Sono pronta. Ecco le banane."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "cheerful",
-     "Ti piace disegnare le persone?"
+     "Mi piacciono le banane!"
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "excited",
-     "Mi piace molto. Ecco, finito!"
+     "A me pure. Prendo due banane."
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "shout",
-     "Ma... sono due banane con gli occhiali!"
+     "Le banane gialle sono belle!"
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "cheerful",
-     "Siete voi. Le porterò a casa mia."
+     "Scusa. Non parlate. Disegno solo le banane."
     ]
    ]
   },
@@ -65,7 +65,7 @@
    "segs": [
     [
      "sad",
-     "Vorremmo essere banane più belle."
+     "Ma noi vorremmo parlare."
     ]
    ]
   }

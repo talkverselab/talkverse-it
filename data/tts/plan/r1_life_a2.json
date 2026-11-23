@@ -8,17 +8,17 @@
    "segs": [
     [
      "teasing",
-     "Ehi, sei arrivato! Ti aspetto da un'ora."
+     "Ehi, sei arrivato presto?"
     ]
    ],
    "f": {
-    "text": "Ehi, sei arrivata! Ti aspetto da un'ora.",
-    "rd": "에이, 쎄이 아리바따! 띠 아스뻬또 다 우노라.",
-    "ko": "왔구나! 한 시간이나 기다렸잖아.",
+    "text": "Ehi, sei arrivata presto?",
+    "rd": "에이, 쎄이 아리바따 프레스또?",
+    "ko": "야, 일찍 도착했어?",
     "segs": [
      [
       "teasing",
-      "Ehi, sei arrivata! Ti aspetto da un'ora."
+      "Ehi, sei arrivata presto?"
      ]
     ]
    }
@@ -27,17 +27,17 @@
    "segs": [
     [
      "cheerful",
-     "Scusa! Sono pronto. Mi disegni?"
+     "Sì, sono pronto ora."
     ]
    ],
    "f": {
-    "text": "Scusa! Sono pronta. Mi disegni?",
-    "rd": "스꾸자! 쏘노 프론따. 미 디제니?",
-    "ko": "미안! 준비됐어. 나 그려 주는 거지?",
+    "text": "Sì, sono pronta ora.",
+    "rd": "씨, 쏘노 프론따 오라.",
+    "ko": "응, 지금 준비됐어.",
     "segs": [
      [
       "cheerful",
-      "Scusa! Sono pronta. Mi disegni?"
+      "Sì, sono pronta ora."
      ]
     ]
    }
@@ -46,7 +46,7 @@
    "segs": [
     [
      "gentle",
-     "Anch'io sono pronta. Non parlare, ti disegno."
+     "Dai, fai il modello. Ti disegno io."
     ]
    ]
   },
@@ -54,7 +54,7 @@
    "segs": [
     [
      "cheerful",
-     "Ti piace disegnare le persone?"
+     "Mi piace il tuo stile."
     ]
    ]
   },
@@ -62,7 +62,7 @@
    "segs": [
     [
      "excited",
-     "Mi piace molto. Ecco, finito!"
+     "Ti piace la banana?"
     ]
    ]
   },
@@ -70,7 +70,7 @@
    "segs": [
     [
      "shout",
-     "Ma... è una banana con gli occhiali!"
+     "La banana? Perché?"
     ]
    ]
   },
@@ -78,7 +78,7 @@
    "segs": [
     [
      "cheerful",
-     "Sei tu. Lo porterò a casa mia."
+     "Ecco, farò la banana. Scusa!"
     ]
    ]
   },
@@ -86,7 +86,7 @@
    "segs": [
     [
      "sad",
-     "Vorrei essere una banana più bella."
+     "Ma vorrei il mio ritratto."
     ]
    ]
   }

@@ -1,0 +1,137 @@
+{
+ "ep": "r4_friends_b2",
+ "cast": {
+  "B": "luca",
+  "C": "marco",
+  "D": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shout",
+     "Dai, mi sono svegliato tardi!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Anch'io mi sono svegliato ora."
+    ]
+   ],
+   "f": {
+    "text": "Anch'io mi sono svegliata ora.",
+    "rd": "안끼오 미 쏘노 스벨리아따 오라.",
+    "ko": "나도 지금 일어났어.",
+    "segs": [
+     [
+      "flustered",
+      "Anch'io mi sono svegliata ora."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Ci siamo vestiti in fretta!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Boh, ci siamo dimenticati l'orario."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "neutral",
+     "Ciao, cosa prendete voi?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Ieri facevamo i preparativi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Mi dispiace che siate venuti in pigiama."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Te l'avevo detto che è la prossima!"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Se avessi letto il messaggio, te l'avrei detto."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "Avrei preferito arrivare prima."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Ve lo do subito il caffè, ci penso io."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Tanti auguri?"
+    ],
+    [
+     "surprised",
+     " Cosa fate qui!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Scusa, siamo in ritardo."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Boh, ma dai, siete un disastro!"
+    ]
+   ]
+  }
+ }
+}

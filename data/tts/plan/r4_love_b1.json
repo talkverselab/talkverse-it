@@ -8,17 +8,17 @@
    "segs": [
     [
      "surprised",
-     "Ah, sei qui. Chiara mi ha detto che te n'eri già andato."
+     "Sei uscito per il rumore? C'era un ombrello lì."
     ]
    ],
    "f": {
-    "text": "Ah, sei qui. Chiara mi ha detto che te n'eri già andata.",
-    "rd": "아, 쎄이 뀌. 끼아라 미 아 데또 께 떼 네리 쟈 안다따.",
-    "ko": "아, 여기 있었네. 키아라가 너 벌써 갔다던데.",
+    "text": "Sei uscita per il rumore? C'era un ombrello lì.",
+    "rd": "쎄이 우시따 뻬르 일 루모레? 체라 운 옴브렐로 리.",
+    "ko": "시끄러워서 나왔어? 거기 우산 하나 있었어.",
     "segs": [
      [
       "surprised",
-      "Ah, sei qui. Chiara mi ha detto che te n'eri già andata."
+      "Sei uscita per il rumore? C'era un ombrello lì."
      ]
     ]
    }
@@ -27,17 +27,17 @@
    "segs": [
     [
      "shy",
-     "No, mi sono nascosto qui fuori. Dentro balla troppa gente."
+     "Mi sono spostato fuori perché c'era troppo rumore."
     ]
    ],
    "f": {
-    "text": "No, mi sono nascosta qui fuori. Dentro balla troppa gente.",
-    "rd": "노, 미 쏘노 나스꼬스따 뀌 푸오리. 덴트로 발라 트로빠 젠떼.",
-    "ko": "아니, 여기 밖에 숨어 있었어. 안에 춤추는 사람이 너무 많아서.",
+    "text": "Mi sono spostata fuori perché c'era troppo rumore.",
+    "rd": "미 쏘노 스뽀스따따 푸오리 뻬르께 체라 트로뽀 루모레.",
+    "ko": "너무 시끄러워서 밖으로 나왔어.",
     "segs": [
      [
       "shy",
-      "No, mi sono nascosta qui fuori. Dentro balla troppa gente."
+      "Mi sono spostata fuori perché c'era troppo rumore."
      ]
     ]
    }
@@ -46,25 +46,25 @@
    "segs": [
     [
      "amused",
-     "Anch'io."
+     "Boh, io stavo ancora dentro."
     ],
     [
      "shy",
-     " Cioè... sono uscita perché ti ho visto uscire."
+     " Cioè, ti avevo visto uscire e ti ho seguito."
     ]
    ],
    "f": {
-    "text": "Anch'io. Cioè... sono uscita perché ti ho vista uscire.",
-    "rd": "안끼오. 쵸에... 쏘노 우시따 뻬르께 띠 오 비스따 우시레.",
-    "ko": "나도. 그러니까… 너 나가는 거 보고 따라 나왔어.",
+    "text": "Boh, io stavo ancora dentro. Cioè, ti avevo vista uscire e ti ho seguita.",
+    "rd": "보, 이오 스따보 안꼬라 덴트로. 쵸에, 띠 아베보 비스따 우시레 에 띠 오 쎄구이따.",
+    "ko": "글쎄, 난 아직 안에 있었는데. 그러니까 너 나가는 거 보고 따라 나왔어.",
     "segs": [
      [
       "amused",
-      "Anch'io."
+      "Boh, io stavo ancora dentro."
      ],
      [
       "shy",
-      " Cioè... sono uscita perché ti ho vista uscire."
+      " Cioè, ti avevo vista uscire e ti ho seguita."
      ]
     ]
    }
@@ -73,23 +73,45 @@
    "segs": [
     [
      "surprised",
-     "Davvero? E perché?"
+     "Sul serio? Non me n'ero accorto."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Sul serio? Non me n'ero accorta.",
+    "rd": "쑬 쎄리오? 논 메 네로 아꼬르따.",
+    "ko": "진짜? 난 전혀 몰랐어.",
+    "segs": [
+     [
+      "surprised",
+      "Sul serio? Non me n'ero accorta."
+     ]
+    ]
+   }
   },
   "5": {
    "segs": [
     [
      "shy",
-     "Boh. Se avessi più coraggio, te lo direi adesso."
+     "Se fossi rimasta dentro, non ti avrei incontrato qui."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Se fossi rimasta dentro, non ti avrei incontrata qui.",
+    "rd": "쎄 포씨 리마스따 덴트로, 논 띠 아브레이 인꼰트라따 뀌.",
+    "ko": "안에 있었으면 여기서 너를 못 만났을 거야.",
+    "segs": [
+     [
+      "shy",
+      "Se fossi rimasta dentro, non ti avrei incontrata qui."
+     ]
+    ]
+   }
   },
   "6": {
    "segs": [
     [
      "teasing",
-     "Dai, dimmelo. Ti faccio così paura?"
+     "Dai, non esagerare."
     ]
    ]
   },
@@ -97,7 +119,7 @@
    "segs": [
     [
      "shy",
-     "No. È che la persona a cui penso da tre settimane... è qui fuori."
+     "La persona a cui pensavo da un po' sei proprio tu."
     ]
    ]
   },
@@ -105,11 +127,11 @@
    "segs": [
     [
      "surprised",
-     "Qui fuori?"
+     "Cosa?"
     ],
     [
      "flustered",
-     " Ma ci siamo solo noi due."
+     " Non ci posso credere, dai."
     ]
    ]
   },
@@ -117,34 +139,34 @@
    "segs": [
     [
      "teasing",
-     "Ecco. Bravo, ci sei arrivato."
+     "Mamma mia, ce ne hai messo di tempo."
     ]
-   ],
-   "f": {
-    "text": "Ecco. Brava, ci sei arrivata.",
-    "rd": "에꼬. 브라바, 치 쎄이 아리바따.",
-    "ko": "그렇지. 잘했어, 이제 알아들었네.",
-    "segs": [
-     [
-      "teasing",
-      "Ecco. Brava, ci sei arrivata."
-     ]
-    ]
-   }
+   ]
   },
   "10": {
    "segs": [
     [
      "surprised",
-     "Aspetta. L'altra sera tornavi a casa a piedi e ti ho dato il mio ombrello. Tu lo sapevi già?"
+     "Io non c'ero mica abituato a queste cose."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Io non c'ero mica abituata a queste cose.",
+    "rd": "이오 논 체로 미까 아비뚜아따 아 꿰스떼 꼬제.",
+    "ko": "난 이런 일에 익숙하지 않았어.",
+    "segs": [
+     [
+      "surprised",
+      "Io non c'ero mica abituata a queste cose."
+     ]
+    ]
+   }
   },
   "11": {
    "segs": [
     [
      "teasing",
-     "Pensi davvero che l'abbia dimenticato a casa per caso?"
+     "Ecco, sapevo che non avessi capito. Avevo portato l'ombrello apposta per seguirti."
     ]
    ]
   },
@@ -152,17 +174,17 @@
    "segs": [
     [
      "amused",
-     "Mamma mia. E io che mi sono sentito così gentile per una settimana."
+     "Mi sono emozionato un po', dai."
     ]
    ],
    "f": {
-    "text": "Mamma mia. E io che mi sono sentita così gentile per una settimana.",
-    "rd": "맘마 미아. 에 이오 께 미 쏘노 쎈띠따 꼬지 젠띨레 뻬르 우나 쎄띠마나.",
-    "ko": "세상에. 난 일주일 내내 내가 착한 사람인 줄 알았네.",
+    "text": "Mi sono emozionata un po', dai.",
+    "rd": "미 쏘노 에모찌오나따 운 뽀, 다이.",
+    "ko": "나 좀 감동했어, 진짜.",
     "segs": [
      [
       "amused",
-      "Mamma mia. E io che mi sono sentita così gentile per una settimana."
+      "Mi sono emozionata un po', dai."
      ]
     ]
    }
@@ -171,7 +193,7 @@
    "segs": [
     [
      "shy",
-     "Lo eri. E domani... dicono che fa brutto di nuovo."
+     "Boh, magari la prossima volta lo porti tu."
     ]
    ]
   },
@@ -179,7 +201,7 @@
    "segs": [
     [
      "gentle",
-     "Allora domani l'ombrello lo dimentico io."
+     "Tranquilla, ci penso io."
     ]
    ]
   }

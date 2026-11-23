@@ -8,7 +8,7 @@
    "segs": [
     [
      "teasing",
-     "Allora? Hai preso il mio scooter?"
+     "Hai lasciato lo scooter?"
     ]
    ]
   },
@@ -16,17 +16,17 @@
    "segs": [
     [
      "excited",
-     "Sì! Sono andato da Giulia. Bellissimo!"
+     "Sono tornato a piedi."
     ]
    ],
    "f": {
-    "text": "Sì! Sono andata da Giulia. Bellissimo!",
-    "rd": "씨! 쏘노 안다따 다 줄리아. 벨리씨모!",
-    "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
+    "text": "Sono tornata a piedi.",
+    "rd": "쏘노 또르나따 아 삐에디.",
+    "ko": "걸어서 돌아왔어.",
     "segs": [
      [
       "excited",
-      "Sì! Sono andata da Giulia. Bellissimo!"
+      "Sono tornata a piedi."
      ]
     ]
    }
@@ -35,7 +35,7 @@
    "segs": [
     [
      "worried",
-     "E dove l'hai lasciato? Non lo vedo."
+     "Dove l'hai lasciato?"
     ]
    ]
   },
@@ -43,26 +43,15 @@
    "segs": [
     [
      "flustered",
-     "Ehm... sono tornato a piedi."
+     "Da Giulia... sono rimasto."
     ]
-   ],
-   "f": {
-    "text": "Ehm... sono tornata a piedi.",
-    "rd": "엠... 쏘노 또르나따 아 삐에디.",
-    "ko": "음… 걸어서 왔어.",
-    "segs": [
-     [
-      "flustered",
-      "Ehm... sono tornata a piedi."
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "shout",
-     "A piedi? E il mio scooter?!"
+     "Il mio scooter!"
     ]
    ]
   },
@@ -70,7 +59,7 @@
    "segs": [
     [
      "flustered",
-     "L'ho lasciato lì. Con la chiave."
+     "L'ho lasciato lì."
     ]
    ]
   },
@@ -78,17 +67,17 @@
    "segs": [
     [
      "gentle",
-     "Tranquillo. Vado io da Giulia, adesso."
+     "Tranquillo, vado io."
     ]
    ],
    "f": {
-    "text": "Tranquilla. Vado io da Giulia, adesso.",
-    "rd": "트란뀔라. 바도 이오 다 줄리아, 아데쏘.",
-    "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
+    "text": "Tranquilla, vado io.",
+    "rd": "트란뀔라, 바도 이오.",
+    "ko": "진정해, 내가 갈게.",
     "segs": [
      [
       "gentle",
-      "Tranquilla. Vado io da Giulia, adesso."
+      "Tranquilla, vado io."
      ]
     ]
    }
@@ -97,7 +86,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Aspetta. Perché ti fai così bello?"
+     "Allora, sto da Giulia."
     ]
    ]
   }

@@ -1,0 +1,72 @@
+{
+ "ep": "r2_life_c2",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mamma mia, sono in ritardo! 🔑"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Non ce l'ho io."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Ti prego, cerca sotto il divano! 😢"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Non c'è! Ma dai, è tardi."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Vado a letto ora. Tranquillo. 😴"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Cosa? Ma le chiavi le hai tu! 😳"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "No! Non ce le ho io."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Scherzi? Vabbè, le cerco io. 😂"
+    ]
+   ]
+  }
+ }
+}

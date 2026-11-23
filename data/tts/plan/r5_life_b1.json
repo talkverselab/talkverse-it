@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Ecco l'appartamento. Luminoso, tranquillo, e l'affitto è solo seicento euro."
+     "Ecco la casa: due stanze, cucina e bagno."
     ]
    ]
   },
@@ -17,11 +17,11 @@
    "segs": [
     [
      "surprised",
-     "Seicento? In questo quartiere?"
+     "Solo seicento euro al mese?"
     ],
     [
      "worried",
-     "Dov'è la fregatura?"
+     " È troppo poco."
     ]
    ]
   },
@@ -29,7 +29,7 @@
    "segs": [
     [
      "cheerful",
-     "Nessun problema! Riscaldamento compreso, balcone, e i vicini sono simpaticissimi."
+     "Guardino, è in centro e il proprietario è gentile."
     ]
    ]
   },
@@ -37,7 +37,7 @@
    "segs": [
     [
      "excited",
-     "Guarda, dal balcone si vede lo stadio!"
+     "C'è pure il balcone! Prendiamola subito."
     ]
    ]
   },
@@ -45,7 +45,7 @@
    "segs": [
     [
      "stiff",
-     "Luca, concentrati. Signor Ferri, perché l'inquilino di prima se n'è andato?"
+     "Mi scusi, le spese sono incluse nel prezzo?"
     ]
    ]
   },
@@ -53,7 +53,7 @@
    "segs": [
     [
      "worried",
-     "Si è trasferito... per motivi di salute."
+     "Le spese sono incluse. Niente di grave, solo un piccolo problema di umidità."
     ]
    ]
   },
@@ -61,7 +61,7 @@
    "segs": [
     [
      "worried",
-     "Di salute? Cosa gli è successo?"
+     "Umidità? Fa male alla salute, vero?"
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "flustered",
-     "Niente di grave. Dormiva poco, ecco."
+     "Beh… c'è un dettaglio che non ho detto."
     ]
    ]
   },
@@ -77,7 +77,7 @@
    "segs": [
     [
      "surprised",
-     "Dormiva poco? E perché?"
+     "Guarda, preoccupato? Ma la casa è bellissima!"
     ]
    ]
   },
@@ -85,7 +85,7 @@
    "segs": [
     [
      "flustered",
-     "Il vicino di sopra suona la batteria. Ma solo la sera."
+     "Il bagno perde un po' quando piove forte."
     ]
    ]
   },
@@ -93,7 +93,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Solo la sera... fino a che ora?"
+     "Cioè, la casa ha problemi seri?"
     ]
    ]
   },
@@ -101,11 +101,11 @@
    "segs": [
     [
      "flustered",
-     "Dipende... a volte fino a mezzanotte."
+     "Ecco…"
     ],
     [
      "polite",
-     " E nei giorni di partita qui sotto passano diecimila tifosi."
+     " In realtà il tetto è da rifare tutto."
     ]
    ]
   },
@@ -113,7 +113,7 @@
    "segs": [
     [
      "excited",
-     "La batteria, i tifosi... e la partita la vedo dal balcone. Firmo subito!"
+     "Perfetto, allora la prendiamo lo stesso!"
     ]
    ]
   },
@@ -121,11 +121,11 @@
    "segs": [
     [
      "annoyed",
-     "Luca, non firmare... hai già firmato?!"
+     "Luca, no!"
     ],
     [
      "worried",
-     " Signor Ferri, almeno stasera alle dieci possiamo tornare?"
+     " Questa casa è un disastro."
     ]
    ]
   }

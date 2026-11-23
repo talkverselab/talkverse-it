@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Mamma mia, non trovo il mio telefono!"
+     "Mamma mia, non trovo il telefono!"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "excited",
-     "Dai, chiama! Senti qualcosa?"
+     "Dai, chiama! Lo sento già!"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Aspetta... sento una musica. Dal frigo?"
+     "Cosa? Nel sacchetto del gelato?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Dal frigo? Ma che dici?"
+     "Non so, ma lo sento!"
     ]
    ]
   },
@@ -48,11 +48,11 @@
    "segs": [
     [
      "amused",
-     "Ecco, trovato! È nel frigo."
+     "Ecco!"
     ],
     [
      "surprised",
-     " Ma... dov'è il gelato?"
+     " L'ho trovato nel sacchetto!"
     ]
    ]
   },
@@ -60,11 +60,7 @@
    "segs": [
     [
      "surprised",
-     "Ah, sì! Ho messo il telefono"
-    ],
-    [
-     "flustered",
-     " nel frigo e..."
+     "Oh no, l'ho lasciato nel gelato!"
     ]
    ]
   },
@@ -72,11 +68,11 @@
    "segs": [
     [
      "sad",
-     "...il gelato nella mia borsa."
+     "Mamma mia, è nel gelato!"
     ],
     [
      "cheerful",
-     " Vorrei un altro gelato."
+     " Farò un altro."
     ]
    ]
   }

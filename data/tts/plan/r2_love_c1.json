@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Ehi! Ho visto la tua storia 😍 Dov'eri?"
+     "Ehi, ho visto la storia! 📸"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "excited",
-     "In centro! Il gelato più buono di Roma."
+     "Grazie! È nuova di oggi."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "teasing",
-     "Ma dai! Mandami una foto del posto."
+     "Ma dai, manca metà! 😂"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "Ecco, guarda! 📸📸📸"
+     "Ecco, ti mando l'altra."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "amused",
-     "Aspetta... mi hai mandato mezza galleria 😂"
+     "Troppo tardi! Ho visto tutta la galleria 😏"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "E in una dormi sul bus. A bocca aperta."
+     "Boh, era una bella foto."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "shout",
-     "No no no, non guardare! Cancella tutto!"
+     "Aspetta! Ho altre foto!"
     ]
    ]
   },
@@ -64,13 +64,28 @@
    "segs": [
     [
      "teasing",
-     "Troppo tardi."
+     "Vabbè, mi piace così."
     ],
     [
      "gentle",
-     "È già il mio sfondo ❤️"
+     " Tranquillo. 💕"
     ]
-   ]
+   ],
+   "f": {
+    "text": "Vabbè, mi piace così. Tranquilla. 💕",
+    "rd": "바베, 미 삐아체 꼬지. 트란뀔라. 💕",
+    "ko": "됐어, 이렇게 좋아. 걱정 마. 💕",
+    "segs": [
+     [
+      "teasing",
+      "Vabbè, mi piace così."
+     ],
+     [
+      "gentle",
+      " Tranquilla. 💕"
+     ]
+    ]
+   }
   }
  }
 }

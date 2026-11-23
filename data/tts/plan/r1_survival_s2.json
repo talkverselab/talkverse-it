@@ -1,0 +1,76 @@
+{
+ "ep": "r1_survival_s2",
+ "cast": {
+  "B": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Allora, come sta oggi?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Sto male, ho mal di testa."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Ha dormito bene ieri?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Boh, ho dormito un'ora."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Ha guardato la TV tutta la notte?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Sì, ho guardato la serie sul telefono."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Anch'io ho dormito un'ora."
+    ],
+    [
+     "amused",
+     " Guardi qui."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Guardi? Non capisco."
+    ]
+   ]
+  }
+ }
+}

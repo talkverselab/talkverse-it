@@ -1,0 +1,77 @@
+{
+ "ep": "r3_survival_s2",
+ "cast": {
+  "B": "man_m",
+  "C": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Allora, come state oggi?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Stiamo male. Abbiamo mal di testa."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Avete fatto qualcosa ieri?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Abbiamo guardato i telefoni tutta la notte."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Avete dormito poco allora?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shy",
+     "Sì, i telefoni sono sempre accesi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Boh, guardate."
+    ],
+    [
+     "amused",
+     " Anch'io ho guardato il telefono."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Anche Lei? Ma dai!"
+    ]
+   ]
+  }
+ }
+}

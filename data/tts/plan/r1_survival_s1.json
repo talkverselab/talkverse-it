@@ -8,7 +8,7 @@
    "segs": [
     [
      "polite",
-     "Buongiorno! Cosa prende?"
+     "Prende il caffè al banco?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "stiff",
-     "Prendo un caffè, per favore."
+     "Sì, lo prendo, per favore."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "polite",
-     "Lo vuole al banco o al tavolo?"
+     "Lo vuole con zucchero?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "stiff",
-     "Sì, grazie."
+     "Sì, capisco tutto."
     ]
    ]
   },
@@ -40,12 +40,11 @@
    "segs": [
     [
      "surprised",
-     "Sì... cosa? Non capisce?"
+     "Capisce?"
     ],
     [
      "amused",
-     "Ban-co. O. Ta-vo-lo?",
-     "Banco. O. Tavolo?"
+     " Vuole anche un cornetto?"
     ]
    ]
   },
@@ -53,7 +52,7 @@
    "segs": [
     [
      "excited",
-     "Capisco, capisco! Sì! Va bene!"
+     "Sì, voglio il cornetto."
     ]
    ]
   },
@@ -61,11 +60,11 @@
    "segs": [
     [
      "polite",
-     "Perfetto."
+     "Allora sì a tutto."
     ],
     [
      "amused",
-     "Un caffè al banco e uno al tavolo."
+     " Va bene al tavolo?"
     ]
    ]
   },
@@ -73,11 +72,11 @@
    "segs": [
     [
      "surprised",
-     "Due caffè?!"
+     "Scusi?"
     ],
     [
      "flustered",
-     "Va bene... prendo tutti e due."
+     " Prendo solo il caffè."
     ]
    ]
   }

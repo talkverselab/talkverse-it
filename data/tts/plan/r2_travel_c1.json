@@ -1,0 +1,72 @@
+{
+ "ep": "r2_travel_c1",
+ "cast": {
+  "B": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Dai, mi manchi già! 🚆"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Sono ancora qui, boh. 😂"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Senti, torna subito!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ma dai, appena posso."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Ci vediamo al ritorno."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "sad",
+     "No, è troppo lontano. 😢"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Cioè, ti voglio qui ora."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Tranquilla, torno presto. 💕"
+    ]
+   ]
+  }
+ }
+}

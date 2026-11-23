@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Ehi! Stasera c'è la partita da Marco. Vieni? ⚽"
+     "Ehi, vieni al bar di Marco? ⚽"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo, vengo! A che ora?"
+     "Sì, arrivo tra poco 😊"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "teasing",
-     "Tra un'ora. E non fare come sempre!"
+     "Allora, la partita inizia ora"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "annoyed",
-     "Allora?? Dove sei? Arrivi?"
+     "Dai, dove sei? Sei in ritardo 😒"
     ]
    ]
   },
@@ -40,26 +40,15 @@
    "segs": [
     [
      "flustered",
-     "Scusa! Sono arrivato, sono qui fuori."
+     "Scusa, sono in metro 😅"
     ]
-   ],
-   "f": {
-    "text": "Scusa! Sono arrivata, sono qui fuori.",
-    "rd": "스꾸자! 쏘노 아리바따, 쏘노 뀌 푸오리.",
-    "ko": "미안! 도착했어, 밖에 있어.",
-    "segs": [
-     [
-      "flustered",
-      "Scusa! Sono arrivata, sono qui fuori."
-     ]
-    ]
-   }
+   ]
   },
   "6": {
    "segs": [
     [
      "surprised",
-     "Dai, fuori dove? Non ti vedo."
+     "Ma il bar è vicino casa!"
     ]
    ]
   },
@@ -67,15 +56,26 @@
    "segs": [
     [
      "worried",
-     "Da Marco! Ma è chiuso..."
+     "Oh no, sono andato al posto sbagliato"
     ]
-   ]
+   ],
+   "f": {
+    "text": "Oh no, sono andata al posto sbagliato",
+    "rd": "오 노, 쏘노 안다따 알 뽀스또 스발리아또",
+    "ko": "아, 잘못된 곳에 갔어",
+    "segs": [
+     [
+      "worried",
+      "Oh no, sono andata al posto sbagliato"
+     ]
+    ]
+   }
   },
   "8": {
    "segs": [
     [
      "amused",
-     "Ah già, Marco è qui. A casa NOSTRA 😂"
+     "Ahah, sei al supermercato? Dai 😂"
     ]
    ]
   }

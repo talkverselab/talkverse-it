@@ -182,29 +182,10 @@
    "it": "Sì! Sono contento.",
    "ko": "응! 기뻐.",
    "rd": "씨! 쏘노 꼰뗀또.",
-   "segs": [
-    [
-     "excited",
-     "Sì!"
-    ],
-    [
-     "shy",
-     " Sono contento."
-    ]
-   ],
    "it_f": "Sì! Sono contenta.",
    "ko_f": "응! 기뻐.",
    "rd_f": "씨! 쏘노 꼰뗀따.",
-   "segs_f": [
-    [
-     "excited",
-     "Sì!"
-    ],
-    [
-     "shy",
-     " Sono contenta."
-    ]
-   ]
+   "emotion": "excited"
   }
  ]
 }

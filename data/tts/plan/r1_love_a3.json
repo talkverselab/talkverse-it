@@ -1,0 +1,98 @@
+{
+ "ep": "r1_love_a3",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Ehi, sei pronto? Torni domani?"
+    ]
+   ],
+   "f": {
+    "text": "Ehi, sei pronta? Torni domani?",
+    "rd": "에이, 쎄이 프론따? 또르니 도마니?",
+    "ko": "야, 준비됐어? 내일 돌아가?",
+    "segs": [
+     [
+      "shy",
+      "Ehi, sei pronta? Torni domani?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Sì, torno domani. Sono triste."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Allora, cosa dici? Torni o resti?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Certo che torno. Non sono contento."
+    ]
+   ],
+   "f": {
+    "text": "Certo che torno. Non sono contenta.",
+    "rd": "체르또 께 또르노. 논 쏘노 꼰뗀따.",
+    "ko": "당연히 가. 기쁘지 않아.",
+    "segs": [
+     [
+      "gentle",
+      "Certo che torno. Non sono contenta."
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Dimmi quando torni, per favore."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Ti dico: torno in estate. Prometto."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Mi piaci tanto."
+    ],
+    [
+     "sad",
+     " Sono triste perché parti."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Anche tu mi piaci. Torno presto, dai."
+    ]
+   ]
+  }
+ }
+}

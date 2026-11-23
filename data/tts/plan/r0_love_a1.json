@@ -8,7 +8,7 @@
    "segs": [
     [
      "gentle",
-     "Ehi, {name}. Hai un momento?"
+     "Ciao... siediti qui."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo. Che c'è?"
+     "Certo, che bello."
     ]
    ]
   },
@@ -24,17 +24,17 @@
    "segs": [
     [
      "shy",
-     "Domani... sei libero?"
+     "Allora... sei libero?"
     ]
    ],
    "f": {
-    "text": "Domani... sei libera?",
-    "rd": "도마니... 쎄이 리베라?",
-    "ko": "내일… 시간 있어?",
+    "text": "Allora... sei libera?",
+    "rd": "알로라... 쎄이 리베라?",
+    "ko": "그러면... 시간 있어?",
     "segs": [
      [
       "shy",
-      "Domani... sei libera?"
+      "Allora... sei libera?"
      ]
     ]
    }
@@ -43,30 +43,19 @@
    "segs": [
     [
      "excited",
-     "Libero, liberissimo. Perché?"
+     "Sì! Cosa fai?"
     ]
-   ],
-   "f": {
-    "text": "Libera, liberissima. Perché?",
-    "rd": "리베라, 리베리씨마. 뻬르께?",
-    "ko": "한가해, 완전 한가해. 왜?",
-    "segs": [
-     [
-      "excited",
-      "Libera, liberissima. Perché?"
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "shy",
-     "Allora... "
+     "Cioè... un gelato?"
     ],
     [
      "gentle",
-     "vieni con me."
+     " Con te."
     ]
    ]
   },
@@ -74,13 +63,20 @@
    "segs": [
     [
      "excited",
-     "Sì! Cioè... "
-    ],
-    [
-     "shy",
-     "va bene, vengo."
+     "Sì! Sono contento."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Sì! Sono contenta.",
+    "rd": "씨! 쏘노 꼰뗀따.",
+    "ko": "응! 기뻐.",
+    "segs": [
+     [
+      "excited",
+      "Sì! Sono contenta."
+     ]
+    ]
+   }
   }
  }
 }

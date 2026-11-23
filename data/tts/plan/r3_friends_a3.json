@@ -1,0 +1,81 @@
+{
+ "ep": "r3_friends_a3",
+ "cast": {
+  "B": "luca",
+  "C": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Dai, vengono due ragazze!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Davvero? Allora usciamo."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "stiff",
+     "Ti preghiamo, vai via."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Fate la pasta?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Faremo quella delle nostre madri."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Sono belle le ragazze?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Sentite?"
+    ],
+    [
+     "flustered",
+     " Sono le nostre madri!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Cosa?"
+    ],
+    [
+     "teasing",
+     " Le vostre madri?"
+    ]
+   ]
+  }
+ }
+}

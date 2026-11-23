@@ -1,0 +1,147 @@
+{
+ "ep": "r4_culture_b1",
+ "cast": {
+  "B": "giulia",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Ti avevo detto di arrivare presto!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Mi sono sbagliato. Se avessi saputo, sarei venuto prima."
+    ]
+   ],
+   "f": {
+    "text": "Mi sono sbagliata. Se avessi saputo, sarei venuta prima.",
+    "rd": "미 쏘노 스발리아따. 쎄 아베씨 싸뿌또, 싸레이 베누따 프리마.",
+    "ko": "제가 착각했어요. 알았으면 더 일찍 왔을 텐데요.",
+    "segs": [
+     [
+      "flustered",
+      "Mi sono sbagliata. Se avessi saputo, sarei venuta prima."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Chi arriva tardi, mangia freddo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Avrei voluto arrivare in orario."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Infatti, è quello di cui mi aveva detto Giulia."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Mamma mia, che buono!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Non tagliare gli spaghetti di cui ti avevo parlato, dai!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Scusi, non lo sapevo."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Stia tranquillo, va bene così."
+    ]
+   ],
+   "f": {
+    "text": "Stia tranquilla, va bene così.",
+    "rd": "스띠아 트란뀔라, 바 베네 꼬지.",
+    "ko": "걱정 마세요, 이렇게 괜찮아요.",
+    "segs": [
+     [
+      "gentle",
+      "Stia tranquilla, va bene così."
+     ]
+    ]
+   }
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Avrei dovuto ascoltare."
+    ],
+    [
+     "cheerful",
+     " Infatti li ho tagliati, scusi."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "È quello di cui parlavamo prima, sì."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Ma dai, ti avevo detto di non tagliarlo!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Non l'avevo capito, scusi."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Chi vuole, ne prende ancora."
+    ]
+   ]
+  }
+ }
+}

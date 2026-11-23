@@ -268,16 +268,7 @@
    "it": "No! Non li abbiamo visti!",
    "ko": "아니! 못 봤어!",
    "rd": "노! 논 리 아비아모 비스띠!",
-   "segs": [
-    [
-     "surprised",
-     "No!"
-    ],
-    [
-     "flustered",
-     " Non li abbiamo visti!"
-    ]
-   ]
+   "emotion": "surprised"
   },
   {
    "num": 8,

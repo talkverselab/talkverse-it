@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Domani farò io il caffè per Lei!"
+     "Allora, faccio il caffè per Lei!"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Tu? Ma sai fare il caffè?"
+     "I miei amici hanno detto che il tuo caffè è buono."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo che lo so fare! Vi guardo ogni giorno."
+     "Vuole un caffè?"
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "teasing",
-     "Allora fammi vedere. Adesso."
+     "Ecco, lo prendo."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "polite",
-     "Ecco il caffè. Quanto zucchero vuole?"
+     "Guardate mentre lo faccio."
     ]
    ]
   },
@@ -49,11 +49,11 @@
    "segs": [
     [
      "neutral",
-     "Uno, grazie. Mmm..."
+     "Fammi vedere."
     ],
     [
      "surprised",
-     " cos'hai messo? È sale!"
+     " Non l'hanno finita ieri."
     ]
    ]
   },
@@ -61,7 +61,7 @@
    "segs": [
     [
      "flustered",
-     "Ho messo il sale?! Allora anche la torta di ieri l'ho fatta con il sale!"
+     "Cosa? Ho messo troppo sale!"
     ]
    ]
   },
@@ -69,7 +69,7 @@
    "segs": [
     [
      "amused",
-     "Ecco perché i miei amici hanno detto «Buonissima!» e non l'hanno finita."
+     "È salato! Ma dai."
     ]
    ]
   }

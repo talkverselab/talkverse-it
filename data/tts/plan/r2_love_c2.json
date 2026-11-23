@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Ciao! Sono Giulia, l'amica di Chiara. Ti ricordi? 😊"
+     "Ehi, sono io! Ieri è stato figo. 😊"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "excited",
-     "Ehi, ciao! Certo, mi ricordo."
+     "Ciao! Anche a me è piaciuto."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Allora... domani prendi un caffè con me?"
+     "Allora, usciamo domani? 🙈"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "Domani? Sì, certo! Mi piace l'idea."
+     "Certo! Dove vuoi?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "excited",
-     "Chiara, ha detto sì!!!"
+     "Magari da me, no aspetta! 😳"
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Ops. Non era per te."
+     "Scusa, cioè, ho detto male."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "teasing",
-     "Ahahah. Ho letto tutto."
+     "Ma dai, casa tua ci sta. 😏"
     ]
    ]
   },
@@ -64,11 +64,11 @@
    "segs": [
     [
      "flustered",
-     "Bene. "
+     "Ehm... vabbè."
     ],
     [
      "gentle",
-     "Così sai che mi piaci."
+     " Se vuoi. 💕"
     ]
    ]
   }

@@ -1,0 +1,77 @@
+{
+ "ep": "r1_culture_a1",
+ "cast": {
+  "B": "chiara",
+  "C": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Guarda la mano!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Cosa vuoi dire?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Faccio così, vedi?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Lo faccio a Marco."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "No! Non lo fai così!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ma cosa vuol dire?"
+    ],
+    [
+     "excited",
+     " È figo!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Non capisco. Vado."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ha capito tutto!"
+    ]
+   ]
+  }
+ }
+}

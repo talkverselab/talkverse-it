@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "Hai visto le mie chiavi?"
+     "Dove sono le chiavi?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "gentle",
-     "No. Cerca bene!"
+     "Tranquillo, cerca con calma."
     ]
    ]
   },
@@ -24,11 +24,11 @@
    "segs": [
     [
      "annoyed",
-     "Cerco! Non ci sono! "
+     "Mamma mia!"
     ],
     [
      "shout",
-     "Mamma mia!"
+     " Non le vedo!"
     ]
    ]
   },
@@ -36,7 +36,7 @@
    "segs": [
     [
      "gentle",
-     "Tranquillo. Fammi vedere..."
+     "Dai, guarda sul tavolo."
     ]
    ]
   },
@@ -44,7 +44,7 @@
    "segs": [
     [
      "shout",
-     "Dai, è tardi! Prendo le tue chiavi. Ciao!"
+     "Non ci sono! Fammi vedere!"
     ]
    ]
   },
@@ -52,11 +52,11 @@
    "segs": [
     [
      "shout",
-     "Luca! Le tue le hai in mano..."
+     "Ecco! Sono qui!"
     ],
     [
      "flustered",
-     " e adesso io sono senza!"
+     " Cadono!"
     ]
    ]
   }

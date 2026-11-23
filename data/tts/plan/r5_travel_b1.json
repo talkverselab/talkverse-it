@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Guarda che mare! Fuori stagione è il momento perfetto per l'isola: non c'è nessuno."
+     "Guarda che cielo grigio. Il traghetto parte lo stesso."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "worried",
-     "Nessuno, ma anche niente sole. E quel cielo nero non mi piace."
+     "Fa freddo e c'è vento. Spero non piova."
     ]
    ]
   },
@@ -24,17 +24,17 @@
    "segs": [
     [
      "teasing",
-     "Tranquillo, la nave parte lo stesso. I biglietti li ho già presi."
+     "Tranquillo, in bassa stagione è più comodo."
     ]
    ],
    "f": {
-    "text": "Tranquilla, la nave parte lo stesso. I biglietti li ho già presi.",
-    "rd": "트란뀔라, 라 나베 빠르떼 로 스떼쏘. 이 빌리에띠 리 오 쟈 프레지.",
-    "ko": "걱정 마, 배는 그래도 떠나. 표도 벌써 끊어 놨어.",
+    "text": "Tranquilla, in bassa stagione è più comodo.",
+    "rd": "트란뀔라, 인 바싸 스따조네 에 삐우 꼬모도.",
+    "ko": "진정해, 비수기라 더 편해.",
     "segs": [
      [
       "teasing",
-      "Tranquilla, la nave parte lo stesso. I biglietti li ho già presi."
+      "Tranquilla, in bassa stagione è più comodo."
      ]
     ]
    }
@@ -43,7 +43,7 @@
    "segs": [
     [
      "worried",
-     "E quanto dura il viaggio, con questo vento?"
+     "Il mare è mosso. Non mi piace questo viaggio."
     ]
    ]
   },
@@ -51,7 +51,7 @@
    "segs": [
     [
      "teasing",
-     "Un'ora e mezza. Se il mare resta calmo."
+     "Te l'avevo detto. Prendi la giacca."
     ]
    ]
   },
@@ -59,11 +59,11 @@
    "segs": [
     [
      "worried",
-     "Giulia... il mare non è più calmo."
+     "Ho un po' di mal di testa."
     ],
     [
      "amused",
-     " E nemmeno il mio stomaco."
+     " Ma rido lo stesso."
     ]
    ]
   },
@@ -71,34 +71,34 @@
    "segs": [
     [
      "worried",
-     "Sei bianco! Siediti qui, guarda lontano e respira piano."
+     "Stai bene? Vuoi sederti un attimo?"
     ]
-   ],
-   "f": {
-    "text": "Sei bianca! Siediti qui, guarda lontano e respira piano.",
-    "rd": "쎄이 비안까! 씨에디띠 뀌, 구아르다 론따노 에 레스삐라 삐아노.",
-    "ko": "얼굴 하얘! 여기 앉아서 멀리 보고 천천히 숨 쉬어.",
-    "segs": [
-     [
-      "worried",
-      "Sei bianca! Siediti qui, guarda lontano e respira piano."
-     ]
-    ]
-   }
+   ]
   },
   "8": {
    "segs": [
     [
      "sad",
-     "Mi gira la testa e ho mal di stomaco. Forse è colpa della colazione."
+     "Sì, ma mi sento stancho oggi."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Sì, ma mi sento stancha oggi.",
+    "rd": "씨, 마 미 쎈또 스딴크아 오찌.",
+    "ko": "응, 근데 오늘 피곤해.",
+    "segs": [
+     [
+      "sad",
+      "Sì, ma mi sento stancha oggi."
+     ]
+    ]
+   }
   },
   "9": {
    "segs": [
     [
      "teasing",
-     "Tre dolci in dieci minuti. Te l'avevo detto."
+     "Bevi un po' d'acqua. Fa bene alla salute."
     ]
    ]
   },
@@ -106,7 +106,7 @@
    "segs": [
     [
      "amused",
-     "Se muoio qui, sappi che il terzo era il più buono."
+     "Grazie. Adesso va un po' meglio."
     ]
    ]
   },
@@ -114,11 +114,11 @@
    "segs": [
     [
      "teasing",
-     "Non muori."
+     "Guarda, l'isola si vede."
     ],
     [
      "shy",
-     " E comunque... ho scelto la nave apposta. Speravo che mi stessi vicino."
+     " Volevo stare sola con te."
     ]
    ]
   },
@@ -126,19 +126,34 @@
    "segs": [
     [
      "surprised",
-     "Apposta?"
+     "Cosa?"
     ],
     [
      "flustered",
-     " Volevi vedermi stare male?"
+     " Anch'io ero un po' emozionato."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Cosa? Anch'io ero un po' emozionata.",
+    "rd": "꼬자? 안끼오 에로 운 뽀 에모찌오나따.",
+    "ko": "뭐? 나도 좀 설렜어.",
+    "segs": [
+     [
+      "surprised",
+      "Cosa?"
+     ],
+     [
+      "flustered",
+      " Anch'io ero un po' emozionata."
+     ]
+    ]
+   }
   },
   "13": {
    "segs": [
     [
      "shy",
-     "No! Volevo solo... che il viaggio durasse un po' di più."
+     "Scusa, mi è scappato. Il viaggio è bello così."
     ]
    ]
   },
@@ -146,7 +161,7 @@
    "segs": [
     [
      "gentle",
-     "Allora oggi hai fortuna. Dicono che ci vuole un'altra ora."
+     "Tranquilla. Anch'io volevo questo con te."
     ]
    ]
   }

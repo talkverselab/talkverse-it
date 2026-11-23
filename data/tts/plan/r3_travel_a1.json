@@ -1,0 +1,78 @@
+{
+ "ep": "r3_travel_a1",
+ "cast": {
+  "B": "giulia",
+  "C": "luca",
+  "D": "chiara"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Pronto, siamo arrivati noi!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Che bello, siete bravi voi! Ma non vi vediamo."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Ma dove sono le due donne molto belle?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Sappiamo noi, le vediamo anche!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Ci guardano loro?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Allora, fanno così."
+    ],
+    [
+     "cheerful",
+     " Ci guardano e ridono, veniamo noi!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Guardate, le vedo! Vengono qui!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Sì, siamo noi le belle!"
+    ]
+   ]
+  }
+ }
+}

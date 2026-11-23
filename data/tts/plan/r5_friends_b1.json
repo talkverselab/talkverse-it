@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Ultima cosa prima di entrare: la nonna compie novant'anni, quindi sorridi e mangia tutto."
+     "Oggi è il compleanno della nonna, novant'anni!"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "surprised",
-     "Sorrido sempre. Ma perché sei così nervosa?"
+     "Sei così nervosa? Sembri preoccupata."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "annoyed",
-     "Perché ogni anno è la stessa storia: «Quando ti sposi? Quando trovi un lavoro vero?»"
+     "In queste feste di famiglia litighiamo sempre."
     ]
    ]
   },
@@ -33,55 +33,33 @@
    "segs": [
     [
      "cheerful",
-     "Chiara, tesoro! E questo bel ragazzo chi è?"
+     "Benvenuti! Entrate pure, cari."
     ]
-   ],
-   "f": {
-    "text": "Chiara, tesoro! E questa bella ragazza chi è?",
-    "rd": "끼아라, 떼조로! 에 꿰스따 벨라 라가짜 끼 에?",
-    "ko": "키아라, 우리 강아지! 이 예쁜 아가씨는 누구니?",
-    "segs": [
-     [
-      "cheerful",
-      "Chiara, tesoro! E questa bella ragazza chi è?"
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "polite",
-     "Piacere, signora. Sono un amico di Chiara. Tanti auguri!"
+     "Tanti auguri, nonna. È un piacere conoscerLa."
     ]
-   ],
-   "f": {
-    "text": "Piacere, signora. Sono un'amica di Chiara. Tanti auguri!",
-    "rd": "삐아체레, 씨뇨라. 쏘노 우나미까 디 끼아라. 딴띠 아우구리!",
-    "ko": "처음 뵙겠습니다. 키아라 친구예요. 생신 축하드려요!",
-    "segs": [
-     [
-      "polite",
-      "Piacere, signora. Sono un'amica di Chiara. Tanti auguri!"
-     ]
-    ]
-   }
+   ]
   },
   "6": {
    "segs": [
     [
      "teasing",
-     "Un amico, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori."
+     "Ma dai, chiamami nonna. Sei l'amico di Chiara?"
     ]
    ],
    "f": {
-    "text": "Un'amica, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori.",
-    "rd": "우나미까, 에? 마. 뚜아 꾸지나 씨 스뽀자 아 마조, 에 뚜 파이 안꼬라 디제니 디 피오리.",
-    "ko": "친구라, 응? 글쎄다. 네 사촌은 5월에 결혼하는데, 넌 아직도 꽃 그림이나 그리고.",
+    "text": "Ma dai, chiamami nonna. Sei l'amica di Chiara?",
+    "rd": "마 다이, 끼아마미 논나. 쎄이 라미까 디 끼아라?",
+    "ko": "에이, 할머니라고 해. 키아라 친구니?",
     "segs": [
      [
       "teasing",
-      "Un'amica, eh? Mah. Tua cugina si sposa a maggio, e tu fai ancora disegni di fiori."
+      "Ma dai, chiamami nonna. Sei l'amica di Chiara?"
      ]
     ]
    }
@@ -90,11 +68,11 @@
    "segs": [
     [
      "annoyed",
-     "Nonna, ti prego!"
+     "Nonna, per favore!"
     ],
     [
      "shout",
-     " Faccio quello che mi pare, e un giorno vivrò dei miei quadri."
+     " Non fare troppe domande."
     ]
    ]
   },
@@ -102,17 +80,17 @@
    "segs": [
     [
      "gentle",
-     "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasto senza parole."
+     "Tranquilla, va tutto bene. Sono contento di essere qui."
     ]
    ],
    "f": {
-    "text": "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole.",
-    "rd": "씨뇨라, 아 비스또 이 꽈드리 디 끼아라? 이오, 라 프리마 볼따, 쏘노 리마스따 쎈짜 빠롤레.",
-    "ko": "할머니, 키아라 그림 보셨어요? 저는 처음 봤을 때 말이 안 나왔어요.",
+    "text": "Tranquilla, va tutto bene. Sono contenta di essere qui.",
+    "rd": "트란뀔라, 바 뚜또 베네. 쏘노 꼰뗀따 디 에쎄레 뀌.",
+    "ko": "진정해, 다 괜찮아. 여기 있어서 기뻐.",
     "segs": [
      [
       "gentle",
-      "Signora, ha visto i quadri di Chiara? Io, la prima volta, sono rimasta senza parole."
+      "Tranquilla, va tutto bene. Sono contenta di essere qui."
      ]
     ]
    }
@@ -121,7 +99,7 @@
    "segs": [
     [
      "gentle",
-     "Li ho visti, sì. Uno l'ho anche comprato l'anno scorso, di nascosto."
+     "Anch'io sono felice di vederti qui oggi."
     ]
    ]
   },
@@ -129,11 +107,11 @@
    "segs": [
     [
      "surprised",
-     "Ma dai!"
+     "Davvero?"
     ],
     [
      "excited",
-     " Eri tu quella che non ha voluto dire il nome?"
+     " Allora anch'io mi sento meglio!"
     ]
    ]
   },
@@ -141,15 +119,26 @@
    "segs": [
     [
      "teasing",
-     "Certo. E già che ci siamo: anch'io ho un fidanzato. Il vicino del quarto piano."
+     "Certo. Portare un amico è il regalo più bello."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Certo. Portare un'amica è il regalo più bello.",
+    "rd": "체르또. 뽀르따레 우나미까 에 일 레갈로 삐우 벨로.",
+    "ko": "당연하지. 친구 데려온 게 제일 좋은 선물이야.",
+    "segs": [
+     [
+      "teasing",
+      "Certo. Portare un'amica è il regalo più bello."
+     ]
+    ]
+   }
   },
   "12": {
    "segs": [
     [
      "tsukkomi",
-     "Nonna! Ma da quando hai un fidanzato?"
+     "Ma dai, nonna, non esagerare col compleanno."
     ]
    ]
   },
@@ -157,7 +146,7 @@
    "segs": [
     [
      "amused",
-     "Da marzo. Lui ha settantotto anni. Mi piacciono giovani."
+     "Sono solo contenta, e tu sei ancora più nervosa di me!"
     ]
    ]
   }

@@ -10,7 +10,7 @@
    "segs": [
     [
      "excited",
-     "Ecco! Ho fatto la cena per voi."
+     "Ecco, ho fatto la cena per Lei!"
     ]
    ]
   },
@@ -18,7 +18,7 @@
    "segs": [
     [
      "surprised",
-     "Per noi? Hai fatto tutto tu?"
+     "Mamma mia, mamma sarà contenta!"
     ]
    ]
   },
@@ -26,7 +26,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo! La pasta, la musica... tutto per Lei."
+     "Per voi e per noi."
     ]
    ]
   },
@@ -34,26 +34,15 @@
    "segs": [
     [
      "shy",
-     "Mamma mia. È proprio bravo, Giulia."
+     "Ha fatto tutto Lei?"
     ]
-   ],
-   "f": {
-    "text": "Mamma mia. È proprio brava, Giulia.",
-    "rd": "맘마 미아. 에 프로프리오 브라바, 줄리아.",
-    "ko": "어머. 얘 진짜 대단하다, 줄리아.",
-    "segs": [
-     [
-      "shy",
-      "Mamma mia. È proprio brava, Giulia."
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "cheerful",
-     "Ciao! Ho mangiato la pasta. Buonissima!"
+     "Sono qui! Io l'ho mangiata! 😳"
     ]
    ]
   },
@@ -61,7 +50,7 @@
    "segs": [
     [
      "shout",
-     "Tutta?! Hai mangiato la cena della mamma di Giulia!"
+     "Cosa? Hai mangiato quella per Lei?"
     ]
    ]
   },
@@ -69,7 +58,7 @@
    "segs": [
     [
      "flustered",
-     "Ah... mi scusi. Torno al lavoro."
+     "Scusa. Mi scusi, signora."
     ]
    ]
   },
@@ -77,11 +66,7 @@
    "segs": [
     [
      "amused",
-     "Lascia stare."
-    ],
-    [
-     "gentle",
-     "Vorrei solo stare qui con te."
+     "Lascia stare, è divertente."
     ]
    ]
   }

@@ -9,7 +9,7 @@
    "segs": [
     [
      "teasing",
-     "Allora? Avete preso il mio scooter?"
+     "Allora, avete preso lo scooter?"
     ]
    ]
   },
@@ -17,17 +17,17 @@
    "segs": [
     [
      "excited",
-     "Sì! Siamo andati da Giulia. Bellissimo!"
+     "Sì, siamo andati in centro!"
     ]
    ],
    "f": {
-    "text": "Sì! Siamo andate da Giulia. Bellissimo!",
-    "rd": "씨! 씨아모 안다떼 다 줄리아. 벨리씨모!",
-    "ko": "응! 줄리아네 갔다 왔어. 끝내줬어!",
+    "text": "Sì, siamo andate in centro!",
+    "rd": "씨, 씨아모 안다떼 인 첸트로!",
+    "ko": "응, 시내로 갔어!",
     "segs": [
      [
       "excited",
-      "Sì! Siamo andate da Giulia. Bellissimo!"
+      "Sì, siamo andate in centro!"
      ]
     ]
    }
@@ -36,7 +36,7 @@
    "segs": [
     [
      "worried",
-     "E dove l'avete lasciato? Non lo vedo."
+     "L'avete lasciato da qualche parte?"
     ]
    ]
   },
@@ -44,17 +44,17 @@
    "segs": [
     [
      "flustered",
-     "Ehm... siamo tornati a piedi."
+     "No, siamo tornati a piedi."
     ]
    ],
    "f": {
-    "text": "Ehm... siamo tornate a piedi.",
-    "rd": "엠... 씨아모 또르나떼 아 삐에디.",
-    "ko": "음… 둘 다 걸어서 왔어.",
+    "text": "No, siamo tornate a piedi.",
+    "rd": "노, 씨아모 또르나떼 아 삐에디.",
+    "ko": "아니, 걸어서 돌아왔어.",
     "segs": [
      [
       "flustered",
-      "Ehm... siamo tornate a piedi."
+      "No, siamo tornate a piedi."
      ]
     ]
    }
@@ -63,7 +63,7 @@
    "segs": [
     [
      "shout",
-     "A piedi? E il mio scooter?!"
+     "Lo scooter? Dove l'avete lasciato?"
     ]
    ]
   },
@@ -71,7 +71,7 @@
    "segs": [
     [
      "flustered",
-     "L'abbiamo lasciato lì. Con la chiave."
+     "L'abbiamo lasciato lì."
     ]
    ]
   },
@@ -79,17 +79,17 @@
    "segs": [
     [
      "gentle",
-     "Tranquilli. Vado io da Giulia, adesso."
+     "Tranquilli, va bene."
     ]
    ],
    "f": {
-    "text": "Tranquille. Vado io da Giulia, adesso.",
-    "rd": "트란뀔레. 바도 이오 다 줄리아, 아데쏘.",
-    "ko": "걱정 마. 내가 지금 줄리아네 갈게.",
+    "text": "Tranquille, va bene.",
+    "rd": "트란뀔레, 바 베네.",
+    "ko": "걱정 마, 괜찮아.",
     "segs": [
      [
       "gentle",
-      "Tranquille. Vado io da Giulia, adesso."
+      "Tranquille, va bene."
      ]
     ]
    }
@@ -98,7 +98,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Aspetta. Perché ti fai così bello?"
+     "Ma dai, dorme da Giulia!"
     ]
    ]
   }

@@ -1,0 +1,75 @@
+{
+ "ep": "r0_life_a3",
+ "cast": {
+  "B": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Guarda! Faccio il bucato!"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Davvero? Bravo!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Sì... ma è strano."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Mamma mia! È tutto rosa!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Dai, è carino."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Le mie cose! No!"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Sei arrabbiato?"
+    ]
+   ],
+   "f": {
+    "text": "Sei arrabbiata?",
+    "rd": "쎄이 아라비아따?",
+    "ko": "화났어?",
+    "segs": [
+     [
+      "teasing",
+      "Sei arrabbiata?"
+     ]
+    ]
+   }
+  }
+ }
+}

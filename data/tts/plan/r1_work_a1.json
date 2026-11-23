@@ -1,0 +1,109 @@
+{
+ "ep": "r1_work_a1",
+ "cast": {
+  "B": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Lei è il nuovo ragazzo?"
+    ]
+   ],
+   "f": {
+    "text": "Lei è la nuova ragazza?",
+    "rd": "레이 에 라 누오바 라가짜?",
+    "ko": "새로 온 분이세요?",
+    "segs": [
+     [
+      "polite",
+      "Lei è la nuova ragazza?"
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Sì, sono pronto."
+    ]
+   ],
+   "f": {
+    "text": "Sì, sono pronta.",
+    "rd": "씨, 쏘노 프론따.",
+    "ko": "네, 준비됐어요.",
+    "segs": [
+     [
+      "stiff",
+      "Sì, sono pronta."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Può portare il piatto al tavolo?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Certo, posso portarlo."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "È bravo, davvero. Prenda questo."
+    ]
+   ],
+   "f": {
+    "text": "È brava, davvero. Prenda questo.",
+    "rd": "에 브라바, 다베로. 프렌다 꿰스또.",
+    "ko": "잘하시네요, 정말. 이거 드세요.",
+    "segs": [
+     [
+      "gentle",
+      "È brava, davvero. Prenda questo."
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "excited",
+     "Grazie, mamma."
+    ],
+    [
+     "cheerful",
+     " Oddio, scusi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Scusi? Può ripetere?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Scusi, signora. Porto il piatto."
+    ]
+   ]
+  }
+ }
+}

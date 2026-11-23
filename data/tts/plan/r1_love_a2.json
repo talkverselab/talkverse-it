@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Ecco! Ho fatto la cena per te."
+     "Ecco, ho fatto la cena per te."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "surprised",
-     "Per me? Hai fatto tutto tu?"
+     "Hai fatto tutto questo?"
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "cheerful",
-     "Certo! La pasta, la musica... tutto per te."
+     "Sì, la pasta alla carbonara."
     ]
    ]
   },
@@ -33,26 +33,15 @@
    "segs": [
     [
      "shy",
-     "Mamma mia. Sei proprio bravo."
+     "Sono un po' in ritardo."
     ]
-   ],
-   "f": {
-    "text": "Mamma mia. Sei proprio brava.",
-    "rd": "맘마 미아. 쎄이 프로프리오 브라바.",
-    "ko": "어머. 너 진짜 대단하다.",
-    "segs": [
-     [
-      "shy",
-      "Mamma mia. Sei proprio brava."
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "cheerful",
-     "Ciao! Ho mangiato la pasta. Buonissima!"
+     "Ho mangiato tutta la pasta!"
     ]
    ]
   },
@@ -60,7 +49,7 @@
    "segs": [
     [
      "shout",
-     "Tutta?! Luca, hai mangiato la cena di Giulia!"
+     "Hai mangiato tutta la cena?"
     ]
    ]
   },
@@ -68,7 +57,7 @@
    "segs": [
     [
      "flustered",
-     "Ah... scusa. Torno al lavoro."
+     "Sì, scusa... ho fame!"
     ]
    ]
   },
@@ -76,11 +65,11 @@
    "segs": [
     [
      "amused",
-     "Lascia stare."
+     "Mamma mia."
     ],
     [
      "gentle",
-     "Vorrei solo stare qui con te."
+     " Lascia stare, farò io."
     ]
    ]
   }

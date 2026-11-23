@@ -1,0 +1,94 @@
+{
+ "ep": "r2_work_c1",
+ "cast": {
+  "B": "marco"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Mamma mia, sono malato. 🤒"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Cosa? Aprire io? Ora?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "neutral",
+     "Sì, ti prego. Tranquillo."
+    ]
+   ],
+   "f": {
+    "text": "Sì, ti prego. Tranquilla.",
+    "rd": "씨, 띠 프레고. 트란뀔라.",
+    "ko": "응, 제발. 걱정 마.",
+    "segs": [
+     [
+      "neutral",
+      "Sì, ti prego. Tranquilla."
+     ]
+    ]
+   }
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Sono in ritardo. Scusa."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Dove sei? Non ho le chiavi."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Ti prego, come apro?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Scusa, dormivo ancora. 😂"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Tranquillo, domani apri tu."
+    ]
+   ],
+   "f": {
+    "text": "Tranquilla, domani apri tu.",
+    "rd": "트란뀔라, 도마니 아프리 뚜.",
+    "ko": "걱정 마, 내일 네가 열어.",
+    "segs": [
+     [
+      "teasing",
+      "Tranquilla, domani apri tu."
+     ]
+    ]
+   }
+  }
+ }
+}

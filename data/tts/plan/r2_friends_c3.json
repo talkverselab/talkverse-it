@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Domani vieni da me? Ho un caffè nuovo."
+     "Ehi, vieni a provare il nuovo caffè? ☕"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "excited",
-     "Sì! Certo!"
+     "Certo, arrivo dopo pranzo 😊"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "flustered",
-     "Ehm... Marco, scusa. Domani non posso."
+     "Scusa, non posso venire oggi 😔"
     ]
    ]
   },
@@ -32,15 +32,26 @@
    "segs": [
     [
      "worried",
-     "Cioè... sai, ho tanto lavoro."
+     "Cioè, sono troppo stanco 😴"
     ]
-   ]
+   ],
+   "f": {
+    "text": "Cioè, sono troppo stanca 😴",
+    "rd": "쵸에, 쏘노 트로뽀 스딴까 😴",
+    "ko": "그러니까, 너무 피곤해 😴",
+    "segs": [
+     [
+      "worried",
+      "Cioè, sono troppo stanca 😴"
+     ]
+    ]
+   }
   },
   "5": {
    "segs": [
     [
      "worried",
-     "Marco? Ci sei? 🥺"
+     "Va bene se vengo domani? 🙏"
     ]
    ]
   },
@@ -48,11 +59,11 @@
    "segs": [
     [
      "annoyed",
-     "Va bene, va bene! "
+     "Leggi i messaggi!"
     ],
     [
      "flustered",
-     "Vengo. Prima del lavoro."
+     " Dai, rispondi 😤"
     ]
    ]
   },
@@ -60,7 +71,7 @@
    "segs": [
     [
      "amused",
-     "Lo sapevo. Il caffè è già pronto ☕"
+     "Ahah, va bene domani mattina 😂"
     ]
    ]
   }

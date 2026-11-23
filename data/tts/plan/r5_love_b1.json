@@ -1,0 +1,180 @@
+{
+ "ep": "r5_love_b1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Mamma mia, che pioggia! È estate e fa così."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Senti, la luce se n'è andata. Resta qui."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shout",
+     "Dai, non vedo niente in questa camera!"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Guarda, c'è una candela sul tavolo."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Sei sempre così calmo quando fa buio?"
+    ]
+   ],
+   "f": {
+    "text": "Sei sempre così calma quando fa buio?",
+    "rd": "쎄이 쎔프레 꼬지 깔마 꽌도 파 부이오?",
+    "ko": "어두워지면 항상 이렇게 침착해?",
+    "segs": [
+     [
+      "teasing",
+      "Sei sempre così calma quando fa buio?"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Un po' nervoso, ma sto bene. Tu come stai?"
+    ]
+   ],
+   "f": {
+    "text": "Un po' nervosa, ma sto bene. Tu come stai?",
+    "rd": "운 뽀 네르보자, 마 스또 베네. 뚜 꼬메 스따이?",
+    "ko": "좀 긴장되지만 괜찮아. 너는 어때?",
+    "segs": [
+     [
+      "amused",
+      "Un po' nervosa, ma sto bene. Tu come stai?"
+     ]
+    ]
+   }
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Le previsioni dicevano sole. Fa così freddo che sembra Natale, magari nevica."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Fa freddo adesso con questa pioggia."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Cioè, siamo bloccati qui fino a quando?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Non lo so. Mi piace stare così con te."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Dai, non fare il romantico."
+    ],
+    [
+     "shy",
+     " Anch'io un po'."
+    ]
+   ],
+   "f": {
+    "text": "Dai, non fare la romantica. Anch'io un po'.",
+    "rd": "다이, 논 파레 라 로만띠까. 안끼오 운 뽀.",
+    "ko": "에이, 로맨틱하게 굴지 마. 나도 좀.",
+    "segs": [
+     [
+      "teasing",
+      "Dai, non fare la romantica."
+     ],
+     [
+      "shy",
+      " Anch'io un po'."
+     ]
+    ]
+   }
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Magari la pioggia smette presto."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Senti… Volevo restare lo stesso, anche senza luce."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "surprised",
+     "Davvero?"
+    ],
+    [
+     "shy",
+     " Anch'io ero contento di stare al buio con te."
+    ]
+   ],
+   "f": {
+    "text": "Davvero? Anch'io ero contenta di stare al buio con te.",
+    "rd": "다베로? 안끼오 에로 꼰뗀따 디 스따레 알 부이오 꼰 떼.",
+    "ko": "진짜? 나도 너랑 어두운 데 있어서 좋았어.",
+    "segs": [
+     [
+      "surprised",
+      "Davvero?"
+     ],
+     [
+      "shy",
+      " Anch'io ero contenta di stare al buio con te."
+     ]
+    ]
+   }
+  }
+ }
+}

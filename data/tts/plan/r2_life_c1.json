@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Oggi cucino io! Non mangiare niente."
+     "Oggi cucino io la cena 🍳"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "teasing",
-     "Davvero? Tu cucini? Allora non mangio niente 😂"
+     "Davvero? Sei sicuro? 😏"
     ]
    ]
   },
@@ -24,15 +24,26 @@
    "segs": [
     [
      "teasing",
-     "Ridi, ridi. Vedrai!"
+     "Tranquillo, sono un cuoco 😂"
     ]
-   ]
+   ],
+   "f": {
+    "text": "Tranquilla, sono un cuoco 😂",
+    "rd": "트란뀔라, 쏘노 운 꾸오꼬 😂",
+    "ko": "걱정 마, 나는 요리사야 😂",
+    "segs": [
+     [
+      "teasing",
+      "Tranquilla, sono un cuoco 😂"
+     ]
+    ]
+   }
   },
   "4": {
    "segs": [
     [
      "flustered",
-     "Ehm... non tornare a casa."
+     "Scusa, non posso più 😅"
     ]
    ]
   },
@@ -40,7 +51,7 @@
    "segs": [
     [
      "worried",
-     "Perché? Cosa è successo?"
+     "Cosa è successo? 😟"
     ]
    ]
   },
@@ -48,11 +59,11 @@
    "segs": [
     [
      "flustered",
-     "Niente! "
+     "Ho bruciato tutto."
     ],
     [
      "cheerful",
-     "Solo un po' di fumo 🔥"
+     " Ma ho ordinato la pizza 🍕"
     ]
    ]
   },
@@ -60,7 +71,7 @@
    "segs": [
     [
      "shout",
-     "FUMO?! Torno subito!"
+     "Cosa?! La pizza? 😱"
     ]
    ]
   },
@@ -68,17 +79,17 @@
    "segs": [
     [
      "gentle",
-     "Tranquillo. Oggi pizza. Pago io."
+     "Tranquillo, arriva tra poco 😊"
     ]
    ],
    "f": {
-    "text": "Tranquilla. Oggi pizza. Pago io.",
-    "rd": "트란뀔라. 오찌 삐짜. 빠고 이오.",
-    "ko": "진정해. 오늘은 피자. 내가 낼게.",
+    "text": "Tranquilla, arriva tra poco 😊",
+    "rd": "트란뀔라, 아리바 트라 뽀꼬 😊",
+    "ko": "걱정 마, 곧 도착해 😊",
     "segs": [
      [
       "gentle",
-      "Tranquilla. Oggi pizza. Pago io."
+      "Tranquilla, arriva tra poco 😊"
      ]
     ]
    }

@@ -1,0 +1,125 @@
+{
+ "ep": "r4_life_b1",
+ "cast": {
+  "B": "luca",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ma dai, ve lo consegno qui."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Grazie. Ce lo lascia pure qui."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Speriamo che sia solo formaggio."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ce n'è tanto, sento il formaggio."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Penso che sia buono davvero."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Gliel'ho aperto un pochino per vedere."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Mia mamma mandava sempre pacchi così."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Ci metteva sempre il formaggio fresco."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Lo prendo io? Ne assaggio un po'?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Ce n'è troppo, dai!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Speriamo che tua mamma ce l'abbia ancora."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "neutral",
+     "Dai, ce lo mangiamo subito!"
+    ],
+    [
+     "shout",
+     " Aspetta, c'è anche la maglia!"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "cheerful",
+     "Figurati, ve lo tengo io."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Ce ne rimane ancora tanto di formaggio?"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "ep": "r1_travel_a1",
+ "cast": {
+  "B": "giulia"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Pronto, sono arrivato in stazione."
+    ]
+   ],
+   "f": {
+    "text": "Pronto, sono arrivata in stazione.",
+    "rd": "프론또, 쏘노 아리바따 인 스따찌오네.",
+    "ko": "여보세요, 역에 도착했어.",
+    "segs": [
+     [
+      "excited",
+      "Pronto, sono arrivata in stazione."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao, sono qui vicino."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "C'è una bella ragazza."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Guarda quella, vieni."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Sì, la guardo un po'."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Sono io, dai!"
+    ],
+    [
+     "cheerful",
+     " Che bello."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ti vedo ora."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Sei bravo a trovarmi."
+    ]
+   ],
+   "f": {
+    "text": "Sei brava a trovarmi.",
+    "rd": "쎄이 브라바 아 트로바르미.",
+    "ko": "나를 잘 찾았네.",
+    "segs": [
+     [
+      "teasing",
+      "Sei brava a trovarmi."
+     ]
+    ]
+   }
+  }
+ }
+}

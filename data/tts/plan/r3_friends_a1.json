@@ -9,7 +9,7 @@
    "segs": [
     [
      "worried",
-     "Mamma mia, non troviamo i nostri telefoni!"
+     "Mamma mia, non troviamo i telefoni!"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "gentle",
-     "Tranquille, li chiamo io."
+     "Li chiamo. Tranquille."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "excited",
-     "Dai, chiama! Senti qualcosa?"
+     "Dai, li abbiamo messi nel frigo?"
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "surprised",
-     "Aspettate... sento una musica. Dal frigo?"
+     "Negli zaini? Non li vedo."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Dal frigo? Ma che dici?"
+     "Aspettate, dove sono andati?"
     ]
    ]
   },
@@ -49,11 +49,11 @@
    "segs": [
     [
      "amused",
-     "Ecco, trovati! Sono nel frigo."
+     "Abbiamo messo i gelati sopra?"
     ],
     [
      "surprised",
-     " Ma... dove sono i gelati?"
+     " Ecco, sotto!"
     ]
    ]
   },
@@ -61,11 +61,7 @@
    "segs": [
     [
      "surprised",
-     "Ah, sì! Abbiamo messo i telefoni"
-    ],
-    [
-     "flustered",
-     " nel frigo e..."
+     "No! Non li abbiamo visti!"
     ]
    ]
   },
@@ -73,11 +69,11 @@
    "segs": [
     [
      "sad",
-     "...i gelati nelle nostre borse."
+     "Vorremmo i nostri!"
     ],
     [
      "cheerful",
-     " Vorremmo altri due gelati."
+     " Sono qui sotto i gelati. 😂"
     ]
    ]
   }

@@ -1,0 +1,87 @@
+{
+ "ep": "r0_love_a4",
+ "cast": {
+  "B": "giulia",
+  "C": "luca"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ciao! Ho un regalo."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Per me? Dai!"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "No... per {name}."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Ecco, lo prendo io!"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Senti! È per lui!"
+    ]
+   ],
+   "f": {
+    "text": "Senti! È per lei!",
+    "rd": "쎈띠! 에 뻬르 레이!",
+    "ko": "들어! 그 사람 거야!",
+    "segs": [
+     [
+      "tsukkomi",
+      "Senti! È per lei!"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "sad",
+     "Ah... scusa."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Dai, chiamalo."
+    ]
+   ],
+   "f": {
+    "text": "Dai, chiamala.",
+    "rd": "다이, 끼아말라.",
+    "ko": "에이, 불러.",
+    "segs": [
+     [
+      "shy",
+      "Dai, chiamala."
+     ]
+    ]
+   }
+  }
+ }
+}

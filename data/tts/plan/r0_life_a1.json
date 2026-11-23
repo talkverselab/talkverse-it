@@ -8,7 +8,7 @@
    "segs": [
     [
      "annoyed",
-     "Ehi, dov'è la mia pizza?"
+     "Ehi! Dov'è la pizza?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "flustered",
-     "Quale pizza?"
+     "Non lo so..."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "annoyed",
-     "La mia! Buonissima. Era qui."
+     "Era nel frigo!"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "flustered",
-     "Boh. Non lo so."
+     "Boh, non vedo."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "teasing",
-     "Hai la bocca rossa."
+     "Ma dai, sei tu."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Ma dai! È solo pomodoro."
+     "No, non sono io!"
     ]
    ]
   },
@@ -56,26 +56,15 @@
    "segs": [
     [
      "tsukkomi",
-     "Solo pomodoro? Sei tutto rosso!"
+     "Hai la bocca sporca."
     ]
-   ],
-   "f": {
-    "text": "Solo pomodoro? Sei tutta rossa!",
-    "rd": "쏠로 뽀모도로? 쎄이 뚜따 로싸!",
-    "ko": "그냥 토마토? 너 얼굴 완전 빨개!",
-    "segs": [
-     [
-      "tsukkomi",
-      "Solo pomodoro? Sei tutta rossa!"
-     ]
-    ]
-   }
+   ]
   },
   "8": {
    "segs": [
     [
      "shy",
-     "Va bene... era buona."
+     "Ok... sono io."
     ]
    ]
   }

@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Buonasera. Biglietti, prego."
+     "Buonasera, il biglietto per favore."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "stiff",
-     "Ecco. Mi scusi, quanto manca a Napoli?"
+     "Ecco, glielo do subito."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "polite",
-     "A Napoli? Ci siamo passati mezz'ora fa."
+     "Grazie. Ha già passato la sua fermata."
     ]
    ]
   },
@@ -33,25 +33,25 @@
    "segs": [
     [
      "surprised",
-     "Mezz'ora fa?"
+     "Mamma mia, mi sono addormentato!"
     ],
     [
      "flustered",
-     " Ma mi sono addormentato solo un attimo!"
+     " L'ho persa."
     ]
    ],
    "f": {
-    "text": "Mezz'ora fa? Ma mi sono addormentata solo un attimo!",
-    "rd": "메쪼라 파? 마 미 쏘노 아도르멘따따 쏠로 운 아띠모!",
-    "ko": "30분 전이요? 잠깐 잠든 것뿐인데!",
+    "text": "Mamma mia, mi sono addormentata! L'ho persa.",
+    "rd": "맘마 미아, 미 쏘노 아도르멘따따! 로 뻬르싸.",
+    "ko": "맙소사, 잠들어 버렸어요! 놓쳤어요.",
     "segs": [
      [
       "surprised",
-      "Mezz'ora fa?"
+      "Mamma mia, mi sono addormentata!"
      ],
      [
       "flustered",
-      " Ma mi sono addormentata solo un attimo!"
+      " L'ho persa."
      ]
     ]
    }
@@ -60,42 +60,53 @@
    "segs": [
     [
      "neutral",
-     "Due ore. Hai dormito due ore."
+     "Dormivi da un'ora. Non ti sei svegliato."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Dormivi da un'ora. Non ti sei svegliata.",
+    "rd": "도르미비 다 우노라. 논 띠 쎄이 스벨리아따.",
+    "ko": "한 시간째 자고 있었어. 안 깼잖아.",
+    "segs": [
+     [
+      "neutral",
+      "Dormivi da un'ora. Non ti sei svegliata."
+     ]
+    ]
+   }
   },
   "6": {
    "segs": [
     [
      "annoyed",
-     "E tu perché non mi hai svegliato?"
+     "Lo so, mi avevi detto di svegliarmi."
     ]
-   ],
-   "f": {
-    "text": "E tu perché non mi hai svegliata?",
-    "rd": "에 뚜 뻬르께 논 미 아이 스벨리아따?",
-    "ko": "근데 넌 왜 안 깨웠어?",
-    "segs": [
-     [
-      "annoyed",
-      "E tu perché non mi hai svegliata?"
-     ]
-    ]
-   }
+   ]
   },
   "7": {
    "segs": [
     [
      "teasing",
-     "Dormivi così bene. E il signore era già passato due volte."
+     "Me l'avevi detto di svegliarti. Poi ti sei riaddormentato."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Me l'avevi detto di svegliarti. Poi ti sei riaddormentata.",
+    "rd": "메 라베비 데또 디 스벨리아르띠. 뽀이 띠 쎄이 리아도르멘따따.",
+    "ko": "깨워 달라고 나한테 말했었잖아. 그다음 또 잠들었어.",
+    "segs": [
+     [
+      "teasing",
+      "Me l'avevi detto di svegliarti. Poi ti sei riaddormentata."
+     ]
+    ]
+   }
   },
   "8": {
    "segs": [
     [
      "polite",
-     "Se scendesse alla prossima, potrebbe prendere un treno per tornare indietro."
+     "Se scendesse alla prossima, potrebbe prendere il regionale."
     ]
    ]
   },
@@ -103,7 +114,7 @@
    "segs": [
     [
      "worried",
-     "Grazie mille. E quando passa?"
+     "Quanto costa la differenza? Non ho contanti."
     ]
    ]
   },
@@ -111,11 +122,7 @@
    "segs": [
     [
      "polite",
-     "L'ultimo con cui può tornare stasera è partito alle nove."
-    ],
-    [
-     "neutral",
-     " Il prossimo, alle sei di mattina."
+     "Il treno con cui viaggia ha la tariffa piena."
     ]
    ]
   },
@@ -123,7 +130,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Mamma mia. Marco, tu lo sapevi che dovevamo scendere a Napoli?"
+     "Cioè, dormivo e adesso pago di più?"
     ]
    ]
   },
@@ -131,11 +138,11 @@
    "segs": [
     [
      "surprised",
-     "Napoli? Credevo che scendessimo a Salerno."
+     "Me lo avevi promesso di svegliarmi!"
     ],
     [
      "annoyed",
-     " Me l'avevi detto tu!"
+     " Anch'io l'ho persa apposta."
     ]
    ]
   },
@@ -143,7 +150,7 @@
    "segs": [
     [
      "polite",
-     "Il biglietto però vale solo fino a Napoli. Per il resto del viaggio deve pagare la differenza: quattro euro a testa."
+     "Può pagare con la carta, se preferisce."
     ]
    ]
   },
@@ -151,11 +158,11 @@
    "segs": [
     [
      "stiff",
-     "Ecco otto euro, per tutti e due."
+     "Va bene, la pago."
     ],
     [
      "annoyed",
-     " Marco, stanotte l'albergo lo paghi tu."
+     " Ma non è giusto."
     ]
    ]
   }
