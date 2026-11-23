@@ -292,7 +292,8 @@ class CurStage {
   final List<int> pick;
   final int pass;
   final Map<String, int> daily; // light·normal·focus → 하루 새 편 수
-  const CurStage(this.id, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = kDefaultDaily});
+  final bool free; // 무료 단계(서버 `free`, 없으면 1단계만) — PAYWALL_SPEC §2
+  const CurStage(this.id, this.title, this.desc, this.dialogueIds, {this.pick = const [3, 5, 10], this.pass = kPassPercent, this.daily = kDefaultDaily, this.free = false});
 }
 
 /// 옛 회화 레벨(R0~R5) → 단계(§12 기본 대응: R0+R1 → 1, R2 → 2 … R5 → 5).
@@ -311,7 +312,8 @@ List<CurStage> parseStages(Map d, bool Function(String id) has) {
     final n = '${s['n']}';
     out.add(CurStage(n, '${s['title'] ?? trStage(n)}', '${s['desc'] ?? ''}', ids,
         pick: [for (final x in (s['pick'] as List? ?? const [3, 5, 10])) (x as num).toInt()], pass: (s['pass'] as num?)?.toInt() ?? kPassPercent,
-        daily: {...kDefaultDaily, for (final e in ((s['daily'] as Map?) ?? const {}).entries) if (e.value is num) '${e.key}': (e.value as num).toInt()}));
+        daily: {...kDefaultDaily, for (final e in ((s['daily'] as Map?) ?? const {}).entries) if (e.value is num) '${e.key}': (e.value as num).toInt()},
+        free: s['free'] is bool ? s['free'] as bool : n == '1'));
   }
   return out;
 }
@@ -336,6 +338,9 @@ class CurriculumService {
   /// 단계 목록(서버 JSON → 기기 사본 → 앱 안 JSON 순). 읽기 실패면 회화 레벨 기준 기본 대응으로 만든다.
   List<CurStage> stages = const [];
   int configRev = 0;
+
+  /// 무료 문법 스텝 수·무료 언어감각 급 수(커리큘럼 JSON 최상위 `freeSteps`·`freeSenseLevels`, PAYWALL_SPEC §2).
+  int freeSteps = 2, freeSenseLevels = 1;
 
   /// 테스트에서 날짜를 고정할 때.
   @visibleForTesting
@@ -406,6 +411,8 @@ class CurriculumService {
     if (st.isNotEmpty) {
       stages = st;
       configRev = ((d!['rev'] as num?) ?? 0).toInt();
+      freeSteps = (d['freeSteps'] as num?)?.toInt() ?? 2;
+      freeSenseLevels = (d['freeSenseLevels'] as num?)?.toInt() ?? 1;
       return;
     }
     // JSON 이 없거나 읽기 실패 — 회화 레벨 기준(지금 동작)
@@ -413,8 +420,10 @@ class CurriculumService {
     for (final r in DialogueService.instance.regions) {
       by.putIfAbsent(stageOfRegion(r), () => []).addAll(DialogueService.instance.list(region: r).map((e) => e.id));
     }
-    stages = [for (final e in (by.entries.toList()..sort((a, b) => a.key.compareTo(b.key)))) CurStage(e.key, trStage(e.key), '', e.value)];
+    stages = [for (final e in (by.entries.toList()..sort((a, b) => a.key.compareTo(b.key)))) CurStage(e.key, trStage(e.key), '', e.value, free: e.key == '1')];
     configRev = 0;
+    freeSteps = 2;
+    freeSenseLevels = 1;
   }
 
   /// 서버 rev 가 지금 것보다 크면 받아 바꿔 쓴다. 바뀌었으면 true.

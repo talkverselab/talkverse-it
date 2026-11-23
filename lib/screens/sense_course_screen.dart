@@ -9,6 +9,7 @@ import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/prefs.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 
@@ -89,7 +90,22 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
     });
   }
 
+  /// 회차 index(전체 순서)가 몇 급인지(1부터).
+  int _levelNo(int index) {
+    final d = _data;
+    if (d == null) return 1;
+    var i = 0, lvNo = 0;
+    for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>()) {
+      lvNo++;
+      i += (lv['lessons'] as List).length;
+      if (index < i) return lvNo;
+    }
+    return lvNo;
+  }
+
   Future<void> _open(int index) async {
+    // 2급부터는 이용권(PAYWALL_SPEC §2, 무료 급 수는 서버 freeSenseLevels)
+    if (!await Entitlement.gate(context, Entitlement.senseLevelOpen(_levelNo(index))) || !mounted) return;
     await openFull(context, (_) => SenseLessonScreen(index: index));
     _load();
   }
@@ -168,7 +184,9 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
                     child: Text(ls['title'] as String,
                         style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.sumi)),
                   ),
-                  if (isDone)
+                  if (!Entitlement.senseLevelOpen(_levelNo(idx)))
+                    const LockBadge(size: 18)
+                  else if (isDone)
                     const Icon(Icons.check_circle, color: AppColors.matcha, size: 20)
                   else if (isNext)
                     Text(tr('다음'), style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.ai)),
@@ -216,6 +234,16 @@ class _SenseLessonScreenState extends State<SenseLessonScreen> {
     var nextIdx = widget.index + 1;
     while (nextIdx < all.length && all[nextIdx].$2['kind'] == 'ref') {
       nextIdx++;
+    }
+    final lvIds = all.map((e) => e.$1['id']).toSet().toList();
+    if (nextIdx < all.length && !Entitlement.senseLevelOpen(lvIds.indexOf(all[nextIdx].$1['id']) + 1)) {
+      // 다음 회가 잠긴 급이면 결제 화면 — 안 사면 목록으로
+      await Entitlement.showPaywall(context);
+      if (!mounted) return;
+      if (!Entitlement.senseLevelOpen(lvIds.indexOf(all[nextIdx].$1['id']) + 1)) {
+        Navigator.of(context).pop();
+        return;
+      }
     }
     if (nextIdx < all.length) {
       Navigator.of(context).pushReplacement(

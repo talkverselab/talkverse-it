@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/ko_reading.dart';
 import '../services/tts_service.dart';
 import '../widgets/spanish_decor.dart';
@@ -106,18 +107,21 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
                           subtitle: Text(
                               '${l.subtitle.isEmpty ? '' : '${l.subtitle}\n'}${trf('패턴 {0} · 예문 {1}', [l.patterns.length, l.exampleCount])}',
                               style: const TextStyle(fontSize: 12, height: 1.4)),
-                          trailing: IconButton(
-                            tooltip: tr('테스트'),
-                            icon: const Icon(Icons.quiz, color: AppColors.rojo),
-                            onPressed: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
-                            ),
-                          ),
-                          onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)),
-                          ),
+                          // 3스텝부터는 이용권(PAYWALL_SPEC §2, 무료 스텝 수는 서버 freeSteps)
+                          trailing: !Entitlement.grammarStepOpen(l.number)
+                              ? const LockBadge()
+                              : IconButton(
+                                  tooltip: tr('테스트'),
+                                  icon: const Icon(Icons.quiz, color: AppColors.rojo),
+                                  onPressed: () => Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (_) => GrammarTestScreen(lesson: l)),
+                                  ),
+                                ),
+                          onTap: () async {
+                            if (!await Entitlement.gate(context, Entitlement.grammarStepOpen(l.number)) || !context.mounted) return;
+                            Navigator.push(context, MaterialPageRoute(builder: (_) => GrammarLessonScreen(lesson: l)));
+                          },
                         ),
                       ),
                   ],

@@ -7,6 +7,7 @@ import '../data/account.dart';
 import '../data/purchase.dart';
 import '../core/theme.dart';
 import '../widgets/legal_links.dart';
+import 'custom_script_screen.dart' show kCustomScriptLive;
 import 'login_screen.dart';
 
 const _line = Color(0xFFD5DBE3);
@@ -38,8 +39,6 @@ class _PaywallScreenState extends State<PaywallScreen> {
   String get _appName => embedded ? 'Talkverse' : tr('이탈리아어유니버스');
 
   String? _sel; // 미리 고르지 않는다
-
-  static String _won(int v) => '₩${v.toString().replaceAllMapped(RegExp(r'(\d)(?=(\d{3})+$)'), (m) => '${m[1]},')}';
 
   String _title(Plan p) => switch ((p.bundle, p.months)) {
         (false, 1) => tr('1개월'),
@@ -75,7 +74,11 @@ class _PaywallScreenState extends State<PaywallScreen> {
                     Text(_appName, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.rojo)),
                     Text(tr('이용권 선택'), style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.tinta)),
                     const SizedBox(height: 10),
-                    _row(Icons.check_circle, trf('{0}의 유료 과정 전부 — 지금 있는 것과 앞으로 추가되는 것', [_appName])),
+                    // 혜택 = PAYWALL_SPEC §2 유료 목록(맞춤 회화는 켜졌을 때만)
+                    _row(Icons.check_circle, tr('토크버스 커리큘럼 2단계 이상')),
+                    _row(Icons.check_circle, tr('회화 2단계 이상 모든 편')),
+                    _row(Icons.check_circle, tr('문법 3스텝부터 · 언어감각 2급부터')),
+                    if (kCustomScriptLive) _row(Icons.check_circle, tr('맞춤 회화 만들기')),
                     _row(Icons.check_circle, isIOS ? tr('로그인하면 아이폰·아이패드 어디서나') : tr('로그인하면 다른 기기에서도')),
                     const SizedBox(height: 10),
                     Text(_appName, style: const TextStyle(fontSize: 12.5, fontWeight: FontWeight.w800, color: AppColors.tintaLight)),
@@ -93,17 +96,32 @@ class _PaywallScreenState extends State<PaywallScreen> {
                         padding: const EdgeInsets.only(bottom: 8),
                         child: Text(
                           sel.lifetime
-                              ? trf('{0} · {1} · 한 번 결제, 자동 갱신 없음', [_title(sel), selPrice ?? _won(sel.krw)])
-                              : trf('{0} · {1} · 기간이 끝나면 같은 가격으로 자동 갱신됩니다. 갱신 24시간 전까지 해지하면 다음 결제가 되지 않습니다.', [_title(sel), selPrice ?? _won(sel.krw)]),
+                              ? trf('{0} · {1} · 한 번 결제, 자동 갱신 없음', [_title(sel), selPrice ?? ''])
+                              : trf('{0} · {1} · 기간이 끝나면 같은 가격으로 자동 갱신됩니다. 갱신 24시간 전까지 해지하면 다음 결제가 되지 않습니다.', [_title(sel), selPrice ?? '']),
                           style: const TextStyle(fontSize: 12, color: AppColors.tinta, height: 1.45, fontWeight: FontWeight.w600),
                         ),
                       ),
+                    ValueListenableBuilder<String>(
+                      valueListenable: Purchase.loadState,
+                      builder: (c, ls, _) => ls != 'failed'
+                          ? const SizedBox.shrink()
+                          : Padding(
+                              padding: const EdgeInsets.only(bottom: 8),
+                              child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+                                Text(tr('스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.'), textAlign: TextAlign.center, style: const TextStyle(color: AppColors.tinta, fontWeight: FontWeight.w700)),
+                                Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                                  TextButton(onPressed: Purchase.loadProducts, child: Text(tr('다시 시도'))),
+                                  TextButton(onPressed: () => Navigator.maybePop(context), child: Text(tr('닫기'))),
+                                ]),
+                              ]),
+                            ),
+                    ),
                     FilledButton(
                       style: FilledButton.styleFrom(backgroundColor: AppColors.rojo, foregroundColor: Colors.white, minimumSize: const Size.fromHeight(54), textStyle: const TextStyle(fontSize: 16.5, fontWeight: FontWeight.w900), shape: const StadiumBorder()),
                       onPressed: busy || sel == null || selPrice == null ? null : () => Purchase.buy(sel.id),
                       child: busy
                           ? const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(strokeWidth: 2.5, color: Colors.white))
-                          : Text(sel == null ? tr('이용권을 골라 주세요') : selPrice == null ? tr('스토어에 연결하는 중…') : '${tr('구매')} · $selPrice'),
+                          : Text(sel == null ? tr('이용권을 골라 주세요') : selPrice == null ? (Purchase.loadState.value == 'failed' ? tr('잠시 뒤 다시 시도') : tr('스토어에 연결하는 중…')) : '${tr('구매')} · $selPrice'),
                     ),
                     const SizedBox(height: 8),
                     Text(
@@ -142,7 +160,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
 
   Widget _planTile(Plan p, bool busy) {
     final on = _sel == p.id;
-    final price = Purchase.price(p.id) ?? _won(p.krw);
+    final price = Purchase.price(p.id) ?? '—'; // 가격은 스토어 값만(코드에 원화·할인 표시 없음)
     return Padding(
       padding: const EdgeInsets.only(bottom: 6),
       child: Semantics(
@@ -165,9 +183,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 ]),
               ),
               Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                if (p.discounted) Text(_won(p.listKrw), style: const TextStyle(fontSize: 11.5, color: AppColors.tintaLight, decoration: TextDecoration.lineThrough)),
                 Text(price, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w900, color: AppColors.tinta)),
-                if (p.discounted) Text(tr('30% 할인'), style: const TextStyle(fontSize: 10.5, fontWeight: FontWeight.w800, color: AppColors.rojo)),
               ]),
             ]),
           ),

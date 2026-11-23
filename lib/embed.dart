@@ -12,6 +12,7 @@ import 'screens/main_screen.dart';
 import 'screens/sync_screen.dart';
 import 'services/achievement_service.dart';
 import 'services/content_sync.dart';
+import 'services/curriculum_service.dart';
 import 'services/script_sync.dart';
 import 'services/ko_reading.dart';
 import 'services/learner_prefs.dart';
@@ -45,15 +46,16 @@ Future<void> embedInit({bool standalone = false}) async {
   Account.load(); // 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음)
   // 통합 앱이면 결제 스트림은 공용 결제가 넘겨준다(Purchase.onPurchaseUpdates).
   Purchase.ownStream = standalone;
-  // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
+  // 상품 ID = PAYWALL_SPEC §1. 가격은 스토어에서 받은 값만 보인다(코드에 원화 없음, 11-23).
   Purchase.configure('it', const [
-    Plan('lang_it_1m', 1, 3900, listKrw: 5500),
-    Plan('lang_it_3m', 3, 9000, listKrw: 12900),
-    Plan('lang_it_1y', 12, 19900, listKrw: 28500),
-    Plan('lang_it_life', 0, 49000, listKrw: 69900),
-    Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
-    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+    Plan('lang_it_1m', 1),
+    Plan('lang_it_3m', 3),
+    Plan('lang_it_1y', 12),
+    Plan('lang_it_life', 0),
+    Plan('all_1y', 12, bundle: true),
+    Plan('all_life', 0, bundle: true),
   ]);
+  CurriculumService.instance.ensureLoaded(); // 잠금 값(무료 단계·스텝)도 커리큘럼 JSON 에서 — 뒤에서 읽음
   // 회화 원고는 켤 때마다 무조건 서버 판을 확인해 받는다 — 그림·음성 내려받기(선택·「나중에」)와 따로(일본어앱 빌드 114).
   // 느린 망에서는 startupWait 까지만 기다리고 앱을 연다(받기는 뒤에서 이어지고, 끝나면 회화 목록을 다시 읽는다).
   try {

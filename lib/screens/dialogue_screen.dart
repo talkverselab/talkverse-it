@@ -4,6 +4,7 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/dialogue_service.dart';
 import '../services/ko_reading.dart';
 import '../widgets/lemma_chips.dart';
@@ -189,11 +190,13 @@ class DialogueListScreen extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: ListTile(
-                onTap: () => openFull(context, (_) => DialogueScreen(dialogue: d)),
+                onTap: () async {
+                  if (await Entitlement.gate(context, Entitlement.dialogueOpen(d)) && context.mounted) openFull(context, (_) => DialogueScreen(dialogue: d));
+                },
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Entitlement.dialogueOpen(d) ? Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)) : const LockBadge(),
               ),
             ),
           );
@@ -231,6 +234,7 @@ class _DialogueScreenState extends State<DialogueScreen> {
 
   @override
   Widget build(BuildContext context) {
+    if (!Entitlement.dialogueOpen(d)) return _Locked(dialogue: d);
     final wide = isWide(context);
     return Scaffold(
       backgroundColor: AppColors.washi,
@@ -366,4 +370,45 @@ class _Bubble extends StatelessWidget {
           child: Text(name.isEmpty ? '?' : name.characters.first, style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.sumi)),
         ),
       );
+}
+
+/// 잠긴 편(이용권 필요, PAYWALL_SPEC §3) — 무엇인지 보여 주고 결제 화면으로.
+class _Locked extends StatefulWidget {
+  final Dialogue dialogue;
+  const _Locked({required this.dialogue});
+  @override
+  State<_Locked> createState() => _LockedState();
+}
+
+class _LockedState extends State<_Locked> {
+  @override
+  Widget build(BuildContext context) {
+    final d = widget.dialogue;
+    return Scaffold(
+      backgroundColor: AppColors.washi,
+      appBar: AppBar(title: Text('${d.emoji} ${d.title}', style: const TextStyle(color: AppColors.sumi, fontWeight: FontWeight.w800, fontSize: 15))),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(mainAxisSize: MainAxisSize.min, children: [
+            const LockBadge(size: 40),
+            const SizedBox(height: 12),
+            Text(tr('이용권이 있으면 열리는 회화예요'), textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800, color: AppColors.sumi)),
+            const SizedBox(height: 6),
+            Text(d.sceneShown, textAlign: TextAlign.center, style: const TextStyle(fontSize: 13, color: AppColors.muted)),
+            const SizedBox(height: 16),
+            FilledButton(
+              onPressed: () async {
+                await Entitlement.showPaywall(context);
+                if (!mounted) return;
+                setState(() {});
+                if (Entitlement.dialogueOpen(d)) Navigator.of(this.context).pushReplacement(MaterialPageRoute(builder: (_) => DialogueScreen(dialogue: d)));
+              },
+              child: Text(tr('이용권 보기')),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
 }

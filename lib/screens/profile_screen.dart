@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'about_screen.dart';
-import 'custom_script_screen.dart' show kCustomScriptLive;
 import 'login_screen.dart';
 
 import '../core/theme.dart';
@@ -194,8 +193,6 @@ class _AccountSection extends StatelessWidget {
                 subtitle: tr('계정과 로그인 정보를 지웁니다'),
                 onTap: () => _confirmDelete(context)),
           ],
-          // 이용권·구매 복원은 이용권으로 여는 것(맞춤 회화)이 켜질 때까지 숨김(11-23 심사 점검 — 사도 열리는 게 없으면 애플 2.1 거절). 코드는 남김.
-          if (kCustomScriptLive) ...[
           _SettingItem(
               icon: Icons.workspace_premium_outlined,
               title: tr('이용권'),
@@ -211,7 +208,6 @@ class _AccountSection extends StatelessWidget {
                 _ => tr('이전에 산 이용권을 이 기기에서 다시 엽니다'),
               },
               onTap: () => Purchase.restore()),
-          ],
         ]),
       ),
     );

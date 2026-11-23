@@ -4,6 +4,7 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../data/entitlement.dart';
 import '../services/curriculum_service.dart';
 import '../services/tts_service.dart';
 import '../services/dialogue_service.dart';
@@ -42,6 +43,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   }
 
   Future<void> _setLevel(String lv) async {
+    // 잠긴 단계(이용권 필요, PAYWALL_SPEC §2)는 결제 화면 — 사면 그대로 들어감
+    if (!await Entitlement.gate(context, Entitlement.stageOpen(lv)) || !mounted) return;
     _st.level = lv;
     await _svc.save();
     setState(() {
@@ -166,7 +169,7 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                   ),
                 ]),
               ),
-              if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.italia),
+              if (!Entitlement.stageOpen(lv)) const LockBadge(size: 20) else if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.italia),
             ]),
           ),
     ];
@@ -242,6 +245,24 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
   // ── 코스 ──
   List<Widget> _courseBody() {
     final c = _st.course;
+    final lvNow = _st.level;
+    if (lvNow != null && !Entitlement.stageOpen(lvNow)) {
+      // 이용권이 끝났거나 잠긴 단계를 고른 채로 남은 경우
+      return [
+        _card(
+          onTap: () async {
+            await Entitlement.showPaywall(context);
+            if (mounted) setState(() {});
+          },
+          child: Row(children: [
+            const LockBadge(size: 22),
+            const SizedBox(width: 10),
+            Expanded(child: Text(trf('{0}는 이용권이 있으면 열려요', [tr(_svc.stageTitle(lvNow))]), style: const TextStyle(fontWeight: FontWeight.w800, color: AppColors.sumi))),
+          ]),
+        ),
+        TextButton(onPressed: () => setState(() => _levelPick = true), child: Text(tr('단계를 골라요'))),
+      ];
+    }
     if (_confirmNew) {
       return [
         _card(

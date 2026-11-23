@@ -422,6 +422,15 @@ const Map<String, String> kDictEn = {
   '로그인하면 다른 기기에서도': 'Sign in to use it on your other devices',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by the App Store. Prices follow the store and may include tax. No hidden fees.',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payment is handled by Google Play. Prices follow the store and may include tax. No hidden fees.',
+  // 이용권 잠금(11-23 PAYWALL_SPEC)
+  '토크버스 커리큘럼 2단계 이상': 'Talkverse Curriculum, stage 2 and up',
+  '회화 2단계 이상 모든 편': 'All conversations from stage 2 up',
+  '문법 3스텝부터 · 언어감각 2급부터': 'Grammar from step 3 · Language sense from level 2',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': 'Could not reach the store. Please try again shortly.',
+  '다시 시도': 'Try again',
+  '잠시 뒤 다시 시도': 'Try again shortly',
+  '이용권이 있으면 열리는 회화예요': 'This conversation opens with a pass',
+  '{0}는 이용권이 있으면 열려요': '{0} opens with a pass',
 };
 
 const Map<String, String> kDictJa = {
@@ -832,6 +841,15 @@ const Map<String, String> kDictJa = {
   '로그인하면 다른 기기에서도': 'ログインすれば他の端末でも',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはApp Storeで処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'お支払いはGoogle Playで処理されます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
+  // 이용권 잠금(11-23 PAYWALL_SPEC)
+  '토크버스 커리큘럼 2단계 이상': 'トークバース・カリキュラム ステージ2以上',
+  '회화 2단계 이상 모든 편': '会話ステージ2以上のすべて',
+  '문법 3스텝부터 · 언어감각 2급부터': '文法ステップ3から・言語感覚2級から',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': 'ストアに接続できませんでした。しばらくしてからもう一度お試しください。',
+  '다시 시도': '再試行',
+  '잠시 뒤 다시 시도': 'しばらくして再試行',
+  '이용권이 있으면 열리는 회화예요': 'パスで開く会話です',
+  '{0}는 이용권이 있으면 열려요': '{0}はパスで開きます',
 };
 
 const Map<String, String> kDictZh = {
@@ -1242,4 +1260,13 @@ const Map<String, String> kDictZh = {
   '로그인하면 다른 기기에서도': '登录后在其他设备上也能使用',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
   '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店为准，可能含税。没有隐藏费用。',
+  // 이용권 잠금(11-23 PAYWALL_SPEC)
+  '토크버스 커리큘럼 2단계 이상': 'Talkverse 课程第2阶段及以上',
+  '회화 2단계 이상 모든 편': '第2阶段及以上的所有对话',
+  '문법 3스텝부터 · 언어감각 2급부터': '语法第3步起 · 语感第2级起',
+  '스토어에 연결하지 못했어요. 잠시 뒤 다시 시도해 주세요.': '无法连接商店，请稍后再试。',
+  '다시 시도': '重试',
+  '잠시 뒤 다시 시도': '请稍后再试',
+  '이용권이 있으면 열리는 회화예요': '此对话需要通行证',
+  '{0}는 이용권이 있으면 열려요': '{0}需要通行证',
 };

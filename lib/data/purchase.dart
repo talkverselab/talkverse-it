@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import '../core/prefs.dart';
 
 import '../core/platform.dart';
@@ -18,7 +19,7 @@ class Plan {
   final bool bundle;
   final int krw; // 앱 할인가(스토어 판매가) — 스토어 가격을 못 받았을 때 표시
   final int listKrw; // 앱 정가(취소선 표기용, ~/talkverse/PRICING.md)
-  const Plan(this.id, this.months, this.krw, {this.listKrw = 0, this.bundle = false});
+  const Plan(this.id, this.months, {this.krw = 0, this.listKrw = 0, this.bundle = false}); // 가격은 스토어 값만 쓴다(PAYWALL_SPEC §3) — krw 칸은 옛 호환
   bool get lifetime => months == 0;
   bool get discounted => listKrw > krw;
   int get discountPct => discounted ? ((1 - krw / listKrw) * 100).round() : 0;
@@ -40,6 +41,10 @@ class Purchase {
   static final products = ValueNotifier<Map<String, ProductDetails>>(const {});
   /// 구매 진행 상태 알림(화면이 듣고 안내): null = 없음, 'pending' · 'error' · 'done' · 'restored' · 'nothing'
   static final status = ValueNotifier<String?>(null);
+  /// 상품 목록 받기: 'loading' · 'ok' · 'failed'(스토어 연결 실패 — 결제 화면은 「잠시 뒤 다시 시도」, 끝없이 돌지 않음).
+  static final loadState = ValueNotifier<String>('loading');
+  /// 기기 이용권 저장 키(PAYWALL_SPEC §4): 이 언어 = Prefs 가 접두를 붙여 `it_entitlement_v1`, 종합 = 22개 언어 공통 `all_entitlement_v1`.
+  static const kEntKey = 'entitlement_v1', kAllKey = 'all_entitlement_v1';
   static StreamSubscription<List<PurchaseDetails>>? _sub;
 
   /// 통합 앱 연결(2026-11-09): false 면 이 패키지가 스토어 구매 스트림을 직접 듣지 않는다 —
@@ -65,15 +70,46 @@ class Purchase {
     final raw = p.getString('iap_owned2');
     final m = <String, int>{if (raw != null) ...(jsonDecode(raw) as Map).map((k, v) => MapEntry('$k', (v as num).toInt()))};
     if ((p.getStringList('iap_owned') ?? const []).contains(code)) m['lang_${code}_life'] = 0; // 옛 저장 방식(평생 하나)
+    for (final raw2 in [p.getString(kEntKey), (await SharedPreferences.getInstance()).getString(kAllKey)]) {
+      if (raw2 == null) continue;
+      try {
+        for (final e in (jsonDecode(raw2) as Map).entries) {
+          final v = (e.value as num).toInt(), cur = m['${e.key}'];
+          if (cur == null || (cur != 0 && (v == 0 || v > cur))) m['${e.key}'] = v;
+        }
+      } catch (_) {}
+    }
     owned.value = m;
     Account.user.addListener(_onAccount);
-    if (!(isIOS || isAndroid)) return;
+    if (!(isIOS || isAndroid)) {
+      loadState.value = 'failed';
+      return;
+    }
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(onPurchaseUpdates, onError: (_) => status.value = 'error');
+    await loadProducts();
+    // 시작 때 복원 조회(PAYWALL_SPEC §4) — 안드로이드는 조용히(창 없음). iOS 는 복원이 Apple ID 암호 창을 띄울 수 있어
+    // 미완료 거래가 스트림으로 저절로 오는 것에 맡기고, 「이전 구매 복원」 단추로만 묻는다.
+    if (isAndroid && ownStream) {
+      try {
+        await InAppPurchase.instance.restorePurchases();
+      } catch (_) {}
+    }
+  }
+
+  /// 상품(가격) 받기 — 15초 안에 못 받으면 'failed'.
+  static Future<void> loadProducts() async {
+    loadState.value = 'loading';
     try {
-      if (!await InAppPurchase.instance.isAvailable()) return;
-      final r = await InAppPurchase.instance.queryProductDetails({for (final x in list) x.id});
+      if (!await InAppPurchase.instance.isAvailable().timeout(const Duration(seconds: 10))) {
+        loadState.value = 'failed';
+        return;
+      }
+      final r = await InAppPurchase.instance.queryProductDetails({for (final x in plans) x.id}).timeout(const Duration(seconds: 15));
       products.value = {for (final d in r.productDetails) d.id: d};
-    } catch (_) {}
+      loadState.value = products.value.isEmpty ? 'failed' : 'ok';
+    } catch (_) {
+      loadState.value = 'failed';
+    }
   }
 
   /// 스토어 표시 가격(예 ₩3,900). 상품을 못 받았으면 null.
@@ -148,6 +184,9 @@ class Purchase {
     if (!keep) owned.value = {...owned.value, id: exp};
     final p = await Prefs.getInstance();
     await p.setString('iap_owned2', jsonEncode(owned.value));
+    await p.setString(kEntKey, jsonEncode({for (final e in owned.value.entries) if (e.key.startsWith('lang_${lang}_') || e.key.startsWith('all_')) e.key: e.value}));
+    final all = {for (final e in owned.value.entries) if (e.key.startsWith('all_')) e.key: e.value};
+    if (all.isNotEmpty) await (await SharedPreferences.getInstance()).setString(kAllKey, jsonEncode(all));
     // 서버로 보낼 영수증 — 로그인 전이면 쌓아 두었다가 로그인 때 보낸다
     final rec = {
       'platform': isIOS ? 'ios' : 'android',
