@@ -34,7 +34,7 @@ SIL_MIN = 0.15   # 말 아닌 구간 합이 150ms 미만이면 잡음 판정 불
 
 
 def floor(f):
-    """잡음 바닥(dB) = 말 아닌 프레임만의 RMS(§5, 2026-11-24 바로잡음). 잴 구간이 모자라면 None(판정 불가 = 통과).
+    """잡음 바닥(dB) = 가장 긴 말 아닌 구간 하나의 RMS(§5, 2026-11-24 바로잡음). 잴 구간이 모자라면 None(판정 불가 = 통과).
     예전 방식(전 프레임 하위 10%)은 앞뒤 무음이 거의 없는 짧은 조각에서 말소리를 잡음으로 쟀다."""
     o = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
     x = array.array('h', o[:len(o) // 2 * 2])
@@ -44,8 +44,8 @@ def floor(f):
     for m, d in zip(ms + [None], db + [0.0]):
         if m is not None and d < SIL_DB:
             run.append(m); continue
-        if len(run) >= SIL_RUN:
-            quiet += run[SIL_EDGE:len(run) - SIL_EDGE]
+        if len(run) >= SIL_RUN and len(run) - 2 * SIL_EDGE > len(quiet):   # 가장 긴 구간 하나(ar·pt 와 같은 방식, 11-24)
+            quiet = run[SIL_EDGE:len(run) - SIL_EDGE]
         run = []
     if len(quiet) * 0.02 < SIL_MIN:
         return None
