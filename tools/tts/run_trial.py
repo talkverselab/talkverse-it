@@ -7,6 +7,8 @@ import numpy as np
 import qa
 import ttslib as L
 PC = 'Administrator@100.127.143.37'; HERE = os.path.dirname(os.path.abspath(__file__))
+REDO = '--redo' in sys.argv      # 미달 조각만 더 만들기: 참고 음성·첫 생성·본 파일 받기를 건너뛴다(고른 판을 덮지 않게). TTS_TRIES=6 과 함께
+sys.argv = [a for a in sys.argv if a != '--redo']
 work, eps = sys.argv[1], sys.argv[2:]
 job = f'{work}/job'; wav = f'{work}/wav'; os.makedirs(job, exist_ok=True); os.makedirs(f'{wav}/retake', exist_ok=True)
 log = lambda *a: print(time.strftime('%H:%M:%S'), *a, flush=True)
@@ -65,25 +67,26 @@ def ref_bad():
 for n in ('vox_jobs.json', 'moss_jobs.json'):
     if os.path.exists(f'{job}/{n}'):
         os.remove(f'{job}/{n}')
-sh(sys.executable, f'{HERE}/make_plans.py', *eps)   # 회화 파일의 emotion·segs 가 원본
-sh(sys.executable, f'{HERE}/make_jobs.py', job, '--refs', *eps)
-refs = json.load(open(f'{job}/vox_jobs.json', encoding='utf-8'))
-log(len(refs), '참고 음성'); pc_run()
-for rnd in range(1, 3):        # 품질 기준 §5: 참고 음성 잡음·음색 — 미달은 PC 에서 지우고 seed 를 바꿔 다시
-    shutil.rmtree(f'{work}/ref', ignore_errors=True); fetch_ref()
-    bad = ref_bad()
-    log('참고 음성 미달', len(bad), bad[:8])
-    if not bad:
-        break
-    for n in bad:
-        sh('ssh', PC, f'Remove-Item D:\\tts_test\\job\\out\\ref_it\\{n} -ErrorAction SilentlyContinue', check=False)
-    json.dump([{**j, 'seed': 42 + 97 * rnd} for j in refs if os.path.basename(j['out']) in bad], open(f'{job}/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    pc_run()
-os.remove(f'{job}/vox_jobs.json')
-log(sh(sys.executable, f'{HERE}/make_jobs.py', job, *eps).stdout.strip())
-pc_run(); log('생성 끝')
-for e in eps:
-    fetch(e, wav)
+if not REDO:
+    sh(sys.executable, f'{HERE}/make_plans.py', *eps)   # 회화 파일의 emotion·segs 가 원본
+    sh(sys.executable, f'{HERE}/make_jobs.py', job, '--refs', *eps)
+    refs = json.load(open(f'{job}/vox_jobs.json', encoding='utf-8'))
+    log(len(refs), '참고 음성'); pc_run()
+    for rnd in range(1, 3):        # 품질 기준 §5: 참고 음성 잡음·음색 — 미달은 PC 에서 지우고 seed 를 바꿔 다시
+        shutil.rmtree(f'{work}/ref', ignore_errors=True); fetch_ref()
+        bad = ref_bad()
+        log('참고 음성 미달', len(bad), bad[:8])
+        if not bad:
+            break
+        for n in bad:
+            sh('ssh', PC, f'Remove-Item D:\\tts_test\\job\\out\\ref_it\\{n} -ErrorAction SilentlyContinue', check=False)
+        json.dump([{**j, 'seed': 42 + 97 * rnd} for j in refs if os.path.basename(j['out']) in bad], open(f'{job}/vox_jobs.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+        pc_run()
+    os.remove(f'{job}/vox_jobs.json')
+    log(sh(sys.executable, f'{HERE}/make_jobs.py', job, *eps).stdout.strip())
+    pc_run(); log('생성 끝')
+    for e in eps:
+        fetch(e, wav)
 for rnd in range(3):
     jobs = []
     for e in eps:
@@ -104,6 +107,12 @@ for rnd in range(3):
     for e in eps:
         fetch(f'retake/{e}', f'{wav}/retake')
 log('PC 끝')
+for e in eps:        # 마지막 재생성본도 채점해 나은 판을 고른 뒤 묶는다(11-24 — 전에는 3회째가 검사 없이 남았다)
+    try:
+        r = subprocess.run([sys.executable, f'{HERE}/qa.py', wav, e], capture_output=True, text=True, timeout=600)
+        log('마지막 채점', e, r.stdout.strip() or r.stderr.strip()[-300:])
+    except subprocess.TimeoutExpired:
+        log('TIMEOUT', e)
 for e in eps:
     r = sh(sys.executable, f'{HERE}/pack.py', wav, e, '--upload', '--no-db', check=False)
     log(r.stdout.strip() or (r.stderr or '')[-300:])

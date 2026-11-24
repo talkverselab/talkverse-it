@@ -11,6 +11,7 @@ NUM = {'1': 'uno', '2': 'due', '3': 'tre', '8': 'otto', '15': 'quindici', '20': 
 RATE_MIN = 12 / 1.15   # 이탈리아어 일상 대화는 12~18 글자/초로 잡는다, pack 이 최대 1.15배 보정
 PASS = float(os.environ.get('TTS_PASS', '0.90'))   # 2026-11-07 품질 점검: 0.72 는 앞말 누락이 통과했다. 11-23 uk: 새로 만든 조각만 0.85 하한(TTS_PASS=0.85)
 FLOOR = -55.0   # 잡음 바닥(dB) — 이보다 크면 다시 만든다
+TRIES = int(os.environ.get('TTS_TRIES', '3'))   # 재생성 한도. 나중 묶음에서 더 만들 때 6 처럼 올린다(tries 를 0 으로 돌리지 말 것 — PC 는 이미 있는 t1~t3 을 건너뛰어 옛 파일이 다시 온다)
 
 
 def spell(s):
@@ -131,7 +132,7 @@ def main():
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:
                 bad += 1
-                if q['tries'] < 3:
+                if jobs_out and q['tries'] < TRIES:      # 채점만 할 때(--jobs 없음)는 횟수를 쓰지 않는다
                     q['tries'] += 1
                     jobs.append({**L.job(ep, name, voice, emo, text, out=f"{L.OUT}/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
     json.dump(Q, open(qf, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
