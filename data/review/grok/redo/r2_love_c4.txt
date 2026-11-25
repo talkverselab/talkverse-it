@@ -3,7 +3,7 @@ level: R2
 kind: chat
 title: 매일 거기 있던 사람
 emoji: 💘
-scene: 밤 열한 시 반, 데이팅 앱에서 매칭되자마자 줄리아가 먼저 말을 건다
+scene: 밤 열한 시 반, 언어교류앱에서 매칭되자마자 줄리아가 먼저 말을 건다
 cast: A: {name}(학습자, 한국인 20대, 남녀 모두) / B: Giulia(여, 20대 중반 로마 토박이 — 다정하지만 장난스럽게 놀림)
 register: 채팅 반말
 twist: 5 reveal

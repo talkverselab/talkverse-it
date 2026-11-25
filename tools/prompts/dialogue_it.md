@@ -39,7 +39,7 @@
 0. **굴절에 익숙해지게(사용자 지시 2026-11-08)**: 같은 단어가 한 편 안에서 여러 인칭·성·수로 되풀이되게 쓴다 — 묻고 답하며 인칭이 바뀌는 흐름(Sei stanco? → Stanchissimo. Tu? / Ti piace? → Mi piace un sacco. A te?), 남녀 인물이 같은 형용사를 성만 바꿔 받기(pronto/pronta), 레벨 3 은 단수 ↔ 복수 맞바꾸기. 편마다 **같은 기본형이 두 가지 이상 형태로 나오는 단어 3개 이상**(검사기 경고). 어휘는 절벽 구간(많이 쓰이는 단어)을 먼저 고르되 절대 기준은 아니다 — 재미와 자연스러움이 먼저.
 
 1. **최우선 = 이탈리아 사람이 정말 자주 쓰는 짧은 구어 표현**: 편마다 2개 이상(Dai · Boh · Ma dai · Magari · Figurati · Infatti · Tipo · Cioè · Vabbè · Ci sta · Che palle(수위 주의, flags profanity_mild) · Mamma mia · Non ci credo · Ma va · Esatto · Certo · Allora · Senti · Guarda · Ecco · Meno male · Che figata · Davvero? · Bella! · Ci vediamo · Tranquillo/a · Scherzi? · Ce la fai · Lascia stare · Fammi vedere). 편 메타 `expressions[]` 에 쓴 것을 적는다(검사기는 2개 이상 문장에 나오는지 본다).
-2. 장면: SNS·DM·데이팅앱·단톡방 채팅을 많이. 채팅 편 턴은 `"ui":"bubble"`, `"at":"21:03"`, 읽씹 `"read": false`, 이모지 1~2개.
+2. 장면: SNS·DM·언어교류앱·단톡방 채팅을 많이. 채팅 편 턴은 `"ui":"bubble"`, `"at":"21:03"`, 읽씹 `"read": false`, 이모지 1~2개.
 3. 톤: 편마다 외우고 싶은 한 줄, 코믹한 킥 1회, 연애는 설렘·여백(말끝 흐리기·「…」·침묵). **여성이 먼저 다가가는 편을 더 많이**. 금지: 교과서체·번역투·설명하는 대사·다짐/감사 마무리·정리된 AI 말투.
 4. 반전 1회/편: `twist`(턴 번호) + `twist_type` = chaos·slip·reveal·emotion·ignore. **레벨마다 chaos 30% 이상**. 심쿵 한 줄은 연애 편마다, 다른 주제에도 자주(킥과 다른 턴).
 5. 인물: A = 학습자, 이름·국적 고정 금지(`{name}`·`{city}`·`{lang}` 만; `{country}` 는 관사 문제로 전치사 뒤에 쓰지 말 것). B·C = `CHARACTERS.md` 고정 인물 Giulia(다정하지만 놀림, 로마 토박이)·Chiara(수다·손짓·젤라토)·Marco(말수 적은데 한마디가 웃김, 카페 바리스타)·Luca(룸메이트, 축구·스쿠터, 직진). R0 은 친구·연인·룸메이트만, R1 부터는 가게·낯선 사람 장면도 된다(Lei). 레벨 4·5 조연은 이름 있는 새 인물을 쓰면 편 메타 `speakers` 에 쓰고 보고할 것.
